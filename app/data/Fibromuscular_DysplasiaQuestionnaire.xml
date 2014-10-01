@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding the patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which the patient is requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt=" When was the patient's first sign / symptom of Fibromuscular Dysplasia noted?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="When was the patient given the diagnosis of Fibromuscular Dysplasia?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="What symptoms was the patient experiencing when first diagnosed with Fibromuscular Dysplasia?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What symptoms is the patient currently experiencing that are attributed to Fibromuscular Dysplasia?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a family history of any of the following? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please indicate below:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Condition" width="50"/>
+								<column_definition label="Relationship" width="35"/>
+							</column_definitions>
+							<table_data>
+								<cell>Fibromuscular Dysplasia</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Aneurysm</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>High Cholesterol</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dissection</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Neurofibromatosis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Stroke / Cerebrovascular Accident</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hypertension</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Connective Tissue Disorder</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Suddent Death</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (Please list below)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever been diagnosed with hypertension (high blood pressure)? (Choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was it diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient take home blood pressure readings? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+		
+					<question mandatory="true" prompt="Is the patient's blood pressure under control with current treatment? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Please indicate the patient's most recent blood pressure reading:">
+						<table_response initial_rows_to_display="1" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Systolic (top number)" width="20"/>
+								<column_definition label="Diastolic (bottom number)" width="20"/>
+								<column_definition label="Date reading taken&lt;BR&gt;(Month/Year)" width="20"/>
+								<column_definition label="Who was reading taken by?&lt;BR&gt; (family member, nurse, etc.) " width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have the patient ever had a problem with Headaches? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, are these migraine-type headaches?(Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="If yes, how often does the patient have headaches?  (Please describe)">
+										<free_form_response height="3"/>
+									</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If yes, please describe in detail with symptoms, date of occurrence and treatment  (Please describe)">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Condition" width="30"/>
+					<column_definition label="Symptoms" width="25"/>
+					<column_definition label="Date of occurance&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Description" width="30"/>
+					<column_definition label="Treatment" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Stroke / CVA (cerebrovascular accident)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mini-Stroke / TIA (Transient Ischemic Attack)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Temporary loss of vision in one or both eyes (Amaurosis Fugax)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Horner's Syndrome (drooping of one of the eyelids and an abnormal pupil)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+
+		<question mandatory="true" prompt="If yes, please describe in detail with detail description, date of occurrence and treatment  (Please describe)">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Condition" width="35"/>
+					<column_definition label="Date of Occurance&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Description&lt;BR&gt;(What vessel involved?)" width="30"/>
+					<column_definition label="Treatment&lt;BR&gt;(if any) was given" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Dissection or Tear of a Blood vessel</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Aneurysm of a blood vessel</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Venous Thrombosis</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever experienced a subarachnoid hemorrhage (bleeding in the brain)? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Episode Description" width="50"/>
+								<column_definition label="Type of Treatment&lt;BR&gt;(if any) was given" width="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever experienced pain in his / her arms or legs with exertion (claudication)? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					
+					<question mandatory="true" prompt="If yes, please complete the table below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Description of symptoms" width="50"/>
+								<column_definition label="Frequency of occurrence" width="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, do the symptoms limit the patient from his / her ability to exercise? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+		
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient ever experience pain in his / her abdomen after eating? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Description of symptoms" width="50"/>
+								<column_definition label="Frequency of occurrence" width="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, does the pain cause the patient to lose weight unintentionally? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete the table below:">
+									<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Weight lost by patient" width="50"/>
+											<column_definition label="Frequency of occurrence" width="50"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								
+							</selection>
+						</item_response>
+					</question>
+		
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever experienced a myocardial infarction (heart attack) or been treated for Coronary Artery Disease? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure">
+					<question mandatory="true" prompt="If not sure, please describe the circumstances in your own words:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, provide date(s) beginning with most recent and treatment given:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date&lt;BR&gt;(Month/Year)" width="20"/>
+								<column_definition label="Treatment Given" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever been on oral contraceptives for more than a 1 month cycle? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="N/A, patient is male"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how long has the patient been on oral contraceptives?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient entered menopause? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="N/A, patient is male"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, at what age did menopause start?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, has the patient been on hormone replacement therapy (pills) following menopause (e.g. Premarin)? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="If yes, please complete the table below:">
+										<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+											<column_definitions>
+												<column_definition label="Hormone pills" width="20"/>
+												<column_definition label="Dosage" width="30"/>
+											</column_definitions>
+										</table_response>
+									</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever smoked at least 100 cigarettes in his / her life? (Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, at what age did the patient start smoking cigarettes?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, does the patient currently smoke? (Choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, at what age did the patient quit?">
+										<free_form_response height="3"/>
+									</question>
+							</selection>
+							<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="If yes, what is the average number of cigarettes the patient smokes per day?">
+										<free_form_response height="3"/>
+									</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient hear sounds in one or both of his / her ears?(Choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the following table regarding tests or studies performed related to his / her diagnosis of Fibromuscular Dysplasia">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Tests or Studies" width="50"/>
+					<column_definition label="Date Performed&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Description or Procedure" width="50"/>
+				</column_definitions>
+				<table_data>
+					<cell>Carotid (Neck) Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan of Brain Vessels</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI of Brain Vessels</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carotid (Neck) Angiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Renal Artery Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan of Renal Arteries</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan of Renal Arteries</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Renal Artery Angiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Leg Blood Pressure Tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound of Legs</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Venous ultrasound studies</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>If other, please list:</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the following table regarding therapeutic procedures performed related to his / her diagnosis of Fibromuscular Dysplasia">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Tests or Studies" width="50"/>
+					<column_definition label="Date Performed&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Description or Procedure" width="50"/>
+				</column_definitions>
+				<table_data>
+					<cell>Carotid Angioplasty</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Renal Angioplasty</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vascular Surgery</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Coiling or Stenting of an Aneurysm</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>If other, please list:</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of patient's current condition? ( surgery, medical management, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response initial_rows_to_display="2" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician" width="20"/>
+					<column_definition label="Specialty (Cardiologist, Vascular Specialist, Primary Care Physician, etc.)" width="45"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+	</question_group>
+</questionnaire>

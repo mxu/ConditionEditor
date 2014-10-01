@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notations of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="All Pathology reports and glass slides for any and all biopsies done." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for any prior surgeries / biopsies." mandatory="true"/>
+	<material id="Physician treatment reports" description="Physician reports of any and all other treatments received for this diagnosis (chemotherapy, radiation therapy, etc.). If prior radiation therapy was used, a copy of the completion note will be necessary.  Also, significant toxicities and response to your therapy should be described." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of radiologic and diagnostic studies in the last 3 years will be required.  The actual original films (not copies) of the studies and reports will be needed , if indicated:&lt;/b&gt;"/>
+	<material id="Chest x-rays" description="Report and films." mandatory="true"/>
+	<material id="MRI of the tumor area" description="Report and films." mandatory="true"/>
+	<material id="Chest CT scan" description="Report and films." mandatory="true"/>
+	<material id="T 99 bone scan" description="Report and films." mandatory="true"/>
+	<material id="X-rays of the tumor area" description="Report and films." mandatory="true"/>
+	<material id="Other x-rays" description="Reports and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within last 6 months." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation."/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

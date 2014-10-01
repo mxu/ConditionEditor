@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "PlasticSurgeryBreastEnlargementMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "PlasticSurgeryBreastEnlargementQuestionnaire.xml">
+]>
+<division description="Plastic Surgery" name="Plastic Surgery">
+	<department description="Plastic Surgery" name="Plastic Surgery">
+		<section description="" name="">
+			<condition cost="135.00" description="Plastic Surgery Breast Enlargement" id="Plastic Surgery Breast Enlargement" product_id="plastic_surgery" active="true">
+				<keyword text="Plastic"/>
+				<keyword text="Surgery"/>
+				<keyword text="Breast"/>
+				<keyword text="Breast Enlargement"/>
+				<keyword text="Enlargement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

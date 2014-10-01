@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Cardiology_TransesophagealEchocardiogramMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Cardiology_TransesophagealEchocardiogramQuestionnaire.xml">
+]>
+<!-- Topol_Rimmerman_Bajzer_Griffen_Heupler_Wilkoff_Tchou_Martin_Simfendorfer_Deedy_Tayler_Francis_Young_Starling_Asher-->
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="200.00" description="Transesophageal Echocardiogram (TEE)" id="Transesophageal Echocardiogram (TEE)" product_id="cardiac_imaging_study" active="false">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

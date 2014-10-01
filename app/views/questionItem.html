@@ -1,0 +1,103 @@
+<div class="item item-question">
+  <button class="btn btn-info btn-config" ng-click="$parent.showConfig = !$parent.showConfig">
+    <span class="glyphicon glyphicon-cog"></span>
+  </button>
+
+  <div class="itemControls" ng-class="{'itemControls-active': $parent.showConfig}">
+    <select class="form-control" ng-model="content.type" ng-change="$parent.resetItem()">
+      <option value="freeform">Freeform</option>
+      <option value="table">Table</option>
+      <option value="item">Item</option>
+      <option value="ENTITY">Entity</option>
+    </select>
+
+    <div ng-switch="content.type">
+
+      <div ng-switch-when="freeform">
+        <input type="text" class="form-control" placeholder="height" ng-model="content.height">
+      </div>
+
+      <div ng-switch-when="table">
+        <div class="row">
+          <div class="col-xs-8">Initial Rows</div>
+          <div class="col-xs-4">
+            <input type="text" class="form-control" placeholder="initial rows" ng-model="content.initialRowsToDisplay">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">Row Increment</div>
+          <div class="col-xs-4">
+            <input type="text" class="form-control" placeholder="row increment" ng-model="content.addRowIncrement">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">Row Height</div>
+          <div class="col-xs-4">
+            <input type="text" class="form-control" placeholder="row height" ng-model="content.rowHeight">    
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">Columns</div>
+          <div class="col-xs-4">
+            <input type="text" class="form-control" placeholder="columns" ng-model="numCols" ng-change="content.setCols(numCols)">
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="item">
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row itemContent">
+    <div class="col-xs-8">
+      <input type="text" class="form-control" placeholder="Question prompt" ng-model="content.prompt">
+    </div>
+    <div class="col-xs-4">
+      <input type="checkbox" ng-model="content.mandatory"> Mandatory
+    </div>
+  </div>
+
+  <div class="itemContent" ng-switch="content.type">
+
+    <div ng-switch-when="freeform">
+      <textarea class="form-control" rows="{{content.height}}"></textarea>
+    </div>
+
+    <div ng-switch-when="table">
+      <table class="table table-condensed table-bordered">
+        <thead><tr><th ng-repeat="col in content.columnDefinitions">
+          <input type="text" class="form-control" placeholder="column name" ng-model="col.label">
+        </th></tr></thead>
+        <tbody>
+          <tr ng-repeat="i in [] | range:1:content.initialRowsToDisplay">
+            <td ng-repeat="col in content.columnDefinitions">
+              <textarea class="form-control" rows="{{content.rowHeight}}" cols="{{col.width}}"></textarea>
+            </td>
+          </tr>
+          <tr ng-repeat="i in [] | range:1:content.addRowIncrement">
+            <td ng-repeat="col in content.columnDefinitions">
+              <textarea class="form-control" rows="{{content.rowHeight}}" cols="{{col.width}}" disabled></textarea>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div ng-switch-when="item">
+      <div class="row" ng-repeat="sel in content.selection">
+        <div class="col-xs-12">
+          <input type="{{content.singleResponse ? 'radio' : 'checkbox'}}" name="" disabled> <input type="text" placeholder="option text" ng-model="sel.text">
+          <content-list content="sel.question" type="Question" ng-if="sel.question.length > 0"></content-list>
+        </div>
+      </div>
+    </div>
+
+    <div ng-switch-when="ENTITY">
+      <p>{{content.text}}</p>
+    </div>
+
+  </div>
+</div>

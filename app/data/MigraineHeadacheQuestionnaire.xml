@@ -1,0 +1,4384 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Madhurini Akula (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's age?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's sex or gender?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Male"/>
+				<selection selected="false" text="Female"/>
+				<selection selected="false" text="N/A"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Who is requesting this consult?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Patient"/>
+				<selection selected="false" text="Spouse"/>
+				<selection selected="false" text="Parent"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list who and the relationship to the patient">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient consulting with an attorney about his / her headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below:">
+						<table_response row_height="4" initial_rows_to_display="1">
+							<column_definitions>
+								<column_definition label="Name of Attorney" width="30"/>
+								<column_definition label="Type of Attorney" width="25"/>
+								<column_definition label="Date of Consultation" width="20"/>
+								<column_definition label="Reason for Consultation" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient on disability or applying for disability due to his / her headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient:">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right-handed"/>
+				<selection selected="false" text="Left-handed"/>
+				<selection selected="false" text="Ambidextrous (uses both hands)"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Age of Onset of Headaches?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How old were you when you had your first headache?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Cannot remember"/>
+				<selection selected="false" text="As a young child"/>
+				<selection selected="false" text="Teens"/>
+				<selection selected="false" text="20s"/>
+				<selection selected="false" text="30s"/>
+				<selection selected="false" text="40s"/>
+				<selection selected="false" text="50s"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of any of the following?  (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Motion sickness"/>
+				<selection selected="false" text="Car sickness"/>
+				<selection selected="false" text="Air sickness"/>
+				<selection selected="false" text="Boat sickness"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Can the patient read in the back seat of a car while in motion?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the most common time of the day for the headaches to begin?  (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Upon awakening"/>
+				<selection selected="false" text="Early morning"/>
+				<selection selected="false" text="Late morning"/>
+				<selection selected="false" text="Early afternoon"/>
+				<selection selected="false" text="Late afternoon"/>
+				<selection selected="false" text="Early evening"/>
+				<selection selected="false" text="Late evening"/>
+				<selection selected="false" text="During the middle of the night"/>
+				<selection selected="false" text="1-2 hours after falling asleep"/>
+				<selection selected="false" text="Anytime"/>
+				<selection selected="false" text="Other/Comments">
+					<question mandatory="true" prompt="If Other/Comments, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How long from when the patient first experiences the very first pain until the headache is at its worst?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Onset varies"/>
+				<selection selected="false" text="Gradual onset"/>
+				<selection selected="false" text="Abrupt onset"/>
+				<selection selected="false" text="Other/Comments">
+					<question mandatory="true" prompt="If Other/Comments, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe the location of the initial headache pain">
+			<free_form_response height="4"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe the quality of the patient's headache pain:  (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Sharp"/>
+				<selection selected="false" text="Dull"/>
+				<selection selected="false" text="Throbbing"/>
+				<selection selected="false" text="Aching"/>
+				<selection selected="false" text="Burning"/>
+				<selection selected="false" text="Piercing / Stabbing"/>
+				<selection selected="false" text="Pressure"/>
+				<selection selected="false" text="Band-like"/>
+				<selection selected="false" text="Squeezing"/>
+				<selection selected="false" text="Exploding"/>
+				<selection selected="false" text="Other/Comments">
+					<question mandatory="true" prompt="If Other/Comments, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What triggers/brings on the patient's headache?  (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Alcohol"/>
+				<selection selected="false" text="Bright lights"/>
+				<selection selected="false" text="Loud noise"/>
+				<selection selected="false" text="Odors"/>
+				<selection selected="false" text="Stress"/>
+				<selection selected="false" text="Stress release / let down from stress / vacation / weekends"/>
+				<selection selected="false" text="Menses"/>
+				<selection selected="false" text="Weather changes"/>
+				<selection selected="false" text="Foods">
+					<question mandatory="true" prompt="If foods, which ones?">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Exertion / Exercise"/>
+				<selection selected="false" text="Too little sleep"/>
+				<selection selected="false" text="Too much sleep"/>
+				<selection selected="false" text="Sexual intercourse"/>
+				<selection selected="false" text="Caffeine withdrawal"/>
+				<selection selected="false" text="Caffeine"/>
+				<selection selected="false" text="Fasting / Hunger"/>
+				<selection selected="false" text="Travel"/>
+				<selection selected="false" text="Video display / TV"/>
+				<selection selected="false" text="No triggers"/>
+				<selection selected="false" text="Other triggers/Comments">
+					<question mandatory="true" prompt="If Other triggers/Comments, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe the symptoms that you may experience with your headache. (fill in all that apply)">
+			<table_response add_row_increment="0" initial_rows_to_display="1" row_height="4">
+				<column_definitions>
+					<column_definition label="Symptom" width="30"/>
+					<column_definition label="Description/Comment (Please explain in detail)" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Dislike of light</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Dislike of noise</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Dislike of smells</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diarrhea</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Nausea / queasy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>No appetite</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vomiting</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vertigo (feeling of motion when one is stationary)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lightheadedness</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Dizziness</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Unsteadiness</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please describe the symptoms that you may experience. (fill in all that apply)">
+			<table_response add_row_increment="0" initial_rows_to_display="1" row_height="4">
+				<column_definitions>
+					<column_definition label="Symptom" width="30"/>
+					<column_definition label="Description/Comment (Please explain in detail)" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Weakness (Where on the body and when it occurs during the headache)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Numbness (Where on the body and when it occurs during the headache)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blurred Vision (When during the headache?)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Nasal Congestion / Stuffy Nose</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tearing Eye (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Runny Nose (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Foreign body, sand, grit, or eyelash sensation in eye (one side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eye lid swelling (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Droopy Eye (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Small Pupil (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Large Pupil (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Red Eye (One side or both, please be specific as to which side)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Language Disturbance  (Please describe in detail)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Confusion (Please describe in detail)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Agitation  (Please describe in detail)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Neck Pain (Please describe when during the headache it occurs)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="At the peak of the patient's headache, is it worse with movement, such as bending over, climbing stairs, jumping up and down?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient's headache better when lying down or in any specific position?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="On a scale of 1 to 10 with 10 being the most painful, please rate the severity of the patient's headaches (1 = minimal pain, 10 = worst pain)">
+			<item_response drop_down_style="true" single_response="true">
+				<selection selected="false" text="10 - Worst pain"/>
+				<selection selected="false" text="09"/>
+				<selection selected="false" text="08"/>
+				<selection selected="false" text="07"/>
+				<selection selected="false" text="06"/>
+				<selection selected="false" text="05 - Moderate pain"/>
+				<selection selected="false" text="04"/>
+				<selection selected="false" text="03"/>
+				<selection selected="false" text="02"/>
+				<selection selected="false" text="01 - Minimal pain"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How often does the patient experience headache attacks? (fill in all that apply)">
+			<table_response add_row_increment="0" initial_rows_to_display="1" row_height="4">
+				<column_definitions>
+					<column_definition label="When" width="30"/>
+					<column_definition label="Description/Comment (Please explain in detail)" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Never</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Rarely</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Monthly</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Weekly</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Daily</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Multiple times per day</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>During menstrual cycle only</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>During ovulation and menses only</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Varies</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the length of time of the patient's headache attacks? (fill in all that apply)">
+			<table_response add_row_increment="0" initial_rows_to_display="1" row_height="4">
+				<column_definitions>
+					<column_definition label="When" width="30"/>
+					<column_definition label="Description/Comment (Please explain in detail)" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Seconds</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Minutes</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hours</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Days</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>All the time (Constant)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Intermittent</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>After relief from medication</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>After sleep the headaches come back</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+				
+		<question mandatory="true" prompt="Is the length of the patient's attack effected by the fact that the patient took medication?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If the patient treats his / her headache with medication as needed">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below:">
+						<table_response add_row_increment="2" row_height="4">
+							<column_definitions>
+								<column_definition label="Name of Drug (including OTC drugs)" width="30"/>
+								<column_definition label="Dose" width="25"/>
+								<column_definition label="Number of pills taken per day" width="20"/>
+								<column_definition label="Number of pills taken per week on average" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please complete below table regarding the number of headaches">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Number of headache days per month" width="40"/>
+					<column_definition label="Description/Explanation" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>None</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Rarely</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Monthly</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Weekly</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Daily</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Multiple days</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>During menstrual cycle only</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ovulation and menses only</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Varies</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the patient experience an aura (experiences before attack occurs)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which of the following does the patient experience? (Check all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Dots"/>
+							<selection selected="false" text="Blind Spots"/>
+							<selection selected="false" text="Zig Zags"/>
+							<selection selected="false" text="Sunspots"/>
+							<selection selected="false" text="Snowy vision"/>
+							<selection selected="false" text="Kaleidoscope"/>
+							<selection selected="false" text="Flashing"/>
+							<selection selected="false" text="Colors"/>
+							<selection selected="false" text="Odd odor"/>
+							<selection selected="false" text="Odd taste"/>
+							<selection selected="false" text="Numbness or tingles">
+								<question mandatory="true" prompt="If so, please explain where?">
+									<free_form_response height="4"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Language or speech change"/>
+							<selection selected="false" text="Weakness">
+								<question mandatory="true" prompt="If so, please explain where?">
+									<free_form_response height="4"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Comments">
+								<question mandatory="true" prompt="If Comments, Please explain">
+									<free_form_response height="4"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How long does the aura last?">
+						<free_form_response height="2"/>
+					</question>
+					
+					<question mandatory="true" prompt="When does the headache start in relation to the aura?">
+						<free_form_response height="2"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please describe the type of headache the patient gets after the aura:">
+						<free_form_response height="4"/>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient ever experience and aura without a headache?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Unsure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If you take into account all of the patient's headaches, from the most mild to the severe, does the patient get headaches more often than not?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience headaches 15 or more days per month?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please explain">
+						<free_form_response height="4"/>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient experience headaches every day?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Unsure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If Yes, Please explain">
+									<free_form_response height="4"/>
+								</question>
+								
+								<question mandatory="true" prompt="Do the headaches last less than or greater than 4 hours?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Less than 4 hours"/>
+										<selection selected="false" text="Greater than 4 hours"/>
+										<selection selected="false" text="Comments">
+											<question mandatory="true" prompt="If Comments, Please explain">
+												<free_form_response height="4"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Does the patient experience headaches at the same time each day?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Unsure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If Yes, Please explain">
+												<free_form_response height="4"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="If the patient gets headaches more often, how long has this been occurring?">
+									<free_form_response height="4"/>
+								</question>
+								
+								<question mandatory="true" prompt="When the patient developed headaches more often than not, at least 15 days per month, was it a sudden or gradual development">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Gradual onset "/>
+										<selection selected="false" text="Sudden onset">
+											<question mandatory="true" prompt="Does the patient remember the day or week that he / she developed daily headaches?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Unsure"/>
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If Yes, Please describe">
+															<free_form_response height="4"/>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											
+											<question mandatory="true" prompt="Does the patient remember having a cold or infection before developing the daily headaches?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Unsure"/>
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If Yes, Please describe">
+															<free_form_response height="4"/>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											
+											<question mandatory="true" prompt="Did the patient have any injury or trauma before developing the daily headaches?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Unsure"/>
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If yes, please complete the following table with the date and description of the injury">
+															<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+																<column_definitions>
+																	<column_definition label="Description of the injury" width="25"/>
+																	<column_definition label="Date (MM/DD/YYYY)" width="20"/>
+																</column_definitions>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient agitated or pace with his / her headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient want to lie down in a quiet room then he / she develops a headache?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please explain">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If the patient looks at a given week of headaches, on average, how many days would the patient consider mild, moderate, or severe? (choose all that apply):">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="# of mild days per week">
+				
+					<question mandatory="true" prompt="">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="What medications (prescription and over the counter) does the patient use to treat his / her mild headaches?">
+						<table_response add_row_increment="2" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Medication &lt;BR&gt; (including over the counter drugs)" width="25"/>
+								<column_definition label="Dosage of Medication" width="20"/>
+								<column_definition label="Number of pills taken on an &lt;BR&gt;average mild headache day" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+				</selection>
+				<selection selected="false" text="# of moderate days per week">
+					<question mandatory="true" prompt="">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="What medications (prescription and over the counter) does the patient use to treat his / her moderate headaches?">
+						<table_response add_row_increment="2" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Medication &lt;BR&gt;(including over the counter drugs)" width="25"/>
+								<column_definition label="Dosage of Medication" width="20"/>
+								<column_definition label="Number of pills taken on an &lt;BR&gt;average moderate headache day" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="# of severe days per week">
+					<question mandatory="true" prompt="">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="What medications (prescription and over the counter) does the patient use to treat his / her severe headaches?">
+						<table_response add_row_increment="2" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Medication &lt;BR&gt;(including over the counter drugs)" width="25"/>
+								<column_definition label="Dosage of Medication" width="20"/>
+								<column_definition label="Number of pills taken on an &lt;BR&gt;average severe headache day" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience neck pain with his / her frequent headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please describe">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do the headaches usually occur in the morning?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please describe">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience a runny nose, stuffy nose, or tearing eyes with his / her frequent headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please describe">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience icepick pains, jabs and jolts, or stabs to the head?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please describe">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="&lt;BR&gt; Please list all treatments that have been tried and the effect of the treatment on the patient&lt;BR&gt;&lt;BR&gt;">
+			<item_response drop_down_style="false" single_response="false">
+				<!-- Antiepilepsy Drugs (Anticonvulsants / Anti-seizure drugs) -->
+				<selection selected="false" text="&lt;B&gt;Antiepilepsy Drugs (Anticonvulsants / Anti-seizure drugs)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment &lt;BR&gt; (mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Carbamazepine (Tegretol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Gabapentin (Neurontin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lamotrigine (Lamictal)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Levatiracetam (Keppra)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxcarbamazepine (Trileptal, Carbitrol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Phenbarbitol</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Phenytoin (Dilantin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pregabalin (Lyrica)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Primidon (Mysoline)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tiagabine (Gabitril)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Topiramate (Topamax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Valproate (Depakote)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zonisamide (Zonegran)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (Please list)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+		
+				<!-- Antidepressant Drugs -->
+				<selection selected="false" text="&lt;B&gt;Monoamine Oxydase Inhibitors (MAOIs):&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Isocarboxazid (Marplan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Phenelzine (Nardil)Tranylcypromine (Parnate)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							
+						</table_response>
+					</question>
+				</selection>
+		
+				<!-- Other Antidepressant Drugs -->
+				<selection selected="false" text="&lt;B&gt;Other Antidepressant Drugs&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Amoxapine (Asendin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Buproprion (Wellbutrin, Zyban)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Mirtazepine (Remeron)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nefazodone (Serzone)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Trazodone (Desyrel)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Serotonin-Norepinephrine Reuptake Inhibitors (SNRI)s: -->
+				<selection selected="false" text="&lt;B&gt;Serotonin-Norepinephrine Reuptake Inhibitors (SNRI)s:&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Desvenlafaxine (Pristiq)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Duloxetine (Cymbalta)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Minalcipran (Savella)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Venlafaxine (Effexor)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Selective Serotonin Reuptake Inhibitors (SSRIs)-->
+				<selection selected="false" text="&lt;B&gt;Selective Serotonin Reuptake Inhibitors (SSRIs)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Citalopram (Celexa)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fluoxetine (Prozac)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fluvoxamine (Luvox)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Paroxetine (Paxil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>S-citalopram (Lexapro)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sertraline ( Zoloft)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Tricyclics -->
+				<selection selected="false" text="&lt;B&gt;Tricyclics&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Amitriptyline (Elavil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Clomipramine (Anafranil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Desipramine (Norpamin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Doxepin (Sinequan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Imipramine (Tofranil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Maprotiline (Ludiomil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nortiptyline (Pamelor)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Protriptyline (Vavactil)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Antihistamines -->
+				<selection selected="false" text="&lt;B&gt;Antihistamines&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Cyproheptadine (Periactin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diphenhydramine (Benadryl)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hydroxyzine (Vistaril, Atarax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Meclizine (Antivert)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Orphenadrine (Norflex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Anithypertensives / Blood Pressure Medications (ACE Inhibitors) -->
+				<selection selected="false" text="&lt;B&gt;Anithypertensives / Blood Pressure Medications (ACE Inhibitors)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Captopril (Capoten)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Benazepril (Lotensin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Enalapril (Vasotec)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lisinopril (Prinivil, Zestril)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Angiotensin Receptor Blockers (ARBs) -->
+				<selection selected="false" text="&lt;B&gt; Angiotensin Receptor Blockers (ARBs)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Candesartan (Atacand)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Eposartan (Teveten)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Irbesartan (Avapro)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Losartan (Cozaar)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Telmisartan (Micardis)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Valsartan (Diovan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Beta Blockers -->
+				<selection selected="false" text="&lt;B&gt;Beta Blockers&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Atenolol (Tenormin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Bisoprolol (Zebeta)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Metoprolol (Lopressor, Toprol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nadolol (Corgard)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Propranolol (Inderal)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Timolol (Blocadren)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Calcium Channel blockers -->
+				<selection selected="false" text="&lt;B&gt;Calcium Channel blockers&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Amlodipine (Norvasc)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diltiazem (Cardizem)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Flunarazine (Sibelium)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nicardipine (Cardene)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nifedipine (Procardia)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nimodipine (Nimotop)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nisoldipine (Sular)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Verapamil (Calan, Verelan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Other Antihypertensives -->
+				<selection selected="false" text="&lt;B&gt;Other Antihypertensives&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Clonidine (Catapres)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Antinauseants -->
+				<selection selected="false" text="&lt;B&gt;Antinauseants (Neuroleptics / Major Tranquilizers)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Chlorpromazine (Thorazine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Droperidol (Anapsine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Metoclopramide (Reglan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Perphenazine (Stelazine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Prochlorperazine (Compazine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Promethazine (Phenergan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Trimethbenzamide (Tigan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Serotonin 3 Antagonist Antinauseants -->
+				<selection selected="false" text="&lt;B&gt;Serotonin 3 Antagonist Antinauseants&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Alosetron (Lotronex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dolasetron (Anzamet)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Granisetron (Kytril)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ondansetron (Zofran)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Substance P Antagonist Antinauseants -->
+				<selection selected="false" text="&lt;B&gt;Substance P Antagonist Antinauseants&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Aprepitant (Emend)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Substance P Antagonist Antinauseants -->
+				<selection selected="false" text="&lt;B&gt;Substance P Antagonist Antinauseants&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Aprepitant (Emend)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			<!-- Other Antinauseants -->
+				<selection selected="false" text="&lt;B&gt;Other Antinauseants&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Diphenhydramine (Benadryl)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hydroxyzine (Vistaril, Atarax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Atypical Neuroleptics -->
+				<selection selected="false" text="&lt;B&gt;Atypical Neuroleptics&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Aripiprazole (Abilify)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Olanzepine (Zyprexa)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Quetiapine (Seroquel)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Risperdone (Resperdal)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ziprasidone (Geodon)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Benzodiazepines / Minor Tranquilizers -->
+				<selection selected="false" text="&lt;B&gt;Benzodiazepines / Minor Tranquilizers&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Alprazolam (Xanax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chlorazepate (Tranxene)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chlordiazepoxide (Librium)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Clonazepam (Klonopin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diazepam (Valium)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Flurazepam (Dalmane)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lorazepam (Ativan)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Midzolam (Versed)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxaxepam (Serax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Temazepam (Restoril)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Triazolam (Halcion)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zolpidem (Ambien)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Buspione (Buspar)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Neurotoxins -->
+				<selection selected="false" text="&lt;B&gt;Neurotoxins&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Botox (Type A)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dysport (Type A)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Myobloc (Type B)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- CGRP Receptor Antagonists -->
+				<selection selected="false" text="&lt;B&gt;CGRP Receptor Antagonists&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2"  initial_rows_to_display="2" >
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Telcagepant</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Ergots -->
+				<selection selected="false" text="&lt;B&gt;Ergots&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Bromocriptine (Parlodel)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>DHE (D.H.E.-45, Migranal, Levadex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ergonovine/Ergometrine</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ergotamine (Cafergot)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Methylergonovine / Methyergometrine (Methergine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Methysergide (Sansert)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Leukotriene Antagonists -->
+				<selection selected="false" text="&lt;B&gt;Leukotriene Antagonists&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Montelukast (Singulair)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zafirleukast (Accolate)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zileuton (Ziflo)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Miscellaneous Medications -->
+				<selection selected="false" text="&lt;B&gt;Miscellaneous Medications&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Acetaminophen (Tylenol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Butalbital (Esgic, Fiorinal/Fioricet, Phrenilin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Isomethpetene / Dichloralphenzaone /APAP (Midrin, Duradrin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lithium</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxygen</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Muscle Relaxants -->
+				<selection selected="false" text="&lt;B&gt;Muscle Relaxants&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Baclofen (Lioresal)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Carisoprodol (Soma)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chlorzoxazone (Parafon Forte)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cyclobenzaprine (Flexeril, Amrix)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Metaxalone (Skelaxin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Methocarbamol (Robaxin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Orphenadrine (Norflex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tizanidine (Zanaflex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Herbs, Minerals, Vitamins, Supplements, and Over the Counter Drugs -->
+				<selection selected="false" text="&lt;B&gt;Herbs, Minerals, Vitamins, Supplements, and Over the Counter Drugs&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Coenzyme Q10</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Feverfew</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Magnesium</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Melatonin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Petasite / Butterbur root (Petadolex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Riboflavin (Vitamin B2)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Trytophan</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- NMDA Glutamate Antagoni -->
+				<selection selected="false" text="&lt;B&gt;NMDA Glutamate Antagoni&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Dextromethorphan</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ketamine</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Memantine (Namenda)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Non-steroidal Anti-inflammatory drugs /NSAIDS -->
+				<selection selected="false" text="&lt;B&gt;Non-steroidal Anti-inflammatory drugs /NSAIDS&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Aspirin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diclofenac (Cambia, Cataflam, Flector, Voltaren)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Etodolac (Lodine)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Flurbiprofen (Ansaid)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Indomethacin (Indocin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ibuprofen (Advil, Motrin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ketoprofen (Orudis, Oruvail)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ketorolac (Toradol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Meclofenamate (Meclomen)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Mefanamic Acid (Ponstel)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Meloxicam (Mobic)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nabemetone (Relafen)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Naproxen / Naproxen Sodium (Aleve, Anaprox, Naprelan, Naprosyn)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Piroxicam (Feldene)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sulindac (Clinoril)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Cox-2 Inhibitor Anti-inflammatory Drugs -->
+				<selection selected="false" text="&lt;B&gt;Cox-2 Inhibitor Anti-inflammatory Drugs&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Celecoxib (Celebrex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Etoricoxib (Arcoxia)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Rofecoxib (Vioxx)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Valdecoxib (Bextra)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Opioids / Narcotics -->
+				<selection selected="false" text="&lt;B&gt;Opioids / Narcotics&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Buprenorphine (Subutex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Buprenorphine / Nalaxone (Suboxone)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Betorphanol (Stadol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Codeine</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fentanyl (Duragesic)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hydrocodone (Lorcet, Lortab, Norco, Vicodin, Xodol, Zydone)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hydromorphone (Dilaudid)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Levorphanol (Levodromeran)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Meperidine (Demerol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Methadone</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Morphine</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxycodone (Percocet, Oxyir)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxymorphone (Opana)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pentazocine (Talwin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Propoxyphene (Darvon)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Buprenorphine / Nalaxone (Suboxone)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tramadol (Ultram)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Other Over the Counter Medications (OTCs) -->
+				<selection selected="false" text="&lt;B&gt;Other Over the Counter Medications (OTCs)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Anacin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Aspirin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Excedrin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Powders</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Serotonin-2 Antagonists -->
+				<selection selected="false" text="&lt;B&gt;Serotonin-2 Antagonists&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Cyproheptadine (Periactin)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pizotifen (Sandomigran)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Sleepers (Other than Benzodiazepines / Minor Tranquilizers) -->
+				<selection selected="false" text="&lt;B&gt;Sleepers (Other than Benzodiazepines / Minor Tranquilizers)&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Eszopiclone (Lunesta)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Melatonin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ramelteon (Rozerem)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zaleplon (Sonata)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Steroids -->
+				<selection selected="false" text="&lt;B&gt;Steroids&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Dexamethasone (Decadron)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Methylprednisolone (Medrol, Dosepak, Solumedrol)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Prednisone</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Triptans -->
+				<selection selected="false" text="&lt;B&gt;Triptans&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Almotriptan (Axert, Almogran)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Eletriptan (Relpax)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Frovatriptan (Frova)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Naratriptan (Amerge, Naramig)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Rizatriptan (Maxalt)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sumtriptan (Imitrex)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sumatriptan / Naproxen Sodium (Treximet)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zolmitriptan (Zomig)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Non-drug / Behavioral Treatments -->
+				<selection selected="false" text="&lt;B&gt;Non-drug / Behavioral Treatments&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="45"/>
+								<column_definition label="Date(s) of Treatment&lt;BR&gt;(mm/dd/yyyy)" width="10"/>
+								<column_definition label="Highest Prescribed Dose" width="10"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Acupuncture</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Biofeedback</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nerve Blocks</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chiropractor</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Heat / Cold</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Massage Therapy</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Physical Therapy</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sleep / Quiet</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Stimulator</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Surgery / Ablation</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Trigger Point Injections</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other please list</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient currently taking any medications for this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please list all medications that patient is currently taking (be sure to include all prescription medications, and non-prescription including the counter medications, herbal remedies and vitamin supplements.)">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of  drug" width="15"/>
+								<column_definition label="Dosage" width="25"/>
+								<column_definition label="How often" width="25"/>
+								<column_definition label="Time(s) of day when taken" width="25"/>
+								<column_definition label="Number of pills taken per day" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any drug allergies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If so, please list.">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of  drug" width="15"/>
+								<column_definition label="Type of reaction " width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list all diagnostic studies (tests) patient has undergone and the dates tests were completed:  (choose all that apply)">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Diagnostic Test" width="40"/>
+					<column_definition label="Date Done&lt;BR&gt;(Month / Year )" width="25"/>
+					<column_definition label="Result of Study / Comments" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell>MRA of Brain </cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI of Brain (Was IV contrast used?)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRV of Brain</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT / CAT Scan of Brain (Was IV contrast used?)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT / CAT Scan of Sinuses</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CTA of Brain</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Electroencephalogram (EEG)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spinal Tap / Lumbar Puncture (Please list opening pressure if known)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tilt Table Test</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vestibular Testing</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hearing Tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Imaging Pertaining to Migraines please list</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lab work results</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CBC / Complete blood count</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Metabolic Panel, kidney, liver function tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Magnesium level</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sed rate / ESR WSR</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>B12 level</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thyroid Function Tests (TSH, FT4, T3)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thyroid Antibodies</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>ANA</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MTHFR</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Lab work results</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Work up please list</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell></cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+				
+		<question mandatory="true" prompt="Has anyone in the patient's family suffered from Migraine headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please identify the family member(s)  (Check all that apply):">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Daughter"/>
+							<selection selected="false" text="Son"/>
+							<selection selected="false" text="Mother"/>
+							<selection selected="false" text="Father"/>
+							<selection selected="false" text="Sister"/>
+							<selection selected="false" text="Brother"/>
+							<selection selected="false" text="Maternal Grandmother"/>
+							<selection selected="false" text="Maternal Grandfather"/>
+							<selection selected="false" text="Maternal Aunt"/>
+							<selection selected="false" text="Maternal Uncle"/>
+							<selection selected="false" text="Paternal Grandmother"/>
+							<selection selected="false" text="Paternal Grandfather"/>
+							<selection selected="false" text="Paternal Aunt"/>
+							<selection selected="false" text="Paternal Uncle"/>
+							<selection selected="false" text="Other relatives with headaches:">
+								<question mandatory="true" prompt="If Other relatives with headaches, please list">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has a first degree relative of the patient (mother, father, brother, sister, son, daughter) suffered an aneurysm?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list relative and location of aneurysm">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has anyone in the patient's family suffered from a Brain Tumor?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list relative and location / type of tumor">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has anyone in the patient's family suffered from any Neurological illnesses?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list relative and type of Neurological illness">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has any of the patient's family members suffered an early heart attack or stroke in their 40s or 50s">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any chronic pain problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever had any pain or nerve blocks?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please complete the table below.">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Block" width="25"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Has the patient ever had surgery on any of the following?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please complete the table below.">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Surgery" width="25"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient smoke cigarettes, cigars, or a pipe?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list how many cigarettes, cigars of pipe bowls per day?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient drink alcohol?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list amount and how often?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient use caffeine?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If the patient drinks coffe, please list the brand of coffee and the number of 8 ounce cups consumed per day?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="If the patient drinks caffeinated soda / pop, please list the number of ounces consumed per day?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever used nonprescribed drugs or street drugs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list type, amount, and how often?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's current or previous (if retired) occupation?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any children?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her sleep patterns? (Check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Normal"/>
+				<selection selected="false" text="Poor Quality"/>
+				<selection selected="false" text="Difficulty staying asleep"/>
+				<selection selected="false" text="Difficulty falling asleep"/>
+				<selection selected="false" text="Erratic / variable"/>
+				<selection selected="false" text="Snoring"/>
+				<selection selected="false" text="Sleep apnea"/>
+				<selection selected="false" text="Other sleep problems">
+					<question mandatory="true" prompt="If So, please list">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient use sleeping pills?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list the name of drug and how often taken">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed with Diabetes Mellitus?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If yes, does the patient take Insulin?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Unsure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, what type?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed with Hypothyroidism (low thyroid activity)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed with Hyperthyroidism (overactive thyroid)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient descirbe his / her sex drive / libido?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her mood?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her energy level?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her memory?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her ability to concentrate?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her current stress level?">
+			<free_form_response height="2"/>
+		</question>
+		
+		
+		<question mandatory="true" prompt="Is the patient currently experiencing any of the following visual symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Visual Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Double Vision</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Blurred Vision</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Loss of Vision</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cataracts</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Glaucoma</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Eye pain</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient use any of the following to correct vision?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Glasses"/>
+							<selection selected="false" text="Contacts"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Has the patient ever had Lasik Surgery?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient currently experiencing any of the following symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Tinnitus (Ringing in the ears)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hearing loss</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dizziness</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Vertigo (whirling or spinning movement)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+										
+					<question mandatory="true" prompt="Does the patient us a hearing aid?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient grind his / her teeth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+					
+		<question mandatory="true" prompt="Does the patient clench his / her jaw?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+
+		<question mandatory="true" prompt="Has the patient been diagnosed with TMJ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any history of the Cardiovascular or Heart or Blood Vessel  Symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Coronary Artery Disease</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>High blood pressure (Hypertension)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>High cholesterol</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>High triglycerides (Hyperlipidemia / High fat levels in blood)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chest pain / tightness</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Palpitations</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lightheadedness</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fainting</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Heart Murmur</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Obesity</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the patient have any history of the Lungs / Respiratory problems">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Asthma</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Bronchitis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chronic Bronchitis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Shortness of Breath</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Shortness of Breath with Exertion </cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any history of the Gastrointestinal or GI or Gut  problems">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Diarrhea</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Constipation</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>GERD / Reflux</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ulcers</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hiatal Hernia</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Irritable Bowel Syndrome (IBS)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Bleeding</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other GI  Diseases, List here</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any history of the Genitourinary  problems">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please complete the table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+							<column_definitions>
+								<column_definition label="Symptoms" width="40"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Problems with Urination</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Incontinence</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Impotence / Erectile dysfunction</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other problems, list here</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient male or female?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Male"/>
+				<selection selected="false" text="Female">
+				
+					<question mandatory="true" prompt="Does the patient have a history of a miscarriage?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient use birth control pills?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please list name of pills, dosage, and when taken">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient use continuous birth control with no menses (periods)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please list birth control method and dosage">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+					<question mandatory="true" prompt="Does the patient use another method of contraception?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please list method used">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+					<question mandatory="true" prompt="Does the patient have regular menses (periods)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient have irregular menses (periods)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient premenopausal?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient menopausal?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Has the patient had a hysterectomy?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Has the patient had a postmenopausal?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient have Polycystic Ovarian Syndrome (PCOS)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient currently pregnant?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, in what week of pregnancy is the patient?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient planning a pregnancy?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when is patient planning to get pregnant?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Has the patient experienced other problems with menstruation?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Has the patient experienced any skin changes?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="UnSure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from Arthritis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of Arthritis?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Does the patient suffer from joint aches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what joints are affected?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from low back pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from mid back pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from neck pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have pain radiating to his / her arms and / or legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed with Fibromyalgia?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed with Chronic Fatigue Syndrome?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from Carpal Tunnel Syndrome?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from other Rheumatologic problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from other Autoimmune disorders?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from other Musculoskeletal problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from pain other than headache pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list location and dates of pain">
+						<table_response add_row_increment="1" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Location of pain" width="25"/>
+								<column_definition label="Date (mm/dd/yyyy)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a seizure disorder?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe seizure type and current treatment">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from fainting spells?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the patient have a history of head trauma?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of other trauma?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever suffered a stroke?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list the type and date of the stroke">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever suffered from a Transient Ischemic Attack (TIA)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from numbness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from weakness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of Meningitis or Encephalitis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of Depression?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been diagnosed as Bipolar?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from Anxiety?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from Panic Attacks?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from any other Psychiatric problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of bleeding?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a clotting disorder?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient suffer from Raynaud's (cold hands and feet with discoloration)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of Cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete below">
+						<table_response add_row_increment="1" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Cancer" width="40"/>
+								<column_definition label="Date of Diagnosis" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+		
+	</question_group>
+</questionnaire>

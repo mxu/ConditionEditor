@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all surgeries/biopsies." mandatory="true"/>
+	<material id="Pathology glass slides and reports" description="Reports and glass slides from all relevant biopsies" mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="Upper and/or lower gastrointestinal X-rays" description="Reports and films." mandatory="true"/>
+	<material id="Upper and lower endoscopies" description="Reports and films." mandatory="true"/>
+	<material id="CT scan" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="EKG" description="Report only." mandatory="false"/>
+	<material id="Other" description=" Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wyllie_Chronic_Pancreatitis(pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wyllie_Chronic_Pancreatitis(pediatric)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Chronic Pancreatitis (pediatric)" id="Chronic Pancreatitis (pediatric)" active="true">
+				<keyword text="pancreas"/>
+				<keyword text="inflammation"/>
+				<keyword text="infection"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

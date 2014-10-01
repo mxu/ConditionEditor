@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms.  This can be written by either patient's primary care physician or the physician who diagnosed or is treating your patient's condition." mandatory="true"/>
+	<material id="Physician letters" description="Copies of all letters sent by patient's physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all patient's medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Treatment reports" description="Reports are required for all relevant medical treatments." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Specialist physician's case summary" description="Specialist's report summarizing the details of patient's condition including past treatment and the patient's response." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following Radiologic and diagnostic studies done in the last 3 years will be required. The actual original films (not copies) of the studies and the reports will be needed, if indicated/done (mandatory): &lt;/b&gt;"/>
+	<material id="Blood work" description="Written laboratory reports for all blood work" mandatory="true"/>
+	<material id="X-Rays" description="Written reports and actual films of all imaging studies" mandatory="true"/>
+	<material id="Ultrasounds" description="Written reports and actual films of all imaging studies" mandatory="true"/>
+	<material id="CT Scans" description="Written reports and actual films of all imaging studies" mandatory="true"/>
+	<material id="MRI scans" description="Written reports and actual films of all imaging studies" mandatory="true"/>
+	<material id="Pathology" description="Pathology reports and glass slides from all biopsies (mandatory if done)" mandatory="true"/>
+	<material id="Sleep Study (polysomnogram)" description="Written report of sleep study (mandatory if done)" mandatory="true"/>
+	
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission. &lt;/b&gt;"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+	
+	<instruction text="&lt;BR&gt; &lt;b&gt; When obtaining the reports and films of above various studies, these may come from multiple venues: Example: X-rays may have been performed in doctor's offices or hospital: MRI may have been done in either a hospital or a freestanding MRI facility. It is very important to obtain all pertinent studies from all sources. &lt;/b&gt;"/>
+</material_list>

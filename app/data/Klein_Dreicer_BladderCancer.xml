@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Klein_Dreicer_BladderCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Klein_Dreicer_BladderCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Bladder Cancer" id="Bladder Cancer">
+				<keyword text="Bladder"/>
+				<keyword text="Cancer"/>
+				<keyword text="Carcinoma"/>
+				<keyword text="Urinary"/>
+				<keyword text="Tumor"/>
+				<keyword text="Malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

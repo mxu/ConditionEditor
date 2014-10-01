@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_ThyroidDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_ThyroidDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition cost="745.00" description="Thyroiditis" id="Thyroiditis">
+				<keyword text="thyroiditis"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="goiter"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hashimoto's Thyroiditis" id="Hashimoto's Thyroiditis">
+				<keyword text="thyroid"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="hasimotos"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Multinodular Goiter" id="Multinodular Goiter">
+				<keyword text="thyroid"/>
+				<keyword text="gland"/>
+				<keyword text="mass"/>
+				<keyword text="endocrine"/>
+				<keyword text="goiter"/>
+				<keyword text="multinodular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Grave's Disease" id="Grave's Disease">
+				<keyword text="thyroid"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="graves"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition cost="745.00" description="Hyperthyroidism" id="Hyperthyroidism">
+				<keyword text="hyperthyroid"/>
+				<keyword text="gland"/>
+				<keyword text="thyroid"/>
+				<keyword text="overactive"/>
+				<keyword text="endocrine"/>
+				<keyword text="hormone"/>
+				<keyword text="endocrinology"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>			
+		</section>
+	</department>
+</division>
+

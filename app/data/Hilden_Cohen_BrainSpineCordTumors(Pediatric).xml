@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_Cohen_BrainSpineCordTumors(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_Cohen_BrainSpineCordTumors(Pediatric)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Astrocytoma of the brain (Pediatric)" id="Astrocytoma of the brain (Pediatric)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dermoid Tumor of the Brain (Pediatric)" id="Dermoid Tumor of the Brain (Pediatric)">
+				<keyword text="dermoid"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ependymoma Tumor of the Brain (Pediatric)" id="Ependymoma Tumor of the Brain (Pediatric)">
+				<keyword text="ependymoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Epidermoid of the Brain (Pediatric)" id="Epidermoid of the Brain (Pediatric)">
+				<keyword text="epidermoid"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Germ Cell Tumors of the Brain (Pediatric)" id="Germ Cell Tumors of the Brain (Pediatric)">
+				<keyword text="germ"/>
+				<keyword text="cell"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glioblastoma of the Brain (Pediatric)" id="Glioblastoma of the Brain (Pediatric)">
+				<keyword text="glioblastoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glioma of the Brain (Pediatric)" id="Glioma of the Brain (Pediatric)">
+				<keyword text="glioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain Tumor (Pediatric)" id="Brain Tumor (Pediatric)">
+				<keyword text="glioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				<keyword text="benign"/>
+				<keyword text="lesion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain Lesion (Pediatric)" id="Brain Lesion (Pediatric)">
+				<keyword text="glioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				<keyword text="benign"/>
+				<keyword text="lesion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hemangioblastoma of the Brain (Pediatric)" id="Hemangioblastoma of the Brain (Pediatric)">
+				<keyword text="hemangioblastoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Medulloblastoma of the Brain (Pediatric)" id="Medulloblastoma of the Brain (Pediatric)">
+				<keyword text="medulloblastoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neurocytoma of the Brain (Pediatric)" id="Neurocytoma of the Brain (Pediatric)">
+				<keyword text="neurocytoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Oligodendroglioma of the Brain (Pediatric)" id="Oligodendroglioma of the Brain (Pediatric)">
+				<keyword text="oligodendroglioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="brain tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rhabdoid of the Brain (Pediatric)" id="Rhabdoid of the Brain (Pediatric)">
+				<keyword text="rhabdoid"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Teratoid of the Brain (Pediatric)" id="Teratoid of the Brain (Pediatric)">
+				<keyword text="teratoid"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glomus Jugulare Meningioma of the Brain (Pediatric)" id="Glomus Jugulare Meningioma of the Brain (Pediatric)">
+				<keyword text="glomus"/>
+				<keyword text="jugulare"/>
+				<keyword text="meningioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Schwannoma of the Brain (Pediatric)" id="Schwannoma of the Brain (Pediatric)">
+				<keyword text="schwannoma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Meningioma of the Brain (Pediatric)" id="Meningioma of the Brain (Pediatric)">
+				<keyword text="meningioma"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Astrocytoma of the Spine (Pediatric)" id="Astrocytoma of the Spine (Pediatric)">
+				<keyword text="tumor"/>
+				<keyword text="spine"/>
+				<keyword text="spinal cord"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ependymoma of the Spine (Pediatric)" id="Ependymoma of the Spine (Pediatric)">
+				<keyword text="ependymoma"/>
+				<keyword text="spine"/>
+				<keyword text="spinal cord"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neurocytoma of the Spine (Pediatric)" id="Neurocytoma of the Spine (Pediatric)">
+				<keyword text="neurocytoma"/>
+				<keyword text="spine"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="carcinoma"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain Metastasis (Pediatric)" id="Brain Metastasis (Pediatric)">
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="metastatic"/>
+				<keyword text="metastases"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>								
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic Brain Tumor from the Lung (Pediatric)" id="Metastatic Brain Tumor from the Lung (Pediatric)">
+				<keyword text="metastatic"/>
+				<keyword text="metastases"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignancy"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic Lymphoma to the Brain (Pediatric)" id="Metastatic Lymphoma to the Brain (Pediatric)">
+				<keyword text="lymphoma"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="lymph"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic Melanoma to the Brain (Pediatric)" id="Metastatic Melanoma to the Brain (Pediatric)">
+				<keyword text="malanoma"/>
+				<keyword text="metastasis"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+		</section>
+	</department>
+</division>

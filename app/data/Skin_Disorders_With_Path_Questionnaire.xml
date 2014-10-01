@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When did this condition (problem) begin?">										&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Which part(s) of the body is (are) affected?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Have your received organ transplant in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of transplant did you have?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Heart"/>
+						        <selection selected="false" text="Lung"/>
+						        <selection selected="false" text="Liver"/>
+						        <selection selected="false" text="Kidney"/>
+						        <selection selected="false" text="Pancreas"/>
+						        <selection selected="false" text="Small bowel"/>
+						        <selection selected="false" text="Large bowel"/>
+						        <selection selected="false" text="Face"/>
+						        <selection selected="false" text="Abdominal wall"/>
+							<selection selected="false" text="Other (please specify)">
+								<question mandatory="true" prompt="">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If yes, what type of anti-rejection medications(s) are you currently taking?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Cyclosporin (Neoral, Gengraf)"/>
+						        <selection selected="false" text="Tacrolimus (Prograf)"/>
+						        <selection selected="false" text="Azathoioprine (Imuran, Azasan)"/>
+						        <selection selected="false" text="Mycophenolate mofetil (Cellcept)"/>
+						        <selection selected="false" text="Sirolimus (Rapamycin, Rapamune)"/>
+						        <selection selected="false" text="Prednisone"/>
+							<selection selected="false" text="Other (please specify)">
+								<question mandatory="true" prompt="">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had this problem in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any environmental or food allergies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any environmental or food allergies, please indicate type below: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Dust"/>
+							<selection selected="false" text="Cat / dog"/>
+							<selection selected="false" text="Pollen"/>
+							<selection selected="false" text="Food allergies"/>
+							<selection selected="false" text="Asthma"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any of the following?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any of the following, please choose all that apply:">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Itching"/>
+							<selection selected="false" text="Pain"/>
+							<selection selected="false" text="Bleeding"/>
+							<selection selected="false" text="Open wound"/>
+							<selection selected="false" text="Redness"/>
+							<selection selected="false" text="Swelling"/>
+							<selection selected="false" text="Drainage / oozing">
+								<question mandatory="true" prompt="Please describe the drainage/oozing:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you chose any of the above, has it ever been infected?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the problem you are experiencing? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Constant"/>
+				<selection selected="false" text="Seasonal"/>
+				<selection selected="false" text="Intermittent (comes and goes)"/>
+				<selection selected="false" text="Related to specific factors, i.e.: food, topical agents, etc."/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any dermatological surgeries / biopsies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had any dermatological surgeries / biopsies, please complete the following:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of test &lt;BR&gt; and/or treatment" width="25"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="30"/>
+								<column_definition label="City, State" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Regarding the surgery or biopsy, what is your general subjective impression of the experience? (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Regarding the surgery or biopsy, how would you rate your overall satisfaction with the procedure? (1= not at all satisfied, 10= very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If you have had any studies or diagnostic testing for your condition, please indicate below: (choose all that apply)">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Study" width="45"/>
+					<column_definition label="Month" width="20"/>
+					<column_definition label="Year" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Allergy skin tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Wood's light examination</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Skin scraping examination</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Culture and sensitivity (C + S) testing</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other x-ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any of the following skin problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had any of the following skin problems, please provide the following information:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Problem" pct="70"/>
+								<column_definition label="Month" pct="15"/>
+								<column_definition label="Year" pct="15"/>
+							</column_definitions>
+							<table_data>
+								<cell>Abnormal moles</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Eczema</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dermatitis</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Psoriasis</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Thick scars or keloids</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Skin cancer (Indicate type)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (Please list below)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your skin type classification?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Always burn / never tan"/>
+				<selection selected="false" text="Usually burn / rarely tan"/>
+				<selection selected="false" text="Rarely burn / usually tan"/>
+				<selection selected="false" text="Never burn / always tan"/>
+				<selection selected="false" text="Naturally dark skin (Indian, African, etc.)"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your occupation?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Is the majority of your time at work spent?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Mostly inside"/>
+				<selection selected="false" text="Mostly outside"/>
+				<selection selected="false" text="Equal time inside and outside"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How much time per week do you estimate that you spend on outdoor recreational activities (sports such as golf, tennis or softball; yard work, gardening, etc)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than 1 hour"/>
+				<selection selected="false" text="1-2 hours"/>
+				<selection selected="false" text="3-4 hours"/>
+				<selection selected="false" text="5-6 hours"/>
+				<selection selected="false" text="7-8 hours"/>
+				<selection selected="false" text="9-10 hours"/>
+				<selection selected="false" text="greater than 10 hours"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When you are out in the sun, do you usually use a sun block product?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If when you use a sun block product, what is the SPF of the product you usually use?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="SPF 4"/>
+							<selection selected="false" text="SPF 8"/>
+							<selection selected="false" text="SPF 10"/>
+							<selection selected="false" text="SPF 15"/>
+							<selection selected="false" text="SPF 30 or higher"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you describe your total lifetime sun (ultraviolet) exposure?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Minimal"/>
+				<selection selected="false" text="Moderate"/>
+				<selection selected="false" text="Extensive"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any severe, blistering sunburns?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="How often have you had severe blistering sunburns?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Few"/>
+							<selection selected="false" text="Many"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the severe, blistering sunburns mostly occur?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Childhood"/>
+							<selection selected="false" text="Adulthood"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you describe your total lifetime tanning bed / booth exposure?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="None"/>
+				<selection selected="false" text="Minimal"/>
+				<selection selected="false" text="Moderate"/>
+				<selection selected="false" text="Extensive"/>
+			</item_response>
+		</question>
+	
+					<question mandatory="true" prompt="If you have a family history of the following, please choose all that apply:">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Abnormal moles"/>
+							<selection selected="false" text="Eczema"/>
+							<selection selected="false" text="Dermatitis"/>
+							<selection selected="false" text="Thick scars or keloids"/>
+							<selection selected="false" text="Skin cancer"/>
+							<selection selected="false" text="Malignant melanoma"/>
+							<selection selected="false" text="Other skin problems">
+								<question mandatory="true" prompt="If other, please indicate:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+			
+		<question mandatory="true" prompt="Are you a woman of child bearing age?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No (skip to the last question)"/>
+				<selection selected="false" text="Yes (Answer the questions below)">
+					<question mandatory="true" prompt="Are you pregnant?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are you trying to become pregnant?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are your menstrual periods regular?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not applicable"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the date of your last menstrual period?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Are you currently on birth control?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are currently on birth control, which method?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

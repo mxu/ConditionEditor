@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and a description of current 	signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your Ophthalmologist of past visit(s), (if received)." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for any prior eye surgeries and / or laser treatments, if done." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations. " mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information will be required in order to proceed with your request for second opinion: &lt;/b&gt;"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;Report of clinical examination by your eye doctor to include the following: &lt;/b&gt;"/>
+	<material id="Visual acuity" description="Report " mandatory="true"/>
+	<material id="Manifest refraction" description="Report " mandatory="true"/>
+	<material id="Current glasses / contact lens prescription" description="Report " mandatory="true"/>
+	<material id="Intraocular pressure" description="Report " mandatory="true"/>
+	<material id="Anterior segment examination with description or drawing" description="Report " mandatory="true"/>
+	<material id="Dilated fundus examination with description or drawing" description="Report " mandatory="true"/>
+	<material id="Color photographs" description="Most recent color photographs (preferably stereo views) of both eyes as well as any and all previous photographs.  If media opacities prevent obtaining photos, then ultrasound (B scan) required." mandatory="true"/>
+	<material id="Fluorescein angiogram" description="Most recent fluorescein angiogram reports and films of both eyes.  The actual films of the scans are required for the most recent exam.  The actual films are more useful for previous exams, but reports are acceptable." mandatory="true"/>
+	<material id="Amsler grid " description="Report of Amsler grid of both eyes" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; Reports and (actual) films for all radiology studies performed thus far. These studies to include the following :&lt;/b&gt;"/>
+	<material id="Indocyanine green angiography " description="Indocyanine green angiography reports and films (if done). The actual films of the scans are more important than the reports of the scans if the reports can not be obtained.  " mandatory="false"/>
+	<material id="Blood Tests" description="Laboratory reports of current  bloodwork within past 6 months (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lewis_Kaiser_AgeRelatedMacularDegenerationMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lewis_Kaiser_AgeRelatedMacularDegenerationQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Ophthalmology" name="Ophthalmology">
+		<section description="" name="">
+			<condition cost="565.00" description="Age Related Macular Degeneration" id="Age Related Macular Degeneration">
+				<keyword text="ARMD"/>
+				<keyword text="eye"/>
+				<keyword text="blindness"/>
+				<keyword text="sight"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Macular Degeneration" id="Macular Degeneration">
+				<keyword text="ARMD"/>
+				<keyword text="eye"/>
+				<keyword text="blindness"/>
+				<keyword text="sight"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

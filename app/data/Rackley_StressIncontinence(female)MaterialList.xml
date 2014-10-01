@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="In addition to the information provided thus far, additional medical information will be needed.  We will need to receive all the items listed on the checklist below in order to begin the second opinion process.  Once all the items listed below are received, we can proceed. &lt;BR&gt;&lt;BR&gt; The following list of medical information is required to proceed with your request for a second opinion consultation."/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s) related to this visit, if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Treatment reports" description="Reports of any treatments received for this condition." mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of diagnostic medical information will be required in order to proceed with your request for second opinion. Radiologic and diagnostic studies done in the last 3 years.  "/>
+	<material id="Cystoscopy" description="Report and films." mandatory="true"/>
+	<material id="Urodynamics" description="Report and films." mandatory="true"/>
+	<material id="Female Pelvic Organ Prolapse Classification " description="Report of the female pelvic organ prolapse classification:  POP-Q or Baden" mandatory="true"/>
+	<material id="Urinalysis / Urine culture" description="Laboratory report of urinalysis / urine culture test (if done)" mandatory="true"/>
+	<material id="Urinary Stress Test " description="Report of urinary stress test (if done). " mandatory="true"/>
+	<material id="Intavenous Pyeologram (IVP)" description="Report of IVP exam (if done)." mandatory="true"/>
+	<material id="Voiding Cystourethrogram (VCUG)" description="Report of VCUG (if done)" mandatory="true"/>
+	<material id="Ultrasound" description="Report of ultrasound (if done)." mandatory="true"/>
+	<instruction text=" The following list of medical information, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Computed Tomography (CT) Scan" description="Report of CT Scan (if done)." mandatory="false"/>
+	<material id="Magnetic Resonance (MRI) Scan " description="Report of MRI Scan (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consulation." mandatory="false"/>
+	<instruction text="&lt;BR&gt;If any items listed from the forms or checklist are missing, there will be a delay in our ability to begin the consultation.  On the above checklist certain items are indicated as mandatory.  If these items are missing from the package of materials received by The Cleveland Clinic we will not be able to begin to process your request.  The items that are not mandatory, if available  should also be sent.  These items will enhance our physician's ability to provide a more comprehensive second opinion consultation. &lt;BR&gt;&lt;BR&gt;  Once all of the information has been delivered to CCF (preferable by overnight courier service), you can expect a written response from The Cleveland Clinic physician  within 5-7 business days unless there are extraneous circumstances  of which you will be notified at the time of request."/>
+</material_list> 

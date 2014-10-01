@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Henderson_LiverTumor_MalignantMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Henderson_LiverTumor_MalignantQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Angiosarcoma" id="Angiosarcoma" active="true">
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Cholangiocarcinoma" id="Cholangiocarcinoma" active="true">
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="mass"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="neoplasm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fibrolamellar Carcinoma" id="Fibrolamellar Carcinoma" active="true">
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="neoplasm"/>
+				<keyword text="hepatic"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hepatocellular Carcinoma (Hepatoma)" id="Hepatocellular Carcinoma (Hepatoma)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="neoplasm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Liver Cancer" id="Liver Cancer" active="true">
+			    <keyword text="       liver"/>
+				 <keyword text="cancer"/>
+    <keyword text="malignant"/>
+    <keyword text="malignancy"/>
+    <keyword text="neoplasm"/>
+    <keyword text="carcinoma"/>
+    <keyword text="hepatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

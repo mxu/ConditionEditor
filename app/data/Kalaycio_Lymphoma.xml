@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Kalaycio_LymphomaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Kalaycio_LymphomaQuestionnaire.xml">
+]>
+<!--Kalaycio, Pohlman-->
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Lymphoma (adult)" id="Lymphoma (adult)">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="lymph"/>
+				<keyword text="lymphoma"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Non-Hodgkin's  Lymphoma (adult)" id="Non-Hodgkin's  Lymphoma (adult)">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="lymph"/>
+				<keyword text="lymphoma"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hodgkin's Disease (adult)" id="Hodgkin's Disease (adult)">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>
+				<keyword text="lymph"/>
+				<keyword text="lymphoma"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

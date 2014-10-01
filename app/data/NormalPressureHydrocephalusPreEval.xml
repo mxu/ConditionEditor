@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "NormalPressureHydrocephalusMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "NormalPressureHydrocephalusQuestionnaire.xml">
+]>
+<division description="Medicine" name="Medicine">
+	<department description="Internal Medicine" name="Internal Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Normal Pressure Hydrocephalus (pre-surgery evaluation)" id="Normal Pressure Hydrocephalus (pre-surgery evaluation)" active="true">
+				<keyword text="normal"/>
+				<keyword text="pressure"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="brain"/>
+				<keyword text="swelling"/>
+				<keyword text="water"/>
+				<keyword text="fluid"/>
+				<keyword text="head"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

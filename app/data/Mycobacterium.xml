@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "MycobacteriumMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "MycobacteriumQuestionnaire.xml">
+]>
+<division description="General Medicine" name="General Medicine">
+	<department description="Infectious Disease" name="Infectious Disease">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Non-Tuberculous  Mycobacteria (adult)" id="Non-Tuberculous  Mycobacteria (adult)">
+				<keyword text="lung"/>
+				<keyword text="lungs"/>
+				<keyword text="pulmonary"/>
+				<keyword text="chest"/>
+				<keyword text="tuberculosis"/>
+				<keyword text="mycobacterium"/>
+				<keyword text="avium"/>
+				<keyword text="complex"/>
+				<keyword text="MAC"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="pathogen"/>
+				<keyword text="intracellular"/>
+				<keyword text="phagocytes"/>
+				<keyword text="mycobacterial"/>
+				<keyword text="disease"/>
+				<keyword text="tuberculous"/>
+				<keyword text="TB"/>
+				<keyword text="mycobacteria"/>
+				<keyword text="atypical"/>
+				<keyword text="environmental"/>
+				<keyword text="MOTT"/>
+				<keyword text="non-tuberculous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Atypical Mycobacteria (adult)" id="Atypical Mycobacteria (adult)">
+				<keyword text="lung"/>
+				<keyword text="lungs"/>
+				<keyword text="pulmonary"/>
+				<keyword text="chest"/>
+				<keyword text="tuberculosis"/>
+				<keyword text="mycobacterium"/>
+				<keyword text="avium"/>
+				<keyword text="complex"/>
+				<keyword text="MAC"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="pathogen"/>
+				<keyword text="intracellular"/>
+				<keyword text="phagocytes"/>
+				<keyword text="mycobacterial"/>
+				<keyword text="disease"/>
+				<keyword text="tuberculous"/>
+				<keyword text="TB"/>
+				<keyword text="mycobacteria"/>
+				<keyword text="atypical"/>
+				<keyword text="environmental"/>
+				<keyword text="MOTT"/>
+				<keyword text="non-tuberculous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mycobacteria other than Tuberculosis (MOTT) (adult)" id="Mycobacteria other than Tuberculosis (MOTT) (adult)">
+				<keyword text="lung"/>
+				<keyword text="lungs"/>
+				<keyword text="pulmonary"/>
+				<keyword text="chest"/>
+				<keyword text="tuberculosis"/>
+				<keyword text="mycobacterium"/>
+				<keyword text="avium"/>
+				<keyword text="complex"/>
+				<keyword text="MAC"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="pathogen"/>
+				<keyword text="intracellular"/>
+				<keyword text="phagocytes"/>
+				<keyword text="mycobacterial"/>
+				<keyword text="disease"/>
+				<keyword text="tuberculous"/>
+				<keyword text="TB"/>
+				<keyword text="mycobacteria"/>
+				<keyword text="atypical"/>
+				<keyword text="environmental"/>
+				<keyword text="MOTT"/>
+				<keyword text="non-tuberculous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Environmental Mycobacteria (adult)" id="Environmental Mycobacteria (adult)">
+				<keyword text="lung"/>
+				<keyword text="lungs"/>
+				<keyword text="pulmonary"/>
+				<keyword text="chest"/>
+				<keyword text="tuberculosis"/>
+				<keyword text="mycobacterium"/>
+				<keyword text="avium"/>
+				<keyword text="complex"/>
+				<keyword text="MAC"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="pathogen"/>
+				<keyword text="intracellular"/>
+				<keyword text="phagocytes"/>
+				<keyword text="mycobacterial"/>
+				<keyword text="disease"/>
+				<keyword text="tuberculous"/>
+				<keyword text="TB"/>
+				<keyword text="mycobacteria"/>
+				<keyword text="atypical"/>
+				<keyword text="environmental"/>
+				<keyword text="MOTT"/>
+				<keyword text="non-tuberculous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Non TB Mycobacteria (adult)" id="Non TB Mycobacteria (adult)">
+				<keyword text="lung"/>
+				<keyword text="lungs"/>
+				<keyword text="pulmonary"/>
+				<keyword text="chest"/>
+				<keyword text="tuberculosis"/>
+				<keyword text="mycobacterium"/>
+				<keyword text="avium"/>
+				<keyword text="complex"/>
+				<keyword text="MAC"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="pathogen"/>
+				<keyword text="intracellular"/>
+				<keyword text="phagocytes"/>
+				<keyword text="mycobacterial"/>
+				<keyword text="disease"/>
+				<keyword text="tuberculous"/>
+				<keyword text="TB"/>
+				<keyword text="mycobacteria"/>
+				<keyword text="atypical"/>
+				<keyword text="environmental"/>
+				<keyword text="MOTT"/>
+				<keyword text="non-tuberculous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

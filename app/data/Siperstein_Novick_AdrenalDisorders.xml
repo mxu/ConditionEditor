@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_Novick_AdrenalDisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_Novick_AdrenalDisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Adrenal Adenoma" id="Adrenal Adenoma" active="true">
+				<keyword text="cancer"/>
+				<keyword text="gland"/>
+				<keyword text="tumor"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Adrenal Carcinoma" id="Adrenal Carcinoma" active="true">
+				<keyword text="cancer"/>
+				<keyword text="gland"/>
+				<keyword text="tumor"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Adrenal Gland Non-function" id="Adrenal Gland Non-function" active="true">
+				<keyword text="gland"/>
+				<keyword text="non-function"/>
+				<keyword text="dysfunction"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Adrenal Hyperplasia" id="Adrenal Hyperplasia" active="true">
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Aldocortisol Secreting Tumor" id="Aldocortisol Secreting Tumor" active="true">
+				<keyword text="adrenal"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="mass"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pheochromocytoma" id="Pheochromocytoma" active="true">
+				<keyword text="adrenal"/>
+				<keyword text="gland"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

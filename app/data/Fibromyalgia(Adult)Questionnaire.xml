@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When were you diagnosed with Fibromyalgia?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+					
+		<question mandatory="true" prompt="Do you know what event / situation triggered your Fibromyalgia?">
+			<item_response drop_down_style="false" single_response="true">				
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have a history of any of the following? (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Chronic fatigue syndrome"/>
+				<selection selected="false" text="Rheumatoid arthritis"/>
+				<selection selected="false" text="Osteoarthritis"/>
+				<selection selected="false" text="Psoriasis"/>
+				<selection selected="false" text="Bowel Disease (Crohn's disease, ulcerative colitis, etc.) "/>
+				<selection selected="false" text="None of above"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How is your Fibromyalgia? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Getting worse "/>
+				<selection selected="false" text="Getting better "/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Unsure "/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you had pain all over for 3 months or more? ">
+			<item_response drop_down_style="false" single_response="true">				
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you hurt more at night? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you hurt more when you sit for a long period of time? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you hurt more with changes in the weather, such as, increased humidity or cold temperatures?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you feel tired?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you find that you are stiff in the morning?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how long does the stiffness last?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Less than 60 minutes?"/>
+							<selection selected="false" text="More than 60 minutes?"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you wake up refreshed or tired in the morning?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Refreshed"/>
+				<selection selected="false" text="Tired"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have trouble falling asleep?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How many hours on average do you sleep at night?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have night sweats?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you ever had a sleep study?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you ever been diagnosed with sleep apnea?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, are you currently using a CPAP/BIPAP (breathing machine)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how many days in a week are you using the CPAP/BIPAP (breathing machine)?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>	
+				</selection>
+			</item_response>
+		</question>	
+					
+		<question mandatory="true" prompt="Have you been diagnosed with restless legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you been diagnosed with narcolepsy (disorder causing severe drowsiness &amp; sleep during the day)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you experience headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you experience migraine headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you experience difficulty with memory and / or concentration?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have dry mouth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have dry eyes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Are you bothered by any of the following?  (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Loud noises"/>
+				<selection selected="false" text="Strong smells"/>
+				<selection selected="false" text="Bright lights"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you experience episodes of constipation alternating with diarrhea back and forth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have  you been diagnosed with irritable bowel?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure "/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you often feel lightheaded when you take a shower or when you get up for bed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have a history of any of the following?   (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Depression"/>
+				<selection selected="false" text="Anxiety"/>
+				<selection selected="false" text="Bipolar disorder"/>
+				<selection selected="false" text="Post-traumatic stress disorder"/>
+				<selection selected="false" text="Obsessive compulsive disorder"/>
+				<selection selected="false" text="Attention deficit hyperactivity disorder"/>
+				<selection selected="false" text="Attention deficit disorder"/>
+				<selection selected="false" text="Emotional problems"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you exercise?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often and for how long?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+	</question_group>
+</questionnaire>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Strome_ThroatCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Strome_ThroatCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Throat cancer" id="Throat cancer">
+				<keyword text="laryngeal"/>
+				<keyword text="carcinoma"/>
+				<keyword text="vocal"/>
+				<keyword text="tumor"/>
+				<keyword text="cord"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Laryngeal cancer" id="Laryngeal cancer">
+				<keyword text="throat"/>
+				<keyword text="voicebox"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Vocal cord cancer" id="Vocal cord cancer">
+				<keyword text="laryngeal"/>
+				<keyword text="throat"/>
+				<keyword text="voicebox"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Tongue cancer" id="Tongue cancer">
+				<keyword text="carcinoma"/>
+				<keyword text="lesion"/>
+				<keyword text="mass"/>
+				<keyword text="tumor"/>
+				<keyword text="mouth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

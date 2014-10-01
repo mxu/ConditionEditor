@@ -1,0 +1,300 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- Other Questionnaire -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the location of the your pain?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the approximate age or year when you first had pain?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Age or Year" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What is the original cause of the pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Accident">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Injury">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Illness">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Surgery">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Unsure">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Do you currently have an active Workman's Compensation claim or active litigation (law suit) in progress related to the cause of your pain ?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please explain">
+			 	 	<free_form_response height="2"/>
+			 	 </question>			 	 			  
+			  </selection>
+		  </item_response>
+		</question>			
+		<question mandatory="true" prompt="What things or positions increase your pain?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What things or positions reduce your pain?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Has the pain changed over time?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="Unsure"/>
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please describe how it has changed and over what period of time?">
+			 	 	<free_form_response height="10"/>
+			 	 </question>			 	 			  
+			  </selection>
+		  </item_response>
+		</question>
+		<question mandatory="true" prompt="What types of specialists have evaluated you for this pain (Primary Care, Neurologist, Pain Specialist, Rheumatologist, Psychiatrist, Psychologist, etc.)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What diagnosis have you been given?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What type of physician made this diagnosis?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician Name" width="20"/>
+					<column_definition label="Physician Specialty (Neurology, Primary Care, Pain Specialist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="What tests / imaging studies have you had completed?">
+			<table_response add_row_increment="1" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Test" width="25"/>
+					<column_definition label="Year" width="15"/>
+					<column_definition label="Results (If known)" width="35"/>					
+				</column_definitions>
+				<table_data>
+					<cell>Blood tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>X-rays</cell>
+					<cell/>
+					<cell/>				
+				</table_data>
+				<table_data>
+					<cell>MRI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT (cat) scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What treatments have you tried for pain relief?">
+		  <table_response add_row_increment="1" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Type of treatment" width="25"/>
+					<column_definition label="Month/Year" width="15"/>
+					<column_definition label="Physician Name and Type of Physician" width="25"/>
+					<column_definition label="Benefit (Yes, No or Temporary)" width="20"/>
+					<column_definition label="Comments" width="35"/>					
+				</column_definitions>
+				<table_data>
+					<cell>Epidural blocks</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Facet blocks</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Radio frequency ablation (RFA)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Physical therapy</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chiropractic manipulation</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Massage</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>TENS</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Trigger point injections</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pump for spinal meds</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spinal cord stimulator</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (please list)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What medications have you tried? Please note if the medication helped or failed.">
+			<table_response add_row_increment="1" initial_rows_to_display="3">
+				<column_definitions>
+					<column_definition label="Medication" width="25"/>
+					<column_definition label="Dates Taken" width="25"/>
+					<column_definition label="Effect(Helped or Did not help)" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please give the approximate year, location (city/hospital), surgeon, and type of surgery for any surgeries related to this pain.">
+			<table_response add_row_increment="1" initial_rows_to_display="3">
+				<column_definitions>
+					<column_definition label="Year" width="15"/>
+					<column_definition label="Location" width="35"/>
+					<column_definition label="Surgeon" width="25"/>
+					<column_definition label="Type Surgery" width="25"/>
+					<column_definition label="Benefit (Yes/No)" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		&PAIN_SYSTEM_REVIEW;
+		&SUBSTANCE_DEVELOPMENT_BACKGROUND;
+		&PAIN_DISABILITY_INDEX;	
+		 <question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition that you would like to tell us?">
+		 	<free_form_response height="3"/>
+		 </question>	
+	</question_group>
+</questionnaire>	

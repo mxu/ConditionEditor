@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+     &PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospital admissions." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. "/>
+	<material id="X-rays" description="Report and films." mandatory="true"/>
+	<material id="CT scan" description="Report and films." mandatory="true"/>
+	<material id="Barium swallow" description="Reports and films." mandatory="true"/>
+	<material id="Esophagoscopy" description="Report and films." mandatory="true"/>
+	<material id="Ultrasound" description="Report and films." mandatory="true"/>
+	<material id="Nuclear scan" description="Report and films." mandatory="true"/>
+	<instruction text=" The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="24 hour esophageal PH monitoring" description="Laboratory report (if done)." mandatory="false"/>
+	<material id="EKG" description="Report only (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to your condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

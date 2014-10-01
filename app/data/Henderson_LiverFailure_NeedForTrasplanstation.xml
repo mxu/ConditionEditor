@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Henderson_LiverFailure_NeedForTrasplanstationMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Henderson_LiverFailure_NeedForTrasplanstationQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Liver Failure (need for transplantation)" id="Liver Failure (need for transplantation)">
+			<keyword text="liver"/>
+			<keyword text="failure"/>
+			<keyword text="transplantation"/>
+			<keyword text="hepatic"/>
+			<keyword text="transplant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

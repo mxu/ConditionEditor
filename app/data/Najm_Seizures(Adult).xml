@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Najm_Seizures(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Najm_Seizures(Adult)Questionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Neurology" name="Neurology">
+		<section description="" name="">
+			<condition cost="745.00" description="Seizures (Adult)" id="Seizures (Adult)">
+				<keyword text="spells"/>
+				<keyword text="fits"/>
+				<keyword text="petit mal"/>
+				<keyword text="seizure"/>
+				<keyword text="grand mal"/>
+				<keyword text="epilepsy"/>
+				<keyword text="tonic-clonic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Epilepsy (Adult)" id="Epilepsy (Adult)">
+				<keyword text="spells"/>
+				<keyword text="fits"/>
+				<keyword text="petit mal"/>
+				<keyword text="seizure"/>
+				<keyword text="grand mal"/>
+				<keyword text="epileptic"/>
+				<keyword text="tonic-clonic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

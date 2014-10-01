@@ -1,0 +1,21 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports for all relevant surgeries done within the last 3 years." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following diagnostic and radiologic studies done in the last 3 years will be required.   Reports and (actual) films (not copies) are needed. These studies to include the following:"/>
+	<material id="Brain MRI Scans" description="Reports and films." mandatory="true"/>
+	<material id="Brain CT Scans" description="Reports and films." mandatory="true"/>
+	<material id="Spine X-Rays" description="Reports and films." mandatory="true"/>
+	<material id="Spinal Tap (CSF Fluid)" description="Laboratory reports for lumbar punctures (if done)." mandatory="true"/>
+	<material id="EEG" description="Report only." mandatory="true"/>
+	<material id="Echocardiogram" description="Report only." mandatory="true"/>
+	<material id="Blood test results" description="Thyroid level, B6, B12, Anticonvulsive medication levels (example Dilantin, Tegrotal) laboratory results." mandatory="true"/>
+	<material id="Video" description="Video of patient which demonstrates patient's gait while walking." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to your condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

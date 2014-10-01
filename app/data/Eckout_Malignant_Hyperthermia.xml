@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Eckout_Malignant_HyperthermiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Eckout_Malignant_HyperthermiaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Anesthesia" name="Anesthesia">
+		<section description="" name="">
+			<condition cost="745.00" description="Malignant Hyperthermia" id="Malignant Hyperthermia" active="true">
+				<keyword text="anesthesia"/>
+				<keyword text="anesthetic"/>
+				<keyword text="anesthesiology"/>
+				<keyword text="reaction"/>
+				<keyword text="fever"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Physician reports of any and all other treatments received for this diagnosis." mandatory="true"/>
+	<material id="Case summary" description="Case summary from your physician OR a detailed chronological reconstruction of the case submitted by patient." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following radiology and diagnostic studies done in the last 3 years are required.  If indicated, the actual original films (not copies) of the studies and reports will be needed.&lt;/B&gt;"/>
+	<material id="Chest x-ray" description="Report and films" mandatory="true"/>
+	<material id="Polysomnogram (Nighttime sleep study)" description="Report including oxygen saturation and CO2." mandatory="true"/>
+	<material id="Blood tests" description="Report to include CBC (Complete blood count) and TFT's (Thyroid function tests)." mandatory="true"/>
+	<material id="CBC (Complete blood count)" description="Report to include CBC (Complete blood count) and TFT's (Thyroid function tests)." mandatory="true"/>
+	<material id="TFTs (Thyroid function tests)" description="Report and films." mandatory="true"/>
+	<material id="Lateral head measurements" description="Report required, if surgery is recommended." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last six months." mandatory="false"/>
+	<material id="MSLT (Multiple sleep latency testing)" description="Report only." mandatory="false"/>
+	<material id="Echocardiogram" description="Report only." mandatory="false"/>
+	<material id="CT scan" description="Report only." mandatory="false"/>
+	<material id="MRI scan" description="Report only." mandatory="false"/>
+	<material id="Neck x-rays" description="Report only." mandatory="false"/>
+	<material id="Fiberoptic evaluation" description="Fiberoptic evaluation of velopharynx to include the following assessment:  Presence of tonsils, distance of palate from the post-pharyngeal wall, degree of pharyngeal compression, level of the palate: MALAMPATTI I, II or III, degree of nasal obstruction, delineation of sites of obstruction." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

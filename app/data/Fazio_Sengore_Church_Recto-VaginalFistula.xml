@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Sengore_Church_Recto-VaginalFistulaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Sengore_Church_Recto-VaginalFistulaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<!--<condition cost="745.00" description="Recto-Vaginal Fistula" id="Recto-Vaginal Fistula" active="false">
+				<keyword text="vagina"/>
+				<keyword text="rectum"/>
+				<keyword text="fistula"/>
+				<keyword text="recto-vaginal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>-->
+		</section>
+	</department>
+</division>

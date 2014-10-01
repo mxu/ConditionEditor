@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Streem_Noble_KidneyStoneMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Streem_Noble_KidneyStoneQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urological Institute">
+		<section description="" name="">
+			<condition cost="565.00" description="Kidney Stones" id="Kidney Stones">
+				<keyword text="Kidney"/>
+				<keyword text="Stone"/>
+				<keyword text="Renal"/>
+				<keyword text="Calculus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

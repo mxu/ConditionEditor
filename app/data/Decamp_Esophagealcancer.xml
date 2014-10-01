@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Decamp_EsophagealcancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Decamp_EsophagealcancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Thoracic and Cardiovascular Surgery" name="Thoracic and Cardiovascular Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Esophageal Cancer" id="Esophageal Cancer">
+				<keyword text="esophageal"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="malignancy"/>
+				<keyword text="Ca"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

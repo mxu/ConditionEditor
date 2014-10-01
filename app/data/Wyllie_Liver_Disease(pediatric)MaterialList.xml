@@ -1,0 +1,34 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physicial assessment of the patient's condition, description of current signs and symptoms &lt;u&gt; including serial growth points (height and weight). &lt;/u&gt; Report can be written by either primary care physician or physician who diagnosed and is treating the condition." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by the patient's physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all surgeries/biopsies." mandatory="true"/>
+	<material id="Case summary" description="Physician's case summary including key findings from previous testing. This can be written by either the primary care physician or the physician who diagnosed and is treating the patient's condition." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following current laboratory studies (blood test reports) will be required: &lt;/b&gt;"/>
+	<material id="CBC (Complete blood count)" description="Blood Test results." mandatory="true"/>
+	<material id="Comprehensive Metabolic Panel (CMP)" description="Blood Test results." mandatory="true"/>
+	<material id="Prothrombin Time (PT)" description="Blood Test results." mandatory="true"/>
+	<material id="Partial Prothrombin Time (PTT)" description="Blood Test results." mandatory="true"/>
+	<material id="Alkaline Phosphatase" description="Blood Test results." mandatory="true"/>
+	<material id="Y-Glutamyl Transpeptidase (GGT)" description="Blood Test results." mandatory="true"/>
+	<material id="Urinalysis" description="Urine Test results." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following special labs (blood test reports) will be required: &lt;/b&gt;"/>
+	<material id="ANA" description="Blood test results." mandatory="true"/>
+	<material id="Smooth muscle and LKM antibodies" description="Blood test results." mandatory="true"/>
+	<material id="Ceruloplasmin" description="Blood test results." mandatory="true"/>
+	<material id="Iron and Iron Binding Capacity" description="Blood test results." mandatory="true"/>
+	<material id="Markers for Chronic Hepatitis" description="Blood test results." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated.  &lt;/b&gt;"/>
+	<material id="Abdominal X-rays" description="Report and films." mandatory="true"/>
+	<material id="Endoscopy (upper and/or lower)" description="Reports and films (pictures)." mandatory="true"/>
+	<material id="Liver Ultrasound" description="Reports and films." mandatory="true"/>
+	<material id="CT of the abdomen" description="Reports and films. (If done)." mandatory="true"/>
+	<material id="Liver and Spleen Scan" description="Reports and films. (If done)." mandatory="true"/>
+	<material id="Pathology" description="Pathology slides and reports from any biopsies done. (If done)" mandatory="true"/>
+	<material id="OTHER" description="Any other medical information you or your physician may deem is pertinent to the consultation." mandatory="false"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; If any items listed from the forms or checklist are missing, there will be a delay in our ability to begin the consultation.  On the above checklist, certain items are indicated as mandatory.  If these items are missing from the package of materials received by The Cleveland Clinic we will not be able to begin to process your request.  The items that are not mandatory, if available should be sent.  These items will enhance our physician's ability to provide a more comprehensive second opinon consultation. &lt;/b&gt;"/>
+		&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

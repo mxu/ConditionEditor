@@ -1,0 +1,18 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report." description="Reports need to contain:								
+		a).		   Current physical assessment of patient condition 					
+		b).		   Description of current signs and symptoms 					
+This can be written by either your primary care physician or physician who diagnosed or is treating your condition" mandatory="true"/>
+	<material id="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." description="" mandatory="true"/>
+	<material id="If prior therapy for diagnosis has taken place, an accurate and complete summary of this therapy is essential." description="Above report(s) should include all treatments to date and should be summarized by your treating physician(s)." mandatory="true"/>
+	<material id="Surgical reports of any and all prior relevant surgeries (i.e.: laparoscopy, etc. )." description="" mandatory="true"/>
+	<material id="Discharge summaries from all hospital admissions within the last year and all admissions relevant to the consultation." description="" mandatory="true"/>
+	<material id="Pathology report and glass slides from all biopsies done." description="" mandatory="true"/>
+	<material id="Pelvic ultrasound report and actual films." description="" mandatory="true"/>
+	<material id="CT of abdomen and pelvis report and actual films." description="" mandatory="true"/>
+	<material id="MRI report and actual films." description="" mandatory="false"/>
+	<material id="Recent bloodwork results." description="" mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

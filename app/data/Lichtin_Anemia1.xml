@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lichtin_Anemia1MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lichtin_Anemia1Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Hemochromatosis" id="Hemochromatosis">
+				<keyword text="blood"/>
+				<keyword text="serum"/>				
+				<keyword text="iron"/>
+				<keyword text="hemoglobin"/>
+				<keyword text="overload"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Anemia of Chronic Disease" id="Anemia of Chronic Disease">
+				<keyword text="anemia"/>
+				<keyword text="chronic"/>				
+				<keyword text="blood"/>
+				<keyword text="low"/>
+				<keyword text="count"/>
+				<keyword text="hemoglobin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Iron Deficiency Anemia" id="Iron Deficiency Anemia">
+				<keyword text="iron"/>
+				<keyword text="deficiency"/>				
+				<keyword text="blood"/>
+				<keyword text="low"/>
+				<keyword text="count"/>
+				<keyword text="hemoglobin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Microcytic Anemia" id="Microcytic Anemia">
+				<keyword text="microcytic"/>
+				<keyword text="blood"/>
+				<keyword text="anemia"/>
+				<keyword text="iron"/>
+				<keyword text="transferrin"/>
+				<keyword text="rbc"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Macrocytic Anemia" id="Macrocytic Anemia">
+				<keyword text="macrocytic"/>
+				<keyword text="blood"/>
+				<keyword text="anemia"/>
+				<keyword text="rbc"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

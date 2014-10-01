@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Multiple_Sclerosis(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Multiple_Sclerosis(Adult)Questionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Mellen Center" name="Mellen Center">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Multiple Sclerosis" id="Multiple Sclerosis">
+				<keyword text="autoimmune"/>
+				<keyword text="disease"/>
+				<keyword text="multiple"/>
+				<keyword text="sclerosis"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="attack"/>
+				<keyword text="episode"/>
+				<keyword text="myelin"/>
+				<keyword text="sheath"/>
+				<keyword text="nerve"/>
+				<keyword text="condition"/>
+				<keyword text="remission"/>
+				<keyword text="balance"/>
+				<keyword text="coordination"/>
+				<keyword text="tremor"/>
+				<keyword text="spasm"/>
+				<keyword text="weakness"/>
+				<keyword text="spasticity"/>
+				<keyword text="relapse"/>
+				<keyword text="multiple sclerosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Devic's Disease" id="Devic's Disease">
+				<keyword text="autoimmune"/>
+				<keyword text="disease"/>
+				<keyword text="multiple"/>
+				<keyword text="sclerosis"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="attack"/>
+				<keyword text="episode"/>
+				<keyword text="myelin"/>
+				<keyword text="sheath"/>
+				<keyword text="nerve"/>
+				<keyword text="condition"/>
+				<keyword text="remission"/>
+				<keyword text="balance"/>
+				<keyword text="coordination"/>
+				<keyword text="tremor"/>
+				<keyword text="spasm"/>
+				<keyword text="weakness"/>
+				<keyword text="spasticity"/>
+				<keyword text="relapse"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Neuromyelitis Optica" id="Neuromyelitis Optica">
+				<keyword text="autoimmune"/>
+				<keyword text="disease"/>
+				<keyword text="multiple"/>
+				<keyword text="sclerosis"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="attack"/>
+				<keyword text="episode"/>
+				<keyword text="myelin"/>
+				<keyword text="sheath"/>
+				<keyword text="nerve"/>
+				<keyword text="condition"/>
+				<keyword text="remission"/>
+				<keyword text="balance"/>
+				<keyword text="coordination"/>
+				<keyword text="tremor"/>
+				<keyword text="spasm"/>
+				<keyword text="weakness"/>
+				<keyword text="spasticity"/>
+				<keyword text="relapse"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>
+
+

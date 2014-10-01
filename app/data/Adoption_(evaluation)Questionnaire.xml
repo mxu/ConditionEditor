@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Adoption Questionnaire">
+		<question mandatory="true" prompt="What is the primary reason for which you are seeking this consultation?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="What three (3) questions would you most like to ask Dr. Schulte?">
+			<table_response initial_rows_to_display="3" add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Question" width="75"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="What have you been told the child's age is (if unsure, please indicate)?">
+			<free_form_response/>
+		</question>
+        <question mandatory="false" prompt="What have you been told the child's weight is (if unsure, please indicate)?  List all measurements and dates you've been given.">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="false" prompt="What have you been told the child's height (or length) is (if unsure, please indicate)?  List all measurements and dates you've been given.">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="false" prompt="What have you been told the child's head circumference (if unsure please indicate)? List all measurements and dates you've been given.">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="false" prompt="What have you been told the child's general overall health is?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Excellent"/>
+				<selection selected="false" text="Very Good"/>
+				<selection selected="false" text="Good"/>
+				<selection selected="false" text="Fair"/>
+				<selection selected="false" text="Poor"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What is the child's ethnic origin (if unsure, please indicate)?">
+			<free_form_response/>
+		</question>
+		<question mandatory="false" prompt="From what country is the child being adopted?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Belarus"/>
+				<selection selected="false" text="Bolivia"/>
+				<selection selected="false" text="Brazil"/>
+				<selection selected="false" text="Bulgaria"/>
+				<selection selected="false" text="Cambodia"/>
+				<selection selected="false" text="Chile"/>
+				<selection selected="false" text="China"/>
+				<selection selected="false" text="Columbia"/>
+				<selection selected="false" text="Costa Rica"/>
+				<selection selected="false" text="Dominican Republic"/>
+				<selection selected="false" text="Ecuador"/>
+				<selection selected="false" text="El Salvador"/>
+				<selection selected="false" text="Ethiopia"/>
+				<selection selected="false" text="Guatemala"/>
+				<selection selected="false" text="Haiti"/>
+				<selection selected="false" text="Honduras"/>
+				<selection selected="false" text="India"/>
+				<selection selected="false" text="Japan"/>
+				<selection selected="false" text="Kazakhstan"/>
+				<selection selected="false" text="Korea"/>
+				<selection selected="false" text="Latvia"/>
+				<selection selected="false" text="Lithuania"/>
+				<selection selected="false" text="Mexico"/>
+				<selection selected="false" text="Moldova"/>
+				<selection selected="false" text="Paraguay"/>
+				<selection selected="false" text="Peru"/>
+				<selection selected="false" text="Philippines"/>
+				<selection selected="false" text="Poland"/>
+				<selection selected="false" text="Russia"/>
+				<selection selected="false" text="Romania"/>
+				<selection selected="false" text="South Korea"/>
+				<selection selected="false" text="Taiwan"/>
+				<selection selected="false" text="Thailand"/>
+				<selection selected="false" text="Ukraine"/>
+				<selection selected="false" text="Vietnam"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please provide location:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+        <question mandatory="false" prompt="Where is the child residing currently?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Orphanage">
+                    <question mandatory="true" prompt="If the child is in an orphanage, please provide location (country, province/state, city):">
+						<free_form_response height="1"/>
+					</question>
+                </selection>
+				<selection selected="false" text="Foster Home">
+                    <question mandatory="true" prompt="If the child is in an foster home, please provide location (country, province/state, city):">
+						<free_form_response height="1"/>
+					</question>
+                </selection>
+                <selection selected="false" text="Other">
+                    <question mandatory="true" prompt="If the child elsewhere, please provide location (country, province/state, city):">
+						<free_form_response height="1"/>
+					</question>
+                </selection>
+				<selection selected="false" text="Unsure"/>
+            </item_response>
+        </question>
+		<question mandatory="false" prompt="Have you been told the child has (or has had) any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Allergies"/>
+                <selection selected="false" text="Anemia"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="Behavioral disorder"/>
+				<selection selected="false" text="Bleeding disorder"/>
+				<selection selected="false" text="Bronchitis"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Colds (frequent)"/>
+				<selection selected="false" text="Congenital heart disease"/>
+				<selection selected="false" text="Developmental delay"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Ear infections"/>
+				<selection selected="false" text="Flu Syndrome"/>
+				<selection selected="false" text="Gastroenteritis"/>
+                <selection selected="false" text="Hernias"/>
+                <selection selected="false" text="Immunodeficiency"/>
+				<selection selected="false" text="Infectious disease">
+					<question mandatory="true" prompt="If you checked Infectious Disease, please indicate type(s) below:">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Hepatitis A"/>
+                            <selection selected="false" text="Hepatitis B"/>
+                            <selection selected="false" text="Hepatitis C"/>
+							<selection selected="false" text="Tuberculosis (TB)"/>
+							<selection selected="false" text="AIDS"/>
+							<selection selected="false" text="HIV"/>
+							<selection selected="false" text="Syphilis"/>
+                            <selection selected="false" text="Other">
+                            <question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="3"/>
+								</question>
+                                </selection>				
+                        </item_response>
+                    </question>
+                </selection>				
+				<selection selected="false" text="Kidney disease"/>
+				<selection selected="false" text="Liver disease"/>
+				<selection selected="false" text="Lung disease"/>
+				<selection selected="false" text="Lymphadenopathy"/>
+				<selection selected="false" text="Meningitis"/>
+				<selection selected="false" text="Migraine"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Seizures"/>
+				<selection selected="false" text="Skin/Appendage Infection(s)"/>
+				<selection selected="false" text="Thyroid disease"/>
+				<selection selected="false" text="Urticaria"/>
+				<selection selected="false" text="Vascular disease"/>
+				<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="3"/>
+								</question>
+				</selection>				
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any hospitalizations the child may have experienced?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are aware of any hospitalizations the child may have experienced, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date" width="10"/>
+								<column_definition label="Reason (illness)&lt;br/>('X' if not sure)" width="25"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="Location" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any surgical procedures the child may have undergone?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are aware of any surgical procedures the child may have undergone, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date" width="10"/>
+								<column_definition label="Type of Procedure&lt;br/>('X' if not sure)" width="25"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="Location" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any medications the child has taken or is currently taking?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are aware of any medications the child has taken or is currently taking, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+                                <column_definition label="Date" width="10"/>
+								<column_definition label="Name of Medication" width="20"/>
+								<column_definition label="Frequency &lt;br&gt; (example: once per day, etc.)" width="25"/>
+								<column_definition label="Dosage (if known)" width="20"/>
+								<column_definition label="Reason for Taking" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any drug and / or food allergies that the child has?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are aware of any drug and / or food allergies, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Drug / Food" width="20"/>
+								<column_definition label="Type of Reaction" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any specific health problems that the child has?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are aware of any specific health problems, please describe the details below:">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you aware of any immunizations (vaccinations) the child has received?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are you aware of any immunizations (vaccinations) the child has received, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date" width="10"/>
+								<column_definition label="Type of Vaccination" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you been given information regarding the developmental milestones the child has met?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given information regarding the developmental milestones the child has met, please describe in detail below (explain what the child is able to do):">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you been given information regarding any developmental delay(s) the child has?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given information regarding any developmental delay(s) the child has, please describe the details below (explain what the child is unable to do):">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there any other information you have regarding this child?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If there is any other information you have regarding this child, please provide additional information below:">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+	</question_group>
+</questionnaire>

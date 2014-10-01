@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wyllie_Neonatal_Liver_Disease(pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wyllie_Neonatal_Liver_Disease(pediatric)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Neonatal Liver Disease (pediatric)" id="Neonatal Liver Disease (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neonatal Hepatitis (pediatric)" id="Neonatal Hepatitis (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Biliary Atresia (pediatric)" id="Biliary Atresia (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Galactosemia (pediatric)" id="Galactosemia (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Arteriohepatic Dyspiasia (pediatric)" id="Arteriohepatic Dyspiasia (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Alagille Syndrome (pediatric)" id="Alagille Syndrome (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Watson-Miller Syndrome (pediatric)" id="Watson-Miller Syndrome (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

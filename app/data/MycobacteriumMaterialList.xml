@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+    <instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/b&gt;"/>
+    <material id="Primary physician or specialist physician's last report" description="Report should contain a current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+    <material id="Physician's letters" description="Copies of all letters sent to patient by his/her physician (if received)." mandatory="true"/>
+    <material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+    <material id="Operative reports" description="Reports are required for all pertinent prior surgeries." mandatory="true"/>
+    <material id="Specialist physician's case summary" description="Specialist's report summarizing the details of patient's condition, past treatment(s), and patient's response. " mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated.  &lt;/B&gt;"/>
+	<material id="CT (Computed tomogram) scan of chest" description="Reports and actual films." mandatory="true"/>
+	<material id="Chest X-Ray" description="Reports and actual films." mandatory="true"/>
+	<material id="Blood tests" description="Laboratory blood test reports to include complete blood count &lt;u&gt;and&lt;/u&gt; chemistries, liver function tests and any other pertinent tests (PPD, Quantiferon)." mandatory="true"/>
+	<material id="Sputum tests" description="Laboratory reports from all sputum analysis." mandatory="true"/>
+	<material id="Tissue cultures" description="Laboratory reports from all tissue cultures." mandatory="true"/>
+	<material id="Pathology" description="Pathology reports and glass slides for all biopsies done." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt; The following list of radiologic and diagnostic studies, although not mandatory are &lt;B&gt;optional&lt;/B&gt; if done.  The actual original films (not copies) of the studies &lt;u&gt;and&lt;/u&gt; reports will be needed, if indicated:&lt;/B&gt;"/>
+	<material id="Current blood work" description="Any tests that are not listed above (Within the last 6 months)." mandatory="false"/>
+	<material id="Other" description="Any &lt;B&gt;other medical information&lt;/B&gt; you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	<instruction text="&lt;BR&gt; When obtaining the reports and films of above various studies, these may come from multiple venues: &lt;BR&gt; Example:  x-rays may have been performed in doctor's offices or hospital:  MRI may have been done in either a hospital or a freestanding MRI facility. &lt;BR&gt;&lt;B&gt;It is very important to obtain all pertinent studies from all sources.&lt;/B&gt;"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Please provide information below on all previous semen anaysis that the patient has had:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Date of Analysis" width="15"/>
+					<column_definition label="Sperm Count" width="15"/>
+					<column_definition label="Motility" width="15"/>
+					<column_definition label="Morphology" width="15"/>
+					<column_definition label="pH" width="15"/>
+					<column_definition label="Other" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please provide information below on all previous hormone levels that the patient has had:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Date of Procedure" width="15"/>
+					<column_definition label="Testosterone" width="15"/>
+					<column_definition label="LH" width="15"/>
+					<column_definition label="FSH" width="15"/>
+					<column_definition label="Prolactin" width="15"/>
+					<column_definition label="TSH" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please provide any other lab results pertinent to this diagnosis that the patient has had in the space below:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Date" width="15"/>
+					<column_definition label="Test" width="40"/>
+					<column_definition label="Result" width="35"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have the patient ever conceived a child?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="For how long has the patient and his partner been actively trying (number of months) to get pregnant?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="How long has the patient and his partner been together (number of years)?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="How old is the patient's partner (number of years)?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Has the patient's partner ever been pregnant?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, how many times?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="If yes, how many live deliveries has your partner had?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Did she have any miscarriages / abortions?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how many?">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient's partner ever been evaluated by a Gynecologist?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Is there anything that was found in her evaluation that would limit her reproductive potential?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of any of the following? (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Mumps Orchitis"/>
+				<selection selected="false" text="Urinary Tract Infection"/>
+				<selection selected="false" text="Sexually Transmitted Disease"/>
+				<selection selected="false" text="Prostatitis"/>
+				<selection selected="false" text="Epididymitis"/>
+				<selection selected="false" text="Orchitis"/>
+				<selection selected="false" text="Trauma to the testis"/>
+				<selection selected="false" text="Undescended testicle(s)"/>
+				<selection selected="false" text="N/A"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How often does the patient and his partner have intercourse (Number of times per week on average)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Does the patient and his partner use any lubricants during intercourse?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the name of the Lubricant?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How is the patient's libido (sexual desire)?">
+			<table_response initial_rows_to_display="1" add_row_increment="0" row_height="6">
+				<column_definitions>
+					<column_definition label="Patient's libido (sexual desire)" width="30"/>
+					<column_definition label="Comments" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Strong"/>
+								<selection selected="false" text="Average"/>
+								<selection selected="false" text="Weak"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient spend a lot of time in hot tubs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the patient's occupation?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Is the patient exposed to toxins in the workplace?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which toxins?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any family history of infertility?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any family history of cystic fibrosis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any other family history of medical problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient currently taking any medications?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information. Please be sure to include all prescription medications and non- prescription (over the counter) medications including, herbal remedies and vitamins.">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Medication Name" width="25"/>
+								<column_definition label="Dosage" width="15"/>
+								<column_definition label="How often taken?" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If yes, Please list any supplements you may be taking">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Supplement Name" width="25"/>
+								<column_definition label="Dosage" width="15"/>
+								<column_definition label="How often taken?" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had a recent history of any of the following? (Please check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Chills"/>
+				<selection selected="false" text="Chest Pain"/>
+				<selection selected="false" text="Shortness of Breath"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Palpitations"/>
+				<selection selected="false" text="Difficulty urinating"/>
+				<selection selected="false" text="Abdominal pain"/>
+				<selection selected="false" text="Bloody urine"/>
+				<selection selected="false" text="N/A"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended regarding treatment for patient's current condition? (medical management, surgery, etc.)">
+			<free_form_response height="6"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="2" add_row_increment="0" row_height="1">
+				<column_definitions>
+					<column_definition label="Physician" width="25"/>
+					<column_definition label="Specialty (Gynecologist, &lt;BR&gt; Primary care physician, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition that you would like to tell us?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_Leukemia_Lymphoma(Pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_Leukemia_Lymphoma(Pediatrics)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Acute Lymphocytic Leukemia (ALL) (Pediatric)" id="Acute Lymphocytic Leukemia (ALL) (Pediatric)">
+				<keyword text="ALL"/>
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="lymphocytic"/>
+				<keyword text="acute leukemia"/>
+				<keyword text="cancer"/>
+				<keyword text="bone marrow"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Acute Myelogenous Leukemia (AML) (Pediatric)" id="Acute Myelogenous Leukemia (AML) (Pediatric)">
+				<keyword text="myelogenous"/>
+				<keyword text="AMI"/>
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="acute"/>
+				<keyword text="cancer"/>
+				<keyword text="bone marrow"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Lymphocytic Leukemia (CLL) (Pediatric)" id="Chronic Lymphocytic Leukemia (CLL) (Pediatric)">
+				<keyword text="chronic"/>
+				<keyword text="leukemia"/>
+				<keyword text="cancer"/>
+				<keyword text="CLL"/>
+				<keyword text="lymphocytic"/>
+				<keyword text="blood"/>
+				<keyword text="bone marrow"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Myelogenous Leukemia (CML) (Pediatric)" id="Chronic Myelogenous Leukemia (CML) (Pediatric)">
+				<keyword text="myelogenous"/>
+				<keyword text="leukemia"/>
+				<keyword text="CML"/>
+				<keyword text="blood"/>
+				<keyword text="chronic"/>
+				<keyword text="bone marrow"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Transient Myeloproliferative Disorder (Pediatric)" id="Transient Myeloproliferative Disorder (Pediatric)">
+				<keyword text="leukemia"/>
+				<keyword text="cancer"/>
+				<keyword text="thrombocythemia"/>
+				<keyword text="blood"/>
+				<keyword text="polycythemia vera"/>
+				<keyword text="Myelofibrosis"/>
+				<keyword text="CML"/>
+				<keyword text="bone marrow"/>								
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lymphoma (Pediatric)" id="Lymphoma (Pediatric)">
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="lymph"/>
+				<keyword text="lymphoma"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Non-Hodgkin's Lymphoma (Pediatric)" id="Non-Hodgkin's Lymphoma (Pediatric)">
+				<keyword text="non hodgkin's"/>
+				<keyword text="lymphoma"/>
+				<keyword text="cancer"/>
+				<keyword text="hodgkin's"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hodgkin's Disease (Pediatric)" id="Hodgkin's Disease (Pediatric)">
+				<keyword text="neoplasm"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="lymphoma"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Leukemia (Pediatric)" id="Leukemia (Pediatric)">
+				<keyword text="leukemia"/>
+				<keyword text="neoplasm"/>
+				<keyword text="cancer"/>
+				<keyword text="bone marrow"/>
+				<keyword text="blood"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

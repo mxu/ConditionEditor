@@ -1,0 +1,12 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+        <material id="Doctor's notation of medications" description="Notes should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Surgical reports" description="Surgical reports of any and all prior kidney stone procedures." mandatory="true"/>
+	<material id="Current blood tests" description="Reports only for the following: Sodium, potassium, chloride, CO2, Urea Nitrogen (BUN), creatinine, calcium, PTH (parathyroid hormone) and uric acid." mandatory="true"/>
+	<material id="Current urine tests" description="Reports only to include: calcium, citrate, oxalate, pH, volume creatinine, uric acid and sodium. Also include URINE CULTURES" mandatory="true"/>
+	<material id="KUB (Kidney, ureter, bladder) X-Ray" description="Reports and films. (If the report is unavailable, films alone will be acceptable)" mandatory="true"/>
+	<material id="IVP and/or CT of abdomen and/or Lasix renal scan" description="Reports and films. (If the report is unavailable, films alone will be acceptable)" mandatory="true"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

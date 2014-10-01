@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="All Pathology reports (including immunophenotype and cytogenetics) and glass slides for any and all relevant biopsies done." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for any relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations. " mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;Radiologic and diagnostic studies done in the last 3 years. Studies to include:  The actual original films (not copies) of the studies and the reports will be needed. &lt;/b&gt;"/>
+	<material id="CT scan" description="Report and films." mandatory="true"/>
+	<material id="MRI scan" description="Report and films." mandatory="true"/>
+	<material id="Chest X-ray" description="Report and films." mandatory="true"/>
+	<material id="Other X-rays (if applicable)" description="Report and films." mandatory="true"/>
+	<material id="Current blood counts" description=" Reports of WBC, Hemoglobin, Platelet count and Lymphocyte count done within the last 6 months." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Other current blood work" description="Within last 6 months." mandatory="false"/>
+	<material id="Other information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

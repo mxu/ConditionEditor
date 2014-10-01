@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "VocalCordParalysisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "VocalCordParalysisQuestionnaire.xml">
+]>
+<division description="Head and Neck" name="Head and Neck">
+	<department description="Head and Neck" name="Head and Neck">
+		<section description="" name="">
+			<condition cost="745.00" description="Vocal Cord Paralysis" id="Vocal Cord Paralysis">
+				<keyword text="vocal"/>
+				<keyword text="voice"/>
+				<keyword text="voice"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vocal Cord Leukoplakia" id="Vocal Cord Leukoplakia">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vocal Cord Polyp" id="Vocal Cord Polyp">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vocal Cord Nodules" id="Vocal Cord Nodules">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hoarseness" id="Hoarseness">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vocal Cord Dysplasia" id="Vocal Cord Dysplasia">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Functional Dysphonia" id="Functional Dysphonia">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Presbylarynges" id="Presbylarynges">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Benign Laryngeal Tumor" id="Benign Laryngeal Tumor">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Aging Voice" id="Aging Voice">
+				<keyword text="voice"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="paralysis"/>
+				<keyword text="polyp"/>
+				<keyword text="nodule"/>
+				<keyword text="hoarseness"/>
+				<keyword text="hoarse"/>
+				<keyword text="vocal cord"/>
+				<keyword text="sound"/>
+				<keyword text="throat"/>
+				<keyword text="leukoplakia"/>
+				<keyword text="dysplasia"/>
+				<keyword text="dysphonia"/>
+				<keyword text="larynx"/>
+				<keyword text="presbylarnges"/>
+				<keyword text="benign"/>
+				<keyword text="laryngeal"/>
+				<keyword text="tumor"/>
+				<keyword text="abnormality"/>
+				<keyword text="disorder"/>
+				<keyword text="impairment"/>
+				<keyword text="spasmodic"/>
+				<keyword text="spasms"/>
+				<keyword text="aging voice"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

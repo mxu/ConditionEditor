@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 NT (http://www.xmlspy.com) by Harsha Reddy (ITD)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hussein_Myeloma(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hussein_Myeloma(Adult)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="MGUS (adult)" id="MGUS (adult)" active="true">
+				<keyword text="myeloma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Monoclonal Protein (adult)" id="Monoclonal Protein (adult)" active="true">
+				<keyword text="myeloma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Multiple Myeloma (adult)" id="Multiple Myeloma (adult)" active="true">
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Plasma Cell Dysplasia (adult)" id="Plasma Cell Dysplasia (adult)" active="true">
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Plasmacytoma (adult)" id="Plasmacytoma (adult)" active="true">
+				<keyword text="myeloma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="POEMS Syndrome (adult)" id="POEMS Syndrome (adult)" active="true">
+				<keyword text="myeloma"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Myeloma (adult)" id="Myeloma (adult)" active="true">
+				<keyword text="multiple"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

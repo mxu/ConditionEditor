@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wyllie_Esophageal_DisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wyllie_Esophageal_DisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Achalasia (pediatric)" id="Achalasia (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Esophageal Sphincter Dysfunction (pediatric)" id="Esophageal Sphincter Dysfunction (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Esophageal Spasm (pediatric)" id="Esophageal Spasm (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Esophageal Diverticula (pediatric)" id="Esophageal Diverticula (pediatric)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

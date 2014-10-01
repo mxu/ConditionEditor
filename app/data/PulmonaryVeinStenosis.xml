@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../testCondition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "PulmonaryVeinStenosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "PulmonaryVeinStenosisQuestionnaire.xml">
+]>
+<division description="Pediatric Cardiology" name="Pediatric Cardiology">
+	<department description="Pediatric Cardiology" name="Pediatric Cardiology">
+		<section description="" name="">
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<counter/>
+			<condition cost="565.00" description="Pulmonary Vein Stenosis" id="Pulmonary Vein Stenosis">
+				<keyword text="obstruction"/>
+				<keyword text="blockage"/>
+				<keyword text="blood"/>
+				<keyword text="vessels"/>
+				<keyword text="lung"/>
+				<keyword text="narrowing"/>
+				<keyword text="vein"/>
+				<keyword text="wall"/>
+				<keyword text="pulmonary"/>
+				<keyword text="stenosis"/>
+				<keyword text="myofibroblast"/>
+				<keyword text="cells"/>
+				<keyword text="isolated"/>
+				<keyword text="lesion"/>
+				<keyword text="AVSD"/>
+				<keyword text="BPD"/>
+				<keyword text="PDA"/>
+				<keyword text="ASD"/>
+				<keyword text="VSD"/>
+				<keyword text="VEGF"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,154 @@
+<question mandatory="true" prompt="What skin care products does the patient currently use?">
+	<free_form_response/>
+</question>
+<question mandatory="false" prompt="How often does the patient use skin care products ?">
+	<free_form_response/>
+</question>
+<question mandatory="true" prompt="In general, would you say the patient's health is:">
+	<item_response drop_down_style="false" single_response="true">
+		<selection selected="false" text="Excellent"/>
+		<selection selected="false" text="Very Good"/>
+		<selection selected="false" text="Good"/>
+		<selection selected="false" text="Fair"/>
+		<selection selected="false" text="Poor"/>
+	</item_response>
+</question>
+<question mandatory="true" prompt="Is there anything related to the patient's health that would prevent the patient from having surgery?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">					
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+</question>
+<question mandatory="true" prompt="What is the patient's age?">
+	<free_form_response/>
+</question>
+<question mandatory="true" prompt="Patient's height:">
+	<free_form_response/>
+</question>
+<question mandatory="true" prompt="Patient's weight:">
+	<free_form_response/>
+</question>
+<question mandatory="true" prompt="Has the patient had any past surgery?">
+	<item_response drop_down_style="false" single_response="true">
+		<selection selected="false" text="No"/>
+		<selection selected="false" text="Yes">
+			<question mandatory="true" prompt="If yes, please provide the following information:">
+				<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+					<column_definitions>
+						<column_definition label="Year" width="8"/>
+						<column_definition label="Type of procedure" width="20"/>
+						<column_definition label="Not Sure" width="5"/>
+						<column_definition label="Physician" width="15"/>
+						<column_definition label="Hospital/Clinic" width="25"/>
+						<column_definition label="City, State" width="35"/>
+					</column_definitions>
+				</table_response>
+			</question>
+		</selection>
+	</item_response>
+</question>
+<question mandatory="true" prompt="Is the patient currently taking any medications? (Prescription and non-prescription including over the counter medications, herbal remedies, and vitamins.)">
+	<item_response drop_down_style="false" single_response="true">
+		<selection selected="false" text="No"/>
+		<selection selected="false" text="Yes">
+			<question mandatory="true" prompt="If yes, please provide the following information.">
+				<table_response initial_rows_to_display="3" add_row_increment="2">
+					<column_definitions>
+						<column_definition label="Name of medication" width="30"/>
+						<column_definition label="Dosage" width="15"/>
+						<column_definition label="How often taken?" width="20"/>
+						<column_definition label="How long has been taking?" width="20"/>
+					</column_definitions>
+				</table_response>
+			</question>
+		</selection>
+	</item_response>
+</question>
+<question mandatory="true" prompt="Does the patient have any allergies (drug, food, or other)? ">
+	<item_response drop_down_style="false" single_response="true">
+		<selection selected="false" text="Not sure"/>
+		<selection selected="false" text="No"/>
+		<selection selected="false" text="Yes">
+			<question prompt="If yes, please list drug allergies and type of reaction:">
+				<table_response initial_rows_to_display="3" add_row_increment="2">
+					<column_definitions>
+						<column_definition label="Name of drug / food /item" width="25"/>
+						<column_definition label="Type of reaction" width="40"/>
+					</column_definitions>
+				</table_response>
+			</question>
+		</selection>
+	</item_response>
+</question>
+
+
+<question mandatory="true" prompt="Has the patient ever smoked or used nicotine products?">
+	<item_response drop_down_style="false" single_response="true">
+		<selection selected="false" text="Not applicable"/>
+		<selection selected="false" text="No"/>
+		<selection selected="false" text="Yes">
+			<question mandatory="true" prompt="If yes, please provide details below:">
+				<table_response add_row_increment="2">
+					<column_definitions>
+						<column_definition label="Type" width="20"/>
+						<column_definition label="How long (years)" width="25"/>
+						<column_definition label="# of packs/day or describe usage" width="35"/>
+						<column_definition label="Stopped (Month / Year)" width="20"/>
+					</column_definitions>
+					<table_data>
+						<cell>Cigarettes</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Cigars</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Pipe</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Chewing tobacco</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Nicotine patch</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Nicotine gum</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Other (please list below)</cell>
+						<cell/>
+						<cell/>
+						<cell/>
+					</table_data>
+				</table_response>
+			</question>
+		</selection>
+	</item_response>
+</question>	
+
+
+
+<question mandatory="false" prompt="Is there anything else you would like to tell us that may be important for us to know related to this consultation ?">
+	<free_form_response height="10"/>
+</question>

@@ -1,0 +1,21 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Specialist physician's report" description="Report from treating Neurologist.  The report should contain current physicial assessment, description of current signs and symptoms." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Neurologist's reports of outlining treatiment of Parkinson's Disease.  Response to treatment and complications.  Include initial visit in which diagnosis of Parkinsons' was made if possible." mandatory="true"/>
+	<material id="Primary Care Physician Report" description="Review of current medical problems.  Current conditions and treatments." mandatory="true"/>
+	<material id="Doctor's Letters" description="Copies fo all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Neuropsychological testing" description="Report of any neuropsychological assessment or cognitive screening if available." mandatory="true"/>
+	<material id="Psychiatry Evaluation" description="Report of any psychological or counseling or counseling assessment." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of diagnostic medical information is required to proceed with your request for a second opinion. Reports and (actual) films for all radiology studies done in the last 3 years, if indicated. These studies to include the following: &lt;/b&gt;"/>
+	<material id="Brain, Neck or back MRI or Head CT" description="Reports and films." mandatory="true"/>
+	<material id="EMG/NCS" description="Reports if available." mandatory="true"/>
+	<material id="Current blood work" description="Within the last six months." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional and highly recommended if done: &lt;/b&gt;"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

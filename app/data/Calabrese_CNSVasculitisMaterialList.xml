@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Harsha Reddy (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Report of principle specialist in your diagnosis" description="Report from the primary doctor involved in your care.  Ideally this would be prepared specifically for this evaluation, but a previous consultation or summary will suffice." mandatory="false"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies in the last 3 years will be required.  The actual original films (not copies) of the studies and reports will be needed , if indicated:"/>
+	<material id="Cerebral Angiogram" description="Report of the angiogram and copies or digital images of actual films (if done)." mandatory="true"/>
+	<material id="MRI(s)" description="Report of all MRI's and copies of most recent and initial films" mandatory="true"/>
+	<material id="Spinal tap (CSF fluid)" description="Laboratory reports of all lumbar punctures (if done)." mandatory="true"/>
+	<material id="Brain Biopsy" description="Pathology report and glass slides (if done)" mandatory="true"/>
+	<material id="CT Scan" description="Report only " mandatory="true"/>
+	<material id="SPECT Scan" description="Report only" mandatory="true"/>
+	<material id="PET Scan" description="Report only" mandatory="true"/>
+	<material id="EEG" description="Report only" mandatory="true"/>
+	<material id="Echocardiogram" description="Report only" mandatory="true"/>
+	<material id="Hypercoagulation panel" description="Laboratory reports to include Protein C functional, Protein S clottable, Antithrombin III, Plasminogen, APC resistance,  Fibrinogen, Cardiolipin antibody screen, Plasma homocysteine and PT gene 20210. (Hypercoagulation cases only)" mandatory="true"/>
+	<material id="Anti-cardiolipin Antibody " description="Laboratory report only, if applicable." mandatory="true"/>
+	<material id="Factor V Leiden test" description="Laboratory report only. (Hypercoagulation cases only)" mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of radiologic and diagnostic studies, although not mandatory are optional if done.  The actual original films (not copies) of the studies will be needed, if indicated:"/>
+	<material id="Chest Xray" description="Report only" mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

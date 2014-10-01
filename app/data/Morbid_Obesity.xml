@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Morbid_ObesityMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Morbid_ObesityQuestionnaire.xml">
+]>
+<!-- Greenberg, Ouriel, and Ruschhaupt-->
+<division description="Surgery" name="Surgery">
+	<department description="Bariatrics and Metabolism" name="Bariatrics and Metabolism">
+		<section description="" name="">
+			<condition cost="565.00" description="Morbid Obesity (For Bariatric Surgery Evaluation)" id="Morbid Obesity (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Obesity (For Bariatric Surgery Evaluation)" id="Obesity (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Weight Management (For Bariatric Surgery Evaluation)" id="Weight Management (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Medical Weight Management (For Bariatric Surgery Evaluation)" id="Medical Weight Management (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Abnormal Weight Gain (For Bariatric Surgery Evaluation)" id="Abnormal Weight Gain (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Weight Loss (For Bariatric Surgery Evaluation)" id="Weight Loss (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Eating Disorder (For Bariatric Surgery Evaluation)" id="Eating Disorder (For Bariatric Surgery Evaluation)" active="true">
+				<keyword text="morbid"/>
+				<keyword text="obesity"/>
+				<keyword text="overweight"/>
+				<keyword text="eating"/>
+				<keyword text="disorder"/>
+				<keyword text="bariatric"/>
+				<keyword text="surgery"/>
+				<keyword text="bypass"/>
+				<keyword text="gastroplasty"/>
+				<keyword text="BMI"/>
+				<keyword text="body"/>
+				<keyword text="mass"/>
+				<keyword text="index"/>
+				<keyword text="fat"/>
+				<keyword text="nutrition"/>
+				<keyword text="nutritional"/>
+				<keyword text="weight"/>
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="management"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

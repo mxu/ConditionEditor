@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Samir (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a prior history of any other kidney problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has a prior history of any other kidney problems, please provide additional information below:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Diagnosis" width="25"/>
+								<column_definition label="Month/Year" width="18"/>
+								<column_definition label="Type of treatment" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If the patient has had kidney surgery, please indicate below which type of surgery was performed:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Partial nephrectomy (removal of tumor saving part or most of the kidney)"/>
+							<selection selected="false" text="Radical nephrectomy (removal of kidney)"/>
+							<selection selected="false" text="Not sure of type of surgery"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please indicate.">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a family history of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has a family history of cancer, please provide additional information below:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member" width="25"/>
+								<column_definition label="Maternal/Paternal" width="10"/>
+								<column_definition label="Type of cancer" width="20"/>
+								<column_definition label="Age at diagnosis" width="15"/>
+								<column_definition label="Current condition of relative" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How was the current diagnosis (one you are seeking a second opinion for) made? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="CAT scan"/>
+				<selection selected="false" text="IVP"/>
+				<selection selected="false" text="KUB"/>
+				<selection selected="false" text="Other X-rays"/>
+				<selection selected="false" text="Ultrasound"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Unknown"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list.">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was the patient's diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is the diagnosis?">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="When was the patient last examined by his / her physician for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="For how long has the patient had this problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than a month"/>
+				<selection selected="false" text="1-3 months"/>
+				<selection selected="false" text="4-6 months"/>
+				<selection selected="false" text="7-12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the problem">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list all imaging studies the patient has had done. Please include ALL studies (pre and post any treatments), and date the study was done. (choose all that apply)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" pct="70"/>
+					<column_definition label="Month" pct="15"/>
+					<column_definition label="Year" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>X-Rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT (of abdomen)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT (other)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>IVP</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>KUB</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Unknown</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient undergone surgery / surgical procedure(s) for the current condition (one you are seeking opinion for)?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If  the patient has undergone surgery / surgical procedure(s) for the current condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Surgery/Procedure" width="25"/>
+								<column_definition label="Month/Year" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If surgery has been performed, what is your general subjective impression of the experience?  (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient experiencing pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient is experiencing pain, where is the pain located?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Please rate patient's pain on the scale below: (1=minimal pain, 10=worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient experiencing frequency of urination?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient experiencing burning of urination?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient experiencing blood in his / her urine?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a prior history of kidney stones?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If  the patient has a prior history of kidney stones, what treatment(s) did the patient receive for the kidney stones(s)?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a urinary tract infection (UTI) associated with his / her current condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has a urinary tract infection, is the patient currently on an antibiotic medication for the infection?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If the patient is currently on an antibiotic medication for the infection, please list the name of the antibiotic, dosage, how taken, below.">
+									<table_response add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of antibiotic" width="40"/>
+											<column_definition label="Dosage" width="10"/>
+											<column_definition label="How often taken (1x/day, 2xday)" width="40"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the patient's current condition?">
+			<free_form_response height="4"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Physician" width="25"/>
+					<column_definition label="Specialty" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

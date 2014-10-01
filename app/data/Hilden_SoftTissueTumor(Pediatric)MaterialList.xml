@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT_PEDIATRIC;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your child's physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="Reports and glass slides for all relevant surgeries and/or biopsies." mandatory="true"/>
+	<material id="Operative reports" description="Reports from all relevant surgeries and/or biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any and all other treatments received for this diagnosis  (chemotherapy, radiation therapy, etc.).  If chemotherapy was used, chemotherapy road map reports will be required.  If radiation therapy was used, a copy of the completion note will be required.  Also, significant toxicities and the child's response to the therapy should be described." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following diagnostic medical information will be required in order to proceed with your request for a second opinion. (mandatory) Radiologic and diagnostic studies done in the last 3 years will be required.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="MRI scan of the tumor area" description="Report and films." mandatory="true"/>
+	<material id="CT scan of the tumor area" description="Report and films, if done." mandatory="true"/>
+	<material id="CT scan of the chest" description="Report and films, if done." mandatory="true"/>
+	<material id="Molecular genetics or cytogenitics" description="Report only." mandatory="true"/>
+	<material id="Chest x-ray" description="Report and films, if done." mandatory="true"/>
+	<material id="Bone scan" description="Report and films, if done." mandatory="true"/>
+	<material id="Other x-rays" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your child's physician may feel is pertinent to your child's condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

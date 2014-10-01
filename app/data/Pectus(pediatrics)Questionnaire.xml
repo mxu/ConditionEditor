@@ -1,0 +1,414 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are seeking a second opinion?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of congenital heart disease?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the information below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of congenital heart problem" width="25"/>
+								<column_definition label="Relationship to patient" width="20"/>
+								<column_definition label="Current condition of relative (if known)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Does the patient have a family history of pectus excavatum?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, did the family member undergo surgery to correct the condition?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, what is the current condition of the relative (if known)?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="How old was the patient when the chest abnormality was first discovered?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="How was the chest abnormality first discovered?	">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Who discovered the chest abnormality?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Is the patient presently anticipating surgery to correct the pectus excavatum?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what prompted this inquiry into surgical correction? (please describe in detail).">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient undergone prior surgery to correct the pectus excavatum?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the information below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date (Month /Year)" width="15"/>
+								<column_definition label="Type of procedure" width="20"/>
+								<column_definition label="Name of Physician" width="30"/>
+								<column_definition label="Name of Hospital" width="30"/>
+								<column_definition label="Location (City, State)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had a pacemaker inserted?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information: ">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Pacemaker" width="20"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Name of Physician" width="30"/>
+								<column_definition label="Name of Hospital" width="30"/>
+								<column_definition label="Location (City, State)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Date (Month / Year) pacemaker was last checked:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a family history of Marfan's syndrome?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the information below: ">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship to patient" width="20"/>
+								<column_definition label="Type of treatment done, (if any and if known)" width="30"/>
+								<column_definition label="Current condition of relative (if known)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a  history of Marfan's syndrome?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a family history of a heart murmur?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the information below:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship to patient" width="20"/>
+								<column_definition label="Type of treatment done, (if any and if known)" width="30"/>
+								<column_definition label="Current condition of relative (if known)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a heart murmur?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what was the age of the patient when the murmur was discovered?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="By whom (name of physician) was  the murmur first discovered?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Since first discovered, has the heart murmur been?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Consistently heard"/>
+							<selection selected="false" text="Intermittently heard"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Which of the following best describes the physician's assessment of the heart  murmur?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Innocent murmur requiring no treatment"/>
+							<selection selected="false" text="Suspicious murmur requiring frequent follow-up"/>
+							<selection selected="false" text="Significant murmur requiring evaluation"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any of the following symptoms? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Rapid breathing"/>
+				<selection selected="false" text="Rapid heart rate"/>
+				<selection selected="false" text="Cyanosis (purple color)"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Dizziness"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please provide details:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of shortness of breath?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail what brings the shortness of breath on?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Does the shortness of breath occur at rest?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how long does the shortness of breath last?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does the shortness of breath occur  with activity?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how long does the shortness of breath last?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does the shortness of breath occur at BOTH rest and with activity?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how long does the shortness of breath last?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience difficulty with activities / sports / gym class relative to his / her peers?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail the difficulty (symptoms) experienced, how long it lasts, etc. (please describe in detail):">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of asthma?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes,  is the patient being treated with inhalers or other medications?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please provide additional information below">
+									<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of inhaler / medication" width="20"/>
+											<column_definition label="Dosage  of medication / number of puffs" width="30"/>
+											<column_definition label="Frequency of treatment" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of chest pain / chest discomfort? ">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, where specifically is the chest pain / chest discomfort located ? (please describe in detail).">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="How long does the chest pain / chest discomfort last ? (please describe in detail).">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="What makes the chest pain / discomfort worse?  (please describe in detail).">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="What makes the chest pain / discomfort better or relieves it ?(please describe in detail).">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of abnormal heart rhythms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient ever fainted?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain circumstances (number of times, how frequently, etc.)">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have an allergy / sensitivity to any of the following?  (choose all that apply)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Allergy" width="35"/>
+					<column_definition label="Explain" width="50"/>
+				</column_definitions>
+				<table_data>
+					<cell>Metal Allergy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Nickel Allergy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sensitivity to Jewelry</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sensitivity to Belt buckles</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please list all diagnostic studies (tests) patient has undergone and dates tests were completed:  (choose all that apply)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Diagnostic Test" width="45"/>
+					<column_definition label="Date (Month, year) of diagnosis" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Chest X-Ray</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan of Chest</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Digital photographs of Chest</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Echocardiogram</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Electrocardiogram (ECG, EKG)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Holter Monitor Exam</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pulmonary Function Tests</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Angiogram</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cardiac Catheterization</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cardiac Stress Test / Exercise Treadmill</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

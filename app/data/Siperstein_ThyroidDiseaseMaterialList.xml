@@ -1,0 +1,32 @@
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="All pathology reports and glass slides for any and all biopsies and/or fine needle aspirations done. " mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (chemotherapy, radiation therapy, etc.). If radiation therapy was used, a copy of the completion note will be required. Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<material id="Vocal cord exam" description="Physician's report of vocal cord exam." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary OR a detailed chronological reconstruction of the case submitted by the patient." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Radiologic and diagnostic studies done in the last 3 years(mandatory). The actual original films (not copies) of the studies and the reports will be needed."/>
+	<material id="CT scan" description="" mandatory="true"/>
+	<material id="MRI scan" description="" mandatory="true"/>
+	<material id="Thyroid ultrasound" description="" mandatory="true"/>
+	<material id="PET scan" description="" mandatory="true"/>
+<instruction text="Laboratory reports to include the following studies:  (mandatory)"/>
+	<material id="TSH" description="" mandatory="true"/>
+	<material id="Dose T4" description="" mandatory="true"/>
+	<material id="Free T4" description="" mandatory="true"/>
+	<material id="Total T4" description="" mandatory="true"/>
+	<material id="TFT (Thyroid function tests)" description="" mandatory="true"/>
+	<material id="Thyroglobulin" description="" mandatory="true"/>
+	<material id="Thyroglobulin Antibodies" description="" mandatory="true"/>
+	<material id="Calcitonin" description="" mandatory="true"/>
+	<material id="Carcinoembryonic Antigen (CEA)" description="" mandatory="true"/>
+<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

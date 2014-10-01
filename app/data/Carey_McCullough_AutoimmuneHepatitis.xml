@@ -1,0 +1,31 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Carey_McCullough_AutoimmuneHepatitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Carey_McCullough_AutoimmuneHepatitisQuestionnaire.xml">
+]>
+<division description="Gastroenterology" name="Gastroenterology">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Autoimmune Hepatitis(adult)" id="Autoimmune Hepatitis(adult)" active="true">
+				<keyword text="autoimmune"/>
+				<keyword text="hepatitis"/>
+				<keyword text="liver"/>
+				<keyword text="inflammation"/>
+				<keyword text="immune"/>
+				<keyword text="system"/>
+				<keyword text="attack"/>
+				<keyword text="cells"/>
+				<keyword text="inflammatory"/>
+				<keyword text="acute"/>
+				<keyword text="chronic"/>
+				<keyword text="ANA"/>
+				<keyword text="SMA"/>
+				<keyword text="LKM-1"/>
+				<keyword text="SLA/CP"/>
+				<keyword text="AMA"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

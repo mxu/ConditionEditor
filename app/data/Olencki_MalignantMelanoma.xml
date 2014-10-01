@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Olencki_MalignantMelanomaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Olencki_MalignantMelanomaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Malignant Melanoma (advanced)" id="Malignant Melanoma (advanced)">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Metastatic Malignant Melanoma" id="Metastatic Malignant Melanoma">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="spread"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

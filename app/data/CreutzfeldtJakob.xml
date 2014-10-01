@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "CreutzfeldtJakobMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "CreutzfeldtJakobQuestionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Mellen Center" name="Mellen Center">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Creutzfeldt-Jakob Disease" id="Creutzfeldt-Jakob Disease">
+				<keyword text="Creutzfeldt"/>
+				<keyword text="Jakob"/>
+				<keyword text="Disease"/>
+				<keyword text="Creutzfeldt-Jakob"/>
+				<keyword text="Brain"/>
+				<keyword text="Damage"/>
+				<keyword text="Mental"/>
+				<keyword text="Function"/>
+				<keyword text="Movement"/>
+				<keyword text="Confusion"/>
+				<keyword text="Blurred"/>
+				<keyword text="Vision"/>
+				<keyword text="Gait"/>
+				<keyword text="Disorientation"/>
+				<keyword text="Dementia"/>
+				<keyword text="CJD"/>
+				<keyword text="Degenerative"/>
+				<keyword text="Neurological"/>
+				<keyword text="Disorder"/>
+				<keyword text="Human"/>
+				<keyword text="Prion"/>
+				<keyword text="Rapidly"/>
+				<keyword text="Progressive"/>
+				<keyword text="Encephalopathy"/>
+				<keyword text="Lesions"/>
+				<keyword text="Sponge-like"/>
+				<keyword text="Proteins"/>
+				<keyword text="Abnormal"/>
+				<keyword text="Variant"/>
+				<keyword text="Transformation"/>
+				<keyword text="Sporadic"/>
+				<keyword text="Mutations"/>
+				<keyword text="Protein"/>
+				<keyword text="Gene"/>
+				<keyword text="Transmissible"/>
+				<keyword text="Spongiform"/>
+				<keyword text="Encephalitis"/>
+				<keyword text="Mad"/>
+				<keyword text="Cow"/>
+				<keyword text="Hallucinations"/>
+				<keyword text="Muscle"/>
+				<keyword text="Tone"/>
+				<keyword text="Stiffness"/>
+				<keyword text="Twitching"/>
+				<keyword text="Myoclonic"/>
+				<keyword text="Seizures"/>
+				<keyword text="Sleepiness"/>
+				<keyword text="Speech"/>
+				<keyword text="Impairment"/>
+				<keyword text="Cerebellum"/>
+				<keyword text="Ataxia"/>
+				<keyword text="Blindness"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+
+

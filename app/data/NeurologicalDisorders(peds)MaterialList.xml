@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<material_list>
+  &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	  <material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of 	current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." 	mandatory="true"/>
+	<material id="Initial neurology evaluation note" description="Reports if completed." mandatory="true"/>
+    <material id="Initial genetics evaluation note" description="Reports if completed." mandatory="true"/>
+    <material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+    <material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis." mandatory="true"/>
+    <material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+    <material id="Patient Pictures" description="Recent face-front, face-side, hands (palms up) and feet pictures." mandatory="true"/>	
+    <material id="Pathology" description="Pathology slides and written reports. (if biopsies done)" mandatory="true"/>
+    <instruction text="&lt;BR&gt;&lt;B&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/B&gt;"/>
+    <material id="Pre-natal Testing results" description="Reports of any pre-natal testing done." mandatory="true"/>
+    <material id="Electroencephalogram (EEG)" description="Reports and tracings." mandatory="true"/>
+    <material id="Brain MRI" description="Reports and films. (if done)" mandatory="true"/>
+    <material id="Brain CT Scan" description="Reports and films. (if done)" mandatory="true"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="true"/>
+	<material id="Current urine tests" description="Within the last 6 months. (if completed)" mandatory="true"/>
+	<material id="Any specialized testing done in skin fibroblasts or muscle tissue" description="Reports if testing was done." mandatory="true"/>
+	<material id="Metabolic or genetic tests" description="Reports if testing done." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of radiologic and diagnostic studies, although not mandatory, are &lt;B&gt;optional&lt;/B&gt; if done. Radiology films must be copied to compact disc (CD) for submission. &lt;/B&gt;"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

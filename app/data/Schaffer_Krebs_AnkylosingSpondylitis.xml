@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_AnkylosingSpondylitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_AnkylosingSpondylitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Ankylosing spondylitis of the knee" id="Ankylosing spondylitis of the knee">
+				<keyword text="joint "/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				<keyword text="acetabulum"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Ankylosing spondylitis of the hip" id="Ankylosing spondylitis of the hip">
+				<keyword text="joint "/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				<keyword text="acetabulum"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<!-- inactivated 2/3/05 Per Sharon Plona's request -->
+			<!-- moved to Gota_RheumatoidArthritis.xml to change to department 
+			<condition active="false" cost="565.00" description="Rheumatoid Arthritis" id="Rheumatoid Arthritis">
+				<keyword text="joint "/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				<keyword text="autoimmune"/>
+				<keyword text="RA"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition> -->
+         <!-- inactivated 2/3/05 Per Sharon Plona's request 
+			<condition active="false" cost="565.00" description="Juvenile Rheumatoid Arthritis" id="Juvenile Rheumatoid Arthritis">
+				<keyword text="joint "/>
+				<keyword text="degenerative"/>
+				<keyword text="autoimmune"/>
+				<keyword text="JRA"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition> -->
+
+		</section>
+	</department>
+</division>

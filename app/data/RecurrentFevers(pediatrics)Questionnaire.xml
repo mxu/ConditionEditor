@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+	
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding child's condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When was patient's diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+					
+		<question mandatory="true" prompt="At what age did the child's fevers begin?">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="On average, how may fever attacks does child have each month?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is there a fixed interval of time between fevers?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please expain in detail below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Are you able to predict patient's next fever attack within a several day window?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please expain in detail below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How many days does the child's fever attack last?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="How high does child's temperatures get? (please explain in detail below):">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="When patient is experiencing the fevers, does his/her temperature stay constant throughout the entire day or does it spike at night? (please explain in detail below):">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient given Tylenol (acetaminophen) for the fevers?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="How often given" width="15"/>
+								<column_definition label="Result  (explain if the medication helps)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient given Ibuprofen for the fevers?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="How often given" width="15"/>
+								<column_definition label="Result  (explain if the medication helps)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience any of the following signs / symptoms associated with the fevers?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Rash">
+					<question mandatory="true" prompt="If rash occurs with fevers, please describe in detail:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Abdominal pain"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Sore throat"/>
+				<selection selected="false" text="Red throat"/>
+				<selection selected="false" text="Enlarged lymph glands"/>
+				<selection selected="false" text="Mouth sores"/>
+				<selection selected="false" text="Swelling of skin around eyes"/>
+				<selection selected="false" text="Eye redness with discharge"/>
+				<selection selected="false" text="Muscle pain"/>
+				<selection selected="false" text="Joint pain"/>
+				<selection selected="false" text="Joint swelling"/>
+				<selection selected="false" text="Headaches"/>
+				<selection selected="false" text="Sensitivity to bright light"/>
+				<selection selected="false" text="Hearing loss"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you been provided with a diagnosis for child's condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the exact diagnosis?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When was the patient's diagnosis made?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="When was patient last seen by his/her physician for the condition (one you are seeking a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>	
+				
+		<question mandatory="true" prompt="Is child healthy between attacks?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Do vaccines trigger attacks?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Does emotional or physical stress trigger an attack?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+			
+		<question mandatory="true" prompt="Does exposure to cool temperatures trigger an attack?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Has your child had abdominal surgery during fever attack?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Does anyone else in the family have similar attacks?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Do any relatives in the family have kidney failure for unknown reasons?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child experienced any problems with growth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child had any problem(s) meeting developmental milestones, like walking or talking at appropriate ages?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child ever been diagnosed with hearing difficulty / loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Which best describes the child's parent's ancestries (mark all that apply)?">
+			<table_response add_row_increment="2" row_height="3">
+				<column_definitions>
+					<column_definition label="Child's parent's ancestries" width="45"/>
+					<column_definition label="Mother" width="10"/>
+					<column_definition label="Father" width="10"/>
+					<column_definition label="List specific countries or origin" width="25"/>
+					<column_definition label="Description" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell>Western European</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eastern European</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Asian</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mediterranean</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>African</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Latin American</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of above</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other, If other please list below:</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list below all of the diagnostic tests child has undergone to investigate the fevers (provide results if known):">
+			<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of diagnostic test" width="40"/>
+					<column_definition label="Date Performed" width="20"/>
+					<column_definition label="Results" width="25"/>
+				</column_definitions>
+			</table_response>
+	    </question>
+	
+		<question mandatory="true" prompt="Has child undergone genetic testing for his /her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Did child's  mother experience complications during pregnancy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the pregnancy complications in detail below. Be as specific as possible.">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Has child undergone a biopsy for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of biopsy" width="35"/>
+								<column_definition label="Date of Biopsy" width="20"/>
+								<column_definition label="Results of biopsy" width="25"/>
+							</column_definitions>
+						</table_response>
+				    </question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Has child been evaluated by an ophthalmology specialist for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Ophthalmology Specialist" width="45"/>
+								<column_definition label="Date of Evaluation" width="20"/>
+								<column_definition label="Results of Evaluation" width="25"/>
+							</column_definitions>
+						</table_response>
+				    </question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child been evaluated by an ENT (ear, nose, throat)specialist for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of ENT Specialist" width="35"/>
+								<column_definition label="Date of Evaluation" width="20"/>
+								<column_definition label="Results of Evaluation" width="25"/>
+							</column_definitions>
+						</table_response>
+				    </question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child been evaluated by a Gastroenterology (GI) specialist for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Gastroenterology Specialist" width="35"/>
+								<column_definition label="Date of Evaluation" width="20"/>
+								<column_definition label="Results of Evaluation" width="25"/>
+							</column_definitions>
+						</table_response>
+				    </question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child been evaluated by a Dermatology specialist for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="4" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Dermatology Specialist" width="40"/>
+								<column_definition label="Date of Evaluation" width="20"/>
+								<column_definition label="Results of Evaluation" width="25"/>
+							</column_definitions>
+						</table_response>
+				    </question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list all medications, doses, dates of use, any side effects and whether effective or not that have been used to treat the fever attacks:">
+			<table_response initial_rows_to_display="6" add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of Medication" width="35"/>
+					<column_definition label="Dosage" width="10"/>
+					<column_definition label="Dates administered" width="20"/>
+					<column_definition label="Side effects" width="25"/>
+					<column_definition label="Results of medication administration" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+	
+			
+		<question mandatory="true" prompt="What has been recommended regarding treatment of patient's condition?">
+				<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (primary care physician, specialist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+	</question_group>
+
+</questionnaire>

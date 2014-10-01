@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_FailedHipReplacementMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_FailedHipReplacementQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Failed Hip Replacement" id="Failed Hip Replacement">
+				<keyword text="hip"/>
+				<keyword text="replacement"/>
+				<keyword text="prosthesis"/>
+				<keyword text="joint"/>
+				<keyword text="degenerative"/>
+				<keyword text="acetabulum"/>
+				<keyword text="failed"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Foot Drop" id="Foot Drop">
+				<keyword text="peroneal"/>
+				<keyword text="nerve"/>
+				<keyword text="entrapment"/>
+				<keyword text="paraesthesia"/>
+				<keyword text="pain"/>
+				<keyword text="weakness"/>
+				<keyword text="palsy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+
+			
+		</section>
+	</department>
+</division>

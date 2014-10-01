@@ -1,0 +1,52 @@
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Physician's letters"
+		      description="Copies of all letters sent to patient by physician(s) reports of office visits, etc. if received."
+		      mandatory="true"/>
+	<material id="Doctor's notation of medications"
+			  description="Note should clearly indicate current listing of all patient's medications (prescription, over the counter, vitamins)."
+			  mandatory="true"/>
+	<material id="Operative reports"
+			  description="Operative reports for all prior heart surgeries."
+			  mandatory="true"/>
+	<material id="Ablation reports"
+			  description="Reports of all procedures undergone for any arrhythmias"
+			  mandatory="true"/>
+	<material id="Pysician treatment reports"
+			  description="Reports of any treatments undergone for this diagnosis (surgery, cath procedures, etc.)"
+			  mandatory="true"/>
+	<material id="Case summary"
+			  description="Physician's summary of case or a detailed, chronological reconstruction of the case submitted by the patient."
+			  mandatory="true"/>
+	<material id="Discharge summaries"
+			  description="Discharge summaries from any recent (within one year) hospitalizations."
+			  mandatory="true"/>
+	<instruction text="Radiologic and diagnostic studies done in the last 3 years. &lt;strong&gt;(mandatory)&lt;/strong&gt;"/>
+	<material id="Cardiac CT scan"
+			  description="Report &amp; films on CD (CD optimally with 'raw data' tha can be reconstructed)."
+			  mandatory="true"/>
+	<material id="Lung perfusion scan"
+			  description="Report &amp; films."
+			  mandatory="true"/>
+	<material id="Echocardiogram"
+			  description="Most recent echocardiogram report and films. &lt;em&gt;Please provide actual films on CD (compact disc) if possible.&lt;/em&gt;"
+			  mandatory="true"/>
+	<material id="Cardiac (heart) catheterization"
+			  description="Most recent cardiac catheterization report and films.  &lt;em&gt;Please provide actual films on CD (compact disc) if possible.&lt;/em&gt;"
+			  mandatory="true"/>
+	<material id="Electrocardiogram (EKG, ECG)"
+			  description="Most recent electrocardiogram (report and tracing)."
+			  mandatory="true"/>
+	<material id="Most recent cardiac stress test"
+			  description="Report only.  If nuclear scan was performed, report &amp; films required."
+			  mandatory="true"/>
+	<material id="Chest X-ray"
+			  description="Most recent chest X-Ray (films and report)."
+			  mandatory="true"/>
+	<instruction text="The following list of medical information, although not mandatory, are &lt;strong&gt;optional and highly recommended&lt;/strong&gt; if done:"/>
+	<material id="Other medical information"
+			  description="Any other medical information you or your physician may feel is pertinent to a patient's consultation."
+			  mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

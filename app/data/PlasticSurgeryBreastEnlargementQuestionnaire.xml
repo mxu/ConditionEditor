@@ -1,0 +1,93 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis: Plastic Surgery Consultation Questions">
+		<question mandatory="true" prompt="What is the primary problem related to the patient's breasts for which you are seeking this plastic surgery consultation?">
+			<free_form_response height="5"/>
+		</question>
+		&PLASTIC_COMMON1;
+		<question mandatory="true" prompt="Has the patient had any breast surgery in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the chart below">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Year" width="8"/>
+								<column_definition label="Type of procedure" width="20"/>
+								<column_definition label="Not Sure" width="5"/>
+								<column_definition label="Physician" width="15"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient delivered any children in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="N/A (Patient is a male)"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the patient's current bra with cup size? ">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="What bra size does the patient desire? ">
+			<free_form_response/>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a preference related to implant type?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Silicone">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response />
+					</question>
+				</selection>	
+				<selection selected="false" text="Saline">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2" />
+					</question>
+				</selection>	
+				<selection selected="false" text="Cohesive Gel">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2" />
+					</question>
+				</selection>	
+				<selection selected="false" text="No preference">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2"/>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a preference for incision placement?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Under the breast">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2"/>
+					</question>
+				</selection>	
+				<selection selected="false" text="Around the nipple">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2"/>
+					</question>
+				</selection>	
+				<selection selected="false" text="No preference">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response  height="2"/>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		
+		&PLASTIC_COMMON2;
+	</question_group>
+</questionnaire>

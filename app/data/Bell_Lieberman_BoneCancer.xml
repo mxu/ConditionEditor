@@ -1,0 +1,101 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bell_Lieberman_BoneCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bell_Lieberman_BoneCancerQuestionnaire.xml">
+]> 
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition cost="745.00" description="Lymphoma (spine tumor or fracture)" id="Lymphoma (spine tumor or fracture)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Myeloma Solitary Plasmacytoma (spine tumor or fracture)" id="Myeloma Solitary Plasmacytoma (spine tumor or fracture)">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="back"/>
+				<keyword text="orthopedics"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic Spine Tumor" id="Metastatic Spine Tumor">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="back"/>
+				<keyword text="malignant"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Multiple Myeloma (spine tumor or fracture)" id="Multiple Myeloma (spine tumor or fracture)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bone"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neural Tumor" id="Neural Tumor">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="malignant"/>
+				<keyword text="bone"/>
+				<keyword text="orthopedics"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neural Tumor (Extradural)" id="Neural Tumor (Extradural)">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="bone"/>
+				<keyword text="orthopedics"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neural Tumor (Intradural)" id="Neural Tumor (Intradural)">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="malignant"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Primary Spine Tumor" id="Primary Spine Tumor">
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="back"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

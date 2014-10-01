@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Olencki_AnalCanalCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Olencki_AnalCanalCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Anal Canal Cancer" id="Anal Canal Cancer">
+				<keyword text="carcinoma"/>
+				<keyword text="anus"/>
+				<keyword text="rectum"/>
+				<keyword text="tumor"/>
+				<keyword text="bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

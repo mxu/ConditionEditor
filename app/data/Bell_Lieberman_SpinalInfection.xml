@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bell_Lieberman_SpinalInfectionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bell_Lieberman_SpinalInfectionQuestionnaire.xml">
+]>
+<division name="Surgery" description="Surgery">
+	<department name="Spine Center" description="Spine Center">
+		<section name="" description="">
+			<condition id="Discitis" description="Discitis" cost="745.00">
+				<keyword text="back"/>
+				<keyword text="disc"/>
+				<keyword text="bone"/>
+				<keyword text="spinal"/>
+				<keyword text="spine"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="infection"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition id="Disc Space Infection" description="Disc Space Infection" cost="745.00">
+				<keyword text="spinal"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Spinal Abscess" description="Spinal Abscess" cost="745.00">
+				<keyword text="back"/>
+				<keyword text="abscess"/>
+				<keyword text="bone"/>
+				<keyword text="spinal"/>
+				<keyword text="spine"/>
+				<keyword text="vertebral"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+         <condition id="Vertebral Osteomyelitis" description="Vertebral Osteomyelitis" cost="745.00">
+            <keyword text="bone"/>
+            <keyword text="infection"/>
+            <keyword text="vertebrae"/>
+            <keyword text="bacterial"/>
+            <keyword text="viral"/>
+            <keyword text="bacteria"/>
+            <keyword text="virus"/>
+            &questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

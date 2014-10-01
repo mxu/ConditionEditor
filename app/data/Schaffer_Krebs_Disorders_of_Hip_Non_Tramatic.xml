@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_Disorders_of_Hip_Non_TramaticMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_Disorders_of_Hip_Non_TramaticQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Bursitis (Hip)" id="Bursitis (Hip)">
+				<keyword text="bursitis"/>
+				<keyword text="inflammation"/>
+				<keyword text="pain"/>
+				<keyword text="joint"/>
+				<keyword text="bursa"/>
+				<keyword text="hip"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Infected Hip" id="Infected Hip">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="infected"/>
+				<keyword text="inflammation"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Infected Hip Replacement" id="Infected Hip Replacement">
+				<keyword text="infected"/>
+				<keyword text="hip"/>
+				<keyword text="replacement"/>
+				<keyword text="prosthesis"/>
+				<keyword text="degenerative"/>
+				<keyword text="joint"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteoarthritis (Hip)" id="Osteoarthritis (Hip)">
+				<keyword text="osteoarthritis"/>
+				<keyword text="arthritis "/>
+				<keyword text="knee"/>
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Post Traumatic Arthritis (Hip)" id="Post Traumatic Arthritis (Hip)">
+				<keyword text="arthritis"/>
+				<keyword text="trauma"/>
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="inflammation"/>
+				<keyword text="degenerative"/>							
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hip Disorder (Non-Traumatic)" id="Hip Disorder (Non-Traumatic)">
+				<keyword text="hip"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="joint"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

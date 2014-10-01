@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_Henderson_MetastaticLiverCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_Henderson_MetastaticLiverCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Metastatic Liver Cancer" id="Metastatic Liver Cancer">
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,549 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a prior history of any other cancers or precancerous conditions?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a prior history of any other cancers or precancerous conditions, please specify below:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Condition (Diagnosis)" width="25"/>
+								<column_definition label="Month/Year" width="10"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Type of treatment" width="25"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of cancer, please provide the following information regarding your family history. Please indicate if the family member is related on your maternal or paternal side, if applicable.">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member &lt;BR&gt; (grandfather, sister, etc.)" width="25"/>
+								<column_definition label="Maternal/Paternal" width="20"/>
+								<column_definition label="Type of cancer" width="20"/>
+								<column_definition label="Age at diagnosis &lt;BR&gt; (if known)" width="20"/>
+								<column_definition label="Current condition &lt;BR&gt; of relative" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="When was your diagnosis of prostatitis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by a physician for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question prompt="Have you experienced the following conditions/symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Bladder infection(s)"/>
+				<selection selected="false" text="Urinary tract infection"/>
+				<selection selected="false" text="Chills/fevers"/>
+				<selection selected="false" text="Abdominal discomfort"/>
+				<selection selected="false" text="Pain/burning with urination"/>
+				<selection selected="false" text="Increased need to urinate"/>
+				<selection selected="false" text="Pain/burning bowel movements"/>
+				<selection selected="false" text="Pelvic/testicular pain"/>
+				<selection selected="false" text="Lower back pain"/>
+				<selection selected="false" text="Abnormal color in urine"/>
+				<selection selected="false" text="Blood in urine and / or semen"/>
+				<selection selected="false" text="Urinary incontinence"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe in detail:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How long ago did your first symptoms begin? (please explain in detail)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="For how long have you had your current symptoms? (please explain in detail)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What symptom bothers you the most?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the pattern of your symptoms? (choose the best response from the list below)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Good days and bad days but always present"/>
+				<selection selected="false" text="Comes and goes but between flare ups I have practically no symptoms"/>
+			
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe in detail:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="In the last week have you experienced any pain or discomfort in any of the following areas? (check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Area between rectum and testicles (perineum)"/>
+				<selection selected="false" text="Testicles"/>
+				<selection selected="false" text="Tip of the penis (not related to urination)"/>
+				<selection selected="false" text="Below your waist in your pubic or bladder area"/>
+				<selection selected="false" text="N/A"/>
+			</item_response>
+		</question>
+		
+					
+	
+		<question mandatory="true" prompt="In the last week, have you experienced pain or burning during urination?">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>	
+		</question>
+					
+		<question mandatory="true" prompt="In the last week, have you experienced pain or discomfort during or after sexual climax?">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Yes"/>
+					<selection selected="false" text="No"/>	
+					<selection selected="false" text="Not Applicable"/>
+				</item_response>	
+			</question>					
+		
+		
+		<question mandatory="true"  prompt="How often have you had pain or discomfort in any of the above areas in the past week? (choose the best response below)">
+			<item_response drop_down_style="true" single_response="true">
+					<selection selected="false" text="Never"/>
+					<selection selected="false" text="Rarely"/>
+					<selection selected="false" text="Sometimes"/>
+					<selection selected="false" text="Often"/>
+					<selection selected="false" text="Usually"/>
+					<selection selected="false" text="Always"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="On a scale of 0-10 with zero being no pain and ten being pain as bad as you can imagine, which number best describers your AVERAGE pain or discomfort on the days that you had it over the last week?">
+			<item_response drop_down_style="true" single_response="true">
+					<selection selected="false" text="0"/>
+					<selection selected="false" text="1"/>
+					<selection selected="false" text="2"/>
+					<selection selected="false" text="3"/>
+					<selection selected="false" text="4"/>
+					<selection selected="false" text="5"/>
+					<selection selected="false" text="6"/>
+					<selection selected="false" text="7"/>
+					<selection selected="false" text="8"/>
+					<selection selected="false" text="9"/>
+					<selection selected="false" text="10"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How often have you had a sensation of not emptying your bladder completely after you finished urinating over the past week?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not at all"/>
+					<selection selected="false" text="Less than 1 time in 5"/>
+					<selection selected="false" text="Less than half the time"/>
+					<selection selected="false" text="About half the time"/>
+					<selection selected="false" text="Almost always"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How much have your symptoms kept you from doing the kinds of things you would usually do over the last week?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="None"/>
+					<selection selected="false" text="Only a little"/>
+					<selection selected="false" text="Some"/>
+					<selection selected="false" text="A lot"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How much did you think about your symptoms  over the past week?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="None"/>
+					<selection selected="false" text="Only a little"/>
+					<selection selected="false" text="Some"/>
+					<selection selected="false" text="A lot"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="If you were to spend the rest of your life with your symptoms just the way they have been during the last week, how would you feel about that?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Delighted"/>
+					<selection selected="false" text="Pleased"/>
+					<selection selected="false" text="Mostly Satisfied"/>
+					<selection selected="false" text="Mixed (about equally satisfied and dissatisfied)"/>
+					<selection selected="false" text="Unhappy"/>
+					<selection selected="false" text="Terrible"/>
+			</item_response>
+		</question>
+		
+		
+		<question mandatory="true" prompt="Please list all imaging studies done (please choose all that apply and give dates of examinations">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Date of Study" pct="50"/>
+					<column_definition label="Month" pct="25"/>
+					<column_definition label="Year" pct="25"/>
+				</column_definitions>
+						<table_data>
+							<cell>X-rays</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>CT scan</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>MRI scan</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>Chest X-ray</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>IVP</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>KUB</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>Ultrasound</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>TRUS (Transrectal ultrasound)</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+						<table_data>
+							<cell>Other (Please list below)</cell>
+							<cell/>
+							<cell/>
+						</table_data>
+			</table_response>
+		</question>
+	
+	<question mandatory="true" prompt="How was the patient's prostate condition discovered? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+					<selection selected="false" text="Saw doctor for symptoms"/>
+					<selection selected="false" text="Routine physician exam"/>
+					<selection selected="false" text="Lab test (PSA)"/>
+					<selection selected="false" text="Unknown"/>
+					<selection selected="false" text="Other">
+						<question mandatory="true" prompt="If other, please describe in detail:">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+			<question mandatory="true" prompt="How was the current diagnosis, the one you are seeking a second opinion for, made? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+					<selection selected="false" text="X-rays"/>
+					<selection selected="false" text="CT"/>
+					<selection selected="false" text="IVP"/>
+					<selection selected="false" text="KUB"/>
+					<selection selected="false" text="Ultrasound"/>
+					<selection selected="false" text="Transrectal Ultrasound"/>
+					<selection selected="false" text="Surgery"/>
+					<selection selected="false" text="Biopsy"/>
+					<selection selected="false" text="Blood work"/>
+					<selection selected="false" text="Unknown"/>
+					<selection selected="false" text="Other">
+						<question mandatory="true" prompt="If other, please list:">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have you had a PSA (prostate specific antigen) level drawn?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, when? (provide all dates)">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+						<question mandatory="true" prompt="What is your most recent PSA Result?">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+				<question mandatory="true" prompt="Have you ever undergone a cystoscopy?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, when? (provide all dates)">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+						<question mandatory="true" prompt="What was the result of the cystoscopy?">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+				<question mandatory="true" prompt="Have you ever had a transrectal ultrasound (TRUS)?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, when? (provide all dates)">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+						<question mandatory="true" prompt="What was the result of the TRUS?">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt='Have you ever had a prostate fluid collection by prostate "massage" or "drainage"?'>
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, when? (provide all dates)">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+						<question mandatory="true" prompt="What was the result?">
+							<free_form_response/>
+						</question>
+							<question mandatory="true" prompt="After prostate massage, did your symptoms worsen, improve or remain the same? (please explain below)?">
+							<free_form_response/>
+						</question>
+					</selection>						
+			</item_response>
+		</question>
+		
+			<question mandatory="true" prompt="Does ejaculation make your symptoms worse, better or have no effect?">
+ 				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Better"/>
+					<selection selected="false" text="Worse"/>
+					<selection selected="false" text="No Effect"/>
+				</item_response>
+			</question>
+		
+		
+		<question mandatory="true" prompt='Are you employed?'>
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+					
+							<question mandatory="true" prompt="If yes, does your job include prolonged sitting?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>
+					</selection>	
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Other than stress from this illness, would you say that your life is very stressful?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes"/>
+			</item_response>				
+		</question>
+		
+		<question mandatory="true" prompt="Have you ever been treated for an STD (sexually transmitted disease)?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please explain (give type of disease, when treated, how treated, etc.) Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+
+<question mandatory="true" prompt="Have you had a prostate biopsy?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, what was the result?">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+
+<question mandatory="true" prompt="Has the condition for which you are seeking a second opinion been previously treated?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please explain in detail the type of treatment you have undergone:">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+		<question mandatory="true" prompt="Have you been treated with antibiotics for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe name of antibiotics, dosage, duration, side effects, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+				<question mandatory="true" prompt="Have you been treated with alpha blockers (examples: Hytris, Flomax, Motrin, Ibuprofen) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe type of alpha blockers, dates, dosage, duration, side effects, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+		<question mandatory="true" prompt="Have you been treated with anti-inflammatories (examples: Vioxx, Celebrex, Motrin, Ibuprofen) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe type of anti-anflammatories, dates, dosage, duration, side effects, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+		<question mandatory="true" prompt="Have you been treated with herbal agents (examples: quercetin, bee pollen, saw palmetto) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe type of herbal agents, dates, dosage, duration, brands used, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+				<question mandatory="true" prompt="Have you been treated with neuromuscular drugs (examples: Elavil, Neurontin, Lyrica) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe type of neuromuscular drugs, dosage, duration, side effects, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+				<question mandatory="true" prompt="Have you been treated with Physical Therapy (PT) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe type of PT (internal, external) duration, side effects, response, etc. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+				<question mandatory="true" prompt="Have you been treated with Dietary Modifications for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+							<question mandatory="true" prompt="If yes, please describe what was tried and the response to this treatment. Please describe in as much detail as possible.">
+								<free_form_response/>
+							</question>
+					</selection>	
+			</item_response>				
+		</question>
+		
+		<question mandatory="true" prompt="Have you undergone any of the following prostate procedures? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+					<selection selected="false" text="Biopsy">
+					<question mandatory="true" prompt="If yes, please give detail of the results below.">
+							<free_form_response/>
+						</question>
+					</selection>
+				
+					<selection selected="false" text="TUMT (TransUrethral Microwave Thermotherapy)">
+					<question mandatory="true" prompt="If yes, please give detail of the results below.">
+							<free_form_response/>
+						</question>
+					</selection>
+						
+					<selection selected="false" text="TUNA (TransUrethral Needle Ablation)">
+					<question mandatory="true" prompt="If yes, please give detail of the results below.">
+							<free_form_response/>
+						</question>
+					</selection>
+					
+					<selection selected="false" text="TURP (TransUrethral Resection of the Prostate)">
+					<question mandatory="true" prompt="If yes, please give detail of the results below.">
+							<free_form_response/>
+						</question>
+					</selection>
+			
+					<selection selected="false" text="WIT (Water Induced Thermotherapy">
+			
+					<question mandatory="true" prompt="If yes, please give detail of the results below.">
+							<free_form_response/>
+						</question>
+					</selection>
+					
+					<selection selected="false" text="None of the above"/>
+						</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What treatment (if any) has been recommended regarding your condition of prostatitis?">
+			<free_form_response/>
+		</question>
+		
+		<question mandatory="true" prompt="Which doctor made this recommendation (Surgeon, Primary care physician, etc)?">
+							<free_form_response/>
+		</question>
+		
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition?">
+							<free_form_response/>
+						</question>
+		
+		
+		
+	</question_group>
+</questionnaire>	

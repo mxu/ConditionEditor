@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "MenstrualGynecologicalDisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "MenstrualGynecologicalDisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Abnormal menstrual bleeding" id="Abnormal menstrual bleeding">
+				<keyword text="abnormal"/>
+				<keyword text="menstruation"/>
+				<keyword text="menstrual"/>
+				<keyword text="menses"/>
+				<keyword text="disorder"/>
+				<keyword text="bleeding"/>
+				<keyword text="polycystic"/>
+				<keyword text="ovary"/>
+				<keyword text="ovulation"/>
+				<keyword text="polyps"/>
+				<keyword text="adenmyosis"/>
+				<keyword text="lining"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Amenorrhea" id="Amenorrhea">
+				<keyword text="absence"/>
+				<keyword text="menstruation"/>
+				<keyword text="period"/>
+				<keyword text="menses"/>
+				<keyword text="primary"/>
+				<keyword text="uterus"/>
+				<keyword text="ovary"/>
+				<keyword text="egg"/>
+				<keyword text="menopause"/>
+				<keyword text="menarche"/>
+				<keyword text="anovulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dysmenorrhea" id="Dysmenorrhea">
+				<keyword text="pain"/>
+				<keyword text="discomfort"/>
+				<keyword text="menstruation"/>
+				<keyword text="menses"/>
+				<keyword text="cramps"/>
+				<keyword text="menorrhagia"/>
+				<keyword text="endometriosis"/>
+				<keyword text="fibroids"/>
+				<keyword text="uterine"/>
+				<keyword text="uterus"/>
+				<keyword text="pelvic"/>
+				<keyword text="endometrial"/>
+				<keyword text="polyps"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Irregular Menstrual Cycle" id="Irregular Menstrual Cycle">
+				<keyword text="irregular"/>
+				<keyword text="menstruation"/>
+				<keyword text="menstrual"/>
+				<keyword text="menses"/>
+				<keyword text="cycle"/>
+				<keyword text="period"/>
+				<keyword text="menopause"/>
+				<keyword text="ovary"/>
+				<keyword text="ovarian"/>
+				<keyword text="cysts"/>
+				<keyword text="polyps"/>
+				<keyword text="abdominal"/>
+				<keyword text="pain"/>
+				<keyword text="ovulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metrorrhagia" id="Metrorrhagia">
+				<keyword text="abnormal"/>
+				<keyword text="bleeding"/>
+				<keyword text="between"/>
+				<keyword text="periods"/>
+				<keyword text="cycle"/>
+				<keyword text="menstrual"/>
+				<keyword text="menses"/>
+				<keyword text="irregular"/>
+				<keyword text="endometriosis"/>
+				<keyword text="uterine"/>
+				<keyword text="fibroids"/>
+				<keyword text="uterus"/>
+				<keyword text="polyps"/>
+				<keyword text="hormone"/>
+				<keyword text="imbalance"/>
+				<keyword text="adhesions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Oligiomenorrhea" id="Oligiomenorrhea">
+				<keyword text="abnormal"/>
+				<keyword text="infrequent"/>
+				<keyword text="light"/>
+				<keyword text="menstrual"/>
+				<keyword text="cycle"/>
+				<keyword text="menses"/>
+				<keyword text="period"/>
+				<keyword text="flow"/>
+				<keyword text="PCOS"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Post menopausal bleeding" id="Post menopausal bleeding">
+				<keyword text="abnormal"/>
+				<keyword text="post"/>
+				<keyword text="menopausal"/>
+				<keyword text="bleeding"/>
+				<keyword text="hormone"/>
+				<keyword text="imbalance"/>
+				<keyword text="uterus"/>
+				<keyword text="uterine"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="stress"/>
+				<keyword text="endometrium"/>
+				<keyword text="endometrial"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

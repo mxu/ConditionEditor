@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Pathology reports" description="Reports and glass slides from all relevant biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (chemotherapy, radiation therapy, etc.).  If radiation therapy was used, a copy of the completion note will be required.  Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary OR a detailed chronological reconstruction of the case submitted by the patient." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/b&gt;"/>
+	<material id="Chest X-ray" description="Report and films of PA and lateral views." mandatory="true"/>
+	<material id="CT scan of the chest" description="Report and films." mandatory="true"/>
+	<material id="PFT's (pulmonary function tests)" description="Report to include spirometry with bronchodilators, lung volumes, diffusion capacity and flow volume loop." mandatory="true"/>
+	<material id="ABGs (arterial blood gases)" description="Test to be done on room air." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Echocardiogram with Doppler flow" description="Report only." mandatory="false"/>
+	<material id="VQ (ventilation/perfusion) scan" description="Report only." mandatory="false"/>
+	<material id="MRI scan" description="Report only." mandatory="false"/>
+	<material id="Right and Left Heart Catheterization" description="Film and report" mandatory="false"/>
+	<material id="Thoracentesis" description="Report only (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consulation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

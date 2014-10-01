@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What was the diagnosis?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition (the one you are seeking a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="do you have a family history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Cancer"/>
+				<selection selected="false" text="Thalassemia"/>
+				<selection selected="false" text="Leukemia"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Blood in your stools (bowel movements)"/>
+				<selection selected="false" text="Chronic or severe infections"/>
+				<selection selected="false" text="Heavy menstrual periods"/>
+				<selection selected="false" text="Hookworm infection"/>
+				<selection selected="false" text="Neuralgia"/>
+				<selection selected="false" text="Stomach cancer"/>
+				<selection selected="false" text="Vomiting blood"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any of the following diagnostic / imaging studies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever had any of the following diagnostic / imaging studies, when?:">
+						<table_response add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Study" pct="70"/>
+								<column_definition label="Month" pct="15"/>
+								<column_definition label="Year" pct="15"/>
+							</column_definitions>
+							<table_data>
+								<cell>Bone marrow biopsy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chest x-ray</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Colonoscopy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>CT scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Gastroscopy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>MRI scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sigmoidoscopy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other, If other please list below:</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past 6 months) had any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Abdominal (belly) pain"/>
+				<selection selected="false" text="Back pain"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="Fever > 100 F / 38C"/>
+				<selection selected="false" text="Productive cough"/>
+				<selection selected="false" text="Rigors / shaking chills"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you currently have any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Brittle nails"/>
+				<selection selected="false" text="Dry, scaly lips"/>
+				<selection selected="false" text="Headaches"/>
+				<selection selected="false" text="Numbness / tingling of the feet or hands"/>
+				<selection selected="false" text="Palpitations (fluttering in the chest or throat)"/>
+				<selection selected="false" text="Shortness of breath with exertion"/>
+				<selection selected="false" text="Weakness / fatigue"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience pica (the craving of non-food items such as ice, paper, chalk, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your appetite over the past 3 months">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Normal"/>
+				<selection selected="false" text="Eating more than normal"/>
+				<selection selected="false" text="Eating less than normal"/>
+				<selection selected="false" text="Hardly eating anything"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced a recent weight loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced a recent weight loss, please provide the information below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="# of pounds / kilograms lost" pct="30"/>
+								<column_definition label="Over what period of time? (# weeks, months)" pct="60"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced a recent weight gain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced a recent weight gain, please provide the information below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="# of pounds / kilograms gained" pct="30"/>
+								<column_definition label="Over what period of time? (# weeks, months)" pct="60"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you recently (within the past month) taken an antibiotic to fight infection?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have recently taken an antibiotic to fight infection, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Antibiotic name" width="20"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="How often taken" width="15"/>
+								<column_definition label="Exact date started" width="10"/>
+								<column_definition label="Exact date stopped" width="10"/>
+								<column_definition label="How taken (pill, IV etc.)" width="26"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you currently taking iron supplements?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are currently taking iron supplements, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Supplement name" width="20"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="How often taken (1x day, 2x day)" width="30"/>
+								<column_definition label="When started (Month / Year)" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Do you regularly take antacid medications such as Tums or Maalox etc.?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you regularly take antacid medications, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Antacid name" width="20"/>
+								<column_definition label="How often taken (1x day, 2x day)" width="30"/>
+								<column_definition label="When started (Month / Year)" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What has been recommended regarding treatment of your current condition  (chemotherapy, bone marrow transplant, etc.)?">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (Hematologist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

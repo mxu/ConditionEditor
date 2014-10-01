@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>	
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+		<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative report(s)" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Specialist physician's case summary" description="Specialist's report summarizing the details of the hip condition including past treatment and the patient's response." mandatory="true"/>
+	<material id="Physical therapist's report" description="Physical therapist's evaluation and summary, if applicable." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required. Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="MRI (Magnetic resonance imaging) scan of the affected hip" description="Report and films." mandatory="true"/>
+	<material id="CT (Computed tomogram) scan of the affected hip" description="Report and films." mandatory="true"/>
+	<material id="X-rays of the affected hip" description="Report and films including pre- and post-surgical films, if applicable." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="Ultrasound" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

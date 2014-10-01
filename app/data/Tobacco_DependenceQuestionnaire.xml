@@ -1,0 +1,1208 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's condition (one you are seeking a second opinion for)?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are seeking a second opinion consultation.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient seeking the opinion currently pregnant? (For females only) (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the employment status of the patient? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Full-time"/>
+				<selection selected="false" text="Part-time"/>
+				<selection selected="false" text="Homemaker / stay at home parent"/>
+				<selection selected="false" text="Full-time student"/>
+				<selection selected="false" text="Retired"/>
+				<selection selected="false" text="Unemployed / Laid off"/>
+				<selection selected="false" text="Disabled (on disability) or on medical leave"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient around smokers / tobacco users when at home or out on the town?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="When at home, Where does the patient smokes or chews tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="Anywhere he/she wants"/>
+				<selection selected="false" text="In some places">
+					<question mandatory="true" prompt="Please specify where?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has a doctor ever told the patient that he / she has any of the following conditions? (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Lung or Respiratory Disease"/>
+				<selection selected="false" text="Cardiovascular Disease"/>
+				<selection selected="false" text="Kidney Disease"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Allergies"/>
+				<selection selected="false" text="High Blood Pressure / Hypertension"/>
+				<selection selected="false" text="Liver Disease"/>
+				<selection selected="false" text="Digestive Problems"/>
+				<selection selected="false" text="Thyroid Problems"/>
+				<selection selected="false" text="Eating Disorders"/>
+				<selection selected="false" text="Seizures"/>
+				<selection selected="false" text="Obesity"/>
+				<selection selected="false" text="Bone Problems"/>
+				<selection selected="false" text="Schizophrenia"/>
+				<selection selected="false" text="Bipolar Disorder I or II (Manic Depressive Disorder)"/>
+				<selection selected="false" text="Other Depressive Disorder (Major, Dysthymic)"/>
+				<selection selected="false" text="Alzheimer's Dementia, or other Cognitive Disorder"/>
+				<selection selected="false" text="Any Anxiety Disorder (PTSD, GAD, Simple / Social Phobia, Agoraphobia, Panic, OCD, Other)"/>
+				<selection selected="false" text="Alcohol or substance abuse"/>
+				<selection selected="false" text="Cancer or Tumors">
+					<question mandatory="true" prompt="Please list type of cancer?">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other Health or Mental Health Problems">
+					<question mandatory="true" prompt="Please list other medical conditions">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the symptoms that the patient has been having or has had in the past 12 months related to his/her general health  (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Patient is in general good health"/>
+				<selection selected="false" text="Always feeling ill"/>
+				<selection selected="false" text="Always tired"/>
+				<selection selected="false" text="Chronic fatigue"/>
+				<selection selected="false" text="Change in appetite"/>
+				<selection selected="false" text="Weight loss > 10 lbs."/>
+				<selection selected="false" text="Weight gain > 10 lbs."/>
+				<selection selected="false" text="Chills"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Headache"/>
+				<selection selected="false" text="Unexpected fever of at least 100° F"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the respiratory symptoms that the patient has been having or has had in the past 12 months (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Wheezing"/>
+				<selection selected="false" text="Constant cough"/>
+				<selection selected="false" text="Fluid in the lungs"/>
+				<selection selected="false" text="Coughing up blood"/>
+				<selection selected="false" text="Sleep apnea"/>
+				<selection selected="false" text="Abnormal chest x-ray in past"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the nose, mouth, or throat symptoms that the patient has been having or has had in the past 12 months (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Runny nose"/>
+				<selection selected="false" text="Frequent sinus infections"/>
+				<selection selected="false" text="Nasal congestion"/>
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Frequent colds"/>
+				<selection selected="false" text="Frequent sore throat"/>
+				<selection selected="false" text="Recent voice changes"/>
+				<selection selected="false" text="Hoarseness"/>
+				<selection selected="false" text="Laryngitis"/>
+				<selection selected="false" text="Swallowing pain"/>
+				<selection selected="false" text="Changes in smell"/>
+				<selection selected="false" text="Changes in taste"/>
+				<selection selected="false" text="Tongue problems"/>
+				<selection selected="false" text="Mouth lesions or ulcers"/>
+				<selection selected="false" text="Dry mouth"/>
+				<selection selected="false" text="Bleeding mouth or gums"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the cardiovascular symptoms / procedures that the patient has been having or has had in the past 12 months (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Palpitations"/>
+				<selection selected="false" text="Skipped heart beats"/>
+				<selection selected="false" text="Extra heart beats"/>
+				<selection selected="false" text="Fast heart beats"/>
+				<selection selected="false" text="High blood pressure"/>
+				<selection selected="false" text="High cholesterol"/>
+				<selection selected="false" text="Calf pain or cramps"/>
+				<selection selected="false" text="Blood clots in veins (per a physician)"/>
+				<selection selected="false" text="Cold and purple feet"/>
+				<selection selected="false" text="Changes in balance"/>
+				<selection selected="false" text="Ankle swelling"/>
+				<selection selected="false" text="Murmur / valve lesion (per a physician)"/>
+				<selection selected="false" text="Catheterization or bypass surgery"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the neurological symptoms that the patient has been having or has had in the past 12 months (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Seizures or epilepsy"/>
+				<selection selected="false" text="Stroke"/>
+				<selection selected="false" text="Headache / migraines"/>
+				<selection selected="false" text="Dizziness / vertigo"/>
+				<selection selected="false" text="Involuntary movements"/>
+				<selection selected="false" text="Tremors / Shakes"/>
+				<selection selected="false" text="Numbness or tingling of extremities"/>
+				<selection selected="false" text="Gait problems / Difficulty walking"/>
+				<selection selected="false" text="Cognitive or memory concerns"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check the psychological symptoms that the patient has been having or has had in the past 12 months (Please check all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Difficulty concentrating"/>
+				<selection selected="false" text="Anxious"/>
+				<selection selected="false" text="Suicidal / homicidal thoughts"/>
+				<selection selected="false" text="Depression"/>
+				<selection selected="false" text="Attention deficit"/>
+				<selection selected="false" text="Hyperactivity"/>
+				<selection selected="false" text="Excessive fear / worry"/>
+				<selection selected="false" text="Loss of interest in life"/>
+				<selection selected="false" text="Hear unusual voices / sounds"/>
+				<selection selected="false" text="See unusual visions"/>
+				<selection selected="false" text="Difficulty getting to sleep"/>
+				<selection selected="false" text="Impulsiveness"/>
+				<selection selected="false" text="Difficulty staying asleep"/>
+				<selection selected="false" text="Eating disorders"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient currently smoke cigarettes, cigars, or a pipe? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+								
+					<question mandatory="true" prompt="If yes, how soon after the patient wakes does he / she smoke cigarettes, cigars, or a pipe?">
+						<item_response single_response="true">
+							<selection selected="false" text="Within 5 minutes"/>
+							<selection selected="false" text="6-30 minutes"/>
+							<selection selected="false" text="31-60 minutes"/>
+							<selection selected="false" text="After 60 minutes"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, does the patient find it difficult to refrain from smoking in places where it is forbidden?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, which time would the patient hate to give up smoking?">
+						<item_response single_response="true">
+							<selection selected="false" text="First thing in the morning"/>
+							<selection selected="false" text="Other times throughout the day"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient smoke frequently during the first hours after waking than during the rest of the day?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient smoke even if he / she is ill in bed most of the day?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					
+					<!-- CIGARETTES -->
+					<question mandatory="true" prompt="Does the patient currently smoke cigarettes?">
+						<item_response single_response="true">
+							<selection selected="false" text="No, not at all"/>
+							<selection selected="false" text="Yes">
+							
+								<question mandatory="true" prompt="If yes, how often?">
+									<item_response single_response="true">
+										<selection selected="false" text="Every day"/>
+										<selection selected="false" text="Some days"/>
+									</item_response>
+								</question> 
+								
+								<question mandatory="true" prompt="During the past 30 days, on the days that the patient smoked, how many cigarettes a day did he / she smoke?">
+									<free_form_response height="3"/>
+								</question>
+								
+								<question mandatory="true" prompt="At what age did patient start smoking cigarettes?">
+									<free_form_response/>
+								</question>
+								
+								<question mandatory="true" prompt="Would the patient consider him / herself to be a regular smoker?">
+									<item_response single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If Yes, How many years has the patient been a regular smoker?">
+												<item_response single_response="true">
+													<selection selected="false" text="Less than a year"/>
+													<selection selected="false" text="1-5 years"/>
+													<selection selected="false" text="6-10 years"/>
+													<selection selected="false" text="11-20 years"/>
+													<selection selected="false" text="21-40 years"/>
+													<selection selected="false" text="41+ years"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+
+					<!-- MENTHOL CIGARETTES -->
+					<question mandatory="true" prompt="Does the patient currently smoke menthol cigarettes?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					
+					<!-- CIGARS -->
+					<question mandatory="true" prompt="Does the patient currently smoke cigars including full-size and / or little cigars? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how often?">
+									<item_response single_response="true">
+										<selection selected="false" text="Every day"/>
+										<selection selected="false" text="Some days"/>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="How old was the patient when he / she first began to smoke cigars?">
+									<free_form_response/>
+								</question>
+								
+								<question mandatory="true" prompt="Would the patient consider him / herself to be a regular cigar smoker?">
+									<item_response single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+					
+								<question mandatory="true" prompt="On the average, how many cigars does the patient smoke per week?">
+									<item_response single_response="true">
+										<selection selected="false" text="Full-size cigars">
+											<question mandatory="true" prompt="">
+												<free_form_response />
+											</question>
+										</selection>
+										<selection selected="false" text="Little cigars">
+											<question mandatory="true" prompt="">
+												<free_form_response />
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<!-- PIPE -->
+					<question mandatory="true" prompt="Does the patient currently smoke a pipe? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+										
+								<question mandatory="true" prompt="If yes, how often?">
+									<item_response single_response="true">
+										<selection selected="false" text="Every day"/>
+										<selection selected="false" text="Some days"/>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="On the average, how many pipe bowls does the patient smoke per week?">
+									<free_form_response height="3"/>
+								</question>
+								
+								<question mandatory="true" prompt="How old was the patient when he / she first began to smoke a pipe?">
+									<free_form_response />
+								</question>
+							
+								<question mandatory="true" prompt="Would the patient consider him / herself to be a regular pipe smoker?">
+									<item_response single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+											
+							</selection>
+						</item_response>
+					</question>
+					
+					
+				</selection>
+			</item_response>
+		</question>
+		
+					
+		<question mandatory="true" prompt="Does the patient currently use smokeless tobacco (chewing tobacco, dip, snus, or snuff? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+							
+					<question mandatory="true" prompt="If yes, how often?">
+						<item_response single_response="true">
+							<selection selected="false" text="Every day"/>
+							<selection selected="false" text="Some days"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="On the average, how many tins and / or pouches of chewing tobacco, dip, or snuff does the patient use per week?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="How old was the patient when he / she first began to use chewing tobacco, dip, snus, or snuff?">
+						<free_form_response/>
+					</question>
+					
+					<question mandatory="true" prompt="Would the patient consider him / herself to be a regular chewer?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If Yes, How many years has the patient been a regular tobacco user?">
+									<item_response single_response="true">
+											<selection selected="false" text="Less than a year"/>
+											<selection selected="false" text="1-5 years"/>
+											<selection selected="false" text="6-10 years"/>
+											<selection selected="false" text="11-20 years"/>
+											<selection selected="false" text="21-40 years"/>
+											<selection selected="false" text="41+ years"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient intentionally swallow the tobacco juice?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="Do not use smokeless tobacco"/>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Describe your father's tobacco use:">
+			<item_response single_response="true">
+				<selection selected="false" text="Heavy use"/>
+				<selection selected="false" text="Moderate use"/>
+				<selection selected="false" text="Light Use"/>
+				<selection selected="false" text="Never / Almost never used"/>
+				<selection selected="false" text="Do not know"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Describe your mother's tobacco use:">
+			<item_response single_response="true">
+				<selection selected="false" text="Heavy use"/>
+				<selection selected="false" text="Moderate use"/>
+				<selection selected="false" text="Light Use"/>
+				<selection selected="false" text="Never / Almost never used"/>
+				<selection selected="false" text="Do not know"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How many people live in your household? (Do Not count yourself)">
+			<item_response single_response="true">
+				<selection selected="false" text="0"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="2-3"/>
+				<selection selected="false" text="4 or more"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How many people who live in your household use tobacco? (Do Not count yourself)">
+			<item_response single_response="true">
+				<selection selected="false" text="0"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="2-3"/>
+				<selection selected="false" text="4 or more"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does your spouse or partner currently use tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="N/A, I do not have a spouse or partner"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What percent of your close friends use tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="Almost none"/>
+				<selection selected="false" text="About 25%"/>
+				<selection selected="false" text="About 50%"/>
+				<selection selected="false" text="About 75%"/>
+				<selection selected="false" text="About 100%"/>
+				<selection selected="false" text="Do not have any close friends"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What percent of your co-workers use tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="Almost none"/>
+				<selection selected="false" text="About 25%"/>
+				<selection selected="false" text="About 50%"/>
+				<selection selected="false" text="About 75%"/>
+				<selection selected="false" text="About 100%"/>
+				<selection selected="false" text="I am not employed right now"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do you have at least one person you can count on for support while you quit using tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question> 
+		
+		<question mandatory="true" prompt="How much support do you expect from those closest to you (such as family, friends, co-workers, and neighbors) as you work toward quitting tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="A great deal"/>
+				<selection selected="false" text="Much"/>
+				<selection selected="false" text="Some"/>
+				<selection selected="false" text="A little"/>
+				<selection selected="false" text="None at all"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="To what degree do you expect a lack of support or even negative reactions from those closest to you (such as family, friends, and neighbors) as your work toward quitting tobacco?">
+			<item_response single_response="true">
+				<selection selected="false" text="A great deal"/>
+				<selection selected="false" text="Much"/>
+				<selection selected="false" text="Some"/>
+				<selection selected="false" text="A little"/>
+				<selection selected="false" text="None at all"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="In general, to what degree do the people closest to you place demands on you?">
+			<item_response single_response="true">
+				<selection selected="false" text="A great many demands"/>
+				<selection selected="false" text="Many demands on me"/>
+				<selection selected="false" text="Some demands on me"/>
+				<selection selected="false" text="Few demands on me"/>
+				<selection selected="false" text="No demands on me"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Which statement best describes the rules about smoking inside your home (do not include decks, garages, or porches)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Smoking not allowed anywhere"/>
+				<selection selected="false" text="Smoking allowed in some places, at some times"/>
+				<selection selected="false" text="Smoking allowed anywhere"/>
+				<selection selected="false" text="There are no rules"/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="In the past 12 months, how many times did the patient completely stop using tobacco for 1 day or longer because he / she was trying to quit?">
+			<item_response single_response="true">
+				<selection selected="false" text="0"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="2"/>
+				<selection selected="false" text="3"/>
+				<selection selected="false" text="4"/>
+				<selection selected="false" text="5"/>
+				<selection selected="false" text="6 or more times"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Have the patient ever used any medications and methods to help himself / herself to quit tobacco">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Complete the table below with all medications and methods that the patient used to help himself / herself to quit tobacco">
+						<table_response add_row_increment="0" initial_rows_to_display="2">
+							<column_definitions>
+								<column_definition label="Medication/Method" width="50"/>
+								<column_definition label="Tried in past 12 months" width="15"/>
+								<column_definition label="Ever Tried" width="15"/>
+							</column_definitions>
+							<table_data>
+								<cell>Nicotine Gum</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nicotine Patch</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nicotine Inhaler</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nicotine Nasal Spray</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nicotine lozenges</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Zyban / Wellbutrin / Bupropion</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chantix (Varenicline)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Herbal products</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Self-help materials (book / pamphlet, audio or video tape / CD / DVD)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>On-line or web-based service</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Talked with your doctor, dentist, or nurse</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Counseling by a helaht professional</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tobacco clinic program</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tobacco Quitline</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Acupuncture</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hypnosis</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cold Turkey</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Smoking reduction (cutting down)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Laser Therapy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Anit-smoking Injections</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other medications</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other Method</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other Program</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>None of the above</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Were you successful in quitting tobacco for at least 1 day">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you were successful quitting for at least 1 day when trying, to what degree were the following related to why you started using tobacco again:">
+						<table_response add_row_increment="0" initial_rows_to_display="2">
+							<column_definitions>
+								<column_definition label="Problems" width="25"/>
+								<column_definition label="0 (not at all)" width="15"/>
+								<column_definition label="1(A little)" width="15"/>
+								<column_definition label="2 (Some)" width="15"/>
+								<column_definition label="3 (A lot)" width="15"/>
+							</column_definitions>
+							<table_data>
+								<cell>Problems in your personal life</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pressure from family or friends to start again</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pressure on your job</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Withdrawal symptoms</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Desire for tobacco remained high</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+							
+		<question mandatory="true" prompt="In the past, what is the longest time the patient has gone without using tobacco because he / she was trying to quit? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Less than one day or not at all"/>
+				<selection selected="false" text="1 - 7 days"/>
+				<selection selected="false" text="8 - 14 days"/>
+				<selection selected="false" text="15 - 30 days"/>
+				<selection selected="false" text="1 - 2 months"/>
+				<selection selected="false" text="3 - 6 months"/>
+				<selection selected="false" text="7 - 12 months"/>
+				<selection selected="false" text="Years">
+					<question mandatory="true" prompt="If years, please list number of years">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="On a scale of 1 to 10, please answer the following questions:">
+			<table_response add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Symptom" width="40"/>
+					<column_definition label="Details of Symptoms (i.e. Rating)" width="35"/>
+				</column_definitions>
+				
+				<table_data>
+					<cell>How much do your want to quit tobacco? (Rate 1-10 with 1 being not at all and 10 being very much.)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="10 - Being very much"/>
+								<selection selected="false" text="9"/>
+								<selection selected="false" text="8"/>
+								<selection selected="false" text="7"/>
+								<selection selected="false" text="6"/>
+								<selection selected="false" text="5 - Being some what"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="1 - Being not at all"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>How important is it to you to stop using tobacco? (Rate 1-10 with 1 being not at all and 10 being very important)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="10 - Very important"/>
+								<selection selected="false" text="9"/>
+								<selection selected="false" text="8"/>
+								<selection selected="false" text="7"/>
+								<selection selected="false" text="6"/>
+								<selection selected="false" text="5 - Some what important"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="1 - Not at all important"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>How confident are you that you will be successful in stopping tobacco use? (Rate 1-10 with 1 being not at all and 10 being very confident)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="10 - Very confident"/>
+								<selection selected="false" text="9"/>
+								<selection selected="false" text="8"/>
+								<selection selected="false" text="7"/>
+								<selection selected="false" text="6"/>
+								<selection selected="false" text="5 - Some what confident"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="1 - Not at all confident"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>How confident are you that you will not be using tobacco 1 year from now? (Rate 1-10 with 1 being not at all and 10 being very confident)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="10 - Very confident"/>
+								<selection selected="false" text="9"/>
+								<selection selected="false" text="8"/>
+								<selection selected="false" text="7"/>
+								<selection selected="false" text="6"/>
+								<selection selected="false" text="5 - Some what confident"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="1 - Not at all confident"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>How concerned are you about the possibility of gaining weight after you quit? (Rate 1-10 with 1 being not at all and 10 being very concerned.)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="10 - Very much concerned"/>
+								<selection selected="false" text="9"/>
+								<selection selected="false" text="8"/>
+								<selection selected="false" text="7"/>
+								<selection selected="false" text="6"/>
+								<selection selected="false" text="5 - Some what concerned"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="1 - Not at all concerned"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+			</table_response>
+		
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have at least one person he / she can count on for support while he / she quits smoking? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, who?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="During the past month, has the patient often been feeling down, depressed, or hopeless and not interested in doing things?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the following questions:">
+						<table_response add_row_increment="0" initial_rows_to_display="2">
+							<column_definitions>
+								<column_definition label="Problems" width="25"/>
+								<column_definition label="Rarely or none of the time (less than 1 day)" width="20"/>
+								<column_definition label="Some or a Little of the time (1-2 days)" width="20"/>
+								<column_definition label="Occasionnaly or a moderate amount of the time (3-4 days)" width="20"/>
+								<column_definition label="Most or all of the time (5-7 days)" width="20"/>
+							</column_definitions>
+							<table_data>
+								<cell>I was bothered by things that usually don't bother me</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I had trouble keeping my mind on what I was doing</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I felt depressed</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I felt that everything I did was an effort</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I felt hopeful about the future</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I felt fearful</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>My sleep was restless</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I was happy</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I felt lonely</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>I coud not get going</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Does the patient have suicidal thoughts or wishes? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Doesn't have any thoughts of killing self"/>
+				<selection selected="false" text="Has thoughts of killing self, but would not carry them out"/>
+				<selection selected="false" text="Would like to kill self"/>
+				<selection selected="false" text="Would kill self if had the chance"/>
+			</item_response>
+		</question>
+						
+		<question mandatory="true" prompt="When the patient has or wants cigarettes or other tobacco products (cigars / pipe / chew), he / she is usually with: (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Spouse / Boyfriend / Girlfriend"/>
+				<selection selected="false" text="Friends"/>
+				<selection selected="false" text="Family"/>
+				<selection selected="false" text="Co-workers"/>
+				<selection selected="false" text="People at the bar"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the patient currently drink alcoholic beverages?">
+			<item_response single_response="true">
+				<selection selected="false" text="No, The patient does not drink now, but did in the past"/>
+				<selection selected="false" text="No, The patient never drank alcohol"/>
+					<selection selected="false" text="Yes, The patient currently drinks">
+						<question mandatory="true" prompt="How many drinks does the patient have in a typical week? (choose one)&lt;BR&gt;&lt;B&gt;12-ounce can or bottle of beer&lt;BR&gt;5-ounce glass of wine&lt;BR&gt;12-ounce bottle or can of wine cooler&lt;BR&gt;1 1/2 ounce of straight liquor or in a mixed drink&lt;/B&gt;">
+							<item_response single_response="true">
+								<selection selected="false" text="Less than 1"/>
+								<selection selected="false" text="1-3"/>
+								<selection selected="false" text="4-7"/>
+								<selection selected="false" text="8-10"/>
+								<selection selected="false" text="11-14"/>
+								<selection selected="false" text="15-17"/>
+								<selection selected="false" text="18-21"/>
+								<selection selected="false" text="More than 21"/>
+							</item_response>
+						</question>
+							
+						<question mandatory="true" prompt="In the last 3 months, what is the greatest number of drinks the patient has had in one sitting? (choose one)&lt;BR&gt;&lt;B&gt;12-ounce can or bottle of beer&lt;BR&gt;5-ounce glass of wine&lt;BR&gt;12-ounce bottle or can of wine cooler&lt;BR&gt;1 1/2 ounce of straight liquor or in a mixed drink&lt;/B&gt;">
+							<item_response single_response="true">
+								<selection selected="false" text="None in past 3 months"/>
+								<selection selected="false" text="1-4"/>
+								<selection selected="false" text="5-8"/>
+								<selection selected="false" text="9-12"/>
+								<selection selected="false" text="13 or more"/>
+							</item_response>
+						</question>
+							
+						<question mandatory="true" prompt="Has the patient ever felt the need to cut down on his / her drinking? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+							
+						<question mandatory="true" prompt="Have people annoyed the patient by criticizing his / her drinking? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+							
+						<question mandatory="true" prompt="Has the patient had a drink first thing in the morning to steady his / her nerves or get rid of a hangover (eye opener)? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						
+						
+							
+					</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient currently receiving treatment for alcohol or drug problems? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes, the patient has been abstinent for at least 1 year"/>
+				<selection selected="false" text="Yes, the patient has been abstinent for less than 1 year"/>
+				<selection selected="false" text="Yes, the patient has not yet quit"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+						
+		<question mandatory="true" prompt="Excluding any current treatment, has the patient ever received treatment for alcohol or drug problems in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient describe his / her life? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not at all stressful"/>
+				<selection selected="false" text="A little stressful"/>
+				<selection selected="false" text="Somewhat stressful"/>
+				<selection selected="false" text="Very stressful"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="In that last month, how often has the patient felt that he / she was unable to control the important things in his / her life? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Almost never"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Fairly often"/>
+				<selection selected="false" text="Very often"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="In the last month, how often has the patient felt confident about his / her ability to handle personal problems? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Almost never"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Fairly often"/>
+				<selection selected="false" text="Very often"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="In the last month, how often has the patient felt that things were going his / her way? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Almost never"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Fairly often"/>
+				<selection selected="false" text="Very often"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="In the last month, how often has the patient felt difficulties were piling up so hight that he / she could not overcome them? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Almost never"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Fairly often"/>
+				<selection selected="false" text="Very often"/>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="What emotion(s) does the patient immediately prior to having a cigarette or any other tobacco product? (cigars / chew)? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Bored"/>
+				<selection selected="false" text="Stressed"/>
+				<selection selected="false" text="Angry"/>
+				<selection selected="false" text="Hungry"/>
+				<selection selected="false" text="Excited"/>
+				<selection selected="false" text="Tired"/>
+				<selection selected="false" text="Happy"/>
+				<selection selected="false" text="Depressed"/>
+				<selection selected="false" text="Nervous"/>
+				<selection selected="false" text="Lonely"/>
+				<selection selected="false" text="Full (After a meal)"/>
+				<selection selected="false" text="Having a few drinks"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Where can the patient usually be found, When he / she has or wants a cigarette or other tobacco products (cigars / chew)? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="At home"/>
+				<selection selected="false" text="At his / her computer"/>
+				<selection selected="false" text="In the bathroom"/>
+				<selection selected="false" text="On the telephone"/>
+				<selection selected="false" text="At a friend's house"/>
+				<selection selected="false" text="At the office"/>
+				<selection selected="false" text="Outside a bar"/>
+				<selection selected="false" text="In bed"/>
+				<selection selected="false" text="In the car"/>
+				<selection selected="false" text="Watching TV"/>
+				<selection selected="false" text="On the way to or from work"/>
+				<selection selected="false" text="Talking with other smokers"/>
+				<selection selected="false" text="Having a cup of coffee"/>
+				<selection selected="false" text="Studying or reading"/>
+				<selection selected="false" text="At a party or social gathering"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What time of day the patient most often has or wants a cigarette or other tobacco products (cigars / chew)? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="When he / she first wakes up"/>
+				<selection selected="false" text="With 1st cup of coffee"/>
+				<selection selected="false" text="In the morning, after breakfast"/>
+				<selection selected="false" text="On his / her way to work"/>
+				<selection selected="false" text="During a morning break"/>
+				<selection selected="false" text="During lunch"/>
+				<selection selected="false" text="After lunch"/>
+				<selection selected="false" text="During an afternoon break"/>
+				<selection selected="false" text="When he / she gets off work (right out the door)"/>
+				<selection selected="false" text="On the way home from work"/>
+				<selection selected="false" text="In the evening, before dinner"/>
+				<selection selected="false" text="In the evening, after dinner"/>
+				<selection selected="false" text="In the evening, while relaxing"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What have been the barriers to prevent the patient from quitting? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Patient enjoys tobacco"/>
+				<selection selected="false" text="Tobacco is the patient's best friend"/>
+				<selection selected="false" text="Patient is afraid of failing"/>
+				<selection selected="false" text="The craving are too strong"/>
+				<selection selected="false" text="It provides the patient with stress relief"/>
+				<selection selected="false" text="The patient is afraid of gaining weight"/>
+				<selection selected="false" text="The patient is afraid of the withdrawal symptoms"/>
+				<selection selected="false" text="The patient could not afford the medications"/>
+				<selection selected="false" text="The patient was discouraged from quitting"/>
+				<selection selected="false" text="The patient was always in a bad situation"/>
+				<selection selected="false" text="The patient could not find a class to fit his / her time"/>
+				<selection selected="false" text="The patient was in a bad social relationship at the time"/>
+				<selection selected="false" text="Tobacco gives the patient a boost"/>
+				<selection selected="false" text="He / she has to have a cigarette or other tobacco product after a meal"/>
+				<selection selected="false" text="It makes the patient feel good"/>
+				<selection selected="false" text="The patient has used tobacco so long, why bother quitting?"/>
+				<selection selected="false" text="It is a big part of his / her everyday life"/>
+				<selection selected="false" text="A family member lived a long happy life and he / she used tobacco"/>
+				<selection selected="false" text="Patient is still young and feels he / she can quit later"/>
+				<selection selected="false" text="Patient is addicted to nicotine"/>
+				<selection selected="false" text="It helps the patient when he / she has nothing to do"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="What date has the patient set for his / her quit date?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+				
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+		
+	</question_group>
+</questionnaire>

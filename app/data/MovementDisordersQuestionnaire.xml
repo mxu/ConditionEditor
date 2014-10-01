@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+     
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is your diagnosis? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Parkinson's Disease"/>
+				<selection selected="false" text="Essential or other tremor"/>
+				<selection selected="false" text="Dystonia"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other please explain: ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right handed"/>
+				<selection selected="false" text="Left handed"/>
+				<selection selected="false" text="Ambidextrous"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When did your symptoms begin?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Describe your initial symptoms below (be as specific as possible in your description):">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Did initial medical therapy (medications) improve your symptoms?  (Please describe below.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When did treatment or symptoms become difficult to treat with medication?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Describe your current problems and symptoms related to your movement disorder:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Please list the three top symptoms or problems you would like deep brain stimulation to help:">
+			<free_form_response height="7"/>
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition (the one you are requesting a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Please complete the table below by listing all of the diagnostic tests you have had.  Also provide us with the date of the test, where it was done, and the results (normal vs. abnormal).">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Brain or spine MRI">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Brain or spine CT scan">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Brain EEG (Electroencephalogram)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="EMG and / or NCS">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Spinal tap">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Lab tests specific to your problem">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="20"/>
+								<column_definition label="Hospital, clinic, diagnostic center" width="30"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="Result of test" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+                <selection selected="false" text="None of the above"/>
+			</item_response>            
+		</question>
+		<question mandatory="true" prompt="In the table below, please list all medications taken, the dosage of the medication and the time taken.">
+			<table_response initial_rows_to_display="3" add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Medication" width="20"/>
+					<column_definition label="Dosage" width="10"/>
+					<column_definition label="Date prescribed" width="10"/>
+					<column_definition label="Date stopped" width="10"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="List previous medications that have been tried for your movement disorder, the dates you took them and what effect they had on your condition.">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Artane (trihexyphenidyl)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Cogentin (benztropine)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Parsitan (ethopropazine)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Sinement (Carbidopa / Ldopa)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Sinemet CR (Carbidopa / Ldopa CR)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Comtan (entacapone)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Stalevo">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Eldepryl (deprenyl)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Amantadine (symmetrel)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Permax (pergolide)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Mirapex (pramipaxole)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Requip (ropinerole)">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date Started" width="10"/>
+								<column_definition label="Effect" width="20"/>
+								<column_definition label="Date stopped" width="10"/>
+								<column_definition label="Reason stopped" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="None of the above"/>									
+			</item_response>
+		</question>     
+        
+		<question mandatory="true" prompt="Has your physician had to limit your medications due to side effects? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your physician has had to limit your medications due to side effects, what were the side effects and what medications were reduced?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken medication for psychosis or hallucinations? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken medication for psychosis or hallucinations, what were the circumstances?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken medication for depression or anxiety? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken medication for depression or anxiety, what were the circumstances?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken Compazine, Phenergan or Reglan? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken Compazine, Phenergan or Reglan, what were the circumstances?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken Resperidol, Seroquel or Clozaril? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken Resperidol, Seroquel or Clozaril, what were the circumstances?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list any drug allergies and the type of drug reaction:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="Describe below any family member that has a neurological disorder including Parkinson's disease, tremor, gait or walking problem, dystonia, ataxia, dementia and their diagnosis:">
+			<free_form_response height="7"/>
+		</question>
+		<question mandatory="true" prompt="Have you ever smoked? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever smoked, when and how much?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>                
+		<question mandatory="true" prompt="Do you drink alcohol? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you drink alcohol, when and how much?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If you drink alcohol, does it change your symptoms?">
+					   <item_response drop_down_style="false" single_response="true">
+				              <selection selected="false" text="No"/>
+				              <selection selected="false" text="Yes">
+					        <question mandatory="true" prompt="If so, please explain.">
+						  <free_form_response height="5"/>
+						</question>
+					      </selection>
+					   </item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Where do you live? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Home"/>
+				<selection selected="false" text="Alone"/>
+				<selection selected="false" text="Assisted care home"/>
+				<selection selected="false" text="Nursing home"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other please explain: ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you need assistance from another person in your daily care? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you need assistance from another person in your daily care, who is providing the assistance?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="false" prompt="How much help do you need from your caregiver?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>                
+		<question mandatory="true" prompt="Do you have a support person that can travel and help support you through surgery? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you employed? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are employed, what is your occupation?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>      
+        <question mandatory="true" prompt="Has your movement problem limited your ability to work? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your movement problem has limited your ability to work, in what way?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>        
+		<question mandatory="true" prompt="Do you exercise? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you exercise, what type of exercise do you participate in?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>           
+		<question mandatory="true" prompt="Are you disabled from work? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are disabled from working, what date were you disabled?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+				</question>
+					<question mandatory="true" prompt="If you are disabled from working, what is the reason for the disability?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>        
+		<question mandatory="true" prompt="Do you use? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Cane"/>
+				<selection selected="false" text="Walker"/>
+				<selection selected="false" text="Scooter"/>
+				<selection selected="false" text="Wheelchair"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your condition affected activities such as dressing, bathing, or eating? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your condition has affected activities such as dressing, bathing, or eating, please explain?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drive? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have Parkinson's Disease? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have Parkinson's Disease, do you have times when your medication is working? ">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you have times when your medication is working,  on average how long does each medication dose last?  (# of hours)">
+									<free_form_response height="1"/>
+								</question>
+								<question mandatory="true" prompt="What percentage of your waking hours do you feel it is working?">
+									<free_form_response height="1"/>
+								</question>
+								<question mandatory="true" prompt="What percentage of your waking hours do you feel it is not working?">
+									<free_form_response height="1"/>
+								</question>
+								<question mandatory="true" prompt="At your best (when your medication is working) what activities can you do?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="At your worst (when your medication is not working) what can you no longer do?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did your medication ever work for your movement problems? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How long has it been since you medication has worked?">
+			<free_form_response height="1"/>
+		</question>                 
+		<question mandatory="true" prompt="Please indicate below how much each symptom bothers you :  (choose the most appropriate response for each)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Tremor">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Stiffness">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Slow Movement">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Dystonia, muscle spasm">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Walking problems">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Balance or concerns about falling">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Movement freezing">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Dyskinesia or uncontrolled movements">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Off periods">
+					<question mandatory="true" prompt="">
+						<table_response initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="None" width="4"/>
+								<column_definition label="Mild" width="4"/>
+								<column_definition label="Moderate" width="4"/>
+								<column_definition label="Severe" width="4"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+                <selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you having trouble with walking and / or balance?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are having trouble with walking and / or balance, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Did your trouble with walking and balance occur early in your disease">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you fall? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you fall, how many times per week do you fall?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Describe the circumstances that surround or cause your falls:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience motor freezing problems? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience motor freezing problems, is it worse during your on phase, off phase or does it occur all the time?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience lightheadedness or dizziness?  ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience lightheadedness or dizziness, when did this symptom begin?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+				</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been diagnosed with or treated for low blood pressure?  ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been diagnosed with or treated for low blood pressure, when did this symptom begin?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+				</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had trouble reading or trouble with double vision?  ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had trouble reading or trouble with double vision, when did this symptom begin?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+				</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience confusion, memory loss or forgetfulness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience confusion, memory loss or forgetfulness, when did this symptom begin?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+				</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had or been treated for visual hallucinations? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you ever have had or been treated for visual hallucinations, when did this symptom begin and what was the treatment?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with any of the following conditions? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Progressive Supranuclear Palsy (PSP)"/>
+				<selection selected="false" text="Multiple System Atrophy (MSA)"/>
+				<selection selected="false" text="Shy-Drager Syndrome"/>
+				<selection selected="false" text="Olivopontocerebellar Atrophy (OPCA)"/>
+				<selection selected="false" text="Lewy Body Disease"/>
+				<selection selected="false" text="Normal Pressure Hydrocephalus (NPH)"/>
+				<selection selected="false" text="Atypical Parkinsonism"/>
+                <selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience depression, anxiety or panic attacks? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="7"/>
+		</question>
+		<question mandatory="true" prompt="What physician made the recommendation and what is the physician's specialty area?">
+			<free_form_response height="4"/>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="7"/>
+		</question>                
+	</question_group>
+</questionnaire>

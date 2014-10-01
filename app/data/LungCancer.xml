@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "LungCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "LungCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pulmonary Medicine" name="Pulmonary Medicine">
+		<section description="" name="">
+			<condition cost="745.00" description="Bronchogenic Carcinoma" id="Bronchogenic Carcinoma">
+				<keyword text="lung"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="pulmonary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lung Cancer" id="Lung Cancer">
+				<keyword text="disease"/>
+				<keyword text="tumor"/>
+				<keyword text="nodule"/>
+				<keyword text="pulmonary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lung Nodule" id="Lung Nodule">
+				<keyword text="cancer"/>
+				<keyword text="disorder"/>
+				<keyword text="pulmonary disorder"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic Lung Cancer" id="Metastatic Lung Cancer">
+				<keyword text="carcinoma"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="metastasis"/>
+				<keyword text="pulmonary"/>
+				<keyword text="spread"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

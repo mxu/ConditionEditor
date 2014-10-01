@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_SoftTissueTumor(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_SoftTissueTumor(Pediatric)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Desmoid Tumor (Pediatric)" id="Desmoid Tumor (Pediatric)">
+				<keyword text="desmoid"/>
+				<keyword text="tumor"/>
+				<keyword text="soft tissue"/>
+				<keyword text="benign"/>
+				<keyword text="mass"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Extra-osseous Ewing's (Pediatric)" id="Extra-osseous Ewing's (Pediatric)">
+				<keyword text="extra osseous"/>
+				<keyword text="extra"/>
+				<keyword text="osseous"/>
+				<keyword text="soft tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fibrosarcoma (Pediatric)" id="Fibrosarcoma (Pediatric)">
+				<keyword text="Fibrosarcoma"/>
+				<keyword text="tumor"/>
+				<keyword text="soft tissue"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fibrous Histiocytoma (Pediatric)" id="Fibrous Histiocytoma (Pediatric)">
+				<keyword text="fibrous"/>
+				<keyword text="histiocytoma"/>
+				<keyword text="soft tissue"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Leiomyosarcoma (Pediatric)" id="Leiomyosarcoma (Pediatric)">
+				<keyword text="leiomyosarcoma"/>
+				<keyword text="soft tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="malignant"/>
+				<keyword text="malignancy"/>
+				<keyword text="carcinoma"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Malignant Soft Tissue Tumor (Any Type) (Pediatric)" id="Malignant Soft Tissue Tumor (Any Type) (Pediatric)">
+				<keyword text="soft tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rhabdomyosarcoma (Pediatric)" id="Rhabdomyosarcoma (Pediatric)">
+				<keyword text="rhabdomyosarcoma"/>
+				<keyword text="soft tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

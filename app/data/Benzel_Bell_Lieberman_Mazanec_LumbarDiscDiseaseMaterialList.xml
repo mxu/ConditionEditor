@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s). (if received)" mandatory="true"/>
+	<material id="Surgical report(s)" description="Surgical reports of any and all prior back and neck surgeries." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information will be required in order to proceed with your request for second opinion. Radiology films can be copied to compact disc (CD) for submission. Studies to include:&lt;/b&gt;"/>
+	<material id="Spine x-rays (Including standing spine x-rays)" description="Report and Films copied to CD in Dicom format." mandatory="true"/>
+	<material id="HIP x-rays" description="Report and Films copied to CD in Dicom format." mandatory="true"/>
+	<material id="Pelvic and/or sacroiliac joint x-rays" description="Report and Films copied to CD in Dicom format." mandatory="true"/>
+	<material id="MRI (Magnetic resonance imaging) scan" description="Report and Films copied to CD in Dicom format." mandatory="true"/>
+	<material id="CT (Computed tomogram) scan" description="Report and Films copied to CD in Dicom format." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="Discogram image (x-ray)" description="Report and films and Doctor's report of pain provocation aspects study, if done." mandatory="false"/>
+	<material id="EMG (electromyogram)" description="Report only." mandatory="false"/>
+	<material id="Myelogram" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,25 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by harsha reddy -->
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain a current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within 1 year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following radiology and diagnostic studies done in the last 3 years are required.  If indicated, the actual original films (not copies) of the studies and reports will be needed.&lt;/B&gt;"/>
+	<material id="Arteriogram" description="Reports and films." mandatory="true"/>
+	<material id="Duplex Carotid Ultrasound " description="Reports and films." mandatory="true"/>
+	<material id="CT Scan of Brain" description="Reports and films." mandatory="true"/>
+	<material id="Chest X-ray " description="Report only, however, if exam is  is abnormal, the actual films will need to be sent." mandatory="true"/>
+	<material id="EKG (electrocardiagram)" description="Report and actual tracings." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following blood laboratory tests results  to include: &lt;/B&gt;"/>
+	<material id="Complete Blood Count (CBC)" description="Laboratory blood test report to include the following results:&lt;BR&gt;Platelet count, red blood cell count, white cell  count, Hemoglobin, Hematocrit, Indices (MCV,MCHC)." mandatory="true"/>
+	<material id="Basic Metabolic Panel (BMP)" description="Laboratory blood test report to include the following results:Glucose, BUN, Creatinine, Sodium, Potassium, Chloride, CO2, Anion Gap." mandatory="true"/>
+	<material id="Prothrombin Time (PT) " description="Laboratory blood test report." mandatory="true"/>
+	<material id="International Normalized Ratio (INR)" description="Laboratory blood test report." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of medical information, although not mandatory, are optional, if done.&lt;/B&gt;"/>
+	<material id="MRI Scan" description="Reports and films (if done)." mandatory="false"/>
+	<material id="Cardiac catheterization" description="Reports and films (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

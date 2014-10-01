@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "SusacSyndromeMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "SusacSyndromeQuestionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Rheumatology" name="Rheumatology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Susac's Syndrome" id="Susac's Syndrome">
+				<keyword text="Susac's"/>
+				<keyword text="Susac"/>
+				<keyword text="Syndrome"/>
+				<keyword text="Neurology"/>
+				<keyword text="Ophthalmology"/>
+				<keyword text="Neuro-otology"/>
+				<keyword text="Rheumatology"/>
+				<keyword text="Neuro-radiology"/>
+				<keyword text="brain"/>
+				<keyword text="eye"/>
+				<keyword text="eyes"/>
+				<keyword text="ear"/>
+				<keyword text="ears"/>
+				<keyword text="involvement"/>
+				<keyword text="dysfunction"/>
+				<keyword text="memory"/>
+				<keyword text="retina"/>
+				<keyword text="cochlea"/>
+				<keyword text="thought"/>
+				<keyword text="processing"/>
+				<keyword text="visual"/>
+				<keyword text="disturbance"/>
+				<keyword text="hearing"/>
+				<keyword text="loss"/>
+				<keyword text="confusion"/>
+				<keyword text="disorientation"/>
+				<keyword text="impairment"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+
+

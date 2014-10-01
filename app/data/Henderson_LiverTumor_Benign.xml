@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Henderson_LiverTumor_BenignMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Henderson_LiverTumor_BenignQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Nodular Regenerative Hyperplasia" id="Nodular Regenerative Hyperplasia">
+				<keyword text="benign"/>
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cystadenomas" id="Cystadenomas">
+				<keyword text="liver"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				<keyword text="hepatic"/>
+				<keyword text="biliary"/>
+				<keyword text="cyst"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hepatocellular adenoma" id="Hepatocellular adenoma">
+				<keyword text="benign"/>
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Focal Nodular Hyperplasia" id="Focal Nodular Hyperplasia">
+				<keyword text="benign"/>
+				<keyword text="hepatic"/>
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="hemartoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hemangioma" id="Hemangioma">
+				<keyword text="benign"/>
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mesenchymal tumors" id="Mesenchymal tumors">
+				<keyword text="liver"/>
+				<keyword text="benign"/>
+				<keyword text="hepatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hepatic (Liver) Cysts" id="Hepatic (Liver) Cysts">
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Liver (Hepatic) Cyst" id="Liver (Hepatic) Cyst">
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Caroli's Disease" id="Caroli's Disease">
+				<keyword text="cysts"/>
+				<keyword text="fibrosis"/>
+				<keyword text="liver"/>
+				<keyword text="bile ducts"/>
+				<keyword text="hepatic"/>
+				<keyword text="fibrocystic"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Bile duct adenoma" id="Bile duct adenoma">
+				<keyword text="tumor"/>
+				<keyword text="liver"/>
+				<keyword text="benign"/>
+				<keyword text="hepatic"/>
+				<keyword text="bileduct"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

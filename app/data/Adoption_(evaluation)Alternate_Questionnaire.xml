@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Contact Information">
+    <question mandatory="true" prompt="What is your preferred method of contact?">
+			<table_response add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="" width="25"/>
+					<column_definition label="Number or Address" width="25"/>
+					<column_definition label="Best Time to Call" width="25"/>					
+				</column_definitions>
+				<table_data>
+					<cell>Home Phone</cell>
+					<cell/>
+					<cell/>					
+				</table_data>
+               	<table_data>
+					<cell>Cell Phone</cell>
+					<cell/>
+					<cell/>					
+				</table_data>
+                <table_data>
+					<cell>Work Phone</cell>
+					<cell/>
+					<cell/>					
+				</table_data>   
+                <table_data>
+					<cell>email</cell>
+					<cell/>
+					<cell/>					
+				</table_data>                 
+            </table_response>
+    </question>
+                
+		<question mandatory="false" prompt="Additional contact information or comments:">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

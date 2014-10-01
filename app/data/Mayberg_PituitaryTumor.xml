@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Mayberg_PituitaryTumorMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Mayberg_PituitaryTumorQuestionnaire.xml">
+]>
+<!-- Added vogelbaum & barnett to the file per Sharon Plona's VM request 11/12/03 DCH -->
+<division description="Surgery" name="Surgery">
+	<department description="Neurological Surgery" name="Neurological Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Acoustic Neuroma (neurosurgical evaluation)" id="Acoustic Neuroma (neurosurgical evaluation)">
+				<keyword text="schwannomas"/>
+				<keyword text="tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="ear"/>
+				<keyword text="mass"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Acromegaly (as a result of pituitary tumor)" id="Acromegaly (as a result of pituitary tumor)">
+				<keyword text="hyperpituitarism"/>
+				<keyword text="giantism"/>
+				<keyword text="neoplasm"/>
+				<keyword text="mass"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Craniopharyngioma" id="Craniopharyngioma">
+				<keyword text="tumor"/>
+				<keyword text="pituitary"/>
+				<keyword text="hypothalamus"/>
+				<keyword text="mass"/>
+				<keyword text="benign"/>
+				<keyword text="neoplasm"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cushing's Disease (as a result of Pituitary Tumor)" id="Cushing's Disease (as a result of Pituitary Tumor)">
+				<keyword text="gland"/>
+				<keyword text="cortisol"/>
+				<keyword text="hypercortisolemia"/>
+				<keyword text="adenoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Pituitary Tumor (adult)" id="Pituitary Tumor (adult)">
+				<keyword text="gland"/>
+				<keyword text="benign"/>
+				<keyword text="neoplasm"/>
+				<keyword text="mass"/>
+				<keyword text="growth"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Prolactinoma" id="Prolactinoma">
+				<keyword text="pituitary"/>
+				<keyword text="gland"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="neoplasm"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hypopituitarism" id="Hypopituitarism">
+				<keyword text="pituitary"/>
+				<keyword text="gland"/>
+				<keyword text="hypopituitarism"/>
+				<keyword text="decreased"/>
+				<keyword text="secretion"/>
+				<keyword text="condition"/>
+				<keyword text="hormone"/>
+				<keyword text="disorder"/>
+				<keyword text="hormones"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Growth hormone deficiency" id="Growth hormone deficiency">
+				<keyword text="growth"/>
+				<keyword text="hormone"/>
+				<keyword text="deficiency"/>
+				<keyword text="GHD"/>
+				<keyword text="conditions"/>
+				<keyword text="production"/>
+				<keyword text="decreased"/>
+				<keyword text="pituitary"/>
+				<keyword text="gland"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hypogonadism" id="Hypogonadism">
+				<keyword text="gland"/>
+				<keyword text="sex"/>
+				<keyword text="decreased"/>
+				<keyword text="hormone"/>
+				<keyword text="gonads"/>
+				<keyword text="testes"/>
+				<keyword text="function"/>
+				<keyword text="testosterone"/>
+				<keyword text="deficiency"/>
+				<keyword text="adrogen"/>
+				<keyword text="sperm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

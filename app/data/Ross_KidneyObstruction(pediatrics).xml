@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ross_KidneyObstruction(pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ross_KidneyObstruction(pediatrics)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Urology" name="Pediatric Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Kidney Obstruction (pediatric)" id="Kidney Obstruction (pediatric)">
+				<keyword text="renal"/>
+				<keyword text="stricture"/>
+				<keyword text="ureter"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Obstruction of Kidney (pediatric)" id="Obstruction of Kidney (pediatric)">
+				<keyword text="renal"/>
+				<keyword text="stricture"/>
+				<keyword text="ureter"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ureter Stricture (pediatric)" id="Ureter Stricture (pediatric)">
+				<keyword text="renal"/>
+				<keyword text="kidney"/>
+				<keyword text="obstruction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ureter Obstruction (pediatric)" id="Ureter Obstruction (pediatric)">
+				<keyword text="renal"/>
+				<keyword text="stricture"/>
+				<keyword text="kidney"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

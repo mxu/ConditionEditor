@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "NeurologicalDisorders(peds)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "NeurologicalDisorders(peds)Questionnaire.xml">
+]>
+<division description="Pediatrics" name="Pediatrics">
+	<department description="Pediatric Neurology" name="Pediatric Neurology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Adrenoleukodystrophy (pediatrics)" id="Adrenoleukodystrophy (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="ALD"/>
+				<keyword text="myelin"/>
+				<keyword text="damage"/>
+				<keyword text="VLCFA"/>
+				<keyword text="adrenal"/>
+				<keyword text="cortex"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Adrenomyeloneuropathy (AMN) (pediatrics)" id="Adrenomyeloneuropathy (AMN) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="AMN"/>
+				<keyword text="parapearesis"/>
+				<keyword text="testes"/>
+				<keyword text="hypogonadism"/>
+				<keyword text="adrenal"/>
+				<keyword text="cortex"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Huntington Disease (pediatrics)" id="Huntington Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="chorea"/>
+				<keyword text="genes"/>
+				<keyword text="brain"/>
+				<keyword text="cell"/>
+				<keyword text="defect"/>
+				<keyword text="degeneration"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Dandy-Walker Syndrome (pediatrics)" id="Dandy-Walker Syndrome (pediatrics)">
+				<keyword text="brain"/>
+				<keyword text="malformationr"/>
+				<keyword text="congenital"/>
+				<keyword text="cerebellum"/>
+				<keyword text="fluid"/>
+				<keyword text="spaces"/>
+				<keyword text="skull"/>
+				<keyword text="enlargement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Craniosynostosis (pediatrics)" id="Craniosynostosis (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				<keyword text="premature"/>
+				<keyword text="closure"/>
+				<keyword text="cranial"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Menkes Disease (pediatrics)" id="Menkes Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="copper"/>
+				<keyword text="metabollism"/>
+				<keyword text="neurodegeneration"/>
+				<keyword text="brain"/>
+				<keyword text="gray"/>
+				<keyword text="matter"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Long-Chain 3 Hydroxyacyl CoA Dehydrogense (LCHAD) (pediatrics)" id="Long-Chain 3 Hydroxyacyl CoA Dehydrogense (LCHAD) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="definciency"/>
+				<keyword text="enzyme"/>
+				<keyword text="defect"/>
+				<keyword text="gene"/>				
+				<keyword text="muscle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Medium Chain acyl CoA Dehydrogenase (MCAD) (pediatrics)" id="Medium Chain acyl CoA Dehydrogenase (MCAD) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="definciency"/>
+				<keyword text="enzyme"/>
+				<keyword text="defect"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="muscle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="GM1-Gandliosidosis (pediatrics)" id="GM1-Gandliosidosis (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="deficiency"/>
+				<keyword text="ganglioside"/>
+				<keyword text="accumulation"/>
+				<keyword text="autosomal"/>
+				<keyword text="recessive"/>
+				<keyword text="lysomal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Genetic Disorder (pediatrics)" id="Genetic Disorder (pediatrics)">
+				<keyword text="defective"/>
+				<keyword text="gene"/>
+				<keyword text="deficiency"/>
+				<keyword text="hereditary"/>
+				<keyword text="mutation"/>
+				<keyword text="neurological"/>
+				<keyword text="brain"/>
+				<keyword text="damage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fatty Acid Oxidation Disorder (pediatrics)" id="Fatty Acid Oxidation Disorder (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="deficiency"/>
+				<keyword text="MCAD"/>
+				<keyword text="LCAD"/>
+				<keyword text="LCHAD"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Paraneoplastic Cerebellar Degeneration (PCD) (pediatrics)" id="Paraneoplastic Cerebellar Degeneration (PCD) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="degeneration"/>
+				<keyword text="neurologic"/>				
+				<keyword text="celebellar"/>
+				<keyword text="immune"/>
+				<keyword text="autoantibodies"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Very long-chain acyl-coenzyme A dehydrogenase deficiency (VLCAG) (pediatrics)" id="Very long-chain acyl-coenzyme A dehydrogenase deficiency (VLCAG) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="dehydrogenase"/>
+				<keyword text="deficiency"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="chromosome"/>
+				<keyword text="enzyme"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Glutaric Acidemia (pediatrics)" id="Glutaric Acidemia (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="enzyme"/>
+				<keyword text="deficiency"/>
+				<keyword text="defective"/>
+				<keyword text="gene"/>
+				<keyword text="brain"/>
+				<keyword text="damage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Glutaric Acidemia Type I (GA-I) (pediatrics)" id="Glutaric Acidemia Type I (GA-I) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="enzyme"/>
+				<keyword text="deficiency"/>
+				<keyword text="defective"/>
+				<keyword text="gene"/>
+				<keyword text="brain"/>
+				<keyword text="damage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Glutaric Acidemia Type I (GA-2) (pediatrics)" id="Glutaric Acidemia Type I (GA-2) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="enzyme"/>
+				<keyword text="deficiency"/>
+				<keyword text="defective"/>
+				<keyword text="gene"/>
+				<keyword text="brain"/>
+				<keyword text="damage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Sandhoff Disease (pediatrics)" id="Sandhoff Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>				
+				<keyword text="deficiency"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="enzyme"/>
+				<keyword text="chromosome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Tay-Sachs Disease (pediatrics)" id="Tay-Sachs Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>				
+				<keyword text="deficiency"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="enzyme"/>
+				<keyword text="chromosome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Peroxisomal Disease (PSD) (pediatrics)" id="Peroxisomal Disease (PSD) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="enzyme"/>
+				<keyword text="deficiency"/>
+				<keyword text="metabolic"/>
+				<keyword text="peroxisomes"/>
+				<keyword text="mitochondrial"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Turner Syndrome (pediatrics)" id="Turner Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="absence"/>
+				<keyword text="X chromosome"/>
+				<keyword text="chromosome"/>
+				<keyword text="mutation"/>
+				<keyword text="deletion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Carnitine Deficiency (pediatrics)" id="Carnitine Deficiency (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="defect"/>
+				<keyword text="mutation"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Trisomy (pediatrics)" id="Trisomy (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="duplication"/>
+				<keyword text="Down's"/>
+				<keyword text="Syndrome"/>
+				<keyword text="chromosome"/>
+				<keyword text="addition"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fabry Disease (pediatrics)" id="Fabry Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="faulty"/>
+				<keyword text="lipid"/>
+				<keyword text="metabolism"/>
+				<keyword text="mutation"/>
+				<keyword text="trihexosidase"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Isovaleric Acidemia (IVA) (pediatrics)" id="Isovaleric Acidemia (IVA) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="Isovalery1-CoA"/>
+				<keyword text="dehydrogenase"/>
+				<keyword text="deficiency"/>
+				<keyword text="autosomal"/>
+				<keyword text="trait"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Propionic Acidemia (PROP) (pediatrics)" id="Propionic Acidemia (PROP) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="defect"/>
+				<keyword text="protein"/>
+				<keyword text="organic"/>
+				<keyword text="acid"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Developmental Delay (pediatrics)" id="Developmental Delay (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="genes"/>
+				<keyword text="neurological"/>
+				<keyword text="milestones"/>
+				<keyword text="development"/>
+				<keyword text="hereditary"/>
+				<keyword text="heredity"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Chronic Progressive External Ophthalmoplegia (pediatrics)" id="Chronic Progressive External Ophthalmoplegia (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="coenzyme Q10"/>
+				<keyword text="deficiency"/>
+				<keyword text="gene"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Coenzyme Q10 Deficiency (pediatrics)" id="Coenzyme Q10 Deficiency (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="deficiency"/>
+				<keyword text="mutation"/>
+				<keyword text="gene"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Gaucher's Disease (pediatrics)" id="Gaucher's Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="glucocerebroside"/>
+				<keyword text="build-up"/>
+				<keyword text="spleen"/>
+				<keyword text="enlargement"/>
+				<keyword text="liver"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fragile X-associated premature ovarian failure (POF) (pediatrics)" id="Fragile X-associated premature ovarian failure (POF) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="infertility"/>
+				<keyword text="ovarian"/>
+				<keyword text="function"/>
+				<keyword text="female"/>
+				<keyword text="carrier"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Niemann Pick Disease (pediatrics)" id="Niemann Pick Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="leukodystrophy"/>
+				<keyword text="lipid"/>
+				<keyword text="storage"/>
+				<keyword text="defect"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cerebrotendinous Xanthomatosis (pediatrics)" id="Cerebrotendinous Xanthomatosis (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="lipid"/>				
+				<keyword text="storage"/>
+				<keyword text="neurologic"/>
+				<keyword text="dysfunction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fragile X (FXS) (pediatrics)" id="Fragile X (FXS) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="mental"/>
+				<keyword text="impairment"/>
+				<keyword text="autism"/>
+				<keyword text="GENE"/>
+				<keyword text="mutation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fragile X-associated tremor/ataxia syndrome (FXTAS) (pediatrics)" id="Fragile X-associated tremor/ataxia syndrome (FXTAS) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="mental"/>
+				<keyword text="memory"/>
+				<keyword text="tremor"/>
+				<keyword text="gene"/>
+				<keyword text="carrier"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Retinitis Pigmentosa (pediatrics)" id="Retinitis Pigmentosa (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="inherited"/>
+				<keyword text="photoreceptors"/>
+				<keyword text="eye"/>
+				<keyword text="retinal"/>
+				<keyword text="pigment"/>
+				<keyword text="nyctalopia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Eaton-Lambert Syndrome (LEMS) (pediatrics)" id="Eaton-Lambert Syndrome (LEMS) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="LEMS"/>
+				<keyword text="myasthenic"/>
+				<keyword text="muscles"/>
+				<keyword text="weakness"/>
+				<keyword text="nerves"/>
+				<keyword text="paralysis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Canavan Disease (pediatrics)" id="Canavan Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="leukodystrophy"/>
+				<keyword text="myelin"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="aspartoacylase"/>
+				<keyword text="cerebral"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Lipid Storage Disease (pediatrics)" id="Lipid Storage Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="lipid"/>
+				<keyword text="enzyme"/>
+				<keyword text="defect"/>
+				<keyword text="synthase"/>
+				<keyword text="neurological"/>
+				<keyword text="metabolism"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Lysosomal Storage Disease (pediatrics)" id="Lysosomal Storage Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="lyosome"/>
+				<keyword text="enzyme"/>
+				<keyword text="defect"/>
+				<keyword text="synthase"/>
+				<keyword text="neurological"/>
+				<keyword text="metabolism"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Kuff's Disease (pediatrics)" id="Kuff's Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="lysomal"/>
+				<keyword text="storage"/>
+				<keyword text="deficiency"/>
+				<keyword text="gene"/>				
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mitochondrial Disease (pediatrics)" id="Mitochondrial Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="cytopathy"/>
+				<keyword text="defect"/>
+				<keyword text="gene"/>
+				<keyword text="inherited"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="POLG1 (pediatrics)" id="POLG1 (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="deficiency"/>
+				<keyword text="chromosome"/>
+				<keyword text="enzyme"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="MELAS Syndrome (pediatrics)" id="MELAS Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="myopathy"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				<keyword text="encephalopathy"/>
+				<keyword text="acidosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mental Retardation (pediatrics)" id="Mental Retardation (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="MR"/>
+				<keyword text="brain"/>
+				<keyword text="enzyme"/>
+				<keyword text="chromosome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Glycine Deficiency (pediatrics)" id="Glycine Deficiency (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mutation"/>
+				<keyword text="gene"/>
+				<keyword text="defect"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Glycine N-Methyl Transferase (GNMT) Deficiency (pediatrics)" id="Glycine N-Methyl Transferase (GNMT) Deficiency (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mutation"/>
+				<keyword text="gene"/>
+				<keyword text="defect"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cerebellar Degeneration (pediatrics)" id="Cerebellar Degeneration (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="mutations"/>
+				<keyword text="cerebellum"/>
+				<keyword text="degeneration"/>
+				<keyword text="neurons"/>
+				<keyword text="genes"/>
+				<keyword text="inherited"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Battens Disease (pediatrics)" id="Battens Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="NCLs"/>
+				<keyword text="neuronal"/>
+				<keyword text="ceroid"/>
+				<keyword text="lipofuscinoses"/>
+				<keyword text="chromosomes"/>
+				<keyword text="haltia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Parkinson's Disease (pediatrics)" id="Parkinson's Disease (pediatrics)">
+				<keyword text="brain"/>
+				<keyword text="muscle"/>
+				<keyword text="nerve"/>
+				<keyword text="cells"/>
+				<keyword text="dopamine"/>
+				<keyword text="deep"/>
+				<keyword text="neuromuscular"/>
+				<keyword text="movement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neuronal Ceroid Lipofuscinoses (pediatrics)" id="Neuronal Ceroid Lipofuscinoses (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurodegenrative"/>
+				<keyword text="lysomal"/>
+				<keyword text="enzyme"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="inherited"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neurotransmitter Disease (pediatrics)" id="Neurotransmitter Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurodegenrative"/>
+				<keyword text="neurons"/>
+				<keyword text="transmit"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="inherited"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neurotransmitter Syndrome (pediatrics)" id="Neurotransmitter Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurodegenrative"/>
+				<keyword text="neurons"/>
+				<keyword text="transmit"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="inherited"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Rett Syndrome (pediatrics)" id="Rett Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurodevelopmental"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="spermatogenesis"/>
+				<keyword text="hypotonia"/>
+				<keyword text="apraxia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Leukodystrophy (pediatrics)" id="Leukodystrophy (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurological"/>
+				<keyword text="brain"/>
+				<keyword text="white"/>
+				<keyword text="matter"/>
+				<keyword text="myelin"/>
+				<keyword text="sheath"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Lesch-Nyhan Syndrome (LNS) (pediatrics)" id="Lesch-Nyhan Syndrome (LNS) (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurological"/>
+				<keyword text="enzyme"/>
+				<keyword text="deficiency"/>
+				<keyword text="inherited"/>
+				<keyword text="gene"/>
+				<keyword text="recessive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Leigh Disease (pediatrics)" id="Leigh Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurological"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="defective"/>
+				<keyword text="cellular"/>
+				<keyword text="gene"/>
+				<keyword text="hypotonia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hypotonia (pediatrics)" id="Hypotonia (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neuromuscularl"/>
+				<keyword text="decreased"/>
+				<keyword text="muscle"/>
+				<keyword text="tone"/>
+				<keyword text="cell"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Kearn Sayre Syndrome (pediatrics)" id="Kearn Sayre Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neuromuscularl"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyopathy"/>
+				<keyword text="gene"/>
+				<keyword text="deletion"/>
+				<keyword text="cytopathy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neurodegeneration Disease (pediatrics)" id="Neurodegeneration Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="neurons"/>
+				<keyword text="brain"/>
+				<keyword text="degenerative"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="gene"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Fetal Alcohol Syndrome (pediatrics)" id="Fetal Alcohol Syndrome (pediatrics)">
+				<keyword text="neurological"/>
+				<keyword text="neurodevelopmental"/>
+				<keyword text="prenatal"/>
+				<keyword text="exposure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Myoclonus Epilepsy Associated with Ragged-Red Fibers (pediatrics)" id="Myoclonus Epilepsy Associated with Ragged-Red Fibers (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="seizures"/>
+				<keyword text="brain"/>
+				<keyword text="gene"/>
+				<keyword text="inherited"/>
+				<keyword text="enzyme"/>
+				<keyword text="chromosome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Holoprosencephaly (pediatrics)" id="Holoprosencephaly (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="single"/>
+				<keyword text="lobe"/>
+				<keyword text="embryonic"/>
+				<keyword text="prosencephalon"/>
+				<keyword text="forebrain"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Spinocerebellar Atrophy (pediatrics)" id="Spinocerebellar Atrophy (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="spinal cord"/>
+				<keyword text="degeneration"/>
+				<keyword text="cerebellum"/>
+				<keyword text="mutation"/>
+				<keyword text="enzyme"/>
+				<keyword text="chromosome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="GM2-Gandliospdosis (pediatrics)" id="GM2-Gandliospdosis (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="Tak Sachs"/>
+				<keyword text="ganglioside"/>
+				<keyword text="accumulation"/>
+				<keyword text="autosomal"/>
+				<keyword text="recessive"/>
+				<keyword text="lysosomal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Aneuploidy (pediatrics)" id="Aneuploidy (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="trisomy"/>
+				<keyword text="Edwards"/>
+				<keyword text="Syndrome"/>
+				<keyword text="chromosomes"/>
+				<keyword text="chromosome 12"/>
+				<keyword text="mosaicism"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Duplication 10q Syndrome (pediatrics)" id="Duplication 10q Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="trisomy"/>
+				<keyword text="neurological"/>
+				<keyword text="gene"/>
+				<keyword text="mutation"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Deletion 22q11 Syndrome (pediatrics)" id="Deletion 22q11 Syndrome (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="velocardiofacial (VCF)"/>
+				<keyword text="conotrunctal"/>
+				<keyword text="anomaly"/>
+				<keyword text="face"/>
+				<keyword text="genes"/>
+				<keyword text="autosomal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Ophthalmoplegia (pediatrics)" id="Ophthalmoplegia (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="eye"/>
+				<keyword text="muscle"/>
+				<keyword text="movement"/>
+				<keyword text="weakness"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyelopathy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

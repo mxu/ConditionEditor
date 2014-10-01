@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Tobacco_DependenceMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Tobacco_DependenceQuestionnaire.xml">
+]>
+<division description="Wellness" name="Wellness">
+	<department description="Wellness" name="Wellness">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Tobacco Dependence" id="Tobacco Dependence">
+				<keyword text="Tobacco"/>
+				<keyword text="Nicotine"/>
+				<keyword text="dependency"/>
+				<keyword text="dependence"/>
+				<keyword text="smoking"/>
+				<keyword text="quit"/>
+				<keyword text="cigarette"/>
+				<keyword text="smoke"/>
+				<keyword text="chew"/>
+				<keyword text="smokeless"/>
+				<keyword text="pipe"/>
+				<keyword text="cigar"/>
+				<keyword text="snus"/>
+				<keyword text="snuff"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

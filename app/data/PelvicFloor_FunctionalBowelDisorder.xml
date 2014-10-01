@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "PelvicFloor_FunctionalBowelDisorderMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "PelvicFloor_FunctionalBowelDisorderQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Pelvic Floor Dysfunction" id="Pelvic Floor Dysfunction" active="true">
+				<keyword text="pelvic"/>
+				<keyword text="floor"/>
+				<keyword text="dysfunction"/>
+				<keyword text="incontinence"/>
+				<keyword text="fecal"/>
+				<keyword text="leakage"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="rectum"/>
+				<keyword text="rectal"/>
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="leak"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Outlet Constipation" id="Outlet Constipation" active="true">
+				<keyword text="outlet"/>
+				<keyword text="constipation"/>
+				<keyword text="colon"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colonic Inertia" id="Colonic Inertia" active="true">
+				<keyword text="colonic"/>
+				<keyword text="constipation"/>
+				<keyword text="inertia"/>
+				<keyword text="colon"/>
+				<keyword text="fecal"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Recto-vaginal Fistula" id="Recto-vaginal Fistula" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="vaginal"/>
+				<keyword text="fistula"/>
+				<keyword text="incontinence"/>
+				<keyword text="leakage"/>
+				<keyword text="rectum"/>
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="pelvis"/>
+				<keyword text="leak"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fecal Incontinence/Leakage" id="Fecal Incontinence/Leakage" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="small"/>
+				<keyword text="incontinence"/>
+				<keyword text="leakage"/>
+				<keyword text="rectum"/>
+				<keyword text="large"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="sphincter"/>
+				<keyword text="anal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rectal Spasms" id="Rectal Spasms" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="pelvic"/>
+				<keyword text="floor"/>
+				<keyword text="leakage"/>
+				<keyword text="rectum"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="sphincter"/>
+				<keyword text="constipation"/>
+				<keyword text="anal"/>
+				<keyword text="pain"/>
+				<keyword text="spasms"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Non-relaxing puborectalis" id="Non-relaxing puborectalis" active="true">
+				<keyword text="non"/>
+				<keyword text="rectal"/>
+				<keyword text="relaxing"/>
+				<keyword text="puborectalis"/>
+				<keyword text="pubic"/>
+				<keyword text="pelvic"/>
+				<keyword text="floor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rectal Prolapse" id="Rectal Prolapse" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="floor"/>
+				<keyword text="leakage"/>
+				<keyword text="rectum"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="sphincter"/>
+				<keyword text="constipation"/>
+				<keyword text="anal"/>
+				<keyword text="sigmoidocele"/>
+				<keyword text="enterocele"/>
+				<keyword text="prolapse"/>
+				<keyword text="incontinence"/>
+				<keyword text="small"/>
+				<keyword text="large"/>
+				<keyword text="urine"/>
+				<keyword text="vagina"/>
+				<keyword text="rectocele"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rectocele" id="Rectocele" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="floor"/>
+				<keyword text="leakage"/>
+				<keyword text="rectum"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="sphincter"/>
+				<keyword text="constipation"/>
+				<keyword text="anal"/>
+				<keyword text="sigmoidocele"/>
+				<keyword text="enterocele"/>
+				<keyword text="prolapse"/>
+				<keyword text="incontinence"/>
+				<keyword text="small"/>
+				<keyword text="large"/>
+				<keyword text="urine"/>
+				<keyword text="vagina"/>
+				<keyword text="rectocele"/>
+				<keyword text="hernia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Enterocele" id="Enterocele" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="floor"/>
+				<keyword text="rectum"/>
+				<keyword text="fistula"/>
+				<keyword text="sphincter"/>
+				<keyword text="constipation"/>
+				<keyword text="rectocele"/>
+				<keyword text="sigmoidocele"/>
+				<keyword text="enterocele"/>
+				<keyword text="prolapse"/>
+				<keyword text="incontinence"/>
+				<keyword text="pouch"/>
+				<keyword text="vesicovaginal"/>
+				<keyword text="rectovaginal"/>
+				<keyword text="vagina"/>
+				<keyword text="hernia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Sigmoidocele (associated with Constipation)" id="Sigmoidocele (associated with Constipation)" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="floor"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="sigmoid"/>
+				<keyword text="anal"/>			
+				<keyword text="sigmoidocele"/>
+				<keyword text="rectocele"/>
+				<keyword text="vagina"/>
+				<keyword text="constipation"/>
+				<keyword text="small"/>
+				<keyword text="large"/>
+				<keyword text="enterocele"/>
+				<keyword text="prolapse"/>
+				<keyword text="fistula"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rectal Pain" id="Rectal Pain" active="true">
+				<keyword text="fecal"/>
+				<keyword text="rectal"/>
+				<keyword text="floor"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="leakage"/>
+				<keyword text="diarrhea"/>			
+				<keyword text="sphincter"/>
+				<keyword text="anal"/>
+				<keyword text="rectum"/>
+				<keyword text="pelvic"/>
+				<keyword text="pain"/>
+				<keyword text="constipation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Constipation" id="Constipation" active="true">
+				<keyword text="fecal"/>
+				<keyword text="constipation"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="small"/>
+				<keyword text="intestine"/>
+				<keyword text="disease"/>
+				<keyword text="rectal"/>
+				<keyword text="sphincter"/>
+				<keyword text="anal"/>
+				<keyword text="large"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Anal Incontinence" id="Anal Incontinence" active="true">
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="sphincter"/>
+				<keyword text="incontinent"/>
+				<keyword text="fecal"/>
+				<keyword text="rectum"/>
+				<keyword text="anal"/>
+				<keyword text="large"/>
+				<keyword text="small"/>
+				<keyword text="colon"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

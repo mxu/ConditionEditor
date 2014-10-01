@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Marks_BenignSoftTissueTumorMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Marks_BenignSoftTissueTumorQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Fibromatoses (Adult)" id="Fibromatoses (Adult)">
+				<keyword text="benign"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="fibromatoses"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Benign Tumor of Fatty Tissue (Adult)" id="Benign Tumor of Fatty Tissue (Adult)">
+				<keyword text="benign"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="fat"/>
+				<keyword text="fatty"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Benign Tumor of Muscle (Adult)" id="Benign Tumor of Muscle (Adult)">
+				<keyword text="benign"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="muscle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Benign Tumor of Peripheral Nerve (Adult)" id="Benign Tumor of Peripheral Nerve (Adult)">
+				<keyword text="benign"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="nerve"/>
+				<keyword text="peripheral "/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Desmoid Tumor (Adult)" id="Desmoid Tumor (Adult)">
+				<keyword text="desmoid"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Benign Soft Tissue Tumor (Adult)" id="Benign Soft Tissue Tumor (Adult)">
+				<keyword text="benign"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

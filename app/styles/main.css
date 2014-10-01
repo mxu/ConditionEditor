@@ -1,0 +1,296 @@
+/*
+  #FFB618 - primary
+
+  #EDEDED - light gray
+  #BBBBBB
+*/
+
+body {
+  background-color: #fff;
+}
+
+.navbar-bar {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 100;
+}
+
+.navbar-title {
+  border-right: 1px solid #ededed;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.navbar-title:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-controls {
+  position: fixed;
+  top: 0;
+  z-index: 101;
+}
+
+.navbar-controls > a {
+  display: inline-block;
+  background-color: transparent;
+  margin: 0;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: all 0.2s;
+}
+
+.push-right {
+  right: 0;
+}
+
+.sidebar {
+  border-right: 1px solid #bbb;
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 250px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sidebar-search.ng-enter {
+  animation: fadeInDown .5s;
+}
+
+.sidebar-search > input[type="text"] {
+  width: 100%;
+  background: transparent;
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  outline: none;
+  padding: 10px 44px 10px 10px;
+  -webkit-transition: border .2s;
+}
+
+.sidebar-search > input[type="text"]:focus {
+  border-bottom: 1px solid #FFB618;
+}
+
+.sidebar-search > .glyphicon {
+  position: absolute;
+  font-size: 16px;
+  right: 15px;
+  top: 13px;
+}
+
+.sidebar-search > .glyphicon-remove {
+  cursor: pointer;
+}
+
+.sidebar-search > .glyphicon-remove:hover {
+  color: #FFB618;
+}
+
+.sidebar-list.ng-enter {
+  -webkit-animation-delay: .5s;
+  animation: fadeInLeft .5s;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-transition: all .2s;
+}
+
+.navbar-controls > a:hover,
+.navbar-controls > a.active,
+.sidebar-link:hover {
+  color: #FFB618;
+  text-decoration: none;
+}
+
+.sidebar-link-active {
+  color: #fff;
+  background-color: #FFB618;
+}
+
+.sidebar-link-active:hover {
+  color: #fff;
+}
+
+.content-container {
+  margin-left: 250px;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.empty-container {
+  width: 100%;
+  text-align: center;
+}
+
+.view-msg {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#conditions,
+#materials,
+#questionGroups {
+  width: 100%;
+  padding: 10px;
+}
+
+.fadeIn.ng-enter {
+  animation: fadeIn .2s;
+}
+
+/* ---------------------------------------- */
+
+.contentItem {
+  background-color: transparent;
+  border: 1px dashed transparent;
+  padding: 5px 5px 5px 50px;
+  position: relative;
+  min-height: 115px;
+  margin-bottom: 1px;
+}
+
+.contentItem:hover {
+  border: 1px dashed #333;
+}
+
+.contentControls {
+  position: absolute;
+  left: 5px;
+  width: 40px;
+  -webkit-transition: all 0.3s;
+  opacity: 0;
+}
+
+.contentControls-active {
+  opacity: 1;
+}
+
+.item {
+  padding: 5px;
+  position: relative;
+  min-height: 105px;
+}
+
+.item-condition {
+  background-color: #fee;
+}
+
+.item-material {
+  background-color: #efe;
+}
+
+.item-questionGroup {
+  background-color: #eef;
+}
+
+.item-question {
+  background-color: #ffe;
+}
+
+.btn-config {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 3;
+}
+
+.itemControls {
+  background-color: #666;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: auto;
+  padding: 5px 30px 5px 5px;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.itemControls-active {
+  visibility: visible;
+}
+
+.itemContent {
+  padding-right: 30px;
+}
+
+/* ---------------------------------------- */
+
+.spinner {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #FFB618;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+  }
+}

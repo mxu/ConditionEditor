@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Samir (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Do you have a family history of any of the following conditions?  (Fill in all that apply)">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Condition" width="35"/>
+					<column_definition label="Family &lt;BR&gt; relationship" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Aneurysm</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Congestive heart failure (CHF)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell> Myocardial infarction (heart attack)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Heart valve disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Coronary artery disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hyperlipidemia (elevated blood fats)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Stroke (CVA)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diabetes</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hypertension</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lung Disease</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following conditions? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="RSD (Reflexic sympathetic dystrophy)"/>
+				<selection selected="false" text="Carpal tunnel syndrome"/>
+				<selection selected="false" text="Scleroderma"/>
+				<selection selected="false" text="Aneurysm"/>
+				<selection selected="false" text="Thrombophlebitis (blood clots in veins)"/>
+				<selection selected="false" text="Raynaud's syndrome"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever used nicotine products (excluding tobacco) such as pills, patch or gum?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever used nicotine products (excluding tobacco), please provide the following information, starting with the current or most recent:">
+						<table_response add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of nicotine" width="20"/>
+								<column_definition label="Dose/how often used" width="20"/>
+								<column_definition label="When started" width="10"/>
+								<column_definition label="When stopped (if applicable)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any of the following studies or diagnostic tests? (Fill in all that apply)">					<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Study" width="45"/>
+					<column_definition label="Month" width="20"/>
+					<column_definition label="Year" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Electrocardiogram (ECG, EKG)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Stress test (exercise treadmill)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Echocardiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>DSA (Digital subtraction angiogram)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>PVR (peripheral vascular resistance)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Arteriogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Doppler ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="When was your current diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician?">
+			&MONTH_YEAR_TABLE_RESPONSE;	
+		</question>
+		<question mandatory="true" prompt="Have you undergone any treatment for your condition? (surgery, thrombolytic therapy, etc.)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone any treatment for your condition, please provide the following information:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment/ Surgery" width="20"/>
+								<column_definition label="Month/Year" width="10"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please indicate below if you experience any of the following symptoms: (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Tender nodules (bumps) on extremities"/>
+				<selection selected="false" text="Ulcers (sores) on hands, feet or legs"/>
+				<selection selected="false" text="Gangrene on hands, feet or legs"/>
+				<selection selected="false" text="Coldness of feet and/or fingers"/>
+				<selection selected="false" text="Numbness/tingling of feet and/or fingers"/>
+				<selection selected="false" text="Edema (swelling in hands, feet or legs)"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience a heightened sensitivity to cold?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had frostbite?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had frostbite, please provide the following information:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Location of frostbite (fingers, toes, etc.)" width="20"/>
+								<column_definition label="Month/Year" width="10"/>
+								<column_definition label="Treatment" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have pain in your arms or legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have pain in your arms or legs, what is the location of your pain? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Left arm"/>
+							<selection selected="false" text="Right arm"/>
+							<selection selected="false" text="Left hand"/>
+							<selection selected="false" text="Right hand"/>
+							<selection selected="false" text="Left leg"/>
+							<selection selected="false" text="Right leg"/>
+							<selection selected="false" text="Left foot"/>
+							<selection selected="false" text="Right foot"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Which of the following describe your pain? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Burning"/>
+							<selection selected="false" text="Sharp"/>
+							<selection selected="false" text="Dull, aching"/>
+							<selection selected="false" text="Electric shock"/>
+							<selection selected="false" text="Worse at rest"/>
+							<selection selected="false" text="Constant (never lets up)"/>
+							<selection selected="false" text="Intermittent (comes and goes)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain on the scale below: (1=minimal pain, 10=worst pain)">
+					
+
+	<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience the following color changes in your hands or feet? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Pallor (paleness) when elevated"/>
+				<selection selected="false" text="Rubor (redness) when dependent (lowered)"/>
+				<selection selected="false" text="Cyanosis (purple discoloration) or mottling"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your most dominant symptom?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Type of doctor (vascular specialist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

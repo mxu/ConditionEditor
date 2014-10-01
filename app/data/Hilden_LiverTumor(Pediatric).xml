@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_LiverTumor(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_LiverTumor(Pediatric)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Liver Tumor (Pediatric)" id="Liver Tumor (Pediatric)">
+				<keyword text="liver tumor"/>
+				<keyword text="liver"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="abdomen"/>
+				<keyword text="malignant"/>
+				<keyword text="benign"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hepatoblastoma (Pediatric)" id="Hepatoblastoma (Pediatric)">
+				<keyword text="hepatoblastoma"/>
+				<keyword text="liver"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="abdomen"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hepatocellular Carcinoma (Pediatric)" id="Hepatocellular Carcinoma (Pediatric)">
+				<keyword text="hepatocellular"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="liver"/>
+				<keyword text="hepatoma"/>
+				<keyword text="malignant"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

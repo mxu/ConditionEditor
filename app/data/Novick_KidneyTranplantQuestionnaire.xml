@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of kidney disease?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of kidney disease, please provide the following information, if known:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="1">
+							<column_definitions>
+								<column_definition label="Family member" pct="30"/>
+								<column_definition label="Type of kidney disease" pct="30"/>
+								<column_definition label="Current condition of relative" pct="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your kidney disease diagnosed?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="false" prompt="If you have had any of the following studies, when?">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" pct="70"/>
+					<column_definition label="Month" pct="15"/>
+					<column_definition label="Year" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>CT</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest X-Ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>IVP</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>KUB</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other X-rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="When were you last examined?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Are you currently on kidney dialysis?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are currently on kidney dialysis, what type of dialysis are you receiving?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Hemodialysis">
+								<question mandatory="true" prompt="If you are currently on hemodialysis, please provide the following information:">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="1">
+										<column_definitions>
+											<column_definition label="# of times/week" pct="15"/>
+											<column_definition label="Shunt Location" pct="55"/>
+											<column_definition label="Date shunt established" pct="30"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Do you have a history of infected shunt?">
+									<item_response single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you do have a history of infected shunt, please indicate date:">
+												&MONTH_YEAR_TABLE_RESPONSE;
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Peritoneal dialysis">
+								<question mandatory="true" prompt="If you are on peritoneal dialysis, please indicate method:">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="IPD (Manual intermittent peritoneal dialysis)"/>
+										<selection selected="false" text="CAPD (Continuous ambulatory peritoneal dialysis)"/>
+										<selection selected="false" text="CCPD (Continuous cycling peritoneal dialysis)"/>
+										<selection selected="false" text="Automated cycler IPD"/>
+										<selection selected="false" text="Not sure">
+											<question mandatory="true" prompt="When were your abdominal catheters inserted?">
+												&MONTH_YEAR_TABLE_RESPONSE;
+											</question>
+											<question mandatory="true" prompt="Do you have a history of infected catheter and / or peritonitis?">
+												<item_response single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If you do have a history of infected catheter and / or peritonitis, please indicate date:">
+															&MONTH_YEAR_TABLE_RESPONSE;
+														</question>
+													</selection>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past two months) had any of the following symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Fever > 100 F / 38 C"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Productive cough"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently experiencing any other problems or symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you are currently experiencing any other problems or symptoms, please provide details:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you received a kidney transplant?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received a kidney transplant, who was the kidney obtained from?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Living related donor"/>
+							<selection selected="false" text="Non-related living donor"/>
+							<selection selected="false" text="Cadaver"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When was the kidney transplant performed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Was the transplant initially successful?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How long after the transplant did rejection occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list all other kidney or abdominal (belly) surgeries you have had (please provide specific details of each procedure as outlined below):">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Month / Year" width="15"/>
+					<column_definition label="Procedure" width="25"/>
+					<column_definition label="Reason for procedure" width="20"/>
+					<column_definition label="Physician" width="20"/>
+					<column_definition label="Hospital" width="20"/>
+					<column_definition label="City / State" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has your doctor recommended a kidney transplant?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your doctor has recommended a kidney transplant, have you been evaluated for the transplantation?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are you currently on a kidney transplant waiting list?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are currently on a kidney transplant waiting list, when were you placed on the list?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has a family member or other person been chosen as a prospective donor?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If a family member or other person been chosen as a prospective donor, has the donor been evaluated as an appropriate match?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does the donor have a history of any of the following?  (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not applicable"/>
+							<selection selected="false" text="Heart disease"/>
+							<selection selected="false" text="Kidney disease"/>
+							<selection selected="false" text="Diabetes"/>
+							<selection selected="false" text="Lung disease"/>
+							<selection selected="false" text="History of infections"/>
+							<selection selected="false" text="Cancer"/>
+							<selection selected="false" text="Hypertension (High blood pressure)"/>
+							<selection selected="false" text="Dental disease"/>
+							<selection selected="false" text="Liver disease (Hepatitis, cirrhosis, etc.)"/>
+							<selection selected="false" text="Other medical problems">
+								<question mandatory="true" prompt="If other, please indicate:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+							<selection selected="false" text="None of the above"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the donor's age? (Years)">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="What relationship is the donor?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Parent"/>
+							<selection selected="false" text="Sibling"/>
+							<selection selected="false" text="Cousin"/>
+							<selection selected="false" text="Other blood relative"/>
+							<selection selected="false" text="Not a blood relative"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the donor's recent blood pressure?  (Systolic - top number / Diastolic - bottom number)">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="When was the donor's last complete physical examination?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="When was the donor's last dental examination?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Has the donor recently (within the past two months) had any of the following symptoms? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Fever > 100 F / 38 C"/>
+							<selection selected="false" text="Night sweats"/>
+							<selection selected="false" text="Shortness of breath"/>
+							<selection selected="false" text="Productive cough"/>
+							<selection selected="false" text="None of the above"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the donor currently experiencing any other problems or symptoms?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If the donor is currently experiencing any other problems or symptoms, please provide details:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

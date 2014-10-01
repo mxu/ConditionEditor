@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>	
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Doctor's office notes" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Operative report(s)" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<material id="Physical therapist's report" description="Physical therapist's evaluation and summary, if applicable." mandatory="true"/>
+	<material id="Specialist physician's case summary" description="Specialist's report summarizing the details of the non-union condition including past treatment and the patient's response." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required. Radiology films must be copied to compact disc (CD) for submission."/>
+	
+	<material id="X-rays of the affected bone" description="Reports and films including pre-surgical and post-surgical films, if applicable." mandatory="true"/>
+	<material id="MRI (Magnetic resonance imaging) scan of bone" description="Reports and films (if done)." mandatory="true"/>
+	<material id="DEXA Scan or QCT Scan (For Bone Density)" description="Reports only (if done)." mandatory="true"/>
+	<material id="CT (Computed tomogram) scan of affected bone" description="Reports and actual films (if done)." mandatory="true"/>
+	<material id="Bone Scan / Indium Scan of Affected Bone" description="Reports and films (if done)." mandatory="true"/>
+	
+	<material id="Laboratory results for all infection cases" description="Test results for CBC(Complete blood count) with differential, Complete Metabolic Panel (Calcium, PO4, Alkaline Phosphotase, Albumin), ESR (Erythrocyte sedimatation rate), CRP (C-Reactive Protein), and all C and S (Culture and Sensitivity) reports of affected joint(s). 25 OH Vit D. Intact PTH with lonized Calcium. TSH" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="Ultrasound" description="Report only." mandatory="false"/>
+	<material id="Joint fluid analysis report" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

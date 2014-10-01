@@ -1,0 +1,9 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/b&gt;"/>
+	<material id="Echocardiogram" description="Please provide films on compact disc (CD). Also include written report of the cardiac catheterization study." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following radiologic and diagnostic studies done in the last 3 years will be required. Radiology films must be copied to compact disc (CD) for submission.&lt;/b&gt;"/>
+	<material id="Primary or specialist physician's last report" description="The report should contain current physical assessment of the patient's condition and a description of current signs and symptoms.  This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

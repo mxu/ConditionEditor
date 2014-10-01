@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all prior relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Physician's reports of any and all other treatments received for this diagnosis  (chemotherapy, radiation therapy, etc.) If chemotherapy was used, all therapy roadmaps will be significant toxicities and response to your therapy should be described." mandatory="true"/>
+	<material id="Discharge summaries" description="discharge summaries from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="X-rays" description="Report only." mandatory="false"/>
+	<material id="CT of abdomen and pelvis" description="Report and films (if done)." mandatory="true"/>
+	<material id="IVP" description="Report and films (if done)." mandatory="true"/>
+	<material id="KUB" description="Report and films (if done)." mandatory="true"/>
+	<material id="Ultrasound" description="Report and films (if done)." mandatory="true"/>
+	<material id="Chest CT Scan" description="Report and films (if done)." mandatory="false"/>
+	<material id="Pathology" description="Biopsy laboratory reports and glass slides from all biopsies done." mandatory="true"/>
+	<material id="Blood work" description="Report and films (if done)." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Additional blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation."/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

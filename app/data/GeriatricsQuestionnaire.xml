@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="If you are completing this questionnaire, you agree that patient is 60 years of age or older">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion. Please make sure that there is a clear timeline going back to when the patient was doing fine.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's diagnosis? (please provide exact diagnosis if known)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When was the diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="When was the patient last examined by his /her physician for the current condition (one you are requesting a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Please Provide the following details of Laboratory tests / Blood work">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Type of Laboratory tests / Blood work" width="40"/>
+					<column_definition label="Indicate Result if known" width="16"/>
+				</column_definitions>
+				<table_data>
+					<cell>CBC</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CMP</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>TSH</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>B12</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>HbAIC (if diabetic)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>PSA (if available)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Drug levels Epilepsy meds</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Digoxin level (if relevant)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Serum Vitamin D level (if done)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="What Cognitive tests (include brief tests like Folstein Mini-Mental State, Comprehensive Neuropsych testing etc) were done to determine the patient's diagnosis?">
+			<table_response add_row_increment="1" row_height="4">
+				<column_definitions>
+					<column_definition label="Study" width="40"/>
+					<column_definition label="Explain Result(s)" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell></cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="What examinations (tests) were done to determine the patient's diagnosis? (choose all that apply)">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Study" width="40"/>
+					<column_definition label="Indicate Result if known" width="16"/>
+				</column_definitions>
+				<table_data>
+					<cell>EEG (Electroencephalogram)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>X-Rays</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Monitoring unit evaluation</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Surgery</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (List below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Does the patient require assistance in any of the following and who helps? (choose all that apply)">
+			<table_response add_row_increment="1" row_height="3">
+				<column_definitions>
+					<column_definition label="Activity" width="40"/>
+					<column_definition label="Who Helps" width="25"/>
+					<column_definition label="Comments" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell>Walking</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Transferring</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bathing</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Dressing</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Feeding self</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Food preparation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Shopping</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Managing finances (If no longer managing finances, indicate why in Comments Column)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Keeping appointments</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Laundry</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Using the telephone</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Transportation (If no longer driving, indicate when stopped and why in Comments Column)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Additional Info below</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="What are the patient's leisure activities? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Walking"/>
+				<selection selected="false" text="Hiking"/>
+				<selection selected="false" text="Jogging or Running"/>
+				<selection selected="false" text="Cycling"/>
+				<selection selected="false" text="Exercise Classes"/>
+				<selection selected="false" text="Fishing"/>
+				<selection selected="false" text="Gardening"/>
+				<selection selected="false" text="Wood Working"/>
+				<selection selected="false" text="Painting"/>
+				<selection selected="false" text="Cards">
+					<question mandatory="true" prompt="If Yes, Which games? (List below)">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If Other, please describe in detail below">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient still pursuing some or all leisure activities? If not, Why?">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, Why? (Explain below)">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is Patient Still Working? (choose one)">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, Is Patient Retired? (choose one)">
+						<item_response drop_down_style="false" single_response="true">	
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please provide additional information below">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Patient Previous Occupation" width="30"/>
+											<column_definition label="Age of Retirement" width="15"/>
+											<column_definition label="Reason of Retirement" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Patient Current Occupation" width="30"/>
+								<column_definition label="How did he work? (ex: From home, Outside Home)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Is the patient living in? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Own house"/>
+				<selection selected="false" text="Another person's home">
+					<question mandatory="true" prompt="If Yes, Whose home?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Apartment (rental)"/>
+				<selection selected="false" text="Condo (owned)"/>
+				<selection selected="false" text="Independent Living"/>
+				<selection selected="false" text="Assisted Living"/>
+				<selection selected="false" text="Nursing home"/>
+				<selection selected="false" text="Rehabilitation unit"/>
+				<selection selected="false" text="Subacute Facility"/>
+				<selection selected="false" text="Skilled Nursing Facility"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many floors are in the place of residence?">
+			<free_form_response height="2"/>
+		</question>
+						
+		<question mandatory="true" prompt="Is the patient? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right-handed"/>
+				<selection selected="false" text="Left-handed"/>
+				<selection selected="false" text="Ambidextrous"/>
+				<selection selected="false" text="Not Sure"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient experienced past hospitalizations? (choose one)">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below">
+						<table_response initial_rows_to_display="5" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of Hospitalization&lt;BR&gt;(Month/Year)" width="15"/>
+								<column_definition label="Reason for Hospitalization" width="20"/>
+								<column_definition label="Name of Hospital / Clinic" width="20"/>
+								<column_definition label="Location (City / State)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient experience seizure activity? (choose one)">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of seizures does the patient have?  (choose all that apply)	">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Partial"/>
+							<selection selected="false" text="Simple partial"/>
+							<selection selected="false" text="Complex partial"/>
+							<selection selected="false" text="Generalized"/>
+							<selection selected="false" text="Absence (petit mal)"/>
+							<selection selected="false" text="Atypical absences"/>
+							<selection selected="false" text="Myoclonic"/>
+							<selection selected="false" text="Tonic-clonic (grand mal)"/>
+							<selection selected="false" text="Atonic"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain in detail:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is patient currently taking medications for seizures? (choose one)">
+						<item_response drop_down_style="false" single_response="true">	
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, from the list below, choose those that patient is taking.">
+									<table_response add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of Medication" width="35"/>
+											<column_definition label="Start Date of Medication&lt;BR&gt;(Month/Year)" width="15"/>
+											<column_definition label="Dosage" width="20"/>
+										</column_definitions>
+										<table_data>
+											<cell>Phenytoin (Dilantin)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Carbamazepine (Tegretol/Carbatrol)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Phenobarbital</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Primidone (Mysoline)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Levetiracetam (Keppra)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Topiramate (Topamax)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Lamotrigine (Lamictal)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Zonisimide (Zonegran)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Felbamate (Felbatol)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Gabapentin (Neurontin)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Oxcarbazepine (Trileptal)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Valproic acid (Depakote/Depakene)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Other (Please List below)</cell>
+											<cell/>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Has the patient experienced head trauma in the past?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain details of the head trauma. Please provide as much information as possible:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="Did patient lose consciousness when the head trauma occurred?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the head trauma occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the following table with details of Symptoms, Treatment below">
+			<table_response add_row_increment="1" row_height="3">
+				<column_definitions>
+					<column_definition label="Symptoms" width="45"/>
+					<column_definition label="Start Date of Symptom&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Treatment" width="35"/>
+					<column_definition label="Comments&lt;BR&gt;Frequency, Duration&lt;BR&gt;Location&lt;BR&gt;etc." width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Dizziness, unsteadiness, or falls</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Disorientation (not sure of his / her surroundings)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hearing problems in the past</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Swallowing problems in the past</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Episodes of sudden weakness (drop attacks)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Leg edema (swelling)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pain</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Numbness or tingling</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tremors</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Incontinence of urine</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please List below)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<!--  Start Leave it as it is -->
+		<question mandatory="true" prompt="Has the patient experienced any eye / vision problems in the past?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain details of the eye/vision problems including frequency, duration, etc. below.  Please provide as much information as possible: ">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="What type of eye / vision problems does patient experience? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Double vision"/>
+							<selection selected="false" text="Blurred vision"/>
+							<selection selected="false" text="Decreased sharpness"/>
+							<selection selected="false" text="Visual field obstruction"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list and explain in detail:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the eye/vision problems begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<!--  End Leave it as it is -->
+		
+		<!--  Start Another Question --> 
+		<question mandatory="true" prompt="Please complete the following table regarding any gastrointestinal symptoms experienced by Patient.">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptoms" width="45"/>
+					<column_definition label="Date(s) of Symptom&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Treatment" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Nausea and / or vomiting</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diarrhea</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Constipation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Incontinence of stool</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<!--  End Frame Category Another Question -->	
+				
+		<!--  Start Frame Category Another Question -->
+		<question mandatory="true" prompt="Please complete the following table regarding Urinary tract Infections (UTIs) experienced by Patient">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Date(s) of Infection&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Treatment" width="35"/>
+					<column_definition label="Details/Comments" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the following table regarding Other Infections (Other than Urinary tract Infections - UTIs) experienced by Patient">
+			<table_response add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Type of Infections" width="35"/>
+					<column_definition label="Date(s) of Infection&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Treatment" width="35"/>
+					<column_definition label="Details/Comments" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<!--  End Frame Category Another Question -->	
+		
+		<!--  Start Frame another Question -->
+		<question mandatory="true" prompt="Please complete the following table regarding behavioral symptoms experienced by Patient">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="45"/>
+					<column_definition label="Start Date of Symtoms&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Treatment" width="35"/>
+					<column_definition label="Details/Comments" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Apathy (lack of interest in usual activities or hobbies or sports)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Agitation, resistance to hygiene or hands-on-care, or aggression behavior</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hallucinations or psychosis</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mood swings (going from crying to joy quickly without clear reason)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Obsessive behaviors or compulsive thoughts</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Delusions (False Belief even if evidence presented that belief is false)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<!--  End Frame another Question -->
+		
+		<!--  Start Leave it as it is -->
+		<question mandatory="true" prompt="Has the patient displayed memory difficulties?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain details including short term and/or long-term memory impairement, issues of geographic disorientation (getting lost in a familiar environment), difficulties with names, difficulty with planning or shopping.  Please provide as much information as possible:">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient experienced depressed moods (sad, tearful, guilty, excessive worry)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain details of the depressed moods below.  Indicate if mood affects sleep, eating, activities, and general functioning:">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<!--  End Leave it as it is -->
+		
+		<!--  Start Frame Category Another Question -->
+		<question mandatory="true" prompt="Please complete the following table pertaining to family members of the patient.">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="45"/>
+					<column_definition label="Start Date of Symptom&lt;BR&gt;(Month/Year)" width="15"/>
+					<column_definition label="Relationship&lt;BR&gt;to patient" width="20"/>
+					<column_definition label="Details(including diagnosis)" width="35"/>
+					<column_definition label="Treatment" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Learning delay, cerebral palsy, autism, mental retardation, or developmental regression</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>History of psychiatric disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Multiple sclerosis or Parkinson disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cardiac (heart) disease starting at a young age</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Strokes starting at a young age</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<!--  End Frame Category Another Question -->
+		
+		<question mandatory="true" prompt="Has the patient been prescribed medication for his/her condition that patient is seeking a second opinion for? (choose one)">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete table below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of medication" width="15"/>
+								<column_definition label="Dosage" width="20"/>
+								<column_definition label="How often taken?" width="20"/>
+								<column_definition label="Date Started&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Were other medications tried then discontinued?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete table below:">
+									<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of medication" width="15"/>
+											<column_definition label="Dosage" width="20"/>
+											<column_definition label="How long was medication taken?" width="25"/>
+											<column_definition label="Date Started&lt;BR&gt;(Month / Year)" width="15"/>
+											<column_definition label="Date Discontinued&lt;BR&gt;(Month / Year)" width="15"/>
+											<column_definition label="Comments" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended for patient's current condition (ie: medical management, surgery, therapy, etc.)?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, neurologist, neurosurgeon, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+			
+	</question_group>
+</questionnaire>

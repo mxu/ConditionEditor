@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bell_Lieberman_VertebralFractureMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bell_Lieberman_VertebralFractureQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Spinal Osteoporosis" id="Spinal Osteoporosis">
+				<keyword text="vertebral"/>
+				<keyword text="vertebrae"/>
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Vertebral Compression Fracture" id="Vertebral Compression Fracture">
+				<keyword text="spine"/>
+				<keyword text="spinal"/>
+				<keyword text="back"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Vertebral Fracture" id="Vertebral Fracture">
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Vertebral Fracture with spinal cord injury" id="Vertebral Fracture with spinal cord injury">
+				<keyword text="vertebral"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="fracture"/>
+				<keyword text="paralysis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Vertebral Fracture without spinal cord injury" id="Vertebral Fracture without spinal cord injury">
+				<keyword text="vertebral"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				<keyword text="fracture"/>
+				<keyword text="paralysis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

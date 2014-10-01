@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_Neuroblastoma(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_Neuroblastoma(Pediatric)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Neuroblastoma (Pediatric)" id="Neuroblastoma (Pediatric)">
+				<keyword text="neuroblastoma"/>
+				<keyword text="nervous system"/>
+				<keyword text="abdomen"/>
+				<keyword text="cancer"/>
+				<keyword text="mass"/>
+				<keyword text="malignant"/>
+				<keyword text="blastoma"/>
+				<keyword text="carcinoma"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

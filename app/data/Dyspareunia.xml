@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Madhurini Akula -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "DyspareuniaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "DyspareuniaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Dyspareunia (female)" id="Dyspareunia (female)">
+				<keyword text="painful"/>
+				<keyword text="sexual"/>
+				<keyword text="intercourse"/>
+				<keyword text="vagina"/>
+				<keyword text="phallus"/>
+				<keyword text="infection"/>
+				<keyword text="dryness"/>
+				<keyword text="vulvadynia"/>
+				<keyword text="vulvar"/>
+				<keyword text="vestibulitis"/>
+				<keyword text="pelvic"/>
+				<keyword text="burning"/>
+				<keyword text="coital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

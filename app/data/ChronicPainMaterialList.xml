@@ -1,0 +1,19 @@
+<!-- This material list is just a stub for testing purposes -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="&lt;BR&gt;Primary Care and Specialist physicians' reports (Neurologist, Spine Specialist, Orthopedist, Neurosurgeon, Rheumatologist, etc.)" description="Typically, a complex chronic pain problem will have led to consultations by specialists. We need copies of all consultation reports related to your chronic pain along with any reports from you Primary Care physician." mandatory="true"/>	
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) related to testing or exam results." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins, nutritional supplements)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Physician's Office Notes" description="Copies of office notes for clinic visits related to your chronic pain." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Please include reports for any treatments / procedures that have been done related to your chronic pain condition." mandatory="true"/>	
+	<material id="Discharge summaries " description="Discharge summaries from any recent (within one year) hospitalizations" mandatory="true"/>
+	<material id="&lt;BR&gt;Radiology Study Reports for all X-ray, MRI, and CT Scans done in the last 3 years related to your chronic pain" description="Reports only for any pertinent studies related your chronic pain diagnosis." mandatory="true"/>	
+	<instruction text="&lt;BR&gt;&lt;font color=red size=2 &gt;&lt;B&gt; The following three items with active links to the forms need to be printed, completed and sent to the MyConsult office"/>
+	<material id="&lt;a style='font-size:9pt' href='/cclinic/static-html/files/PainDiagram.pdf'&gt;Pain Diagram&lt;/a&gt;" description="Please print the following diagram, complete it per the instructions, and submit it to the MyConsult office with your medical records." mandatory="true"/>	
+	<material id="&lt;a style='font-size:9pt' href='/cclinic/static-html/files/McGillPain.pdf'&gt;McGill Pain Questionnaire&lt;/a&gt;" description="Please print the following questionnaire, complete it per the instructions, and submit it to the MyConsult office with your medical records." mandatory="true"/>
+	<material id="&lt;a style='font-size:9pt' href='/cclinic/static-html/files/PainDASS21Form.pdf'&gt;Depression Anxiety and Stress Scale&lt;/a&gt;" description="Please print the following scale, complete it per the instructions, and submit it to the MyConsult office with your medical records." mandatory="true"/>	
+	<instruction text="&lt;BR&gt; The following items although listed as optional would be helpful to your consult. Recent lab work results, EKG reports, and any other medical information you or your physician may feel is pertinent to this consultation"/>
+	<material id="Other Medical Information" description="" mandatory="false"/>		
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

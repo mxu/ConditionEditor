@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wyllie_Liver_Disease(pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wyllie_Liver_Disease(pediatric)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Chronic Viral Hepatitis (pediatric)" id="Chronic Viral Hepatitis (pediatric)">
+				<keyword text="liver"/>
+				<keyword text="virus"/>
+				<keyword text="hepatic"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Autoimmune Hepatitis (pediatric)" id="Autoimmune Hepatitis (pediatric)">
+				<keyword text="liver"/>
+				<keyword text="infection"/>
+				<keyword text="hepatic"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

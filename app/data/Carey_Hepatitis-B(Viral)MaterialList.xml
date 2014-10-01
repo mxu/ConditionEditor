@@ -1,0 +1,57 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+     &PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Treatment reports" description="Reports of any treatments you have undergone for this diagnosis." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospital admissions." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  Reports and (actual) films for all radiology studies performed thus far, if indicated.  These studies to include the following:"/>
+	<material id="CT Scan of liver" description="Report only. If tumor involved both report and films will be needed" mandatory="true"/>
+	<material id="Ultrasound of liver" description="Report only. If tumor involved both report and films will be needed" mandatory="true"/>
+	<material id="Upper Endoscopy" description="Report" mandatory="true"/>
+	<material id="Cholangiography" description="Report and films." mandatory="true"/>
+	<material id="Other X-rays" description="Report and films. (if done)" mandatory="true"/>
+	<material id="Liver Biopsy" description="All laboratory pathology reports for all liver biopsies done" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Current Blood work  to include the following laboratory blood tests:"/>
+	<material id="Complete blood count (CBC)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Iron" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Total Iron Binding Capacity" description="Laboratory blood test report" mandatory="true"/>
+	<material id="% Saturation" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Ferritin" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Antinuclear Antibodies" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Anti Hepatitits D (Delta) Antibody" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis D (Delta) Antigen" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Hepatitis B Profile to contain the following:"/>
+	<material id="Hepatitis B surface antigen" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis B core antibody total" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis B surface antibody " description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis C antibody." description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Hepatitis B Immunity Panel to include the  following:"/>
+	<material id="Hepatitis B surface antibody " description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis B surface antigen" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis B core antibody total" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis B Core Antibody" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Liver tests to include the following:"/>
+	<material id="Ammonia" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Alkaline phosphatase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Alanine  amino transferace" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Alanine transaminase (ALT)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Aminotransferase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Aspartate transaminase (AST)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Bilirubin" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Gamma glutamyl transpeptidase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Lactate dehydrogenase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="5'-nucleotidase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Albumin" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Alpha-fetoprotein" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Anti Mitrochondrial antibodies" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Anti Smooth Muscle Antibody" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Prothrombin Time" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text=" The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="CT Scan of liver" description="Report only (if done)." mandatory="false"/>
+	<material id="Ultrasound of liver" description="Report only (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to your condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

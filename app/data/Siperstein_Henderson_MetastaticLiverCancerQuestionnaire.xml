@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a prior history of any other cancers and / or precancerous conditions??">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a prior history of any other cancers and / or precancerous conditions, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of cancer" width="20"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Type of treatment" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question prompt="If you have a family history of cancer, please provide the following information.  Please indicate if the family member is related on your maternal or paternal side, if applicable.">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member" width="20"/>
+								<column_definition label="Type of cancer" width="20"/>
+								<column_definition label="Maternal/Paternal" width="20"/>
+								<column_definition label="Age at diagnosis (if known)" width="10"/>
+								<column_definition label="Current condition of relative (if known)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your cancer originally diagnosed?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is the primary (original) site of the cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Colon"/>
+				<selection selected="false" text="Rectum"/>
+				<selection selected="false" text="Lung"/>
+				<selection selected="false" text="Breast"/>
+				<selection selected="false" text="Neuroendocrine"/>
+				<selection selected="false" text="Stomach"/>
+				<selection selected="false" text="Ovary"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How was your current condition (one you are seeking second opinion for) diagnosed? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="X-Rays"/>
+				<selection selected="false" text="CT Scan"/>
+				<selection selected="false" text="MRI Scan"/>
+				<selection selected="false" text="Ultrasound"/>
+				<selection selected="false" text="Blood Work"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was the liver metastasis (spread to liver) first discovered?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="How many liver lesions do you have?">
+			<item_response drop_down_style="true" single_response="true">
+				<selection selected="true" text="Not sure"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="2"/>
+				<selection selected="false" text="3"/>
+				<selection selected="false" text="4"/>
+				<selection selected="false" text="5"/>
+				<selection selected="false" text="6"/>
+				<selection selected="false" text="7"/>
+				<selection selected="false" text="8"/>
+				<selection selected="false" text="More than 8"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the size of the largest lesion, if known?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Less than one centimeter"/>
+				<selection selected="false" text="More than one centimeter"/>
+				<selection selected="false" text="More than two centimeters"/>
+				<selection selected="false" text="More than three centimeters"/>
+				<selection selected="false" text="More than four centimeters"/>
+				<selection selected="false" text="More than five centimeters"/>
+				<selection selected="false" text="More than six centimeters"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="false" prompt="Have you had any of the following studies, including pre- and post-treatment?  If so, when? (Choose all that apply)">
+			<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Study" width="30"/>
+					<column_definition label="Date (Month/Year)" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell>X-Rays</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pet Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bone Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please indicate below any of the following studies you have had: (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="CT Scan">
+					<question mandatory="true" prompt="">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results, if known?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No evidence of liver cancer"/>
+							<selection selected="false" text="Liver cancer confirmed"/>
+							<selection selected="false" text="Increase in lesion size"/>
+							<selection selected="false" text="Increase in lesion size and #"/>
+							<selection selected="false" text="Decrease in lesion size"/>
+							<selection selected="false" text="Decrease in lesion number"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="MRI Scan">
+					<question mandatory="true" prompt="">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results, if known?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No evidence of liver cancer"/>
+							<selection selected="false" text="Liver cancer confirmed"/>
+							<selection selected="false" text="Increase in lesion size"/>
+							<selection selected="false" text="Increase in lesion size and #"/>
+							<selection selected="false" text="Decrease in lesion size"/>
+							<selection selected="false" text="Decrease in lesion number"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Ultrasound">
+					<question mandatory="true" prompt="">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results, if known?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No evidence of liver cancer"/>
+							<selection selected="false" text="Liver cancer confirmed"/>
+							<selection selected="false" text="Increase in lesion size"/>
+							<selection selected="false" text="Increase in lesion size and #"/>
+							<selection selected="false" text="Decrease in lesion size"/>
+							<selection selected="false" text="Decrease in lesion number"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Arteriogram">
+					<question mandatory="true" prompt="">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results, if known?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No evidence of liver cancer"/>
+							<selection selected="false" text="Liver cancer confirmed"/>
+							<selection selected="false" text="Increase in lesion size"/>
+							<selection selected="false" text="Increase in lesion size and #"/>
+							<selection selected="false" text="Decrease in lesion size"/>
+							<selection selected="false" text="Decrease in lesion number"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please indicate below the tumor marker type, if known: (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="CEA"/>
+				<selection selected="false" text="AFB"/>
+				<selection selected="false" text="Chromogranin A"/>
+				<selection selected="false" text="5 HIAA"/>
+				<selection selected="false" text="Ca 12-5"/>
+				<selection selected="false" text="Ca 19-9"/>
+				<selection selected="false" text="Ca 27-29"/>
+				<selection selected="false" text="Other"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please indicate below all the treatments you have received so far for your tumor(s): (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Radiation"/>
+				<selection selected="false" text="Chemotherapy"/>
+				<selection selected="false" text="Chemoembolization"/>
+				<selection selected="false" text="Cryoablation"/>
+				<selection selected="false" text="Thermal ablation"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone surgery for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone surgery for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Surgery/Procedure" width="20"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have undergone surgery, how would you rate your overall satisfaction with the treatment? (1=Not satisfied, 10=Very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="If surgery has been performed, what is your general subjective impression of the experience?  (in your own words)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone any chemotherapy treatment for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone any chemotherapy treatment for your condition, please provide additional information below with regard to the specific chemotherapy agents received: (choose all that apply)">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of chemotherapy" width="25"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+								<column_definition label="# of cycles (if known)" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>5-FU</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Leucovorin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>CPT-11</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Oxaliplatin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Xeloda</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Carboplatin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cisplatinin</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>5-FUDR</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tamoxifen</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (List below)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have received chemotherapy treatment, how would you rate your overall satisfaction with the treatment? (1=Not satisfied, 10=Very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="If you have undergone chemotherapy treatment, what is your general subjective impression of the experience?  (in your own words)">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone radiation therapy treatment for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone radiation therapy treatment for your condition, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of radiation" width="25"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Dosage (if known)" width="15"/>
+								<column_definition label="# of treatments (if known)" width="10"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have undergone radiation therapy treatment, how would you rate your overall satisfaction with the treatment? (1=Not satisfied, 10=Very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="If you have undergone radiation therapy treatment, what is your general subjective impression of the experience?  (in your own words)">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone experimental or alternative therapy treatment for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone experimental or alternative therapy treatment for your condition, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of treatment" width="25"/>
+								<column_definition label="Date (Month/Year)" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have undergone experimental or alternative treatment, how would you rate your overall satisfaction with the treatment? (1=Not satisfied, 10=Very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="If you have undergone experimental or alternative treatment, what is your general subjective impression of the experience?  (in your own words)">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are experiencing pain, where is the pain located?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="Please rate the pain on the scale below: (1=Minimal pain, 10=Worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="Do you experience pain at night while resting?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you experience pain at night while resting, does it prevent you from falling asleep or does it wake you at night?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently experiencing any other symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are currently experiencing any other symptoms, please describe:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding treatment for your current condition (surgery, medical management, etc.)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Name of physician" width="30"/>
+					<column_definition label="Specialty &lt;BR&gt; (oncology specialist, primary care, etc.)" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="What have the doctors stated regarding your prognosis (forecast of the probable course of the disease)?">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="false" prompt="What are the primary hopes and expectations you have regarding this consultation?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

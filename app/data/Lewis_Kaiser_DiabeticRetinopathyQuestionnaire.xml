@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What type of diabetes do you have?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Type I"/>
+				<selection selected="false" text="Type II"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please provide information regarding your latest blood sugar level below (if known):">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Level" width="15"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Please provide information regarding your latest HbA1c level below (if known):">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Level" width="15"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Are you taking insulin injections (shots)?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are taking insulin injections, when did you begin taking the insulin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question prompt="If you are taking insulin injections, please provide the following information regarding your insulin treatment:">
+						<table_response initial_rows_to_display="3" add_row_increment="1">
+							<column_definitions>
+								<column_definition label="Insulin type" width="25"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Frequency (once per day, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your level of diabetic control? (choose one)">
+			<item_response single_response="false" drop_down_style="true">
+				<selection selected="false" text="Excellent"/>
+				<selection selected="false" text="Very Good"/>
+				<selection selected="false" text="Good"/>
+				<selection selected="false" text="Fair"/>
+				<selection selected="false" text="Poor"/>
+				<selection selected="false" text="Not Sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have proteinuria (protein in your urine)?">
+			<item_response single_response="false" drop_down_style="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question prompt="If you answered yes to the question related to High Blood Pressure on the General History Form, please provide the following information for your latest blood pressure reading:">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Systolic (top number)" width="20"/>
+					<column_definition label="Diastolic (bottom number)" width="20"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="10"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you have hypercholesterolemia (high blood cholesterol levels)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have hypercholesterolemia, what is your last blood cholesterol level?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Level" width="15"/>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have hyperlipidemia (high fat levels in blood)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have hyperlipidemia, what is your latest level?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Level" width="15"/>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have cardiovascular disease?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please describe in detail your current eye problem:">
+			<free_form_response height="4"/>
+		</question>
+		<question mandatory="true" prompt="When was your last eye exam?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What type of doctor performed your eye examination?">
+			<item_response single_response="true">
+				<selection selected="false" text="Ophthalmologist (MD)"/>
+				<selection selected="false" text="Optometrist (OD)"/>
+				<selection selected="false" text="Not sure">
+					<question mandatory="true" prompt="Please enter the physician's information below (if known):">
+						<table_response initial_rows_to_display="1" add_row_increment="1">
+							<column_definitions>
+								<column_definition label="Name of eye doctor" width="25"/>
+								<column_definition label="Address" width="25"/>
+								<column_definition label="Phone number" width="18"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="In which eye do you have loss of sight?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right eye"/>
+				<selection selected="false" text="Left eye"/>
+				<selection selected="false" text="Both eyes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How rapid was your vision loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Sudden"/>
+				<selection selected="false" text="Slowly progressive"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When did your vision loss begin?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Do you have distortion (lines not appearing straight)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have distortion, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have trouble reading?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have trouble reading, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have trouble reading, do you have trouble reading at a distance?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have constricted peripheral vision?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have constricted peripheral vision, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please describe the problem in your own words:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have difficulty seeing at night?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have difficulty seeing at night, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please describe the problem in your own words:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a vitrectomy for vitreous hemorrhage?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a vitrectomy for vitreous hemorrhage, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a vitrectomy for retinal detachment?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a vitrectomy for retinal detachment, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list all other previous ocular surgeries you have had:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Month/Year" width="10"/>
+					<column_definition label="Type of procedure" width="20"/>
+					<column_definition label="Diagnosis" width="15"/>
+					<column_definition label="Which eye?" width="5"/>
+					<column_definition label="Physician" width="25"/>
+					<column_definition label="Address" width="25"/>
+					<column_definition label="Phone Number" width="18"/>
+					<column_definition label="Complications?" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Please provide the following information about all the ocular surgeries above:">
+			<table_response initial_rows_to_display="3" add_row_increment="3">
+				<column_definitions>
+					<column_definition label="Month/Year" width="20"/>
+					<column_definition label="Type of procedure" width="20"/>
+					<column_definition label="Was gas or silicone oil used (if known)?" width="40"/>
+					<column_definition label="Did vision improve and then decline (yes, no, not sure)" width="35"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received laser treatment for diabetic macular edema?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever received laser treatment for diabetic macular edema, which eye?">
+						<item_response single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you have ever received laser treatment for diabetic macular edema, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received laser treatment for proliferative diabetic retinopathy?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever received laser treatment for proliferative diabetic retinopathy, which eye?">
+						<item_response single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question prompt="If you have ever received laser treatment for proliferative diabetic retinopathy, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list all other previous ocular laser type procedures (for example: retinal lasers, glaucoma lasers and post cataract lasers):">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Month/Year" width="10"/>
+					<column_definition label="Type of procedure" width="20"/>
+					<column_definition label="Diagnosis" width="15"/>
+					<column_definition label="Which eye?" width="5"/>
+					<column_definition label="Physician" width="25"/>
+					<column_definition label="Address" width="25"/>
+					<column_definition label="Phone Number" width="18"/>
+					<column_definition label="Complications?" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please list all previous experimental treatments or clinical trials you have had:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Month/Year" width="10"/>
+					<column_definition label="Type of treatment" width="20"/>
+					<column_definition label="Reason for procedure" width="15"/>
+					<column_definition label="Which eye?" width="5"/>
+					<column_definition label="Physician" width="25"/>
+					<column_definition label="Address" width="25"/>
+					<column_definition label="Phone Number" width="18"/>
+					<column_definition label="Complications?" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any trauma or injury to your eyes, face or head?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had any trauma or injury to your eyes, face or head, please provide details of the injury:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="If you have ever had any trauma or injury to your eyes, face or head, indicate date injury occurred:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with amblyopia (lazy eye)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with amblyopia, did you wear an eye patch?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you did wear an eye patch, how long did you wear the patch?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Number of months" pct="50"/>
+								<column_definition label="Number of years" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with strabismus?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with strabismus, did you wear an eye patch?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you did wear an eye patch, how long did you wear the patch?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Number of months" pct="50"/>
+								<column_definition label="Number of years" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with glaucoma?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with glaucoma, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have ever been diagnosed with glaucoma, please indicate the type of glaucoma:">
+						<item_response single_response="true">
+							<selection selected="false" text="Primary open angle"/>
+							<selection selected="false" text="Closed angle"/>
+							<selection selected="false" text="Neovascular"/>
+							<selection selected="false" text="Pigmentary"/>
+							<selection selected="false" text="Pseudoexfoliation"/>
+							<selection selected="false" text="Combined"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Other">
+								<question prompt="If other, please indicate:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with cataracts?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with cataracts, please indicate the dates below:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Right eye (month/year)" pct="50"/>
+								<column_definition label="Left eye (month/year)" pct="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with ARMD (age-related macular degeneration)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with ARMD, which type?">
+						<item_response single_response="true">
+							<selection selected="false" text="Dry/atrophic"/>
+							<selection selected="false" text="Wet/exudative"/>
+							<selection selected="false" text="Not sure which type"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you have ever been diagnosed with ARMD, indicate the date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with macular edema (swelling)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with macular edema, what was the cause of the edema (if known)?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="If you have ever been diagnosed with macular edema, indicate the date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with macular ischemia (decreased blood supply)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with macular ischemia, what was the cause of the ischemia (if known)?">
+						<free_form_response height="3"/>
+					</question>
+					<question prompt="If you have ever been diagnosed with macular ischemia, indicate the date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with corneal problems?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with corneal problems, please describe the problem:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="If you have ever been diagnosed with corneal problems, indicate the date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Have you ever been diagnosed with any of the following conditions? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Posterior vitreous separation">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Retinal tears/breaks">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Epiretinal membrane">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Vitreous hemorrhage">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Macular pucker">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Macular hole">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="None"/>
+			</item_response>
+		</question>
+		<question prompt="Please complete the following section with regard to family history of ocular diseases.  Please answer additional questions for each positive answer.  Do you have a family history of any of the following ocular diseases?">
+			<item_response single_response="false">
+				<selection selected="false" text="Age-related macular degeneration">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Diabetic retinopathy">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Glaucoma">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Retinal detachment">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Hereditary retinal diseases (any type)">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Type of problem" width="35"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Cataracts">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected (parent, sibling, etc.)" width="40"/>
+								<column_definition label="Type of problem" width="35"/>
+								<column_definition label="Treatment (surgery, laser, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!-- Michelle Marks MD -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "NutritionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "NutritionQuestionnaire.xml">
+]>
+
+<division description="Nutrition" name="Nutrition">
+	<department description="Preventive Cardiology" name="Preventive Cardiology">
+		<section description="" name="">
+			<condition cost="195.00" description="Abnormal Cholesterol (2 Sessions)" id="Abnormal Cholesterol (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Heart Failure (2 Sessions)" id="Heart Failure (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Heart Disease History / Prevention (2 Sessions)" id="Heart Disease History / Prevention (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="High Blood Pressure (Hypertension) (2 Sessions)" id="High Blood Pressure (Hypertension) (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="High Triglycerides (2 Sessions)" id="High Triglycerides (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+			<condition cost="195.00" description="Bariatric Nutrition (non-surgical diets) (2 Sessions)" id="Bariatric Nutrition (non-surgical diets) (2 Sessions)" product_id="nutrition" active="false">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Celiac Disease / Gluten Sensitivity (2 Sessions)" id="Celiac Disease / Gluten Sensitivity (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			
+			<condition cost="195.00" description="Crohn's Disease / Ulcerative Colitis (2 Sessions)" id="Crohn's Disease / Ulcerative Colitis (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			
+			<condition cost="195.00" description="Diabetes (Type II) (2 Sessions)" id="Diabetes (Type II) (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Food Allergies / Intolerances (2 Sessions)" id="Food Allergies / Intolerances (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Healthy Eating for You / Your Family (2 Sessions)" id="Healthy Eating for You / Your Family (2 Sessions)" product_id="nutrition" active="false">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Insulin Resistance (2 Sessions)" id="Insulin Resistance (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		
+			<condition cost="195.00" description="Pre-Diabetes (2 Sessions)" id="Pre-Diabetes (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Sports Nutrition (2 Sessions)" id="Sports Nutrition (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Weight Loss (2 Sessions)" id="Weight Loss (2 Sessions)" product_id="nutrition" active="false">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Weight Maintenance (2 Sessions)" id="Weight Maintenance (2 Sessions)" product_id="nutrition" active="false">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Weight Management (2 Sessions)" id="Weight Management (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="195.00" description="Vegan / Vegetarian Diet (2 Sessions)" id="Vegan / Vegetarian Diet (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="weight loss"/>
+				<keyword text="weight gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				<keyword text="diabetes"/>
+				<keyword text="choloesterol"/>
+				<keyword text="triglicerides"/>
+				<keyword text="carbohydrates"/>
+				<keyword text="calories"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+		</section>
+	</department>
+</division>

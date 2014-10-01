@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "IntestinalTransplantMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "IntestinalTransplantQuestionnaire.xml">
+]>
+<division description="Digestive Disease" name="Digestive Disease">
+	<department description="Transplant" name="Transplant">
+		<section description="" name="">
+			<condition cost="745.00" description="Intestinal Rehab and Transplant (Adults 18 and over)" id="Intestinal Rehab and Transplant (Adults 18 and over)" active="true">
+				<keyword text="intestine"/>
+				<keyword text="intestinal"/>
+				<keyword text="transplant"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				<keyword text="failure"/>
+				<keyword text="short"/>
+				<keyword text="bowel"/>
+				<keyword text="syndrome"/>
+				<keyword text="rehabilitation"/>
+				<keyword text="gut"/>
+				<keyword text="rehab"/>
+				<keyword text="disease"/>
+				<keyword text="resection"/>
+				<keyword text="crohn's"/>
+				<keyword text="colitis"/>
+				<keyword text="malabsorption"/>
+				<keyword text="TPN"/>
+				<keyword text="total"/>
+				<keyword text="parenteral"/>
+				<keyword text="nutrition"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+        </section>
+	</department>
+</division>

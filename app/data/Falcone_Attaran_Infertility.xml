@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy  (ITD) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Falcone_Attaran_InfertilityMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Falcone_Attaran_InfertilityQuestionnaire.xml">
+]>
+<!--02/14/02 Kewords removed per Linda Vrabel to allow for clean-up prior to release to production.  DH-->
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Infertility (Female)" id="Infertility (Female)">
+				<keyword text="female"/>
+				<keyword text="infertility"/>
+				<keyword text="conceive"/>
+				<keyword text="baby"/>
+				<keyword text="conception"/>
+				<keyword text="pregnancy"/>
+				<keyword text="in vitro"/>
+				<keyword text="fertilization"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

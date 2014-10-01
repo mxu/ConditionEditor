@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Carey_PrimarySclerosingCholangitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Carey_PrimarySclerosingCholangitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Primary Sclerosing Cholangitis" id="Primary Sclerosing Cholangitis" active="true">
+				<keyword text="liver"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

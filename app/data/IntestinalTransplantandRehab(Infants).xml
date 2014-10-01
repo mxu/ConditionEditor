@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "IntestinalTransplantandRehab(Infants)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "IntestinalTransplantandRehab(Infants)Questionnaire.xml">
+]>
+<division description="Pediatrics" name="Pediatrics">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Intestinal Transplant and Rehab (Infants - up to 12 months)" id="Intestinal Transplant and Rehab (Infants - up to 12 months)" active="true">
+				<keyword text="intestine"/>
+				<keyword text="intestinal"/>
+				<keyword text="transplant"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				<keyword text="failure"/>
+				<keyword text="short"/>
+				<keyword text="bowel"/>
+				<keyword text="syndrome"/>
+				<keyword text="rehabilitation"/>
+				<keyword text="gut"/>
+				<keyword text="rehab"/>
+				<keyword text="disease"/>
+				<keyword text="resection"/>
+				<keyword text="crohn's"/>
+				<keyword text="colitis"/>
+				<keyword text="malabsorption"/>
+				<keyword text="TPN"/>
+				<keyword text="total"/>
+				<keyword text="parenteral"/>
+				<keyword text="nutrition"/>
+				<keyword text="infant"/>
+				<keyword text="infancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+        </section>
+	</department>
+</division>

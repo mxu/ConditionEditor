@@ -1,0 +1,2780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are seeking a second opinion?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is patient's current height in feet / inches?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is patient's current weight in pounds?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What was patient's approximate weight in pounds 5 years ago?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What was patient's approximate weight in pounds 10 years ago?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="The following section relates to all medications patient is taking.  Please list all 	prescription, over  the counter and natural/herbal/vitamin supplements patient is currently taking.  Please include below the name of the medication or supplement, dosage, frequency taken, year begun and reason for taking.">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of medication" width="20"/>
+					<column_definition label="Dosage (ex: # of milligrams, &lt;BR&gt;grams, units)" width="20"/>
+					<column_definition label="# of doses per day" width="20"/>
+					<column_definition label="Reason for taking" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has patient taken medications for weight loss in the past? (choose one) ">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Has patient taken Acutrim?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Adipex?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Bontril?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Dexatrim?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Didrex?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Fen/Phen?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Lonamin?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Meridia?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Pentermine?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Redux?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient taken Orlistat (Xenical) (Alli)?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time Taken" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was medication supervised by a physician?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient undergone behavioral treatments for condition (one you are seeking a second opinion for)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Has patient undergone eating disorder counseling?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time of counseling" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was counseling supervised by a physician? (choose one)">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient undergone hypnosis for his/her condition?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time of hypnosis" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was hypnosis supervised by a physician? (choose one)">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, Has patient undergone inpatient therapy for his/her condition?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please fill in additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="Length of time of therapy" width="20"/>
+											<column_definition label="# of pounds lost" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was inpatient therapy supervised by a physician? (choose one)">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have allergies to medications? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of the medication" width="20"/>
+								<column_definition label="Type of reaction &lt;BR&gt;(describe in detail below):" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have environmental allergies? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of allergy" width="20"/>
+								<column_definition label="Type of reaction &lt;BR&gt;(describe in detail below):" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have food allergies? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of food allergy" width="20"/>
+								<column_definition label="Type of reaction &lt;BR&gt;(describe in detail below):" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Has patient had any type of trouble with anesthesia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of anesthesia" width="20"/>
+								<column_definition label="Date of anesthesia&lt;BR&gt;(MONTH/YEAR)" width="20"/>
+								<column_definition label="Describe details of anesthesia trouble; &lt;BR&gt;please be as specific as possible:" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient have any blood relatives who have had trouble with anesthesia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship to patient &lt;BR&gt; (eg: parent, sibling, &lt;BR&gt; aunt, uncle, cousin)" width="20"/>
+								<column_definition label="Type of anesthesia" width="20"/>
+								<column_definition label="Date of anesthesia&lt;BR&gt;(MONTH/YEAR)" width="20"/>
+								<column_definition label="Describe details of anesthesia trouble; &lt;BR&gt;please be as specific as possible:" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with Coronary Artery Disease (CAD)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with Myocardial Infarct (MI)(heart attack)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with elevated cholesterol levels? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Type of management &lt;BR&gt; of condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with elevated triglyceride levels? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Type of management &lt;BR&gt; of condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with Congestive Heart Failure? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Type of management &lt;BR&gt; of condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with valvular heart disease? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician managing&lt;BR&gt;this condition" width="20"/>
+								<column_definition label="Type of management &lt;BR&gt; of condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient had Rheumatic Fever? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was this condition diagnosed?">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been told he /she has a heart murmur? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was heart murmur detected?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with heart arrhythmia (irregular heartbeat)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Type of arrhythmia" width="20"/>
+								<column_definition label="Name of physician &lt;BR&gt;managing this condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with hypertension (high blood pressure)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was this condition diagnosed?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with heart block (requiring a pacemaker)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was this condition diagnosed?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with any other type of heart disease not listed above? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below: ">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of heart disease" width="20"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Name of physician &lt;BR&gt;managing this condition" width="20"/>
+								<column_definition label="Location (City/State) of &lt;BR&gt;managing physician" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Has patient been evaluated recently by a physician for his / her heart condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when was patient last evaluated by his/her physician for  condition?">
+									<table_response add_row_increment="1" initial_rows_to_display="1" row_height="1">
+										<column_definitions>
+											<column_definition label="(Month / Year)" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Has patient experienced chest pain in the past year? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the exact location of the chest pain?  Please be specific in explanation below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If yes, how long have you been having the chest pain?  Please explain below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please rate the chest pain on the scale below: (1= Minimal pain, 10= Worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What type of treatment has patient undergone for the chest pain?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient experienced any other type of pain in the past year? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the exact location of the pain?  Please be specific in explanation below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please rate the pain on the scale below: (1= Minimal pain, 10= Worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What type of treatment has patient undergone for the pain?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with asthma in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt; (Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with pneumonia in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with chronic bronchitis in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Chronic Obstructive Pulmonary Disease (COPD) such as emphysema in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with tuberculosis (TB) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with sleep apnea in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with pulmonary hypertension in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with anemia in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Type of anemia diagnosed" width="20"/>
+								<column_definition label="Treatment details" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient have or previously had any abnormalities with bleeding or clotting?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below;">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient have Diabetes Mellitus? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Does patient take insulin for his/her Diabetes Mellitus?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, how is condition being treated?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, what is the insulin dosage patient takes?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient have diabetic neuropathy as a result of the Diabetes Mellitus? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+									<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+										<column_definitions>
+											<column_definition label="Date of diagnosis &lt;BR&gt;(Month / Year)" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								
+								<question mandatory="true" prompt="Does patient have numbness, tingling, or pain in his/her hands or feet? (choose one)">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If yes, please give an in depth description of the diabetic neuropathy below; please be as specific as possible:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Has patient been treated by a physician for his / her diabetic neuropathy?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If yes, please give an in depth description of the treatment patient has undergone for his/her diabetic neuropathy below; please be as specific as possible:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient have diabetic retinopathy as a result of the Diabetes Mellitus? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+									<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Has patient been treated by a physician for his / her diabetic retinopathy?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If yes, please give an in depth description of the treatment patient has undergone for his/her diabetic retinopathy below; please be as specific as possible:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does patient have diabetic nephropathy as  a result of the Diabetes Mellitus? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+									<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Has patient been treated by a physician for his / her diabetic nephropathy?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If yes, please give an in depth description of the treatment patient has undergone for his/her diabetic nephropathy below; please be as specific as possible:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+		
+					<question mandatory="true" prompt="Does patient have foot problems as a result of the Diabetes Mellitus? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+									<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt; (Month / Year)" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="What type of foot problems does patient have?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="Has patient been treated by a physician for his / her foot problems?">
+									<item_response single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If yes, please give an in depth description of the treatment patient has undergone for his/her diabetic foot problems below; please be as specific as possible:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Hyperthyroidism (Over-active thyroid) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Has patient been diagnosed with Hypothyroidism (Under-active thyroid) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Cushing's Disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Kidney Disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Type of kidney disease" width="25"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Urinary Stress Incontinence in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient experience heartburn? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with gastroesophageal reflux disease (GERD) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with a Hiatal Hernia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Peptic Ulcer Disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Hepatitis in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Type A">
+								<question mandatory="true" prompt="">
+									<table_response initial_rows_to_display="1" row_height="2" add_row_increment="0">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+											<column_definition label="Treatment Details" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Type B">
+								<question mandatory="true" prompt="">
+									<table_response initial_rows_to_display="1" row_height="2" add_row_increment="0">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+											<column_definition label="Treatment Details" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Type C">
+								<question mandatory="true" prompt="">
+									<table_response initial_rows_to_display="1" row_height="2" add_row_increment="0">
+										<column_definitions>
+											<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+											<column_definition label="Treatment Details" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with any other type of liver disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of liver disease" width="35"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Irritable Bowel Disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Inflammatory Bowel Disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Disease Type&lt;BR&gt;(ex: crohn's, ulcerative colitis, etc.)" width="35"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with arterial vascular disease in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with pulmonary embolism in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with deep venous thrombosis (DVT) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with superficial phlebitis in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient experienced peripheral edema (swelling in legs and /or ankles)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient taking diuretics (water pills) for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please provide additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of the medication" width="20"/>
+											<column_definition label="Dosage" width="15"/>
+											<column_definition label="How often taken?" width="15"/>
+											</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are there any other treatments patient is undergoing /has undergone for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with varicose veins  in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with leg ulcers in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+								</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Does patient have leg ulcers currently? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with a seizure disorder in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with a Cerebrovascular accident (CVA / Stroke) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with migraine headaches in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed in the past with any other type of neurological disorder not listed above? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of neurological disorder" width="25"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with chronic lower back pain in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with chronic neck pain in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with osteoarthritis / DJD (degenerative joint disease) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which joints are involved? (choose all that apply)">
+						<item_response single_response="false">
+							<selection selected="false" text="Neck"/>
+							<selection selected="false" text="Shoulders"/>
+							<selection selected="false" text="Back"/>
+							<selection selected="false" text="Hips"/>
+							<selection selected="false" text="Hands"/>
+							<selection selected="false" text="Wrists"/>
+							<selection selected="false" text="Knees"/>
+							<selection selected="false" text="Ankles"/>
+							<selection selected="false" text="Feet"/>
+							<selection selected="false" text="Heels"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient experience painful joints without a diagnosis of osteoarthritis / DJD (degenerative joint disease)? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which joints are involved? (choose all that apply)">
+						<item_response single_response="false">
+							<selection selected="false" text="Neck"/>
+							<selection selected="false" text="Shoulders"/>
+							<selection selected="false" text="Back"/>
+							<selection selected="false" text="Hips"/>
+							<selection selected="false" text="Hands"/>
+							<selection selected="false" text="Wrists"/>
+							<selection selected="false" text="Knees"/>
+							<selection selected="false" text="Ankles"/>
+							<selection selected="false" text="Feet"/>
+							<selection selected="false" text="Heels"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with autoimmune disease (examples: lupus, rheumatoid arthritis, connective tissue disease, etc) in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Diagnosis" width="25"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with gout in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with fibromyalgia in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Depression? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Bipolar Disorder? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Anxiety? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Schizophrenia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Anorexia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Bulimia? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with Binge Eating Disorder? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was the diagnosis made?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for this condition? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been diagnosed with any other type of psychological disorder not listed above? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Type of psychological disorder" width="25"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Description of disorder; &lt;BR&gt;be as specific as possible:" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is patient currently receiving therapy or medications for the above condition(s)? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe the therapy / medications  in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient ever been hospitalized for the above condition(s)? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe circumstances of the hospitalization in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been diagnosed with cancer in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Type of cancer" width="35"/>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+								<column_definition label="Treatment Details &lt;BR&gt;be as specific as possible:" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever undergone bariatric (weight reduction) surgery in the past? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Surgery&lt;BR&gt;(Gastric banding, &lt;BR&gt;Roux-en Y Gastric Bypass,  &lt;BR&gt;Other Weight loss Surgery, &lt;BR&gt;Not Sure)" width="20"/>
+								<column_definition label="Date of Procedure" width="15"/>
+								<column_definition label="Name of Physician" width="20"/>
+								<column_definition label="Name of Hospital/Clinic" width="20"/>
+								<column_definition label="Result" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient 's spouse ever  undergone bariatric (weight reduction) surgery in the past?  (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Surgery&lt;BR&gt;(Gastric banding, &lt;BR&gt;Roux-en Y Gastric Bypass, &lt;BR&gt;Other Weight loss Surgery,&lt;BR&gt;Not Sure)" width="20"/>
+								<column_definition label="Date of Procedure" width="15"/>
+								<column_definition label="Name of Physician" width="20"/>
+								<column_definition label="Name of Hospital/Clinic" width="20"/>
+								<column_definition label="Result" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient's relative (other than spouse) ever undergone bariatric (weight reduction) surgery in the past?   (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship to patient" width="20"/>
+								<column_definition label="Type of Surgery&lt;BR&gt;(Gastric banding, &lt;BR&gt;Roux-en Y Gastric Bypass, &lt;BR&gt;Other Weight loss Surgery,&lt;BR&gt;Not Sure)" width="20"/>
+								<column_definition label="Date of Procedure" width="15"/>
+								<column_definition label="Name of Physician" width="20"/>
+								<column_definition label="Name of Hospital/Clinic" width="20"/>
+								<column_definition label="Result" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient undergone any other (not bariatric) surgical procedures?  (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete additional information below; if surgery was abdominal indicate if laparoscopic (lap) or open">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Surgery" width="20"/>
+								<column_definition label="Date of Surgery" width="15"/>
+								<column_definition label="Reason for Surgery" width="15"/>
+								<column_definition label="Laparoscopic or open?&lt;BR&gt;(if known) " width="10"/>
+								<column_definition label="Name of Physician" width="20"/>
+								<column_definition label="Name of Hospital/Clinic" width="20"/>
+								<column_definition label="Location (City/State)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever experienced broken bones of the face? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever experienced broken bones of the back or neck? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Which best describes patient's current work status? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Work full time"/>
+				<selection selected="false" text="Work part time"/>
+				<selection selected="false" text="Work as a temporary employee"/>
+				<selection selected="false" text="Unemployed"/>
+				<selection selected="false" text="On sick leave from work"/>
+				<selection selected="false" text="On disability">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Retired"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient currently use tobacco? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, does patient smoke cigarettes? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="At what age did patient start smoking cigarettes?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="For how many years has patient smoked cigarettes regularly?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="On average, how many cigarettes does patient smoke per day?">
+										<free_form_response height="1"/>
+									</question>
+								</selection>
+							</item_response>
+						</question>
+						
+						<question mandatory="true" prompt="Does patient smoke cigars? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="At what age did patient start smoking cigars?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="For how many years has patient smoked cigars regularly?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="On average, how many cigars does patient smoke per day?">
+										<free_form_response height="1"/>
+									</question>
+								</selection>
+							</item_response>
+						</question>
+						
+						<question mandatory="true" prompt="Does patient smoke a pipe? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="At what age did patient start smoking a pipe?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="For how many years has patient smoked a pipe regularly?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="On average, how many times per day does patient smoke a pipe?">
+										<free_form_response height="1"/>
+									</question>
+								</selection>
+							</item_response>
+						</question>
+						
+						<question mandatory="true" prompt="Does patient chew tobacco? (choose one)">
+							<item_response single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes">
+									<question mandatory="true" prompt="At what age did patient start chewing tobacco?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="How many years has patient chewed tobacco?">
+										<free_form_response height="1"/>
+									</question>
+									<question mandatory="true" prompt="On average, how much tobacco does patient chew each day?">
+										<free_form_response height="1"/>
+									</question>
+								</selection>
+							</item_response>
+						</question>
+				
+					</selection>
+				</item_response>
+			</question>
+		
+			<question mandatory="true" prompt="Does patient drink alcohol? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, On average how many drinks per month of each type of alcohol does patient drink? Complete the following information below:">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Beer (12 ounce)" width="10"/>
+								<column_definition label="Wine (4 ounce)" width="10"/>
+								<column_definition label="Liquor (12 ounce) " width="10"/>
+								<column_definition label="Mixed Drink (1 ounce with mixer)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever had a problem with alcohol dependency?  (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how long did the alcohol dependency last?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="When did the alcohol dependency start?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of diagnosis&lt;BR&gt;(Month / Year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Has patient undergone treatment for the alcohol dependency? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, provide additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+										<column_definitions>
+											<column_definition label="Date of treatment" width="15"/>
+											<column_definition label="For how long? &lt;BR&gt;(# of months, years)" width="10"/>
+											<column_definition label="Name of Physician" width="20"/>
+											<column_definition label="Name of Hospital/Clinic" width="20"/>
+											<column_definition label="Location (City/State)" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever used illicit drugs?  (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Drug" width="20"/>
+								<column_definition label="Date taken&lt;BR&gt;(Month / Year)" width="15"/>			
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Has patient undergone treatment for illicit drug usage?  (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, provide additional information below:">
+									<table_response add_row_increment="1" initial_rows_to_display="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Type of drug usage" width="25"/>
+											<column_definition label="Date of treatment&lt;BR&gt;(Month / Year)" width="15"/>			
+											<column_definition label="For how long?&lt;BR&gt;(# of months, years)" width="15"/>			
+											<column_definition label="Name of Physician" width="20"/>
+											<column_definition label="Name of Hospital/Clinic" width="20"/>
+											<column_definition label="Location (City/State)" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever been observed experiencing sleep apnea (stopping breathing while sleeping)?  (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When did this begin?">
+						<table_response add_row_increment="0" initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Date &lt;BR&gt;(Month / Year)" width="15"/>			
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="&lt;BR&gt; How likely is patient to doze off or fall asleep in the following situations, in contrast to just feeling tired?&lt;BR&gt;	This refers to patient's usual way of life in recent times.  Even if patient has not experienced the following conditions recently, try to think about how they would have affected the patient&lt;BR&gt;Use the following scale to choose the appropriate number response for each situation:&lt;BR&gt;
+		&lt;B&gt;0=would never doze&lt;BR&gt;1=slight chance of dozing&lt;BR&gt;2=moderate chance of dozing&lt;BR&gt;3=high chance of dozing;&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;">
+			<table_response add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Situation" width="30"/>
+					<column_definition label="Response" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Sitting and Reading</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>Watching television (TV)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>Sitting, Inactive in a public place (Example: theater or meeting)</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>As a passenger in a car for one hour without a break</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>Lying down to rest in the afternoon when circumstances permit</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>Sitting and talking to someone</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>Sitting quietly after lunch without alcohol</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+				
+				<table_data>
+					<cell>In a car, while stopped for a few minutes in traffic</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="0 - Would never doze"/>
+								<selection selected="false" text="1 - Slight chance of dozing"/>
+								<selection selected="false" text="2 - Moderate chance of dozing"/>
+								<selection selected="false" text="3 - High chance of dozing"/>
+							</item_response>
+						</question>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+					
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not feel self conscious about my weight or body size when I'm with others."/>
+				<selection selected="false" text="I feel concerned about how I look to others, but it normally does not make me feel disappointed about myself."/>
+				<selection selected="false" text="I do get self conscious about my appearance and weight which makes me feel disappointed about myself."/>
+				<selection selected="false" text="I feel very self conscious about my weight and frequently I feel intense shame and disgust for myself.  I try to avoid social contacts because of my self consciousness."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not have any difficulty eating slowly in the proper manner."/>
+				<selection selected="false" text="Although I seem to 'gobble down' foods, I do not end up feeling stuffed because of eating too much."/>
+				<selection selected="false" text="At times, I tend to eat quickly and then feel uncomfortably full afterwards."/>
+				<selection selected="false" text="I have the habit of bolting down my food, without really chewing it.  When this happens, I usually feel uncomfortably stuffed because I've eaten too much."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I feel capable to control my eating urges when I want to."/>
+				<selection selected="false" text="I feel like I have failed to control my eating more than the average person."/>
+				<selection selected="false" text="I feel utterly helpless when it comes to feeling in control of my eating urges."/>
+				<selection selected="false" text="Because I feel so helpless about controlling my eating, I have become very desperate about trying to get in control."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not have the habit of eating when I am bored."/>
+				<selection selected="false" text="I sometimes eat when I am bored, but often I'm able to 'get busy' and get my mind off food."/>
+				<selection selected="false" text="I sometimes eat when I am bored, but occasionally, I can use some other activity to get my mind off of eating."/>
+				<selection selected="false" text="I have a strong habit of eating when I am bored.  Nothing seems to help me break the habit."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I'm usually physically hungry when I eat something."/>
+				<selection selected="false" text="Occasionally, I eat something on impulse even though I am really not hungry."/>
+				<selection selected="false" text="I have the regular habit of eating foods that I might not really enjoy to satisfy a hungry feeling, even though physically I do not need the food."/>
+				<selection selected="false" text="Even though I am not physically hungry. I get a hungry feeling in my mouth that only seems to be satisfied when I eat food, like a sandwich, that fills my mouth.  Sometimes when I eat the food to satisfy my mouth hunger, I then spit the food out so I won't gain weight."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not feel any guilt or self hate after I overeat."/>
+				<selection selected="false" text="After I overeat, occasionally I feel guilt or self-hate."/>
+				<selection selected="false" text="Almost all of the time I experience strong guilt or self-hate after I overeat."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not lose control of my eating when dieting even after periods when I overeat."/>
+				<selection selected="false" text="Sometimes when I eat 'forbidden food' on a diet, I feel like I 'blew it' and eat even more."/>
+				<selection selected="false" text="Frequently, I have the habit of saying to myself, ' I've blown it now, why not go all the way ' when I overeat on a diet.  When that happens, I eat even more."/>
+				<selection selected="false" text="I have a regular habit of starting strict diets for myself, but I break the diets by going on an eating binge.  My life seems to be either 'feast' or 'famine.'"/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I rarely eat so much food that I feel uncomfortably stuffed afterwards."/>
+				<selection selected="false" text="Usually about once a month, I eat such a quantity of food that I end up feeling very stuffed."/>
+				<selection selected="false" text="I have regular periods during the month when I eat large amounts of food, either at mealtime or at snacks."/>
+				<selection selected="false" text="I eat so much food that I regularly feel quite uncomfortable after eating and sometimes a bit nauseous."/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="My level of calorie intake does not go up very high or down very low on a regular basis."/>
+				<selection selected="false" text="Sometimes after I overeat, I will try to reduce my calorie intake to almost nothing to compensate for the excess calories I've eaten."/>
+				<selection selected="false" text="I have a regular habit of overeating during the night,  It seems that my routine is not to be hungry in the morning but to overeat in the evening."/>
+				<selection selected="false" text="In my adult years, I have had week-long periods where I practically starve myself.  This follows periods when I overeat.  It seems like I live a life of either 'feast' or 'famine.'"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I am usually able to stop eating when I want to.  I know when 'enough is enough.'"/>
+				<selection selected="false" text="Every so often, I experience a compulsion to eat which I can't seem to control."/>
+				<selection selected="false" text="Frequently, I experience strong urges to eat which I seem unable to control, but at other times I can control my eating urges."/>
+				<selection selected="false" text="I feel incapable of controlling urges to eat. I have a fear of not being able to stop eating voluntarily.'"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I don't have any problem stopping eating when I feel full.'"/>
+				<selection selected="false" text="I usually stop eating when I feel full but ocassionally overeat leaving me feeling uncomfortably stuffed."/>
+				<selection selected="false" text="I have a problem stopping eating once I start and usually I feel uncomfortably stuffed after I eat a meal."/>
+				<selection selected="false" text="Because I have a problem not being able to stop eating when I want, I sometimes have to induce vomiting to relieve my stuffed feeling."/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I seem to eat just as much when I am with others (family, social gatherings) as when I am by myself.'"/>
+				<selection selected="false" text="Sometimes, when I am with other persons, I do not eat as much as I want to eat because I am self conscious about my eating."/>
+				<selection selected="false" text="Frequently, I eat only a small amount of food when others are present, because I am embarrassed about my eating."/>
+				<selection selected="false" text="I feel so ashamed about overeating that I pick sometimes to overeat when I know none one will see me.  I feel like a 'closet eater.'"/>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I eat three meals per day with only occasional between meal snack.'"/>
+				<selection selected="false" text="I eat three meals per day, but I normally snack between meals."/>
+				<selection selected="false" text="When I am snacking heavily, I get in the habit of skipping regular meals."/>
+				<selection selected="false" text="There are regular periods when I seem to be continually eating, with no planned meals.'"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not think much about trying to control unwanted eating urges.'"/>
+				<selection selected="false" text="At least some of the time, I feel my thoughts are pre-occupied with trying to control my eating urges."/>
+				<selection selected="false" text="I feel that frequently I spend much time thinking about how much I ate or about trying not to eat anymore."/>
+				<selection selected="false" text="It seems to me that most of my waking hours are pre-occupied by thoughts about eating or not eating.  I feel like I am constantly struggling not to eat.'"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I do not think about food a great deal.'"/>
+				<selection selected="false" text="I have strong cravings for food but they last only for brief periods of time."/>
+				<selection selected="false" text="I have days when I cannot seem to think about anything but food."/>
+				<selection selected="false" text="Most of my days seem to be pre-occupied with thoughts about food. I feel like I live to eat.'"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please choose the response below which best describes the way patient feels about the problems he/she has in controlling eating behavior. (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="I usually know whether or not I am physically hungry.  I take the right portion of food to satisfy me.'"/>
+				<selection selected="false" text="Occasionally, I feel uncertain about knowing whether or not I am physically hungry.  At these times, it is hard to know how much food I should take to satisfy me."/>
+				<selection selected="false" text="Even though I might know how many calories I should eat, I do not have any idea what is a 'normal' amount of food for me."/>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Please provide a number in pounds that corresponds to the four questions provided below:">
+			<item_response single_response="false">
+				<selection selected="false" text="What is patient's dream weight, a weight that patient would choose if he/she could weigh whatever he/she wanted?">
+					<question mandatory="true" prompt="Patient's dream weight? (# of pounds)">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="What weight would make patient happy, not as ideal as patient's dream weight, but one which would make patient happy to achieve?">
+					<question mandatory="true" prompt="Patient's happy weight? (# of pounds)">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="What weight is acceptable?  What weight would patient accept if he/she could not achieve happy weight?">
+					<question mandatory="true" prompt="Patient's acceptable weight (# of pounds)">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="What weight, less than patient's current weight, would be unacceptable?  What weight would patient consider unsuccessful, patient would be disappointed if it were his/her final weight?">
+					<question mandatory="true" prompt="Patient's disappointing weight? (# of pounds)">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the single most important thing in patient's life that he/she expects to change as a result of weight loss?  Please describe in as much detail as possible.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please provide any additional medical information which patient's feels may have a bearing on patient's eligibility or affect patient's weight loss surgery.  Also, please include any questions patient may have about the surgical procedure.  Be as specific as possible in the information / questions below:">
+			<free_form_response height="5"/>
+		</question>
+				
+		<question mandatory="true" prompt="Please fill in the checkboxes below for any laboratory and / or diagnostic procedures patient has had done within the last year.  Please be sure to include the date they were performed. (choose all that apply)">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Laboratory / Diagnostic procedures " width="30"/>
+					<column_definition label="Yes / No &lt;BR&gt; Not Sure" width="20"/>
+					<column_definition label="Date of procedure &lt;BR&gt; (Month/Year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Upper GI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Lower GI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Upper Endoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Colonoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Abdominal Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>EKG</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Echocardiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Cardiac (heart) Catheterization</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Stress Test</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>CT Scan (body area)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Chest X-ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Sleep Study</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Pulmonary Function Test</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>Blood work</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>None of Above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				
+				<table_data>
+					<cell>If Other, please list below</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+								
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="How did  patient hear about us? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Cleveland Clinic Primary Care Physician">
+					<question mandatory="true" prompt="Name of physician?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Cleveland Clinic Specialty Physician">
+					<question mandatory="true" prompt="Name of physician?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Primary Care Physician (outside Cleveland Clinic)">
+					<question mandatory="true" prompt="Name of physician?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other non-Cleveland Clinic Physician">
+					<question mandatory="true" prompt="Name of physician?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Friend"/>
+				<selection selected="false" text="Relative"/>
+				<selection selected="false" text="Friend of a family member"/>
+				<selection selected="false" text="Relative of a family member"/>
+				<selection selected="false" text="A Cleveland Clinic patient"/>
+				<selection selected="false" text="Internet"/>
+				<selection selected="false" text="TV">
+					<question mandatory="true" prompt="TV Station?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Radio">
+					<question mandatory="true" prompt="Radio Station?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Newspaper Article">
+					<question mandatory="true" prompt="Name of Newspaper?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Magazine Article">
+					<question mandatory="true" prompt="Name of Magazine?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain below:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+				
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended regarding the patient's current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="2" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician Name" width="30"/>
+					<column_definition label="Specialty &lt;BR&gt; (primary care physician, cardiologist, etc.)" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+		
+	</question_group>
+</questionnaire>
+

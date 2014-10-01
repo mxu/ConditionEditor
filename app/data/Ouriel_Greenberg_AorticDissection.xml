@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ouriel_Greenberg_AorticDissectionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ouriel_Greenberg_AorticDissectionQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Aortic Dissection" id="Aortic Dissection" active="true">
+				<keyword text="aorta"/>
+				<keyword text="ascending"/>
+				<keyword text="valve"/>
+				<keyword text="tear"/>
+				<keyword text="hamatoma"/>
+				<keyword text="dissects"/>
+				<keyword text="intima"/>
+				<keyword text="media"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

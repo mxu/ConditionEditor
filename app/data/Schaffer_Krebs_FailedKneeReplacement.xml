@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_FailedKneeReplacementMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_FailedKneeReplacementQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Failed Knee Replacement" id="Failed Knee Replacement">
+				<keyword text="prosthesis"/>
+				<keyword text="joint"/>
+				<keyword text="degenerative"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,393 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's condition (one you are seeking a second opinion for)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are seeking a second opinion consultation.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When was patient diagnosed with non TB mycobacterial disease?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Is the patient's diagnosis of non TB mycobacterial disease an initial diagnosis or is this a reoccurrence of the condition? (please explain in detail  below):">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="How was the diagnosis made?  (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Blood tests"/>
+				<selection selected="false" text="Bronchoscopy"/>
+				<selection selected="false" text="Chest X-rays"/>
+				<selection selected="false" text="CT Scan"/>
+				<selection selected="false" text="Sputum Analysis"/>
+				<selection selected="false" text="Tissue Cultures"/>
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt=" If other, Please describe below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient undergone PPD or Tuberculin skin testing?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was the PPD or skin testing done and was the result positive or negative?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="5"/>
+								<column_definition label="Result (positive / negative)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Has patient undergone a Quantiferon blood test?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was the blood test done and what was the result?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="5"/>
+								<column_definition label="Result (positive / negative)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient undergone Sputum analysis?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was the last sputum analysis done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results of this most recent sputum analysis? (describe in as much detail as possible)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please describe below any other sputum analysis which have been done in the past (describe in as much detail as possible)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient undergone tissue cultures?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was the last tissue culture done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results of this most recent tissue cultures? (describe in as much detail as possible)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please describe below any other tissue cultures which have been done in the past (describe in as much detail as possible)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of  TB (tuberculosis)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail (describe which family member(s), current condition(s) of family member(s), etc). Provide as much detail as possible below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of mycobacterial infections?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail (describe which family member(s), current condition(s) of family member(s), etc). Provide as much detail as possible below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="For how long has patient had the symptoms of the condition for which they are seeking second opinion?">
+			<item_response single_response="true">
+				<selection selected="false" text="Less than 6 months"/>
+				<selection selected="false" text="6-12 months"/>
+				<selection selected="false" text="More than 1 year"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient's problem?">
+			<item_response single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience fevers?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, How often do fevers occur?">
+						<item_response single_response="true">
+							<selection selected="false" text="Daily"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Monthly"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the fevers begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience night sweats?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often do the night sweats occur? Please explain below (provide as much detail as possible):">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="When did the night sweats begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience loss of appetite?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="When did the loss of appetite begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient experienced weight loss?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, How much weight has patient lost? (number of pounds)">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Over what period of time (number of month, years) has the weight loss taken place? (describe in detail below).">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="When did the weight loss begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is patient's current weight?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Does patient experience fatigue?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Explain below (provide as much detail as possible):">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did fatigue begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience a cough / coughing?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, How often does coughing occur?">
+						<item_response single_response="true">
+							<selection selected="false" text="More than once a day"/>
+							<selection selected="false" text="Once a day"/>
+							<selection selected="false" text="Couple times a week"/>
+							<selection selected="false" text="Less than once a week"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the cough productive (result in phlegm/mucus/sputum)?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, is the phlegm/mucus/sputum?">
+									<item_response single_response="true">
+										<selection selected="false" text="White in color"/>
+										<selection selected="false" text="Green in color"/>
+										<selection selected="false" text="Yellow in color"/>
+										<selection selected="false" text="None of Above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the cough / coughing begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience coughing up of blood?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Please describe in detail circumstances of the coughing up of the blood (be as specific as possible):">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When was the last time you saw blood when you coughed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience shortness of breath?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often does the shortness of breath occur?">
+						<item_response single_response="true">
+							<selection selected="false" text="At rest"/>
+							<selection selected="false" text="With minimal exertion"/>
+							<selection selected="false" text="Only when climbing stairs"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt=" If other, Please explain below (provide as much detail as possible):">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the shortness of breath begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient been diagnosed with any of the following lung conditions? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Bronchitis"/>
+				<selection selected="false" text="Emphysema"/>
+				<selection selected="false" text="Bronchiectasis"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="COPD (Chronic Obstructive Pulmonary Disease)"/>
+				<selection selected="false" text="Lung Nodule"/>
+				<selection selected="false" text="Lung Cancer"/>
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt=" If other, Please describe below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient  been treated in the past with medications  for his / her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information for each type of medication patient has taken, starting with the current or most recent. ">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+							<column_definitions>
+								<column_definition label="Name of  medication" width="20"/>
+								<column_definition label="Dosage / Frequency" width="10"/>
+								<column_definition label="Date Started" width="15"/>
+								<column_definition label="How long taken" width="15"/>
+								<column_definition label="How taken (pills, IV, etc.)" width="15"/>
+								<column_definition label="Result? (Did medication help, make things worse)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Please indicate if patient experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.) as a result of the any medications taken for his / her condition (be as specific as possible):">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Has patient  undergone any other type of treatment or surgery / procedure other than medications for his / her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information for any other type of treatments patient has undergone.">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+							<column_definitions>
+								<column_definition label="Type of treatment / surgery" width="35"/>
+								<column_definition label="Date Started" width="15"/>
+								<column_definition label="Result? (Did treatment help, make things worse)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding treatment for patient's condition? (medical management, surgery, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+				<column_definitions>
+					<column_definition label="Name of Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, pulmonologist,  etc.)" width="35"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What have the doctors stated regarding patient's prognosis (forecast of the probable course of the disease)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Rackley_VesicovaginalFistula(female)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Rackley_VesicovaginalFistula(female)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="565.00" description="Vesicovaginal Fistula (female)" id="Vesicovaginal Fistula (female)" active="false">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

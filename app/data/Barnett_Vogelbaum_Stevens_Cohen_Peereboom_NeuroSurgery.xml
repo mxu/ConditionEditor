@@ -1,0 +1,214 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Barnett_Vogelbaum_Stevens_Cohen_Peereboom_NeuroSurgeryMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Barnett_Vogelbaum_Stevens_Cohen_Peereboom_NeuroSurgeryQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Neurology" name="Neurology">
+		<section description="" name="">
+			<condition active="false" cost="745.00" description="Brain Scarring" id="Brain Scarring">
+				<keyword text="scar"/>
+				<keyword text="injury"/>
+				<keyword text="lesion"/>
+				<keyword text="damage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain tumor (Adult)" id="Brain tumor (Adult)">
+				<keyword text="mass"/>
+				<keyword text="neuro"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glioblastoma (Adult)" id="Glioblastoma (Adult)">
+				<keyword text="mass"/>
+				<keyword text="neuro"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Spine tumor (Adult)" id="Spine tumor (Adult)">
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glioma of the brain (Adult)" id="Glioma of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Astrocytoma of the brain - all grades (Adult)" id="Astrocytoma of the brain - all grades (Adult)">
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Oligodendroglioma of the brain (Adult)" id="Oligodendroglioma of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ependymoma of the brain (Adult)" id="Ependymoma of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Medulloblastoma of the brain (Adult)" id="Medulloblastoma of the brain (Adult)">
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neurocytoma of the brain (Adult)" id="Neurocytoma of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hemangioblastoma of the brain (Adult)" id="Hemangioblastoma of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Epidermoid tumor of the brain (Adult)" id="Epidermoid tumor of the brain (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dermoid tumor of the brain (Adult)" id="Dermoid tumor of the brain (Adult)">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Germ cell tumor of the brain (Adult)" id="Germ cell tumor of the brain (Adult)">
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Meningioma of the brain (Adult)" id="Meningioma of the brain (Adult)">
+				<keyword text="benign"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Schwannoma of the brain (Adult)" id="Schwannoma of the brain (Adult)">
+				<keyword text="cancer"/>
+				<keyword text="benign"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Glomus Jugulare tumor of the brain (Adult)" id="Glomus Jugulare tumor of the brain (Adult)">
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Astrocytoma of the spinal cord (Adult)" id="Astrocytoma of the spinal cord (Adult)">
+				<keyword text="spinal "/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cord"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ependymoma of the spinal cord (Adult)" id="Ependymoma of the spinal cord (Adult)">
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic brain tumor from lung (Adult)" id="Metastatic brain tumor from lung (Adult)">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic brain tumor from breast (Adult)" id="Metastatic brain tumor from breast (Adult)">
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic melanoma of the brain (Adult)" id="Metastatic melanoma of the brain (Adult)">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic lymphoma of the brain (Adult)" id="Metastatic lymphoma of the brain (Adult)">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain metastasis (Adult)" id="Brain metastasis (Adult)">
+				<keyword text="brain metastasis"/>
+				<keyword text="brain"/>
+				<keyword text="metastasis"/>
+				<keyword text="cancer"/>
+				<keyword text="brain tumor"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Angiosarcoma of the brain (Adult)" id="Angiosarcoma of the brain (Adult)">
+				<keyword text="malignant"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Spinal cord cyst (Adult)" id="Spinal cord cyst (Adult)">
+				<keyword text="growth"/>
+				<keyword text="arachnoid"/>
+				<keyword text="brain"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Brain cyst (Adult)" id="Brain cyst (Adult)">
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="arachnoid"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				<keyword text="growth"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

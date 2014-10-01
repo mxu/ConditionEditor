@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!-- DCH 030725; Added Dr. Olenki to the file -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Sengore_Church_ColorectalCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Sengore_Church_ColorectalCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Colorectal Cancer" id="Colorectal Cancer">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="intestinal"/>
+				<keyword text="tumor"/>
+				<keyword text="colon"/>
+				<keyword text="rectum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colon Cancer" id="Colon Cancer">
+				<keyword text="colon cancer"/>
+				<keyword text="colon"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="bowel"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rectal Cancer" id="Rectal Cancer">
+				<keyword text="rectal cancer"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="rectal"/>
+				<keyword text="tumor"/>
+				<keyword text="bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colon Polyps" id="Colon Polyps">
+				<keyword text="rectal cancer"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="rectal"/>
+				<keyword text="tumor"/>
+				<keyword text="bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Intestinal Cancer" id="Intestinal Cancer">
+				<keyword text="tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				<keyword text="intestine"/>
+				<keyword text="bowel"/>
+				<keyword text="duodenum"/>
+				<keyword text="adencarcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Small Intestine Cancer" id="Small Intestine Cancer">
+				<keyword text="tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				<keyword text="intestine"/>
+				<keyword text="bowel"/>
+				<keyword text="duodenum"/>
+				<keyword text="adencarcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Duodenal Cancer" id="Duodenal Cancer">
+				<keyword text="tumor"/>
+				<keyword text="neoplasm"/>
+				<keyword text="carcinoma"/>
+				<keyword text="intestine"/>
+				<keyword text="bowel"/>
+				<keyword text="duodenum"/>
+				<keyword text="adencarcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+
+		</section>
+	</department>
+</division>

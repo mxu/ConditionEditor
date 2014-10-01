@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Penny Black (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Do you have a family history of any of the following conditions?  (Fill in all that apply)">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Condition" width="35"/>
+					<column_definition label="Family &lt;BR&gt; Relationship" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Liver Problems (hepatitis, cirrhosis)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Colitis or inflammatory bowel disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Crohn's disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Colon cancer</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other cancer (please list below)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Colon polyps"/>
+				<selection selected="false" text="Colon cancer"/>
+				<selection selected="false" text="Other cancer"/>
+				<selection selected="false" text="Radiation/chemotherapy"/>
+				<selection selected="false" text="Crohn's disease/ulcerative colitis"/>
+				<selection selected="false" text="Ulcers"/>
+				<selection selected="false" text="Gallstones"/>
+				<selection selected="false" text="Liver problems (hepatitis/cirrhosis)"/>
+				<selection selected="false" text="Pancreatitis"/>
+				<selection selected="false" text="Arthritis"/>
+				<selection selected="false" text="Rheumatic fever"/>
+				<selection selected="false" text="Gastrointestinal bleeding"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you now experience any of the following? (choose all that apply)">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="45"/>
+					<column_definition label="Yes/No &lt;BR&gt; Not Sure" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Difficulty swallowing/food sticking in throat</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Heartburn</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hoarseness</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chronic cough</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Regurgitation</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest pain</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Filling up quickly at meals</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Loss of appetite</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vomiting</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Nausea</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Loss of control of bowel movements</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Recent change in bowel movements</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bloody or black bowel movements</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Constipation</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diarrhea</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Night sweats, fever or chills</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thought or memory problems</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Fistulas</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Prominent leg swelling</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vomiting blood</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ascities (fluid in abdomen)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of how you came to be diagnosed with your current condition?">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="When was your current diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="How long have you had your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than a month"/>
+				<selection selected="false" text="1-3 months"/>
+				<selection selected="false" text="4-6 months"/>
+				<selection selected="false" text="7-12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Do you experience pain with bowel movements?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="true" text="Yes">
+					<question mandatory="true" prompt="If you experience pain with bowel movements, please rate your pain below (1=no pain, 10=the worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="How long after bowel movements does the pain last?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="How many bowel movements do you have in an average day?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the general consistency of your stools?  (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="All water"/>
+				<selection selected="false" text="Loose"/>
+				<selection selected="false" text="Thick liquid"/>
+				<selection selected="false" text="Watery with formed pieces"/>
+				<selection selected="false" text="Formed"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you take a fiber supplement? (Metamucil, Fiber Con, etc.)">
+			<item_response single_response="false">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you take a fiber supplement, please provide the name and how often you take the supplement.">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever have mucous (white slimy substance) in your stools?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes, frequently"/>
+				<selection selected="false" text="Yes, occasionally"/>
+				<selection selected="false" text="Yes, rarely"/>
+				<selection selected="false" text="No, never"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever have pus (green and/or yellow substance) in your stools?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes, frequently"/>
+				<selection selected="false" text="Yes, occasionally"/>
+				<selection selected="false" text="Yes, rarely"/>
+				<selection selected="false" text="No, never"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever have constipation?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes, frequently"/>
+				<selection selected="false" text="Yes, occasionally"/>
+				<selection selected="false" text="Yes, rarely"/>
+				<selection selected="false" text="No, never"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever have blood  in your stools?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever have blood  in your stools, how often?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Frequently"/>
+							<selection selected="false" text="Occasionally"/>
+							<selection selected="false" text="Rarely"/>
+							<selection selected="false" text="Never"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Generally, how much rectal bleeding do you have?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Large amount (colors the toilet water dark red)"/>
+							<selection selected="false" text="Moderate amount (colors the toilet water light red)"/>
+							<selection selected="false" text="Small amount (streaks of red in the toilet water)"/>
+							<selection selected="false" text="A few drops"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the color of the rectal bleeding?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Bright red"/>
+							<selection selected="false" text="Dark red"/>
+							<selection selected="false" text="Mahogany (reddish brown)"/>
+							<selection selected="false" text="Light red"/>
+							<selection selected="false" text="Pink"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience rectal / anal pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience rectal / anal pain, which of the following best describes your pain? (choose all that apply)">
+						<item_response drop_down_style="true" single_response="false">
+							<selection selected="false" text="Sharp and stabbing"/>
+							<selection selected="false" text="Dull and aching"/>
+							<selection selected="false" text="Burning"/>
+							<selection selected="false" text="Throbbing"/>
+							<selection selected="false" text="Nagging"/>	
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you experience rectal / anal pain, is the pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Constant"/>
+							<selection selected="false" text="Intermittent (comes and goes)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain below: (1=no pain, 10=the worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you describe your energy level?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Full of pep"/>
+				<selection selected="false" text="Active and energetic"/>
+				<selection selected="false" text="Tired with usual activities"/>
+				<selection selected="false" text="Tired easily"/>
+				<selection selected="false" text="Sluggish"/>
+				<selection selected="false" text="Weak"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your appetite over the last month?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Normal"/>
+				<selection selected="false" text="Eating somewhat less than normal"/>
+				<selection selected="false" text="Eating much less than normal"/>
+				<selection selected="false" text="Hardly eating anything"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently had an unintentional weight loss greater than 10 pounds /  5 kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you recently have had an unintentional weight loss greater than 10 pounds / 5 kilograms, how much (in pounds / kilograms) and over what period of time?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="15"/>
+								<column_definition label="Period of time" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently had an unintentional weight gain greater than 10 pounds / 5 kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you recently have had an unintentional weight gain greater than 10 pounds / 5 kilograms, how much (in pounds / kilograms) and over what period of time?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="15"/>
+								<column_definition label="Period of time" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing any other type of pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are experiencing any other type of pain, what is the location of the pain?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain below: (1=no pain, 10=the worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="What has been recommended regarding treatment for your current condition? (surgery, chemotherapy, etc.)">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Type of doctor (surgeon, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What have the physicians stated regarding your prognosis (forecast of the probable course of the disease?)">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="false" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="2"/>
+		</question>
+	</question_group>
+</questionnaire>
+
+

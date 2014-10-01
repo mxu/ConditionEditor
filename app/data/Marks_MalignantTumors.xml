@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Marks_MalignantTumorsMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Marks_MalignantTumorsQuestionnaire.xml">
+]>
+<!--02/14/02 Kewords removed per Linda Vrabel to allow for clean-up prior to release to production.  DH-->
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Osteogenic Sarcoma (Adult)" id="Osteogenic Sarcoma (Adult)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chondrosarcoma (Adult)" id="Chondrosarcoma (Adult)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Malignant Fibrosarcoma of the Bone (Adult)" id="Malignant Fibrosarcoma of the Bone (Adult)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Malignant Fibrous Histiocytoma of the Bone (Adult)" id="Malignant Fibrous Histiocytoma of the Bone (Adult)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ewing's Sarcoma (Adult)" id="Ewing's Sarcoma (Adult)" active="true">
+				<keyword text="ewing's"/>
+				<keyword text="sarcoma"/>
+				<keyword text="bone"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Other Malignant Bone Tumor (Adult)" id="Other Malignant Bone Tumor (Adult)" active="true">
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Primary Bone Tumor" id="Primary Bone Tumor" active="true">
+				<keyword text="malignant"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Primary Bone Cancer" id="Primary Bone Cancer" active="true">
+				<keyword text="malignant"/>
+				<keyword text="osteogenic"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Metastatic tumor of the bone (Adult)" id="Metastatic tumor of the bone (Adult)" active="true">
+				<keyword text="ostogenic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Malignant Soft Tissue Tumor (Adult)" id="Malignant Soft Tissue Tumor (Adult)" active="true">
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fibrosarcoma (soft tissue) (Adult)" id="Fibrosarcoma (soft tissue) (Adult)" active="true">
+				<keyword text="fibrous"/>
+				<keyword text="malignant"/>
+				<keyword text="cancer"/>
+				<keyword text="tissue"/>
+				<keyword text="soft"/>
+				<keyword text="histocytoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dermatofibrosarcoma Protuberans (soft tissue) (Adult)" id="Dermatofibrosarcoma Protuberans (soft tissue) (Adult)" active="true">
+				<keyword text="dermatofibrosarcoma"/>
+				<keyword text="bone"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				<keyword text="protuberans"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Liposarcoma (Adult)" id="Liposarcoma (Adult)" active="true">
+				<keyword text="liposarcoma"/>
+				<keyword text="bone"/>
+				<keyword text="tumor"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fibrous Histiocytoma (soft tissue)(Adult)" id="Fibrous Histiocytoma (soft tissue)(Adult)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="fibrosarcoma"/>
+				<keyword text="cancer"/>
+				<keyword text="soft"/>
+				<keyword text="tissue"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

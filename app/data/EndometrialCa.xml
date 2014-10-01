@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "EndometrialCaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "EndometrialCaQuestionnaire.xml">
+]>
+<!-- Physicians Zanotti, Markman and Belinson (added 3/21 per Sharon) -->
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Endometrial Hyperplasia" id="Endometrial Hyperplasia">
+				<keyword text="endometrial"/>
+				<keyword text="uterine"/>
+				<keyword text="hyperplasia"/>
+				<keyword text="overgrowth"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Cervical Cancer" id="Cervical Cancer">
+				<keyword text="endometrial"/>
+				<keyword text="uterine"/>
+				<keyword text="reproductive"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				<keyword text="female"/>
+				<keyword text="tumor"/>
+				<keyword text="cervical"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Uterine Sarcoma" id="Uterine Sarcoma">
+				<keyword text="endometrial"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="uterine"/>
+				<keyword text="malignant"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Endometrial Cancer" id="Endometrial Cancer">
+				<keyword text="cervical cancer"/>
+				<keyword text="cervical"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Leiomyosarcoma (Gyn) Adult" id="Leiomyosarcoma (Gyn) Adult">
+				<keyword text="leiomyosarcoma"/>
+				<keyword text="uterine"/>
+				<keyword text="endometrial"/>
+				<keyword text="gynecology"/>
+				<keyword text="cancer"/>
+				<keyword text="sarcoma"/>
+				<keyword text="malignant"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Uterine Cancer" id="Uterine Cancer">
+				<keyword text="endometrial"/>
+				<keyword text="uterine"/>
+				<keyword text="cervical"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="sarcoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

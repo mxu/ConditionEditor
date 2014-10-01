@@ -1,0 +1,43 @@
+<!-- navbar scrollspy -->
+<div class="navbar-controls">
+  <a href="#conditions" du-smooth-scroll offset="50" du-scrollspy>
+    <span class="glyphicon glyphicon-pencil"></span> Conditions
+  </a><!-- 
+   --><a href="#materials" du-smooth-scroll offset="50" du-scrollspy>
+    <span class="glyphicon glyphicon-list"></span> Materials List
+  </a><!-- 
+   --><a href="#questionGroups" du-smooth-scroll offset="50" du-scrollspy>
+    <span class="glyphicon glyphicon-question-sign"></span> Questionnaires
+  </a>
+</div>
+<!-- navbar save buttons -->
+<div class="navbar-controls push-right">
+  <a href="">
+    <span class="glyphicon glyphicon-export"></span> Export
+  </a><!-- 
+   --><a href="">
+    <span class="glyphicon glyphicon-saved"></span> Save
+  </a>
+</div>
+
+<!-- loading -->
+<div style="position: relative;" ng-style="{'height': (windowHeight - 50)}" win-resize ng-if="loading">
+  <div ng-include src="'views/spinner.html'"></div>
+</div>
+<!-- error -->
+<div class="fadeIn" class="empty-container" ng-style="{'height': (windowHeight - 50)}" win-resize ng-if="errorMessage != null">
+  <span class="view-msg">{{errorMessage}}</span>
+</div>
+
+<!-- conditions -->
+<div class="fadeIn" ng-if="cData != null">
+  <div id="conditions">
+    <content-list content="cData.conditions" type="Condition"></content-list>
+  </div>
+  <div id="materials">
+    <content-list content="cData.materials" type="Material"></content-list>
+  </div>
+  <div id="questionGroups">
+    <content-list content="cData.questionGroups" type="QuestionGroup"></content-list>
+  </div>
+</div>

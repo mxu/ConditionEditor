@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!-- Michelle Marks MD -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "P2PLiteMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "P2PLiteQuestionnaire.xml">
+]>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<division description="Pediatrics" name="Pediatrics">
+	<department description="General Pediatrics" name="General Pediatrics">
+		<section description="" name="">
+			<condition cost="0.00" description="Physician2Physician Lite Questionnaire" id="Physician2Physician Lite Questionnaire" product_id="p2plite" active="true">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

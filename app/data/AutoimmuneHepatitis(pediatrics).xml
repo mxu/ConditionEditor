@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "AutoimmuneHepatitis(pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "AutoimmuneHepatitis(pediatrics)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Autoimmune Hepatitis (pediatrics)" id="Autoimmune Hepatitis (pediatrics)" active="false">
+				<keyword text="autoimmune"/>
+				<keyword text="children"/>
+				<keyword text="hepatitis"/>
+				<keyword text="liver"/>
+				<keyword text="inflammation"/>
+				<keyword text="immune"/>
+				<keyword text="system"/>
+				<keyword text="attack"/>
+				<keyword text="cells"/>
+				<keyword text="inflammatory"/>
+				<keyword text="acute"/>
+				<keyword text="chronic"/>
+				<keyword text="ANA"/>
+				<keyword text="SMA"/>
+				<keyword text="LKM-1"/>
+				<keyword text="SLA/CP"/>
+				<keyword text="AMA"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

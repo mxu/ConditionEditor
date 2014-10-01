@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Penny Black (IT) -->
+<!--Authored by Penny L. Black 10/09/2001-->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is your occupation?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="How was your current condition (one you are seeking second opinion for) initially diagnosed? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="X-rays"/>
+				<selection selected="false" text="CT scan"/>
+				<selection selected="false" text="MRI scan"/>
+				<selection selected="false" text="Bronchoscopy"/>
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Blood tests"/>
+				<selection selected="false" text="Unknown"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of study" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="false" prompt="If you had any of the following diagnostic studies, when?">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" pct="70"/>
+					<column_definition label="Month" pct="15"/>
+					<column_definition label="Year" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Fiberoptic bronchoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest X-ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any surgical procedures for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had any surgical procedures for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="1">
+							<column_definitions>
+								<column_definition label="Surgery/procedure" width="20"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following health problems?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Tuberculosis (TB)">
+					<question mandatory="true" prompt="Indicate date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Deep vein thrombosis (blood clot in the leg)">
+					<question mandatory="true" prompt="Indicate date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Pulmonary embolism (blood clot in the lung)">
+					<question mandatory="true" prompt="Indicate date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been exposed to asbestos?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been exposed to asbestos, please indicate the duration of the asbestos exposure: ">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Months/Years" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have ever been exposed to asbestos, please explain the circumstances (work, home, etc.):">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been exposed to beryllium?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been exposed to beryllium, please indicate the duration of the beryllium exposure:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Months/Years" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been exposed to any other industrial chemicals?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been exposed to any other industrial chemicals, please list the names of the chemicals with the duration of exposure below:">
+						<table_response initial_rows_to_display="3" add_row_increment="3">
+							<column_definitions>
+								<column_definition label="Chemical" width="20"/>
+								<column_definition label="Months/Years" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any household pets or birds?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any household pets or birds, does exposure to pets or birds make your symptoms worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				<question mandatory="true" prompt="Have you ever used (birth control pills)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable (i.e. the patient is male)"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken birth control pills, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3">
+							<column_definitions>
+								<column_definition label="Date started &lt;BR&gt; (Month/Year)" width="20"/>
+								<column_definition label="Date stopped, &lt;BR&gt; if applicable" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you currently take, or have you ever taken, weight reduction pills?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken weight reduction pills, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3">
+							<column_definitions>
+								<column_definition label="Date started &lt;BR&gt; (Month/Year)" width="20"/>
+								<column_definition label="Date stopped, &lt;BR&gt; if applicable" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your appetite over the last few months?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Normal"/>
+				<selection selected="false" text="Eating somewhat less than normal"/>
+				<selection selected="false" text="Eating much less than normal"/>
+				<selection selected="false" text="Hardly eating anything"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a recent unintentional weight loss &gt; 10 lbs / 5kgs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you have had a recent unintentional weight loss &gt; 10 lbs / 5 kgs, please provide the amount (in pounds / kilograms) and in what period of time:">
+						<table_response initial_rows_to_display="3" add_row_increment="3">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="20"/>
+								<column_definition label="Period of time (Months/Years)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience shortness of breath?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience shortness of breath, when did the shortness of breath start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you experience shortness of breath, is the shortness of breath:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Stable (staying the same)"/>
+							<selection selected="false" text="Progressing (getting worse)"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience wheezing?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience wheezing, when did the wheezing start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you experience wheezing, is the wheezing?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Stable (staying the same)"/>
+							<selection selected="false" text="Progressing (getting worse)"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience a cough?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience a cough, when did the cough start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you experience a cough, is the cough:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Stable (staying the same)"/>
+							<selection selected="false" text="Progressing (getting worse)"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you experience a cough, is the cough:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Dry (you do not bring up any sputum when you cough)"/>
+							<selection selected="false" text="Productive (you do bring up sputum when you cough)">
+								<question mandatory="true" prompt="If your cough is productive (sputum producing), which of the following best describes the color of the sputum (mucous)?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Clear"/>
+										<selection selected="false" text="White"/>
+										<selection selected="false" text="Yellow"/>
+										<selection selected="false" text="Green"/>
+										<selection selected="false" text="Other">
+											<question mandatory="false" prompt="If other, please describe:">
+												<free_form_response width="10"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has there been a recent (within the past few months) change in the character of the cough? (for example: dry cough becomes productive, mild cough becomes hacking, etc.)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not applicable"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If  there has been a recent change in the character of the cough, please explain:">
+									<free_form_response width="30" height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Even if you are not currently experiencing a cough, have you ever coughed up any blood?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever coughed up any blood, when did you first notice blood in your sputum?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have ever coughed up any blood, please choose the best description of the bloody sputum below:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Pink"/>
+							<selection selected="false" text="Bright red"/>
+							<selection selected="false" text="Dark red"/>
+							<selection selected="false" text="Reddish brown/rusty"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response width="30"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If you have ever coughed up any blood, how much blood have you coughed up (per day)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Small amount (a few drops or streaks)"/>
+							<selection selected="false" text="Moderate amount (less than a tablespoon)"/>
+							<selection selected="false" text="Large amount (more than a tablespoon)"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you currently experience any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Fever > 100 F / 38 C"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Rigors (shaking chills)"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing any pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are experiencing any pain, where is the pain located?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Is the pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Constant (never lets up)"/>
+							<selection selected="false" text="Intermittent (comes and goes)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Stable (staying the same)"/>
+							<selection selected="false" text="Progressing (getting worse)"/>
+							<selection selected="false" text="Getting better"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain using the scale below: (1= minimal pain, 10= worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="How long does the pain last (hours per day) in an average day?">
+						<free_form_response width="20"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding your current treatment?  (surgery, medical management, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0" row_height="1">
+				<column_definitions>
+					<column_definition label="Name of physician" width="25"/>
+					<column_definition label="Specialty (Pulmonary specialist, primary physician, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

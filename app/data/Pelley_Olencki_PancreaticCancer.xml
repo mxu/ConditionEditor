@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Pelley_Olencki_PancreaticMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Pelley_Olencki_PancreaticQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Pancreatic Cancer (Inoperable)" id="Pancreatic Cancer (Inoperable)">
+				<keyword text="pancreas"/>
+				<keyword text="unresectable"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="pancreatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

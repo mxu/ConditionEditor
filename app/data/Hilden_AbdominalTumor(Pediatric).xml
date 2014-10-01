@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_AbdominalTumor(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_AbdominalTumor(Pediatric)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Abdominal Tumor (Pediatric)" id="Abdominal Tumor (Pediatric)">
+				<keyword text="abdominal"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="abdomen"/>
+				<keyword text="malignant"/>
+				<keyword text="benign"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Wilm's Tumor (Pediatric)" id="Wilm's Tumor (Pediatric)">
+				<keyword text="Wilm's"/>
+				<keyword text="kidney"/>
+				<keyword text="tumor"/>
+				<keyword text="nephroblastoma"/>
+				<keyword text="abdomen"/>
+				<keyword text="malignant"/>
+				<keyword text="mass"/>
+				<keyword text="cancer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

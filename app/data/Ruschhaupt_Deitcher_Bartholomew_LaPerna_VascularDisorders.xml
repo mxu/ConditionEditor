@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_VascularDisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_VascularDisordersQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="745.00" description="Anticoagulation" id="Anticoagulation" active="true">
+				<keyword text="blood"/>
+				<keyword text="thinner"/>
+				<keyword text="coumadin"/>
+				<keyword text="clotting"/>
+				<keyword text="circulation"/>
+				<keyword text="vascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arterial Embolism" id="Arterial Embolism" active="true">
+				<keyword text="clot"/>
+				<keyword text="blood"/>
+				<keyword text="artery"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Deep Vein Thrombosis" id="Deep Vein Thrombosis" active="true">
+				<keyword text="clot"/>
+				<keyword text="blood"/>
+				<keyword text="circulation"/>
+				<keyword text="leg"/>
+				<keyword text="DVT"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hypercoaguable States" id="Hypercoaguable States" active="true">
+				<keyword text="clotting"/>
+				<keyword text="blockage"/>
+				<keyword text="blood"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonary Embolism" id="Pulmonary Embolism" active="true">
+				<keyword text="embolus"/>
+				<keyword text="blood"/>
+				<keyword text="clot"/>
+				<keyword text="lung"/>
+				<keyword text="vascular"/>
+				<keyword text="PE"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Recurrent Deep Venous Thrombosis" id="Recurrent Deep Venous Thrombosis" active="true">
+				<keyword text="relapsing"/>
+				<keyword text="clot"/>
+				<keyword text="leg"/>
+				<keyword text="DVT"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Recurrent Pulmonary Embolism" id="Recurrent Pulmonary Embolism" active="true">
+				<keyword text="relapsing"/>
+				<keyword text="embolus"/>
+				<keyword text="clot"/>
+				<keyword text="lung"/>
+				<keyword text="PE"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Superficial Thrombophlebitis" id="Superficial Thrombophlebitis" active="true">
+				<keyword text="vein"/>
+				<keyword text="venous"/>
+				<keyword text="inflammation"/>
+				<keyword text="blood"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Thrombolysis" id="Thrombolysis" active="true">
+				<keyword text="clot"/>
+				<keyword text="busting"/>
+				<keyword text="blockage"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Venous Thromboembolism" id="Venous Thromboembolism" active="true">
+				<keyword text="vein"/>
+				<keyword text="clot"/>
+				<keyword text="blockage"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				<keyword text="leg"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

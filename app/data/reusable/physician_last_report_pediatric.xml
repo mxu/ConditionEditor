@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<material id="Primary or specialist physician's last report" description="Report should contain current physicial assessment of the patient's condition and description of current signs and symptoms including serial growth points (height &amp; weight).  This can be written by either the child's primary care physician or the physician who diagnosed or is treating the condition." mandatory="true"/>

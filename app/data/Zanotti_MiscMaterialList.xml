@@ -1,0 +1,14 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Prior therapy summary" description="If prior therapy for diagnosis has taken place, an accurate and complete summary of this therapy is essential.  If prior chemotherapy was used, list all agents (including hormone therapy).  This should be summarized by your treating physician.  If prior radiation therapy was used, a copy of the completion note will be necessary. Significant toxicities and response to your therapy should be described." mandatory="true"/>
+	<instruction text="&lt;b&gt; Pathology report and glass slides from all relevant biopsies done for the following tests: &lt;/b&gt;"/>
+	<material id="Pathology reports." description="Reports and glass slides from all previous biopsies and /or procedures from the last two years. (cervical biopsies, vulvar biopsies, vaginal biopsies, LEEP procedures, cone biopsies, hysterectomy, colposcopic or cervicography procedures." mandatory="true"/>
+	<material id="Pap smears" description="Reports and slides from the last two years." mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of medical information although not mandatory, are optional if done:"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Other" description="Any other medical information you may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

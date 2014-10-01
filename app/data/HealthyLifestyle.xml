@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "HealthyLifestyleMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "HealthyLifestyleQuestionnaire.xml">
+]>
+<!-- -->
+<division description="Nutrition" name="Nutrition">
+	<department description="Preventive Cardiology" name="Preventive Cardiology">
+		<section description="" name="">
+		<!-- inactivated 10 June 2010 -->
+			<condition cost="95.00" description="Healthy Lifestyle  (1 Session)" id="Healthy Lifestyle  (1 Session)" product_id="cc-ehp-nutrition" active="false">
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>				
+				<keyword text="food"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+		</section>
+	</department>
+</division>

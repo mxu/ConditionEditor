@@ -1,0 +1,46 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bell_Lieberman_ScoliosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bell_Lieberman_ScoliosisQuestionnaire.xml">
+]>
+<division name="Surgery" description="Surgery">
+	<department name="Spine Center" description="Spine Center">
+		<section name="" description="">
+      		<condition active="false" id="Scoliosis" description="Scoliosis" cost="565.00">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="curvature"/>
+				<keyword text="idiopathic"/>
+				<keyword text="vertebrae"/>
+				<keyword text="congenital"/>           
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition id="Adult scoliosis (greater than 18 years)" description="Adult scoliosis (greater than 18 years)" cost="565.00">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="curvature"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition id="Idiopathic scoliosis (4-18 years)" description="Idiopathic scoliosis (4-18 years)" cost="565.00">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="curvature"/>
+				<keyword text="pediatric"/>
+				<keyword text="adolescent"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition id="Early onset scoliosis (less than 4 years)" description="Early onset scoliosis (less than 4 years)" cost="565.00">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="curvature"/>
+				<keyword text="pediatric"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+		</section>
+	</department>
+</division>

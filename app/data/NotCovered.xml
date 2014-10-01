@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+    <!ENTITY material_doc SYSTEM "NotCoveredMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "NotCoveredQuestionnaire.xml">
+]>
+
+<!-- All "not covered" conditions should have cost="-1" -->
+
+<division description="" name="">
+	<department description="" name="">
+		<section description="" name="">
+			<condition active="false" cost="0" description="Alzheimers Disease" id="Alzheimers Disease" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition>    
+			<condition active="false" cost="0" description="Fibromyalgia" id="Fibromyalgia" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> 
+			<condition active="false" cost="0" description="Lupus" id="Lupus" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> 
+			<!--<condition active="false" cost="0" description="Multiple Sclerosis" id="Multiple Sclerosis" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> -->
+     		<condition active="false" cost="0" description="Peripheral Neuropathy" id="Peripheral Neuropathy" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> 
+			<condition active="false" cost="0" description="Scleroderma" id="Scleroderma" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> 
+			<condition active="false" cost="0" description="Temporomandibular Joint Disease" id="Temporomandibular Joint Disease" >
+                &questionnaire_doc;
+				&material_doc;
+            </condition> 
+            <condition active="false" cost="0" description="Temporal arteritis" id="Temporal arteritis">
+            	&questionnaire_doc;
+				&material_doc;
+            </condition>
+	</section>
+	</department>
+</division>

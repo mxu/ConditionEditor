@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/b&gt;"/>
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Physician's letters" description="Copies of all letters sent to patient by his/her physician(s), copies of all reports from office visit(s) related to this illness (if received)." mandatory="true"/>
+	<material id="Office Notes" description="Copies of all office notes for clinic visits pertinent to condition." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all prior surgeries." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  Radiologic and diagnostic studies done in the last 3 years. (mandatory) &lt;/B&gt; "/>
+	<material id="Chest X-ray" description="Most recent chest X-Ray Pa and lateral views (films and report)." mandatory="true"/>
+	<material id="CT Scan of Chest" description="CT Scan report and  and actual films or copies of films on Compact disc." mandatory="true"/>
+	<material id="Digital photographs of patient's Chest" description="Views from the front, side, and oblique (approximately 45 degrees) Please do not include patient's face in the image" mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of medical information although not mandatory, are optional and highly recommended if done:&lt;/B&gt;"/>
+	<material id="Electrocardiogram (EKG,ECG)" description="Most recent electrocardiogram (report and tracings)." mandatory="false"/>
+	<material id="Echocardiogram" description="Most recent echocardiogram report." mandatory="false"/>
+	<material id="Holter Monitor" description="Reports." mandatory="false"/>
+	<material id="Pulmonary Function Test" description="Raw data and Report / Interpretation." mandatory="false"/>
+	<material id="MRI Scan" description="Chest MRI report and films &lt;u&gt;Please provide actual films on CD (compact disc) if possible.&lt;/u&gt;" mandatory="false"/>
+	<material id="Current Blood work (within last 6 months)" description="Laboratory Blood Test reports." mandatory="false"/>
+	<material id="Other X-rays" description="Films and report (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,29 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Benzel_ChiariMalformationMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Benzel_ChiariMalformationQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Neurological Surgery" name="Neurological Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Chiari Malformation" id="Chiari Malformation" active="true">
+				<keyword text="chiari"/>
+				<keyword text="malformation"/>
+				<keyword text="cerebellum"/>
+				<keyword text="brainstem"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Arnold Chiari Malformation" id="Arnold Chiari Malformation" active="true">
+				<keyword text="chiari"/>
+				<keyword text="malformation"/>
+				<keyword text="cerebellum"/>
+				<keyword text="brainstem"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,17 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Primary physician's last complete history and physical report.  Report needs to contain: &lt;br&gt;Current pregnancy care description along with signs and symptoms in the mother of any pregnancy complication or disease, current fetal findings of concern, and a list and dosage of any current or discontinued medications taken in this pregnancy. If the fetal concern is due to maternal disease, please include a detailed report of disease history, work-up, diagnosis, and any specialist consultations." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters, if available, sent to you by physicians consulted in this pregnancy or previous pregnancies that could have impact on this pregnancy's care and outcome." mandatory="true"/>
+	<material id="Ultrasound" description="Obstetric ultrasound reports and films - Please include actual studies on compact disc (CD)." mandatory="true"/>
+	<material id="MRI" description="Fetal MRI reports and films - Please include actual studies on compact disc (CD)." mandatory="true"/>
+	<material id="Echocardiogram" description="Fetal echocardiogram reports and films - Please include the actual studies on compact disc (CD)." mandatory="true"/>
+	<material id="Laboratory" description="Reports of laboratory results from this pregnancy and any other pertinent labs." mandatory="true"/>
+	<material id="Surgical / operative reports" description="Surgical reports of any &lt;b&gt;and&lt;/b&gt; all pertinent surgeries." mandatory="true"/>
+	<material id="Pathology" description="Pathology reports and glass slides from any biopsies which have been done." mandatory="true"/>
+	<material id="Discharge summaries " description="Discharge summaries from &lt;b&gt;all&lt;/b&gt; hospital admissions within the last year and all admissions relevant ro this consultation." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional, if done:&lt;/b&gt;"/>
+		<material id="Other Studies" description="Reports and films for any other diagnostic studies done which are pertinent to this consultation." mandatory="false"/>
+	<material id="Other" description="Any other medical reports pertinent to this consultation." mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

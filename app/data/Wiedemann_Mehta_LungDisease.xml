@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black (CCF) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wiedemann_Mehta_LungDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wiedemann_Mehta_LungDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pulmonary Medicine" name="Pulmonary Medicine">
+		<section description="" name="">
+			<condition cost="745.00" description="Acute Bronchitis" id="Acute Bronchitis">
+				<keyword text="acute"/>
+				<keyword text="bronchitis"/>
+				<keyword text="pulmonary"/>
+				<keyword text="breathing"/>
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>        
+			<condition cost="745.00" description="Allergic Broncho Pulmonary Aspergillosis (ABPA)" id="Allergic Broncho Pulmonary Aspergillosis (ABPA)">
+				<keyword text="ABPA"/>
+				<keyword text="allergic"/>
+				<keyword text="allergy"/>
+				<keyword text="aspergillosis"/>
+				<keyword text="breathing"/>
+				<keyword text="breath"/>
+				<keyword text="bronchial"/>
+				<keyword text="bronchitis"/>
+				<keyword text="COPD"/>
+				<keyword text="chronic obstructive pulmonary disease"/>
+				<keyword text="cough"/>
+				<keyword text="infection"/>
+				<keyword text="interstitial"/>
+				<keyword text="fibrosis"/>
+				<keyword text="lung"/>
+				<keyword text="pleural"/>
+				<keyword text="pleural effusion"/>
+				<keyword text="pneumonia"/>
+				<keyword text="pulmonary"/>
+				<keyword text="pulmonary fibrosis"/>				
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+
+			<condition cost="745.00" description="Asbestosis" id="Asbestosis">
+				<keyword text="asbestosis"/>
+				<keyword text="lung"/>
+				<keyword text="asbestos"/>
+				<keyword text="exposure"/>
+				<keyword text="breathing"/>
+				<keyword text="pulmonary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Asthma" id="Asthma">
+				<keyword text="asthma"/>
+				<keyword text="breathing"/>
+				<keyword text="bronchial"/>
+				<keyword text="lung"/>
+				<keyword text="wheezing"/>
+				<keyword text="shortness of breath"/>
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Bronchial Asthma" id="Bronchial Asthma">
+				<keyword text="asthma"/>
+				<keyword text="bronchial"/>
+				<keyword text="respiratory"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="wheezing"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Beryllium Disease (CBD)" id="Chronic Beryllium Disease (CBD)">
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="pulmonary disease"/>
+				<keyword text="beryllium"/>
+				<keyword text="exposure"/>
+				<keyword text="breathing"/>
+				<keyword text="cbd"/>
+				<keyword text="chronic"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Bronchitis" id="Chronic Bronchitis">
+				<keyword text="chronic"/>
+				<keyword text="bronchitis"/>
+				<keyword text="lung"/>
+				<keyword text="respiratory"/>
+				<keyword text="pulmonary"/>
+				<keyword text="wheezing"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Obstructive Pulmonary Disease (COPD)" id="Chronic Obstructive Pulmonary Disease (COPD)">
+				<keyword text="chronic"/>
+				<keyword text="obstructive"/>
+				<keyword text="pulmonary"/>
+				<keyword text="respiratory"/>
+				<keyword text="copd"/>
+				<keyword text="breathing"/>
+				<keyword text="cough"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Emphysema" id="Emphysema">
+				<keyword text="emphysema"/>
+				<keyword text="lung"/>
+				<keyword text="respiratory"/>
+				<keyword text="pulmonary"/>
+				<keyword text="breathing"/>
+				<keyword text="cough"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Eosinophilic Granuloma" id="Eosinophilic Granuloma">
+				<keyword text="histocytosis"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="breathing"/>
+				<keyword text="lung disorder"/>
+				<keyword text="histocytosis x"/>
+				<keyword text="eosinophilic"/>
+				<keyword text="granuloma"/>
+				<keyword text="hand-schuller-christian"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Histiocytosis X (Lung)" id="Histiocytosis X (Lung)">
+				<keyword text="histocytosis x"/>
+				<keyword text="histocytosis"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="eosinophilic"/>
+				<keyword text="hand-schuller-christian"/>
+				<keyword text="letterer-siew"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hypersensitivity Pneumonitis" id="Hypersensitivity Pneumonitis">
+				<keyword text="hypersensitivity"/>
+				<keyword text="pneumonitis"/>
+				<keyword text="lung"/>
+				<keyword text="allergic"/>
+				<keyword text="pulmonary"/>
+				<keyword text="alveolitis"/>
+				<keyword text="breathing"/>
+				<keyword text="inflammatory"/>
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Langerhans Cell Histiocytosis" id="Langerhans Cell Histiocytosis">
+				<keyword text="Langerhans"/>
+				<keyword text="cell"/>
+				<keyword text="Histiocytosis"/>
+				<keyword text="lung"/>
+				<keyword text="respiratory"/>
+				<keyword text="pulmonary"/>
+				<keyword text="breathing"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lung Transplantation (evaluation)" id="Lung Transplantation (evaluation)">
+				<keyword text="lung"/>
+				<keyword text="transplant"/>
+				<keyword text="transplantation"/>
+				<keyword text="pulmonary"/>
+				<keyword text="respiratory"/>
+				<keyword text="breathing"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lymphangioleiomyomatosis (LAM)" id="Lymphangioleiomyomatosis (LAM)">
+				<keyword text="lymphangioleiomyomatosis"/>
+				<keyword text="lam"/>
+				<keyword text="lung"/>
+				<keyword text="interstitial"/>
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pleural Effusion" id="Pleural Effusion">
+				<keyword text="respiratory"/>
+				<keyword text="pleural"/>
+				<keyword text="effusion"/>
+				<keyword text="pleurisy"/>
+				<keyword text="pleuritic"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pneumoconiosis" id="Pneumoconiosis">
+				<keyword text="pneumoconiosis"/>
+				<keyword text="lung"/>
+				<keyword text="coal miner's"/>
+				<keyword text="silicosis"/>
+				<keyword text="pulmonary"/>
+				<keyword text="respiratory"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pneumonia" id="Pneumonia">
+				<keyword text="pneumonia"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="cough"/>
+				<keyword text="respiratory"/>				
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pulmonary Alveolar Proteinosis" id="Pulmonary Alveolar Proteinosis">
+				<keyword text="pulmonary"/>
+				<keyword text="lung"/>
+				<keyword text="aveolar"/>
+				<keyword text="protenosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pulmonary Arteriovenous Malformation (AVM)" id="Pulmonary Arteriovenous Malformation (AVM)">
+				<keyword text="pulmonary"/> 
+				<keyword text="lung"/>
+				<keyword text="arteriovenous"/>
+				<keyword text="malformation"/>
+				<keyword text="respiratory"/>
+				<keyword text="avm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>            
+            
+			<condition cost="745.00" description="Pulmonary Fibrosis" id="Pulmonary Fibrosis">
+				<keyword text="pulmonary"/>
+				<keyword text="fibrosis"/>
+				<keyword text="lung"/>
+				<keyword text="interstitial"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pulmonary Hypertension" id="Pulmonary Hypertension">
+				<keyword text="pulmonary"/>
+				<keyword text="lung"/>
+				<keyword text="hypertension"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pulmonary Sarcoidosis" id="Pulmonary Sarcoidosis">
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="epitheloid"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Sarcoidosis" id="Sarcoidosis">
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="epitheloid"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>            
+			<condition cost="745.00" description="Wegener's Granulomatosis" id="Wegener's Granulomatosis">
+				<keyword text="wegener's"/>
+				<keyword text="granulomatosis"/>
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="vasculitis"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

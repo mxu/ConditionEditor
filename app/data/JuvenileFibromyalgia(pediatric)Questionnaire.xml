@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding child's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="For how long has the child been suffering from this illness? (please explain in detail below):">
+			<free_form_response height="5"/>
+		</question>
+					
+		<question mandatory="true" prompt="Have you been provided with a diagnosis for the child's condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the exact diagnosis?">
+						<free_form_response height="2"/>
+					</question>
+				
+					<question mandatory="true" prompt="When was the diagnosis made?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="When was the patient last seen by his/her physician for the condition (one you are seeking a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="What is the extent of the patient's condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="Mild"/>
+				<selection selected="false" text="Moderate"/>
+				<selection selected="false" text="Severe"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe in detail below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the child's current height?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the child's current weight?">
+			<free_form_response height="2"/>
+		</question>
+				
+		<question mandatory="true" prompt="Did the child have an illness or traumatic or stressful life event prior to the onset of this illness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the illness or event in detail below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Does the child experience chronic abdominal pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the abdominal pain  symptoms or event below.  Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate the child's abdominal pain on the scale of 1-10 with 1 being minimal pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's abdominal pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Does child experience chronic or recurrent headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the headache symptoms below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+					
+					<question mandatory="true" prompt="Has the child been diagnosed with Migraine headaches?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete the following information">
+									<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+										<column_definitions>
+											<column_definition label="Month/Year Dx made" width="25"/>
+											<column_definition label="Physician" width="25"/>
+											<column_definition label="Name of Hospital/Clinic" width="30"/>
+											<column_definition label="City/State" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Please rate child's headache pain on the scale of 1-10 with 1 being minimal pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's headache pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Does child experience unexplained muscle or joint pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+			
+					<question mandatory="true" prompt="If yes, please describe the muscle or joint pain symptoms below.  Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate child's muscle or joint pain on the scale of 1-10 with 1 being no pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's muscle or joint  pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		
+		<question mandatory="true" prompt="Does child experience unexplained back pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+			
+					<question mandatory="true" prompt="If yes, please describe back  pain symptoms below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate child's back pain on the scale of 1-10 with 1 being no pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's back pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		
+		<question mandatory="true" prompt="Does child experience shooting pains in arms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+			
+					<question mandatory="true" prompt="If yes, please describe the arm pain  below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate child's arm pain on the scale of 1-10 with 1 being no pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's arm pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		
+		<question mandatory="true" prompt="Does child experience shooting pains in legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+			
+					<question mandatory="true" prompt="If yes, please describe the leg pain symptoms below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate child's leg pain on the scale of 1-10 with 1 being no pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's leg pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="When did this symptom begin?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Has child experienced chest pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+			
+					<question mandatory="true" prompt="If yes, please describe the chest pain symptom below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				
+					<question mandatory="true" prompt="Please rate child's chest pain on the scale of 1-10 with 1 being no pain and 10 being the worst pain:">
+						&PAIN_ITEM_RESPONSE;
+					</question>
+				
+					<question mandatory="true" prompt="Does child's chest pain disturb his/her sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does child's chest pain occur with activity?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					
+					
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Has child experienced shortness of breath?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the shortness of breath below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Does child have unexplained numbness or tingling in the arms or legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the numbness / tingling  symptoms below.  Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does child experience unexplained weakness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the weakness symptoms below.  Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does child experience low energy or decreased ability to exercise?  If yes, please describe the symptoms and any past care or studies.">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the symptoms below. Please include any past care or studies done for this problem:">
+						<free_form_response height="4"/>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe a typical day for your child (be as specific as possible in your description).">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What time does child go to bed?">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="What time does child fall asleep?">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="Does child wake-up frequently through the night?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the details below including what wakes child, how long is he/she awake during these periods, etc.?  Please be as specific as possible.">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does child wake-up feeling tired?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the details below.  Please be as specific as possible.">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does your child take naps?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, for how long does child nap each day?">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does your child have a computer, cell phone, TV, radio, or video game system in his or her room?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Which items?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has child had undergone a sleep study (polysomnogram) in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What were the results of this study?">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>		
+			
+		<question mandatory="true" prompt="Do you think child may be depressed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, why do you think he/she may be depressed?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Has child ever been diagnosed with depression  by a  health care professional?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was diagnosis made?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please describe in detail below past evaluation / treatment for depression:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Do you think the child has a problem with anxiety?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, why do you think this?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Has child ever been diagnosed with anxiety by  a  health care professional?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when was diagnosis made?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please describe in detail below past evaluation / treatment for anxiety:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Does child experience any of the following signs / symptoms ? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Unexplained fevers"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Weight loss"/>
+				<selection selected="false" text="Mouth sores"/>
+				<selection selected="false" text="Facial rashes brought out by exposure to light"/>
+				<selection selected="false" text="Patchy hair loss"/>
+				<selection selected="false" text="Stiffness of joints in morning lasting more than 30 minutes"/>
+				<selection selected="false" text="White, red, or purple discoloration of a finger (not extending past knuckle)"/>
+				<selection selected="false" text="Swelling of Joints"/>
+				<selection selected="false" text="Abdominal pain with eating"/>
+				<selection selected="false" text="Painful rashes"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If Other, Please explain below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Prior to the onset of child's symptoms, please list the dates and reasons for any hospitalizations">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Reason for Hospitalization" width="25"/>
+					<column_definition label="Date(s)" width="20"/>
+					<column_definition label="Name of Hospital" width="25"/>
+					<column_definition label="Location of Hospital (City/State)" width="25"/>
+					<column_definition label="Result of hospitalization" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+			
+		<question mandatory="true" prompt="Since the onset of these symptoms, please list the dates and reasons for any hospitalizations">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Reason for Hospitalization" width="25"/>
+					<column_definition label="Date(s)" width="20"/>
+					<column_definition label="Name of Hospital" width="25"/>
+					<column_definition label="Location of Hospital (City/State)" width="25"/>
+					<column_definition label="Result of hospitalization" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+			
+		<question mandatory="true" prompt="Has child undergone any surgical procedures in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of surgical procedure" width="25"/>
+								<column_definition label="Date(s)" width="20"/>
+								<column_definition label="Reason" width="25"/>
+								<column_definition label="Name of Hospital/Clinic" width="25"/>
+								<column_definition label="Location of Hospital (City/State)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Please list any other chronic medical conditions your child currently has or had in the past">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Diagnosis" width="25"/>
+					<column_definition label="Date of Diagnosis" width="15"/>
+					<column_definition label="Name of the Physician" width="25"/>
+					<column_definition label="Current status of condition" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>	
+				
+		<question mandatory="true" prompt="Please list all medications child has taken for the his/her condition, the duration of time the medications were taken, any side effects and if they were effective">
+			<table_response add_row_increment="1" initial_rows_to_display="5" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of Medication" width="25"/>
+					<column_definition label="Dosage" width="25"/>
+					<column_definition label="Date started" width="20"/>
+					<column_definition label="Side effects (if any)" width="25"/>
+					<column_definition label="Result (describe if effective, etc.)" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Has child experienced any problems with growth? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Has child had any problem(s) meeting developmental milestones, like walking or talking at appropriate ages? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+				
+		<question mandatory="true" prompt="Has  child had any delays in his or her academic development? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>				
+			
+		<question mandatory="true" prompt="How many days of school has child missed this school year due to his or her symptoms?">
+			<free_form_response height="3"/>
+		</question>	
+				
+		<question mandatory="true" prompt="Was child a good student prior to this onset of these symptoms? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, please describe in detail below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Please describe the types of physical activity child participates in and the frequency of these activities.">
+			<free_form_response height="3"/>
+		</question>	
+		
+		<question mandatory="true" prompt="Please list below all of the diagnostic tests child has undergone to investigate his/her condition (provide results if known):">
+			<table_response add_row_increment="1" initial_rows_to_display="5" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of diagnostic test" width="25"/>
+					<column_definition label="Date performed" width="20"/>
+					<column_definition label="Result (describe if effective, etc.)" width="35"/>
+				</column_definitions>
+			</table_response>
+		</question>		
+			
+		<question mandatory="true" prompt="Has child undergone a biopsy for his/her condition? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="5" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of biopsy" width="25"/>
+								<column_definition label="Date of Biopsy" width="20"/>
+								<column_definition label="Results of biopsy (describe if effective, etc.)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>				
+				
+		<question mandatory="true" prompt="Does anyone in the patient's immediate family (mother, father, siblings) have fibromyalgia? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below which family member(s):">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+				
+		<question mandatory="true" prompt="Does anyone in the patient's immediate family (mother, father, siblings) have a history of anxiety? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below which family member(s):">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>				
+				
+		<question mandatory="true" prompt="Does anyone in the patient's immediate family (mother, father, siblings) have a history of depression? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below which family member(s):">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+				
+		<question mandatory="true" prompt="Does patient's mother have any chronic medical conditions? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+				
+		<question mandatory="true" prompt="Does patient's father have any chronic medical conditions? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+				
+		<question mandatory="true" prompt="Does patient have siblings (brothers or sisters)? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, do siblings have any chronic medical conditions?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe in detail below:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+				
+		<question mandatory="true" prompt="Are there are diseases which frequently occur in patient's extended families (grandparents, aunts, uncles, cousins, etc.)? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+					
+		<question mandatory="true" prompt="What has been recommended regarding treatment of patient's current condition (one for whom second opinion is being sought)?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response row_height="2" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, specialist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+			
+	</question_group>
+</questionnaire>

@@ -1,0 +1,39 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bajzer_Ouriel_Greenberg_Mayberg_CarotidArteryDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bajzer_Ouriel_Greenberg_Mayberg_CarotidArteryDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Carotid Artery Disease" id="Carotid Artery Disease" active="true">
+				<keyword text="arteriosclerosis"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				<keyword text="vessel"/>
+				<keyword text="blood"/>
+				<keyword text="neck"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Carotid Artery Stenosis" id="Carotid Artery Stenosis" active="true">
+				<keyword text="blockage"/>
+				<keyword text="arteriosclerosis"/>
+				<keyword text="artery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Carotid Artery Disease (with Pathology)" id="Carotid Artery Disease (with Pathology)" active="true">
+				<keyword text="arteriosclerosis"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				<keyword text="vessel"/>
+				<keyword text="blood"/>
+				<keyword text="neck"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

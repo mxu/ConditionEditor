@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Harsha Reddy(IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Calabrese_CNSVasculitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Calabrese_CNSVasculitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Rheumatology and Immunology" name="Rheumatology and Immunology">
+		<section description="" name="">
+			<condition cost="745.00" description="CNS Vasculitis" id="CNS Vasculitis" active="true">
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="blood"/>
+				<keyword text="inflammation"/>
+				<keyword text="primary"/>
+				<keyword text="angiitis"/>
+				<keyword text="vessel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

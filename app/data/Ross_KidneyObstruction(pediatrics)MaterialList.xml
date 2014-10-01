@@ -1,0 +1,25 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary or specialist physician's last report" description="The report should contain current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either the primary care physician or the physician who diagnosed or is treating the condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by patient's physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries and/or biopsies." mandatory="true"/>
+	<material id="Pathology reports" description="Reports are glass slides form all relevant biopsies." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary of the case including key findings from previous testing." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies in the last 3 years will be required.  The actual original films (not copies) of the studies and reports will be needed , if indicated:"/>
+	<material id="Cystoscopy" description="Report and films." mandatory="true"/>
+	<material id="Ureteroscopy" description="Report and films." mandatory="true"/>
+	<material id="IVP (Intravenous pyelogram)" description="Report and films." mandatory="true"/>
+	<material id="KUB (Kidneys, ureters, bladder)" description="Report and films." mandatory="true"/>
+	<material id="Ultrasound" description="Report and films." mandatory="true"/>
+	<material id="CT scan" description="Report and films (if done)." mandatory="true"/>
+	<material id="Other x-rays" description="Reports and films of any other pertinent x-rays (if done)." mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of radiologic and diagnostic studies, although not mandatory are optional if done.  The actual original films (not copies) of the studies will be needed, if indicated:"/>
+	<material id="Current blood work" description="Within six months." mandatory="false"/>
+	<material id="Current urinalysis" description="Lab reports within six months." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

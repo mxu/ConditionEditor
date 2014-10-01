@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!-- Michelle Marks MD -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "CancerNutritionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "CancerNutritionQuestionnaire.xml">
+]>
+
+<division description="Nutrition" name="Nutrition">
+	<department description="Human Nutrition" name="Human Nutrition">
+		<section description="" name="">
+			<condition cost="195.00" description="Cancer Nutrition (2 Sessions)" id="Cancer Nutrition (2 Sessions)" product_id="nutrition" active="true">
+				<keyword text="loss"/>
+				<keyword text="gain"/>
+				<keyword text="nutrition"/>
+				<keyword text="diet"/>
+				<keyword text="health"/>
+				<keyword text="food"/>
+				<keyword text="cancer"/>
+				<keyword text="calories"/>
+				<keyword text="weight"/>
+				<keyword text="maintenance"/>
+				<keyword text="2"/>
+				<keyword text="sessions"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

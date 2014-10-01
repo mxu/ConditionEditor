@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lichtin_LeukocytosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lichtin_LeukocytosisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Agranulocytosis (neutropenia)" id="Agranulocytosis (neutropenia)">
+				<keyword text="white"/>
+				<keyword text="blood"/>
+				<keyword text="count"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Autoimmune neutropenia" id="Autoimmune neutropenia">
+				<keyword text="wbc"/>
+				<keyword text="blood"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Chronic/Cyclic neutropenia" id="Chronic/Cyclic neutropenia">
+				<keyword text="wbc"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Drug-induced immune neutropenia" id="Drug-induced immune neutropenia">
+				<keyword text="blood"/>
+				<keyword text="wbc"/>
+				<keyword text="white blood cells"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Leukopenia" id="Leukopenia">
+				<keyword text="blood"/>
+				<keyword text="wbc"/>
+				<keyword text="white"/>
+				<keyword text="cells"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Secondary neutropenia	" id="Secondary neutropenia">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

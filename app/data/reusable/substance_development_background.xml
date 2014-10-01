@@ -1,0 +1,142 @@
+<question mandatory="true" prompt="Please fill out the following table regarding Recreational substance use.">
+	<table_response initial_rows_to_display="7" add_row_increment="0" row_height="2">
+		<column_definitions>
+			<column_definition label="Substance" width="35"/>
+			<column_definition label="Current Use (Approximate amount / frequency)" width="20"/>
+			<column_definition label="Past Experimentation" width="35"/>
+			<column_definition label="Past Regular Use" width="20"/>
+			<column_definition label="Never" width="35"/>
+		</column_definitions>
+		<table_data>
+			<cell>Alcohol</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>Marijuana</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>Cocaine</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>LSD/ Mushrooms</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>Amphetamines/ Speed</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>Tranquilizers/ sedatives</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell>Opioids/ heroin</cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell></cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell></cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+		<table_data>
+			<cell></cell>
+			<cell/>
+			<cell/>
+			<cell/>
+			<cell/>
+		</table_data>
+	</table_response>
+</question>
+<question mandatory="true" prompt="Who were or are your primary care takers?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Both parents"/>
+				<selection selected="false" text="Single parent"/>
+				<selection selected="false" text="Other Relative"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+</question>
+<question mandatory="true" prompt="During your growing up years, were you made to feel loved?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Usually"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Rarely"/>
+			</item_response>
+</question>
+<question mandatory="true" prompt="Did you experience a loss of a parent while growing up?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+</question>
+<question mandatory="true" prompt="Did you experience physical abuse while growing up?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+</question>
+<question mandatory="true" prompt="Did you experience molestation while growing up?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+</question>
+<question mandatory="true" prompt="When growing up, how would you describe your school days?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Fun/happy"/>
+				<selection selected="false" text="Fair"/>
+				<selection selected="false" text="Unhappy"/>
+			</item_response>
+</question>
+<question mandatory="true" prompt="Did your school days include any of the following activities?  (Choose all that  apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Clubs"/>
+				<selection selected="false" text="Sports"/>
+				<selection selected="false" text="School activities"/>
+				<selection selected="false" text="Outside activities"/>
+				<selection selected="false" text="Was not involved in any activities during my school years"/>
+		        </item_response>
+</question>
+<question mandatory="true" prompt="How many years of school have you completed?">
+						<free_form_response height="2"/>
+</question>
+<question mandatory="true" prompt="Please describe your history related to marriages:">
+						<free_form_response height="3"/>
+</question>

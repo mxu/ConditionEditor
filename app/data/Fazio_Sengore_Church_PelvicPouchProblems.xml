@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Sengore_Church_PelvicPouchProblemsMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Sengore_Church_PelvicPouchProblemsQuestionnaire.xml">
+]>
+<!--02/14/02 Kewords removed per Linda Vrabel to allow for clean-up prior to release to production.  DH-->
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Pelvic Pouch Problems" id="Pelvic Pouch Problems">
+				<keyword text="pelvic pouch"/>
+				<keyword text="pouch problems"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pelvic Pouchitis" id="Pelvic Pouchitis">
+				<keyword text="colostomy"/>
+				<keyword text="pouch"/>
+				<keyword text="crohn's"/>
+				<keyword text="colitis"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="colon"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pelvic Pouch Malfunction" id="Pelvic Pouch Malfunction">
+				<keyword text="crohn's"/>
+				<keyword text="colitis"/>
+				<keyword text="intestine"/>
+				<keyword text="colon"/>
+				<keyword text="colostomy"/>
+				<keyword text="bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pelvic Pouch Abscess" id="Pelvic Pouch Abscess">
+				<keyword text="pelvic abscess"/>
+				<keyword text="bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

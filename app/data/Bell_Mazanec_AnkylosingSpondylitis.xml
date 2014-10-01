@@ -1,0 +1,21 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bell_Mazanec_AnkylosingSpondylitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bell_Mazanec_AnkylosingSpondylitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition cost="565.00" description="Ankylosing Spondylitis of the Spine" id="Ankylosing Spondylitis of the Spine">
+				<keyword text="spondyloarthropathy"/>
+				<keyword text="arthritis"/>
+				<keyword text="sacroiliac"/>
+				<keyword text="back"/>
+				<keyword text="vertabra"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

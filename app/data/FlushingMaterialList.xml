@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Physician Case summary" description="Physician's summary OR a detailed chronological reconstruction of the case submitted by patient." mandatory="true"/>
+	<material id="Pathology reports and slides" description="All pathology reports and glass slides for any and all biopsies." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (including chemotherapy, radiation therapy, etc.). If radiation therapy was used, a copy of the completion note will be required. Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information will be required in order to proceed with your request for second opinion. Studies to include: Radiologic and diagnostic studies done in the last 3 years (mandatory), Including CT scan, MRI scan and Octreotide scan. The actual original films (not copies) of the studies and the reports will be needed (Images recorded as electronic media (CD or DVD) are acceptable).&lt;/b&gt; "/>
+	<material id="Lab tests" description="Reports only for the following tests: TSH, CBC, CMP and urine HIAA." mandatory="true"/>
+	<material id="Octreotide scan" description="Reports and Images needed." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="CT scan" description="Images needed." mandatory="false"/>
+	<material id="MRI scan" description="Images needed." mandatory="false"/>
+	<material id="Other information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,104 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis: Plastic Surgery Consultation Questions">
+		<question mandatory="true" prompt="What is the primary problem related to the patient's eyes for which you are seeking this plastic surgery consultation?">
+			<free_form_response height="5"/>
+		</question>
+		&PLASTIC_COMMON1;
+		<question mandatory="true" prompt="Has the patient had any eye / eyelid surgery in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Please list all surgeries tothe patient's eye(s)/eyelid(s) that the patient has had in the past.">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Year" width="8"/>
+								<column_definition label="Type of procedure" width="20"/>
+								<column_definition label="Not Sure" width="5"/>
+								<column_definition label="Physician" width="15"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had a recent eye exam?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any eye / vision problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Do the patient's eyes tear frequently?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient been told he has dry eyes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="List in priority order the things that bother the patient the most about the patient's eyes and what the patient would like to correct?  (1 = highest priority,  5 = lowest priority)">
+			<table_response add_row_increment="1">
+				<column_definitions>
+					<column_definition label="Area" width="30"/>
+					<column_definition label="Priority" width="30"/>					
+				</column_definitions>
+				<table_data>
+					<cell>Upper eyelid skin excess</cell>
+					<cell/>					
+				</table_data>
+				<table_data>
+					<cell>Lower eyelid skin excess</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Wrinkles</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bags</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eyebrows</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell>Please explian</cell>
+				</table_data>
+			</table_response>
+		</question>
+		&PLASTIC_COMMON2;
+	</question_group>
+</questionnaire>

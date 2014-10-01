@@ -1,0 +1,17 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Shoskes_Prostatitis_MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Shoskes_Prostatitis_Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Prostatitis" id="Prostatitis">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

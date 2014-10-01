@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY questionnaire_doc SYSTEM "Mayberg_StrokeRelatedConditionsQuestionnaire.xml">
+	<!ENTITY material_doc SYSTEM "Mayberg_StrokeRelatedConditionsMaterialList.xml">
+]>
+<division name="Neurology" description="Neurology">
+	<department description="Neurological Surgery" name="Neurological Surgery">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Spinal Vascular Malformation" id="Spinal Vascular Malformation">
+				<keyword text="spine"/>
+				<keyword text="congenital"/>
+				<keyword text="brain"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+			<condition active="true" cost="565.00" description="Dural Arteriovenous Fistula" id="Dural Arteriovenous Fistula">
+				<keyword text="cerebral"/>
+				<keyword text="congenital"/>
+				<keyword text="brain"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+			<condition active="true" cost="565.00" description="Carotid-Cavernous Fistula (CCF)" id="Carotid-Cavernous Fistula (CCF)">
+				<keyword text="carotid"/>
+				<keyword text="artery"/>
+				<keyword text="circulation"/>
+				<keyword text="blood"/>
+				<keyword text="neck"/>
+				<keyword text="vessel"/>
+				<keyword text="blockage"/>
+				<keyword text="stroke"/>								
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cavernous Malformation" id="Cavernous Malformation">
+				<keyword text="cavernous"/>
+				<keyword text="malformation"/>
+				<keyword text="cerebral"/>
+				<keyword text="vascular"/>
+				<keyword text="stroke"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Cerebral Aneurysm" id="Cerebral Aneurysm">
+				<keyword text="cerebral"/>
+				<keyword text="aneurysm"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="brain"/>
+				<keyword text="bulging"/>
+				<keyword text="congenital"/>
+				<keyword text="stroke"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Intracranial Stenosis" id="Intracranial Stenosis">
+				<keyword text="intracranial"/>
+				<keyword text="stenosis"/>
+				<keyword text="circulation"/>
+				<keyword text="blood"/>
+				<keyword text="brain"/>
+				<keyword text="stroke"/>
+				<keyword text="blockage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Subarachnoid Hemmorhage" id="Subarachnoid Hemmorhage">
+				<keyword text="subarachnoid"/>
+				<keyword text="hemmorhage"/>
+				<keyword text="vessel"/>
+				<keyword text="blood"/>
+				<keyword text="bleed"/>
+				<keyword text="stroke"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Brain Aneurysm" id="Brain Aneurysm">
+				<keyword text="brain"/>
+				<keyword text="Aneurysm"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="bulging"/>
+				<keyword text="congenital"/>
+				<keyword text="stroke"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Arteriovenous Malformation (AVM) of Brain" id="Arteriovenous Malformation (AVM) of Brain">			
+				<keyword text="brain"/>
+				<keyword text="AVM"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="congenital"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				<keyword text="dural"/>
+				<keyword text="arteriovenous"/>
+				<keyword text="vein"/>
+				<keyword text="venous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+				<condition active="true" cost="565.00" description="Brain AVM" id="Brain AVM">			
+				<keyword text="brain"/>
+				<keyword text="AVM"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="congenital"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				<keyword text="dural"/>
+				<keyword text="arteriovenous"/>
+				<keyword text="vein"/>
+				<keyword text="venous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Spine Aneurysm" id="Spine Aneurysm">
+				<keyword text="Spine"/>
+				<keyword text="Aneurysm"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="bulging"/>
+				<keyword text="congenital"/>
+				<keyword text="stroke"/>
+				<keyword text="spinal"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Arteriovenous Malformation (AVM) of Spine" id="Spine AVM">
+				<keyword text="Spine"/>
+				<keyword text="AVM"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="congenital"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				<keyword text="spinal"/>
+				<keyword text="arteriovenous"/>
+				<keyword text="vascular"/>
+				<keyword text="vein"/>
+				<keyword text="venous"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Spine AVM" id="Spine AVM">
+				<keyword text="Spine"/>
+				<keyword text="AVM"/>
+				<keyword text="artery"/>
+				<keyword text="arterial"/>
+				<keyword text="congenital"/>
+				<keyword text="vascular"/>
+				<keyword text="malformation"/>
+				<keyword text="spinal"/>
+				<keyword text="arteriovenous"/>
+				<keyword text="vascular"/>
+				<keyword text="vein"/>
+				<keyword text="venous"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+			<condition active="true" cost="565.00" description="Spine Cavernous Malformation" id="Spine Cavernous Malformation">
+				<keyword text="spine"/>
+				<keyword text="spinal"/>
+				<keyword text="malformation"/>
+				<keyword text="congenital"/>
+				<keyword text="brain"/>
+				<keyword text="vascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Stroke" id="Stroke">
+				<keyword text="cerebral"/>
+				<keyword text="ischemia"/>
+				<keyword text="stroke"/>
+				<keyword text="cva"/>
+				<keyword text="attack"/>
+				<keyword text="arteriesl"/>
+				<keyword text="acute"/>
+				<keyword text="neurological"/>
+				<keyword text="injury"/>												
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+			<condition active="true" cost="565.00" description="Cerebral Vascular Accident (CVA)" id="Cerebral Vascular Accident (CVA)">
+				<keyword text="cerebral"/>
+				<keyword text="ischemia"/>
+				<keyword text="stroke"/>
+				<keyword text="brain"/>
+				<keyword text="attack"/>
+				<keyword text="arteriesl"/>
+				<keyword text="acute"/>
+				<keyword text="neurological"/>
+				<keyword text="injury"/>												
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Transient Ischemic Attack (TIA)" id="Transient Ischemic Attack (TIA)">
+				<keyword text="TIA"/>
+				<keyword text="transient"/>
+				<keyword text="ischemic"/>
+				<keyword text="attack"/>
+				<keyword text="mini"/>
+				<keyword text="stroke"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

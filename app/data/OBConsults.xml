@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "OBConsultsMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "OBConsultsQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="At Risk Pregnancy" id="At Risk Pregnancy">
+				<keyword text="Pregnancy"/>
+				<keyword text="OB"/>
+				<keyword text="Risk"/>
+				<keyword text="High risk"/>
+				<keyword text="At risk"/>
+				<keyword text="Obstetrics"/>
+				<keyword text="Uterine"/>
+				<keyword text="Pregnant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="High Risk Pregnancy" id="High Risk Pregnancy">
+				<keyword text="Pregnancy"/>
+				<keyword text="OB"/>
+				<keyword text="Risk"/>
+				<keyword text="High risk"/>
+				<keyword text="At risk"/>
+				<keyword text="Obstetrics"/>
+				<keyword text="Uterine"/>
+				<keyword text="Pregnant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,15 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Operative reports" description="Operative reports for any relevant surgeries" mandatory="true"/>
+	<material id="Current color photographs of your face front view" description="A color photograph of the front view.&lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo).&lt;/b&gt; Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt;
+	&lt;p&gt; &lt;img src='/images/plasticSurgery/face-center.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of your face right profile, left profile view" description="A color photograph of the right profile, left profile, base (bottom up) view. &lt;b&gt;Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo). &lt;/b&gt;Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt;  
+	 &lt;p&gt; &lt;img src='/images/plasticSurgery/face-right.jpg' &gt; &lt;img src='/images/plasticSurgery/face-left.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of your face oblique view" description="A color photograph of the oblique view.&lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo). &lt;/b&gt;Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt;
+	 &lt;p&gt; &lt;img src='/images/plasticSurgery/face-right-oblique.jpg' &gt; &lt;img src='/images/plasticSurgery/face-left-oblique.jpg' &gt;" mandatory="true"/>
+	 <material id="Current color photographs of your face base (bottom up) view" description="A color photograph of the base (bottom up) view.&lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo)&lt;/b&gt;. Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt;
+	&lt;p&gt; &lt;img src='/images/plasticSurgery/bottom-up.jpg' &gt;" mandatory="true"/>	
+	<material id="Other" description="Any other medical information you may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION_PLASTIC;
+</material_list>

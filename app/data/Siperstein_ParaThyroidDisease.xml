@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_ParaThyroidDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_ParaThyroidDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Parathyroid Adenoma" id="Parathyroid Adenoma">
+				<keyword text="thyroid "/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Parathyroid Carcinoma" id="Parathyroid Carcinoma">
+				<keyword text="cancer"/>
+				<keyword text="gland"/>
+				<keyword text="tumor"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Parathyroid Multiple Adenoma" id="Parathyroid Multiple Adenoma">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="M.E.N. (Multiple Endocrine Neoplasia Syndrome) I" id="M.E.N. (Multiple Endocrine Neoplasia Syndrome) I">
+				<keyword text="parathyroid"/>
+				<keyword text="gland"/>
+				<keyword text="MEN"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="M.E.N. (Multiple Endocrine Neoplasia Syndrome) II" id="M.E.N. (Multiple Endocrine Neoplasia Syndrome) II">
+				<keyword text="parathyroid"/>
+				<keyword text="gland"/>
+				<keyword text="MEN"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="M.E.N. (Multiple Endocrine Neoplasia Syndrome) III" id="M.E.N. (Multiple Endocrine Neoplasia Syndrome) III">
+				<keyword text="parathyroid"/>
+				<keyword text="gland"/>
+				<keyword text="MEN"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="Hypercalcemia (high calcium)" id="Hypercalcemia (high calcium)">
+				<keyword text="parathyroid"/>
+				<keyword text="thyroid"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="Hyperparathyroidism" id="Hyperparathyroidism">
+				<keyword text="parathyroid"/>
+				<keyword text="thyroid"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="high"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+		</section>
+	</department>
+</division>

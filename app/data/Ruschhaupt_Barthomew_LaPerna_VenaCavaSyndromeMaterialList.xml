@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Samir (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all vascular and heart surgeries." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies in the last 3 years will be required.  The actual original films (not copies) of the studies and reports will be needed , if indicated:"/>
+	<material id="Chest CT" description="Report and films." mandatory="true"/>
+	<material id="Chest X-ray" description="Report and films of PA and lateral views." mandatory="true"/>
+	<material id="Arteriograms/angiograms" description="Report and films of actual moving pictures on CD (Compact disc), if available, otherwise 35mm film is acceptable." mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  The actual original films (not copies) of the studies will be needed, if indicated:"/>
+	<material id="Current blood work" description="Within the last 6 months (if done)." mandatory="false"/>
+	<material id="MRI of chest" description="Report and films (if done)." mandatory="false"/>
+	<material id="Other X-rays" description="Report only (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

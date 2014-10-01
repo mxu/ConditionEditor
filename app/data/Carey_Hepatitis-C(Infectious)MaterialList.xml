@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+     &PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all prior relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Physician's reports of any and all other treatments received for this diagnosis." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  Reports and (actual) films for all radiology studies performed thus far, if indicated.  These studies to include the following:"/>
+	<material id="Ultrasound" description="Report and films" mandatory="true"/>
+	<material id="Upper Endoscopy" description="Report and films" mandatory="true"/>
+	<material id="Cholangiography" description="Report and films." mandatory="true"/>
+	<material id="Other X-rays" description="Report and films. (if done)" mandatory="true"/>
+	<material id="Liver Biopsy" description="Laboratory report (if done)" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Current Blood work  to include the following laboratory blood tests:"/>
+	<material id="Complete blood count (CBC)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="HCV, RNA, PCR" description="Laboratory blood test report" mandatory="true"/>
+	<material id="ANA (Antinuclear Antibodies)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis A Antibody -Total" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Hepatitis C (HCV) Antibody (anti HCV)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Anti Hbs" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Recombinant Immunoblot assay (RIBA)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="HCV Genotype (1,2,3,4,5,6)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Fetaprotein" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Creatinine" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Cryoglobulins" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Liver blood tests to include the following:"/>
+	<material id="Alkaline phosphatase" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Alanine transaminase (ALT)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Aspartate transaminase (AST)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Bilirubin" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Albumin" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Mitrochondrial antibodies" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Prothrombin Time" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text=" The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Ammonia" description="Laboratory blood test report" mandatory="false"/>
+	<material id="Lactate dehydrogenase (LDH)" description="Laboratory blood test report" mandatory="false"/>
+	<material id="SMA -20 (electrolyte panel)" description="Laboratory blood test report" mandatory="false"/>
+	<material id="Cryglobulins" description="Laboratory blood test report" mandatory="false"/>
+	<material id="CT Scan of liver" description="Report only (if done)." mandatory="false"/>
+	<material id="MRI Scan of liver" description="Report only (if done)." mandatory="false"/>
+	<material id="Ultrasound of liver" description="Report only (if done)." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to your condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

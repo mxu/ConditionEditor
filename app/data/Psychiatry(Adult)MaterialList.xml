@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Madhu -->
+<material_list>
+  &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of 	current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." 	mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by patient's physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Office Notes" description="Copies of all office notes for clinic visits pertinent to condition." mandatory="true"/>
+	<material id="Psychiatry / Psychology Consultation Notes" description="Copies of all Psychiatry or Psychology Consultations." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all prior surgeries." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following diagnostic studies done in the last 3 years will be required (mandatory) &lt;/B&gt;"/>
+	<material id="CAGE" description="Report of results" mandatory="true"/>
+	<material id="PHQ-9" description="Report of results" mandatory="true"/>
+	<material id="GAD-7" description="Report of results" mandatory="true"/>
+	<material id="MDQ" description="Report of results" mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of medical information although not mandatory, are optional and highly recommended if done: &lt;/B&gt;"/>
+	<material id="Current Blood work (within last 6 months)" description="Other Laboratory Blood Test reports" mandatory="false"/>
+	<material id="Other X-rays (if done)" description="Films and report (if done)" mandatory="false"/>
+	<material id="Other Medications" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

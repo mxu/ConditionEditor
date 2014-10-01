@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question mandatory="true" prompt="The following questions measure the impact of chronic pain in your everyday life. We want to know how much your pain is preventing you from doing 
+your normal activities.  For each of the categories of life activity listed, circle the number that best reflects the level of disability you typically experience.
+A score of 0 means no disability at all. A score of 10 means that all the activities which you would normally do have been disrupted or prevented by 
+Your pain.  Your rating should reflect the overall impact of pain in your life, not just whjen the pain is at its worst.  Make a rating for every category.
+If you think a category does not apply to you, choose 0.">
+  <item_response drop_down_style="false" single_response="false">
+  	 <selection selected="false" text="Family/home responsibilities:">
+   		<question prompt=" This category refers to activities related to the home or family. It includes chores and duties performed around the house (e.g., yard work) and errands or favors for other family members (e.g. driving the children to school)" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	 <selection selected="false" text="Recreation:">
+	 	<question  prompt="Recreation: This category includes hobbies, sports, and other leisure-time activities." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	 <selection selected="false" text="Social activity:">
+	 	<question prompt="This category includes parties, theater, concerts, dining out, and other social activities that are attended with family and friends." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	 <selection selected="false" text="Occupation:">
+	 	<question prompt="This category refers to activities that are directly related to one's job. This includes nonpaying jobs as well, such as that of a homemaker or volunteer worker." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	 <selection selected="false" text="Sexual behavior: ">
+	 	<question prompt="This category refers to the frequency and quality of one's sex life." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	<selection selected="false" text="Self-care: ">
+	 	<question prompt="This category includes personal maintenance and independent daily living activities(e.g. taking a shower, driving, getting dressed)." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+			</item_response>
+		</question>
+	</selection>
+	<selection selected="false" text="Life-support activity:">
+		<question prompt="This category refers to basic life-supporting behaviors such as eating, sleeping, and breathing." mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="0 - No disability" selected="false"/>
+				<selection text="1" selected="false"/>
+				<selection text="2" selected="false"/>
+				<selection text="3 - Mild" selected="false"/>
+				<selection text="4" selected="false"/>
+				<selection text="5 - Moderate" selected="false"/>
+				<selection text="6" selected="false"/>
+				<selection text="7" selected="false"/>
+				<selection text="8 - Severe" selected="false"/>
+				<selection text="9" selected="false"/>
+				<selection text="10 - Total Disability" selected="false"/>
+		</item_response>
+	      </question>
+	</selection>
+  </item_response>
+</question>

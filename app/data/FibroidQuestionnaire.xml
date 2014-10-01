@@ -1,0 +1,372 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are seeking a second opinion consultation.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="How was your current diagnosis (one you are seeking a second opinion for) made?">
+			<item_response single_response="false">
+				<selection selected="false" text="X-rays"/>
+				<selection selected="false" text="CT"/>
+				<selection selected="false" text="IVP"/>
+				<selection selected="false" text="Ultrasound"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Pap Smear"/>
+				<selection selected="false" text="Blood Wook"/>
+				<selection selected="false" text="Unknown"/>
+				<selection selected="false" text="Other"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Have you experienced pain?	">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, where is the pain located?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Would you describe your pain as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Have you experienced pressure symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, where is the pressure located?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If yes, would you describe your pressure as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced bloating symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, where is the bloating located?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If yes, Would you describe the bloating as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced nausea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, would you describe the nausea as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced vomiting?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, would you describe the vomiting as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced constipation?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, would you describe the constipation as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild (bowel movement every other day)"/>
+							<selection selected="false" text="Moderate (bowel movement 2x per week)"/>
+							<selection selected="false" text="Severe (bowel movement less than 1x per week)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced diarrhea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, would you describe the diarrhea as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild (bowel movement 3-6x per day)"/>
+							<selection selected="false" text="Moderate (bowel movement 7-8x per day)"/>
+							<selection selected="false" text="Severe (bowel movement more than 8x per day)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced any abnormal vaginal bleeding?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, would you describe the bleeding as">
+						<item_response single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced any other symptoms or problems not listed above?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in depth:">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="What is your current weight (in pounds)">
+			<free_form_response />
+		</question>
+		<question mandatory="true" prompt="What was your weight (in pounds) one year ago?">
+			<free_form_response />
+		</question>
+		<question mandatory="true" prompt="What was your weight before the diagnosis?">
+			<free_form_response />
+		</question>
+		<question mandatory="true" prompt="Has your usual activities of daily living?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Increased"/>
+				<selection selected="false" text="Decreased">
+					<question mandatory="true" prompt="If decreased, what has prevented you from participating in your daily activities?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Please rate activity level below with regard to your general performance status.  Please choose one.">
+			<item_response single_response="true">
+				<selection selected="false" text="Fully active, able to carry on all usual activities without restriction"/>
+				<selection selected="false" text="Restricted in physically strenuous activity but able to carry out work of light or sedentary nature, example:  light housework, office work."/>
+				<selection selected="false" text="Ambulatory and capable of all self care but unable to carry out any work activities, Up and about more than 50% of waking hours." />
+				<selection selected="false" text="Capable of only limited self care, confined to bed or chair more than 50% of waking hours."/>
+				<selection selected="false" text="Completely disabled.  Cannot carry on any self care.  Totally confined to bed or chair."/>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Are you pre-menopausal?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, provide details on length of menstrual cycle (i.e.: every 28 days/regular), duration (i.e.: 3-5 days) , and flow (i.e.: light, moderate, heavy).">
+						<table_response add_row_increment="1" initial_rows_to_display="1" row_height="4">
+							<column_definitions>
+								<column_definition label="Length of cycle" width="20"/>
+								<column_definition label="Duration" width="20"/>
+								<column_definition label="Flow" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is your menstrual cycle irregular?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Are you menopausal?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did menopause  begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Are you on hormone therapy?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, type of hormone (i.e.: birth control pills, progestin therapy, lupron therapy, etc)?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="When did therapy begin?">
+							&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Do you have a history of abnormal Pap smears?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, was treatment required?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, type of treatment?">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Do you have any other gynecologic problems or issues?  If yes, please specify below:">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Do you have a prior history of cancer or pre-cancerous conditions?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide below, type of condition, date of diagnosis, date and method of treatment (i.e.: surgery, chemotherapy, radiation, etc.) below LIST ALL	">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="4">
+							<column_definitions>
+								<column_definition label="Condition" width="20"/>
+								<column_definition label="Date of diagnosis" width="10"/>
+								<column_definition label="Method of treatment" width="20"/>
+								<column_definition label="Name of physician" width="15"/>
+								<column_definition label="name of hospital / clinic" width="15"/>
+								<column_definition label="City, State" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of cancer?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please specify family member (maternal or paternal side), type of cancer, age at diagnosis.">
+						<table_response add_row_increment="1" initial_rows_to_display="5" row_height="4">
+							<column_definitions>
+								<column_definition label="Family member" width="20"/>
+								<column_definition label="Type of cancer" width="20"/>
+								<column_definition label="Age at diagnosis" width="20"/>
+								<column_definition label="How is relative doing?" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="Has the condition for which you are seeking a second opinion been previously treated?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please fill in information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+							<column_definitions>
+								<column_definition label="Name of  procedure" width="20"/>
+								<column_definition label="Date" width="15"/>
+								<column_definition label="Name of physician" width="15"/>
+								<column_definition label="name of hospital/clinic" width="15"/>
+								<column_definition label="City, State" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you have undergone surgical treatment, what is your general subjective impression of the experience? (in your own words)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>	
+		</question>
+		<question mandatory="true" prompt="What has been recommended for your current condition (one you are seeking a second opinion for)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What type of physician has made this recommendation example: primary care physician, gynecologist?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

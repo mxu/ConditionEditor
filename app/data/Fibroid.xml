@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "FibroidMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "FibroidQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Uterine Fibroid" id="Uterine Fibroid" active="true">
+				<keyword text="growth"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="cyst"/>
+				<keyword text="lesion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <!-- inactive per Karen Lonchor 8/10/2008 -->
+            <!--  active as per Karen Jensen Sep 23 2010 -->
+			<condition cost="745.00" description="Fibroid Tumor" id="Fibroid Tumor" active="true">
+				<keyword text="growth"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="cyst"/>
+				<keyword text="lesion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

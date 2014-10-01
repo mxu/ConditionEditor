@@ -1,0 +1,18 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Notes should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Prior therapy summary" description="If prior therapy for diagnosis has taken place, an accurate and complete summary of this therapy is essential.  If prior chemotherapy was used, list all agents (including hormone therapy).  This should be summarized by your treating physician.  If prior radiation therapy was used, a copy of the completion note will be necessary. Significant toxicities and response to your therapy should be described." mandatory="true"/>
+	<material id="Surgical reports" description="Surgical reports of any and all prior relevant surgeries (laparoscopy, ovarian cancer debulking, second look laparotomy, urinary stenting procedures and any other major abdominal surgeries)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<material id="Pathology reports" description="Pathology reports and glass slides from all relevant biopsies." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies performed thus far, if indicated.  These studies to include the following:"/>
+	<material id="MRI scan" description="Report and films." mandatory="true"/>
+	<material id="Pelvic ultrasound" description="Report and films." mandatory="true"/>
+	<material id="CT of abdomen and pelvis" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of medical information although not mandatory, are optional if done:"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

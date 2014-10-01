@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Seitz_SyndactylyMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Seitz_SyndactylyQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Syndactyly" id="Syndactyly">
+				<keyword text="digits"/>
+				<keyword text="fingers"/>
+				<keyword text="webbed"/>
+				<keyword text="toes"/>
+				<keyword text="hand"/>
+				<keyword text="foot"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Polydactyly" id="Polydactyly">
+				<keyword text="digits"/>
+				<keyword text="fingers"/>
+				<keyword text="webbed"/>
+				<keyword text="toes"/>
+				<keyword text="hand"/>
+				<keyword text="foot"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

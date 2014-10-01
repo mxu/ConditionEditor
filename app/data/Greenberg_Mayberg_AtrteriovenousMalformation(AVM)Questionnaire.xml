@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of any of the following conditions? Please fill in relationship for all that apply.">
+			<table_response add_row_increment="2" row_height="1">
+				<column_definitions>
+					<column_definition label="Condition" width="20"/>
+					<column_definition label="Relationship" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Aneurysm</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Arteriovenous Malformations</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Coronary artery disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cancer</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CVA (stroke)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diabetes</cell>
+					<cell/>
+				</table_data>
+				<!-- table_data>
+					<cell>Hypertension</cell>
+					<cell/>
+				</table_data -->
+				<table_data>
+					<cell>COPD/emphysema</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Kidney disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Premature (at a young age) atherosclerotic coronary heart disease</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other arterial/circulatory problems (please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition (one you are requesting a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Have you ever had a myocardial infarction (heart attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a myocardial infarction, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If unsure, please describe the circumstances below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Angina"/>
+				<selection selected="false" text="Arrhythmias (heart irregularities)"/>
+				<selection selected="false" text="Bronchitis"/>
+				<selection selected="false" text="Cerebral Vascular Accident (stroke)"/>
+				<selection selected="false" text="Emphysema/COPD"/>
+				<selection selected="false" text="Marfan's Syndrome"/>
+				<selection selected="false" text="Pneumonia"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Sleep apnea"/>
+				<selection selected="false" text="TIA (transient ischemia attack) (mini strokes)"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had  any of the following procedures or surgeries? If so, when?">
+			<table_response add_row_increment="2" row_height="1">
+				<column_definitions>
+					<column_definition label="Procedure" width="20"/>
+					<column_definition label="Date (Month / Year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Lower extremity (leg) artery surgery</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carotid (neck) artery surgery</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Abdominal aneurysm repair</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thoracic aneurysm repair</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Amputation</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Percutaneous intervention (balloon angioplasty)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pacemaker insertion</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Renal (kidney) artery intervention</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Aortic surgical procedures</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other vascular/arterial surgeries(please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you know the location of the arteriovenous malformation? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you know the location of the arteriovenous malformation, please indicate location below: (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="arm"/>
+							<selection selected="false" text="leg"/>
+							<selection selected="false" text="back"/>
+							<selection selected="false" text="neck "/>
+							<selection selected="false" text="chest"/>
+							<selection selected="false" text="abdomen"/>
+							<selection selected="false" text="pelvis"/>
+							<selection selected="false" text="other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone treatment for the arteriovenous malformation? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone treatment for the arteriovenous malformation, please indicate treatment type below (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Surgical"/>
+							<selection selected="false" text="Interventional"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, explain:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any of the following diagnostic / imaging studies? If so, when?">
+			<table_response add_row_increment="2" row_height="1">
+				<column_definitions>
+					<column_definition label="Diagnostic study" width="20"/>
+					<column_definition label="Date (Month / Year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Angiogram </cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Doppler studies</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cardiac (heart) catheterization</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Stress test</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carotid (neck) Ultrasound</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>PVR (peripheral vascular resistance)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>EKG</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any of the following problems with your legs? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Leg pain at rest"/>
+				<selection selected="false" text="Leg pain at night"/>
+				<selection selected="false" text="Leg pain while walking"/>
+				<selection selected="false" text="Ulcers (sores) on legs or feet"/>
+				<selection selected="false" text="Gangrene on legs or feet"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience any of the following symptoms: (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with diabetes (high blood sugar levels)? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with diabetes, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Are you currently taking daily insulin injections to control your diabetes?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you currently are taking daily insulin injections to control your diabetes, when did you first start taking insulin injections?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you test your glucose (sugar) level at home on a regular basis?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you test your glucose level at home on a regular basis, what is the usual morning range of readings?">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="70-100"/>
+										<selection selected="false" text="101-150"/>
+										<selection selected="false" text="151-200"/>
+										<selection selected="false" text="201-250"/>
+										<selection selected="false" text=">250"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with hypertension (high blood pressure)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with hypertension, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Do you take home blood pressure readings?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your blood pressure under control with your current treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has your blood pressure control worsened recently?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please provide your most recent blood pressure reading (if known)">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Reading" width="15"/>
+								<column_definition label="Number" width="20"/>
+							</column_definitions>
+							<table_data>
+								<cell>Systolic reading (top number)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diastolic reading (bottom number)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="When was this most recent reading taken?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Who took this most recent reading?">
+						<item_response drop_down_style="true" single_response="false">
+							<selection selected="false" text="Self"/>
+							<selection selected="false" text="Family member"/>
+							<selection selected="false" text="Physician"/>
+							<selection selected="false" text="Nurse"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (vascular specialist,  primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

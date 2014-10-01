@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Topol_RImmerman_Ruschhaupt_Bartholomew_LaPerna_HyperlipidemiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Topol_RImmerman_Ruschhaupt_Bartholomew_LaPerna_HyperlipidemiaQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<!-- activated 02/17/09 per karen's request -->
+			<condition active="true" cost="565.00" description="Hyperlipidemia" id="Hyperlipidemia">
+				<keyword text="elevated"/>
+				<keyword text="lipids"/>
+				<keyword text="fats"/>
+				<keyword text="circulation"/>
+				<keyword text="heart"/>
+				<keyword text="stroke"/>
+				<keyword text="HDL"/>
+				<keyword text="LDL"/>
+				<keyword text="cholesterol"/>
+				<keyword text="triglycerides"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atheroembolism" id="Atheroembolism">
+				<keyword text="fat"/>
+				<keyword text="clot"/>
+				<keyword text="circulation"/>
+				<keyword text="heart"/>
+				<keyword text="vascular"/>
+				<keyword text="HDL"/>
+				<keyword text="LDL"/>
+				<keyword text="cholesterol"/>
+				<keyword text="triglycerides"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

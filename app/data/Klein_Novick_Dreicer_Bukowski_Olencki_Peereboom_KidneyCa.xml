@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Klein_Novick_Dreicer_Bukowski_Olencki_Peereboom_KidneyCaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Klein_Novick_Dreicer_Bukowski_Olencki_Peereboom_KidneyCaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Kidney Cancer (Renal Cancer)" id="Kidney Cancer (Renal Cancer)">
+				<keyword text="kidney"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="renal"/>
+				<keyword text="urinary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Kidney/Renal Tumor" id="Kidney/Renal Tumor">
+				<keyword text="kidney"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="renal"/>
+				<keyword text="mass"/>
+				<keyword text="urinary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

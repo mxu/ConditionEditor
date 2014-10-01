@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Sengore_Church_AnalIncontinenceMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Sengore_Church_AnalIncontinenceQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<!--<condition cost="745.00" description="Anal Incontinence" id="Anal Incontinence" active="false">
+				<keyword text="rectal"/>
+				<keyword text="bowel"/>
+				<keyword text="sphincter"/>
+				<keyword text="incontinent"/>
+				<keyword text="fecal"/>
+				<keyword text="rectum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>-->
+		</section>
+	</department>
+</division>

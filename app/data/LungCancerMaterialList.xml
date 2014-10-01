@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology" description="Report and glass slides from all biopsies done." mandatory="true"/>
+	<material id="Surgical report(s)" description="Surgical reports of any and all relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (chemotherapy, radiation therapy, etc.). If radiation therapy was used, a copy of the completion note will be required. Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary OR a detailed chronological reconstruction of the case submitted by the patient." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<material id="Current blood work" description="Within the last 6 months" mandatory="true"/>
+		
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="Chest X-ray, PA and lateral views" description="Report and films." mandatory="true"/>
+	<material id="CT scan of the chest" description="Report and films." mandatory="true"/>
+	<material id="Thoracentesis" description="Report only." mandatory="true"/>
+	<material id="Pulmonary Function Tests" description=" Spirometry with bronchodilators, Lung volumes, Diffusion capacity and Flow volume loop." mandatory="true"/>
+	<material id="Lab tests" description="Arterial blood gasses (on room air)." mandatory="true"/>
+	<material id="Reports and photos from all Bronchoscopy procedures" description="Report and photos from all bronchoscopy procedures" mandatory="true"/>
+	<material id="Brain CT" description="Report only." mandatory="true"/>
+	<material id="P.E.T. scan" description="Report and Films" mandatory="true"/>
+	<material id="Abdominal CT scan" description="Report and Films" mandatory="true"/>
+		
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Echocardiogram with Doppler" description="Report only." mandatory="false"/>
+	<material id="Most recent electrocardiogram (ECG, EKG)" description="Report only." mandatory="false"/>
+	<material id="Brain MRI" description="Report only." mandatory="false"/>
+	<material id="Ventilation/perfusion (VQ) lung scan" description="Report only." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

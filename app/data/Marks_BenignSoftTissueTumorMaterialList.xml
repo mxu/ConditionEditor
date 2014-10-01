@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology" description="All Pathology reports and glass slides for any and all biopsies done." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for any prior surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (chemotherapy, radiation therapy, etc.)  If radiation therapy was used, a copy of the completion note will be required.  Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following radiology and diagnostic studies done in the last 3 years are required.  If indicated, the actual original films (not copies) of the studies and reports will be needed.&lt;/B&gt;"/>
+	<material id="Chest x-rays" description="Report and films." mandatory="true"/>
+	<material id="MRI of the tumor area" description="Report and films." mandatory="true"/>
+	<material id="CT scan of the tumor area" description="Report and Films copied to CD." mandatory="true"/>
+	<material id="X-rays of the tumor area" description="Report and films." mandatory="true"/>
+	<material id="Other x-rays" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

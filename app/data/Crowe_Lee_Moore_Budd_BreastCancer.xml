@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Crowe_Lee_Moore_Budd_BreastCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Crowe_Lee_Moore_Budd_BreastCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Breast Cancer (Medical Management Review)" id="Breast Cancer (Medical Management Review)">
+				<keyword text="breast"/>
+				<keyword text="cancer"/>
+				<keyword text="malignant"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

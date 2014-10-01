@@ -1,0 +1,225 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the patient's diagnosis?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Does the patient have syndactyly (webbed digits)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question prompt="If yes, what form of syndactyly does patient have?">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Incomplete"/>
+							<selection selected="false" text="Complete"/>
+							<selection selected="false" text="Simple"/>
+							<selection selected="false" text="Complex"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have polydactyly(extra digits)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what form of polydactyly does patient have?">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Incomplete"/>
+							<selection selected="false" text="Complete"/>
+							<selection selected="false" text="Simple"/>
+							<selection selected="false" text="Complex"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are there other family members with this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had X-rays of the affected area?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, dates of X-rays?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience any pain or other symptoms in the affected area?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Are the webbed digits located on patient's hand?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which hand is affected by this condition?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has the patient been seen by a hand therapist for his/her condition?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete:">
+									<table_response add_row_increment="2">
+										<column_definitions>
+											<column_definition label="Date of Therapy:" width="20"/>
+											<column_definition label="Results:" width="40"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Are the webbed digits located on patient's foot?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which foot is affected by this condition?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has the patient been seen by a foot therapist for his/her condition?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete:">
+									<table_response add_row_increment="2">
+										<column_definitions>
+											<column_definition label="Date of Therapy:" width="20"/>
+											<column_definition label="Results:" width="40"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient undergone any type of surgery for his/her condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete:">
+						<table_response add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Date of Surgery:" width="20"/>
+								<column_definition label="Location of Surgery:" width="20"/>
+								<column_definition label="Results:" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any other type of birth defects?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Which hand is affected by this condition?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had any of the following studies done?">
+			<item_response drop_down_style="true" single_response="false">
+				<selection selected="false" text="Chromosome Studies"/>
+				<selection selected="false" text="Enzyme Assays"/>
+				<selection selected="false" text="Metabolic Studies"/>
+				<selection selected="false" text="None of above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any of the following conditions?">
+			<item_response drop_down_style="true" single_response="false">
+				<selection selected="false" text="Down Syndrome"/>
+				<selection selected="false" text="Apert's Syndrome"/>
+				<selection selected="false" text="Fetal hydantoin (mother took hydantoin during pregnancy)"/>
+				<selection selected="false" text="Carpenter's Syndrome"/>
+				<selection selected="false" text="Smith-Lemli-Opitz Syndrome"/>
+				<selection selected="false" text="Pfeiffer Syndrome"/>
+				<selection selected="false" text="Cornelia de Lange Syndrome"/>
+				<selection selected="false" text="None of above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has recommended for patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician Name" width="30"/>
+					<column_definition label="Specialty &lt;BR&gt; (pediatrician, surgeon, etc.)" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "DeCamp_Benign_Mediastinal_Masses_CystsMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "DeCamp_Benign_Mediastinal_Masses_CystsQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Thoracic and Cardiovascular Surgery" name="Thoracic and Cardiovascular Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Benign Mediastinal Mass" id="Benign Mediastinal Mass">
+				<keyword text="tumor"/>
+				<keyword text="chest"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mediastinal Cyst" id="Mediastinal Cyst">
+				<keyword text="mass"/>
+				<keyword text="tumor"/>
+				<keyword text="chest"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

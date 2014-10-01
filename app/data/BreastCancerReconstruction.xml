@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "BreastCancerReconstructionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "BreastCancerReconstructionQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Plastic and Reconstructive Surgery Department" name="Plastic and Reconstructive Surgery Department">
+		<section description="" name="">
+			<condition cost="565.00" description="Breast Cancer Reconstruction" id="Breast Cancer Reconstruction">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="cancer"/>
+				<keyword text="reconstruction"/>
+				<keyword text="carcinoma"/>
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="masectomy"/>
+				<keyword text="lumpectomy"/>
+				<keyword text="surgery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Breast Reconstruction Following Mastectomy" id="Breast Reconstruction Following Mastectomy">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="cancer"/>
+				<keyword text="reconstruction"/>
+				<keyword text="carcinoma"/>
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="masectomy"/>
+				<keyword text="lumpectomy"/>
+				<keyword text="surgery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Breast Reconstruction Following Lumpectomy" id="Breast Reconstruction Following Lumpectomy">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="cancer"/>
+				<keyword text="reconstruction"/>
+				<keyword text="carcinoma"/>
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="masectomy"/>
+				<keyword text="lumpectomy"/>
+				<keyword text="surgery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+			<condition cost="565.00" description="Breast Ptosis" id="Breast Ptosis">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="reconstruction"/>				
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="sagging"/>
+				<keyword text="drooping"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>		
+			<condition cost="565.00" description="Secondary Correctional Breast Surgery" id="Secondary Correctional Breast Surgery">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="reconstruction"/>
+				<keyword text="correction"/>
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="deformity"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Breast Deformities For Surgical Evaluation" id="Breast Deformities For Surgical Evaluation">
+				<keyword text="breast"/>
+				<keyword text="breasts"/>
+				<keyword text="reconstruction"/>
+				<keyword text="correction"/>
+				<keyword text="plastic surgery"/>
+				<keyword text="reconstruct"/>
+				<keyword text="correction"/>
+				<keyword text="deformity"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

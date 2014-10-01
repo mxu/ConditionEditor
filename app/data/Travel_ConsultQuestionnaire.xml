@@ -1,0 +1,1147 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+
+<questionnaire>
+<question_group name="Travel Information">
+	<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+	</question>
+	<question mandatory="false" prompt="Please list your specific questions related to your travel plans:">
+			<table_response initial_rows_to_display="3" add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Question" width="75"/>
+				</column_definitions>
+			</table_response>
+	</question>
+	<question mandatory="true" prompt="What is the country of your birth ?">
+			<free_form_response height="1"/>
+	</question>
+		<question mandatory="true" prompt="Will you be traveling with any family members ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list name and relationship:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name " width="50"/>
+								<column_definition label="Relationship" width="50"/>					
+								<column_definition label="Age" width="20"/>
+							</column_definitions>	
+						</table_response>
+					</question>
+				</selection>
+			</item_response>			
+		</question>
+		
+		<question mandatory="true" prompt="Date of Scheduled Departure">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Scheduled or Estimated Date of Return">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please list country(ies) and city(ies) you will be traveling to in order of travel plans:">
+			<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Country" width="35"/>
+					<column_definition label="City" width="25"/>
+					<column_definition label="Length of stay (number of days / weeks / months)" width="50"/>
+					<column_definition label="Purpose of Travel" width="35"/>
+				</column_definitions>
+			</table_response>			
+		</question>
+		
+		<question mandatory="true" prompt="While living overseas, do you plan to take side trips to places other than those listed above?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete information below: ">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Country" width="35"/>
+								<column_definition label="City" width="25"/>
+								<column_definition label="Length of stay (number of days / weeks / months)" width="35"/>							
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>			
+		</question>
+		
+		<question mandatory="true" prompt="Will you travel to altitudes over 5000 feet (1500 meters) ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="if yes, for how long ? ">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>									
+		</question>
+		
+		<question mandatory="true" prompt="Will you live at altitudes over 5000 feet (1500 meters) ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="if yes, for how long ? ">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>										
+		</question>
+		
+		<question mandatory="true" prompt="Purpose of Travel (Select ALL that apply to this trip): ">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Vacation / pleasure"/>
+				<selection selected="false" text="Business"/>
+				<selection selected="false" text="Adoption"/>
+				<selection selected="false" text="To provide medical care"/>
+				<selection selected="false" text="To receive medical care"/>
+				<selection selected="false" text="Research"/>
+				<selection selected="false" text="Study abroad "/>
+				<selection selected="false" text="Hunting"/>
+				<selection selected="false" text="Emergency, last-minute notice"/>
+				<selection selected="false" text="Travel to region of personal or family origin to visit relatives and/or friends"/>
+				<selection selected="false" text="Non-medical service work / Volunteer work"/>
+				<selection selected="false" text="Missionary work"/>
+				<selection selected="false" text="Military service"/>
+				<selection selected="false" text="Adventure travel (e.g. extreme mountain climbing, water sports. Outdoor activities, etc)"/>
+				<selection selected="false" text="Attending large gathering or event (e.g. Hajj, Olympics, World Cup, etc.)">
+					<question mandatory="true" prompt="please enter details: ">
+						<free_form_response height="3"/>
+					</question>	
+				</selection>
+				<selection selected="false" text="Other activities">
+					<question mandatory="false" prompt="please enter details: ">
+						<free_form_response height="3"/>
+					</question>	
+				</selection>				
+			</item_response>										
+		</question>
+		
+		<question mandatory="true" prompt="Please answer the questions below related to you and your travel plans">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="I like to experience local food when traveling">
+				    <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Strongly agree"/>
+						<selection selected="false" text="Agree"/>
+						<selection selected="false" text="Neutral"/>
+						<selection selected="false" text="Disagree"/>
+						<selection selected="false" text="Strongly Disagree"/>
+					</item_response>
+				    </question>
+				</selection>
+				
+				<selection selected="false" text="I like to visit remote, out-of-the-way, locations when traveling">
+					 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">				 
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				
+				<selection selected="false" text="I wear seat belts">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+				  </question>
+				</selection>
+				
+				<selection selected="false" text="Vaccines are a very important part of staying healthy">
+					 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I think yearly flu shots are a good idea  ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Taking pills to prevent malaria seems unnecessary ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="My stomach is easily upset ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I get diarrhea often ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be living in a dormitory ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be living in a small space with more than one person who is not part of my immediate family? ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be living in a large city. ">
+				<question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be living in a rural setting ">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be in close contact with domesticated animals.">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="I will be in close contact with farm and wild animals.">
+				 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+					</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="My travel plans may change without much warning ">
+					 <question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="Yes"/>
+						<selection selected="false" text="No"/>
+						<selection selected="false" text="Unsure"/>
+					</item_response>
+					</question>
+				</selection>				
+			</item_response>										
+		</question>
+		
+		
+		<question mandatory="true" prompt="Have you had any ill effects as a result of prior international travel? (Please check all that apply)">			
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Rash"/>
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Diarrhea"/>
+				<selection selected="false" text="Naursea / Vomiting"/>
+				<selection selected="false" text="Abdominal Pain"/>
+				<selection selected="false" text="Sunburn"/>
+				<selection selected="false" text="Altitude Illness"/>
+				<selection selected="false" text="Bronchitis or pneumonia"/>
+				<selection selected="false" text="Bites or Stings"/>
+				<selection selected="false" text="Parasite infection"/>
+				<selection selected="false" text="Motion Sickness"/>
+				<selection selected="false" text="Other">
+					<question mandatory="false" prompt="If other, please explain :">
+						<free_form_response height="3"/>
+					</question>	
+				</selection>							
+			</item_response>										
+		</question>
+		
+		<question mandatory="true" prompt="Please answer yes or no to the following questions, comments to explain can be added below as needed.">
+			<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Concerns " width="55"/>
+					<column_definition label="Yes" width="15"/>					
+					<column_definition label="No" width="15"/>
+					<column_definition label="Comments" width="15"/>	
+				</column_definitions>
+				 <table_data>
+			 		 <cell>Have you ever received an organ transplant ?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>
+			 	 <table_data>
+			 		 <cell>Have you ever received a bone marrow or stem cell transplant?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		  <cell/>
+			 	</table_data>
+			 	 <table_data>
+			 		 <cell>Do you take medication to suppress your immune system because of a transplant?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>
+			 	 <table_data>
+			 		 <cell>Have you ever had your spleen removed?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>
+				<table_data>
+			 		 <cell>Do you have HIV or AIDS (Autoimmune Deficiency Syndrome)?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>
+			 	 <table_data>
+			 		 <cell>Do you take medication that weakens or changes your immune system?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>
+			 	 <table_data>
+			 		 <cell>Do you have cancer or leukemia?</cell>
+			 		 <cell/>
+			 		 <cell/>
+			 		 <cell/>
+			 	</table_data>		 
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you traveled abroad within the last year ?">
+			<item_response drop_down_style="false" single_response="true">			
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete information below">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Country " width="20"/>
+								<column_definition label="City" width="20"/>					
+								<column_definition label="Length of stay (number of days / weeks / months" width="30"/>	
+								<column_definition label="Purpose of Travel" width="30"/>	
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="No"/>
+			</item_response>			
+		</question>
+		<question mandatory="true" prompt="Do you have any medical conditions that require ongoing medications or treatments ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+
+		<question mandatory="true" prompt="Do you have Diabetes Mellitus ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>							
+		</question>
+		<question mandatory="true" prompt="Do you use Insulin ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>							
+		</question>
+		<question mandatory="true" prompt="Do you have any decrease in kidney function ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>							
+		</question>
+		<question mandatory="true" prompt="Do you require Dialysis ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often?">
+						<free_form_response height="1"/>
+					</question>	
+				</selection>
+			</item_response>							
+		</question>
+		<question mandatory="true" prompt="Do you require Hemodialysis ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often?">
+						<free_form_response height="1"/>
+					</question>	
+				</selection>
+			</item_response>							
+		</question>
+		<question mandatory="true" prompt="Do you require Peritoneal dialysis ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often?">
+						<free_form_response height="1"/>
+					</question>	
+				</selection>	
+			</item_response>							
+		</question>
+		
+	<question mandatory="true" prompt="Do you have a heart condition ?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="">
+					<item_response drop_down_style="false" single_response="false">
+						<selection selected="false" text = "If yes, do you see a doctor regularly for your heart condition?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, do you take medication regularly for your heart condition?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, have you had heart surgery(s) (bypass, valve repair or replacement)?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes">
+										<question mandatory="true" prompt="If yes, please complete information below">
+											<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+												<column_definitions>
+													<column_definition label="Type of Surgery (be specific) " width="30"/>
+													<column_definition label="Date of surgery" width="30"/>			
+												</column_definitions>
+											</table_response>
+										</question>
+									</selection>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, do you have a pacemaker?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, do you have a defibrillator in your chest?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, do you have heart block?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>	
+						</selection>
+						<selection selected="false" text = "If yes, have you ever had a heart attack?">						
+							<question mandatory="true" prompt="">
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes">
+										<question mandatory="true" prompt="If yes, Date?">
+											<free_form_response height="1"/>
+										</question>	
+									</selection>
+								</item_response>
+							</question>	
+						</selection>
+					</item_response>
+				</question>	
+			</selection>	
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have any condition that is controlled now, but might recur while traveling? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="If yes, what is the condition ?">
+					<free_form_response height="1"/>
+				</question>	
+			</selection>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have problems with depression?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have problems with significant anxiety?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have problems with strange dreams or nightmares?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you currently pregnant?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="N/A"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you trying or planning to become pregnant in the near future? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="N/A"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you breastfeeding? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="N/A"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had Hepatitis A (the illness)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had Hepatitis B (the illness)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had Hepatitis C? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had a convulsion or a seizure? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had a blood clot? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you take blood thinner medication (e.g. Coumadin, Heparin, Lovenox, or other)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had Guillain-Barre Syndrome?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="If yes, please explain and give dates of illness">
+					<free_form_response height="1"/>
+				</question>
+			</selection>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you need needles to inject prescription medications? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have an allergy so severe that you carry an epinephrine auto-injector (Epi-Pen)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have sickle cell trait? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have sickle cell anemia? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you have cirrhosis or other liver condition that affects your liver function? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you see a doctor regularly for a liver-related medical condition? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="If yes, please explain condition and give dates : ">
+					<free_form_response height="1"/>
+				</question>
+				<question mandatory="true" prompt="if yes, do you take regular medication for a liver-related medical condition? ">
+					<item_response drop_down_style="false" single_response="true">
+					
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="If yes, please explain">
+							<free_form_response height="3"/>
+						</question>	
+					</selection>
+					<selection selected="false" text="No"/>
+				</item_response>							
+				</question>
+			</selection>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Please list all medications you are taking currently. 
+	Please be sure to include all prescription medications, and non-prescription (over the counter) 
+	medications including herbal remedies and vitamin supplements.">
+		<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+			<column_definitions>
+				<column_definition label="Name of drug" width="20"/>
+				<column_definition label="Dosage" width="20"/>					
+				<column_definition label="How often, when taken" width="20"/>
+				<column_definition label="Mode of Administration (Pill, Shot, Suppository, Patch)" width="40"/>									
+			</column_definitions>
+		</table_response>
+	</question>
+ 	 <question mandatory="true" prompt="Are you taking any steroids, Prednisone, Cortisone, or Decadron (NOT including inhaled steroids)?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="If yes, please list name of medication and how long you have been taking">
+					<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+						<column_definitions>
+							<column_definition label="Name of Medication " width="20"/>
+							<column_definition label="How long have you been taking?" width="30"/>
+						</column_definitions>
+					</table_response>
+				</question>
+			</selection>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you taken any steroid medication in the last three months (NOT including inhaled steroids)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you taking any chemotherapy or other anti-cancer druges? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you receiving, or did you recently receive, radiation therapy? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you receive Rheumatrex (methotrexate), Remicade (infliximab), Enbrel (etanercept), Rituxan (rituximab) ?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you receive Arava (leflunomide), Humira (adalimumab), Kineret (anakinra), Fludara (fludarabine) ?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you take Plaquenil (hydroxychloroquine) ? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you receive any other immune suppressing medications? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you take medications for depression or emotional problems? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you take oral contraceptives? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="N/A"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you using any ongoing medication for birth control (shot, ring, patch, other)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="N/A"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you currently taking any antibiotics (including those for acne) ? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you currently taking any other antimicrobial medication ? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you currently taking aspirin routinely ? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+			<selection selected="false" text="No"/>
+		</item_response>							
+	</question>
+	<question mandatory="false" prompt="Additional information related to medication administration">
+		<free_form_response height="4"/>
+	</question>
+	<question mandatory="true" prompt="Do you have any allergies or intolerances to drugs, such as penicilling or sulfa? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Not sure"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="Yes, please list">
+					<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+						<column_definitions>
+							<column_definition label="Name of drug" width="40"/>
+							<column_definition label="Type of reaction  (hives, rash, gi upset, other)" width="50"/>
+						</column_definitions>
+					</table_response>
+				</question>
+			</selection>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Are you allergic to latex?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Not sure"/>
+			<selection selected="false" text="Yes"/>			
+		</item_response>							
+	</question>		
+	<question mandatory="true" prompt="Are you allergic to eggs?">
+		<item_response drop_down_style="false" single_response="true">
+		        <selection selected="false" text="Not sure"/>
+		        <selection selected="false" text="No"/>
+			<selection selected="false" text="Yes">
+				<question mandatory="true" prompt="If allergic to eggs, can you eat eggs without a problem?">
+					<item_response drop_down_style="false" single_response="true">
+						<selection selected="false" text="No"/>
+						<selection selected="false" text="Not sure"/>
+						<selection selected="false" text="Yes"/>				
+					</item_response>
+				</question>
+			</selection>	
+		</item_response>
+	</question>
+	<question mandatory="false" prompt="Additional allergy information">
+		<free_form_response height="4"/>
+		<selection selected="false"/>
+	</question>
+	<question mandatory="true" prompt="Have you ever fainted from having an injection or blood draw? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Have you ever had a bad reaction to a vaccination? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you live with anyone with an immune disorder like HIV (Human Immunodeficiency Virus)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you work closely with anyone with an immune disorder like HIV (Human Immunodeficiency Virus)? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question> 
+	 <question mandatory="true" prompt="Do you live with anyone who is receiving chemotherapy or radiation therapy? ">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Do you work closely with anyone who is receiving chemotherapy or radiation therapy?">
+		<item_response drop_down_style="false" single_response="true">
+			<selection selected="false" text="No"/>
+			<selection selected="false" text="Yes"/>
+		</item_response>							
+	</question>
+	<question mandatory="true" prompt="Please provide dates of all immunizations (series of dates), list any other you have received if not listed here">
+		<table_response initial_rows_to_display="39" add_row_increment="1" row_height="1">
+			<column_definitions>
+				<column_definition label="Vaccine " width="40"/>
+				<column_definition label="Date(Month,Year)" width="15"/>
+				<column_definition label="Date(Month,Year)" width="15"/>
+				<column_definition label="Date(Month,Year)" width="15"/>
+				<column_definition label="Date(Month,Year)" width="15"/>
+				<column_definition label="Check if never" width="15"/>
+			</column_definitions>
+			<table_data>
+			 	 <cell>DTP/DTaP series chilhood (Diphtheria-Tetanus-Pertussis)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Diptheria-Tetanus (TD or DT)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Diptheria-Tetanus-Pertussis (DTaP)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>DTaP/Hepatitis B/IPV (Combination)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>DTaP/IPV (Combination)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>DTaP/Hib (Combination)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>DTaP/Hib/IPV (Combination)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Tdap adult (Tetanus-Diphtheria-acellular Pertusis)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>H. influenza type b (Hib)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Hepatitis A</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Hepatitis B</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Hepatitis A/B (combination)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Immune Globulin (IG)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Human papilloma virus (HPV)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Influenza (Flu shot): Injectable</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Influenza (Flu shot): Intranasal</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Japanese Encephalitis</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Measles-Mumps-Rubella (MMR)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Measles (Monovalent)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>MMR-V (Measles-Mumps-Rubella-Varicella)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Meningococcal: Conjugate (MCV4)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Polysaccharide (MPSV4)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Pneumococcal: Conjugate (PCV or Prevnar)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Polysaccharide (PPV or Pneumovax)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Polio: Injectable (IPV) or Oral (OPV)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Rabies: Intramuscular vaccine</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Rabies Immune globulin</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Rotavirus</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Tetanus booster  TD or Td or Tdap</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Typhoid: Oral</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Typhoid: Injectable</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Smallpox</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Varicella (Chikenpox)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			   <table_data>
+			 	 <cell>Zoster (Shingles)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			 <table_data>
+			 	 <cell>Yellow Fever</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>BCG (Tuberculosis Vaccine)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>Cholera</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			  <table_data>
+			 	 <cell>TBE (Tick Born Encephalitis)</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+			   <table_data>
+			 	 <cell>Other</cell>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 	 <cell/>
+			 </table_data>
+		</table_response>
+	</question>
+	
+	<question mandatory="false" prompt="Is there anything else you think would be helpful?">
+		 	<free_form_response height="3"/>
+	</question>
+	
+</question_group> 
+
+</questionnaire>
+

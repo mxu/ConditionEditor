@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Novick_KidneyObstructionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Novick_KidneyObstructionQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Kidney Obstruction" id="Kidney Obstruction">
+				<keyword text="kidney"/>
+				<keyword text="obstruction"/>
+				<keyword text="renal"/>
+				<keyword text="ureter"/>
+				<keyword text="stricture"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ureter Stricture" id="Ureter Stricture">
+				<keyword text="kidney"/>
+				<keyword text="ureter"/>
+				<keyword text="stricture"/>
+				<keyword text="obstruction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hematuria" id="Hematuria">
+				<keyword text="hematuria"/>
+				<keyword text="microscopic hematuria"/>
+				<keyword text="blood"/>
+				<keyword text="bloody"/>
+				<keyword text="urine"/>
+				<keyword text="urinalysis"/>
+				<keyword text="microcopic"/>
+				<keyword text="gross"/>
+				<keyword text="clot"/>
+				<keyword text="clots"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Microscopic Hematuria" id="Microscopic Hematuria">
+				<keyword text="hematuria"/>
+				<keyword text="microscopic hematuria"/>
+				<keyword text="blood"/>
+				<keyword text="bloody"/>
+				<keyword text="urine"/>
+				<keyword text="urinalysis"/>
+				<keyword text="microcopic"/>
+				<keyword text="gross"/>
+				<keyword text="clot"/>
+				<keyword text="clots"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

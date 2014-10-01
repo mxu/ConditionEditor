@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "JuvenileFibromyalgia(pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "JuvenileFibromyalgia(pediatric)Questionnaire.xml">
+]>
+<division description="Orthopaedics and Rheumatology" name="Orthopaedics and Rheumatology">
+	<department description="Pediatric Rheumatology" name="Pediatric Rheumatology">
+		<section description="" name="">
+			<condition cost="745.00" description="Juvenile Fibromyalgia (pediatric)" id="Juvenile Fibromyalgia (pediatric)" active="true">
+				<keyword text="Juvenile"/>
+				<keyword text="Pediatric"/>
+				<keyword text="Fibromyalgia"/>
+				<keyword text="Joint"/>
+				<keyword text="Pain"/>
+				<keyword text="Fatigue"/>
+				<keyword text="Energy"/>
+				<keyword text="Chronic"/>
+				<keyword text="Stiffness"/>
+				<keyword text="Tenderness"/>
+				<keyword text="Sleep"/>
+				<keyword text="Disorder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

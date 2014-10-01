@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Samir (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Has an immediate family member (parent, sibling) been diagnosed with heart disease or circulatory problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If an immediate family member has been diagnosed with heart disease or circulatory problems, please provide additional information below:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship" width="20"/>
+								<column_definition label="Diagnosis" width="20"/>
+								<column_definition label="Age at diagnosis" width="5"/>
+								<column_definition label="Current condition of relative, if known" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of early death (younger than age 55) related to heart attack or early manifestations of blockages in family members?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of early death related to heart attack or early manifestations of blockages in family members, please provide additional information below:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Relationship" width="20"/>
+								<column_definition label="Type of heart disease (if known)" width="20"/>
+								<column_definition label="Age at diagnosis of heart disease" width="5"/>
+								<column_definition label="Age at death from heart disease" width="5"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Do you have a family history of any of the following conditions?  (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Aneurysm"/>
+				<selection selected="false" text="Congestive heart failure (CHF)"/>
+				<selection selected="false" text="Myocardial infarction (heart attack)"/>
+				<selection selected="false" text="Heart valve disease"/>
+				<selection selected="false" text="Coronary artery disease"/>
+				<selection selected="false" text="Hyperlipidemia (elevated blood fats)"/>
+				<selection selected="false" text="CVA (stroke)"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Hypertension"/>
+				<selection selected="false" text="Lung disease"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If you ever had any of the following imaging / diagnostic tests or studies, when? (choose all that apply)">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Study" width="45"/>
+					<column_definition label="Month" width="20"/>
+					<column_definition label="Year" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Angiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Electrocardiogram (ECG, EKG)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Stress test (exercise treadmill)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Echocardiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cardiac catheterization</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>PVR (peripheral vascular resistance)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carotid (neck) ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="When was your current condition (one you are requesting second opinion for) diagnosed?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;	
+		</question>
+		<question mandatory="true" prompt="Have you been seen by a specialist for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the classification of your hyperlipidemia?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Type I Hyperlipoproteinemia"/>
+				<selection selected="false" text="Type II Hyperlipoproteinemia"/>
+				<selection selected="false" text="Type III Hyperlipoproteinemia"/>
+				<selection selected="false" text="Type IV Hyperlipoproteinemia"/>
+				<selection selected="false" text="Type V Hyperlipoproteinemia"/>
+				<selection selected="false" text="Secondary Hypertriglyceridemia"/>
+				<selection selected="false" text="Familial Lecithin Cholesterol Acyltransferse Deficiency"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please provide your most recent cholesterol and triglyceride (lipid) levels, if known:">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Test" width="10"/>
+					<column_definition label="Result/Reading" width="20"/>
+					<column_definition label="Hours fasting (0-14)" width="20"/>
+					<column_definition label="Date (month/year)" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Cholesterol</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Triglycerides/HDL</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>LDL</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>HDL</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Are you on a special diet?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are on a special diet, please indicate the type of diet you are on:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Was this special diet prescribed by your physician?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your physician recommended that you restrict your daily fluid intake?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your physician has recommended that you restrict your daily fluid intake, what is your recommended daily fluid allowance?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your physician recommended that you restrict your daily sodium (salt) intake?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your physician recommended that you restrict your daily sodium intake, what is your recommended daily sodium allowance?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you follow the dietary recommendations / restrictions from your physician?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you follow the dietary recommendations / restrictions from your physician, do you take oral contraceptives (birth control pills)?">
+						<item_response drop_down_style="false" single_response="true">		
+                            <selection selected="false" text="Not applicable (i.e. the patient is male)"/>                        
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you take oral contraceptives, please provide the following information:">
+									<table_response add_row_increment="1" row_height="2">
+										<column_definitions>
+											<column_definition label="Date started (month/year)" width="20"/>
+											<column_definition label="Date stopped (month year), &lt;BR&gt; if applicable" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a sedentary (low activity level) lifestyle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been told you have or do you currently have hypertension (high blood pressure)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been told you have or do you currently have hypertension, please indicate your most recent blood pressure reading:">
+						<table_response add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Systolic (top number)" width="20"/>
+								<column_definition label="Diastolic (bottom number)" width="20"/>
+								<column_definition label="Date reading taken (Month/Year)" width="10"/>
+								<column_definition label="Reading taken &lt;BR&gt; by? (family member, &lt;BR&gt; nurse, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a myocardial infarction (heart attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a myocardial infarction, please indicate the date(s):">
+						<table_response initial_rows_to_display="3" add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Month" width="10"/>
+								<column_definition label="Year" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had previous heart surgeries or heart procedures (exclude pacemaker placement and/or heart rhythm ablation procedure) done?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had previous heart surgeries or heart procedures, provide the following information regarding your past heart surgeries and / or procedures. Be sure to include all procedures, for example: open heart surgery, balloon angioplasty, stenting, etc.">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Surgery/Procedure" width="20"/>
+								<column_definition label="Reason for procedure" width="30"/>
+								<column_definition label="Month/Year" width="10"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience chest discomfort?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience chest discomfort, when did the chest discomfort start?">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+					<question mandatory="true" prompt="Which of the following describe the chest discomfort? (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Sharp pain"/>
+							<selection selected="false" text="Dull ache"/>
+							<selection selected="false" text="Burning"/>
+							<selection selected="false" text="Pressure"/>
+							<selection selected="false" text="Heaviness"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the average duration of this discomfort? (number of seconds or 	minutes)">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Does the chest discomfort radiate (spread) to your neck, jaw, or arm?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What relieves the chest discomfort? (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Rest alone"/>
+							<selection selected="false" text="Rest and medication"/>
+							<selection selected="false" text="Medication alone"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you take nitroglycerine for your chest discomfort?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you take nitroglycerine for your chest discomfort, does it relieve your discomfort?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If it relieves your discomfort, on average, how many nitroglycerine tablets do you need to take for each episode of chest discomfort?">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When was your last episode of chest discomfort?">
+							&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+					<question mandatory="true" prompt="Is your chest discomfort brought on by any of the following?">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Stress"/>
+							<selection selected="false" text="Mild exertion"/>
+							<selection selected="false" text="Exercise"/>
+							<selection selected="false" text="Walking up one flight of stairs"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever get short of breath (short-winded)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever get short of breath, when do you get the shortness of breath?">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="At rest"/>
+							<selection selected="false" text="While walking up stairs"/>
+							<selection selected="false" text="While walking"/>
+							<selection selected="false" text="On exertion"/>
+							<selection selected="false" text="While carrying objects"/>
+							<selection selected="false" text="When lying down"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you wake during the night with difficulty breathing?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you wake during the night with difficulty breathing, how many pillows do you use?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please indicate below if you experience any of the following symptoms: (choose all that apply)">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Symptom" width="45"/>
+					<column_definition label="Month started" width="20"/>
+					<column_definition label="Year started" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Palpitations (fluttering in chest or throat)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Fainting or near fainting</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Coldness of extremities</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Numbness/tingling of extremities</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Dizziness or vertigo</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Headaches</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any kidney problems (kidney failure, renal artery disease, etc.) as a result of hyperlipidemia? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you had any kidney problems as a result of hyperlipidemia, provide the following information:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Kidney Problem" width="20"/>
+								<column_definition label="Month/Year" width="10"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any of the following problems with your legs? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Leg pain at rest"/>
+				<selection selected="false" text="Leg pain at night"/>
+				<selection selected="false" text="Leg pain while walking"/>
+				<selection selected="false" text="Ulcers (sores) on legs or feet"/>
+				<selection selected="false" text="Gangrene on legs or feet"/>
+				<selection selected="false" text="Edema (swelling) in legs or feet"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your most dominant symptom?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (vascular &lt;BR&gt; medical specialist, &lt;BR&gt; primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

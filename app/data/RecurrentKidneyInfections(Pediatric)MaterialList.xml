@@ -1,0 +1,27 @@
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;        
+    <material id="Pediatric growth charts" description="Growth chart depicting height and weight from the patient's pediatrician" mandatory="true"/>
+    <material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+    <material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>    
+    <material id="Operative reports" description="Reports are required for all relevant surgeries / biopsies." mandatory="true"/>
+    <material id="Pathology reports" description="Reports and glass slides from all relevant biopsies." mandatory="true"/>
+    <material id="Case summary" description="Physician's summary of case OR a detailed, chronologic reconstruction of the case submitted by the patient." mandatory="true"/>
+    <material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+    <instruction text="&lt;BR&gt; The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. "/>    
+    <material id="Cystoscopy" description="Reports and films." mandatory="true"/>
+    <material id="Ureteroscopy" description="Reports and films." mandatory="true"/>
+    <material id="IVP (Intravenous pyelogram)" description="Reports and films." mandatory="true"/>
+    <material id="KUB (Kidneys, Bladder, Ureters)" description="Reports and films." mandatory="true"/>
+    <material id="Ultrasound" description="Reports and films." mandatory="true"/>
+    <material id="Voiding Cystourethrogram" description="Reports and films (if done)." mandatory="true"/>
+    <material id="CT Scan" description="Reports and films (if done)." mandatory="true"/>
+    <material id="Renal Scan" description="Reports and films (if done)." mandatory="true"/>
+    <material id="Other x-rays" description="Reports and films  of any other pertinent x-rays (if done)" mandatory="true"/>
+    <material id="Current urinalysis" description="Lab reports from within the last 6 months." mandatory="true"/>
+    <material id="Urine Culture" description="Lab reports from within the last 6 months." mandatory="true"/>
+    <instruction text="&lt;BR&gt; The following list of medical information, although not mandatory, are optional if done."/>
+    <material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

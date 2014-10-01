@@ -1,0 +1,26 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physicial assessment of the patient's condition, description of current signs and symptoms &lt;u&gt; including serial growth points (height and weight). &lt;/u&gt; Report can be written by either primary care physician or physician who diagnosed and is treating the condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by the patient's physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Case summary" description="Physician's case summary including key findings from previous testing. This can be written by either the primary care physician or the physician who diagnosed and is treating the patient's condition." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following current laboratory studies (blood test reports) will be required: &lt;/b&gt;"/>
+	<material id="CBC (Complete blood count)" description="Blood Test report." mandatory="true"/>
+	<material id="Comprehensive Metabolic Panel (CMP)" description="Blood Test report." mandatory="true"/>
+	<material id="Lipid Analysis" description="Blood Test report." mandatory="true"/>
+	<material id="Genetic Testing for hereditary pancreatitis" description="Blood Test report (required if performed)." mandatory="true"/>
+	<material id="Sweat Test or Cystic Fibrosis Genetic Testing" description="Laboratory Test report (required if performed)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. "/>
+	<material id="Abdominal X-rays" description="Reports and films." mandatory="true"/>
+	<material id="Abdominal Ultrasound" description="Reports and films (required if performed)." mandatory="true"/>
+	<material id="Abdominal MRI" description="Reports and films (required if performed)." mandatory="true"/>
+	<material id="CT of the abdomen" description="Reports and films (required if performed)." mandatory="true"/>
+	<material id="Endoscopic Retrograde Cholangiopancreatography (ERCP)" description="Reports and films/pictures (required if performed)." mandatory="true"/>
+	<material id="Pathology" description="Pathology slides and reports from any biopsies done (required if performed)." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

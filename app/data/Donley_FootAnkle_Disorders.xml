@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Donley_FootAnkle_DisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Donley_FootAnkle_DisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Ankle Replacement" id="Ankle Replacement">
+				<keyword text="ankle"/>
+				<keyword text="bone"/>
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="replacement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Achilles Tendonitis" id="Achilles Tendonitis">
+				<keyword text="foot"/>
+				<keyword text="tendon"/>
+				<keyword text="ankle"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Acquired Flat Foot Deformity" id="Acquired Flat Foot Deformity">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ankle Deformity" id="Ankle Deformity">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ankle Fracture" id="Ankle Fracture">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ankle Instability" id="Ankle Instability">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Avascular Necrosis of Talus" id="Avascular Necrosis of Talus">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Bunion Deformity" id="Bunion Deformity">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				<keyword text="toe"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Clawtoe" id="Clawtoe">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="bunion"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Flat Foot Deformity" id="Flat Foot Deformity">
+				<keyword text="orthopaedics"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Foot Deformity" id="Foot Deformity">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Foot Fracture" id="Foot Fracture">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hallux Varus" id="Hallux Varux">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hallux Rigidus" id="Hallux Rigidus">
+				<keyword text="foot"/>
+				<keyword text="ankle"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hallux Valgus" id="Hallux Valgus">
+				<keyword text="foot"/>
+				<keyword text="ankle"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hammertoe" id="Hammertoe">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				<keyword text="toe"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Malunion of Ankle Fusion" id="Malunion of Ankle Fusion">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Malunion of Foot Fusion" id="Malunion of Foot Fusion">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Morton's Neuroma" id="Morton's Neuroma">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				<keyword text="nerves"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Non-union of Ankle Fusion" id="Non-union of Ankle Fusion">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Non-union of Foot Fusion" id="Non-union of Foot Fusion">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteoarthritis of Ankle" id="Osteoarthritis of Ankle">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="arthritis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteoarthritis of Foot" id="Osteoarthritis of Foot">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="arthritis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteochondritis of Ankle" id="Osteochondritis of Ankle">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteochondritis of Foot" id="Osteochondritis of Foot">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Peroneal Tendonitis" id="Peroneal Tendonitis">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="tendon"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Plantar Fascitis" id="Plantar Fascitis">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Posterior Tibial Tendonitis" id="Posterior Tibial Tendonitis">
+				<keyword text="tibia"/>
+				<keyword text="leg"/>
+				<keyword text="bone"/>
+				<keyword text="tendon"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ruptured Achilles Tendon" id="Ruptured Achilles Tendon">
+				<keyword text="foot"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				<keyword text="tendonitis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Synovitis of the Foot" id="Synovitis of the Foot">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tarsal Coalition" id="Tarsal Coalition">
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="ankle"/>
+				<keyword text="foot"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

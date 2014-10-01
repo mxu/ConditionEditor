@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="true" prompt="When was your last eye examination?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What type of doctor did your eye examination?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Ophthalmologist (MD)"/>
+				<selection selected="false" text="Optometrist (OD)"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please provide the following information:">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Name of eye doctor:" width="15"/>
+					<column_definition label="Address:" width="15"/>
+					<column_definition label="Phone Number:" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="In which eye do you have loss of sight?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right eye"/>
+				<selection selected="false" text="Left eye"/>
+				<selection selected="false" text="Both eyes"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="How rapid was your vision loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Sudden"/>
+				<selection selected="false" text="Slowly progressive"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When did your vision loss occur?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Do you have distortion (lines not appearing straight)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have distortion, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have trouble reading?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have trouble reading, do you have trouble reading at a distance?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have difficulty driving?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have difficulty driving, please describe the difficulty:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have problems with flashing lights?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have problems with flashing lights please describe the problem:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="When did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have problems with floaters?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have problems with floaters please describe the problem:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="When did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list all other ocular surgeries you have had:">
+			<table_response initial_rows_to_display="4" add_row_increment="1">
+				<column_definitions>
+					<column_definition label="Date (month/year)" width="15"/>
+					<column_definition label="Procedure" width="15"/>
+					<column_definition label="Diagnosis" width="20"/>
+					<column_definition label="Which eye?" width="12"/>
+					<column_definition label="Physician" width="20"/>
+					<column_definition label="Address" width="20"/>
+					<column_definition label="Phone number" width="20"/>
+					<column_definition label="Any complications?" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Please provide the following information about all the ocular surgeries above:">
+			<table_response initial_rows_to_display="4" add_row_increment="1">
+				<column_definitions>
+					<column_definition label="Date (month/year)" width="15"/>
+					<column_definition label="Was gas or silicone &lt;BR&gt; oil used, if known?" width="15"/>
+					<column_definition label="Did vision improve and then decline? &lt;BR&gt; (yes, no, unsure)" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Regarding your retinal detachment, was the macula involved?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list all other previous ocular laser type procedures (for example: retinal lasers, glaucoma lasers and post-cataract lasers).">
+			<table_response initial_rows_to_display="5" add_row_increment="1" row_height="3">
+				<column_definitions>
+					<column_definition label="Month/Year" width="15"/>
+					<column_definition label="Procedure" width="15"/>
+					<column_definition label="Diagnosis" width="20"/>
+					<column_definition label="Which eye?" width="12"/>
+					<column_definition label="Physician" width="20"/>
+					<column_definition label="City/State" width="20"/>
+					<column_definition label="Phone number" width="20"/>
+					<column_definition label="Any complications?" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any trauma or injury to your eyes, face or head?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had any trauma or injury to your eyes, face or head, please provide details of the injury:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="If you have ever had any trauma or injury to your eyes, face or head, please provide details of the injury, indicate date injury occurred:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with amblyopia (lazy eye)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with amblyopia, did you wear an eye patch?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you did wear an eye patch, how long did you wear the patch?">
+									<table_response initial_rows_to_display="1" add_row_increment="0">
+										<column_definitions>
+											<column_definition label="Number of months" pct="50"/>
+											<column_definition label="Number of years" pct="50"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with strabismus [crossed eye(s)]?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with strabismus, did you wear an eye patch?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you did wear an eye patch, how long did you wear the patch?">
+									<table_response initial_rows_to_display="1" add_row_increment="0">
+										<column_definitions>
+											<column_definition label="Number of months" pct="50"/>
+											<column_definition label="Number of years" pct="50"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with glaucoma?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with glaucoma, please indicate the date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have ever been diagnosed with glaucoma, please indicate the type of glaucoma below:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Primary open angle"/>
+							<selection selected="false" text="Closed angle"/>
+							<selection selected="false" text="Neovascular"/>
+							<selection selected="false" text="Pigmentary"/>
+							<selection selected="false" text="Pseudoexfoliation"/>
+							<selection selected="false" text="Combined"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please indicate:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with cataracts?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with cataracts, which eye?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Right "/>
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please indicate date diagnosed:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Have you ever been diagnosed with any of the following conditions? (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="Diabetic retinopathy">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Posterior vitreous separation">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Retinal tears/breaks">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Epiretinal membrane">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Vitreous hemorrhage">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Macular pucker">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="Macular hole">
+					<question prompt="Enter the diagnosis date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Please complete the following section with regard to family history of ocular diseases.  Please answer additional questions for each positive answer.  Do you have a family history of any of the following ocular diseases?">
+			<item_response single_response="false">
+				<selection selected="false" text="Age-related macular degeneration">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Diabetic retinopathy">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Glaucoma">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Retinal detachment">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Hereditary retinal diseases (any type)">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Type of problem" width="20"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="Enter the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member(s) affected &lt;BR&gt; (parent, sibling, etc.)" width="30"/>
+								<column_definition label="Type of problem" width="20"/>
+								<column_definition label="Treatment &lt;BR&gt; (surgery, laser, etc.)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your eye condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

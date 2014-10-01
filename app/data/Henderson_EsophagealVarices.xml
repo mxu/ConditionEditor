@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Henderson_EsophagealVaricesMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Henderson_EsophagealVaricesQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Esophageal Varices" id="Esophageal Varices" active="true">
+				<keyword text="esophagus"/>
+				<keyword text="veins"/>
+				<keyword text="enlarged"/>
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

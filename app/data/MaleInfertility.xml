@@ -1,0 +1,25 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Harsha Reddy(IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "MaleInfertilityMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "MaleInfertilityQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Glickman Kidney and Urological Institute">
+		<section description="" name="">
+			<condition cost="745.00" description="Infertility (Male)" id="Infertility (Male)" active="true">
+				<keyword text="Male"/>
+				<keyword text="Infertility"/>
+				<keyword text="Sperm"/>
+				<keyword text="Semen"/>
+				<keyword text="Baby"/>
+				<keyword text="Conception"/>
+				<keyword text="Conceive"/>
+				<keyword text="Pregnancy"/>
+				<keyword text="testosterone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

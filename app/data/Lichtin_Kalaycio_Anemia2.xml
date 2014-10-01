@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lichtin_Kalaycio_Anemia2MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lichtin_Kalaycio_Anemia2Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Aplastic Anemia" id="Aplastic Anemia">
+				<keyword text="aplastic"/>
+				<keyword text="anemia"/>
+				<keyword text="hypoplastic"/>
+				<keyword text="bone"/>
+				<keyword text="marrow"/>
+				<keyword text="blood"/>
+				<keyword text="rbc"/>								
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Myelodysplasia" id="Myelodysplasia">
+				<keyword text="myelodysplasia"/>
+				<keyword text="anemia"/>
+				<keyword text="bone"/>
+				<keyword text="marrow"/>
+				<keyword text="blood"/>
+				<keyword text="cells"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Myelophthisic Anemia" id="Myelophthisic Anemia">
+				<keyword text="myelophthisic"/>
+				<keyword text="blood"/>
+				<keyword text="anemia"/>
+				<keyword text="bone"/>
+				<keyword text="marrow"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Normocytic Anemia" id="Normocytic Anemia">
+				<keyword text="anemia"/>
+				<keyword text="normocytic"/>
+				<keyword text="hemoglobin"/>
+				<keyword text="blood"/>
+				<keyword text="low"/>
+				<keyword text="count"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Normocytic-Normochromic Anemia" id="Normocytic-Normochromic Anemia">
+				<keyword text="normochromic"/>
+				<keyword text="normocytic"/>
+				<keyword text="anemia"/>
+				<keyword text="hemoglobin"/>
+				<keyword text="blood"/>
+				<keyword text="low"/>
+				<keyword text="count"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

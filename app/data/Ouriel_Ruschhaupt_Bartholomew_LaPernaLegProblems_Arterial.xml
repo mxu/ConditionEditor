@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ouriel_Ruschhaupt_Bartholomew_LaPernaLegProblems_ArterialMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ouriel_Ruschhaupt_Bartholomew_LaPernaLegProblems_ArterialQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Vascular Surgery" name="Vascular Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Acute Arterial Occlusion" id="Acute Arterial Occlusion" active="true">
+				<keyword text="artery"/>
+				<keyword text="vascular"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arterial Insufficiency" id="Arterial Insufficiency" active="true">
+				<keyword text="artery"/>
+				<keyword text="blockage"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atherosclerotic Occlusive Disease" id="Atherosclerotic Occlusive Disease" active="true">
+				<keyword text="vascular"/>
+				<keyword text="atherosclerosis"/>
+				<keyword text="artery"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Chronic Arterial Insufficiency" id="Chronic Arterial Insufficiency" active="true">
+				<keyword text="vacular"/>
+				<keyword text="artery"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Peripheral Arterial Occlusion" id="Peripheral Arterial Occlusion" active="true">
+				<keyword text="vacular"/>
+				<keyword text="artery"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

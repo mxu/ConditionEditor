@@ -1,0 +1,21 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/b&gt;"/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain a current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+    <material id="Physician's letters" description="Copies of all letters sent to patient by his/her physician (if received)." mandatory="true"/>
+    <material id="Office visit notes" description="Copies of all office visit notes." mandatory="true"/>
+    <material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+     <material id="Operative reports" description="Reports are required for all pertinent prior surgeries." mandatory="true"/>
+    <material id="Physician's treatment reports" description="Physician reports of any and all other treatments received for this diagnosis." mandatory="true"/>
+    <material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+    <instruction text="&lt;BR&gt;&lt;B&gt;  The following radiology and diagnostic studies done in the last 3 years are required.  If indicated, the actual original films (not copies) of the studies and reports will be needed.&lt;/B&gt;"/>
+    <material id="Culture Reports" description="Culture reports of all cultures done within last year relative to patient's condition of sinusitis / deviated septum. (if done)" mandatory="true"/>
+    <material id="Pathology Reports" description="Pathology reports of all biopsies done within last year relative to patient's condition of sinusitis / deviated septum" mandatory="true"/>
+    <material id="CT Scan" description="CT scans (report and actual films on CD). If previous sinus surgery has been performed, we will need the pre and post surgery films and reports (if done)" mandatory="true"/>
+    <material id="MRI scan" description="MRI scans of sinus/head (report and actual films on CD). If previous sinus surgery has been performed, we will need pre and post surgery films and reports. (if done)" mandatory="true"/>
+    <material id="Photographs" description="Current photographs of patient if deviated septum or other similar condition is involved. (if done)" mandatory="true"/>
+    <material id="Allergy testing reports" description="Reports of all allergy testing. (if done)" mandatory="true"/>
+    <material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

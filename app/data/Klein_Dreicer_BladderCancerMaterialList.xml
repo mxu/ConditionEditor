@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="All Pathology reports and glass slides for any and all biopsies done." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), (if received)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all surgeries/biopsies." mandatory="true"/>
+	<material id="Physician treatment reports" description="Physician reports of any and all other treatments received for this diagnosis (chemotherapy, radiation therapy, etc.)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="CT of abdomen and pelvis" description="Reports and films." mandatory="true"/>
+	<material id="MRI of abdomen and pelvis" description="Reports and films." mandatory="true"/>
+	<material id="Other X-rays" description="Reports and films." mandatory="true"/>
+	<material id="Blood tests" description="Recent laboratory tests and relevant tumor markers." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="EKG" description="Report only." mandatory="false"/>
+	<material id="CT of chest" description="Report only." mandatory="false"/>
+	<material id="Liver Scan" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

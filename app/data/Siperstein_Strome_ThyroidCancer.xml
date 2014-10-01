@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by Penny Black (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_Strome_ThyroidCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_Strome_ThyroidCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition cost="745.00" description="Thyroid Mass" id="Thyroid Mass">
+				<keyword text="tumor"/>
+				<keyword text="thyroid"/>
+				<keyword text="mass"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hurthle Cell Cancer" id="Hurthle Cell Cancer">
+				<keyword text="cancer"/>
+				<keyword text="thyroid"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="Hurthle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Medullary Cancer" id="Medullary Cancer">
+				<keyword text="cancer"/>
+				<keyword text="thyroid"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="medullary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Papillary Cancer" id="Papillary Cancer">
+				<keyword text="cancer"/>
+				<keyword text="thyroid"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="papillary"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition cost="745.00" description="Thyroid Cancer" id="Thyroid Cancer">
+				<keyword text="cancer"/>
+				<keyword text="thyroid"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="FollicularCancer" id="FollicularCancer">
+				<keyword text="cancer"/>
+				<keyword text="thyroid"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="follicular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

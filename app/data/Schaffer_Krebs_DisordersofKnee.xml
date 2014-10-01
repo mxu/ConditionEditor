@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_DisordersofKneeMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_DisordersofKneeQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Avascular Necrosis of the Knee" id="Avascular Necrosis of the Knee">
+				<keyword text="joint"/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Chondromalacia" id="Chondromalacia">
+				<keyword text="knee"/>
+				<keyword text="patella"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Knee Injury" id="Knee Injury">
+				<keyword text="bone"/>
+				<keyword text="patella"/>
+				<keyword text="trauma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Patello-femoral Syndrome" id="Patello-femoral Syndrome">
+				<keyword text="joint"/>
+				<keyword text="knee"/>
+				<keyword text="cartilage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Arthritis of Knee (post trauma)" id="Arthritis of Knee (post trauma)">
+				<keyword text="bone"/>
+				<keyword text="patella"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Tendonitis of the knee" id="Tendonitis of the knee">
+				<keyword text="tendon"/>
+				<keyword text="joint"/>
+				<keyword text="knee"/>
+				<keyword text="hip"/>
+				<keyword text="chronic"/>
+				<keyword text="inflammation"/>
+				<keyword text="patella"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Femur Fracture" id="Femur Fracture">
+				<keyword text="Leg"/> 
+                <keyword text="Injury"/>
+                <keyword text="Extremity"/>
+                <keyword text="Shin"/>
+                <keyword text="Bone"/>
+                <keyword text="Break"/>
+                <keyword text="Femur"/>
+                <keyword text="Fracture"/>
+                <keyword text="Dislocation"/> 
+				&questionnaire_doc;
+				&material_doc;
+			</condition>   
+			<condition active="true" cost="565.00" description="Torn Meniscus" id="Torn Meniscus">
+				<keyword text="tear"/>
+				<keyword text="torn"/>
+				<keyword text="knee"/>
+				<keyword text="injury"/>
+				<keyword text="trauma"/>
+				<keyword text="meniscal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

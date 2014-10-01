@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "GeneticDisease(peds)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "GeneticDisease(peds)Questionnaire.xml">
+]>
+<division description="Pediatrics" name="Pediatrics">
+	<department description="Genomics Medicine" name="Genomics Medicine">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Genetic Disease (pediatrics)" id="Genetic Disease (pediatrics)">
+				<keyword text="genetic"/>
+				<keyword text="disorder"/>
+				<keyword text="ALD"/>
+				<keyword text="myelin"/>
+				<keyword text="damage"/>
+				<keyword text="VLCFA"/>
+				<keyword text="adrenal"/>
+				<keyword text="cortex"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

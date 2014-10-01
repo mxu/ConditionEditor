@@ -1,0 +1,22 @@
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Physician's letters" description="Copies of all letters sent to patient by  physician(s) reports" mandatory="true"/>
+	<material id="Office visit notes" description="Copies of all office visit notes" mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Surgical reports for all prior pertinent surgical procedures." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments undergone for this diagnosis (medication tretement, surgeries, etc.)" mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. "/>
+		<material id="Laryngoscopy Report and Pictures" description="Report should include vocal cord examination and pictures can be printed or copied to compact disc" mandatory="true"/>
+		<material id="Pathology" description="Reports and glass slides for all relevant biopsies" mandatory="true"/>
+		<material id="Laryngeal Stroboscopy" description="Report and actual video copied to DVD or tape" mandatory="true"/>
+		<material id="CT Scan of Neck (with contrast)" description="Report and Films copied to compact disc" mandatory="true"/>
+		<material id="CT Scan of Chest (with contrast)" description="Report and Films copied to compact disc for vocal cord paralysis" mandatory="true"/>
+		<material id="MRI Scan with Contrast" description="MRI scan report" mandatory="true"/>
+		<material id="Photographs" description="Current photographs of patient if deviated septum or other similar condition is involved" mandatory="true"/>
+		<material id="Allergy testing reports" description="Reports of all allergy testing" mandatory="true"/>
+		
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

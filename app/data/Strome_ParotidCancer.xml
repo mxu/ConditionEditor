@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Strome_ParotidCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Strome_ParotidCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Parotid cancer" id="Parotid cancer">
+				<keyword text="gland"/>
+				<keyword text="salivary"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

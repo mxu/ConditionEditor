@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+
+		<!-- **** Select a Provider **** -->	
+		<question mandatory="false" prompt="Failure to select specific Cleveland Clinic physician to review this case may cause a delay in processing your request."/>
+		<question mandatory="false" prompt=" "/>
+		<question id="PickProvider" mandatory="true" prompt="Please select either a Cleveland Clinic provider or a Department to review this issue.">
+		<!-- The id="PickProvider" is a hard-coded string that will be searched for so that the
+		     opinion request will be assigned to the selected physician. -->
+		    <item_response single_response="true" same_line="true">
+				<selection selected="false" text="Select a department">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="true" 
+			               single_response="true" 
+			               select="select distinct name, id from department where department.p2p_active='true' and name is not null order by name" />
+					</question>
+				</selection>
+				<selection selected="true" text="Select a physician">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="true" 
+			               single_response="true" 
+			               select="select p.last_name || ', ' || p.first_name || ' - ' || ph.department_abbreviation, p.id from person p, physician ph, condition_physician cp where p.id=ph.id and ph.id=cp.physician_id and cp.condition_id='Physician2Physician Lite Questionnaire' order by p.last_name" />
+							<!-- in the select attribute, the first string is displayed to the requestor and 
+							 the second string is invisibly carried along for the ride.  In this case the
+							 code for automatically assigning a physician will use the second string as 
+							 the ID of physician. -->
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<!-- **** Patient Demographics **** -->
+		<question mandatory="false" prompt=" "/>
+		<question mandatory="false" prompt="All patient demographic information is optional.  Please fill in anything pertinent to the consultation issue."/>
+		<question mandatory="false" prompt=" "/>
+
+	    <question mandatory="false" prompt="Patient's Name (optional)">
+	    	<free_form_response height="0"/>
+	    </question>
+		<question mandatory="false" prompt=" "/>
+	    <question mandatory="false" prompt="Patient's sex (optional)">
+	    	<item_response drop_down_style="true" 
+			               single_response="true">
+				<selection text="Female" selected="false"/>
+				<selection text="Male" selected="false"/>
+			</item_response>
+	    </question>
+		<question mandatory="false" prompt=" "/>
+	    <question mandatory="false" prompt="Patient's age (if less than two years, please give age in months) (optional)">
+	    	<free_form_response height="0"/>
+	    </question>
+		<question mandatory="false" prompt=" "/>
+	    <question mandatory="false" prompt="Patient's Marital Status (optional)">
+	    	<item_response drop_down_style="true" 
+			               single_response="true">
+				<selection text="Single, never been married" selected="false"/>
+				<selection text="Living with Partner" selected="false"/>
+				<selection text="Married" selected="false"/>
+				<selection text="Separated" selected="false"/>
+				<selection text="Divorced" selected="false"/>
+				<selection text="Widowed" selected="false"/>
+			</item_response>
+		</question>
+		
+		<!-- **** A couple blank lines **** -->
+		<question mandatory="false" prompt=" "/>
+		<question mandatory="false" prompt=" "/>
+		<question mandatory="false" prompt="For the 'Symptoms' and 'Primary reason' answers, it may be convenient to copy-and-paste information from other documents to these text areas.  The steps to copy information from other documents varies by program, but you can usually drag the mouse over text to highlight it and then select 'Copy' from the Edit menu.  Then click in the appropriate area below and select 'Paste' from your browser's Edit menu."/>
+		<question mandatory="false" prompt=" "/>
+			    
+	    <!-- **** Presented symptoms **** -->
+	    <question mandatory="true" prompt="Symptoms and other pertinent information">
+	    	<free_form_response height="6"/>
+	    </question>
+
+		<question mandatory="false" prompt=" "/>
+	    
+	    <!-- **** Questions **** -->
+		<question mandatory="true" prompt="Primary reason for which you are seeking this consultation">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,126 @@
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!ENTITY % response "(free_form_response|item_response|table_response)?">
+<!ENTITY % restriced_service "(restricted_state|restricted_country)">
+<!ENTITY % physician_ref "(physician_id|physician)">
+<!ELEMENT divisions (division+)>
+<!ELEMENT division (department+)>
+<!ATTLIST division
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+>
+<!ELEMENT department (section+)>
+<!ATTLIST department
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+>
+<!ELEMENT section (condition+)>
+<!ATTLIST section
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+>
+<!ELEMENT condition (keyword*, questionnaire, material_list)>
+<!ATTLIST condition
+	id CDATA #REQUIRED
+	active (true | false) "true"
+	cost CDATA #REQUIRED
+	description CDATA #REQUIRED
+	product_id CDATA #IMPLIED
+>
+<!ELEMENT keyword EMPTY>
+<!ATTLIST keyword
+	text CDATA #REQUIRED
+>
+<!ELEMENT questionnaire (question_group+)>
+<!ELEMENT question_group (question+)>
+<!ATTLIST question_group
+	name CDATA #REQUIRED
+>
+<!ELEMENT question (%response;)>
+<!ATTLIST question
+	prompt CDATA #REQUIRED
+	id CDATA #IMPLIED
+	callout CDATA #IMPLIED
+	mandatory (true | false) "true"
+>
+<!ELEMENT free_form_response EMPTY>
+<!ATTLIST free_form_response
+	response CDATA #IMPLIED
+	height CDATA "1"
+	width CDATA "80"
+>
+
+<!ELEMENT item_response (selection*)>
+<!ATTLIST item_response
+	drop_down_style (true | false) "false"
+	single_response (true | false) "true"
+	select CDATA ""
+>
+<!-- The select attribute, if present, will be used to fill in selections for this item_response.
+     The format is that of an SQL select statement.  The first select field will be used as the 
+     strings displayed to the user.  The second field will be carried along invisibly with the 
+     Selection objects as "extra information" (getExtraInfo()). -->
+<!ELEMENT selection (question*)>
+<!ATTLIST selection
+	text CDATA #REQUIRED
+	extra_info CDATA ""
+	selected (true | false) "false"
+	icon_img (true | false) "false"
+	img_src CDATA ""
+>
+<!ELEMENT table_response (column_definitions, table_data*)>
+<!ATTLIST table_response
+	initial_rows_to_display CDATA "5"
+	add_row_increment CDATA "3"
+	row_height CDATA "1"
+>
+<!ELEMENT column_definitions (column_definition*)>
+<!ELEMENT column_definition EMPTY>
+<!ATTLIST column_definition
+	label CDATA #REQUIRED
+	width CDATA "0"
+	pct CDATA "100"
+>
+<!ELEMENT table_data (cell*)>
+<!ELEMENT cell (#PCDATA|question)*>
+<!ATTLIST cell
+	question_cell (true|false) "false"
+>
+<!ELEMENT material_list ((material | instruction)+)>
+<!ELEMENT material EMPTY>
+<!ATTLIST material
+	id CDATA #REQUIRED
+	description CDATA #IMPLIED
+    internalOnly (true | false) "false"
+	mandatory (true | false) "true"
+>
+<!ELEMENT instruction EMPTY>
+<!ATTLIST instruction
+	text CDATA #REQUIRED
+>
+<!ENTITY MONTH_YEAR_TABLE_RESPONSE SYSTEM "reusable/month_year_table_response.xml">
+<!ENTITY SATISFACTION_ITEM_RESPONSE SYSTEM "reusable/satisfaction_item_response.xml">
+<!ENTITY PAIN_ITEM_RESPONSE SYSTEM "reusable/pain_item_response.xml">
+<!ENTITY MATERIAL_LIST_INTRODUCTORY_INSTRUCTION SYSTEM 
+	"reusable/material_list_introductory_instruction.xml">
+<!ENTITY MATERIAL_LIST_INTRODUCTORY_INSTRUCTION_ADOPTION SYSTEM 
+	"reusable/material_list_introductory_instruction_adoption.xml">	
+<!ENTITY MATERIAL_LIST_CLOSING_INSTRUCTION SYSTEM 
+	"reusable/material_list_closing_instruction.xml">
+<!ENTITY MATERIAL_LIST_CLOSING_INSTRUCTION_ADOPTION SYSTEM 
+	"reusable/material_list_closing_instruction_adoption.xml">
+<!ENTITY MATERIAL_LIST_CLOSING_INSTRUCTION_PLASTIC SYSTEM 
+	"reusable/material_list_closing_instruction_plastic.xml">
+<!ENTITY PHYSICIAN_LAST_REPORT SYSTEM 
+	"reusable/physician_last_report.xml">
+<!ENTITY PHYSICIAN_LAST_REPORT_PEDIATRIC SYSTEM 
+	"reusable/physician_last_report_pediatric.xml">
+<!ENTITY PAIN_SYSTEM_REVIEW SYSTEM 
+	"reusable/pain_system_review.xml">
+<!ENTITY SUBSTANCE_DEVELOPMENT_BACKGROUND SYSTEM 
+	"reusable/substance_development_background.xml">
+<!ENTITY PAIN_DISABILITY_INDEX SYSTEM 
+	"reusable/pain_disability_index.xml">
+<!ENTITY PLASTIC_COMMON1 SYSTEM 
+	"reusable/plastic_common1.xml">
+<!ENTITY PLASTIC_COMMON2 SYSTEM 
+	"reusable/plastic_common2.xml">

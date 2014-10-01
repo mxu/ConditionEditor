@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "MigraineHeadacheMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "MigraineHeadacheQuestionnaire.xml">
+]>
+<division description="Neurological Institute" name="Neurological Institute">
+	<department description="Headache Center" name="Headache Center">
+		<section description="" name="">
+			<condition cost="745.00" description="Migraine Headaches" id="Migraine Headaches" active="true">
+				<keyword text="headaches"/>
+				<keyword text="headache"/>
+				<keyword text="head"/>
+				<keyword text="migraine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+        </section>
+	</department>
+</division>

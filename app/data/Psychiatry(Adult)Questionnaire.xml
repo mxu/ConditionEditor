@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Madhu -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient hoping to gain from this second opinion consultation?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which the patient is seeking a second opinion? (Please focus more on what symptoms the patient is experiencing and less on what the doctors have said)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's current psychiatric diagnosis?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever been diagnosed with any other psychiatric diagnoses?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please Explain">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="When did the patient's symptoms begin?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Describe the patient's initial symptoms below (be as specific as possible in your description):">
+			<free_form_response height="5"/>
+		</question>
+		
+
+		<question mandatory="true" prompt="Please list the patient's summary of events related to this diagnosis below.  Please record the events in date order: ">
+			<table_response add_row_increment="5" row_height="3">
+				<column_definitions>
+					<column_definition label="Symptoms" width="35"/>
+					<column_definition label="Date of Episodes of Symptoms &lt;BR&gt;in Ascending Order" width="15"/>
+					<column_definition label="Description" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+
+		<question mandatory="true" prompt="When, if ever, did the patient first seek psychiatric treatment?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Have you ever received therapy or treatment for this condition (one for which you are seeking a second opinion for?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list all therapies / treatments that have been tried and the effect of the treatment on the patient">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="25"/>
+								<column_definition label="Date(s) of Treatment" width="15"/>
+								<column_definition label="Effect on Patient" width="20"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to MOOD (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Happy"/>
+				<selection selected="false" text="Sad"/>
+				<selection selected="false" text="Elated"/>
+				<selection selected="false" text="Euphoric"/>
+				<selection selected="false" text="Irritable"/>
+				<selection selected="false" text="Empty"/>
+				<selection selected="false" text="Depressed"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+	
+		<question mandatory="true" prompt="Does patient experience any symptoms related to Interest in Life">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please check all the symptoms that the patient is currently experiencing related to INTEREST IN LIFE">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Diminshed"/>
+							<selection selected="false" text="Little Pleasure"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="When do these symptoms occur?">
+						<table_response initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="When" width="25"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>Most of the Day</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nearly Everyday</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to DIET AND APPETITE (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="No Appetite"/>
+				<selection selected="false" text="Weight Gain">
+					<question mandatory="true" prompt="If weight has increased, please list weight gain in pounds">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Weight Loss">
+					<question mandatory="true" prompt="If weight has decreased, please list weight loss in pounds">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Binge Eating"/>
+				<selection selected="false" text="Restrict Food"/>
+				<selection selected="false" text="Purge"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+	
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to SLEEP (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Too Little"/>
+				<selection selected="false" text="Too Much"/>
+				<selection selected="false" text="Decreased need for sleep"/>
+				<selection selected="false" text="Difficulty getting to sleep"/>
+				<selection selected="false" text="Difficulty staying asleep"/>
+				<selection selected="false" text="Nightmares"/>
+				<selection selected="false" text="Awaken unrefreshed"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to ENERGY LEVELS (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="No Energy"/>
+				<selection selected="false" text="Little Energy"/>
+				<selection selected="false" text="Too much Energy">
+					<question mandatory="true" prompt="If too much energy, Please complete below table">
+						<table_response initial_rows_to_display="2" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="When" width="25"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+							<table_data>
+								<cell>All the time</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>For a period of time, followed by a "Crash"</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Restlessness"/>
+				<selection selected="false" text="Slowed down"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to FEELINGS (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Worthlessness"/>
+				<selection selected="false" text="Guilt"/>
+				<selection selected="false" text="Confidence"/>
+				<selection selected="false" text="Self-assuredness"/>
+				<selection selected="false" text="Hopelessness"/>
+				<selection selected="false" text="Helplessness"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to CONCENTRATION (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Poor concentration"/>
+				<selection selected="false" text="Inability to focus"/>
+				<selection selected="false" text="Indecisiveness"/>
+				<selection selected="false" text="Inability to think"/>
+				<selection selected="false" text="No trouble with concentration"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to MEMORY (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Poor short term memory"/>
+				<selection selected="false" text="Poor long term memory"/>
+				<selection selected="false" text="No memory problems"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		
+		<question mandatory="true" prompt="Does patient experience any symptoms related to THOUGHTS">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please check all the symptoms that the patient is currently experiencing related to THOUGHTS">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Racing thoughts"/>
+							<selection selected="false" text="Thoughts of Illness / Death"/>
+							<selection selected="false" text="Thoughts of Dying"/>
+							<selection selected="false" text="Thoughts of violence toward others"/>
+							<selection selected="false" text="Sexual thoughts"/>
+							<selection selected="false" text="Religious thoughts"/>
+							<selection selected="false" text="Thoughts of being better off dead"/>
+							<selection selected="false" text="Repetitive thoughts"/>
+							<selection selected="false" text="Intrusive thoughts"/>
+							<selection selected="false" text="Persistent thoughts"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How much time does the patient spend thinking each day?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="0-1 hours per day"/>
+							<selection selected="false" text="1-3 hours per day"/>
+							<selection selected="false" text="3-8 hours per day"/>
+							<selection selected="false" text="More than 8 hours per day"/>
+						</item_response>
+					</question>	
+					
+					<question mandatory="true" prompt="Is the patient able to ignore the thoughts?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient able to control the thoughts?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Do repeatitive, intrusive, or persistent thoughts interfere with the patient's daily functioning?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, would you describe the interference with daily functioning as:">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Mild"/>
+										<selection selected="false" text="Moderate"/>
+										<selection selected="false" text="Severe"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient feel that someone is out to get him / her?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please describe Who:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient feel that he / she has special powers that other people don't have?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient receive special messages from the radio and / or television?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient hear things that other people don't HEAR?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient hear things that other people don't SEE?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please check all the symptoms that the patient is currently experiencing related to BEHAVIOURS (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Impulsive"/>
+				<selection selected="false" text="Disinhibited"/>
+				<selection selected="false" text="Excessive Spending"/>
+				<selection selected="false" text="Repetitive">
+					<question mandatory="true" prompt="If yes, please check the specific repetitive behaviors (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Counting"/>
+							<selection selected="false" text="Sorting"/>
+							<selection selected="false" text="Organizing"/>
+							<selection selected="false" text="Checking"/>
+							<selection selected="false" text="Hoarding"/>
+							<selection selected="false" text="Cleaning"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please give detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+						
+					<question mandatory="true" prompt="How much time  is spent on behavior(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="0-1 hours per day"/>
+							<selection selected="false" text="1-3 hours per day"/>
+							<selection selected="false" text="3-8 hours per day"/>
+							<selection selected="false" text="More than 8 hours per day"/>
+						</item_response>
+					</question>	
+					
+					<question mandatory="true" prompt="Is the patient able to ignore the behavior(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient able to control the behavior(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a specific ritual(s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the ritual(s)">
+						<free_form_response height="2"/>
+					</question>
+					
+					<question mandatory="true" prompt="How much time is spent on ritual(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="0-1 hours per day"/>
+							<selection selected="false" text="1-3 hours per day"/>
+							<selection selected="false" text="3-8 hours per day"/>
+							<selection selected="false" text="More than 8 hours per day"/>
+						</item_response>
+					</question>	
+					
+					<question mandatory="true" prompt="Is the patient able to ignore the ritual(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is the patient able to control the ritual(s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If No, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Do behaviors or ritual(s) interfere with the patient's daily functioning?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, would you describe the interference with daily functioning as:">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Mild"/>
+										<selection selected="false" text="Moderate"/>
+										<selection selected="false" text="Severe"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Which of the following does the patient experience? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Restlessness"/>
+				<selection selected="false" text="Feeling on the edge"/>
+				<selection selected="false" text="Easily fatigued"/>
+				<selection selected="false" text="Muscle tension"/>
+				<selection selected="false" text="Sleep problems"/>
+				<selection selected="false" text="Periods of intense fear">
+					<question mandatory="true" prompt="If yes, please check the symptoms that the patient experiences (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Palpitations, pounding heart of accelerated heart rate"/>
+							<selection selected="false" text="Sweating"/>
+							<selection selected="false" text="Trembling or shaking"/>
+							<selection selected="false" text="Sensations of shortness of breath"/>
+							<selection selected="false" text="Feeling of choking"/>
+							<selection selected="false" text="Chest pain or discomfort"/>
+							<selection selected="false" text="Nausea or abdominal distress"/>
+							<selection selected="false" text="Feeling of dizziness, unsteadiness, lightheadedness, or feeling faint"/>
+							<selection selected="false" text="Feelings of unreality or being detached from oneself"/>
+							<selection selected="false" text="Fear of losing control or going crazy"/>
+							<selection selected="false" text="Fear of dying"/>
+							<selection selected="false" text="Numbness or tingling sensations"/>
+							<selection selected="false" text="Chills"/>
+							<selection selected="false" text="Hot flushes"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please give detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How often do these symptoms occur?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Once per day"/>
+							<selection selected="false" text="Multiple times per day"/>
+							<selection selected="false" text="Once per week"/>
+							<selection selected="false" text="Multiple times per week"/>
+						</item_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient able to function independently?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, please list limitations">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient need assistance from another person in his / her daily care? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how much help do you need?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="What has been recommended regarding treatment of patient's current condition (ie: medical/drug management, psychotherapy, etc.)?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response row_height="2" add_row_increment="0" initial_rows_to_display="2">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, neurologist, neurosurgeon etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

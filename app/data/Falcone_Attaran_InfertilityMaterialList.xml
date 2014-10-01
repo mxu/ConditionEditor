@@ -1,0 +1,34 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by Penny Black (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	 &PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries." mandatory="true"/>
+	<material id="Pathology reports" description="Reports and glass slides from all relevant biopsies." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary of the case including key findings from previous testing." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospital admissions." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required.  Reports and (actual) films for all radiology studies performed thus far, if indicated.  These studies to include the following:"/>
+	<material id="Laparoscopy report" description="Report of any laparoscopy procedures done "  mandatory="true"/>
+	<material id="Basal body temperature curves report" description="Report of basal body temperature curves (if done)"  mandatory="true"/>
+	<material id="Clomid challenge test report" description="Report of clomid challenge studies (if done)"  mandatory="true"/>
+	<material id="Semen analysis report" description="Semen analysis laboratory report (if done)"  mandatory="true"/>
+	<material id="Most recent Pap test report" description="Most recent pap test laboratory report (if done)"  mandatory="true"/>
+	<instruction text="&lt;BR&gt; Laboratory test results to include the following:"/>
+	<material id="Blood type" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="Progesterone level" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="Prolactin level" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="Sperm antibody (partner&apos;s)" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="TSH (thyroid stimulating hormone) level" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="Testosterone level" description="Laboratory Blood Test Report" mandatory="true"/>
+	<material id="Rubella antibody" description="Laboratory Blood Test Report" mandatory="true"/>
+	<instruction text=" The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Pelvic ultrasound " description="Report only." mandatory="false"/>
+	<material id="Hysterosalpingogram" description="Report and films." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="Post-coital test" description="Report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consulation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

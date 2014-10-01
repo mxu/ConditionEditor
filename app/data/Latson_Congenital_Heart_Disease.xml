@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by harsha reddy -->
+<!-- Latson, Duncan (added 10/30/03 per Sharon P, condition file name not changed)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Latson_Congenital_Heart_DiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Latson_Congenital_Heart_DiseaseQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Aortic Insufficiency (pediatric)" id="Aortic Insufficiency (pediatric)" active="true">
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				<keyword text="cardiac"/>
+				<keyword text="valve"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Aortic Stenosis (pediatric)" id="Aortic Stenosis (pediatric)" active="true">
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="defect"/>
+				<keyword text="valve"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arterioventricular Septal Defect (pediatric)" id="Arterioventricular Septal Defect (pediatric)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arterioventricular Septal Defect (adult)" id="Arterioventricular Septal Defect (adult)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atrial Septal Defect (ASD) (pediatric)" id="Atrial Septal Defect (ASD) (pediatric)" active="true">
+				<keyword text="valve"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atrial Septal Defect (ASD) (adult)" id="Atrial Septal Defect (ASD) (adult)" active="true">
+				<keyword text="valve"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="AV Malformation (pediatric)" id="AV Malformation (pediatric)" active="true">
+				<keyword text="arteriovenous"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="AV Malformation (adult)" id="AV Malformation (adult)" active="true">
+				<keyword text="arteriovenous"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Bicuspid Aortic Valve (pediatric)" id="Bicuspid Aortic Valve (pediatric)" active="true">
+				<keyword text="murmur"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Coarctation of the Aorta (pediatric)" id="Coarctation of the Aorta (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Coarctation of the Aorta (adult)" id="Coarctation of the Aorta (adult)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Complex Single Ventricle (pediatric)" id="Complex Single Ventricle (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Complex Single Ventricle (adult)" id="Complex Single Ventricle (adult)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Congenital heart disease (pediatric)" id="Congenital heart disease (pediatric)">
+				<keyword text="congenital heart disease"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="congenital heart"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hypoplastic Left Heart Syndrome (pediatric)" id="Hypoplastic Left Heart Syndrome (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Mitral insufficiency (adult)" id="Mitral insufficiency (adult)">
+                <keyword text="murmur"/>
+				<keyword text="valve"/>
+				<keyword text="mitral valve"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>            
+			<condition cost="565.00" description="Mitral insufficiency (pediatric)" id="Mitral insufficiency (pediatric)" >
+				<keyword text="murmur"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Patent Ductus Arteriosus (pediatric)" id="Patent Ductus Arteriosus (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Patent Ductus Arteriosus (adult)" id="Patent Ductus Arteriosus (adult)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Patent Foramen Ovale (PFO) (pediatric)" id="Patent Foramen Ovale (PFO) (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Patent Foramen Ovale (PFO) (adult)" id="Patent Foramen Ovale (PFO) (adult)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonary Atresia (pediatric)" id="Pulmonary Atresia (pediatric)" active="true">
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonary Atresia (adult)" id="Pulmonary Atresia (adult)" active="true">
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonary Atresia with Ventricular Septal Defect (pediatric)" id="Pulmonary Atresia with Ventricular Septal Defect (pediatric)" active="true">
+				<keyword text="VSD"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonary Atresia with Ventricular Septal Defect (adult)" id="Pulmonary Atresia with Ventricular Septal Defect (adult)" active="true">
+				<keyword text="cardiac"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonic Stenosis (pediatric)" id="Pulmonic Stenosis (pediatric)" active="true">
+				<keyword text="narrowing"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pulmonic Stenosis (adult)" id="Pulmonic Stenosis (adult)" active="true">
+				<keyword text="narrowing"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Subvalvular Pulmonic Stenosis (pediatric)" id="Subvalvular Pulmonic Stenosis (pediatric)" active="true">
+				<keyword text="heart"/>
+				<keyword text="narrowing"/>
+				<keyword text="valve"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Subvalvular Pulmonic Stenosis (adult)" id="Subvalvular Pulmonic Stenosis (adult)" active="true">
+				<keyword text="heart"/>
+				<keyword text="narrowing"/>
+				<keyword text="valve"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Supravalvular Stenosis (pediatric)" id="Supravalvular Stenosis (pediatric)" active="true">
+				<keyword text="heart"/>
+				<keyword text="narrowing"/>
+				<keyword text="valve"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tetralogy of Fallot (pediatric)" id="Tetralogy of Fallot (pediatric)" active="true">
+				<keyword text="bloodflow"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tetralogy of Fallot (adult)" id="Tetralogy of Fallot (adult)" active="true">
+				<keyword text="bloodflow"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Transposition of the Great Vessels (pediatric)" id="Transposition of the Great Vessels (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tricuspid Atresia (pediatric)" id="Tricuspid Atresia (pediatric)" active="true">
+				<keyword text="regurgitation"/>
+				<keyword text="murmur"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tricuspid Atresia (adult)" id="Tricuspid Atresia (adult)" active="true">
+				<keyword text="regurgitation"/>
+				<keyword text="murmur"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tricuspid Regurgitation (pediatric)" id="Tricuspid Regurgitation (pediatric)" active="true">
+				<keyword text="murmur"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tricuspid Regurgitation (adult)" id="Tricuspid Regurgitation (adult)" active="true">
+				<keyword text="murmur"/>
+				<keyword text="valve"/>
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Truncus Arteriosis (pediatric)" id="Truncus Arteriosis (pediatric)" active="true">
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Truncus Arteriosis (adult)" id="Truncus Arteriosis (adult)" active="true">
+				<keyword text="defect"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Valvular Pulmonary Stenosis (pediatric)" id="Valvular Pulmonary Stenosis (pediatric)" active="true">
+				<keyword text="narrowing"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ventricular Septal Defect (VSD) (pediatric)" id="Ventricular Septal Defect (VSD) (pediatric)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ventricular Septal Defect (VSD) (adult)" id="Ventricular Septal Defect (VSD) (adult)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ventricular Insufficiency (pediatric)" id="Ventricular Insufficiency (pediatric)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

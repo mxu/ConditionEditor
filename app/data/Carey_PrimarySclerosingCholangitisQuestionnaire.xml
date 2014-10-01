@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of your problem (one you are requesting a second opinion for):">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="As related to your current problem (condition for which you are seeking a second opinion), how was your diagnosis made? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="X-ray"/>
+				<selection selected="false" text="Cholangiogram"/>
+				<selection selected="false" text="Angiogram"/>
+				<selection selected="false" text="ERCP (Endoscopic Retrograde Cholangio Pancreatography)"/>
+				<selection selected="false" text="CT"/>
+				<selection selected="false" text="MRI"/>
+				<selection selected="false" text="Ultrasound"/>
+				<selection selected="false" text="Blood Work"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="Upper endoscopy"/>
+				<selection selected="false" text="Liver Biopsy"/>
+				<selection selected="false" text="Liver Scan"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician  for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="For how long have you had this problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than a month"/>
+				<selection selected="false" text="1-3 months"/>
+				<selection selected="false" text="4-6 months"/>
+				<selection selected="false" text="7-12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are your symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you feel as if  your general health has deteriorated as a result of this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of seizures?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of seizures, when was your last seizure?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of diabetes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of diabetes, do you have eye involvement / visual complications as a result of the diabetes?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If you have a history of the any of the following conditions, please provide date of diagnosis and whether the condition has been active in the past 5 years:">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Condition" width="35"/>
+					<column_definition label="Month/Year of &lt;BR&gt; diagnosis" width="20"/>
+					<column_definition label="Has the disease been &lt;BR&gt; active in the past 5 years? &lt;BR&gt; Yes / No / Not Sure" width="25"/>
+				</column_definitions>
+				<table_data>
+					<cell>Colon Cancer</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diverticulitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Inflammatory Bowel Disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pancreatitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diabetes</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ulcerative Colitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Autoimmune Thyroiditis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Rheumatoid Arthritis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Scleroderma</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sicca Complex</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Systemic Lupus Erythematosus</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Alcoholic liver disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Budd-Chiari Syndrome</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Caroli's disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cirrhosis of liver</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis B (infectious)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis C (viral)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver Cancer</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver Cysts </cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Portal Hypertension</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primary Biliary Cirrhosis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other liver disease  (please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please list below all the diagnostic studies you have had and provide the dates done:">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Diagnostic study" width="30"/>
+					<column_definition label="Month/Year" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>X-ray</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cholangiogram</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Angiogram</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>ERCP (Endoscopic Retrograde &lt;BR&gt; Cholangio Pancreatography)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood Work</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Surgery</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Upper Endoscopy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver Biopsy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver Scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please list all the treatments you have undergone for your condition: (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="Antibiotic medications"/>
+				<selection selected="false" text="Corticosteroid medications"/>
+				<selection selected="false" text="Endoscopy procedures"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone surgery for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone surgery for your condition, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of procedure" width="30"/>
+								<column_definition label="Month / Year" width="18"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been treated with antibiotic medications (examples include: Ampicillin, Ciproxacin) for  your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been treated with antibiotic medications for  your current condition, please provide the following information for each type of antibiotic medication you have taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.).">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of antibiotic &lt;BR&gt; medication" width="30"/>
+								<column_definition label="Dosage/Frequency" width="25"/>
+								<column_definition label="Date started" width="18"/>
+								<column_definition label="How long taken" width="25"/>
+								<column_definition label="How taken (pills, &lt;BR&gt; IV, etc.)" width="25"/>
+								<column_definition label="Result? (Did &lt;BR&gt; medication help, make &lt;BR&gt; things worse)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been treated with corticosteroid (steroids) medications for  your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been treated with corticosteroid (steroids) medications for  your current condition, please provide the following information for each type of antibiotic medication you have taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.).">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of corticosteroid &lt;BR&gt; medication" width="30"/>
+								<column_definition label="Dosage/Frequency" width="25"/>
+								<column_definition label="Date started" width="18"/>
+								<column_definition label="How long taken" width="25"/>
+								<column_definition label="How taken (pills, &lt;BR&gt; IV, etc.)" width="25"/>
+								<column_definition label="Result? (Did &lt;BR&gt; medication help, make &lt;BR&gt; things worse)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone endoscopy procedures for your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone endoscopy procedures for your current condition, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of procedure" width="30"/>
+								<column_definition label="Date (Month / Year)" width="18"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="25"/>
+								<column_definition label="Result? (Did &lt;BR&gt; procedure help, make &lt;BR&gt; things worse)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone stent placement into your biliary tree?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone stent placement into your biliary tree, were the stents placed by:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Endoscopy procedure"/>
+							<selection selected="false" text="Radiological procedure"/>
+							<selection selected="false" text="Surgical procedure"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is stent(s) still in place in the biliary tree?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When was the last time stent(s) was changed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If you have undergone any other treatments not listed above, please explain (give details) below:">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are experiencing pain, please indicate the location of pain:">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain below: (1 = minimal pain, 10 = worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="Does it awaken you from sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If it awakens you from your sleep, how often does your pain awaken you from sleep?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Frequently"/>
+										<selection selected="false" text="Once in a while"/>
+										<selection selected="false" text="Rarely"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, how often?">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of upper gastrointestinal (GI) bleeding?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of upper gastrointestinal (GI) bleeding, please provide details of the bleeding and how it was treated:">
+						<free_form_response height="10"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you noticed that your stools (bowel movements) have blood or a dark tarry color?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have noticed that your stools (bowel movements) have blood or a dark tarry color, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have varices (enlarged veins) of the esophagus and / or stomach?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have varices (enlarged veins) of the esophagus and / or stomach, have you experienced variceal bleeding?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you have experienced variceal bleeding, when?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+								<question mandatory="true" prompt="How were the bleeding varices treated? (Choose all that apply)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="Sclerotherapy"/>
+										<selection selected="false" text="Band ligation"/>
+										<selection selected="false" text="TIPS (Transjugular Intrahepatic Portosystemic Shunting)"/>
+										<selection selected="false" text="Surgery"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please provide details:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience fatigue (tiredness) compared to others in your age group?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience fatigue compared to others in your age group, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience itching of your skin?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience itching of your skin, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please rate the severity of your itching on the scale below: (1 = minimal itching, 10 = worst itching)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst itching"/>
+							<selection selected="false" text="09"/>
+							<selection selected="false" text="08"/>
+							<selection selected="false" text="07"/>
+							<selection selected="false" text="06"/>
+							<selection selected="false" text="05 - Moderate itching"/>
+							<selection selected="false" text="04"/>
+							<selection selected="false" text="03"/>
+							<selection selected="false" text="02"/>
+							<selection selected="false" text="01 - Minimal itching"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced regular episodes of fever/ chills recently (within the last 3 months)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced regular episodes of fever/ chills recently, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience loss of appetite?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience loss of appetite, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently had an unintentional weight loss greater than 10 pounds / 5 kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you recently had an unintentional weight loss greater than 10 pounds / 5 kilograms, how much (in pounds) and over what period of time?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="15"/>
+								<column_definition label="Period of time" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced ascites (a build up of fluid in your abdomen)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced ascites, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="How is (was) the ascites being treated?  (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Diuretic medications"/>
+							<selection selected="false" text="Fluid removal"/>
+							<selection selected="false" text="TIPS (Transjugular Intrahepatic Portosystemic Shunting)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please provide details:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are you taking antibiotic medications for the prevention of infection of the ascites?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are taking antibiotic medications for the prevention of infection of the ascites, which antibiotic medications are you currently taking? ">
+									<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of medication" width="30"/>
+											<column_definition label="Dosage (If known)" width="25"/>
+											<column_definition label="Date started" width="18"/>
+											<column_definition label="How taken (pills, &lt;BR&gt; IV, etc.)" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced edema (swelling) in your feet or legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced edema (swelling) in your feet or legs, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently had an unintentional weight gain greater than 10 pounds / kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you recently had an unintentional weight gain greater than 10 pounds/ kilograms, how much (in pounds / kilograms) and over what period of time?">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="15"/>
+								<column_definition label="Period of time" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced jaundice (yellow coloring of skin / eyes)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced jaundice, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding treatment for your current condition? (surgery, medical management, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Name of Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, gastroenterologist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What have the doctors stated regarding your prognosis (forecast of the probable course of the disease)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

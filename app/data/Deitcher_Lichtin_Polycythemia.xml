@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Deitcher_Lichtin_PolycythemiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Deitcher_Lichtin_PolycythemiaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Polycythemia Vera (Vaquez' Disease)" id="Polycythemia Vera (Vaquez' Disease)">
+				<keyword text="blood"/>
+				<keyword text="count"/>
+				<keyword text="disorder"/>
+				<keyword text="rbc"/>
+				<keyword text="hematology"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Secondary Polycythemia (Erythrocytosis)" id="Secondary Polycythemia (Erythrocytosis)">
+				<keyword text="blood"/>
+				<keyword text="count"/>
+				<keyword text="disorder"/>
+				<keyword text="rbc"/>
+				<keyword text="hematology"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Polycythemia" id="Polycythemia">
+				<keyword text="RBC"/>
+				<keyword text="hematology"/>
+				<keyword text="elevation"/>
+				<keyword text="increased"/>
+				<keyword text="red"/>
+				<keyword text="blood"/>
+				<keyword text="count"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

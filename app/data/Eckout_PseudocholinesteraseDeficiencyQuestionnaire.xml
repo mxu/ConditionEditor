@@ -1,0 +1,120 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Has a member of your family had problems during anesthesia?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If a member of your family has had problems during anesthesia, please provide the following information.  Please indicate if the family member is related on the maternal or paternal side, if applicable.">
+						<table_response add_row_increment="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Family member" width="25"/>
+								<column_definition label="Maternal or paternal" width="10"/>
+								<column_definition label="Type of problem" width="20"/>
+								<column_definition label="Diagnosis (if known)" width="25"/>
+								<column_definition label="Final outcome (if known)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been diagnosed with pseudocholinesterase deficiency?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been diagnosed with pseudocholinesterase deficiency, how was the diagnosis made?  (Give as many details as possible below):">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Was your diagnosis made based on reaction(s) to previous anesthetic?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If your diagnosis was made based on reaction(s) to previous anesthetic, when was the diagnosis made?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+								<question mandatory="true" prompt="Who diagnosed this condition?">
+									<table_response initial_rows_to_display="1" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of physician" width="20"/>
+											<column_definition label="Specialty (example: surgeon, anesthesiologist etc.)" width="30"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What type of problem(s) had you had with anesthesia?  (Choose all that apply).">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Prolonged ventilation"/>
+				<selection selected="false" text="Awake but unable to move"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other please explain below:">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="How long did the problem last (please explain in detail)?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you know what drugs were administered when you experienced the problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you know what drugs were administered when you experienced the problem, please list the names of the drugs below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have the anesthesia records from the event(s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What precautions (if any) have been taken for your previous surgeries?  Please indicate below, if none please indicate that. ">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="true" prompt="Have you had a blood test for pseudocholinesterase deficiency (also known as dibucaine number)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a blood test for pseudocholinesterase deficiency, what were the results? (if known) ">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you contemplating surgery at the present time?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are contemplating surgery at the present time, please give specific details (reason for surgery, type of surgery) below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

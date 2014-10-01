@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary or specialist physician's last report" description="Primary physician or specialist physician's last report. Report should contain a current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Doctor's letter" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries (laparoscopy, etc.)" mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from all hospital admissions within the last year and all admission relevant to the consultation." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done will be required. Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Pathology glass slides and Reports" description="Reports and actual glass slides from all biopsies done." mandatory="true"/>
+	<material id="Ultrasound Reports" description="All obstetric ultrasound reports and actual films or video clips." mandatory="true"/>
+	<material id="Fetal Monitoring / Non-stress Test Reports" description="Any fetal monitoring reports of fetal heart rate or uterine contractions." mandatory="true"/>
+	<material id="CT Scan of Abdomen &amp; Pelvis" description="Report and actual films." mandatory="true"/>
+	<material id="Blood tests" description="All recent bloodwork results (including HbA1C, blood glucose and finger stick results for diabetic patients; thyroid function studies if thyroid disease present; medication blood levels for Epilepsy patients (if done)." mandatory="true"/>
+	<material id="Blood Type / Antibody Screening" description="Report of Blood type and antibody screening results." mandatory="true"/>
+	<material id="Vaginal &amp; Cervical Culture Reports" description="Group B Strep Vaginal &amp; Cervical culture reports (if done during this pregnancy)." mandatory="true"/>
+ <instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information, although not mandatory, should be included, if done:&lt;/b&gt;"/>
+  <material id="MRI Report and actual films." description="Report and actual films if done." mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

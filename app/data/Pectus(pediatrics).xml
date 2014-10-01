@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Madhurini Akula -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Pectus(pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Pectus(pediatrics)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Thoracic and General Surgery" name="Pediatric Thoracic and General Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Pectus Excavatum (pediatric)" id="Pectus Excavatum (pediatric)" active="true">
+				<keyword text="pectus"/>
+				<keyword text="excavatum"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="sunken"/>
+				<keyword text="pigeon"/>
+				<keyword text="hollowed"/>
+				<keyword text="chest"/>
+				<keyword text="deformity"/>
+				<keyword text="anterior"/>
+				<keyword text="wall"/>
+				<keyword text="rib"/>
+				<keyword text="sternum"/>
+				<keyword text="displacement"/>
+				<keyword text="lung"/>
+				<keyword text="cardiac"/>
+				<keyword text="respiratory"/>				
+				<keyword text="carinatum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pectus Carinatum (pediatric)" id="Pectus Carinatum (pediatric)" active="true">
+				<keyword text="pectus"/>
+				<keyword text="excavatum"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				<keyword text="sunken"/>
+				<keyword text="pigeon"/>
+				<keyword text="hollowed"/>
+				<keyword text="chest"/>
+				<keyword text="deformity"/>
+				<keyword text="anterior"/>
+				<keyword text="wall"/>
+				<keyword text="rib"/>
+				<keyword text="sternum"/>
+				<keyword text="displacement"/>
+				<keyword text="lung"/>
+				<keyword text="cardiac"/>
+				<keyword text="respiratory"/>				
+				<keyword text="carinatum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

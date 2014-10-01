@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Decamp_MalignantmediastinalmassMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Decamp_MalignantmediastinalmassQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Thoracic and Cardiovascular Surgery" name="Thoracic and Cardiovascular Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Malignant Mediastinal Mass" id="Malignant Mediastinal Mass">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Mediastinal Thymoma" id="Mediastinal Thymoma">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

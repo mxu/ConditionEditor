@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of abnormal Pap smears?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you have a history of abnormal Pap smears, when was your first abnormal Pap smear?">
+                    &MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list dates and results of all Pap smears in the last 2 years:">
+			<table_response initial_rows_to_display="3" row_height="1" add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="5"/>
+					<column_definition label="Result" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you received any treatments for this problem, (one you are seeking the second opinion for)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received any treatments for this problem, please list the date and type of treatment below.  Examples of the types of treatments include:  cone biopsy, LEEP, cryotherapy, laser therapy, surgical excision, vulvectomy, vaginectomy, 5-fluorouracil cream, etc.">
+						<table_response initial_rows_to_display="2" row_height="1" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Treatment" width="35"/>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been tested for the human papillomavirus?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been tested for the human papillomavirus, what were the results?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Negative"/>
+							<selection selected="false" text="Positive">
+								<question mandatory="true" prompt="If positive, please indicate below the results:">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="Positive - high risk type"/>
+										<selection selected="false" text="Positive - low risk type"/>
+									</item_response>	
+								</question>
+								<question mandatory="true" prompt="If positive, when was your positive result?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>	
+						</item_response>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced pain, where is the pain located?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="Which of the following best describes your pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Constant (never lets up)"/>
+							<selection selected="false" text="Intermittent (comes and goes)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the pain start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please rate your pain on the scale below: (1= minimal pain, 10= worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have vaginal/vulvar itching?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describe the itching?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the itching start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have vaginal/vulvar burning?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describes the burning?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have vaginal discharge?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describes the discharge?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have vaginal bleeding between periods?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describes the bleeding?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have bleeding after intercourse?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describes the bleeding?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a change in pigment of the skin of the vulva or vagina?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="When did this symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a new mass or ulcer on the skin of the vulva or vagina?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="When did this symptom start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced any symptoms or problems not listed above?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you have experienced any symptoms or problems, please explain.">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your general performance status?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Fully active, able to carry on all usual activities without restriction."/>
+				<selection selected="false" text="Restricted in physically strenuous activity but able to carry out work of light or sedentary nature, example: light housework or office work."/>
+				<selection selected="false" text="Ambulatory and capable of all self care but unable to carry out any work activities.  Up and about more than 50% of waking hours."/>
+				<selection selected="false" text="Capable of only limited self care, confined to bed or chair more than 50% of waking hours."/>
+				<selection selected="false" text="Completely disabled.  Cannot carry on any self care.  Totally confined to bed or chair."/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you premenopausal?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If premenopausal, please provide the following information:">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Length of cycle&lt;'BR&gt; (days between periods)" width="35"/>
+								<column_definition label="Duration of menstrual &lt;BR&gt; period (days)" width="20"/>
+								<column_definition label="Flow &lt;BR&gt;(light, moderate, heavy)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Is your menstrual cycle irregular?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently taking hormone therapy (birth control pills, progestin therapy, lupron therapy, etc.)?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are currently taking hormone therapy, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of hormone" width="45"/>
+								<column_definition label="Months, Years" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>	
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Are you menopausal or post-menopausal?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are menopausal or post-menopausal, when did the menopause begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+		<question mandatory="true" prompt="Are you now or have you ever taken hormone replacement therapy (estrogen, progesterone, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken hormone replacement therapy, please provide the following information regarding the hormone replacement therapy:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of hormone" pct="50"/>
+								<column_definition label=" Date started (Month, Year)" width="25"/>
+								<column_definition label=" Duration taken (Months, Years)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced postmenopausal vaginal bleeding?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Which of the following best describes the bleeding?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Mild"/>
+							<selection selected="false" text="Moderate"/>
+							<selection selected="false" text="Severe"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did the bleeding start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What was your age at first intercourse?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="How many sexual partners have you had in your lifetime?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Are you currently sexually active?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any of the following gynecologic infections? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Genital warts"/>
+				<selection selected="false" text="Gonorrhea"/>
+				<selection selected="false" text="Chlamydia"/>
+				<selection selected="false" text="Trichomonas"/>
+				<selection selected="false" text="HIV"/>
+				<selection selected="false" text="Syphilis"/>
+				<selection selected="false" text="None of the Above"/>
+				<selection selected="false" text="Other">
+					<question prompt="If other, please list:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have AIDS?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have AIDS, what was your last CD4 count?">
+						<free_form_response/>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of organ transplant requiring immunosuppression?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any illness in the past year requiring steroid therapy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any illness in the past year requiring chemotherapy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list any other illnesses affecting your immune system:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any other cancers or pre-cancerous conditions?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of any other cancers or pre-cancerous conditions, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Condition" width="20"/>
+								<column_definition label="Date of &lt;BR&gt; Diagnosis" width="15"/>
+								<column_definition label="Date of &lt;BR&gt;Treatment" width="15"/>
+								<column_definition label="Method of &lt;BR&gt;Treatment" width="18"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any chemotherapy treatment?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you had any chemotherapy treatment, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of &lt;BR&gt;chemotherapy" width="25"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Number of cycles&lt;BR&gt; (if known)" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>			
+		</question>
+		<question mandatory="true" prompt="Have you had any radiation therapy?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you had any radiation therapy, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of radiation" width="20"/>
+								<column_definition label="Dosage &lt;BR&gt;(if known)" width="10"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Number of&lt;BR&gt; treatments (if known)" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>			
+		</question>
+		<question mandatory="true" prompt="Have you had any surveillance for the cancer since treatment?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If you have had any surveillance for the cancer since treatment, please list method and date of last surveillance:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of cancer, please provide the following information regarding your family history. Please indicate if the family member is related on your maternal or fraternal side, if applicable.">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Family member &lt;BR&gt; (grandfather, sister, etc.)" width="25"/>
+								<column_definition label="Maternal/paternal" width="20"/>
+								<column_definition label="Type of cancer" width="25"/>
+								<column_definition label="Age at diagnosis &lt;BR&gt; (if known)" width="30"/>
+								<column_definition label="Current condition &lt;BR&gt; of relative" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

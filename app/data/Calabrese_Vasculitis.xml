@@ -1,0 +1,46 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Calabrese_VasculitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Calabrese_VasculitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Rheumatology and Immunology" name="Rheumatology and Immunology">
+		<section description="" name="">
+			<condition cost="745.00" description="Vasculitis" id="Vasculitis" active="true">
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="blood"/>
+				<keyword text="inflammation"/>
+				<keyword text="primary"/>
+				<keyword text="angiitis"/>
+				<keyword text="vessel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Giant cell arteritis" id="Giant cell arteritis" active="true">
+				<keyword text="vessel"/>
+				<keyword text="blood vessel"/>
+				<keyword text="temporal"/>
+				<keyword text="artery"/>
+				<keyword text="GCA"/>
+				<keyword text="cranial"/>
+				<keyword text="systemic"/>
+				<keyword text="inflammatory"/>
+				<keyword text="vascular"/>
+				<keyword text="head"/>
+				<keyword text="neck"/>
+				<keyword text="inflamed"/>
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="blood"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

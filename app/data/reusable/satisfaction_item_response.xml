@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<item_response drop_down_style="true" single_response="true">
+	<selection selected="false" text="10 - very satisfied"/>
+	<selection selected="false" text="09"/>
+	<selection selected="false" text="08"/>
+	<selection selected="false" text="07"/>
+	<selection selected="false" text="06"/>
+	<selection selected="false" text="05 - satisfied"/>
+	<selection selected="false" text="04"/>
+	<selection selected="false" text="03"/>
+	<selection selected="false" text="02"/>
+	<selection selected="false" text="01 - not at all satisifed"/>
+</item_response>

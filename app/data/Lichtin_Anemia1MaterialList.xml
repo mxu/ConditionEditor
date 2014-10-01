@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+		<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations. " mandatory="true"/>
+<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/b&gt;"/>
+	<material id="Pathology reports" description="Reports are required for all biopsies done (spleen, bone marrow, etc.)." mandatory="true"/>
+	<material id="Current blood tests to include the following" description=" Complete blood count (CBC) with differential, peripheral smear, glucose 6 phosphate dehydrogenase (G-6-PD)." mandatory="true"/>
+<material id="Guaiac testing" description="Report of recent stool guaiac (occult blood) test." mandatory="true"/>
+<material id="Endoscopy" description="Report of endoscopy (upper and lower) if done." mandatory="true"/>
+<material id="Genetic testing" description="Report of any genetic testing (if done)." mandatory="true"/>
+	<material id="X-rays (if applicable)" description="Reports and films of any relevant x-rays." mandatory="true"/>
+<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+<material id="MRI scan" description="Report and films." mandatory="false"/>
+	<material id="CT scan" description="Report and films." mandatory="false"/>
+	<material id="Other information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+		
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

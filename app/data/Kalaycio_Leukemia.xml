@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Kalaycio_LeukemiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Kalaycio_LeukemiaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Hairy Cell Leukemia (Adult)" id="Hairy Cell Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="cancer"/>
+				<keyword text="hairy"/>
+				<keyword text="cell"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Acute Myelogenous Leukemia (Adult)" id="Acute Myelogenous Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="cancer"/>
+				<keyword text="acute"/>
+				<keyword text="myelogenous"/>
+				<keyword text="AML"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Lymphocytic Leukemia (Adult)" id="Chronic Lymphocytic Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="cancer"/>
+				<keyword text="chronic"/>
+				<keyword text="lymphocytic"/>
+				<keyword text="CLL"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chronic Myelogenous Leukemia (Adult)" id="Chronic Myelogenous Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="cancer"/>
+				<keyword text="chronic"/>
+				<keyword text="myelogenous"/>
+				<keyword text="CML"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Acute Lymphocytic Leukemia (Adult)" id="Acute Lymphocytic Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="blood"/>
+				<keyword text="cancer"/>
+				<keyword text="acute"/>
+				<keyword text="lymphocytic"/>
+				<keyword text="ALL"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Leukemia (Adult)" id="Leukemia (Adult)">
+				<keyword text="leukemia"/>
+				<keyword text="neoplasm"/>
+				<keyword text="cancer"/>
+				<keyword text="bone marrow"/>
+				<keyword text="blood"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

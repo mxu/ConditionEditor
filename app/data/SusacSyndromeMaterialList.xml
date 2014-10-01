@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by madhu akula -->
+<material_list>
+  &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." 	mandatory="true"/>
+	<material id="Office Notes from ENT, Neurology, Ophthalmology, Rheumatology, Internal Medicine or other physicians" description="Copies of all office notes for clinic visits pertinent to this condition" mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins). MD or Nurse should complete the Susac's Syndrome Medication Flow Sheet when possible" mandatory="true"/>
+	<material id="Susac's Syndrome Medication Flow Sheet (Completed by Patient, MD or Nurse if possible)." description="Please print the form here (&lt;a style='font-size:9pt' href='/static-html/files/SusacMedicationFlowSheet.pdf'&gt;Flow Sheet&lt;/a&gt;), and submit with your records" mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all prior surgeries related to this diagnosis." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	
+	
+	
+	
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following radiological and diagnostic studies done in the last 3 years will be required.  Radiology films must be copied to compact disc (CD) for submission. &lt;/B&gt;"/>
+	
+	<material id="MRI Brain" description="&lt;B&gt;Reports and Films&lt;/B&gt; copied to CD for all completed studies." mandatory="true"/>
+	<material id="Spinal Fluid Analysis" description="&lt;B&gt;Results of all studies related to CSF fluid.&lt;/B&gt;" mandatory="true"/>
+	<material id="Fluorescein Angiograms" description="Reports and Films copied to CD for all completed studies." mandatory="true"/>
+	<material id="Cerebral Angiogram" description="Report only of results." mandatory="true"/>
+	<material id="Pathology Reports and Glass Slides" description="For all brain biopsies done." mandatory="true"/>
+	<material id="Lab Testing Results" description="Reports of all lab studies related to condition." mandatory="true"/>
+	<material id="Chest X-ray" description="Report only." mandatory="true"/>
+	
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of medical information although not mandatory, are optional and highly recommended if done: &lt;/B&gt;"/>
+	<material id="Current Blood work (within last 6 months)" description="Other Laboratory Blood Test reports." mandatory="false"/>
+	<material id="Other X-rays (if done)" description="Films and report (if done)." mandatory="false"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to patient's consultation." mandatory="false"/>
+  
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

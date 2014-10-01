@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ouriel_Ruschhaupt_Bartholomew_LaPernaLegProblems_VenousMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ouriel_Ruschhaupt_Bartholomew_LaPernaLegProblems_VenousQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Vascular Surgery" name="Vascular Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Chronic Venous Insufficiency" id="Chronic Venous Insufficiency" active="true">
+				<keyword text="veins"/>
+				<keyword text="circulatory"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Varicose Veins" id="Varicose Veins" active="true">
+				<keyword text="venous"/>
+				<keyword text="insufficiency"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				<keyword text="leg"/>
+				<keyword text="extremity"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Venous Insufficiency" id="Venous Insufficiency" active="true">
+				<keyword text="circulation"/>
+				<keyword text="circulatory"/>
+				<keyword text="veins"/>
+				<keyword text="venous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Leg Ulcers" id="Leg Ulcers" active="true">
+				<keyword text="ulcerations"/>
+				<keyword text="sores"/>
+				<keyword text="extremity"/>
+				<keyword text="circulation"/>
+				<keyword text="venous"/>
+				<keyword text="veins"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

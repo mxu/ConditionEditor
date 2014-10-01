@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding child's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What diagnosis was given for the child's condition? (please provide exact diagnosis if known)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When was the diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="What are the child's current active gastrointestinal symptoms related to this condition? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Bloating"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Constipation"/>
+				<selection selected="false" text="Diarrhea"/>
+				<selection selected="false" text="Excessive Gas"/>
+				<selection selected="false" text="Loss of appetite"/>
+				<selection selected="false" text="Acid reflux"/>
+				<selection selected="false" text="Other/Comment">
+					<question mandatory="true" prompt="If Other/Comment, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the child's current activity level related to this condition? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Can Sit"/>
+				<selection selected="false" text="Can Stand"/>
+				<selection selected="false" text="Bedridden"/>
+				<selection selected="false" text="Ambulatory"/>
+				<selection selected="false" text="Able to perform activities of daily living"/>
+				<selection selected="false" text="Other/Comment">
+					<question mandatory="true" prompt="If Other/Comment, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the child ever been diagnosed with a Vitamin or Mineral deficiency?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, list the type of deficiency">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Iron"/>
+							<selection selected="false" text="B12"/>
+							<selection selected="false" text="Vitamin D"/>
+							<selection selected="false" text="Vitamin A"/>
+							<selection selected="false" text="Vitamin E"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child currently taking any medications for this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of  the Drug" width="15"/>
+								<column_definition label="Dosage" width="25"/>
+								<column_definition label="How often, When taken" width="25"/>
+								<column_definition label="Effectiveness of medication" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child currently taking any vitamin or mineral supplements for this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of  Supplement" width="15"/>
+								<column_definition label="Dosage" width="25"/>
+								<column_definition label="How often, When taken" width="25"/>
+								<column_definition label="Effectiveness of medication" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list all treatments the child has received for this condition">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Treatment/Medication" width="25"/>
+					<column_definition label="Date(s) of treatment" width="20"/>
+					<column_definition label="Treating Physician" width="25"/>
+					<column_definition label="City" width="25"/>
+					<column_definition label="State" width="25"/>
+					<column_definition label="Effectiveness of treatment" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Did the child's mother experience any of the following problems with her pregnancy? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Infection"/>
+				<selection selected="false" text="Antibiotic administration"/>
+				<selection selected="false" text="Other medication administration ">
+					<question mandatory="true" prompt="If other medication, please give detail:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Did the child go home with mother within 2 - 7 days following birth? (if known)">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, please explain the details of the continued hospital stay:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Were there any problems with the delivery of this child?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail :">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Was the child born at full term?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, at how many weeks gestation was child born?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What was the child's weight at birth?">
+			<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+				<column_definitions>
+					<column_definition label="# of pounds / kilograms" width="15"/>
+					<column_definition label="# of ounces / grams" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="What was the child's length at birth? (# of inches)">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="What was the child's head circumference at birth? (# of inches)">
+			<free_form_response height="1"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the child's current weight (within the last month)?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Date" width="15"/>
+					<column_definition label="# of pounds" width="15"/>
+					<column_definition label="# of ounces" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the child's current length?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Date" width="15"/>
+					<column_definition label="# of inches" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+
+		<question mandatory="true" prompt="Please list all available weights and heights for the child for the past year?">
+			<table_response initial_rows_to_display="4" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Date" width="15"/>
+					<column_definition label="Height" width="15"/>
+					<column_definition label="Weight" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the parent / guardian or the child's health care provider have any concerns about the child's growth?">
+			<free_form_response height="3"/>
+		</question>
+				
+		<question mandatory="true" prompt="Did the child have an intensive care (PICU or NICU) stay following his/her birth?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how long was the child hospitalized?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What type of feedings did the child receive as an infant?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Breast-fed">
+					<question mandatory="true" prompt="If yes, how many times per day?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Expressed breast milk by bottle"/>
+				<selection selected="false" text="Formula">
+					<question mandatory="true" prompt="If the child received formula, what was the name of the formula?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+					
+		<question mandatory="true" prompt="At what month did the child start solid foods?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child allergic to any foods?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the following table">
+						<table_response initial_rows_to_display="3" add_row_increment="1">
+							<column_definitions>
+								<column_definition label="Food" width="25"/>
+								<column_definition label="Type of reaction" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child currently able to tolerate food?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="Please check all the foods that the child is able to eat / consume">
+						<item_response single_response="false" drop_down_style="false">
+							<selection selected="false" text="Liquids"/>
+							<selection selected="false" text="Formula"/>
+							<selection selected="false" text="Solid / Soft Foods">
+							
+								<question mandatory="true" prompt="Please describe in detail the intake of the child in a 24 hour period (Please include each meal and snack in detail pertaining to all solids and liquids)">
+									<table_response row_height="3" initial_rows_to_display="2" add_row_increment="1" >
+										<column_definitions>
+											<column_definition label="Meal" width="25"/>
+											<column_definition label="Description" width="25"/>
+										</column_definitions>
+										<table_data>
+											<cell>Breakfast</cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Lunch</cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Dinner</cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Snacks (Please list here)</cell>
+											<cell></cell>
+										</table_data>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the child avoid certain foods or food groups?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list the food or food group">
+						<free_form_response height="2"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please check the reason the food / food group is avoided (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Intolerance"/>
+							<selection selected="false" text="Allergy"/>
+							<selection selected="false" text="Child preference"/>
+							<selection selected="false" text="Food texture"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the child drink any supplements to help with weight gain?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, which of the following does the child drink? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Pediasure"/>
+							<selection selected="false" text="Nutren Jr."/>
+							<selection selected="false" text="Peptamen Jr."/>
+							<selection selected="false" text="Neocate Jr."/>
+							<selection selected="false" text="Elecare"/>
+							<selection selected="false" text="E028 Splash"/>
+							<selection selected="false" text="Vital Jr."/>
+							<selection selected="false" text="Boost"/>
+							<selection selected="false" text="Ensure"/>
+							<selection selected="false" text="Ensure Plus"/>
+							<selection selected="false" text="Boost Plus"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many ounces of supplement does the child drink per day?">
+						<free_form_response height="2"/>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the child have trouble with aspiration or choking?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which of the following cause the child a problem?">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Liquids"/>
+							<selection selected="false" text="Solids"/>
+							<selection selected="false" text="Textures"/>
+							<selection selected="false" text="Other/Comment">
+								<question mandatory="true" prompt="If other, please explain">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Did the Child ever recieve any treatments (procedure) for this condition?">
+						<item_response single_response="true" drop_down_style="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If Yes, What recommendations or treatments have been tried?">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child on any special type of diet?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of diet is the child on? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Low sugar diet"/>
+							<selection selected="false" text="High sugar diet"/>
+							<selection selected="false" text="Low fat diet"/>
+							<selection selected="false" text="High fat diet"/>
+							<selection selected="false" text="Low salt diet"/>
+							<selection selected="false" text="High salt diet"/>
+							<selection selected="false" text="Low fiber diet"/>
+							<selection selected="false" text="High fiber diet"/>
+							<selection selected="false" text="Low protein diet"/>
+							<selection selected="false" text="High protein diet"/>
+							<selection selected="false" text="Fluid restriction"/>
+							<selection selected="false" text="Gluten-free diet"/>
+							<selection selected="false" text="Milk free diet"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the child have difficulty complying with dietary restrictions?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Sometimes"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If Yes, please explain">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the child experience any adverse symptoms after eating?">
+			<item_response single_response="true" drop_down_style="false">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="Which of the following adverse symptoms does the child experience after eating? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="None"/>
+							<selection selected="false" text="Nausea"/>
+							<selection selected="false" text="Bloating"/>
+							<selection selected="false" text="Vomiting"/>
+							<selection selected="false" text="Constipation"/>
+							<selection selected="false" text="Diarrhea"/>
+							<selection selected="false" text="Excessive Gas"/>
+							<selection selected="false" text="Loss of appetite"/>
+							<selection selected="false" text="Acid reflux"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How soon after eating does the child experience these symptoms?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Meals do not cause symptoms"/>
+							<selection selected="false" text="Immediately"/>
+							<selection selected="false" text="30 to 60 minutes"/>
+							<selection selected="false" text="1 to 2 hours"/>
+							<selection selected="false" text="Greater than 2 hours"/>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child dependent on Total parenteral nutrition (TPN)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how long has the child been receiving TPN?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many days per week does the child receive TPN fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Is the child receiving Omegavan (Specialty intravenous lipid (fat) solution)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, is the child receiving low fat TPN?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not Sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If Yes, many days per week does the child receive lipids?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+		
+					<question mandatory="true" prompt="Who is managing the child's TPN fluids / Omegavan / Lipid solution?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+								<column_definition label="TPN Pharmacy Name" width="20"/>
+								<column_definition label="TPN Pharmacy Number" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the child ever been hospitalized for dehydration?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many times?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the parent or guardian ever been told the child has kidney stones?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, explain?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child dependent on IV fluids?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how long has the child been receiving IV fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many times per day and days per week does the child receive IV fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Who is managing the child's IV fluids?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+								<column_definition label="IV Pharmacy Name" width="20"/>
+								<column_definition label="IV Pharmacy Number" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the child receiving enteral / tube feedings?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, Type  of tube in place? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Gastric Tube"/>
+							<selection selected="false" text="Jejunal Tube"/>
+							<selection selected="false" text="Nasogastric Tube"/>
+							<selection selected="false" text="Nasojejunal Tube"/>
+							<selection selected="false" text="Unsure">
+								<question mandatory="true" prompt="If Unsure, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how long has the child been receiving tube feedings?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If Yes, Please complete the table below?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Tube Feeding Formula" width="40"/>
+								<column_definition label="Type of Formula (Ready to Feed, Powder, etc.)" width="30"/>
+								<column_definition label="Ounces received per day" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>					
+										
+					<question mandatory="true" prompt="How are the feedings given? (Check all that apply and answer in detail)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Continuously with a feeding pump">
+								<question mandatory="true" prompt="If Yes, please complete the table below">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Rate" width="25"/>
+											<column_definition label="For how many hours is the feeding given" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Continuous with time off during the day">
+								<question mandatory="true" prompt="If Yes, please complete the table below">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Rate" width="25"/>
+											<column_definition label="For how many hours is the feeding given" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Bolus feeding">
+								<question mandatory="true" prompt="If Yes, please complete the table below">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="How often are they given" width="25"/>
+											<column_definition label="How many ounces are given per feeding" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Night time feedings only">
+								<question mandatory="true" prompt="If Yes, please complete the table below">
+									<table_response initial_rows_to_display="1" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Rate" width="25"/>
+											<column_definition label="For how many hours is the feeding given" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>	
+								
+					<question mandatory="true" prompt="Is anything added to the child's formula?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please complete the table">
+									<table_response row_height="3" initial_rows_to_display="2" add_row_increment="1" >
+										<column_definitions>
+											<column_definition label="Item added" width="25"/>
+											<column_definition label="Name of the Supplement" width="25"/>
+											<column_definition label="Amount added per feeding" width="25"/>
+										</column_definitions>
+										<table_data>
+											<cell>Fiber</cell>
+											<cell></cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Protein</cell>
+											<cell></cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Pancreatic enzymes</cell>
+											<cell></cell>
+											<cell></cell>
+										</table_data>
+										<table_data>
+											<cell>Other (Please list here)</cell>
+											<cell></cell>
+											<cell></cell>
+										</table_data>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Who is managing the child's tube feedings?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the child have a central venous catheter line in place?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how many central line insertions has the child had in the past year?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="1"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="> 3"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, what is the type and location of the catheter and how long has it been in place?">
+						<table_response add_row_increment="0" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of catheter" width="20"/>
+								<column_definition label="Location" width="20"/>
+								<column_definition label="Date of placement" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the child ever experienced a central line infection with his/her central venous system?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+							
+					<question mandatory="true" prompt="If yes, how many infections did the child develop within the last 2 years?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="How many times has the child been hospitalized for treatment of these central venous line infections?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please note the date of the last infection">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+							
+					<question mandatory="true" prompt="How many central line changes has the child had as a result of these infections?">
+						<free_form_response height="3"/>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the child ever experienced a central line thrombosis (blood clot) with his/her central venous system?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+							
+					<question mandatory="true" prompt="If yes, how many thromboses did the child develop within the last 2 years?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Which vein(s) has the child's parent or guardian been told has / have been thrombosed?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please note the date of the last vein thrombosis">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+							
+					<question mandatory="true" prompt="How many central line changes has the child had as a result of these thromboses?">
+						<free_form_response height="3"/>
+					</question>
+												
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the child's parent or guardian ever been told he/she has abnormal liver function tests?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, Has the child ever had a liver biopsy?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of Biopsy" width="15"/>
+								<column_definition label="Result" width="20"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Does the child's parent or guardian have information related to his/her gastrointestinal anatomy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, How much remaining small bowel does the child have? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Less than 15 cm"/>
+							<selection selected="false" text="15 - 40 cm"/>
+							<selection selected="false" text="40 - 90 cm"/>
+							<selection selected="false" text="90 - 200 cm"/>
+							<selection selected="false" text="Greater than 200 cm"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the child still have his / her ileocecal valve?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>				
+				
+					<question mandatory="true" prompt="Does the child still have his/her colon / large intestine?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how much remaining colon does the child have? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="Less than 50%"/>
+										<selection selected="false" text="50%"/>
+										<selection selected="false" text="Greater than 50%"/>
+										<selection selected="false" text="Entire colon"/>
+										<selection selected="false" text="Only rectum and anus remain"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If Other, please explain:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the child have a stoma?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of stoma does the child have? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Jejunostomy"/>
+							<selection selected="false" text="Ileostomy"/>
+							<selection selected="false" text="Colostomy"/>
+							<selection selected="false" text="Mucous Fistula"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="What is the general appearance of the child's stoma output? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Watery"/>
+							<selection selected="false" text="Semi-formed"/>
+							<selection selected="false" text="Pasty"/>
+							<selection selected="false" text="Formed"/>
+							<selection selected="false" text="Yellow"/>
+							<selection selected="false" text="Floating"/>
+							<selection selected="false" text="Mucousy"/>
+							<selection selected="false" text="Green"/>
+							<selection selected="false" text="Brown"/>
+							<selection selected="false" text="Blood-streaked"/>
+							<selection selected="false" text="Tarry"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How many times a day is the child's stoma bag being emptied?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="What is the approximate amount of stoma output the child is having per day?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+				
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If No, how many bowel movements is the child having per day?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="What is the general appearance of the child's bowel movements? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Watery"/>
+							<selection selected="false" text="Semi-formed"/>
+							<selection selected="false" text="Pasty"/>
+							<selection selected="false" text="Formed"/>
+							<selection selected="false" text="Yellow"/>
+							<selection selected="false" text="Floating"/>
+							<selection selected="false" text="Mucousy"/>
+							<selection selected="false" text="Green"/>
+							<selection selected="false" text="Brown"/>
+							<selection selected="false" text="Blood-streaked"/>
+							<selection selected="false" text="Tarry"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the child have an enterocutaneous fistula (s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how many fistula (s) does the child have?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, what is the approximate location of the fistula (s)? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Gastric"/>
+							<selection selected="false" text="Upper Small Bowel"/>
+							<selection selected="false" text="Lower Small Bowel"/>
+							<selection selected="false" text="Colon"/>
+							<selection selected="false" text="Rectovaginal"/>
+							<selection selected="false" text="Enterovesicular (Small bowel to bladder)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+	
+		<question mandatory="true" prompt="How would the parent or guardian rate the child's quality of life? ((Scale 0-10 with 0 being the poorest and 10 being the best?)">
+			<item_response drop_down_style="true" single_response="true">
+				<selection selected="false" text="10 - Best quality"/>
+				<selection selected="false" text="9"/>
+				<selection selected="false" text="8"/>
+				<selection selected="false" text="7"/>
+				<selection selected="false" text="6"/>
+				<selection selected="false" text="5 - Moderate quality"/>
+				<selection selected="false" text="4"/>
+				<selection selected="false" text="3"/>
+				<selection selected="false" text="2"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="0 - Poorest quality"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the primary hope and expectation for this consultation?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended for child's current condition (one which second opinion is being sought)?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, gastroenterologist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding child's condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

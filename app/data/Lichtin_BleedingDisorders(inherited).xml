@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lichtin_BleedingDisorders(inherited)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lichtin_BleedingDisorders(inherited)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Hemophilia A" id="Hemophilia A">
+				<keyword text="blood"/>
+				<keyword text="bleeding"/>
+				<keyword text="clotting"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hemophilia B" id="Hemophilia B">
+				<keyword text="blood"/>
+				<keyword text="bleeding"/>
+				<keyword text="clotting"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="von Willebrand's Disease " id="von Willebrand's Disease">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

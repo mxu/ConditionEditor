@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "PlasticSurgeryNoseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "PlasticSurgeryNoseQuestionnaire.xml">
+]>
+<division description="Plastic Surgery" name="Plastic Surgery">
+	<department description="Plastic Surgery" name="Plastic Surgery">
+		<section description="" name="">
+			<condition cost="135.00" description="Plastic Surgery Nose" id="Plastic Surgery Nose" product_id="plastic_surgery" active="true">
+				<keyword text="Plastic"/>
+				<keyword text="Surgery"/>
+				<keyword text="Nose"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

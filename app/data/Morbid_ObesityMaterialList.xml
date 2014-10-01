@@ -1,0 +1,28 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either the primary care  physician or the physician who diagnosed or is treating condition." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters, if available, sent to you by physician(s) . Reports of office visits, etc if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all patient's medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative Reports" description="Surgical reports for all prior pertinent surgical procedures." mandatory="true"/>
+	<material id="Physician Treatment reports" description="Reports of any treatments undergone for this diagnosis (surgery, counseling, hypnosis, etc.)" mandatory="true"/>
+	<material id="Discharge summaries " description="Discharge summaries from &lt;b&gt;all&lt;/b&gt; hospital admissions within the last year and all admissions relevant ro this consultation." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  Radiologic and diagnostic studies done in the last 3 years. (mandatory): &lt;/B&gt;"/>
+	<material id="Upper GI" description="Reports and actual films." mandatory="true"/>
+	<material id="Lower GI" description="Reports and actual films." mandatory="true"/>
+	<material id="Abdominal Ultrasound" description="Reports and actual films." mandatory="true"/>
+	<material id="Upper Endoscopy" description="Reports and actual films." mandatory="true"/>
+	<material id="Colonoscopy" description="Reports and actual films." mandatory="true"/>
+	<material id="EKG" description="Reports" mandatory="true"/>
+	<material id="Echocardiogram" description="Reports" mandatory="true"/>
+	<material id="Cardiac (heart) catheterization" description="Reports" mandatory="true"/>
+	<material id="Stress Test" description="Reports" mandatory="true"/>
+	<material id="CT Scan" description="Reports" mandatory="true"/>
+	<material id="Sleep Study" description="Reports" mandatory="true"/>
+	<material id="Chest X-Ray" description="Reports" mandatory="true"/>
+	<material id="Pulmonary Function tests" description="Reports" mandatory="true"/>
+	<material id="Current blood tests" description="Laboratory reports" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional and highly recommended, if done:&lt;/b&gt;"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to patient's consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

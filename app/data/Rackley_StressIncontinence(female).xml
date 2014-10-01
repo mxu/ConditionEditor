@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Rackley_StressIncontinence(female)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Rackley_StressIncontinence(female)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urology">
+		<section description="" name="">
+			<condition cost="565.00" description="Stress Incontinence (female)" id="Stress Incontinence (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Urinary Incontinence (female)" id="Urinary Incontinence (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Neurogenic Bladder (female)" id="Neurogenic Bladder (female)" active="true">
+				<keyword text="hypotonic"/>
+				<keyword text="flaccid"/>
+				<keyword text="spastic"/>
+				<keyword text="contracted"/>
+				<keyword text="urinary"/>
+				<keyword text="dysfunction"/>
+				<keyword text="urine"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Interstitial Cystitis" id="Interstitial Cystitis" active="true">
+				<keyword text="hypotonic"/>
+				<keyword text="flaccid"/>
+				<keyword text="spastic"/>
+				<keyword text="contracted"/>
+				<keyword text="urinary"/>
+				<keyword text="dysfunction"/>
+				<keyword text="urine"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Genuine Urinary Incontinence (female)" id="Genuine Urinary Incontinence (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Uretheral Diverticulum - Acquired (female)" id="Uretheral Diverticulum - Acquired (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Urethral Hypermobility (female)" id="Urethral Hypermobility (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Intrinsic Sphincter Deficiency (female)" id="Intrinsic Sphincter Deficiency (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Overactive Bladder (female)" id="Overactive Bladder (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Urge Incontinence (female)" id="Urge Incontinence (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Urinary Frequency (female)" id="Urinary Frequency (female)" active="true">
+				<keyword text="urine"/>
+				<keyword text="urinary"/>
+				<keyword text="incontinent"/>
+				<keyword text="incontinence"/>
+				<keyword text="urethra"/>
+				<keyword text="urethral"/>
+				<keyword text="bladder"/>
+				<keyword text="control"/>
+				<keyword text="leakage"/>
+				<keyword text="leaking"/>
+				<keyword text="urgency"/>
+				<keyword text="stress"/>
+				<keyword text="overflow"/>
+				<keyword text="mixed"/>
+				<keyword text="urological"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

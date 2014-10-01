@@ -1,0 +1,8 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION_ADOPTION; 
+	<material id="Photographs" description="Any photographs (pictures) taken of the child." mandatory="false"/>
+	<material id="Video pictures" description="Any video photographs (moving pictures) taken of the child." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your child's physician may feel is pertinent to your child's condition." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION_ADOPTION;
+</material_list>

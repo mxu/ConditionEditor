@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_LumbarDiscDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_LumbarDiscDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+        	<condition cost="565.00" description="Lumbar Disc Disease" id="Lumbar Disc Disease">
+				<keyword text="lumbar"/>
+				<keyword text="spine"/>
+				<keyword text="spinal"/>
+				<keyword text="back"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arthritis (Back)" id="Arthritis (Back)">
+				<keyword text="spine"/>
+				<keyword text="disc"/>
+				<keyword text="disk"/>				
+				<keyword text="inflammation"/>
+				<keyword text="joint"/>
+				<keyword text="spinal"/>
+				<keyword text="arthritic"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Degenerative Disc Disease" id="Degenerative Disc Disease">
+				<keyword text="denegeration"/>
+				<keyword text="spine"/>
+				<keyword text="spinal"/>
+				<keyword text="back"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Lumbar Disc Herniation" id="Lumbar Disc Herniation">
+				<keyword text="disk"/>
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="backache"/>
+				<keyword text="spinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Lumbar Sprain" id="Lumbar Sprain">
+				<keyword text="spine"/>
+				<keyword text="spinal"/>				
+				<keyword text="back"/>
+				<keyword text="backpain"/>
+				<keyword text="disk"/>
+				<keyword text="disc"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Lumbar Strain" id="Lumbar Strain">
+				<keyword text="back"/>
+				<keyword text="backpain"/>
+				<keyword text="disk"/>
+				<keyword text="disc"/>
+				<keyword text="spine"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pseudoarthrosis (Non-union of previous spinal fusion)" id="Pseudoarthrosis (Non-union of previous spinal fusion)">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				<keyword text="spinal"/>
+				<keyword text="vertebrae"/>
+				<keyword text="disc"/>
+				<keyword text="disk"/>
+				<keyword text="backpain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ruptured Lumbar Disc" id="Ruptured Lumbar Disc">
+				<keyword text="spine"/>
+				<keyword text="spinal"/>				
+				<keyword text="back"/>
+				<keyword text="backpain"/>
+				<keyword text="backache"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<table_response initial_rows_to_display="1" add_row_increment="0">
+	<column_definitions>
+		<column_definition label="Month" width="15"/>
+		<column_definition label="Year" width="5"/>
+	</column_definitions>
+</table_response>

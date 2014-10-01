@@ -1,0 +1,28 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Samir (IT) -->
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), (if received)." mandatory="true"/>
+	<material id="Pathology" description="Report and glass slides from all biopsies done." mandatory="true"/>
+	<material id="Surgical report(s)" description="Surgical reports of any and all relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis (chemotherapy, radiation therapy, etc.). If radiation therapy was used, a copy of the completion note will be required. Significant toxicities and response to the therapy should be described." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary OR a detailed chronological reconstruction of the case submitted by patient." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="Chest X-ray" description="Report and films of PA and lateral views." mandatory="true"/>
+	<material id="Other X-rays" description="Report and films." mandatory="true"/>
+	<material id="CT scan of the chest" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last six months." mandatory="false"/>
+	<material id="Upper endoscopy" description="Report and photographs." mandatory="false"/>
+	<material id="Previous chest X-rays" description="Report and films." mandatory="false"/>
+	<material id="Bone scan" description="Report only." mandatory="false"/>
+	<material id="Liver scan" description="Report only." mandatory="false"/>
+	<material id="MRI scan of the chest" description="Report and films." mandatory="false"/>
+	<material id="Most recent EKG" description="Report only." mandatory="false"/>
+	<material id="Barium swallow" description="Report and films." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lichtin_BleedingDisorders(acquired)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lichtin_BleedingDisorders(acquired)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Disseminated Intravascular Coagulopathy (DIC)" id="Disseminated Intravascular Coagulopathy (DIC)">
+				<keyword text="clotting"/>
+				<keyword text="coagulation"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Liver Disease-related Coagulation Disorder" id="Liver Disease-related Coagulation Disorder">
+				<keyword text="bleeding"/>
+				<keyword text="clotting"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Platelet Dysfunction" id="Platelet Dysfunction">
+				<keyword text="abnormal"/>
+				<keyword text="blood"/>
+				<keyword text="count"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Vitamin K Deficiency" id="Vitamin K Deficiency">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

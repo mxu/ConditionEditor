@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by Penny Black (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "FlushingMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "FlushingQuestionnaire.xml">
+]>
+<division description="Endocrinology and Metabolism" name="Endocrinology and Metabolism">
+	<department description="Endocrinology" name="Endocrinology">
+		<section description="" name="">
+			<condition cost="745.00" description="Flushing" id="Flushing">
+				<keyword text="Flush"/>
+				<keyword text="Blush"/>
+				<keyword text="Blushing"/>
+				<keyword text="Flushing"/>
+				<keyword text="Red"/>
+				<keyword text="Redness"/>
+				<keyword text="Skin"/>
+				<keyword text="Face"/>
+				<keyword text="Reddening"/>
+				<keyword text="Neck"/>
+				<keyword text="Chest"/>
+				<keyword text="Hot"/>
+				<keyword text="Fever"/>
+				<keyword text="Change"/>
+				<keyword text="Temperature"/>
+				<keyword text="Flashes"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

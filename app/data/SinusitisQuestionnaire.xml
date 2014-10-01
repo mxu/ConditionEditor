@@ -1,0 +1,3657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion.  Please provide as much detail as possible in your description below:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="If there was only one symptom we could help the patient with, which would you have us relieve? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Sinus infections"/>
+				<selection selected="false" text="Nasal congestion / stuffiness"/>
+				<selection selected="false" text="Headache and facial pain"/>
+				<selection selected="false" text="Facial fullness / pressure"/>
+				<selection selected="false" text="Post nasal drip"/>
+				<selection selected="false" text="Dental pain"/>
+				<selection selected="false" text="Discolored nasal drainage"/>
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Altered smell / taste"/>
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Ear fullness / clicking"/>
+				<selection selected="false" text="Bad breath"/>
+				<selection selected="false" text="Worsening asthma"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify in detail below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="For how long has patient had this one above symptom? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Besides the one symptom above chosen as one to be relieved, Please choose all other symptoms below which patient is experiencing.">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Sinus infections"/>
+				<selection selected="false" text="Nasal congestion / stuffiness"/>
+				<selection selected="false" text="Headache and facial pain"/>
+				<selection selected="false" text="Facial fullness / pressure"/>
+				<selection selected="false" text="Post nasal drip"/>
+				<selection selected="false" text="Dental pain"/>
+				<selection selected="false" text="Discolored nasal drainage"/>
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Altered smell / taste"/>
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Ear fullness / clicking"/>
+				<selection selected="false" text="Bad breath"/>
+				<selection selected="false" text="Worsening asthma"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of any of the following conditions?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Allergy"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="Bleeding disorder"/>
+				<selection selected="false" text="Cancer"/>
+				<selection selected="false" text="Cystic fibrosis"/>
+				<selection selected="false" text="Heart Disease"/>
+				<selection selected="false" text="High blood pressure"/>
+				<selection selected="false" text="Immunodeficiency"/>
+				<selection selected="false" text="Sinus disease"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="2" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="Relationship to Patient" width="20"/>
+								<column_definition label="Type of Cancer" width="30"/>
+								<column_definition label="Date of diagnosis (if known)" width="20"/>
+								<column_definition label="Type of Treatment (if known)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient currently employed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is patient's current occupation?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Has patient undergone a recent change in work environment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient undergone a recent change in home environment?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever used  tobacco (cigarettes, cigars, pipe, chewing)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is patient still using tobacco?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, when did patient quit?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If patient is still using tobacco, when did he/she start?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please complete additional information below:">
+						<table_response initial_rows_to_display="2" add_row_increment="1" row_height="1">
+							<column_definitions>
+								<column_definition label="# of cigarettes per day" width="10"/>
+								<column_definition label="# of cigars per day" width="10"/>
+								<column_definition label="# of times smoking pipe per day" width="10"/>
+								<column_definition label="Amount of chewing tobacco per day" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient consumed alcohol in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is patient still consuming alcohol?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No">
+								<question mandatory="true" prompt="If no, when did patient quit?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If patient is still consuming alcohol when  did he/she start?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How much alcohol does patient consume on average on a daily or weekly basis?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever participated in illicit drug use?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please describe in detail, the drug usage (include dates, what drugs used, ongoing or quit, etc.) below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience frequent sinus infections?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how frequent do sinus infections occur?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="This is first episode"/>
+							<selection selected="false" text="Once per year"/>
+							<selection selected="false" text="3 times / year"/>
+							<selection selected="false" text="Monthly"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Daily"/>
+							<selection selected="false" text="Constantly"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience baseline continuous nasal and sinus symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often do patient's baseline symptoms get worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Never (the symptoms are always the same)"/>
+							<selection selected="false" text="3 times / year"/>
+							<selection selected="false" text="4-6 times per year"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Monthly"/>
+							<selection selected="false" text="Yearly"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If symptoms are not continuous, does patient experience intermittent nasal and sinus symptoms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often do patient experience intermittent symptoms?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Once per year"/>
+							<selection selected="false" text="3 times / year"/>
+							<selection selected="false" text="4-6 times per year"/>
+							<selection selected="false" text="Monthly"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Yearly"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do patient's symptoms improve between episodes?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience nasal  congestion and / or blockage (stuffiness)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe this symptom in depth below (describe the symptom, when it developed, etc.):">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Which side of patient's nose is most often affected?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom (nasal congestion and / or blockage/stuffiness) present continuously?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by lying down?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by pollution?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by alcohol consumption?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by tobacco smoke?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by fragrances such as perfumes?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the congestion / blockage worsened by environmental irritants?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience  headache and / or facial pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Is this symptom (headache and/ or facial pain) present continuously?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If patient is a woman, do headaches vary with menstrual cycle?(choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="Not applicable (patient is menopausal female)"/>
+							<selection selected="false" text="Not applicable (patient is male)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="On which side of patient's head/face is the pain/discomfort most prominent?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please describe this symptom in detail  (describe the intensity of the symptom, location, duration, frequency, when it first developed, etc.) below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Where is patient's  pain / discomfort most marked?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="At the inner angle of the eye"/>
+							<selection selected="false" text="In the cheeks"/>
+							<selection selected="false" text="Around the eye"/>
+							<selection selected="false" text="In the back of your head"/>
+							<selection selected="false" text="On the forehead or eyebrow"/>
+							<selection selected="false" text="On your upper teeth"/>
+							<selection selected="false" text="Behind your eyes"/>
+							<selection selected="false" text="On your temple"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What is the most appropriate description of this facial pain / headache?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Pressure"/>
+							<selection selected="false" text="Fullness / heaviness"/>
+							<selection selected="false" text="Throbbing"/>
+							<selection selected="false" text="Sharp / stabbing"/>
+							<selection selected="false" text="Dull ache"/>
+							<selection selected="false" text="Cannot be described"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient's facial/head pain/discomfort worsen with any of the following?  PLEASE complete table below:">
+						<table_response add_row_increment="0">
+							<column_definitions>
+								<column_definition label="" width="30"/>
+								<column_definition label="No" width="10"/>
+								<column_definition label="Yes" width="10"/>
+								<column_definition label="Not Sure" width="10"/>
+								<column_definition label="Not applicable" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Airplane flight (headache only, not ear pain)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sinus infections</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Changes in Weather</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Position of patient's  head</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Certain foods</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Alcohol consumption</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tobacco smoke</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pollution</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Perfumes</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other irritants</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+					
+					<question mandatory="true" prompt="Is patient's facial/head pain/discomfort  associated with nausea and / or vomiting?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, has patient ever been treated for migraine headaches?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How frequently does patient experience migraine headaches? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Daily"/>
+										<selection selected="false" text="Weekly"/>
+										<selection selected="false" text="Monthly"/>
+										<selection selected="false" text="Annually"/>
+										<selection selected="false" text="None of above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Can patient distinguish a migraine headache from a sinus-related pain?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is patient's facial/head pain/discomfort  associated with congestion / stuffiness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have facial pain / headache right now?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please rate patient's  pain on the scale of 1-10 (1= No pain, 10= Worst pain) New scale please!">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - No pain"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience facial fullness/ pressure? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is this symptom (facial fullness/pressure) present continuously? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient been diagnosed with temporomandibular joint syndrome (TMJ)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide date of diagnosis">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="How is the TMJ being treated (please describe in detail below)?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient grind his/her teeth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever broken his/her jaw?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience dental pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is this symptom (dental pain) present continuously?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient undergone recent dental work?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the dental work performed below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did this occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has  patient ever experienced a neck injury?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the neck injury in detail below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did this occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has  patient ever been instructed to wear a cervical (neck) collar?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail why collar was prescribed:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did this occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience nasal drainage? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, does it appear mostly after eating? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient experienced typical drainage today? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="In which direction does the drainage usually pass? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Forward, out of patient's nose"/>
+							<selection selected="false" text="Backwards into patient's throat"/>
+							<selection selected="false" text="Both forwards and backwards"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="None of the Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please describe below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Which side of patient's nose is most affected? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the color of the drainage? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Discolored"/>
+							<selection selected="false" text="Clear"/>
+							<selection selected="false" text="Sometimes discolored, sometimes clear"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please describe below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please check all terms which best describe the typical appearance(s) of patient's  drainage: (choose one)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Clear"/>
+							<selection selected="false" text="Yellow"/>
+							<selection selected="false" text="Green"/>
+							<selection selected="false" text="Brown"/>
+							<selection selected="false" text="Opaque white"/>
+							<selection selected="false" text="Blood-tinged"/>
+							<selection selected="false" text="Black"/>
+							<selection selected="false" text="Orange"/>
+							<selection selected="false" text="None of the Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please describe below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the drainage thin and water-like? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, does the drainage have a salty taste? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Does the drainage appear after bending, lifting, and / or straining? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>	
+					</question>
+					<question mandatory="true" prompt="Is the drainage thin and thick and mucus-like? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, does the drainage have a salty taste? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Does the drainage appear after bending, lifting, and / or straining? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom (nasal drainage) present continuously? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience post-nasal drainage? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is this symptom (post-nasal drainage) present continuously? (choose one)">
+						 <item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience bleeding from the nose? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes,  describe the typical amount of blood that is present (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Occasional streaking on tissues"/>
+							<selection selected="false" text="Daily streaking on tissues"/>
+							<selection selected="false" text="Occasional blood clots"/>
+							<selection selected="false" text="Intermittent bouts of heavy bleeding"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has patient had nasal  bleeding today? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Which side of your nose is most affected? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+							<selection selected="false" text="Not sure"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does the nasal bleeding occur most often in winter? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does bleeding occur with nasal spray use? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Not applicable (nasal sprays not used)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does bleeding occur after nose blowing? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient experience coughing up of blood associated with the nasal bleeding? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please explain below how patient's  nasal bleeding has been treated in the past:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Is this symptom (nasal bleeding) present continuously? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>			
+					<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience altered smell / taste? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes,  Does patient's sense of smell/taste symptoms worsen with sinus/nasal infection? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If yes, one description below best describes the change in taste / smell? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Diminished sense of taste"/>
+							<selection selected="false" text="Loss of taste"/>
+							<selection selected="false" text="Detect bad taste"/>
+							<selection selected="false" text="Diminished sense of smell"/>
+							<selection selected="false" text="Loss of smell"/>
+							<selection selected="false" text="Detect bad odor"/>
+							<selection selected="false" text="Burning tongue sensation"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+						</selection>
+					</item_response>
+					</question>
+					<question mandatory="true" prompt="What other taste / smell problems is patient having? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Diminished sense of taste"/>
+							<selection selected="false" text="Loss of taste"/>
+							<selection selected="false" text="Detect bad taste"/>
+							<selection selected="false" text="Diminished sense of smell"/>
+							<selection selected="false" text="Loss of smell"/>
+							<selection selected="false" text="Detect bad odor"/>
+							<selection selected="false" text="Burning tongue sensation"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient's sense of smell/taste symptoms improve with medication/treatment? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe medication/treatment below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient detect an odor that other people can not? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient have a decreased or absence of smell today? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom (altered smell/taste)  present continuously? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience fevers? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Is this symptom (fevers) present continuously? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+							<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+							<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="For how long has this symptom been present?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Since childhood"/>
+							<selection selected="false" text="Less than 3 months"/>
+							<selection selected="false" text="More than 3 months but less than one year"/>
+							<selection selected="false" text="1-2 years"/>
+							<selection selected="false" text="More than two years "/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience fatigue? (choose one)">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="Is this symptom (fatigue) present continuously? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+								<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="For how long has this symptom been present?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Since childhood"/>
+								<selection selected="false" text="Less than 3 months"/>
+								<selection selected="false" text="More than 3 months but less than one year"/>
+								<selection selected="false" text="1-2 years"/>
+								<selection selected="false" text="More than two years "/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please specify in detail below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience ear fullness and/or clicking and/or ear pain? (choose one)">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="Is this symptom (ear fullness/clicking/pain)present continuously? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+								<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="For how long has this symptom been present?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Since childhood"/>
+								<selection selected="false" text="Less than 3 months"/>
+								<selection selected="false" text="More than 3 months but less than one year"/>
+								<selection selected="false" text="1-2 years"/>
+								<selection selected="false" text="More than two years "/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please specify in detail below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience bad breath? (choose one)">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="Is this symptom (bad breath) present continuously? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+								<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="For how long has this symptom been present?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Since childhood"/>
+								<selection selected="false" text="Less than 3 months"/>
+								<selection selected="false" text="More than 3 months but less than one year"/>
+								<selection selected="false" text="1-2 years"/>
+								<selection selected="false" text="More than two years "/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please specify in detail below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience a cough? (choose one)">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="Is this symptom (cough) present continuously? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+								<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="For how long has this symptom been present?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Since childhood"/>
+								<selection selected="false" text="Less than 3 months"/>
+								<selection selected="false" text="More than 3 months but less than one year"/>
+								<selection selected="false" text="1-2 years"/>
+								<selection selected="false" text="More than two years "/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please specify in detail below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient been diagnosed with asthma? (choose one)">
+				<item_response drop_down_style="false" single_response="true">
+					<selection selected="false" text="Not sure"/>
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+						<question mandatory="true" prompt="If yes, does your asthma flare up in association with: (choose all that apply)">
+							<table_response add_row_increment="0" row_height="2">
+								<column_definitions>
+									<column_definition label="Symptom" width="30"/>
+									<column_definition label="Yes / No &lt;BR&gt; Not Sure" width="20"/>
+								</column_definitions>
+								<table_data>
+									<cell>Discolored nasal drainage/discharge?</cell>
+									<cell/>
+								</table_data>
+								<table_data>
+									<cell>Nasal congestion?</cell>
+									<cell/>
+								</table_data>
+								<table_data>
+									<cell>Nasal sinus infections?</cell>
+									<cell/>
+								</table_data>
+								<table_data>
+									<cell>Exercise or temperature changes?</cell>
+									<cell/>
+								</table_data>
+							</table_response>
+						</question>
+						<question mandatory="true" prompt="How many asthma attacks has patient had in the last year?">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="1"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="More than 4"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="How many emergency visits (to the hospital or doctor's office) has patient had for  asthma during the past year?">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="1"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="More than 4"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="How many times has patient been  hospitalized overnight  for asthma during the past year?">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="1"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="More than 4"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="How many times has patient had a  breathing tube inserted to help patient   breathe (intubated) for  asthma during the past year?">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="1"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="More than 4"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="How many courses of oral steroids (prednisone/Medrol) has patient received for asthma during the past year?">
+							<item_response drop_down_style="true" single_response="true">
+								<selection selected="false" text="1"/>
+								<selection selected="false" text="2"/>
+								<selection selected="false" text="3"/>
+								<selection selected="false" text="4"/>
+								<selection selected="false" text="More than 4"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Has patient undergone spirometry (breathing tests) to assess his / her asthma?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Which of the following medications has patient  used during the past year for asthma? (choose all that apply)">
+							<item_response drop_down_style="false" single_response="false">
+								<selection selected="false" text="Alupent"/>
+								<selection selected="false" text="Maxair"/>
+								<selection selected="false" text="Metaprel"/>
+								<selection selected="false" text="Proventil"/>
+								<selection selected="false" text="Serevent"/>
+								<selection selected="false" text="Ventolin"/>
+								<selection selected="false" text="AeroBid"/>
+								<selection selected="false" text="Azmacort"/>
+								<selection selected="false" text="Beclovent"/>
+								<selection selected="false" text="Flovent"/>
+								<selection selected="false" text="Pulmicort"/>
+								<selection selected="false" text="Vanceril"/>
+								<selection selected="false" text="Atrovent"/>
+								<selection selected="false" text="Intal / Tilade"/>
+								<selection selected="false" text="Oral steroids (prednisone, medrol)"/>
+								<selection selected="false" text="Theophylline/Theodora/Unify"/>
+								<selection selected="false" text="Oxygen Therapy"/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please list below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="How often has patient used inhalers during the past year? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Daily"/>
+								<selection selected="false" text="Weekly"/>
+								<selection selected="false" text="Monthly"/>
+								<selection selected="false" text="Rarely"/>
+								<selection selected="false" text="Never"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Is this condition (asthma) present continuously? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Not sure"/>
+								<selection selected="false" text="No"/>
+								<selection selected="false" text="Yes"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="Please rate the symptom severity? (choose one)">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Does not limit patient's physical, social and / or work activity"/>
+								<selection selected="false" text="Mildly limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Moderately limits patient's  physical, social and / or work activity"/>
+								<selection selected="false" text="Severely limits patient's physical, social and / or work activity"/>
+							</item_response>
+						</question>
+						<question mandatory="true" prompt="For how long has this symptom been present?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Since childhood"/>
+								<selection selected="false" text="Less than 3 months"/>
+								<selection selected="false" text="More than 3 months but less than one year"/>
+								<selection selected="false" text="1-2 years"/>
+								<selection selected="false" text="More than two years "/>
+								<selection selected="false" text="None of the above"/>
+								<selection selected="false" text="Other">
+									<question mandatory="true" prompt="If other, please specify in detail below:">
+										<free_form_response height="2"/>
+									</question>
+								</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="Is this symptom changing in any way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how is this symptom changing?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Improving"/>
+										<selection selected="false" text="Getting Worse"/>
+										<selection selected="false" text="No real change"/>
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="None of the above"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please specify in detail below:">
+												<free_form_response height="2"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When did patient first develop this symptom?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient take aspirin or any other anti-inflammatory medication on a regular basis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, for what reason is the aspirin taken? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Headache"/>
+							<selection selected="false" text="Atypical facial pain"/>
+							<selection selected="false" text="Seizures"/>
+							<selection selected="false" text="Head injury"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever experienced a head injury associated with loss of consciousness? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever been seen  by a neurologist in the past  for any reason? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever undergone nasal or sinus surgery in the past? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please complete additional information below:">
+							<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+								<column_definitions>
+									<column_definition label="Reason for surgery" width="20"/>
+									<column_definition label="Type of surgery" width="20"/>
+									<column_definition label="Date of surgery" width="10"/>
+									<column_definition label="Name of physician" width="20"/>
+									<column_definition label="Name of Hospital / Clinic" width="20"/>
+									<column_definition label="Location (City/State)" width="20"/>
+								</column_definitions>
+							</table_response>
+						</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever had CT scans of head done? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, why was (were) CT Scan (s) done?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please provide additional information below:">
+							<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+								<column_definitions>
+									<column_definition label="Reason for CT Scan" width="20"/>
+									<column_definition label="Date of CT Scan" width="10"/>
+									<column_definition label="Name of physician" width="20"/>
+									<column_definition label="Name of Hospital / Clinic" width="20"/>
+									<column_definition label="Location (City/State)" width="20"/>
+								</column_definitions>
+							</table_response>
+						</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever had MRI scans of head done? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, why was (were) MRI Scan(s) done?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Please provide additional information below:">
+							<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+								<column_definitions>
+									<column_definition label="Reason for MRI Scan" width="20"/>
+									<column_definition label="Date of MRI Scan" width="10"/>
+									<column_definition label="Name of physician" width="20"/>
+									<column_definition label="Name of Hospital / Clinic" width="20"/>
+									<column_definition label="Location (City/State)" width="20"/>
+								</column_definitions>
+							</table_response>
+						</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever fractured (broken) broken his/her nose? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the details of the nasal fracture below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did fracture occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever fractured (broken) any other bones? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the details of the fracture(s) below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When did fracture occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient received any recent immunizations, when?">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Immunizations" width="30"/>
+					<column_definition label="Date (Month / Year)" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Tetanus</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Flu</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please describe below with date)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever  received a blood transfusion? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe details below:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Date of blood transfusion?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient allergic to any medications (including aspirin, aspirin-like medications, aspirin-containing medications? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+							<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+								<column_definitions>
+									<column_definition label="Name of Medication" width="25"/>
+									<column_definition label="Type of Reaction (rash, hives, anaphylactic shock, etc.)" width="25"/>
+								</column_definitions>
+							</table_response>
+						</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Does patient experience allergy symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, which of the following allergy symptoms does patient experience? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Sneezing fits"/>
+							<selection selected="false" text="Itchy ears"/>
+							<selection selected="false" text="Itchy eyes"/>
+							<selection selected="false" text="Itchy nose"/>
+							<selection selected="false" text="Runny nose"/>
+							<selection selected="false" text="Itchy throat"/>
+							<selection selected="false" text="Runny/water eyes"/>
+							<selection selected="false" text="Scratchy roof of mouth"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If patient experience allergy symptoms, do these symptoms occur with foods? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If Yes, please provide the following information:">
+									<table_response initial_rows_to_display="3" add_row_increment="2" row_height="1">
+										<column_definitions>
+											<column_definition label="Type of food" width="25"/>
+											<column_definition label="Specific reaction &lt;BR&gt; (example: Sneezing fits, Itchy ears, Itchy eyes, Itchy nose, Itchy throat, Runny nose, &lt;BR&gt; Scratchy roof of mouth, Runny/water eyes.)" width="35"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When are patient's allergy symptoms most apparent?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Winter"/>
+							<selection selected="false" text="Spring"/>
+							<selection selected="false" text="Summer"/>
+							<selection selected="false" text="Fall"/>
+							<selection selected="false" text="All year long"/>
+							<selection selected="false" text="None of above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please specify in detail below:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>	
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever been tested for allergies? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, was patient tested by blood or skin test or both? (please explain below).">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="What  was the  result of the allergy testing? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/> 
+							<selection selected="false" text="Negative"/>
+							<selection selected="false" text="Borderline"/>
+							<selection selected="false" text="Positive">
+								<question mandatory="true" prompt="If positive, please list all allergies below:">
+									<free_form_response height="4"/>
+								</question>
+								<question mandatory="true" prompt="How long ago was the allergy testing done? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Less than 6 months"/>
+										<selection selected="false" text="6 months to less than one year"/>
+										<selection selected="false" text="1 year to less than 2 years"/>
+										<selection selected="false" text="2 years to less than 5 years"/>
+										<selection selected="false" text="5 or more years"/>
+									</item_response>
+								</question>	
+								<question mandatory="true" prompt="Has patient received shots for allergies? (choose all true responses below)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="No, patient never received allergy shots"/>
+										<selection selected="false" text="Yes, patient received allergy shots for more than one year"/>
+										<selection selected="false" text="Yes, patient received allergy shots for less than one year"/>
+										<selection selected="false" text="Patient is still receiving shots"/>
+										<selection selected="false" text="Patient received last shot less than 1 year ago"/>
+										<selection selected="false" text="Patient received last shot more than a year ago but less than 2 years ago"/>
+										<selection selected="false" text="Patient received last shot more than 2 years ago but less than 5 years ago"/>
+										<selection selected="false" text="Patient  received last shot more than 5 years ago but less than 10 years ago"/>
+										<selection selected="false" text="The allergy shots helped patient's  condition a great deal"/>
+										<selection selected="false" text="The allergy shots helped patient's condition very little"/>
+										<selection selected="false" text="The allergy shots did not help patient's condition"/>
+									</item_response>
+								</question>	
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="&lt;BR&gt; The following is a list of health care problems/symptoms.  Please mark 0-4 using the rating scale below indicate the severity of each 	separate problem. After you mark 0-4, you should mark the * if you are being treated by another doctor for that particular problem. Please make one choice (0 - *) for each symptom listed &lt;BR&gt; &lt;B&gt; Rating scale:&lt;/B&gt; &lt;BR&gt; 0 - this is not a problem &lt;BR&gt; 1 - this is a symptom but does not affect my quality of life&lt;BR&gt;  2 - this is a symptom and does affect my quality of life &lt;BR&gt; 3 - this is a symptom and worsens my quality of life &lt;BR&gt; 4 - I am not sure if this is a symptom &lt;BR&gt; * - I am currently being treated by another doctor for this problem&lt;BR&gt;&lt;BR&gt;">
+			<item_response drop_down_style="false" single_response="false">
+				<!-- Ear -->
+				<selection selected="false" text="&lt;B&gt;EARS&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Ringing</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Dizziness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Vertigo</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pain</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Drainage</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hearing loss</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- mouth/throat-->
+				<selection selected="false" text="&lt;B&gt;MOUTH / THROAT&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Dryness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Sores / ulcers</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Difficulty swallowing</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pain on swallowing</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hoarseness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Choking on solids</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Choking on liquids</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Lumps in your neck </cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- eyes -->
+				<selection selected="false" text="&lt;B&gt;EYES&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Recent change in vision</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Double vision</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Clouded vision</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--General -->
+				<selection selected="false" text="&lt;B&gt;GENERAL&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Nausea</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Recent weight loss</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Recent weight gain</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fever</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chills</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Night sweats</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fatigue</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!-- Endocrine -->
+				<selection selected="false" text="&lt;B&gt;ENDOCRINE&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Heat / cold intolerance</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Excessive thirst</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Cardiopulmonary-->
+				<selection selected="false" text="&lt;B&gt;CARDIOPULMONARY&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Heart murmur</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Palpitations</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chest pain</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Shortness of breath</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Wheezing</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tremor</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Nervous System-->
+				<selection selected="false" text="&lt;B&gt;NERVOUS SYSTEM&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Numbness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tingling</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Fainting</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Weakness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Tremor</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Genito-Urinary-->
+				<selection selected="false" text="&lt;B&gt;GENITO-URINARY&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Burning on urination</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Frequency of urination</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Change in color of urine</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Psychological-->
+				<selection selected="false" text="&lt;B&gt;PSYCHOLOGICAL&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Schizophrenia</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Depression</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Gastrointestinal-->
+				<selection selected="false" text="&lt;B&gt;GASTROINTESTINAL&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Indigestion / heartburn</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Vomiting</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Nausea</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Change in stool color</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diarrhea</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Constipation</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Abdominal pain</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+				<!--Disturbance of sleep-->
+				<selection selected="false" text="&lt;B&gt;DISTURBANCE OF SLEEP&lt;/B&gt;">
+					<question mandatory="true" prompt="">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Symptom" width="45"/>
+								<column_definition label="0" width="10"/>
+								<column_definition label="1" width="10"/>
+								<column_definition label="2" width="10"/>
+								<column_definition label="3" width="10"/>
+								<column_definition label="4" width="10"/>
+								<column_definition label="*" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Loud snoring</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Excessive daytime sleepiness</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Difficulty falling asleep</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Difficulty staying asleep</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Stoppage of breathing during sleep</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Wake up not feeling rested</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What of the following type of treatment has patient received in the past for his/her condition (one patient is seeking a second opinion for)? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Antibiotics"/>
+				<selection selected="false" text="Antihistamines such as Allegra, Claritin, Seldane, Zyrtec, others."/>
+				<selection selected="false" text="Topical nasal steroids such as Flonase, Nasacort, Nasonex, Rhinocort, others."/>
+				<selection selected="false" text="Systemic steroids such as Medrol, prednisone, others"/>
+				<selection selected="false" text="Aspirin / Acetaminophen / over the counter non steroidal anti-inflammatory drugs such as motrim, ibuprofen, etc."/>
+				<selection selected="false" text="Other prescription medications"/>
+				<selection selected="false" text="Topical over the counter medications"/>
+				<selection selected="false" text="Other over the counter medications"/>
+				<selection selected="false" text="Other topical antibiotic treatments"/>
+				<selection selected="false" text="Topical nasal steroids such as Flonase, Nasacort, Nasonex, Rhinocort, others."/>
+				<selection selected="false" text="Other nasal sprays such as Astelin, Atrovent, over the counter sprays"/>
+				<selection selected="false" text="Decongestants such as Allegra-D, Claritin-D, Entex PSE/La, Humibid/Duratuss  (guaifensin), Sudafed (pseudoephedrine)"/>
+				<selection selected="false" text="Other treatments such as saline sprays, nasal saline irrigations, herbal medicines, steam inhalation, humidifier, air purifier"/>
+				<selection selected="false" text="Steam inhalation, humidifier, air purifier"/>
+				<selection selected="false" text="None of above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please give detail below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Please provide response to the type of treatments listed below.">
+			<table_response add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Type of treatment" width="20"/>
+					<column_definition label="Details of Patient's Improvement" width="35"/>
+					<column_definition label="Additional information/ comments you may have regarding this treatment" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Antibiotics</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Antihistamines such as Allegra, Claritin, Seldane, Zyrtec, others.</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Topical nasal steroids such as Flonase, Nasacort, Nasonex, Rhinocort, others.</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Systemic steroids such as Medrol, prednisone, others</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Aspirin / Acetaminophen / over the counter non steroidal anti-inflammatory drugs</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Other prescription medications</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Topical over the counter medications</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Other over the counter medications</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				<table_data>
+					<cell>Other topical antibiotic treatments</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Never used"/>
+								<selection selected="false" text="No relief"/>
+								<selection selected="false" text="Some improvement but could not tolerate"/>
+								<selection selected="false" text="Minimal improvement (less than 25%)"/>
+								<selection selected="false" text="Partial improvement (50%)"/>
+								<selection selected="false" text="Significant improvement (more than 75%)"/>
+								<selection selected="false" text="Resolution (100%)"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please  respond to following  with regard to antibiotic treatment you may or may not have received:">
+			<table_response add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="Type of antibiotic treatment" width="30"/>
+					<column_definition label="Duration of treatment (if taken)" width="30"/>
+					<column_definition label="Dates taken" width="30"/>
+					<column_definition label="Comments" width="25"/>
+				</column_definitions>
+				<!--1 Amoxicillin. penicillin-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Amoxicillin, penicillin?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--2 Augmentin-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Augmentin (amoxicillin/clavulanate)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--3 Ceclor (cefaclor) -->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Ceclor (cefaclor)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--4 Ceftin (cefuroxime) -->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Ceftin (cefuroxime)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--5 Cefzil (cefprozil) -->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Cefzil (cefprozil)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--6 Duricef (cefadroxil) -->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Duricef (cefadroxil)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--7 Keflex (cephalexin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Keflex (cephalexin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--8 Lorabid (loracarbef)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Lorabid (loracarbef)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--8.5 Vantin (cefpodoxime)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Vantin (cefpodoxime)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--9 Biaxin (clarithromycin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Biaxin (clarithromycin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--10 Erythromycin-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Erythromycin?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--11 Zithromax (azithromycin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Zithromax (azithromycin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--12 Avelox (moxiflozacin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Avelox (moxiflozacin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--13 Cipro (ciprofloxacin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Cipro (ciprofloxacin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--14 Levaquin (levofloxacin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Levaquin (levofloxacin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+				
+				<!--15 Tequin (gatifloxacin)-->
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="Tequin (gatifloxacin)?">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Yes, I have taken this drug for my symptoms"/>
+								<selection selected="false" text="No, I have never taken this drug"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Less than 10 days"/>
+								<selection selected="false" text="10-14 days"/>
+								<selection selected="false" text="More than 2 weeks, but less than 4 weeks"/>
+								<selection selected="false" text="More than 1 month, less than 2 months"/>
+								<selection selected="false" text="More than 2 months"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Currently taking this medication"/>
+								<selection selected="false" text="Completed treatment in the last month"/>
+								<selection selected="false" text="Completed treatment in the past 1-3 months"/>
+								<selection selected="false" text="Completed treatment in the past 4-6 months"/>
+								<selection selected="false" text="Completed treatment more than a year ago"/>
+								<selection selected="false" text="Can not recall"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding your current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician Name" width="30"/>
+					<column_definition label="Specialty &lt;BR&gt; (primary care physician, ENT specialist, allergist, etc.)" width="30"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

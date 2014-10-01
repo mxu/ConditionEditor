@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Novick_KidneyTranplantMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Novick_KidneyTranplantQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Kidney Transplant" id="Kidney Transplant">
+				<keyword text="kidney"/>
+				<keyword text="transplant"/>
+				<keyword text="renal"/>
+				<keyword text="failure"/>
+				<keyword text="donor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="745.00" description="Chronic Renal Failure" id="Chronic Renal Failure">
+				<keyword text="kidney"/>
+				<keyword text="renal"/>
+				<keyword text="failure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="745.00" description="Polycystic Kidney Disease" id="Polycystic Kidney Disease">
+				<keyword text="kidney"/>
+				<keyword text="renal"/>
+				<keyword text="failure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+
+			<condition cost="745.00" description="Acute Renal Failure" id="Acute Renal Failure">
+				<keyword text="kidney"/>
+				<keyword text="renal"/>
+				<keyword text="failure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="745.00" description="Focal Segmental Glomerulosclerosis " id="Focal Segmental Glomerulosclerosis ">
+				<keyword text="kidney"/>
+				<keyword text="renal"/>
+				<keyword text="failure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+
+			
+		</section>
+	</department>
+</division>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!--Authored by Penny L. Black 10/09/2001-->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="If you have a history of any of the following conditions, please provide date of diagnosis:">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Condition" pct="70"/>
+					<column_definition label="Month" pct="15"/>
+					<column_definition label="Year" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Clotting disorders</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Alcoholic liver disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cirrhosis of liver</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis B (infectious)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis C (viral)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver cancer</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Portal hypertension</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sclerosing cholangitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Portal vein thrombosis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other liver disease (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="How was your current condition (one you are seeking second opinion for) diagnosed? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Upper endoscopy"/>
+				<selection selected="false" text="X-ray"/>
+				<selection selected="false" text="Angiogram"/>
+				<selection selected="false" text="CT scan"/>
+				<selection selected="false" text="MRI scan"/>
+				<selection selected="false" text="Catheterization of hepatic veins"/>
+				<selection selected="false" text="Ultrasound"/>
+				<selection selected="false" text="Blood tests"/>
+				<selection selected="false" text="Portal pressure measurement"/>
+				<selection selected="false" text="Unknown"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of study" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When where you last examined by your physician for your current condition (one you are seeking a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="How long have you had this problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than one month"/>
+				<selection selected="false" text="1-3 months"/>
+				<selection selected="false" text="4-6 months"/>
+				<selection selected="false" text="7-12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever experienced upper gastrointestinal bleeding?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever experienced upper gastrointestinal bleeding, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received sclerotherapy or variceal banding?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever received sclerotherapy or variceal banding, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are experiencing pain, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you are experiencing pain, what is the location of the pain?">
+						<free_form_response width="30"/>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain on the scale below (1=minimal pain, 10=worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="Do you experience pain at night while resting?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you experience pain at night while resting, does it prevent you from falling asleep or does it wake you up during the night?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience fatigue?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience fatigue, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience weakness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience weakness, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience nausea?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience nausea, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience anorexia (loss of appetite)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience anorexia, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced a recent weight loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experienced a recent weight loss, please provide the following information:">
+						<table_response add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Number of &lt;BR&gt; pounds / kilograms lost" width="20"/>
+								<column_definition label="Over what &lt;BR&gt; time period" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced ascites (build up of fluid in your abdomen)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experienced ascites, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced edema (swelling) in your feet or legs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced edema in your feet or legs, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced a recent weight gain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have experienced a recent weight gain, please provide the following information:">
+						<table_response add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Number of &lt;BR&gt; pounds / kilograms gained" width="20"/>
+								<column_definition label="Over what &lt;BR&gt; time period" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever experienced jaundice (yellow coloring of skin and/or eyes)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever experienced jaundice, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had darker than usual colored urine?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had darker than usual colored urine, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you noticed that your stools (bowel movements) have a bloody or a dark tarry color?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have noticed that your stools (bowel movements) have a bloody or a dark tarry color, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you had any of the following studies?  If so, when?">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" pct="70"/>
+					<column_definition label="Month" pct="15"/>
+					<column_definition label="Year" pct="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>X-rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood work</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver biopsy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Portal pressure measurement</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Catheterization of hepatic veins</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Upper endoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone any treatment for your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone any treatment for your current condition, please explain in detail the type of treatments you have undergone:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (gastroenterologist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What have the doctors stated regarding your prognosis (forecast of the probable course of the disease)?">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="false" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="8"/>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

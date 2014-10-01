@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "SinusitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "SinusitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition cost="745.00" description="Sinusitis" id="Sinusitis">
+				<keyword text="sinus"/>
+				<keyword text="nose"/>
+				<keyword text="nasal"/>
+				<keyword text="infection"/>
+				<keyword text="blockage"/>
+				<keyword text="paranasal"/>
+				<keyword text="inflammation"/>
+				<keyword text="infected"/>
+				<keyword text="inflamed"/>
+				<keyword text="rhinosinusitis"/>
+				<keyword text="rhinitis"/>
+				<keyword text="deviated"/>
+				<keyword text="septum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Deviated Septum" id="Deviated Septum">
+				<keyword text="sinus"/>
+				<keyword text="nose"/>
+				<keyword text="nasal"/>
+				<keyword text="infection"/>
+				<keyword text="blockage"/>
+				<keyword text="paranasal"/>
+				<keyword text="inflammation"/>
+				<keyword text="infected"/>
+				<keyword text="inflamed"/>
+				<keyword text="rhinosinusitis"/>
+				<keyword text="rhinitis"/>
+				<keyword text="deviated"/>
+				<keyword text="septum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

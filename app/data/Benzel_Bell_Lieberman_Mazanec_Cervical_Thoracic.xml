@@ -1,0 +1,76 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_Cervical_ThoracicMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_Cervical_ThoracicQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition cost="565.00" description="Cervical Disc Herniation" id="Cervical Disc Herniation">
+				<keyword text="cervical"/>
+				<keyword text="neck"/>
+				<keyword text="disk"/>
+				<keyword text="disc"/>
+				<keyword text="herniation"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Cervical Myelopathy" id="Cervical Myelopathy">
+				<keyword text="cervical"/>
+				<keyword text="myelopathy"/>
+				<keyword text="neck"/>
+				<keyword text="spine"/>
+				<keyword text="bone"/>
+				<keyword text="spur"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Cervical Spinal Stenosis" id="Cervical Spinal Stenosis">
+				<keyword text="cervical"/>
+				<keyword text="stenosis"/>
+				<keyword text="neck"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Kyphosis" id="Kyphosis">
+				<keyword text="Kyphosis"/>
+				<keyword text="curvature"/>
+				<keyword text="spine"/>
+				<keyword text="lordosis"/>
+				<keyword text="roundback"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Thoracic Disc Herniation" id="Thoracic Disc Herniation">
+				<keyword text="thoracic"/>
+				<keyword text="back"/>
+				<keyword text="disk"/>
+				<keyword text="disc"/>
+				<keyword text="herniation"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Thoracic Myelopathy" id="Thoracic Myelopathy">
+				<keyword text="thoracic"/>
+				<keyword text="myelopathy"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Thoracic Spinal Stenosis" id="Thoracic Spinal Stenosis">
+				<keyword text="thoracic"/>
+				<keyword text="stenosis"/>
+				<keyword text="spine"/>
+				<keyword text="back"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

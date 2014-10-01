@@ -1,0 +1,712 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Harsha Reddy (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of diabetes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of diabetes, do you take insulin?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you take insulin, for how long have you taken insulin injections?">
+									<table_response add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Number of Months" width="20"/>
+											<column_definition label="Number of Years" width="20"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of hypertension (high blood pressure)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of hypertension, please provide your most recent blood pressure reading (if known):">
+						<table_response add_row_increment="0" row_height="2">
+							<column_definitions>
+								<column_definition label="Systolic reading &lt; BR &gt; (top number)" width="20"/>
+								<column_definition label="Diastolic reading &lt; BR &gt; (bottom number)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="When was this most recent reading taken?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Who took this most recent reading?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Self"/>
+							<selection selected="false" text="Family Member"/>
+							<selection selected="false" text="Physician"/>
+							<selection selected="false" text="Nurse"/>
+							<selection selected="false" text="Other"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are you on any treatment for your high blood pressure?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are on any treatment for your high blood pressure, please explain the type of treatment (type of medication, diet, etc.) in detail:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of heart disease?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of heart disease, have you ever had any of the following (choose all that apply):">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Previous heart attack"/>
+							<selection selected="false" text="Valvular Heart Disease"/>
+							<selection selected="false" text="Congestive Heart Failure"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other heart disease">
+								<question mandatory="true" prompt="If other heart disease, please explain in detail:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of stroke or TIA (Transient Ischemic Attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of stroke or TIA, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have a history of stroke or TIA, please describe the circumstances in detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of Lymphoma or Hodgkin's disease?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of Lymphoma or Hodgkin's disease, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have a history of Lymphoma or Hodgkin's disease, please describe in detail, any treatment(s) you have received for this condition">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone any treatment for any forms of cancer?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone any treatment for any forms of cancer, please describe in detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of blood clots?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of blood clots, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have a history of blood clots, where were the clots located (anatomic area)?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with a bleeding disorder?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with a bleeding disorder, please provide additional information below:">
+						<table_response add_row_increment="2" row_height="4">
+							<column_definitions>
+								<column_definition label="Type of bleeding disorder" width="30"/>
+								<column_definition label="Date of diagnosis &lt;BR&gt; Month, Year)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you bruise easily?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of migraine headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of migraine headaches, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of shingles?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of shingles, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have a history of shingles, what part of the body was affected?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of autoimmune diseases such as Multiple Sclerosis (MS), Systematic Lupus, Rheumatoid Arthritis, or other types?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of autoimmune diseases, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have a history of autoimmune diseases, please describe conditions in detail:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of infectious diseases such as Hepatitis, Human Immunodeficiency Virus (HIV), Tuberculosis or  positive TB skin test?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of infectious diseases, please describe the condition(s) in detail:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any other chronic medical conditions not listed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of any other chronic medical conditions not listed, please explain in detail (type of condition, when, how treated, etc.)">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history (mother, father, sister, brother) of strokes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of strokes, please explain in detail:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history (mother, father, sister, brother) of early heart disease (under the age of 60)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of early heart disease, please explain in detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history (mother, father, sister, brother) of migraine headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of migraine headaches,  who?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history (mother, father, sister, brother) of autoimmune diseases such as Multiple Sclerosis (MS), Systematic Lupus, Rheumatoid Arthritis, or other types?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of autoimmune diseases, please describe  (which family member(s), type of condition(s), etc.) in detail::">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history (mother, father, sister, brother) of any other chronic medical condition not listed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of any other chronic medical condition not listed, please describe (which family member, type of condition, when, how treated, etc.) in detail :">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink alcohol?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you drink alcohol, indicate the amount (number of drinks / week). (include beer, wine, liquor):">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If stopped, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken recreational drugs, specifically cocaine or heroine?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever taken recreational drugs, please provide details regarding when, type of drug(s), duration of usage, etc.:">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If stopped, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever smoked?  Please include all forms of tobacco i.e.: cigarettes, cigars, smokeless tobacco.">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever smoked, indicate the amount of cigarettes: (number of cigarettes / day)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="For how long have you been smoking cigarettes? (number of years)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If stopped, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have ever smoked, indicate the amount of cigars: (number of cigars / day)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="For how long have you been smoking cigars? (number of years)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If stopped, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you have ever used smokeless tobacco, indicate the amount of smokeless tobacco: (chewing tobacco / day)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="For how long have you been chewing tobacco? (number of years)">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If stopped, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="At the onset of your current illness (one you are seeking a second opinion for), list the medications you are currently taking:">
+			<table_response initial_rows_to_display="3" add_row_increment="1">
+				<column_definitions>
+					<column_definition label="Name of medication" width="25"/>
+					<column_definition label="Reason for taking" width="20"/>
+					<column_definition label="Dosage" width="10"/>
+					<column_definition label="How taken &lt;BR&gt; (orally, IV, injection, etc.)" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="At the onset of your current illness (one you are seeking a second opinion for), were you taking any drugs such as decongestants, pep pills or diet pills that may contain phenylpropanolamine, ephedrine or pseudo-ephedrine?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="On what date do you believe you had your first symptoms of CNS Vasculitis?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="If you are unsure of the date of first symptoms please explain:">
+			<free_form_response height="7"/>
+		</question>
+		<question mandatory="true" prompt="Please describe your first symptoms (explain when symptoms started, what they were, etc.) in detail below:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="On what date (approximately) was your diagnosis of CNS Vasculitis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for the diagnosis of CNS Vasculitis?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Between your first symptom and diagnosis, did you experience any of the following problems?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="New onset of headaches"/>
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Night Sweats"/>
+				<selection selected="false" text="Unusual muscle pain"/>
+				<selection selected="false" text="Unusual joint pain"/>
+				<selection selected="false" text="Rash"/>
+				<selection selected="false" text="Weight Loss"/>
+				<selection selected="false" text="Decreased memory or concentration"/>
+				<selection selected="false" text="Transient Ischemic Attacks ('ministrokes')">
+					<question mandatory="true" prompt="Please describe in detail:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+				
+				<selection selected="false" text="Seizures">
+					<question mandatory="true" prompt="Please describe seizure attacks in detail especially how many per week / month, etc.">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other neurologic symptoms">
+					<question mandatory="true" prompt="Please describe in detail">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+				
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Regarding your diagnosis of CNS Vasculitis, have you had a cerebral angiogram done?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a cerebral angiogram done, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Did the result of the cerebral angiogram demonstrate vasculitis?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Regarding your diagnosis of CNS Vasculitis, have you had a brain biopsy done?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a brain biopsy done, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Did the result  of the brain biopsy demonstrate vasculitis?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had an MRI or MRI's?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had an MRI, how many MRI's have you had done?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="When was / were  your MRI(S) done ?">
+						<table_response add_row_increment="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year " width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="What was the result of your MRI (s)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Normal"/>
+							<selection selected="false" text="Abnormal"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a CT Scan?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a CT Scan, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What was the result of the CT Scan?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Normal"/>
+							<selection selected="false" text="Abnormal"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a SPECT Scan?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a SPECT Scan, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What was the result of the SPECT Scan?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Normal"/>
+							<selection selected="false" text="Abnormal"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a PET Scan?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a PET Scan, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What was the result of the PET Scan?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Normal"/>
+							<selection selected="false" text="Abnormal"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a Lumbar Puncture or Spinal Tap?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a Lumbar Puncture or Spinal Tap, when was it done?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="What was the result of the Lumbar Puncture or Spinal Tap?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Normal"/>
+							<selection selected="false" text="Abnormal"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given steroids (examples include: Cortisone, Prednisone, Decadron, etc.) for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given steroids, how were these medications administered (given)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Intravenously"/>
+							<selection selected="false" text="Orally"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What was the initial dose of this medication?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="What were the other date(s) of administration?">
+						<table_response add_row_increment="2" row_height="5">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year " width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="What is the current dose of this medication?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If the medications were discontinued, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given Cytoxan or Cyclophosphamide for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given Cytoxan or Cyclophosphamide, how were these medications administered (given)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Intravenously"/>
+							<selection selected="false" text="Orally"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What was the initial dose of this medication?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="What were the other date(s) of administration?">
+						<table_response add_row_increment="2" row_height="5">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year " width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="What is the current dose of this medication?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If the medications were discontinued, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given Methotrexate for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given Methotrexate, please provide the following information:">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Date started &lt;BR&gt; (Month / Year)" width="30"/>
+								<column_definition label="Dosage " width="15"/>
+								<column_definition label="If discontinued, when? &lt;BR&gt; (Month / Year)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given Azathioprine for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you been given Azathioprine, please provide the following information:">
+						<table_response add_row_increment="0" row_height="1">
+							<column_definitions>
+								<column_definition label="Date started &lt;BR&gt; (Month / Year)" width="30"/>
+								<column_definition label="Dosage " width="15"/>
+								<column_definition label="If discontinued, when? &lt;BR&gt; (Month / Year)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given any other medications not listed for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given any other medications not listed, please provide the following information:">
+						<table_response add_row_increment="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Name of Medication" width="35"/>
+								<column_definition label="Date started &lt;BR&gt; (Month / Year)" width="30"/>
+								<column_definition label="Dosage " width="15"/>
+								<column_definition label="If discontinued, when? &lt;BR&gt; (Month / Year)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given a calcium channel blocker such as Verapamil, Nifedipine, Nimodipine or other?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given a calcium channel blocker, please provide the following information:">
+						<table_response add_row_increment="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Name of Medication" width="35"/>
+								<column_definition label="Date started &lt;BR&gt; (Month / Year)" width="30"/>
+								<column_definition label="Dosage " width="15"/>
+								<column_definition label="If discontinued, when? &lt;BR&gt; (Month / Year)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been given any other therapies for your current condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been given any other therapies for your current condition, please explain in detail below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Since you have started treatment has your condition??">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Improved"/>
+				<selection selected="false" text="Regressed or Deteriorated"/>
+				<selection selected="false" text="Been Unchanged/ Stayed the Same"/>
+				<selection selected="false" text="Not Applicable (have not received treatment)"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="At the present time, what are your chief complaints and limitations (please provide as much detail as possible)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding treatment for your current condition (examples: medical management, etc.)?">
+			<free_form_response height="10"/>
+		</question>
+		<question prompt="Which physician made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (Rheumatologist, Primary Care physician, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

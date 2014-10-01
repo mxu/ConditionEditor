@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lashner_BowelDisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lashner_BowelDisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Diverticulitis" id="Diverticulitis">
+				<keyword text="bowel"/>
+				<keyword text="disease"/>
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="diverticula"/>
+				<keyword text="diverticulae"/>
+				<keyword text="diverticulitis"/>
+				<keyword text="diverticulosis"/>
+				<keyword text="abdomen"/>
+				<keyword text="pain"/>
+				<keyword text="abdominal"/>
+				<keyword text="diverticular"/>
+				<keyword text="blood"/>
+				<keyword text="bleeding"/>
+				<keyword text="Inflammation"/>
+				<keyword text="Inflamed"/>
+				<keyword text="cramps"/>
+				<keyword text="bloating"/>
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Diverticulosis" id="Diverticulosis">
+				<keyword text="bowel"/>
+				<keyword text="disease"/>
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="diverticula"/>
+				<keyword text="diverticulae"/>
+				<keyword text="diverticulitis"/>
+				<keyword text="diverticulosis"/>
+				<keyword text="abdomen"/>
+				<keyword text="pain"/>
+				<keyword text="abdominal"/>
+				<keyword text="diverticular"/>
+				<keyword text="blood"/>
+				<keyword text="bleeding"/>
+				<keyword text="Inflammation"/>
+				<keyword text="Inflamed"/>
+				<keyword text="cramps"/>
+				<keyword text="bloating"/>
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Enteritis" id="Enteritis">
+				<keyword text="bowel"/>
+				<keyword text="diarrhea"/>
+				<keyword text="colon"/>
+				<keyword text="Inflammation"/>
+				<keyword text="enteritis"/>
+				<keyword text="colitis"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="intestine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Proctitis" id="Proctitis">
+				<keyword text="rectal"/>
+				<keyword text="rectum"/>
+				<keyword text="proctitis"/>
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="intestine"/>
+				<keyword text="inflammation"/>
+				<keyword text="pain"/>
+				<keyword text="irritation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Sigmoiditis" id="Sigmoiditis">
+				<keyword text="bowel"/>
+				<keyword text="sigmoid"/>
+				<keyword text="colon"/>
+				<keyword text="inflammation"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="intestine"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Irritable Bowel Disease" id="Irritable Bowel Disease">
+				<keyword text="bowel"/>
+				<keyword text="IBS"/>
+				<keyword text="irritable"/>
+				<keyword text="diarrhea"/>
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Large Bowel Disease" id="Large Bowel Disease">
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="consitpation"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="intestine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<!--<condition cost="745.00" description="Constipation" id="Constipation" active="false">
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="constipation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>-->
+			<condition cost="745.00" description="Diarrhea" id="Diarrhea">
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="intestine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Small Bowel Disease" id="Small Bowel Disease">
+				<keyword text="bowel"/>
+				<keyword text="colon"/>
+				<keyword text="diarrhea"/>
+				<keyword text="constipation"/>
+				<keyword text="small"/>
+				<keyword text="intestine"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Short Bowel Syndrome" id="Short Bowel Syndrome">
+				<keyword text="colon"/>
+				<keyword text="intestine"/>
+				<keyword text="inflammation"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

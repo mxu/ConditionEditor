@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems)
+Physicians:  Young, Francis, Rimmerman, Topol, Starling, Asher-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "HeartFailureMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "HeartFailureQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Cardiac Sarcoidosis" id="Cardiac Sarcoidosis">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>				
+				<keyword text="CHF"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cardiomyopathy" id="Cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Congestive heart failure" id="Congestive heart failure">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>
+				<keyword text="CHF"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition active="true" cost="745.00" description="Congestive heart failure (eval for percutaneous myogenesis)" id="Congestive heart failure (eval for percutaneous myogenesis)">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>
+				<keyword text="CHF"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Dilated cardiomyopathy" id="Dilated cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Heart failure" id="Heart failure">
+			<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="obstructive"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="congestive"/>
+				<keyword text="CHF"/>
+				<keyword text="cardiac"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Heart transplantation (evaluation for)" id="Heart transplantation (evaluation for)">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="obstructive"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="congestive"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>
+				<keyword text="heart transplant"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hypertrophic obstructive cardiomyopathy" id="Hypertrophic obstructive cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="obstructive"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="congestive"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>				
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>				
+				<keyword text="CHF"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Ischemic Cardiomyopathy" id="Ischemic Cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="myopathy"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="obstructive"/>
+				<keyword text="sarcoid"/>
+				<keyword text="sarcoidosis"/>
+				<keyword text="congestive"/>
+				<keyword text="dilated"/>
+				<keyword text="transplant"/>
+				<keyword text="hypertrophic"/>
+				<keyword text="ischemic"/>				
+				<keyword text="transplantation"/>
+				<keyword text="percutaneous"/>
+				<keyword text="myogenesis"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

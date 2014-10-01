@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is your diagnosis?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Disseminated intravascular coagulopathy (DIC)"/>
+				<selection selected="false" text="Liver disease-related coagulation disorder"/>
+				<selection selected="false" text="Platelet dysfunction"/>
+				<selection selected="false" text="Vitamin K deficiency"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition (one you are requesting a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Do you have any siblings (brothers / sisters)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any siblings, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Sibling (brother / sister)" width="20"/>
+								<column_definition label="Age" width="15"/>
+								<column_definition label="Current state of health, if known" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Liver disease (hepatitis, cirrhosis, etc.)"/>
+				<selection selected="false" text="Bleeding or clotting disorders"/>
+				<selection selected="false" text="Leukemia"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Trauma / injury"/>
+				<selection selected="false" text="Pancreas cancer"/>
+				<selection selected="false" text="Prostate cancer"/>
+				<selection selected="false" text="Liver disease"/>
+				<selection selected="false" text="Leukemia"/>
+				<selection selected="false" text="Platelet disorder"/>
+				<selection selected="false" text="Pulmonary embolus (blood clot in the lung)"/>
+				<selection selected="false" text="DVT (blood clot in the veins)"/>
+				<selection selected="false" text="Infection"/>
+				<selection selected="false" text="Seizure disorder"/>
+				<selection selected="false" text="Venomous snake bite"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any of the following diagnostic studies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had any of the following diagnostic studies, when?">
+						<table_response add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Study" width="15"/>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="15"/>
+							</column_definitions>
+							<table_data>
+								<cell>Chest x-ray</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>MRI scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>CT scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Liver biopsy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Bone marrow biopsy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Spleen biopsy</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (Please list below)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Bleeding or bruising in gums"/>
+				<selection selected="false" text="Unexplained bruising"/>
+				<selection selected="false" text="Bruise easily"/>
+				<selection selected="false" text="Coughing up blood"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past month) had any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Fever > 100 F / 38 C"/>
+				<selection selected="false" text="Back pain"/>
+				<selection selected="false" text="Rigor / shaking chills"/>
+				<selection selected="false" text="Productive cough"/>
+				<selection selected="false" text="Abdominal (belly) pain"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you recently (within the past month) taken an antibiotic (medication to fight infection)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have recently taken an antibiotic, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of antibiotic" width="20"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="How often taken (1x day, etc.)" width="25"/>
+								<column_definition label="When started (exact date)" width="25"/>
+								<column_definition label="When finished (exact date)" width="25"/>
+								<column_definition label="How taken (pill, IV, etc.)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you ever taken an anticoagulant (blood thinner) medication (Coumadin, heparin, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken an anticoagulant medication, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of anticoagulant" width="20"/>
+								<column_definition label="Dosage, if known" width="15"/>
+								<column_definition label="Reason for taking" width="15"/>
+								<column_definition label="Date started (month/year)" width="25"/>
+								<column_definition label="Date stopped (month/year), if applicable" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you ever taken aspirin / aspirin products for prolonged periods of time?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken aspirin / aspirin products for prolonged periods of time, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of aspirin product" width="20"/>
+								<column_definition label="Dosage, if known" width="15"/>
+								<column_definition label="Reason for taking" width="15"/>
+								<column_definition label="Date started (month/year)" width="25"/>
+								<column_definition label="Date stopped (month/year)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Are you currently receiving Factor VIII or Factor IX infusions for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are currently receiving Factor VIII or Factor IX infusions for your condition, when did you first start the infusions?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If you are currently receiving Factor VIII or Factor IX infusions for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of factor (Hemofil M, Humate-P, etc.)" width="35"/>
+								<column_definition label="How often taken (per month)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="false" prompt="If you started receiving infusions before 1985, have you been tested for human immunodeficiency virus (HIV)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you have been tested for human immunodeficiency virus, please provide the following information:">
+									<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+										<column_definitions>
+											<column_definition label="Results (positive/negative)" width="20"/>
+											<column_definition label="Month/Year of testing" width="15"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (hematologist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

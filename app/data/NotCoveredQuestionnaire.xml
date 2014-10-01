@@ -1,0 +1,12 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- 
+empty questionnaire for conditions we don't cover 
+This is necessary because the DOM expects a questionnaire list in a condition
+-->
+<questionnaire>
+    <question_group name="Bogus">
+        <question prompt="Why answer this fake question?">
+			<free_form_response height="5"/>
+		</question>
+    </question_group>
+</questionnaire>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Wyllie_Magnuson_BowelDisorder(pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Wyllie_Magnuson_BowelDisorder(pediatrics)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Gastroenterology" name="Pediatric Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Inflammatory Bowel Disease (pediatric)" id="Inflammatory Bowel Disease (pediatric)" active="true">
+				<keyword text="colitis"/>
+				<keyword text="ulcerative"/>
+				<keyword text="crohn's"/>
+				<keyword text="ibd"/>
+				<keyword text="diarrhea"/>
+				<keyword text="intestinal"/>
+				<keyword text="intestine"/>
+				<keyword text="inflammatory"/>
+				<keyword text="bowel"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Crohn's Disease (pediatric)" id="Crohn's Disease (pediatric)" active="true">
+				<keyword text="colitis"/>
+				<keyword text="ulcerative"/>
+				<keyword text="crohn's"/>
+				<keyword text="ibd"/>
+				<keyword text="diarrhea"/>
+				<keyword text="intestinal"/>
+				<keyword text="intestine"/>
+				<keyword text="inflammatory"/>
+				<keyword text="bowel"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ulcerative Colitis (pediatric)" id="Ulcerative Colitis (pediatric)" active="true">
+				<keyword text="colitis"/>
+				<keyword text="ulcerative"/>
+				<keyword text="crohn's"/>
+				<keyword text="ibd"/>
+				<keyword text="diarrhea"/>
+				<keyword text="intestinal"/>
+				<keyword text="intestine"/>
+				<keyword text="inflammatory"/>
+				<keyword text="bowel"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

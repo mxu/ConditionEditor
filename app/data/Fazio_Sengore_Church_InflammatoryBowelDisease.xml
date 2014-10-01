@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Sengore_Church_InflammatoryBowelDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Sengore_Church_InflammatoryBowelDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Inflammatory Bowel Disease" id="Inflammatory Bowel Disease" active="true">
+				<keyword text="colitis"/>
+				<keyword text="ulcerative"/>
+				<keyword text="IBD"/>
+				<keyword text="diarrhea"/>
+				<keyword text="intestinal"/>
+				<keyword text="intestine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colitis" id="Colitis" active="true">
+				<keyword text="bowel"/>
+				<keyword text="diarrhea"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ulcerative Colitis" id="Ulcerative Colitis" active="true">
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

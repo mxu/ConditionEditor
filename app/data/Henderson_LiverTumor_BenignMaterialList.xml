@@ -1,0 +1,36 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all prior relevant surgeries / biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any and all other treatments received for this diagnosis (Chemotherapy, radiation therapy, etc.).  If chemotherapy was used, all therapy roadmaps will be required.  If radiation therapy was used, a copy of the completion note will be required.  Also, significant toxicities and response to your therapy should be described." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of diagnostic medical information will be required in order to proceed with your request for a second opinion.  The actual original (not copies) films of the studies and reports will be needed, if indicated."/>
+	<material id="Pathology" description="Liver biopsy laboratory report and glass slides." mandatory="true"/>
+	<material id="MRI scan of the abdomen" description="Report and films." mandatory="true"/>
+	<material id="CT scan of the abdomen" description="Report and films." mandatory="true"/>
+	<material id="Liver scan" description="Report and films." mandatory="true"/>
+	<material id="Chest X-ray" description="Report and films, if done." mandatory="true"/>
+	<material id="Other X-rays" description="Reports and films, if done." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Current blood work to include the following blood tests:"/>
+	<material id="Complete blood count (CBC)" description="Laboratory report (blood test)" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Remote hepatitis panel (B and C) to include the following blood tests:"/>
+	<material id="Hepatitis B surface antigen" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Hepatitis B core antibody total" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Hepatitis B surgace antibody" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Hepatitis C antibody" description="Laboratory report (blood test)" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  Liver function tests to include:"/>
+	<material id="Alkaline phosphatase" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Alanine transaminase (ALT)" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Aspartate transaminase (AST)" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Bilirubin" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Gamma Glutamyl transpeptidase" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Albumin" description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Alpha-fetoprotein," description="Laboratory report (blood test)" mandatory="true"/>
+	<material id="Prothrombin time" description="Laboratory report (blood test)" mandatory="true"/>
+	<instruction text="&lt;BR&gt; The following list of medical information, although not mandatory, are optional if done:"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+		&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

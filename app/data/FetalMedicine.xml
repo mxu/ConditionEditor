@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "FetalMedicineMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "FetalMedicineQuestionnaire.xml">
+]>
+<!-- Greenberg, Ouriel, and Ruschhaupt-->
+<division description="Fetal Medicine" name="Fetal Medicine">
+	<department description="Fetal Medicine" name="Fetal Medicine">
+		<section description="" name="">
+			<condition cost="745.00" description="Fetal Abdominal mass (during pregnancy)" id="Fetal Abdominal mass (during pregnancy)" active="true">
+				<keyword text="growth"/>
+				<keyword text="tumor"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Abdominal wall defect (during pregnancy)" id="Fetal Abdominal wall defect (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="abdomen"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Acardiac twin/TRAP sequence (during pregnancy)" id="Fetal Acardiac twin/TRAP sequence (during pregnancy)" active="true">
+				<keyword text="twin"/>
+				<keyword text="reversed"/>
+				<keyword text="arterial"/>
+				<keyword text="perfusion"/>
+				<keyword text="artery"/>
+				<keyword text="blood"/>
+				<keyword text="supply"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Airway obstruction (CHAOS) (during pregnancy)" id="Fetal Airway obstruction (CHAOS) (during pregnancy)" active="true">
+				<keyword text="high"/>
+				<keyword text="congenital"/>
+				<keyword text="upper"/>
+				<keyword text="airway"/>
+				<keyword text="abstructed"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Ambiguous genitalia (during pregnancy)" id="Fetal Ambiguous genitalia (during pregnancy)" active="true">
+				<keyword text="hypospadias"/>
+				<keyword text="genital"/>
+				<keyword text="abnormality"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Anemia (during pregnancy)" id="Fetal Anemia (during pregnancy)" active="true">
+				<keyword text="anemic"/>
+				<keyword text="low"/>
+				<keyword text="blood"/>
+				<keyword text="count"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Aortic stenosis or atresia (during pregnancy)" id="Fetal Aortic stenosis or atresia (during pregnancy)" active="true">
+				<keyword text="abnormal"/>
+				<keyword text="artery"/>
+				<keyword text="blocked"/>
+				<keyword text="shunt"/>
+				<keyword text="valve"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Aortic stenosis (during pregnancy)" id="Fetal Aortic stenosis (during pregnancy)" active="true">
+				<keyword text="abnormal"/>
+				<keyword text="artery"/>
+				<keyword text="blocked"/>
+				<keyword text="shunt"/>
+				<keyword text="valve"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Arthrogryposis (during pregnancy)" id="Fetal Arthrogryposis (during pregnancy)" active="true">
+				<keyword text="joint"/>
+				<keyword text="flexed"/>
+				<keyword text="contracted"/>
+				<keyword text="contraction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Atrial septal defect (ASD) (during pregnancy)" id="Fetal Atrial septal defect (ASD) (during pregnancy)" active="true">
+				<keyword text="opening"/>
+				<keyword text="hole"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Biliary atresia (during pregnancy)" id="Fetal Biliary atresia (during pregnancy)" active="true">
+				<keyword text="extrahepatic"/>
+				<keyword text="congenital"/>
+				<keyword text="liver"/>
+				<keyword text="defect"/>
+				<keyword text="bile"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Bladder exstrophy (during pregnancy)" id="Fetal Bladder exstrophy (during pregnancy)" active="true">
+				<keyword text="epispadias"/>
+				<keyword text="urinary"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				<keyword text="genitourinary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Bladder outlet obstruction (during pregnancy)" id="Fetal Bladder outlet obstruction (during pregnancy)" active="true">
+				<keyword text="urinary"/>
+				<keyword text="obstructed"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Bowel obstruction (during pregnancy)" id="Fetal Bowel obstruction (during pregnancy)" active="true">
+				<keyword text="gastrointestinal"/>
+				<keyword text="blockage"/>
+				<keyword text="obstructed"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Brain abnormality (during pregnancy)" id="Fetal Brain abnormality (during pregnancy)" active="true">
+				<keyword text="central"/>
+				<keyword text="nervous"/>
+				<keyword text="system"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				<keyword text="CNS"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Cardiac arrhythmia (during pregnancy)" id="Fetal Cardiac arrhythmia (during pregnancy)" active="true">
+				<keyword text="heart"/>
+				<keyword text="congenital"/>
+				<keyword text="defect"/>
+				<keyword text="rhythm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Central nervous system abnormality (during pregnancy)" id="Fetal Central nervous system abnormality (during pregnancy)" active="true">
+				<keyword text="CNS"/>
+				<keyword text="brain"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="spine"/>
+				<keyword text="vertebrae"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Cervical teratoma (during pregnancy)" id="Fetal Cervical teratoma (during pregnancy)" active="true">
+				<keyword text="germ"/>
+				<keyword text="cell"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Chest mass (during pregnancy)" id="Fetal Chest mass (during pregnancy)" active="true">
+				<keyword text="benign"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="germinoma"/>
+				<keyword text="germ"/>
+				<keyword text="cell"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Chromosome abnormality (during pregnancy)" id="Fetal Chromosome abnormality (during pregnancy)" active="true">
+				<keyword text="trisomy"/>
+				<keyword text="21"/>
+				<keyword text="18"/>
+				<keyword text="13"/>
+				<keyword text="Down's"/>
+				<keyword text="syndrome"/>
+				<keyword text="Edward's"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Cloacal anomaly (during pregnancy)" id="Fetal Cloacal anomaly (during pregnancy)" active="true">
+				<keyword text="cloacal"/>
+				<keyword text="extrophy"/>
+				<keyword text="septum"/>
+				<keyword text="membrane"/>
+				<keyword text="urogenital"/>
+				<keyword text="anal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Conjoined twins (during pregnancy)" id="Fetal Conjoined twins (during pregnancy)" active="true">
+				<keyword text="joined"/>
+				<keyword text="attached"/>
+				<keyword text="Siamese"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Common AV valve or AV canal defect (during pregnancy)" id="Fetal Common AV valve or AV canal defect (during pregnancy)" active="true">
+				<keyword text="atrioventricular"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				<keyword text="valve"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Complete heart block (during pregnancy)" id="Fetal Complete heart block (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				<keyword text="arryrthmia"/>
+				<keyword text="rhythm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Complex congenital heart disease (during pregnancy)" id="Fetal Complex congenital heart disease (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Congenital diaphragmatic hernia (CDH) (during pregnancy)" id="Fetal Congenital diaphragmatic hernia (CDH) (during pregnancy)" active="true">
+				<keyword text="lung"/>
+				<keyword text="hypoplasia"/>
+				<keyword text="respiratory"/>
+				<keyword text="distress"/>
+				<keyword text="syndrome"/>
+				<keyword text="tachypnea"/>
+				<keyword text="ASD"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Congenital cystic adenomatoid malformation of the lung (CCAM) (during pregnancy)" id="Fetal Congenital cystic adenomatoid malformation of the lung (CCAM) (during pregnancy)" active="true">
+				<keyword text="anomaly"/>
+				<keyword text="congenital"/>
+				<keyword text="lung"/>
+				<keyword text="defect"/>
+				<keyword text="pulmonary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Cystic hygroma (during pregnancy)" id="Fetal Cystic hygroma (during pregnancy)" active="true">
+				<keyword text="abnormal"/>
+				<keyword text="malformation"/>
+				<keyword text="lymphatic"/>
+				<keyword text="system"/>
+				<keyword text="sac"/>
+				<keyword text="fluid"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Double outlet right ventricle (DORV) (during pregnancy)" id="Fetal Double outlet right ventricle (DORV) (during pregnancy)" active="true">
+				<keyword text="malposition"/>
+				<keyword text="malformation"/>
+				<keyword text="great"/>
+				<keyword text="arteries"/>
+				<keyword text="artery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Double outlet left ventricle (DOLV) (during pregnancy)" id="Fetal Double outlet left ventricle (DOLV) (during pregnancy)" active="true">
+				<keyword text="malposition"/>
+				<keyword text="malformation"/>
+				<keyword text="great"/>
+				<keyword text="arteries"/>
+				<keyword text="artery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Dwarfism/ Skeletal dysplasias (during pregnancy)" id="Fetal Dwarfism/ Skeletal dysplasias (during pregnancy)" active="true">
+				<keyword text="dwarf"/>
+				<keyword text="short"/>
+				<keyword text="stature"/>
+				<keyword text="failure"/>
+				<keyword text="bone"/>
+				<keyword text="formation"/>
+				<keyword text="endochondral"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Echogenic bowel" id="Fetal Echogenic bowel" active="true">
+				<keyword text="hyperechoic"/>
+				<keyword text="mass"/>
+				<keyword text="enlargement fetal bowel"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Esophageal atresia (during pregnancy)" id="Fetal Esophageal atresia (during pregnancy)" active="true">
+				<keyword text="incomplete"/>
+				<keyword text="formation"/>
+				<keyword text="fistula"/>
+				<keyword text="tracheoesophageal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal EXIT to ECMO (during pregnancy)" id="Fetal EXIT to ECMO (during pregnancy)" active="true">
+				<keyword text="venoarterial"/>
+				<keyword text="venovenous"/>
+				<keyword text="extracorporeal"/>
+				<keyword text="membrane"/>
+				<keyword text="oxygenation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Gastroschisis (during pregnancy)" id="Fetal Gastroschisis (during pregnancy)" active="true">
+				<keyword text="abdominal"/>
+				<keyword text="wall"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Heart defect (during pregnancy)" id="Fetal Heart defect (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Hydrocephalus (during pregnancy)" id="Fetal Hydrocephalus (during pregnancy)" active="true">
+				<keyword text="cerebral"/>
+				<keyword text="ventricular"/>
+				<keyword text="malformation"/>
+				<keyword text="excessive"/>
+				<keyword text="central"/>
+				<keyword text="spinal"/>
+				<keyword text="fluid"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Hypoplastic left heart syndrome (HLHS) (during pregnancy)" id="Fetal Hypoplastic left heart syndrome (HLHS) (during pregnancy)" active="true">
+				<keyword text="left"/>
+				<keyword text="ventricle"/>
+				<keyword text="ascending"/>
+				<keyword text="aorta"/>
+				<keyword text="maldevelopment"/>
+				<keyword text="aortic"/>
+				<keyword text="mitral"/>
+				<keyword text="valves"/>
+				<keyword text="ASD"/>
+				<keyword text="PDA"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Hydrops fetalis (during pregnancy)" id="Fetal Hydrops fetalis (during pregnancy)" active="true">
+				<keyword text="excess"/>
+				<keyword text="fluid"/>
+				<keyword text="body"/>
+				<keyword text="area"/>
+				<keyword text="hydramnios"/>
+				<keyword text="placental"/>
+				<keyword text="thickening"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Hydronephrosis (during pregnancy)" id="Fetal Hydronephrosis (during pregnancy)" active="true">
+				<keyword text="distension"/>
+				<keyword text="pelvis"/>
+				<keyword text="kidneys"/>
+				<keyword text="calyces"/>
+				<keyword text="thinning"/>
+				<keyword text="renal"/>
+				<keyword text="tubules"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Hydroureter (during pregnancy)" id="Fetal Hydroureter (during pregnancy)" active="true">
+				<keyword text="distention"/>
+				<keyword text="ureter"/>
+				<keyword text="fluid"/>
+				<keyword text="kidney"/>
+				<keyword text="renal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Intestinal obstruction (during pregnancy)" id="Fetal Intestinal obstruction (during pregnancy)" active="true">
+				<keyword text="bowel"/>
+				<keyword text="bowels"/>
+				<keyword text="blockage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Laryngeal atresia (during pregnancy)" id="Fetal Laryngeal atresia (during pregnancy)" active="true">
+				<keyword text="cleft"/>
+				<keyword text="Laryngomalacia"/>
+				<keyword text="vocal"/>
+				<keyword text="cord"/>
+				<keyword text="palsy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Lower urinary tract obstruction (during pregnancy)" id="Fetal Lower urinary tract obstruction (during pregnancy)" active="true">
+				<keyword text="genito"/>
+				<keyword text="urinary"/>
+				<keyword text="blockage"/>
+				<keyword text="ureter"/>
+				<keyword text="bladder"/>
+				<keyword text="tubes"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Lung mass (during pregnancy)" id="Fetal Lung mass (during pregnancy)" active="true">
+				<keyword text="lung"/>
+				<keyword text="pulmonary"/>
+				<keyword text="mass"/>
+				<keyword text="tumor"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Monoamnionic twins (during pregnancy)" id="Fetal Monoamnionic twins (during pregnancy)" active="true">
+				<keyword text="monozygotic"/>
+				<keyword text="two"/>
+				<keyword text="placentas"/>
+				<keyword text="amnion"/>
+				<keyword text="splitting"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Multiple congenital anomalies (during pregnancy)" id="Fetal Multiple congenital anomalies (during pregnancy)" active="true">
+				<keyword text="many"/>
+				<keyword text="congenital"/>
+				<keyword text="fetal"/>
+				<keyword text="anomolies"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Neck mass (during pregnancy)" id="Fetal Neck mass (during pregnancy)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="growth"/>
+				<keyword text="cervical"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Neural tube defect/Spina bifida (during pregnancy)" id="Fetal Neural tube defect/Spina bifida (during pregnancy)" active="true">
+				<keyword text="myelocele"/>
+				<keyword text="spinal"/>
+				<keyword text="cord"/>
+				<keyword text="protrusion"/>
+				<keyword text="diplomyelia"/>
+				<keyword text="doubled"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Omphalocele (during pregnancy)" id="Fetal Omphalocele (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="hernia"/>
+				<keyword text="umbilicus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Osteogenesis imperfecta (during pregnancy)" id="Fetal Osteogenesis imperfecta (during pregnancy)" active="true">
+				<keyword text="hereditary"/>
+				<keyword text="collagen"/>
+				<keyword text="disorder"/>
+				<keyword text="diffuse"/>
+				<keyword text="fragility"/>
+				<keyword text="bones"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Ovarian cysts (during pregnancy)" id="Fetal Ovarian cysts (during pregnancy)" active="true">
+				<keyword text="ovary"/>
+				<keyword text="growth"/>
+				<keyword text="mass"/>
+				<keyword text="genitourinary"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Posterior urethral valves (during pregnancy)" id="Fetal Posterior urethral valves (during pregnancy)" active="true">
+				<keyword text="congenital"/>
+				<keyword text="pair"/>
+				<keyword text="obstructing"/>
+				<keyword text="leaflets"/>
+				<keyword text="region"/>
+				<keyword text="verumontanum"/>
+				<keyword text="prostatic"/>
+				<keyword text="urethra"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Pulmonic stenosis or atresia (during pregnancy)" id="Fetal Pulmonic stenosis or atresia (during pregnancy)" active="true">
+				<keyword text="pulmonary"/>
+				<keyword text="patent"/>
+				<keyword text="ductus"/>
+				<keyword text="arteriosus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Sacrococcygeal teratoma (SCT) (during pregnancy)" id="Fetal Sacrococcygeal teratoma (SCT) (during pregnancy)" active="true">
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="growth"/>
+				<keyword text="benign"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Spine abnormality (during pregnancy)" id="Fetal Spine abnormality (during pregnancy)" active="true">
+				<keyword text="spinal"/>
+				<keyword text="malformation"/>
+				<keyword text="defect"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Tetralogy of Fallot (during pregnancy)" id="Fetal Tetralogy of Fallot (during pregnancy)" active="true">
+				<keyword text="right"/>
+				<keyword text="left"/>
+				<keyword text="shunts"/>
+				<keyword text="congenital"/>
+				<keyword text="venous"/>
+				<keyword text="arterial"/>
+				<keyword text="malformation"/>
+				<keyword text="septal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Total anomalous pulmonary venous connection (during pregnancy)" id="Fetal Total anomalous pulmonary venous connection (during pregnancy)" active="true">
+				<keyword text="right"/>
+				<keyword text="left"/>
+				<keyword text="shunts"/>
+				<keyword text="congenital"/>
+				<keyword text="venous"/>
+				<keyword text="arterial"/>
+				<keyword text="malformation"/>
+				<keyword text="septal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Tracheal atresia (during pregnancy)" id="Fetal Tracheal atresia (during pregnancy)" active="true">
+				<keyword text="trachea"/>
+				<keyword text="malformation"/>
+				<keyword text="tract"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Transposition of the great arteries (during pregnancy)" id="Fetal Transposition of the great arteries (during pregnancy)" active="true">
+				<keyword text="right"/>
+				<keyword text="left"/>
+				<keyword text="shunts"/>
+				<keyword text="congenital"/>
+				<keyword text="venous"/>
+				<keyword text="arterial"/>
+				<keyword text="malformation"/>
+				<keyword text="septal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Twin-twin transfusion syndrome (TTTS) (during pregnancy)" id="Fetal Twin-twin transfusion syndrome (TTTS) (during pregnancy)" active="true">
+				<keyword text="twin"/>
+				<keyword text="reversed"/>
+				<keyword text="arterial"/>
+				<keyword text="perfusion"/>
+				<keyword text="congenital"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Fetal Ventricular septal defect (VSD) (during pregnancy)" id="Fetal Ventricular septal defect (VSD) (during pregnancy)" active="true">
+				<keyword text="opennings"/>
+				<keyword text="interventricular"/>
+				<keyword text="septum"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="defect"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

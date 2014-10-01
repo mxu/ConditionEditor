@@ -1,0 +1,31 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations. " mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/b&gt;"/>
+	<material id="Pathology" description="Pathology reports are required for all biopsies done (spleen, bone marrow, etc.)." mandatory="true"/>
+	<material id="Chest X-Ray" description="Report and films of PA and lateral views (if done)" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; Laboratory blood tests to include the following studies: &lt;/b&gt;"/>
+	<material id="CBC with differential" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Platelet count" description="Laboratory blood test report" mandatory="true"/>
+	<material id="D-dimer plasma level" description="Reports and films of any relevant X-rays." mandatory="true"/>
+	<material id="Arterial blood gasses" description="Laboratory blood test report" mandatory="true"/>
+	<material id="LAP (Luekocyte alkaline phosphatase)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Erythropoetin level" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; Hypercoagulation blood test panel to include: &lt;/b&gt;"/>
+	<material id="Protein C functional" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Protein S clottable" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Antirhrombin III" description="Reports and films of any relevant X-rays." mandatory="true"/>
+	<material id="Plasminogen" description="Laboratory blood test report" mandatory="true"/>
+	<material id="APC Resistance" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Fibrinogen" description="Laboratory blood test report" mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission. &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="MRI Scan" description="Report and films." mandatory="false"/>
+	<material id="CT Scan" description="Report and films." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

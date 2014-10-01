@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Did patient's mother experience any of the following problems with her pregnancy?(Choose all that apply)">
+			<item_response>
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="fever"/>
+				<selection selected="false" text="infection"/>
+				<selection selected="false" text="antibiotic administration"/>
+				<selection selected="false" text="other medication administration">
+					<question mandatory="true" prompt="If other medication, please give detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Did patient go home with mother within 2-7 days following birth?(if known)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, please explain the details of continued hospital stay:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Were there any problems with the delivery of this child?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain the detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What was the first APGAR score at birth?(if known)">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="false" prompt="What was the second APGAR score at birth?(if known)">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Was the patient born at full term?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, at how many months gestation was patient born?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What was the patient's weight at birth?">
+			<table_response initial_rows_to_display="1" row_height="2">
+				<column_definitions>
+					<column_definition label="# of pounds" width="25"/>
+					<column_definition label="# of ounces" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What was the patient's length at birth?(# of inches)">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Was the meconium passed within 24-48 hours from birth?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How old was the patient when symptoms started?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="When was the diagnosis established?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Has there been a change in the diagnosis since the original one?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, explain the details of the change in diagnosis:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="At what age did the patient first sit?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="At what age did the patient first walk?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="At what age did the patient first begin using words?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Have there been any developmental delays?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient toilet trained for urine?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient toilet trained for stool?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient able to attend school?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, is the patient missing school?">
+						<item_response single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain in detail:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please rate the patient's school performance below:">
+			<item_response single_response="true">
+				<selection selected="false" text="Excellent"/>
+				<selection selected="false" text="Good"/>
+				<selection selected="false" text="Average"/>
+				<selection selected="false" text="Poor"/>
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was the patient last examined by his / her physician for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="For how long has the patient had the condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Less than a month"/>
+				<selection selected="false" text="1-3 month"/>
+				<selection selected="false" text="4-6 month"/>
+				<selection selected="false" text="7-12 month"/>
+				<selection selected="false" text="Greater than 12 month"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are the symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you feel the patient's health has deteriorated as a result of this condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had a history of formula intolerance?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient received prior treatment for the condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the following:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of treatment" width="25"/>
+								<column_definition label="Date(Month/Year)" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="Location(City, State)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If patient has been treated for this condition, what is your general subjective impression of the experience?">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Regarding the treatment patient has received, how would you rate your overall satisfaction with the treatment (1 = not at all satisfied, 10 = very satisfied?">
+						<item_response single_response="true">
+							<selection selected="false" text="1"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="5"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="10"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patent undergone any surgical procedures for the condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the following:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Surgery" width="25"/>
+								<column_definition label="Date(Month/Year)" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="Location(City, State)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a family history of the following?(choose all that apply)?">
+			<table_response add_row_increment="2" row_height="3">
+				<column_definitions>
+					<column_definition label="Condition" width="35"/>
+					<column_definition label="Yes/No" width="20"/>
+					<column_definition label="Relationship" width="20"/>
+				</column_definitions>
+					<table_data>
+						<cell>Liver Problems </cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Colitis</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Colon cancer</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Colon polyps</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Ulcerative Colitis</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Food allergies/intolerances</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Crohn's disease</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Inflammatory Bowel Disease</cell>
+						<cell/>
+						<cell/>
+					</table_data>
+					<table_data>
+						<cell>Other </cell>
+						<cell/>
+						<cell/>
+					</table_data>
+				</table_response>
+		</question>
+		<question mandatory="false" prompt="If selected Other for the previous family history question, please explain:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="Does the patient have a history of any of the following?(choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Colon polyps"/>
+				<selection selected="false" text="Colon cancer"/>
+				<selection selected="false" text="Other cancer"/>
+				<selection selected="false" text="Radiation / chemotherapy"/>
+				<selection selected="false" text="Crohn's disease / ulcerative colitis"/>
+				<selection selected="false" text="Ulcers"/>
+				<selection selected="false" text="Gallstones"/>
+				<selection selected="false" text="Hepatitis/jaundice"/>
+				<selection selected="false" text="Liver problems"/>
+				<selection selected="false" text="Thyroid disease"/>
+				<selection selected="false" text="Kidney stones"/>
+				<selection selected="false" text="Food allergies/intolerance"/>
+				<selection selected="false" text="Eosinophilic gastroenteritis"/>
+				<selection selected="false" text="Pancreatitis"/>
+				<selection selected="false" text="Arthritis"/>
+				<selection selected="false" text="Gastrointestinal bleeding"/>
+				<selection selected="false" text="None of above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Asthma?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Difficulty swallowing/food sticking in throat?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Heartburn?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Hoarseness?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Chronic cough?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Regurgitation?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Chest pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have an immediate feeling of fullness with meals?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Loss of appetite?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Nausea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Vomiting?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Loss of control of bowel movements?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Recent change in bowel movements?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Bloody bowel movements?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Constipation?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Diarrhea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Night sweats, fever, chills?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Thought or memory problems?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Fistulas?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Prominent leg swelling?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Vomiting blood?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Ascites(fluid in abdomen)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have Recent weight change?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Unsure"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If weight lost:">
+						<table_response initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="# of pounds" width="25"/>
+								<column_definition label="Over what period of time(# of months, years)" width="60"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="false" prompt="If weight gained:">
+						<table_response initial_rows_to_display="1" row_height="2">
+							<column_definitions>
+								<column_definition label="# of pounds" width="25"/>
+								<column_definition label="Over what period of time(# of months, years)" width="60"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient experienced a slow growth (example: no change in clothing size in a year or more)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please give details:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list all diagnostic Tests / Studies done:(choose all that apply)">
+			<table_response add_row_increment="2" row_height="3">
+				<column_definitions>
+					<column_definition label="Study" width="35"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>X-Ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Upper GI X-Rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lower GI X-Rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cholangiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Angiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Upper endoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sigmoidoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Colonoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood work</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver biopsy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver Scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="If other tests were done, please list:">
+			<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Name of Test" width="35"/>
+					<column_definition label="Date done(Month/Year)" width="35"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="How many bowel movements does the patient have in an average day?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Has the frequency of bowel movements increased?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did the increase in frequency occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient feel an increased urgency to have bowel movement?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did the increase in urgency occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient experienced a change in the consistency of stools?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did the change in consistency occur?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the general consistency of the patient's stools?(choose all that apply)?">
+			<item_response single_response="true">
+				<selection selected="false" text="All water"/>
+				<selection selected="false" text="Loose"/>
+				<selection selected="false" text="Thick liquid"/>
+				<selection selected="false" text="Watery with formed pieces"/>
+				<selection selected="false" text="Formed"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient ever have mucous (white slimy substance) in stools?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient ever have blood in stools?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often?">
+						<item_response single_response="true">
+							<selection selected="false" text="Often"/>
+							<selection selected="false" text="Occasionally"/>
+							<selection selected="false" text="Rarely"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Generally, how much blood has the patient had in stools?">
+						<item_response single_response="true">
+							<selection selected="false" text="Large amount(colors the toilet water dark red)"/>
+							<selection selected="false" text="Moderate amount(colors the toilet water light red)"/>
+							<selection selected="false" text="Small amount(streaks of red in toilet water)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What is the usual color of the rectal bleeding?">
+						<item_response single_response="true">
+							<selection selected="false" text="Bright red"/>
+							<selection selected="false" text="Dark red"/>
+							<selection selected="false" text="Mahogany(reddish brown)"/>
+							<selection selected="false" text="Light red"/>
+							<selection selected="false" text="Pink"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient experiencing any rectal drainage or other type of drainage not associated with a bowel movement?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="yes">
+					<question mandatory="true" prompt="If yes, what does the drainage look like? (i.e. pus, mucous, etc.) Please describe in detail:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience abdominal (belly) pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="yes">
+					<question mandatory="true" prompt="If yes, please describe the abdominal pain below: (choose all that apply)">
+						<item_response single_response="true">
+							<selection selected="false" text="Sharp and stabbing"/>
+							<selection selected="false" text="Dull and aching"/>
+							<selection selected="false" text="Burning"/>
+							<selection selected="false" text="Throbbing"/>
+							<selection selected="false" text="Cramping"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is the pain?">
+						<item_response single_response="true">
+							<selection selected="false" text="Constant (never lets up)"/>
+							<selection selected="false" text="Intermittent (comes and goes)"/>
+							<selection selected="false" text="Episodic"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How frequently does the patient experience the pain?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Please rate the patient's abdominal pain below(1= no pain, 10= the worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What decreases the abdominal pain?">
+						<item_response single_response="true">
+							<selection selected="false" text="Eating"/>
+							<selection selected="false" text="Fasting"/>
+							<selection selected="false" text="Lying down"/>
+							<selection selected="false" text="Having a bowel movement"/>
+							<selection selected="false" text="Taking antacids"/>
+							<selection selected="false" text="Taking pain relievers"/>
+							<selection selected="false" text="Moving around/activity">
+								<question mandatory="true" prompt="If moving around/activity decreases the pain, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Warn compress"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What increases the abdominal pain?">
+						<item_response single_response="true">
+							<selection selected="false" text="Eating"/>
+							<selection selected="false" text="Fasting"/>
+							<selection selected="false" text="Lying down"/>
+							<selection selected="false" text="Having a bowel movement"/>
+							<selection selected="false" text="Moving around/activity"/>
+							<selection selected="false" text="Warn compress"/>
+							<selection selected="false" text="Ice pack"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient's abdomen tender (sore) to touch?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience gas and/or abdominal bloating?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, how often?">
+						<item_response single_response="true">
+							<selection selected="false" text="Often"/>
+							<selection selected="false" text="Occasionally"/>
+							<selection selected="false" text="Rarely"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If yes, when does the patient experience the bloating? (i.e. after meals, at bedtime, etc)">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you describe patient's energy level?">
+			<item_response single_response="true">
+				<selection selected="false" text="Full of pep"/>
+				<selection selected="false" text="Active and energetic"/>
+				<selection selected="false" text="Tired with usual activities"/>
+				<selection selected="false" text="Tired easily"/>
+				<selection selected="false" text="Sluggish"/>
+				<selection selected="false" text="Weak"/>		
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes the patient's appetite over the past month?">
+			<item_response single_response="true">
+				<selection selected="false" text="Normal"/>
+				<selection selected="false" text="Eating somewhat less than normal"/>
+				<selection selected="false" text="Eating much less than normal"/>
+				<selection selected="false" text="Hardly eating anything"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>	
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do any foods seem to trigger (cause) the patient's bowel symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of food" width="25"/>
+								<column_definition label="Reaction(i.e. diarrhea, cramps, nausea, etc.)" width="45"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient currently take any nutritional supplements (Ensure, Boost, Sustacal, etc.)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please list the names of those supplements taken:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="How many supplements per day are taken?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient been diagnosed with arthritis?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience joint discomfort?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the location of the discomfort?">
+						<item_response single_response="true">
+							<selection selected="false" text="Right ankle"/>
+							<selection selected="false" text="Left ankle"/>
+							<selection selected="false" text="Right knee"/>
+							<selection selected="false" text="Left knee"/>
+							<selection selected="false" text="Back"/>
+							<selection selected="false" text="Right hand"/>
+							<selection selected="false" text="Left hand"/>
+							<selection selected="false" text="Fingers"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If yes, how often?">
+						<item_response single_response="true">
+							<selection selected="false" text="Constant"/>
+							<selection selected="false" text="Frequent"/>
+							<selection selected="false" text="Occasionally"/>
+							<selection selected="false" text="Rarely"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How would you describe the joint pain?">
+						<item_response single_response="true">
+							<selection selected="false" text="Sharp and stabbing"/>
+							<selection selected="false" text="Dull and aching"/>
+							<selection selected="false" text="Cramping"/>
+							<selection selected="false" text="Burning"/>
+							<selection selected="false" text="Nagging"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any problem with skin lesion (sores) or rash?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what treatment (if any) has the patient received for the skin problem?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient recently had any of the following symptoms? (choose all that apply)">
+			<item_response single_response="true">
+				<selection selected="false" text="Fever > 100 F"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="General unwell feeling"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient recently (in the past two months) been treated with antibiotics (medications to fight infection)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="yes">
+					<question mandatory="true" prompt="If yes, please provide the following infomation:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of antibiotic" width="35"/>
+								<column_definition label="Type of Infection" width="30"/>
+								<column_definition label="How taken?(Pill or IV)" width="30"/>
+								<column_definition label="How long taken (days/weeks, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient been given steroids (anti-inflammatory) medications? (Prednisone, Medrol, etc.)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="yes">
+					<question mandatory="true" prompt="If yes, please provide the following infomation:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of steroid" width="35"/>
+								<column_definition label="Date started" width="30"/>
+								<column_definition label="How long taken (days/weeks, etc.)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended for the current problem?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+				<column_definitions>
+					<column_definition label="Name of Physician" width="25"/>
+					<column_definition label="Specialty" width="25"/>
+					<column_definition label="Hospital / Clinic" width="25"/>
+					<column_definition label="Location (city, state)" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding the patient's condition?">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

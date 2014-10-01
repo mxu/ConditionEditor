@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Stanton-Hicks_ComplexRegionalPainSyndromeMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Stanton-Hicks_ComplexRegionalPainSyndromeQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Pain Management" name="Pain Management">
+		<section description="" name="">
+			<condition cost="565.00" description="CRPS I (Reflex Sympathetic Dystrophy)" id="CRPS I (Reflex Sympathetic Dystrophy)">
+				<keyword text="causalgia"/>
+				<keyword text="CRPS"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Mononeuropathy" id="Mononeuropathy">
+				<keyword text="mononeuropathy"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Plexopathy" id="Plexopathy">
+				<keyword text="plexopathy"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Radiculopathy" id="Radiculopathy">
+				<keyword text="radiculopathy"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Reflex Sympathetic Dystrophy (CRPS I)" id="Reflex Sympathetic Dystrophy (CRPS I)">
+				<keyword text="CRPS"/>
+				<keyword text="RSD"/>
+				<keyword text="reflex"/>
+				<keyword text="pain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

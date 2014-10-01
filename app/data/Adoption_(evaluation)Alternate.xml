@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!-- Michelle Marks MD -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Adoption_(evaluation)MaterialList.xml">
+	<!ENTITY alternate_questionnaire_doc SYSTEM "Adoption_(evaluation)Alternate_Questionnaire.xml">    
+]>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<division description="Pediatrics" name="Pediatrics">
+	<department description="Pediatrics-General" name="Pediatrics-General">
+		<section description="" name="">
+        <condition cost="565.00" description="Adoption (evaluation)" id="Adoption (evaluation)" product_id="adoption" active="false">
+				&alternate_questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="285.00" description="General adoption information" id="General adoption information" product_id="adoption" active="true">
+				&alternate_questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

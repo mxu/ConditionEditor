@@ -1,0 +1,827 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding child's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of child's problem (one you are requesting a second opinion for)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="As related to  child's condition (one you are requesting second opinion for) how was patient's diagnosis made?  (choose all that apply)">
+			<item_response single_response="false">
+				<selection selected="false" text="X-Ray"/>
+				<selection selected="false" text="Cholangiogram"/>
+				<selection selected="false" text="Angiogram"/>
+				<selection selected="false" text="Upper endoscopy"/>
+				<selection selected="false" text="CT Scan"/>
+				<selection selected="false" text="MRI Scan"/>
+				<selection selected="false" text="MRE Scan"/>
+				<selection selected="false" text="Blood tests"/>
+				<selection selected="false" text="Liver biopsy"/>
+				<selection selected="false" text="Liver Scan"/>
+				<selection selected="false" text="Liver function tests"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt=" If other, Please list">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Was the onset of child's (patient's) condition sudden?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="When was child's diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When was child (patient) last examined / evaluated by a physician for his/her condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="For how long has child (patient) had this problem?">
+			<item_response single_response="true">
+				<selection selected="false" text="Less than month"/>
+				<selection selected="false" text="1-3 months"/>
+				<selection selected="false" text="4-6 months"/>
+				<selection selected="false" text="7-12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Are child's  symptoms?">
+			<item_response single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="None of Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain (be specific as possible) below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you feel that child's general health has deteriorated as a result of this condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has  Diabetes as a  result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has renal (kidney) involvement as a result of his / her current condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please give detail below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has pernicious anemia (lack of B12) as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has hemolytic anemia (abnormal breakdown of red blood cells) as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has thrombocytopenia purpura as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has ulcerative colitis as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has celiac disease as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child has autoimmune thyroiditis (Hashimoto's thyroiditis) as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has Portal Hypertension as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has Sjogren's Syndrome as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been told that child (patient) has Graves Disease as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) ever been vaccinated against hepatitis A  in the past? (this  usually involves 2 injections)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) ever  been vaccinated against hepatitis B  in the past? (this  usually involves 3 injections)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, When was this condition diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) been tested (blood test) for HIV (human immunodeficiency virus)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, What were the results?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Negative"/>
+							<selection selected="false" text="Positive"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When was child (patient) last tested for HIV?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does child (patient) have a history of any of the following conditions?  If yes, please provide date of diagnosis if known (choose all that apply)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Disease" width="45"/>
+					<column_definition label="Date (Month, year) of diagnosis" width="20"/>
+					<column_definition label="Has the disease been active in the past 5 years?" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Autoimmune anemia</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Crohn's disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Inflammatory bowel disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pancreatitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Scleroderma</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sicca Complex</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Systemic  Lupus Erythematosus</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thyroid problems</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis A (infectious)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis B (bacterial)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis C (blood-borne infectious)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver cancer</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver cysts</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primary Biliary Cirrhosis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primary sclerosing cholangitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primary sclerosing cholangitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of Above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient)  been diagnosed with any other diseases not listed above?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below (be as specific as possible):">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) received an organ transplant in the past?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below (be as specific as possible):">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of transplant (kidney, lung, etc.)" width="25"/>
+								<column_definition label="Date (month/year)" width="20"/>
+								<column_definition label="Reason for transplant" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced digestive tract (gastrointestinal) bleeding as a result of his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide details of the bleeding and how it was treated:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have child's stools (bowel movements) contained blood or a dark tarry color ?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have child's stools (bowel movements) been pale in color?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child's urine been dark in color?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced spider angiomas (abnormal blood vessels of the skin)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced  bruising?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced jaundice (yellowing of skin and/or whites of eyes)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does child (patient) have varices (enlarged veins) of the esophagus and / or stomach?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, has child experienced variceal bleeding ?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, when ?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+							</item_response>
+					</question>
+					<question mandatory="true" prompt="How were the bleeding varices treated in the past? (choose all that apply)">
+						<item_response single_response="false">
+							<selection selected="false" text="sclerotherapy"/>
+							<selection selected="false" text="band ligation"/>
+							<selection selected="false" text="TIPS (Transjugular intrahepatic portosystemic shunting)"/>
+							<selection selected="false" text="surgery"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please provide details:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is child (patient) experiencing pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, location of pain?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="Please rate your pain on the scale below: (1= Minimal pain, 10= Worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does patient's pain awaken him/her from sleep?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how often?">
+									<item_response single_response="true">
+										<selection selected="false" text="Frequently"/>
+										<selection selected="false" text="Occasionally"/>
+										<selection selected="false" text="Rarely"/>
+										<selection selected="false" text="Not Sure"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does child (patient) experience  joint aches (arthralgia)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does child (patient) experience fatigue (tiredness) compared to others in his/her age group?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced episodes of fever/ chills  recently (within the last 3 months)?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does child (patient) experience itching (pruritus) of his/her skin?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please rate the severity of patient's itching on the scale below:  (1=minimal itching, 10=worst itching)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst itching"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate itching"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal itching"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced ascites (a build up of fluid ) in his/her abdomen?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="How is (was) the ascites being treated? (choose all that apply)">
+						<item_response single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Not being treated"/>
+							<selection selected="false" text="Diuretic medications"/>
+							<selection selected="false" text="Fluid removal"/>
+							<selection selected="false" text="TIPS (Transjugular intrahepatic portosystemic shunting)"/>
+							<selection selected="false" text="None of Above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please provide details:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Has child (patient) been taking antibiotic medications for the prevention of infection of the ascites?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, which antibiotic medications are you currently taking?">
+									<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Name of medication" width="35"/>
+											<column_definition label="Dosage (if Known)" width="20"/>
+											<column_definition label="Date started" width="20"/>
+											<column_definition label="How taken? (pills, IV, Etc)" width="30"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced edema (swelling) in his/her feet or legs?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced shortness of breath?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced a rapid heart beat?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced nausea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced vomiting?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced a loss of appetite?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced a recent unintentional  weight loss?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+								<column_definitions>
+									<column_definition label="# of pounds lost" width="15"/>
+									<column_definition label="Over what period of time ?" width="15"/>
+									<column_definition label="# of weeks, months" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced a recent unintentional  weight gain?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+								<column_definitions>
+									<column_definition label="# of pounds gained" width="15"/>
+									<column_definition label="Over what period of time ?" width="15"/>
+									<column_definition label="# of weeks, months" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced diarrhea?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced numbness and /or tingling in hands and / or feet?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) experienced mental confusion?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) been treated in the past with corticosteroid (steroids) medications ( examples: prednisone, dexamethasone, etc.) for his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information for each type of corticosteroid medication patient has taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.).">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of steroid medication " width="30"/>
+								<column_definition label="Dosage / Frequency" width="20"/>
+								<column_definition label="Date started" width="15"/>
+								<column_definition label="How long taken" width="20"/>
+								<column_definition label="How taken? (pills, IV, Etc)" width="30"/>
+								<column_definition label="Result?  (Did medication help, make things worse)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) been treated in the past with immunosuppressant  medications ( examples: Imuran, cyclosporine, etc.)  for his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the following information for each type of corticosteroid medication patient has taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.).">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of steroid medication " width="30"/>
+								<column_definition label="Dosage / Frequency" width="20"/>
+								<column_definition label="Date started" width="15"/>
+								<column_definition label="How long taken" width="20"/>
+								<column_definition label="How taken? (pills, IV, Etc)" width="30"/>
+								<column_definition label="Result?  (Did medication help, make things worse)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has child (patient) undergone any other treatments not listed above for his/her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain below (give as much detail as possible):">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding treatment for patient's condition? (surgery, medical management, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Which doctor made this recommendation?">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="4">
+				<column_definitions>
+					<column_definition label="Name of Physician" width="20"/>
+					<column_definition label="Specialty (primary care physician, gastroenterologist, etc.)" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What have the doctors stated regarding patient's prognosis (forecast of the probable course of the disease)?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

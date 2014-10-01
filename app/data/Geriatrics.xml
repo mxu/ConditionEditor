@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "GeriatricsMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "GeriatricsQuestionnaire.xml">
+]>
+<division description="Medicine" name="Medicine">
+	<department description="Geriatrics" name="Geriatrics">
+		<section description="" name="">
+			<condition cost="565.00" description="Dementia (Geriatrics)" id="Dementia (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Memory Loss (Geriatrics)" id="Memory Loss (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Falls (Geriatrics)" id="Falls (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Abnormal weight loss (Geriatrics)" id="Abnormal weight loss (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Dizziness (Geriatrics)" id="Dizziness (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hydrocephalus (Geriatrics)" id="Hydrocephalus (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Gait Abnormality (Geriatrics)" id="Gait Abnormality (Geriatrics)" active="true">
+				<keyword text="polypharmacy"/>
+				<keyword text="frailty"/>
+				<keyword text="memory"/>
+				<keyword text="dementia"/>
+				<keyword text="hydrocephalus"/>
+				<keyword text="loss"/>
+				<keyword text="gait"/>
+				<keyword text="abnormality"/>
+				<keyword text="falls"/>
+				<keyword text="weight"/>
+				<keyword text="weight loss"/>
+				<keyword text="dizziness"/>
+				<keyword text="giddiness"/>
+				<keyword text="elderly"/>
+				<keyword text="geriatrics"/>
+				<keyword text="age"/>
+				<keyword text="mental"/>
+				<keyword text="change"/>
+				<keyword text="assessment"/>
+				<keyword text="medications"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+        </section>
+	</department>
+</division>

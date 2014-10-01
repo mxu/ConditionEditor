@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "FibromuscularDysplasiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fibromuscular_DysplasiaQuestionnaire.xml">
+	
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Fibromuscular Dysplasia" id="Fibromuscular Dysplasia">
+				<keyword text="dysplasia"/>
+				<keyword text="abnormal"/>
+				<keyword text="artery"/>
+				<keyword text="arteries"/>
+				<keyword text="walls"/>
+				<keyword text="narrowing"/>
+				<keyword text="stenosis"/>
+				<keyword text="cell"/>
+				<keyword text="carotid"/>
+				<keyword text="renal"/>
+				<keyword text="FMD"/>
+				<keyword text="neck"/>
+				<keyword text="kidney"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Carotid Dissection" id="Carotid Dissection">
+				<keyword text="dysplasia"/>
+				<keyword text="abnormal"/>
+				<keyword text="artery"/>
+				<keyword text="arteries"/>
+				<keyword text="walls"/>
+				<keyword text="narrowing"/>
+				<keyword text="stenosis"/>
+				<keyword text="cell"/>
+				<keyword text="carotid"/>
+				<keyword text="renal"/>
+				<keyword text="FMD"/>
+				<keyword text="neck"/>
+				<keyword text="kidney"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

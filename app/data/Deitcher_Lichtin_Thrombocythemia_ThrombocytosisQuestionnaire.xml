@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is your diagnosis? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Thrombocythemia"/>
+				<selection selected="false" text="Primary (essential) Thrombocythemia"/>
+				<selection selected="false" text="Secondary Thrombocythemia"/>
+				<selection selected="false" text="Thrombocytosis"/>
+				<selection selected="false" text="Primary (essential) Thrombocytosis"/>
+				<selection selected="false" text="Secondary Thrombocytosis"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for this condition?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Angina"/>
+				<selection selected="false" text="Arrhythmias (heart irregularities)"/>
+				<selection selected="false" text="Deep vein thrombosis"/>
+				<selection selected="false" text="Deep venous thrombosis (DVT) (blood clot in vein)"/>
+				<selection selected="false" text="Enlarged liver"/>
+				<selection selected="false" text="Liver Disease"/>
+				<selection selected="false" text="Enlarged spleen"/>
+				<selection selected="false" text="Bleeding disorder"/>
+				<selection selected="false" text="Easy bruising"/>
+				<selection selected="false" text="Transient ischemia attack (TIA)"/>
+				<selection selected="false" text="Pulmonary Embolus (PE) (blood clot in lung)"/>
+				<selection selected="false" text="Infection"/>
+				<selection selected="false" text="Hypercoagulable state"/>
+				<selection selected="false" text="Trauma / Injury"/>
+				<selection selected="false" text="Platelet Disorder"/>
+				<selection selected="false" text="Leukemia"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a myocardial infarction (heart attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a myocardial infarction, please provide date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with a bleeding disorder?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with a bleeding disorder, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of bleeding disorder" width="25"/>
+								<column_definition label="Date of diagnosis (Month, Year)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone dental extractions?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone dental extractions, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date (Month, Year)" width="25"/>
+								<column_definition label="Complications, if any" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you received a blood or blood product (example: platelets) transfusion?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received a blood or blood product (example: platelets) transfusion, please provide additional information below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of transfusion" width="25"/>
+								<column_definition label="Date (month, year)" width="20"/>
+								<column_definition label="Adverse reaction(s), side effects (if any)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you a female?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, are you currently pregnant?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are currently pregnant, what is your due date?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Have you ever been pregnant?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you have ever been pregnant, how many pregnancies?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="How many live births have you had?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="How many elective abortions have you had?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="How many spontaneous abortions (miscarriages) have you had?">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="If you have experienced spontaneous abortions (miscarriages), please provide additional information below:">
+									<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+										<column_definitions>
+											<column_definition label="Date (Month / Year)" width="15"/>
+											<column_definition label="How many weeks of &lt;BR&gt; gestation (how far along)?" width="30"/>
+										</column_definitions>
+									</table_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken any of the following medications? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Antidiabetic pills (Glucotrol, Glyburide, etc.)"/>
+				<selection selected="false" text="Gold salts"/>
+				<selection selected="false" text="Quinidine"/>
+				<selection selected="false" text="Quinine"/>
+				<selection selected="false" text="Rifampin"/>
+				<selection selected="false" text="Sulfa (antibiotic)"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following studies or procedures have you had done?">
+			<table_response add_row_increment="2" row_height="1">
+				<column_definitions>
+					<column_definition label="Study" width="20"/>
+					<column_definition label=" Date (Month / Year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Angiogram </cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood clotting element testing</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bone marrow biopsy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest x-ray</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Liver biopsy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spleen biopsy</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of the above</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Bleeding / bruising of gums"/>
+				<selection selected="false" text="Bruising easily"/>
+				<selection selected="false" text="Coughing up blood"/>
+				<selection selected="false" text="Joint pain"/>
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Redness of hands"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past month) had any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Abdominal (belly) pain / tenderness"/>
+				<selection selected="false" text="Back pain"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Chronic cough"/>
+				<selection selected="false" text="Dizziness / lightheadedness"/>
+				<selection selected="false" text="Dyspnea (shortness of breath) on exertion"/>
+				<selection selected="false" text="Fever > 100 F"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Productive cough"/>
+				<selection selected="false" text="Rigor / shaking chills"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently experiencing any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Blood in the stool"/>
+				<selection selected="false" text="Bruise easily"/>
+				<selection selected="false" text="Headache"/>
+				<selection selected="false" text="Dizziness / lightheadedness"/>
+				<selection selected="false" text="Nose bleeds"/>
+				<selection selected="false" text="Numbness / tingling of the hands or feet"/>
+				<selection selected="false" text="Vomiting blood"/>
+				<selection selected="false" text="Weakness"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been treated for your current condition (one you are requesting second opinion for)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have been treated for your current condition, please provide additional information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Type of treatment or procedure" width="20"/>
+								<column_definition label="Date (Month / Year)" width="10"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital / Clinic" width="25"/>
+								<column_definition label="City / State" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Regarding the treatment or procedures, how would you rate your overall satisfaction with the treatment? (1= not satisfied, 10= very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past month) taken an antibiotic (medication to fight infection)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have recently (within the past month) taken an antibiotic, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of antibiotic" width="20"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date started" width="25"/>
+								<column_definition label="When started (exact date)" width="25"/>
+								<column_definition label="When finished (exact date)" width="25"/>
+								<column_definition label="How taken (pills, IV, etc.)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with an anticoagulant (blood thinner) medication (examples: Coumadin, Refludan, heparin, low molecular weight heparin, etc.) for the treatment or prevention of blood clots?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with an anticoagulant medication, please provide the following information for each type of anticoagulant you have taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.):">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of anticoagulant medication" width="20"/>
+								<column_definition label="Dosage / Frequency" width="10"/>
+								<column_definition label="Date started" width="25"/>
+								<column_definition label="How long taken" width="25"/>
+								<column_definition label="How taken (pills, IV, etc.)" width="25"/>
+								<column_definition label="Adverse (abnormal) &lt;BR&gt; reaction, if any" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If you are currently taking a prescription anticoagulant, please record below your three most recent coagulation studies  (lab tests).  Please be sure to record the medication dosage change following lab test, if applicable (i.e. Coumadin increased to 10 mg per day">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of anticoagulant medication" width="20"/>
+								<column_definition label="Blood test name  (PT / INR, PTT, etc.)" width="10"/>
+								<column_definition label="Blood Test Result" width="25"/>
+								<column_definition label="Date (Month / Year) test done" width="25"/>
+								<column_definition label="Dosage change, if any" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with a thrombolytic (clot dissolver) agent (examples: t-PA, streptokinase, urokinase, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with a thrombolytic  agent, please provide the following information for each type of thrombolytic you have taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.).">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of thrombolytic" width="20"/>
+								<column_definition label="Date (Month / Year)" width="10"/>
+								<column_definition label="Reason for administration" width="25"/>
+								<column_definition label="Adverse (abnormal) reaction, if any" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with a platelet inhibitor medication (examples: Ticlid, aspirin, clopidogrel, etc.) for the treatment or prevention of blood clots?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with a platelet inhibitor medication for the treatment or prevention of blood clots, please provide the following information for each type of platelet inhibitor you have taken, starting with the current or most recent. Please indicate if you experienced any adverse (abnormal) reactions (hives, fever, breathing difficulties, etc.):">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of anticoagulant medication" width="20"/>
+								<column_definition label="Dosage / Frequency" width="10"/>
+								<column_definition label="Date started" width="25"/>
+								<column_definition label="How long taken" width="25"/>
+								<column_definition label="How taken (pills, IV, etc.)" width="25"/>
+								<column_definition label="Adverse (abnormal) &lt;BR&gt; reaction, if any" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with steroid medications (examples: Prednisone, Cortisol, etc.) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with steroid medications  for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of steroid medication" width="20"/>
+								<column_definition label="Dose, if known" width="10"/>
+								<column_definition label="Date started (Month / Year)" width="25"/>
+								<column_definition label="Date stopped (Month / Year), if applicable" width="25"/>
+								<column_definition label="Did your condition improve? (yes, no, not sure)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with immunosuppressive agents (examples: Vincristin, Vinblastin, etc.) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with immunosuppressive agents for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of medication" width="20"/>
+								<column_definition label="Dose, if known" width="10"/>
+								<column_definition label="Date started (Month / Year)" width="25"/>
+								<column_definition label="Date stopped (Month / Year), if applicable" width="25"/>
+								<column_definition label="Did your condition improve? (yes, no, not sure)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been treated with y-Globulin infusions for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with y-Globulin infusions for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of medication" width="20"/>
+								<column_definition label="Dose, if known" width="10"/>
+								<column_definition label="Date started (Month / Year)" width="25"/>
+								<column_definition label="Date stopped (Month / Year), if applicable" width="25"/>
+								<column_definition label="Did your condition improve? (yes, no, not sure)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken low dose aspirin therapy for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever taken low dose aspirin therapy for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="When started (Month / Year)" width="20"/>
+								<column_definition label="Aspirin dosage " width="10"/>
+								<column_definition label="Date stopped (Month / Year), if applicable" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever taken an aspirin product for a prolonged period of time?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have taken an aspirin product for a prolonged period of time, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of aspirin product" width="20"/>
+								<column_definition label="Dose, if known" width="10"/>
+								<column_definition label="Reason for taking" width="25"/>
+								<column_definition label="Date started (Month / Year)" width="25"/>
+								<column_definition label="Date stopped (Month / Year), if applicable" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received myelosuppressive therapy (hydroxyurea, anagrelide, etc.) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever received myelosuppressive therapy for your condition, please provide the following information starting with the current or most recent course:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of medication" width="25"/>
+								<column_definition label="Dosage" width="25"/>
+								<column_definition label="How often taken" width="25"/>
+								<column_definition label="When started (month/year)" width="25"/>
+								<column_definition label="When finished (month/year), if applicable" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you ever been treated with interferon -alpha for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been treated with interferon -alpha for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="When started (month/year)" width="25"/>
+								<column_definition label="How many injections (doses)" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone plateletpheresis for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone plateletpheresis for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="When started (Month/Year)" width="25"/>
+								<column_definition label="How often?" width="25"/>
+								<column_definition label="When stopped (Month/Year), if applicable" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone a splenectomy (removal of the spleen) for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone a splenectomy for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Date (Month / Year)" width="25"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital / Clinic" width="30"/>
+								<column_definition label="Did your condition improve after surgery? (yes, no, not sure)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you received any other treatments for your current condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received any other treatments for your current condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of treatment" width="25"/>
+								<column_definition label="Date (Month / Year)" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital / Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="Regarding the treatment or procedures you have undergone, what is your general subjective impression of the experience?  (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Regarding the treatment or procedures, how would you rate your overall satisfaction with the treatment? (1= not at all satisfied, 10= very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (Hematologist, Primary care physician, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

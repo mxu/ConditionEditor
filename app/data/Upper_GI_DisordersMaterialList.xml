@@ -1,0 +1,31 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and a description of current signs and symptoms. This can be written by either your primary care  
+physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all surgeries/biopsies." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The actual original films (not copies) of the 
+studies and the reports will be needed, if indicated: &lt;/b&gt;"/>
+
+<material id="X-rays" description="Reports and films." mandatory="true"/>
+<material id="CT scan" description="Report and films." mandatory="true"/>
+<material id="Barium Swallow" description="Report and films." mandatory="true"/>
+<material id="Upper endoscopies" description="Reports and films." mandatory="true"/>
+<material id="Ultrasound" description="Report and films." mandatory="true"/>
+<material id="Nuclear Scan" description="Report and films." mandatory="true"/>
+<material id="Acid perfusion (Bernstein) test" description="Report and films (if done)." mandatory="true"/>	
+<material id="24 hour esophageal PH monitoring" description="Laboratory report (if done)." mandatory="true"/>
+<material id="Pathology" description="Reports and glass slides for any biopsies done." mandatory="true"/>
+
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission.
+ &lt;/b&gt;"/>
+	
+	<material id="Current blood work" description="Laboratory reports for current blood tests (within 6 months) (if done)
+" mandatory="false"/>
+		<material id="Other" description=" Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

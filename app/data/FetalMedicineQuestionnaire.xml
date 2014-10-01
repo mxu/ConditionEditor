@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the primary or chief problem for which patient is seeking this second opinion?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Please describe patient's problem in detail as you understand it.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current pregnancy?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What are the three most important questions you would like to ask the Cleveland Clinic consulting physician?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="How many times has the patient been pregnant?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="How many live born children has patient had?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="What is the age of the patient?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="What is patient's delivery due date?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Has patient's due date been changed? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, why was patient's due date changed?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Will the patient be less than 17 or greater than 34 years old at the time of delivery? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, at what age will the patient be at time of delivery?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="At what point in patient's pregnancy did patient discover there was a problem?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Please describe below any signs and symptoms patient is  having as a result of her condition.  Provide  as many details as possible:">
+			<free_form_response height="5"/>
+		</question>
+				<question mandatory="true" prompt="When was the first day of patient's last menstrual period?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="How many days on average from the first day of one menstrual period to the first day of patient's next? (for example,  28 days)">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Does patient ever miss periods? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how often?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is this a single pregnancy? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, and there is more than one fetus, how many?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is this pregnancy the result of infertility treatment?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe the specific testing which was done, diagnosis (if applicable) and type of infertility treatment below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many times has patient been pregnant excluding this pregnancy?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Has patient had any full-term (37+ week gestational age) deliveries?">		
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many? (# of full-term deliveries)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="Please provide additional information below regarding patient's full-term deliveries">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+							<column_definitions>
+								<column_definition label="Delivery Date" width="20"/>
+								<column_definition label="Vaginal or Cesarean" width="20"/>
+								<column_definition label="Sex of newborn" width="20"/>
+								<column_definition label="Birth weight of newborn" width="20"/>
+								<column_definition label="Complications (if any)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any pre-term deliveries?">		
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many? (# of pre-term deliveries)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="Please complete table below regarding patient's pre-term deliveries:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+							<column_definitions>
+								<column_definition label="Delivery Date" width="20"/>
+								<column_definition label="# of Complete weeks of pregnancy" width="20"/>
+								<column_definition label="Vaginal or Cesarean" width="20"/>
+								<column_definition label="Sex of newborn" width="20"/>
+								<column_definition label="Birth weight of new born" width="20"/>
+								<column_definition label="Complications (if any)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any miscarriages?">		
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many? (# of miscarriages)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="Please include details of all miscarriages below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+							<column_definitions>
+								<column_definition label="Date of miscarriage" width="20"/>
+								<column_definition label="How far into pregnancy?" width="20"/>
+								<column_definition label="Result of miscarried tissue testing (if applicable)" width="50"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any stillbirths or neonatal deaths?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many? (# of stillbirths/neonatal deaths)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="If yes, Please describe in detail the circumstances of stillbirths/neonatal deaths below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has any of patient's newborns gone to a neonatal intensive care unit (NICU) or a special care nursery?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe circumstances in depth below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any abortions?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many? (# of abortions)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="If yes, were any for pregnancy complications due to fetal anomalies? (choose one)">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please describe in detail below:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any testing in previous pregnancies that was abnormal such as a first trimester screen, second trimester serum screen (Tri Screen or Quad Screen), a glucose tolerance test (testing for gestational diabetes), chorionic villous sampling (CVS), an amniocentesis (amnio), or any other blood tests?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had any testing during this pregnancy  that was abnormal such as a first trimester screen, second trimester serum screen (Tri Screen or Quad Screen), a glucose tolerance test (testing for gestational diabetes), chorionic villous sampling (CVS), an amniocentesis (amnio), or any other blood tests?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe in detail below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient been told she has gestational diabetes during this pregnancy? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide finger stick glucose level below:">
+						<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Glucose Reading(s)" width="20"/>
+								<column_definition label="Date of reading (mm/dd/yyyy)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient know the gender of her unborn child?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what gender?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Male"/>
+							<selection selected="false" text="Female"/>
+							<selection selected="false" text="Both (twins)"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How was sex determined? (choose all that apply)">
+						<item_response single_response="false">
+							<selection selected="false" text="ultrasound"/>
+							<selection selected="false" text="amniocentesis"/>
+							<selection selected="false" text="CVS"/>
+							<selection selected="false" text="None of the above"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are the patient and the father of the baby blood relatives?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is their relationship?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is patient's current weight in pounds or kilograms? (indicate if pounds or kilograms)">
+			<free_form_response />
+		</question>
+		<question mandatory="true" prompt="What did patient weigh right before this pregnancy? (indicate if pounds or kilograms)">
+			<free_form_response />
+		</question>
+		<question mandatory="true" prompt="Please tell us about patient's FAMILY history in patient or patient's  immediate family members (biological children from this relationship and/or previous one; patient's mother, father, brothers, sisters, grandparents; parents’ brothers and sisters and their children) (complete table below):">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="20"/>
+					<column_definition label='Patient (indicate with "X")' width="15"/>
+					<column_definition label="Family Member / Who?" width="15"/>
+					<column_definition label="Describe Details:" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Heart disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>High blood pressure</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lung disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gastrointestinal disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Kidney disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Autoimmune disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Endocrine disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Metabolic disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cancer</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Inherited disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Muscle disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Seizures</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Learning disabilities</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mental Illness/Depression</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Surgeries</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Baby who died before or soon after birth</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Birth defects</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had or does patient currently have any of the following conditions? (choose all that apply)">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="20"/>
+					<column_definition label='Yes/&lt;BR&gt;No/&lt;BR&gt;Not Sure' width="15"/>
+					<column_definition label="Describe Details:" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Diabetes prior to this pregnancy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diabetes developed during this pregnancy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Thyroid Disease or Endocrine Problems</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Anemia</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Heart Disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mitral Valve Prolapse</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Rheumatic Fever</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Autoimmune disease (Lupus, Rheumatoid Arthritis)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Kidney Disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pyelonephritis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Multiple Bladder Infections</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Seizures</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Migraines</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Multiple Sclerosis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Neurological problems</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Jaundice, Hepatitis or liver disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood clots (Deep Vein Thrombosis / Pulmonary Embolus</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Excessive bleeding after surgery, dental work, cut or scratch</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Asthma, Tuberculosis, or other lung disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>High blood pressure</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has patient had or does patient currently have any of the following conditions?  (choose all that apply)">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="20"/>
+					<column_definition label='Yes/&lt;BR&gt;No/&lt;BR&gt;Not Sure' width="15"/>
+					<column_definition label="Describe Details:" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Parity > 4 (more than 4 births)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Second trimester induced abortion</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Second trimester loss</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Uterine surgery or myomectomy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Preterm delivery, preterm labor, or PPROM (preterm premature rupture of membranes)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Premature cervical dilation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Preeclampsia or PIH (Pregnancy induced hypertension)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Prior Cesarean Section</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Abruption</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Postpartum hemorrhage</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gestational diabetes</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Postpartum depression</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Small for gestational age baby</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Intrauterine growth restriction baby</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Large for gestational age baby</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Baby with group B strep infection</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Neonatal death</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Genital herpes</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Genital Herpes in partner</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gonorrhea</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chlamydia</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Syphilis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Genital Warts</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Trichomonas</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pelvic Inflammatory Disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Sexually Transmitted Disease</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Is patient suffering from high blood pressure during this pregnancy? (choose one)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the most current blood pressure reading?">
+						<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Blood Pressure Reading(s)" width="20"/>
+								<column_definition label="Date of reading&lt;BR&gt;(mm/dd/yyyy)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is patient's blood type?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Is patient RH negative?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, has patient received Rhogam?">
+						<item_response single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever received a blood transfusion?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of the blood transfusion below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Would patient refuse a blood transfusion if a doctor judged it to be medically necessary?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of a  blood transfusion refusal below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient  ever been in a major accident or suffered serious trauma?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of the accident or trauma experience below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="During this pregnancy, has patient been hit, punched, kicked, or experienced trauma to abdominal area?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of experience below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient experience breast problems?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of breast problems below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient  ever undergone  a gynecological surgical procedure such as a cervical conization, A LEEP procedure, laser treatment, or cryosurgery of the cervix? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete table below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+								 <column_definitions>
+									<column_definition label="Date of Procedure" width="15"/>
+									<column_definition label="Type of Procedure" width="25"/>
+									<column_definition label="Reason of Procedure" width="25"/>
+									<column_definition label="Physician Name" width="25"/>
+								</column_definitions>
+							</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient  ever experienced complications from anesthesia?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the anesthesia complication(s) below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever had an abnormal pap smear?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the abnormal pap smear below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever been told that she has an abnormal uterus?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the abnormality of the uterus  below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever been told she has  an abnormality of her cervix?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the abnormality of the cervix below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has patient ever been told she has an incompetent cervix?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of the incompetent cervix below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did patient's mother  take DES (Diethylstilbestrol) or any other hormones when she was pregnant with patient?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the hormone therapy  below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a family history of medical  problems which might adversely affect patient's health or pregnancy?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the patient's family history below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have gastrointestinal diseases, such as Crohn's, Colitis, Irritable Bowel, or an ulcer?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the gastronintestinal problem(s) below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have a history of cancer?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the cancer history below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does patient have or has patient had any other problems or issues not asked about which patient feels may be important to this pregnancy?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe (in detail) the circumstances of  the other problem or problems below:">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Was patient smoking cigarettes when she became pregnant?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many cigarettes per day? (# of cigarettes per day)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient currently smoking cigarettes?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many cigarettes per day? (# of cigarettes per day)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Was patient drinking alcohol when she became pregnant? ">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many drinks per day or week? (# of drinks per day)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient currently drinking alcohol?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many drinks per day or week? (# of drinks per day)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Was patient using recreational drugs when she became pregnant? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe names of drugs, how often, etc. below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient currently using recreational drugs? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe type of drugs, how often, etc. below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Was patient  taking  prescription medications, over the counter medications, vitamins, or supplements when she became pregnant?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+								 <column_definitions>
+									<column_definition label="Name of medication" width="20"/>
+									<column_definition label="How taken (oral, injection, etc.)" width="20"/>
+									<column_definition label="Dosage" width="20"/>
+									<column_definition label="When taken" width="20"/>
+									<column_definition label="Purpose of medication" width="20"/>
+									<column_definition label="If stopped, when?" width="15"/>
+								</column_definitions>
+							</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient currently taking  prescription medications, over the counter medications, vitamins, or supplements?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide additional information below:">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+								 <column_definitions>
+									<column_definition label="Name of medication" width="20"/>
+									<column_definition label="How taken (oral, injection, etc.)" width="20"/>
+									<column_definition label="Dosage" width="20"/>
+									<column_definition label="When taken" width="20"/>
+									<column_definition label="Purpose of medication" width="20"/>
+									<column_definition label="If stopped, when?" width="15"/>
+								</column_definitions>
+							</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is patient's date of birth?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is patient's ethnic background or ancestry? (choose one)">
+			<item_response single_response="true">
+				<selection selected="false" text="Italian"/>
+				<selection selected="false" text="Greek"/>
+				<selection selected="false" text="African-American"/>
+				<selection selected="false" text="Jewish "/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please indicate:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is patient employed outside of the home?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is patient's occupation?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient or the baby's father or anyone in either family had any of the following? (choose all that apply)">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="20"/>
+					<column_definition label='Yes&lt;BR&gt;No&lt;BR&gt;Not Sure' width="15"/>
+					<column_definition label="Describe Details:" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Thalassemia (Italian, Greek, Mediterranean, or Asian background only)?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Neural Tube defect such as meningomyelocele, spina bifida, or anencephaly?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Congenital heart defect?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Down's Syndrome?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tay-Sach's disease (Jewish, Cajun, French-Canadian descent)?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sickle Cell disease or trait (African descent)?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hemophilia or other inherited problems of blood coagulation?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Muscular dystrophy?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cystic Fibrosis?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Huntington's Chorea?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cleft lip or palate?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Toxic environmental or occupational exposure?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mental retardation or autism?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Any other inherited, genetic, or chromosomal disorders?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>A child with birth defects not listed above?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Recurrent pregnancy loss or a stillbirth?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Any other genetic risks?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please tell us about any history in this baby's father or his family (his biologic children from this relationship and /or a previous one; his mother, father, brothers, sisters, grandparents; his parent's brothers and sisters and their children):">
+			<table_response add_row_increment="1" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="20"/>
+					<column_definition label="Baby's father &lt;BR&gt; (indicate with 'X')" width="20"/>
+					<column_definition label="His Family Member / Who?" width="18"/>
+					<column_definition label="Describe Details:" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Heart disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>High blood pressure</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lung disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gastrointestinal disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Kidney disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Autoimmune disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Endocrine disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Metabolic disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cancer</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Inherited disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Muscle disease</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Seizures</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Learning disabilities</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mental Illness/Depression</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Surgeries</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Baby who died before or soon after birth</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Birth defects</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Does baby's father smoke cigarettes?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many cigarettes per day? (# of cigarettes per day)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="If yes, how many cigarettes per day when pregnancy occurred? (# of cigarettes per day)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Does baby's father drink alcohol?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many drinks per day or week? (# of drinks per day/week)">
+						<free_form_response />
+					</question>
+					<question mandatory="true" prompt="If yes, how many drinks per day/week when pregnancy occurred? (# of drinks per day/week)">
+						<free_form_response />
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Does baby's father take recreational drugs?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe names of drugs, how often, etc. below:">
+						<free_form_response height="4" />
+					</question>
+					<question mandatory="true" prompt="If yes, please describe type of drugs, how often, etc. taken when pregnancy occurred?">
+						<free_form_response height="4" />
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="What is baby's father's date of birth?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is baby's father's  ethnic background or ancestry?">
+			<item_response single_response="true">
+				<selection selected="false" text="Italian"/>
+				<selection selected="false" text="Greek"/>
+				<selection selected="false" text="African-American"/>
+				<selection selected="false" text="Jewish "/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please indicate:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does baby's father work outside of the home?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is his occupation?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please tell us who patient and her physician have consulted about patient's  current pregnancy. Provide details below:">
+			<free_form_response height="5" />
+		</question>	
+		<question mandatory="true" prompt="May the Cleveland Clinic specialist contact patient's physician(s) if needed?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">		
+					<question mandatory="true" prompt="If yes, please complete section below." />
+					<question mandatory="true" prompt="List below, the name(s), addresses), phone, fax number(s) of each physician currently treating the patient">
+						<table_response add_row_increment="1" initial_rows_to_display="4" row_height="1">
+								 <column_definitions>
+									<column_definition label="Name of physician:" width="20"/>
+									<column_definition label="Mailing Address" width="60"/>
+									<column_definition label="Phone" width="10"/>
+									<column_definition label="Fax" width="10"/>
+								</column_definitions>
+							</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please tell us anything else you feel is important for us to know that could assist us in providing you with your second opinion.">
+			<free_form_response height="8"/>
+		</question>
+	</question_group>
+</questionnaire>
+

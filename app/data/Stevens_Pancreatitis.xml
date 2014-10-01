@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Stevens_PancreatitisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Stevens_PancreatitisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Pancreatitis" id="Pancreatitis" active="true">
+				<keyword text="pancreas"/>
+				<keyword text="inflammation"/>
+				<keyword text="infection"/>
+				<keyword text="gland"/>
+				<keyword text="enzyme"/>
+				<keyword text="digestive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Penny Black (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of any of the following conditions?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a family history of any of the following conditions, please indicate below: (complete all that apply)">
+						<table_response add_row_increment="2" row_height="4">
+							<column_definitions>
+								<column_definition label="Condition" width="35"/>
+								<column_definition label="Family &lt;BR&gt; Relationship" width="20"/>
+							</column_definitions>
+							<table_data>
+								<cell>Aneurysm</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Coronary artery disease</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cancer</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>CVA (stroke)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Diabetes</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hypertension</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>COPD/emphysema</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Kidney disease</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Premature atherosclerotic coronary heart disease</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other vascular/circulatory problems (please list below)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a myocardial infarction (heart attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure">
+					<question mandatory="true" prompt="If not sure, please describe the circumstances in your own words.">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had a myocardial infarction, provide date(s) beginning with most recent.">
+						<table_response initial_rows_to_display="2" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="5"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have a history of any of the following, please indicate below: (complete all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Angina"/>
+							<selection selected="false" text="Arrhythmias (heart irregularities)"/>
+							<selection selected="false" text="Bronchitis"/>
+							<selection selected="false" text="DVT (blood clots in the veins"/>
+							<selection selected="false" text="COPD/Emphysema"/>
+							<selection selected="false" text="Pneumonia"/>
+							<selection selected="false" text="Shortness of breath"/>
+							<selection selected="false" text="Sleep apnea"/>
+							<selection selected="false" text="Marfan's Syndrome"/>
+							<selection selected="false" text="TIA (transient ischemia attack)"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you a diabetic?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are diabetic, when were you diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Are you currently taking daily insulin injections (shots)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you are currently taking daily insulin injections, when did you first start taking the injections?">
+									&MONTH_YEAR_TABLE_RESPONSE;
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you test your glucose (sugar) level at home on a regular basis?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you test your glucose level at home on a regular basis, what is the usual morning range of readings (choose one)?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="less than 70"/>
+										<selection selected="false" text="71-100"/>
+										<selection selected="false" text="101-150"/>
+										<selection selected="false" text="151-200"/>
+										<selection selected="false" text="201-250"/>
+										<selection selected="false" text="greater than 250"/>
+										<selection selected="false" text="Not sure"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with hypertension (high blood pressure)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with hypertension, when were you diagnosed?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Do you take home blood pressure readings?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your blood pressure under control with your current treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please indicate your most recent blood pressure reading:">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Systolic &lt;BR&gt; (top number)" width="15"/>
+								<column_definition label="Diastolic &lt;BR&gt; (bottom number)" width="15"/>
+								<column_definition label="Month/Year" width="18"/>
+								<column_definition label="Who took reading &lt;BR&gt; (family member, nurse, etc.)?" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any of the following procedures or surgeries?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had any of the following procedures or surgeries, please indicate below: (complete all that apply)">
+						<table_response add_row_increment="2" row_height="4">
+							<column_definitions>
+								<column_definition label="Study" width="45"/>
+								<column_definition label="Month" width="20"/>
+								<column_definition label="Year" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Lower extremity (leg) artery surgery</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Carotid (neck) artery surgery</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Aneurysm repair</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Aortic surgical procedures</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Percutaneous intervention (balloon angioplasty)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Amputation</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Pacemaker insertion</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Renal (kidney) artery intervention</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (please list below)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had any of the following tests or studies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever had any of the following tests or studies, please indicate below: (complete all that apply)">
+						<table_response add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Study" width="45"/>
+								<column_definition label="Month" width="20"/>
+								<column_definition label="Year" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Angiogram</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cardiac (heart) catheterization</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Carotid (neck) ultrasound</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>CT scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Doppler studies</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>EKG</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>MRI scan</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>PVR (peripheral vascular resistance)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Stress test</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Ultrasound</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Venous ultrasound studies</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (Please list below)</cell>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any of the following problems with your legs? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Ulcers (sores) on legs or feet"/>
+				<selection selected="false" text="Gangrene of legs or feet"/>
+				<selection selected="false" text="Varicose veins"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience leg pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience leg pain, when do you get the leg pain? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="At rest"/>
+							<selection selected="false" text="At night"/>
+							<selection selected="false" text="While walking">
+								<question mandatory="true" prompt="How far can you walk before you have pain? (# blocks, feet, etc.)">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+							<selection selected="false" text="After walking">
+								<question mandatory="true" prompt="How far can you walk before you have pain? (# blocks, feet, etc.)">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Where is the leg pain usually located? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Buttock"/>
+							<selection selected="false" text="Thigh"/>
+							<selection selected="false" text="Calf"/>
+							<selection selected="false" text="Foot"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please rate your leg pain on the scale below: (1= minimal pain, 10= worst pain)">
+							<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+						</question>
+					<question mandatory="true" prompt="What area of your leg(s) has the worst pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Buttock"/>
+							<selection selected="false" text="Thigh"/>
+							<selection selected="false" text="Calf"/>
+							<selection selected="false" text="Foot"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Please describe below where the pain starts and ends.  Be specific for each leg,  for example: 'The pain starts in my left foot and ends in my left thigh.'">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience any of the following symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Night sweats"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (cardiologist, vascular specialist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

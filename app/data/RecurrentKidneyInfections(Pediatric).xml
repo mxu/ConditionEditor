@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "RecurrentKidneyInfections(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "RecurrentKidneyInfections(Pediatric)Questionnaire.xml">
+]>
+
+<division description="Surgery" name="Surgery">
+	<department description="Pediatric Urology" name="Pediatric Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Recurrent Kidney Infections (Pediatrics)" id="Recurrent Kidney Infections (Pediatrics)">
+				<keyword text="renal"/>
+				<keyword text="infection"/>
+				<keyword text="ureter"/>
+                                <keyword text="kidney"/>
+                                <keyword text="pediatric"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Recurrent UTIs (Pediatrics)" id="Recurrent UTIs (Pediatrics)">
+			        <keyword text="urinary"/>
+				<keyword text="tract"/>
+				<keyword text="infection"/>
+				<keyword text="infections"/>
+				<keyword text="recurrent"/>
+				<keyword text="recurring"/>
+				<keyword text="pediatrics"/>
+				<keyword text="pediatric"/>
+				<keyword text="peds"/>
+				<keyword text="child"/>
+				<keyword text="children"/>
+				<keyword text="tract"/>
+				<keyword text="ureter"/>
+				<keyword text="bladder"/>
+				<keyword text="UTI"/>
+				<keyword text="childhood"/>
+				<keyword text="kidney"/>
+				<keyword text="urethra"/>
+				<keyword text="UTIs"/>
+		                <keyword text="urine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hydronephrosis (Pediatrics)" id="Hydronephrosis (Pediatrics)">
+				<keyword text="hydronephrosis"/>
+	                        <keyword text="child"/>
+	                        <keyword text="pediatric"/>
+	                        <keyword text="pediatrics"/>
+	                        <keyword text="Peds"/>
+	                        <keyword text="kidney"/>
+	                        <keyword text="kidneys"/>
+	                        <keyword text="urine"/>
+	                        <keyword text="renal"/>
+	                        <keyword text="pelvis"/>
+	                        <keyword text="ureter"/>
+	                        <keyword text="anomaly"/>
+	                        <keyword text="infant"/>
+	                        <keyword text="baby"/>
+	                        <keyword text="babies"/>
+	                        <keyword text="obstruction"/>
+	                        <keyword text="narrow"/>
+	                        <keyword text="blockage"/>
+	                        <keyword text="ureteropelvic"/>
+	                        <keyword text="junction"/>
+	                        <keyword text="ureterovesical"/>
+	                        <keyword text="bladder"/>
+	                        <keyword text="urethra"/>
+	                        <keyword text="reflux"/>
+	                        <keyword text="injury"/>
+	                        <keyword text="urination"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vesicoureteral Reflux (Pediatrics)" id="Vesicoureteral Reflux (Pediatrics)">
+				<keyword text="vesicoureteral"/>
+				<keyword text="reflux"/>
+				<keyword text="pediatric"/>
+				<keyword text="pediatrics"/>
+				<keyword text="Peds"/>
+				<keyword text="child"/>
+				<keyword text="kidney"/>
+				<keyword text="kidneys"/>
+				<keyword text="bladder"/>
+				<keyword text="urine"/>
+				<keyword text="ureters"/>
+				<keyword text="VUR"/>
+				<keyword text="abnormal"/>
+				<keyword text="flow"/>
+				<keyword text="urinary tract"/>
+				<keyword text="urinary"/>
+				<keyword text="drainage"/>
+				<keyword text="urethra"/>
+				<keyword text="unilateral"/>
+				<keyword text="bilateral"/>
+				<keyword text="urination"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Enuresis/Bedwetting/Day time urinary incontinence  (Pediatrics)" id="Enuresis/Bedwetting/Day time urinary incontinence (Pediatrics)">
+				<keyword text="enuresis"/>
+				<keyword text="bedwetting"/>
+				<keyword text="child"/>
+				<keyword text="Peds"/>
+				<keyword text="pediatric"/>
+				<keyword text="pediatrics"/>
+				<keyword text="disorder"/>
+				<keyword text="elimination"/>
+				<keyword text="involuntary"/>
+				<keyword text="release"/>
+				<keyword text="urine"/>
+				<keyword text="clothing"/>
+				<keyword text="bladder"/>
+				<keyword text="inappropriate"/>
+				<keyword text="nocturnal"/>
+				<keyword text="children"/>
+				<keyword text="behavioral"/>
+				<keyword text="physiological"/>
+				<keyword text="primary"/>
+				<keyword text="secondary"/>
+				<keyword text="daytime"/>
+				<keyword text="control"/>
+				<keyword text="urination"/> 
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Urinary Urgency/Frequency (Pediatrics)" id="Urinary Urgency/Frequency (Pediatrics)">
+			        <keyword text="diurnal"/>
+			        <keyword text="enuresis"/>
+			        <keyword text="bedwetting"/>
+			        <keyword text="child"/>
+			        <keyword text="Peds"/>
+			        <keyword text="pediatric"/>
+			        <keyword text="pediatrics"/>
+			        <keyword text="disorder"/>
+			        <keyword text="elimination"/>
+			        <keyword text="involuntary"/>
+			        <keyword text="release"/>
+			        <keyword text="urine"/>
+			        <keyword text="clothing"/>
+			        <keyword text="bladder"/>
+			        <keyword text="inappropriate"/>
+			        <keyword text="children"/>
+			        <keyword text="behavioral"/>
+			        <keyword text="physiological"/>
+			        <keyword text="primary"/>
+			        <keyword text="secondary"/>
+			        <keyword text="daytime"/>
+			        <keyword text="incontinence"/>
+			        <keyword text="urinary"/>
+			        <keyword text="urination"/>
+			        <keyword text=""/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hematuria (Pediatrics)" id="Hematuria (Pediatrics)">
+				<keyword text="hematuria"/>
+				<keyword text="urinary"/>
+				<keyword text="Peds"/>
+				<keyword text="pediatric"/>
+				<keyword text="pediatrics"/>
+				<keyword text="RBCs"/>
+				<keyword text="red"/>
+				<keyword text="blood"/>
+				<keyword text="cells"/>
+				<keyword text="blood"/>
+				<keyword text="bleeding"/>
+				<keyword text="dipstick"/>
+				<keyword text="urine"/>
+				<keyword text="positive"/>
+				<keyword text="gross"/>
+				<keyword text="transient"/>
+				<keyword text="persistent"/>
+				<keyword text="proteinuria"/>
+				<keyword text=""/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Kidney Stones (Pediatrics)" id="Kidney stones (Pediatrics)">
+				<keyword text="renal"/>
+				<keyword text="ureter"/>
+                                <keyword text="kidney"/>
+                                <keyword text="pediatric"/>
+                                <keyword text="stone"/>
+                                <keyword text="calculus"/>
+                                <keyword text="Peds"/>
+                                <keyword text="pediatric"/>
+                                <keyword text="pediatrics"/>
+                                <keyword text="child"/>
+                                <keyword text="children"/>
+                                <keyword text="pain"/>
+                                <keyword text="substance"/>
+                                <keyword text="urine"/>
+                                <keyword text="concentrated"/>
+                                <keyword text="urinary tract"/>
+                                <keyword text="urinary"/>
+                                <keyword text="large"/>
+                                <keyword text="small"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Proteinuria (Pediatrics)" id="Proteinuria (Pediatrics)">
+				<keyword text="proteinuria"/>
+				<keyword text="Peds"/>
+				<keyword text="pediatric"/>
+				<keyword text="pediatrics"/>
+				<keyword text="child"/>
+				<keyword text="children"/>
+				<keyword text="benign"/>
+				<keyword text="condition"/>
+				<keyword text="underlying"/>
+				<keyword text="renal"/>
+				<keyword text="disease"/>
+				<keyword text="disorder"/>
+				<keyword text="protein"/>
+				<keyword text="secondary"/>
+				<keyword text="glomerular"/>
+				<keyword text="tubular"/>
+				<keyword text="dysfunction"/>
+				<keyword text="urine"/>
+				<keyword text="excretion"/>
+				<keyword text="creatinine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

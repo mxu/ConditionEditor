@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Zanotti_Markman_OvarianCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Zanotti_Markman_OvarianCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Ovarian Cancer" id="Ovarian Cancer">
+				<keyword text="ovarian"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Ovarian Cyst" id="Ovarian Cyst">
+				<keyword text="growth"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

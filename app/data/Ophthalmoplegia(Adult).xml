@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Madhurini Akula -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ophthalmoplegia(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ophthalmoplegia(Adult)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Neurology" name="Neurology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Ophthalmoplegia (adult)" id="Ophthalmoplegia (adult)">
+				<keyword text="paralysis"/>
+				<keyword text="weakness"/>
+				<keyword text="eye"/>
+				<keyword text="muscle"/>
+				<keyword text="movement"/>
+				<keyword text="neurogenic"/>
+				<keyword text="ocular"/>
+				<keyword text="myopathy"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyelopathy"/>
+				<keyword text="myopathic"/>
+				<keyword text="ptosis"/>
+				<keyword text="mitochondria"/>
+				<keyword text="nystagmus"/>
+				<keyword text="internuclear"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Ocular myopathy (adult)" id="Ocular myopathy (adult)">
+				<keyword text="paralysis"/>
+				<keyword text="weakness"/>
+				<keyword text="eye"/>
+				<keyword text="muscle"/>
+				<keyword text="movement"/>
+				<keyword text="neurogenic"/>
+				<keyword text="ocular"/>
+				<keyword text="myopathy"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyelopathy"/>
+				<keyword text="myopathic"/>
+				<keyword text="ptosis"/>
+				<keyword text="mitochondria"/>
+				<keyword text="nystagmus"/>
+				<keyword text="internuclear"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Internuclear opthalmoplegia (adult)" id="Internuclear opthalmoplegia (adult)">
+				<keyword text="paralysis"/>
+				<keyword text="weakness"/>
+				<keyword text="eye"/>
+				<keyword text="muscle"/>
+				<keyword text="movement"/>
+				<keyword text="neurogenic"/>
+				<keyword text="ocular"/>
+				<keyword text="myopathy"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyelopathy"/>
+				<keyword text="myopathic"/>
+				<keyword text="ptosis"/>
+				<keyword text="mitochondria"/>
+				<keyword text="nystagmus"/>
+				<keyword text="internuclear"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mitochondrial encephalamyelopathy (adult)" id="Mitochondrial encephalamyelopathy (adult)">
+				<keyword text="paralysis"/>
+				<keyword text="weakness"/>
+				<keyword text="eye"/>
+				<keyword text="muscle"/>
+				<keyword text="movement"/>
+				<keyword text="neurogenic"/>
+				<keyword text="ocular"/>
+				<keyword text="myopathy"/>
+				<keyword text="mitochondrial"/>
+				<keyword text="encephalomyelopathy"/>
+				<keyword text="myopathic"/>
+				<keyword text="ptosis"/>
+				<keyword text="mitochondria"/>
+				<keyword text="nystagmus"/>
+				<keyword text="internuclear"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

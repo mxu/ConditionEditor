@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems)
+Physicians:  Young, Francis, Rimmerman, Topol, Starling, Asher-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "InducedHeartFailureMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "InducedHeartFailureQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Chemotherapy induced heart failure" id="Chemotherapy induced heart failure">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="chemotherapy"/>
+				<keyword text="radiation"/>
+				<keyword text="therapy"/>
+				<keyword text="cardiovascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Chemotherapy induced cardiomyopathy" id="Chemotherapy induced cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="chemotherapy"/>
+				<keyword text="radiation"/>
+				<keyword text="therapy"/>
+				<keyword text="cardiovascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Radiation induced heart failure" id="Radiation induced heart failure">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="chemotherapy"/>
+				<keyword text="radiation"/>
+				<keyword text="therapy"/>
+				<keyword text="cardiovascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition active="true" cost="745.00" description="Radiation induced cardiomyopathy" id="Radiation induced cardiomyopathy">
+				<keyword text="heart failure"/>
+				<keyword text="failure"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="cardiomyopathy"/>
+				<keyword text="chemotherapy"/>
+				<keyword text="radiation"/>
+				<keyword text="therapy"/>
+				<keyword text="cardiovascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+		</section>
+	</department>
+</division>

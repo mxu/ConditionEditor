@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_PancreaticDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_PancreaticDiseaseQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Gastrinoma" id="Gastrinoma">
+				<keyword text="cancer "/>
+				<keyword text="pancreatic"/>
+				<keyword text="carcinoma"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				<keyword text="stomach"/>
+				<keyword text="gastric"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="pain"/>
+				<keyword text="secreting"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="lesion"/>
+				<keyword text="mass"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Insulinoma" id="Insulinoma">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="pancreas"/>
+				<keyword text="pancreatic"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Islet Cell Tumor" id="Islet Cell Tumor">
+				<keyword text="pancreatic"/>
+				<keyword text="gland"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Nesidioblastoma" id="Nesidioblastoma">
+				<keyword text="pancreas"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="endocrine"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="Non-functioning Pancreas" id="Non-functioning Pancreas">
+				<keyword text="dysfunction"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="non-function"/>
+				<keyword text="pancreatic"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="Pancreatic Carcinoma" id="Pancreatic Carcinoma">
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>
+				<keyword text="malignant"/>
+				<keyword text="neoplasm"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="Pancreatic Pseudocyst" id="Pancreatic Pseudocyst">
+				<keyword text="cyst"/>
+				<keyword text="pancreas"/>
+				<keyword text="mass"/>
+				<keyword text="gland"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition active="true" cost="745.00" description="VIP (Vasoactive Intestinal Peptide) Secreting Tumor" id="VIP (Vasoactive Intestinal Peptide) Secreting Tumor">
+				<keyword text="pancreas"/>
+				<keyword text="mass"/>
+				<keyword text="gland"/>
+				<keyword text="endocrine"/>	
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+		</section>
+	</department>
+</division>

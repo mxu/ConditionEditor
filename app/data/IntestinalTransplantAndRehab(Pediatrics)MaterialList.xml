@@ -1,0 +1,29 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary or  specialist physician's  last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either the primary care physician or the physician who diagnosed or is treating condition." mandatory="true"/>
+	<material id="Physician letters" description="Copies of all letters sent to patient by  physician(s) reports of office visits, etc. if received" mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Doctor's notes clearly indicating current listing of all patient's medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Surgical reports for &lt;b&gt;all&lt;/b&gt; prior previous surgical procedures." mandatory="true"/>
+	<material id="Pathology Slides and Reports" description="Pathology glass slides and reports for all intestinal biopsies or surgical procedures related to patient's diagnosis" mandatory="true"/>
+	<material id="Physician Treatment Reports" description="Reports of any treatments undergone for this diagnosis (surgery, counseling, etc.)" mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<material id="Copy of TPN / IV Solution Prescription" description="Prescription including pharmacy information." mandatory="true"/>
+	<material id="Growth Chart" description="To include all available heights and weights." mandatory="true"/>
+	
+	<instruction text="&lt;BR&gt;  &lt;b&gt;Radiologic and diagnostic studies done in the last 3 years. (mandatory) &lt;/b&gt;"/>
+	<material id="Upper GI" description="Reports and actual films" mandatory="true"/>
+	<material id="Barium Enema" description="Reports and actual films" mandatory="true"/>
+	<material id="Upper Endoscopy" description="Reports and actual films" mandatory="true"/>
+	<material id="Colonoscopy" description="Reports and actual films" mandatory="true"/>
+	<material id="Small Bowel Follow Through" description="Reports and actual films" mandatory="true"/>
+	<material id="Anal Manometry" description="Report" mandatory="true"/>
+	<material id="MRI Study" description="Reports and actual films" mandatory="true"/>
+	<material id="CT Scan" description="Reports and actual films" mandatory="true"/>
+	<material id="Ultrasound / MRV of upper / lower extremities" description="Report and actual films needed for venous mapping" mandatory="true"/>
+	<material id="Mandatory Blood Work&lt;BR&gt;CBC (Complete blood count)&lt;BR&gt;Cmp (Complete metabolic profile)&lt;BR&gt;LFTs (Liver function studies)&lt;BR&gt;PT/PTT" 		description="Laboratory reports including vitamin and mineral levels within last 6 months" mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of medical information although not mandatory, are optional and highly recommended if done: &lt;/b&gt;"/>
+	<material id="Optional Blood Work &lt;BR&gt; Hepatitis C antibody &lt;BR&gt; HBVsab &lt;BR&gt; HBVsag &lt;BR&gt; HBVcab &lt;BR&gt; Magnesium &lt;BR&gt; Zinc &lt;BR&gt; Copper &lt;BR&gt; Iron &lt;BR&gt; TSH &lt;BR&gt; Ferritin &lt;BR&gt; Folate &lt;BR&gt; Vitamin B12 &lt;BR&gt; Vitamin D 25 hydroxy &lt;BR&gt; CRP &lt;BR&gt; Prealbumin &lt;BR&gt; PTH &lt;BR&gt; Phosporus &lt;BR&gt; Selenium &lt;BR&gt; Chromium &lt;BR&gt; Citrulline &lt;BR&gt; Vitamin A &lt;BR&gt; Vitamin E" description="Submit labatory results if the tests were completed" mandatory="false"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

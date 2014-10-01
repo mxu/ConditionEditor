@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 (http://www.xmlspy.com) by Harsha Reddy (ITD)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Siperstein_hiatelHerniaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Siperstein_hiatelHerniaQuestionnaire.xml">
+]>
+<!-- Siperstein, Decamp-->
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Hiatal Hernia" id="Hiatal Hernia" active="true">
+				<keyword text="Diaphragmatic"/>
+				<keyword text="Gastrointestinal"/>
+				<keyword text="Esophageal"/>
+				<keyword text="Stomach"/>
+				<keyword text="Herniation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

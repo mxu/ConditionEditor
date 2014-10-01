@@ -1,0 +1,21 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="In addition to the information provided thus far, additional medical information will be needed.  We will need to receive all the items listed on the checklist below in order to begin the second opinion process.  Once all the items listed below are received, we can proceed. &lt;BR&gt;&lt;BR&gt; The following list of medical information is required to proceed with your request for a second opinion consultation."/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of patient's condition and a description of current signs and symptoms. This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports and glass slides are required for all relevant surgeries." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary of the case including key findings from previous testing." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies performed thus far, if indicated.  These studies to include the following:"/>
+	<material id="Anal manometry" description="Report and films." mandatory="true"/>
+	<material id="Anal ultrasound" description="Report and films." mandatory="true"/>
+	<instruction text=" The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Current blood work" description="Within the last 6 months. (if done)" mandatory="false"/>
+	<material id="Chest x-ray" description="Report only. (if done)" mandatory="false"/>
+	<material id="Colonoscopy" description="Report only. (if done)" mandatory="false"/>
+	<material id="UGI (Upper gastrointestinal) series" description="Report only. (if done)" mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consulation." mandatory="false"/>
+	<instruction text="&lt;BR&gt;If any items listed from the forms or checklist are missing, there will be a delay in our ability to begin the consultation.  On the above checklist certain items are indicated as mandatory.  If these items are missing from the package of materials received by The Cleveland Clinic we will not be able to begin to process your request.  The items that are not mandatory, if available  should also be sent.  These items will enhance our physician's ability to provide a more comprehensive second opinion consultation. &lt;BR&gt;&lt;BR&gt;  Once all of the information has been delivered to CCF (preferable by overnight courier service), you can expect a written response from The Cleveland Clinic physician  within 5-7 business days unless there are extraneous circumstances  of which you will be notified at the time of request."/>
+</material_list> 

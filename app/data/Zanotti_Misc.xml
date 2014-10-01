@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Zanotti_MiscMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Zanotti_MiscQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gynecology and Obstetrics" name="Gynecology and Obstetrics">
+		<section description="" name="">
+			<condition cost="745.00" description="Abnormal Pap Smear" id="Abnormal Pap Smear">
+				<keyword text="pap"/>
+				<keyword text="smear"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				<keyword text="carcinoma"/>
+				<keyword text="abnormal"/>
+				<keyword text="cervix"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Cervical Dysplasia" id="Cervical Dysplasia">
+				<keyword text="pap"/>
+				<keyword text="smear"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				<keyword text="carcinoma"/>
+				<keyword text="abnormal"/>
+				<keyword text="cervix"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition cost="745.00" description="Vaginal Dysplasia" id="Vaginal Dysplasia">
+				<keyword text="pap"/>
+				<keyword text="smear"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				<keyword text="carcinoma"/>
+				<keyword text="abnormal"/>
+				<keyword text="cervix"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Vulvar Dysplasia" id="Vulvar Dysplasia">
+				<keyword text="pap"/>
+				<keyword text="smear"/>
+				<keyword text="female"/>
+				<keyword text="reproductive"/>
+				<keyword text="carcinoma"/>
+				<keyword text="abnormal"/>
+				<keyword text="cervix"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

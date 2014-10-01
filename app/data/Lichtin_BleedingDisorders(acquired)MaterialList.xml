@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations. " mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/b&gt;"/>
+	<material id="Pathology" description="Reports are required for all biopsies done (spleen, bone marrow, etc.)." mandatory="true"/>
+	<material id="Blood tests" description="Results to include Prothrombin time (PT), Partial thromboplastin time (APTT), Fibrinogen degradation products (FDP) and Platelet count." mandatory="true"/>
+	<material id="Genetic testing" description="Report of any genetic testing, if done." mandatory="true"/>
+	<material id="Vitamin K assay" description="Report of most recent testing assays, if applicable." mandatory="true"/>
+	<material id="X-rays" description="Reports and films of any relevant x-rays." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission. &lt;/b&gt;"/>
+	<material id="Current blood work" description=" Within the last 6 months." mandatory="false"/>
+	<material id="MRI scan" description="Report and films." mandatory="false"/>
+	<material id="CT scan" description="Report and films." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

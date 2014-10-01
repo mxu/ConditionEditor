@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+      &MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+      <instruction text='The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:'/>
+      <material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms.  This can be written by either your primary care physician or the physician who diagnosed or is treating your condition." mandatory="true"/>
+    <material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+     <material id="List of medications" description="Current listing of all medications. Include oxygen and CPAP/biPAP if used. Add medications stopped within the past year if any. Include a list provided by the doctor plus your own list of medications, which might be different Include all pills, creams, injections. Include prescription, over-the-counter, and &lt;b&gt;as-needed&lt;/b&gt; medications for sleep, allergy, pain, etc" mandatory="true"/>
+     <material id="Current blood work" description="Laboratory tests from all blood tests. In particular, we 	often want to see: CBC, CMP, TSH, B12, HbA1C, PSA (if relevant). Drug levels Epilepsy meds, Digoxin level (if relevant). Serum Vitamin D level (if done)." mandatory="true"/>
+    <instruction text="&lt;BR&gt;&lt;B&gt;  The following list of medical information, although not mandatory, should be included, if done.&lt;/B&gt;"/>
+    <material id="Operative or procedure reports" description="Reports  for all relevant procedures, surgeries, and/or biopsies. Include lumbar puncture, urodynamics, or sleep study" mandatory="true"/>
+    <material id="Physician's treatment reports" description="Reports of any testing and treatments related to the problem (Neuropsychological testing, brain scans, bone density, echocardiogram, EEG, EMG, etc)" mandatory="true"/>
+    <material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations. Include summaries from skilled nursing facilities or other rehab facilities" mandatory="true"/>
+    <material id="Therapy summary" description="Report of physical, occupational, speech, or driving evaluation" mandatory="true"/>
+    <instruction text="&lt;BR&gt; &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years, although not mandatory, should be included, if done. Include CD's or a link with password for all radiological studies &lt;/b&gt;"/>
+    <material id="Brain MRI" description="Report and CD" mandatory="true"/>
+    <material id="CT Scan of head" description="Report and CD" mandatory="true"/>
+    <material id="Electroencephalogram (EEG)" description="Reports and tracings on CD" mandatory="true"/>
+    <material id="Epilepsy Monitoring" description="Reports (if done)" mandatory="true"/>
+   	<material id="Current urine tests" description="Laboratory reports from all urine tests." mandatory="true"/>
+	 <instruction text="&lt;BR&gt;&lt;B&gt;  The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Send a CD or film or link to hospital site with password.&lt;/B&gt;"/>
+	<material id="X-Rays" description="Reports and films from any other X-rays (if done)" mandatory="true"/>
+	<material id="Other" description="Any other medical reports pertinent to this consultation." mandatory="false"/>
+  &MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

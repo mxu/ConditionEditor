@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!--Authored by Penny L. Black 10/09/2001-->
+<questionnaire>
+	<question_group name="Condition-specific Questions">
+		<question mandatory="true" prompt="What is the MAIN problem you have regarding your current condition? (explain in detail)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the principal (chief) question you have regarding your current condition">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="For how long have you been bothered by this problem?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Describe how this problem developed over time:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What factors tend to aggravate or improve the problem?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What other symptoms seem to be associated with it?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="What diagnostic studies have you undergone to assess the problem? Please list the study below and the date the study was completed.">
+			<table_response initial_rows_to_display="3" add_row_increment="1">
+				<column_definitions>
+					<column_definition label="Name of Study" width="25"/>
+					<column_definition label="Month Completed" width="25"/>
+					<column_definition label="Year completed" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt='What diagnosis or "Label" has been given to the problem? (be specific please)'>
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What treatments have you undergone? Also, please explain any successes as a result of the treatments:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Are you on a special diet?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are on a special diet, what type of diet are you on?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Was this diet prescribed by a physician?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family member (parents, sisters, brothers, grandparents, aunts, uncles) with a history of any of the following conditions? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Sleep apnea"/>
+				<selection selected="false" text="Stroke"/>
+				<selection selected="false" text="Heart attack/angioplasty"/>
+				<selection selected="false" text="Heart surgery"/>
+				<selection selected="false" text="High blood pressure"/>
+				<selection selected="false" text="High cholesterol"/>
+				<selection selected="false" text="High triglycerides"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Aneurysm"/>
+				<selection selected="false" text="Tuberculosis"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="Emphysema"/>
+				<selection selected="false" text="Glaucoma"/>
+				<selection selected="false" text="Arthritis"/>
+				<selection selected="false" text="Liver problems"/>
+				<selection selected="false" text="Colon cancer"/>
+				<selection selected="false" text="Breast cancer"/>
+				<selection selected="false" text="Other cancer"/>
+				<selection selected="false" text="Colon polyps"/>
+				<selection selected="false" text="Thyroid disease"/>
+				<selection selected="false" text="Kidney stones"/>
+				<selection selected="false" text="Kidney failure"/>
+				<selection selected="false" text="Kidney disease"/>
+				<selection selected="false" text="Nervous breakdown"/>
+				<selection selected="false" text="Alcoholism"/>
+				<selection selected="false" text="Migraine headaches"/>
+				<selection selected="false" text="Epilepsy"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a history of any of the following conditions? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="High blood pressure"/>
+				<selection selected="false" text="Cancer"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Gonorrhea"/>
+				<selection selected="false" text="Heart murmur"/>
+				<selection selected="false" text="Heart attack"/>
+				<selection selected="false" text="Hepatitis"/>
+				<selection selected="false" text="Herpes"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="Chronic lung disease"/>
+				<selection selected="false" text="Thyroid trouble"/>
+				<selection selected="false" text="Kidney Stones"/>
+				<selection selected="false" text="Bladder infection"/>
+				<selection selected="false" text="Kidney infection"/>
+				<selection selected="false" text="Radiation/chemotherapy"/>
+				<selection selected="false" text="Phlebitis or blood clots"/>
+				<selection selected="false" text="Pneumonia"/>
+				<selection selected="false" text="Polio"/>
+				<selection selected="false" text="Rheumatic fever"/>
+				<selection selected="false" text="Stroke"/>
+				<selection selected="false" text="Nose fracture"/>
+				<selection selected="false" text="Deviated septum"/>
+				<selection selected="false" text="Sinus trouble"/>
+				<selection selected="false" text="Syphilis"/>
+				<selection selected="false" text="AIDS/HIV"/>
+				<selection selected="false" text="Seizures/epilepsy"/>
+				<selection selected="false" text="Tuberculosis"/>
+				<selection selected="false" text="Ulcer"/>
+				<selection selected="false" text="Colon polyps"/>
+				<selection selected="false" text="Sexually transmitted disease"/>
+				<selection selected="false" text="Migraine or other type headaches"/>
+				<selection selected="false" text="Blood transfusion"/>
+				<selection selected="false" text="Dental trouble"/>
+				<selection selected="false" text="Anxiety"/>
+				<selection selected="false" text="Depression"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please complete a table below with regard to immunization/vaccination history:">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Name of Immunization" width="20"/>
+					<column_definition label="Month" width="20"/>
+					<column_definition label="Year" width="10"/>
+				</column_definitions>
+				<table_data>
+					<cell>Pneumonia (pneumovax)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Measles</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tetanus</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hepatitis</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>BCG</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Flu</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>If other, please list:</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Have you undergone any of the following studies or diagnostic tests? (choose all that apply and provide date)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Name of study" width="20"/>
+					<column_definition label="Month" width="20"/>
+					<column_definition label="Year" width="10"/>
+				</column_definitions>
+				<table_data>
+					<cell>Sleep studies</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest X-ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CAT scan of chest</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CAT scan (other)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pulmonary Function tests</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lung Scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bronchoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Biopsy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Echocardiogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Stress Test</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Mammogram</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Proctoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gastroscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Colonoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cystoscopy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>EKG</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Are you suffering from any of the following sleep symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Excessive or loud snoring"/>
+				<selection selected="false" text="Stop breathing at night"/>
+				<selection selected="false" text="Thrashing about in sleep"/>
+				<selection selected="false" text="Leg jerking/kicking at night"/>
+				<selection selected="false" text="Legs uncomfortable at night"/>
+				<selection selected="false" text="Sleepy/falling asleep during the day"/>
+				<selection selected="false" text="Difficulty falling asleep"/>
+				<selection selected="false" text="Waking during the night"/>
+				<selection selected="false" text="Paralysis on waking/falling asleep"/>
+				<selection selected="false" text="Hallucinations on waking/falling asleep"/>
+				<selection selected="false" text="Sleepwalking"/>
+				<selection selected="false" text="Bed wetting"/>
+				<selection selected="false" text="Acting out dreams"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you or have you been treated with the following ? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Oxygen"/>
+				<selection selected="false" text="CAP"/>
+				<selection selected="false" text="Bronchial inhalers"/>
+				<selection selected="false" text="Nasal sprays"/>
+				<selection selected="false" text="Heart pills"/>
+				<selection selected="false" text="Blood pressure pills"/>
+				<selection selected="false" text="Water pills"/>
+				<selection selected="false" text="Pain pills"/>
+				<selection selected="false" text="Lithium"/>
+				<selection selected="false" text="Tranquilizers"/>
+				<selection selected="false" text="Antidepressants"/>
+				<selection selected="false" text="Biofeedback"/>
+				<selection selected="false" text="Electroshock"/>
+				<selection selected="false" text="Stimulants"/>
+				<selection selected="false" text="Acupuncture"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please answer the following questions">
+			<table_response>
+				<column_definitions>
+					<column_definition label="Weekdays" width="20"/>
+					<column_definition label="Weekends" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>What time do you go to bed</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>What time do you usually wake up?</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="How long, in minutes, does it take you to fall asleep">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Do you wake up during the night?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you wake up during the night, how many times?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Why do you wake up during the night?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Generally, how long does it take you to fall back asleep?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you disturbed by poor sleep during the night?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are disturbed by poor sleep during the night, how many times per week, on average?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many ACTUAL hours of sleep do you get on weeknights?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="How many ACTUAL hours of sleep do you get on weekends?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Do you sleep primarily...">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="On your back?"/>
+				<selection selected="false" text="Off your back?"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you take naps">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you take naps, how often do you nap?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Occasionally"/>
+							<selection selected="false" text="Frequently"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink alcoholic beverages?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you drink alcoholic beverages, how many drinks per week?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink caffeinated beverages?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you drink caffeinated beverages, how many drinks per day?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while sitting and reading? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while watching TV? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while sitting inactive, in a public place like theater or meeting? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while lying down to rest when circumstances permit? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while sitting and talking to someone? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How likely are you to doze off or fall asleep while stopped for a few minutes in traffic? This refers to your usual way of life in recent times. ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Slightly"/>
+				<selection selected="false" text="Moderately"/>
+				<selection selected="false" text="High"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you using a CPAP for sleep apnea or have you used one in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are using a CPAP for sleep apnea or have  used one in the past, have you used it recently?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does it improve your daytime sleepiness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="Not applicable"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does it improve your nighttime snoring?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="Not applicable"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does it improve your sleep quality?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+							<selection selected="false" text="Not applicable"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What pressure do you use or have you used?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="What type of CPAP facial appliances are you using or have you used?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Do you use, or have you used, a humidifier or oxygen with your CPAP?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How many hours per night do you or have you used CPAP?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="How many nights per week do you or have you used CPAP?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="Are you having any trouble with your CPAP use?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended for your current condition? (surgery, medical management, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the doctor's name who made this recommendation?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="What is that doctor's specialist type?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful to know regarding your condition?">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+</questionnaire>

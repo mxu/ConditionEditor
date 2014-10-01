@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "ChronicPainMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "ChronicPain_HeadQuestionnaire.xml">
+]>
+<division description="TBD" name="TBD">
+	<department description="Standard Second Opinion No other conditions" name="Standard Second Opinion No other conditions">
+		<section description="" name="">
+			<condition cost="565.00" description="Chronic Head Pain(Adults only)" id="Chronic Head Pain(Adults only)" active="false">
+				<keyword text="injury"/>
+				<keyword text="pain"/>
+				<keyword text="Chronic"/>
+				<keyword text="Head"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

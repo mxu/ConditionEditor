@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is the diagnosis?">
+				<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician for your current condition (one you are requesting a second opinion for)?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of any of the following?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Aplastic anemia"/>
+				<selection selected="false" text="Chronic or severe infections"/>
+				<selection selected="false" text="Enlarged spleen"/>
+				<selection selected="false" text="Felty's syndrome"/>
+				<selection selected="false" text="Leukemia"/>
+				<selection selected="false" text="SLE (Systemic lupus erythematosis"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received chemotherapy treatments?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever received chemotherapy treatments, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of chemotherapy" width="20"/>
+								<column_definition label="Dose, if known" width="20"/>
+								<column_definition label="Number of treatments, if known" width="15"/>
+								<column_definition label="Reason for treatment" width="25"/>	
+								<column_definition label="Month/Year" width="20"/>					
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="true" prompt="Which of the following diagnostic studies or procedures have you had done?">
+			<table_response add_row_increment="2" row_height="1">
+				<column_definitions>
+					<column_definition label="Study" width="20"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Bone marrow biopsy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest x-ray</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spleen biopsy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of the above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you recently (within the past month) had any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Abdominal pain / tenderness"/>
+				<selection selected="false" text="Back pain"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="Fever > 100 F / 38 C"/>
+				<selection selected="false" text="Infection"/>
+				<selection selected="false" text="Joint swelling / tenderness"/>
+				<selection selected="false" text="Productive cough"/>
+				<selection selected="false" text="Rigor/shaking chills"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently experiencing any of the following symptoms?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Enlarged lymph nodes"/>
+				<selection selected="false" text="Mouth inflammation / infection"/>
+				<selection selected="false" text="Mouth ulcers / sores"/>
+				<selection selected="false" text="Sore throat"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Have you recently (within the past month) taken an antibiotic (medication to fight infection)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you recently taken an antibiotic, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of antibiotic" width="20"/>
+								<column_definition label="Dosage" width="15"/>
+								<column_definition label="How often taken (1x day, etc.)" width="25"/>
+								<column_definition label="When started (exact date)" width="25"/>
+								<column_definition label="When finished (exact date)" width="25"/>
+								<column_definition label="How taken (pill, IV, etc.)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="false" prompt="Have you ever taken a steroid medication (Medrol, Prednisone, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever taken a steroid medication, please provide the following information:">
+						<table_response initial_rows_to_display="2" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of steroid medication" width="25"/>
+								<column_definition label="Dosage" width="15"/>
+								<column_definition label="How often taken (1x day, etc.)" width="25"/>
+								<column_definition label="When started (exact date)" width="25"/>
+								<column_definition label="When finished (exact date)" width="25"/>
+								<column_definition label="How taken (pill, IV, etc.)" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>	
+		<question mandatory="false" prompt="Have you received Granulocyte Colony Stimulating Factor f (G-CSF) for your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received Granulocyte Colony Stimulating Factor f for your current condition, please provide the following information starting with the current or most recent course:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="When started (month/year)" width="25"/>
+								<column_definition label="Dose, if known" width="15"/>
+								<column_definition label="When finished (month/year), if applicable" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+		<question mandatory="false" prompt="Have you received hemopoietic growth factors (Erythropoietin, Interleukin-3, etc.) for your current condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have received hemopoietic growth factors for your current condition, please provide the following information starting with the current or most recent course:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="1">
+							<column_definitions>
+								<column_definition label="Name of growth factor" width="25"/>
+								<column_definition label="When started (month/year)" width="25"/>
+								<column_definition label="When stopped (month/year), if applicable" width="30"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>			
+		<question mandatory="false" prompt="What has been recommended regarding the treatment of your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (Hematologist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

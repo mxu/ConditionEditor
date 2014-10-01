@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Cardiac Catheterization Study Questions">
+		<question mandatory="true" prompt="What is the primary (chief) problem for which this second opinion is being requested?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What is the patient's medical diagnosis?">
+			<free_form_response height="4"/>
+		</question>
+		<question mandatory="true" prompt="In general, would you say the patient's health is:">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Excellent"/>
+				<selection selected="false" text="Very Good"/>
+				<selection selected="false" text="Good"/>
+				<selection selected="false" text="Fair"/>
+				<selection selected="false" text="Poor"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the patient's age?  If the patient is under the age of 3 years, please indicate age in months.">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Patient's height:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Patient's weight:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Patient's ethnic origin:">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Caucasian"/>
+				<selection selected="false" text="African American"/>
+				<selection selected="false" text="Hispanic"/>
+				<selection selected="false" text="American Indian"/>
+				<selection selected="false" text="Asian"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="Please identify other ethnic origin:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please provide the patient's home and work telephone number(s).  If you are completing this request for a minor, please provide the telephone number(s) for the parent or guardian:">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Home" width="18"/>
+					<column_definition label="Work" width="18"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please provide the patient's home and work fax number(s).  If you are completing this request for a minor, please provide the fax number(s) for the parent or guardian:">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Home" width="18"/>
+					<column_definition label="Work" width="18"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please provide the patient's home and work email address(s).  If you are completing this request for a minor, please provide the email address(s) for the parent or guardian:">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Home" width="18"/>
+					<column_definition label="Work" width="18"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="May a Cleveland Clinic specialist contact patient's physician(s), if needed?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If a Cleveland Clinic specialist may contact patient's physician(s), please complete the section below. List below the name(s), mailing address(s), phone and fax number(s) of each physician currently treating you.">
+						<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Mailing address" width="45"/>
+								<column_definition label="Phone" width="18"/>
+								<column_definition label="Fax" width="18"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you want a copy of the Cleveland Clinic physician's report sent to patient's physician(s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No (Please note, if required by your state, we will send a copy of the second opinion to your physician. See our 'Terms and Conditions of Use' for a full explanation.)"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you want a copy of the Cleveland Clinic physician's report sent to patient's physician(s), complete section below.  Please provide a list of those physicians you wish to receive a copy.  If the list below is the same as the list above, you need only provide the physicians' names here.">
+						<table_response initial_rows_to_display="3" add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Mailing address" width="45"/>
+								<column_definition label="Phone" width="18"/>
+								<column_definition label="Fax" width="18"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient ever been diagnosed with any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Arthritis"/>
+				<selection selected="false" text="Angina/Chest Pain"/>
+				<selection selected="false" text="Asthma"/>
+				<selection selected="false" text="Bleeding disorder"/>
+				<selection selected="false" text="Cataracts"/>
+				<selection selected="false" text="Cancer">
+					<question mandatory="true" prompt="If the patient has ever been diagnosed with cancer, please specify type:">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Depression"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Gallbladder disease"/>
+				<selection selected="false" text="Gastritis"/>
+				<selection selected="false" text="Glaucoma"/>
+				<selection selected="false" text="Heart disease"/>
+				<selection selected="false" text="High blood pressure / Hypertension"/>
+				<selection selected="false" text="Hypercholesterolemia / High cholesterol"/>
+				<selection selected="false" text="Immunodeficiency"/>
+				<selection selected="false" text="Infectious disease"/>
+				<selection selected="false" text="Hepatitis"/>
+				<selection selected="false" text="TB"/>
+				<selection selected="false" text="AIDS"/>
+				<selection selected="false" text="HIV"/>
+				<selection selected="false" text="Mononucleosis"/>
+				<selection selected="false" text="Chicken Pox"/>
+				<selection selected="false" text="RSV"/>
+				<selection selected="false" text="Pneumonia"/>
+				<selection selected="false" text="Kidney disease"/>
+				<selection selected="false" text="Kidney stones"/>
+				<selection selected="false" text="Liver disease"/>
+				<selection selected="false" text="Lung disease"/>
+				<selection selected="false" text="Meningitis"/>
+				<selection selected="false" text="Migraine or other severe head pain"/>
+				<selection selected="false" text="Pancreatitis"/>
+				<selection selected="false" text="Peptic ulcer disease"/>
+				<selection selected="false" text="Seizures"/>
+				<selection selected="false" text="Stroke (cerebral vascular accident)"/>
+				<selection selected="false" text="Thyroid disease"/>
+				<selection selected="false" text="Vascular problems"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list any other problems:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+									</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had any past hospitalizations?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has had any past hospitalizations, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Year" width="8"/>
+								<column_definition label="Illness" width="20"/>
+								<column_definition label="Physician" width="15"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient had any past surgery?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has had any past surgery, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Year" width="8"/>
+								<column_definition label="Surgery" width="20"/>
+								<column_definition label="Physician" width="15"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the patient currently taking any medications?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient is currently taking any medications, please provide the following information.  Please be sure to include all prescription medications and non- prescription (over the counter) medications including herbal remedies and vitamins.">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Name of medication" width="30"/>
+								<column_definition label="Dosage" width="15"/>
+								<column_definition label="How often taken?" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient have any drug allergies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question prompt="If the patient has any drug allergies, please list drug allergies and type of reaction:">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Name of drug" width="25"/>
+								<column_definition label="Type of reaction" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If this request is for an adult or an adolescent, has the patient ever smoked?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If he patient has ever smoked, please provide details below:">
+						<table_response add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Type" width="20"/>
+								<column_definition label="How long (years)" width="25"/>
+								<column_definition label="# / Day" width="15"/>
+								<column_definition label="Stopped (Month / Year)" width="20"/>
+							</column_definitions>
+							<table_data>
+								<cell>Cigarettes</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cigars</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Chewing tobacco</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Other (please list below)</cell>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If this request is for an adult or an adolescent, does the patient drink alcohol? Include all forms of alcohol, i.e.: beer, wine, liquor.">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient does drink alcohol, please provide the amount (drinks/week):">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Stopped">
+					<question mandatory="true" prompt="If stopped, when?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If this request is for an adult or an adolescent, has the patient ever used recreational drugs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient has ever used recreational drugs, which ones?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient experienced a recent weight gain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Amount (in pounds):">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient experienced a recent weight loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Amount (in pounds):">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient exercise on a regular (3 times or more per week) basis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient exercises on a regular basis, what type of exercise is performed? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Walking"/>
+							<selection selected="false" text="Jogging"/>
+							<selection selected="false" text="Visit gym"/>
+							<selection selected="false" text="Recreational sports (tennis, softball, soccer, hockey, etc.)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was the cardiac catheterization (one second opinion is being requested for) done?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Please describe below the reason(s) the cardiac catheterization was done: examples include: test was ordered by patient's physician; patient was experiencing symptoms such as chest pain or shortness of breath, etc. (Please be as specific as possible when providing this explanation)">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="true" prompt="What symptoms has patient been experiencing with regard to this second opinion consultation? (Please be as specific as possible when providing this explanation)">
+			<free_form_response height="10"/>
+		</question>
+		<question mandatory="true" prompt="Has the patient ever had a myocardial infarction (heart attack)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient ever had a myocardial infarction, when?">
+						<table_response initial_rows_to_display="1" add_row_increment="1">
+							<column_definitions>
+								<column_definition label="Month" width="15"/>
+								<column_definition label="Year" width="5"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient undergone any type of surgery / procedure? (Examples include: open heart surgery, angioplasty, ablation, etc.)">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If  the patient has undergone any type of surgery / procedure?, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="3">
+							<column_definitions>
+								<column_definition label="Surgery/procedure" width="18"/>
+								<column_definition label="Reason" width="18"/>
+								<column_definition label="Month/&lt;BR&gt;Year" width="14"/>
+								<column_definition label="Physician" width="15"/>
+								<column_definition label="Hospital/&lt;BR&gt;Clinic" width="18"/>
+								<column_definition label="City, State" width="18"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of patient's current condition?  (Surgery, medical management, etc.)">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="false" prompt="Which doctor made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty &lt;BR&gt;(cardiologist, primary care, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+	</question_group>
+</questionnaire>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ianotti_ShoulderMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ianotti_ShoulderQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Acromioclavicular joint arthritis" id="Acromioclavicular joint arthritis">
+				<keyword text="shoulder"/>
+				<keyword text="joint"/>
+				<keyword text="AC"/>
+				<keyword text="anterior"/>
+				<keyword text="degenerative"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="cruciate"/>
+				<keyword text="arthritis"/>
+				<keyword text="orthopedics"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="Acromioclavicular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Acromioclavicular joint injury" id="Acromioclavicular joint injury">
+				<keyword text="shoulder"/>
+				<keyword text="joint"/>
+				<keyword text="AC"/>
+				<keyword text="anterior"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="cruciate"/>
+				<keyword text="injuries"/>
+				<keyword text="injury"/>
+				<keyword text="Acromioclavicular "/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arthritis of the Shoulder" id="Arthritis of the Shoulder">
+				<keyword text="shoulder"/>
+				<keyword text="arthritis"/>
+				<keyword text="degenerative"/>
+				<keyword text="bone"/>
+				<keyword text="joint"/>
+				<keyword text="osteo"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Biceps Tendon Injuries" id="Biceps Tendon Injuries">
+				<keyword text="biceps"/>
+				<keyword text="tendon"/>
+				<keyword text="arm"/>
+				<keyword text="osteo"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="shoulder"/>
+				<keyword text="injury"/>
+				<keyword text="injuries"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Failed Joint Replacement of the Shoulder" id="Failed Joint Replacement of the Shoulder">
+				<keyword text="shoulder"/>
+				<keyword text="joint"/>
+				<keyword text="TSR"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="failed"/>
+				<keyword text="replacement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Failed Surgery of the Shoulder" id="Failed Surgery of the Shoulder">
+				<keyword text="shoulder"/>
+				<keyword text="joint"/>
+				<keyword text="repair"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="bone"/>
+				<keyword text="failed"/>
+				<keyword text="surgery"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Glenoid Fractures" id="Glenoid Fractures">
+				<keyword text="shoulder"/>
+				<keyword text="broken"/>
+				<keyword text="glenoid"/>
+				<keyword text="fractures"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="osteo"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Humeral Shaft Fracture" id="Humeral Shaft Fracture">
+				<keyword text="arm"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="bone"/>
+				<keyword text="broken"/>
+				<keyword text="fractures"/>
+				<keyword text="shaft"/>
+				<keyword text="humeral"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Humeral Shaft Non-union" id="Humeral Shaft Non-union">
+				<keyword text="arm"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="nonunion"/>
+				<keyword text="shaft"/>
+				<keyword text="humeral"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Humeral Shaft Malunion" id="Humeral Shaft Malunion">
+				<keyword text="arm"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="malunion"/>
+				<keyword text="shaft"/>
+				<keyword text="humeral"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Labrum Tears (shoulder)" id="Labrum Tears (shoulder)">
+				<keyword text="shoulder"/>
+				<keyword text="labrum"/>
+				<keyword text="tears"/>
+				<keyword text="bone"/>
+				<keyword text="ligament"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <!-- made inactive per SP 6 Nov 2007 in favor of  Labrum Tears (shoulder) and Labrum Tears (hip)-->
+            <condition cost="565.00" description="Malunion of the Shoulder" id="Malunion of the Shoulder">
+				<keyword text="malunion"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Sternoclavicular Joint Dislocation" id="Sternoclavicular Joint Dislocation">
+				<keyword text="sternoclavicular"/>
+				<keyword text="dislocation"/>
+				<keyword text="chest"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedic"/>
+				<keyword text="orthopedic"/>
+				<keyword text="bone"/>
+				<keyword text="osteo"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Non-union of the Shoulder" id="Non-union of the Shoulder">
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Paralysis of the Shoulder" id="Paralysis of the Shoulder">
+				<keyword text="paralysis"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="frozen"/>
+				<keyword text="nerve"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Rotator Cuff Impingement" id="Rotator Cuff Impingement">
+				<keyword text="shoulder"/>
+				<keyword text="impingement"/>
+				<keyword text="rotator"/>
+				<keyword text="joint"/>
+				<keyword text="osteo"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="cuff"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Rotator Cuff Tears" id="Rotator Cuff Tears">
+				<keyword text="shoulder"/>
+				<keyword text="tears"/>
+				<keyword text="rotator"/>
+				<keyword text="bone"/>
+				<keyword text="joint"/>
+				<keyword text="osteo"/>
+				<keyword text="tendon"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="cuff"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Scapular Fractures" id="Scapular Fractures">
+				<keyword text="scapular"/>
+				<keyword text="broken"/>
+				<keyword text="back"/>
+				<keyword text="fracture"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Scapula Winging" id="Scapula Winging">
+				<keyword text="shoulder"/>
+				<keyword text="winging"/>
+				<keyword text="back"/>
+				<keyword text="scapular"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Shoulder Dislocations" id="Shoulder Dislocations">
+				<keyword text="shoulder"/>
+				<keyword text="dislocations"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Shoulder Fractures" id="Shoulder Fractures">
+				<keyword text="shoulder"/>
+				<keyword text="fractures"/>
+				<keyword text="broken"/>
+				<keyword text="bone"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Shoulder Joint Infections" id="Shoulder Joint Infections">
+				<keyword text="shoulder"/>
+				<keyword text="infection"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Shoulder Subluxations" id="Shoulder Subluxations">
+				<keyword text="shoulder"/>
+				<keyword text="subluxation"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Snapping Scapula Syndrome" id="Snapping Scapula Syndrome">
+				<keyword text="shoulder"/>
+				<keyword text="scapula"/>
+				<keyword text="back"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="osteo"/>
+				<keyword text="snapping"/>
+				<keyword text="syndrome"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Sternoclavicular Joint Arthritis" id="Sternoclavicular Joint Arthritis">
+				<keyword text="sternoclavicular"/>
+				<keyword text="arthritis"/>
+				<keyword text="chest"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Sternoclavicular Joint Fracture" id="Sternoclavicular Joint Fracture">
+				<keyword text="sternoclavicular"/>
+				<keyword text="broken"/>
+				<keyword text="fracture"/>
+				<keyword text="chest"/>
+				<keyword text="joint"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				<keyword text="bone"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Acromioclavicular joint dislocation" id="Acromioclavicular joint dislocation">
+				<keyword text="ac"/>
+				<keyword text="acromioclavicular"/>
+				<keyword text="dislocation"/>
+				<keyword text="joint"/>
+				<keyword text="bone"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

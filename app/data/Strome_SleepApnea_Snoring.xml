@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Strome_SleepApnea_SnoringMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Strome_SleepApnea_SnoringQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition cost="565.00" description="Snoring" id="Snoring">
+				<keyword text="snoring"/>
+				<keyword text="sleep"/>
+				<keyword text="apnea"/>
+				<keyword text="disorder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Sleep Apnea Disorder" id="Sleep Apnea Disorder">
+				<keyword text="snoring"/>
+				<keyword text="sleep"/>
+				<keyword text="apnea"/>
+				<keyword text="disorder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>	
+		</section>
+	</department>
+</division>
+

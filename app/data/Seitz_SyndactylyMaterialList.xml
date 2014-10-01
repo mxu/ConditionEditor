@@ -1,0 +1,13 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written gy either your primary care physician or the physician who diagnosed or is treating your condtion" mandatory="true" />
+	<material id="Operative reports" description="Reports are required for all relevant surgeries for this condition." mandatory="true" />
+	<material id="Special physician's report" description="Report of evaluation by specialist(Othopaedic Surgeon, Plastic Surgeon, etc.) if applicable." mandatory="true" />
+	<material id="Physical Therapist's report" description="Therapist's report of evaluation and treatment summary, if applicable." mandatory="true" />
+	<material id="Photos" description="Close up photos of the affected area(s)." mandatory="true" />
+	<material id="X-rays of affected area" description="Reports and films. The actual original films (not copies) of the studies and reports." mandatory="true" />
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

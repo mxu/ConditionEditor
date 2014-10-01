@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_Disorders_of_HipMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_Disorders_of_HipQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Avascular necrosis of the hip" id="Avascular necrosis of the hip">
+				<keyword text="avascular"/>
+				<keyword text="necrosis"/>
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hip injury" id="Hip injury">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="trauma"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Snapping hip" id="Snapping hip">
+				<keyword text="snapping"/>
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Torn acetabular labrum" id="Torn acetabular labrum">
+				<keyword text="torn"/>
+				<keyword text="acetabular "/>
+				<keyword text="labrum"/>
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="trauma"/>
+				<keyword text="acetabulum"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hip disorder" id="Hip disorder">
+				<keyword text="hip"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="joint"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Infected THR (Total Hip Replacement)" id="Infected THR (Total Hip Replacement)">
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="joint"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Girdlestone, s/p (following) Total Hip Replacement" id="Girdlestone, s/p (following) Total Hip Replacement">
+				<keyword text="infection"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="joint"/>
+				<keyword text="inflammation"/>
+				<keyword text="antibiotics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="565.00" description="Labrum Tears (hip)" id="Labrum Tears (hip)" active="true">
+				<keyword text="hip"/>
+				<keyword text="labrum"/>
+				<keyword text="tears"/>
+				<keyword text="bone"/>
+				<keyword text="ligament"/>
+				<keyword text="orthopaedics"/>
+				<keyword text="orthopedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<!-- Removed this condition since it is also present in the Disorders of the Hip non traumatic file DCH.
+			<condition cost="565.00" description="Infected Hip" id="Infected Hip">
+				<keyword text="antibiotics"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="joint"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>-->
+			<condition cost="565.00" description="Hip injury (pediatric)" id="Hip injury (pediatric)">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="leg"/>
+				<keyword text="length"/>
+				<keyword text="club"/>
+				<keyword text="foot"/>
+				<keyword text="feet"/>
+				<keyword text="deformity"/>
+				<keyword text="fracture"/>
+				<keyword text="pediatric"/>
+				<keyword text="child"/>
+				<keyword text="infant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hip fracture (pediatric)" id="Hip fracture (pediatric)">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="leg"/>
+				<keyword text="length"/>
+				<keyword text="club"/>
+				<keyword text="foot"/>
+				<keyword text="feet"/>
+				<keyword text="deformity"/>
+				<keyword text="fracture"/>
+				<keyword text="pediatric"/>
+				<keyword text="child"/>
+				<keyword text="infant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Club foot (pediatric)" id="Club foot (pediatric)">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="leg"/>
+				<keyword text="length"/>
+				<keyword text="club"/>
+				<keyword text="foot"/>
+				<keyword text="feet"/>
+				<keyword text="deformity"/>
+				<keyword text="fracture"/>
+				<keyword text="pediatric"/>
+				<keyword text="child"/>
+				<keyword text="infant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Leg length discrepancy (pediatric)" id="Leg length discrepancy (pediatric)">
+				<keyword text="hip"/>
+				<keyword text="joint"/>
+				<keyword text="injury"/>
+				<keyword text="disorder"/>
+				<keyword text="acetabulum"/>
+				<keyword text="leg"/>
+				<keyword text="length"/>
+				<keyword text="club"/>
+				<keyword text="foot"/>
+				<keyword text="feet"/>
+				<keyword text="deformity"/>
+				<keyword text="fracture"/>
+				<keyword text="pediatric"/>
+				<keyword text="child"/>
+				<keyword text="infant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

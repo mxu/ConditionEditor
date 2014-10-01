@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY questionnaire_doc SYSTEM "MovementDisordersQuestionnaire.xml">
+	<!ENTITY material_doc SYSTEM "MovementDisordersMaterialList.xml">
+]>
+<division name="Neurology" description="Neurology">
+	<department description="Center for Neurological Restoration" name="Center for Neurological Restoration">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Parkinson's Disease (For Surgical Evaluation)" id="Parkinson's Disease (For Surgical Evaluation)" product_id="standard">
+				<keyword text="movement"/>
+				<keyword text="disorder"/>
+				<keyword text="tremor"/>
+				<keyword text="essential"/>
+				<keyword text="Parkinson's"/>
+				<keyword text="Parkinson"/>
+				<keyword text="Disease"/>
+				<keyword text="dystonia"/>
+				<keyword text="rigid"/>
+				<keyword text="rigidity"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				<keyword text="surgical"/>
+				<keyword text="evaluation"/>
+				<keyword text="shake"/>
+				<keyword text="shaking"/>
+				<keyword text="difficulty"/>
+				<keyword text="movements"/>
+				<keyword text="automatic"/>
+				<keyword text="loss"/>
+				<keyword text="stiff"/>
+				<keyword text="stiffness"/>
+				<keyword text="essential tremor"/>
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+		<condition active="true" cost="565.00" description="Essential Tremor (For Surgical Evaluation)" id="Essential Tremor (For Surgical Evaluation)" product_id="standard">
+				<keyword text="movement"/>
+				<keyword text="disorder"/>
+				<keyword text="tremor"/>
+				<keyword text="essential"/>
+				<keyword text="Parkinson's"/>
+				<keyword text="Parkinson"/>
+				<keyword text="Disease"/>
+				<keyword text="dystonia"/>
+				<keyword text="rigid"/>
+				<keyword text="rigidity"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				<keyword text="surgical"/>
+				<keyword text="evaluation"/>
+				<keyword text="shake"/>
+				<keyword text="shaking"/>
+				<keyword text="difficulty"/>
+				<keyword text="movements"/>
+				<keyword text="automatic"/>
+				<keyword text="loss"/>
+				<keyword text="stiff"/>
+				<keyword text="stiffness"/>
+				<keyword text="essential tremor"/>
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+		<condition active="true" cost="565.00" description="Dystonia (For Surgical Evaluation)" id="Dystonia (For Surgical Evaluation)" product_id="standard">
+				<keyword text="movement"/>
+				<keyword text="disorder"/>
+				<keyword text="tremor"/>
+				<keyword text="essential"/>
+				<keyword text="Parkinson's"/>
+				<keyword text="Parkinson"/>
+				<keyword text="Disease"/>
+				<keyword text="dystonia"/>
+				<keyword text="rigid"/>
+				<keyword text="rigidity"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				<keyword text="surgical"/>
+				<keyword text="evaluation"/>
+				<keyword text="shake"/>
+				<keyword text="shaking"/>
+				<keyword text="difficulty"/>
+				<keyword text="movements"/>
+				<keyword text="automatic"/>
+				<keyword text="loss"/>
+				<keyword text="stiff"/>
+				<keyword text="stiffness"/>
+				<keyword text="essential tremor"/>
+				&questionnaire_doc;
+				&material_doc;
+		</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physican(s) of last visit(s), if recieved." mandatory="true"/>
+	<material id="Pathology reports" description="Reports and glass slides are required for all relevant biopsies done." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all relevant surgeries/biopsies." mandatory="true"/>
+	<material id="Physician's treatment reports" description="Reports of any treatments received for this diagnosis." mandatory="true"/>
+	<material id="Case summary" description="Physician's summary or detailed chronological reconstruction of the case by the patient." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospital admissions." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies done in the last 3 years are required.  The actual original films (not copies) of the studies and reports will be needed, if indicated:"/>
+	<material id="MRI scan" description="Report only." mandatory="true"/>
+	<material id="X-ray of the affected area" description="Report only." mandatory="true"/>
+	<material id="CT scan of the affected area" description="Report only." mandatory="true"/>
+	<material id="EMG (Electromyography)" description="Report only." mandatory="true"/>
+	<material id="Bone scan (3 phase)" description="Report and films." mandatory="true"/>
+	<instruction text="&lt;BR&gt;The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Current blood work" description="Within the last six months." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

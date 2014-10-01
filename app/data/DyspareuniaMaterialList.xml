@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="&lt;BR&gt; In addition to the information provided thus far, additional medical information will be needed. We will need to receive all the items listed on the checklist below in order to begin the second opinion process. Once all the items listed below are received, we can proceed. 
+NOTE: If Mandatory items are not available, you may still be able to proceed with the request. Please contact Clinical Operations at 216.444.3223 or 800.223.2273 ext 43223 for more information."/>
+	<instruction text="&lt;BR&gt; &lt;B&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/B&gt;"/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to patient by  physician(s), reports of office visits, etc. if received.  " mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Notes should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+    <material id="Surgical reports" description="Operative reports for all prior relevant surgeries pertinent to patient's gynecological condition." mandatory="true"/>	
+	<material id="Physician Treatment Reports" description="If prior therapy for diagnosis has taken place, an accurate and complete summary of this therapy is essential.  Report(s) should include all treatments to date and should be summarized by patient's treating physician(s)." mandatory="true"/>	
+	<material id="Discharge summaries" description="Discharge summaries from all hospital admissions within the last year and all admissions relevant to the consultation." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of diagnostic medical information is required to proceed with your request for a second opinion.&lt;/B&gt;"/>
+	<material id="Pelvic ultrasound" description="Report(s) and actual films." mandatory="true"/>
+	<material id="Pathology reports" description="Pathology report and glass slides from all pertinent biopsies done." mandatory="true"/>
+	<material id="Laporoscopy" description="Laporoscopy reports." mandatory="true"/>
+	<material id="CT of abdomen and pelvis" description="Report(s) and actual films (if done)" mandatory="true"/>
+	<material id="Urine Tests" description="Laboratory tests for current urine tests (if done)" mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt; The following list of medical information although not mandatory, are optional and highly recommended if done:&lt;/B&gt;"/>
+	<material id="Current blood work" description="Laboratory tests for current blood tests. (if done)" mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

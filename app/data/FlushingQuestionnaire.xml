@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the patient's problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is patient's occupation?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="When was the patient first diagnosed?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="When was patient last examined?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Is patient experiencing pain?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If patient is experiencing pain, where is the pain located?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="Please rate patient's pain using the scale below: (1= minimal pain, 10= worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient currently experiencing any of the following symptoms? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Difficulty swallowing"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="Hoarseness"/>
+				<selection selected="false" text="Bloody sputum"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Sensation of warmth"/>
+				<selection selected="false" text="Flushing of face"/>
+				<selection selected="false" text="Flushing of neck"/>
+				<selection selected="false" text="Flushing of upper chest"/>
+				<selection selected="false" text="Flushing of arms"/>
+				<selection selected="false" text="Flushing of whole body"/>
+				<selection selected="false" text="Sweating in the areas of flushing"/>
+				<selection selected="false" text="Anxiety"/>
+				<selection selected="false" text="Insomnia"/>
+				<selection selected="false" text="Tremor"/>
+				<selection selected="false" text="Heat Intolerance"/>
+				<selection selected="false" text="Dry mouth or salivary gland problem"/>
+				<selection selected="false" text="Loss of Taste"/>
+				<selection selected="false" text="Localized bone pain"/>
+				<selection selected="false" text="Diarrhea"/>
+				<selection selected="false" text="Dizziness"/>
+				<selection selected="false" text="Lightheadedness"/>
+				<selection selected="false" text="Blurred Vision"/>
+				<selection selected="false" text="Fast heart beats"/>
+				<selection selected="false" text="Irregular heart rhythm"/>
+				<selection selected="false" text="Weight gain">
+					<question mandatory="true" prompt="If patient gained weight, please provide the following information:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="20"/>
+								<column_definition label="Over what period of time (months/years)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Weight loss">
+					<question mandatory="true" prompt="If pateint lost weight, please provide the following information:">
+						<table_response initial_rows_to_display="1" add_row_increment="0">
+							<column_definitions>
+								<column_definition label="Pounds / kilograms" width="20"/>
+								<column_definition label="Over what period of time (months/years)" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does patient have a personal or family history of the following: (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Colon cancer"/>
+				<selection selected="false" text="Adrenal tumors"/>
+				<selection selected="false" text="Calcium problems"/>
+				<selection selected="false" text="Thyroid cancer">
+					<question mandatory="true" prompt="If yes, please list relationship">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other cancers">
+					<question mandatory="true" prompt="If yes, please list type of cancer">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How long does the flushing typically last?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is this flushing lasting longer now?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How often does the patient experience flushing?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Has the flushing been happening less often?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Is the intensity of the flushing getting worse?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="What color is the skin when flushing happens?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Do any of the following trigger or worsen the flushing?  (check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Stress"/>
+				<selection selected="false" text="Embarassment"/>
+				<selection selected="false" text="Hot environment"/>
+				<selection selected="false" text="Drinking wine"/>
+				<selection selected="false" text="Drinking other kinds of alcoholic beverages"/>
+				<selection selected="false" text="After taking certain medications">
+					<question mandatory="true" prompt="If certain medications, please specify which medications">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What helps the flushing?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Has Patient been exposed to ionized radiation in the past?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did exposure take place?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list all the following imaging studies / diagnostic tests that the patient has had done?">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" width="70"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Iodine scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Nuclear scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient undergone surgery / surgical procedure(s) for his/her current condition (one you are seeking second opinion for)?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If patient has undergone surgery / surgical procedure(s) for his/her current condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of the Surgical procedure" width="40"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If patient has undergone surgical treatment, what is his/her general subjective impression of the experience?  (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Regarding the surgical procedures, how would you rate patient's overall satisfaction with the treatment? (1= not at all satisfied, 10= very satisfied)">
+			<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient received chemotherapy for his/her current condition  (one you are seeking second opinion for)?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If patient has received chemotherapy for his/her current condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of chemotherapy" width="15"/>
+								<column_definition label="Number of cycles (if known)" width="25"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If patient has undergone chemotherapy, what is his/her general subjective impression of the experience?  (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="Regarding the chemotherapy, how would you rate patient's overall satisfaction with the treatment? (1= not at all satisfied, 10= very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has patient ever received iodine ablation therapy?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If patient ever received iodine ablation therapy, please list date and location of treatment below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="30"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended regarding patient's current condition and treatment? (i.e..: surgery, iodine treatment, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="false" prompt="Which doctor made this recommendation (Surgeon, Primary care physician, Endocrinologist, etc)?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician / Specialty Name &lt;BR&gt;(Surgeon, Oncologist, Primary care, etc.)" width="40"/>
+					<column_definition label="Address " width="30"/>
+					<column_definition label="Area code / Phone number " width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+		
+	</question_group>
+</questionnaire>

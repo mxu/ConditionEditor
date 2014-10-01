@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Hilden_FanconiAnemia(Pediatrics)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Hilden_FanconiAnemia(Pediatrics)Questionnaire.xml">
+]>
+<division description="Cancer Center" name="Cancer Center">
+	<department description="Pediatric Hematology and Oncology" name="Pediatric Hematology and Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Fanconi Anemia (Pediatric)" id="Fanconi Anemia (Pediatric)">
+				<keyword text="blood"/>
+				<keyword text="counts"/>
+				<keyword text="bone"/>
+				<keyword text="marrow"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ruschhaupt_Barthomew_LaPerna_VenaCavaSyndromeMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ruschhaupt_Barthomew_LaPerna_VenaCavaSyndromeQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Inferior vena cava syndrome" id="Inferior vena cava syndrome">
+				<keyword text="circulation"/>
+				<keyword text="vein"/>
+				<keyword text="heart"/>
+				<keyword text="vascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <!-- removed per SP 22 Mar 2007
+			<condition cost="565.00" description="Vena Cava Syndrome" id="Vena cava syndrome">
+				<keyword text="circulation"/> 
+				<keyword text="vein"/>
+				<keyword text="heart"/>
+				<keyword text="vascular"/>
+				<keyword text="blockage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            -->
+			<condition cost="565.00" description="Superior mediastinal syndrome" id="Superior mediastinal syndrome">
+				<keyword text="vena"/>
+				<keyword text="cava "/>
+				<keyword text="circulation"/>
+				<keyword text="vein"/>
+				<keyword text="heart"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Superior vena cava syndrome" id="Superior vena cava syndrome">
+				<keyword text="circulation"/>
+				<keyword text="vein"/>
+				<keyword text="heart"/>
+				<keyword text="vascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

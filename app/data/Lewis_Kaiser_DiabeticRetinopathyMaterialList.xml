@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to you by your physician(s) of past visit(s), if received." mandatory="true"/>
+	<material id="Surgical report(s)" description="Surgical reports of any and all prior eye surgeries and / or laser treatments." mandatory="true"/>
+	<material id="Discharge summary(s)" description="Discharge summary(s) from any recent (within one year) hospitalization(s)." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following radiologic and diagnostic studies done in the last 3 years will be required. Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Visual acuity study" description="Manifest refraction study, current glasses/contact lens prescription, intraocular pressure, anterior segment examination with description or drawing, dilated fundus examination with description or drawing." mandatory="true"/>
+	<material id="Most recent fluorescein angiogram reports and films of both eyes." description="The actual films are required for the most recent exam.  The actual films are more useful for previous exams but reports are acceptable." mandatory="true"/>
+	<material id="Most recent color photographs of eyes" description="Most recent color photographs (preferably stereo views) of both eyes as well as any and all previous photographs.  If media opacities prevent obtaining photos, then ultrasound (B scan) required." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Optical coherence tomography scan" description="Reports and films.  The actual films of the scans are more important than the records of the scans if the reports can not be obtained." mandatory="false"/>
+	<material id="Ultrasound B scans" description="Reports and films.  The actual films of the scans are more imprtant than the records of the scans if the reports can not be obtained." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is important to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

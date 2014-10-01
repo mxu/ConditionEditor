@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fazio_Senagore_Church_ChronsDisease_with_PerianalAbscessMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fazio_Senagore_Church_ChronsDisease_with_PerianalAbscessQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Colorectal Surgery" name="Colorectal Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Crohn's Disease with Perianal Abscess/Fistula" id="Crohn's Disease with Perianal Abscess/Fistula" active="true">
+				<keyword text="diarrhea"/>
+				<keyword text="fistula"/>
+				<keyword text="ulcerative"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="colon"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

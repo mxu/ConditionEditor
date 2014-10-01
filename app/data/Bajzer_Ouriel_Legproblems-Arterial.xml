@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Bajzer_Ouriel_Legproblems-ArterialMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Bajzer_Ouriel_Legproblems-ArterialQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Lower Extremity (leg) Problems - Arterial" id="Lower Extremity (leg) Problems - Arterial" active="true">
+				<keyword text="artery"/>
+				<keyword text="blockage"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

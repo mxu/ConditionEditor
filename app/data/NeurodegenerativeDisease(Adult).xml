@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "NeurodegenerativeDisease(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "NeurodegenerativeDisease(Adult)Questionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Neurology" name="Neurology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Amyotrophic lateral Sclerosis (ALS) (adult)" id="Amyotrophic lateral Sclerosis (ALS) (adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="ALS"/>
+				<keyword text="Lou Gehrig"/>
+				<keyword text="motor"/>
+				<keyword text="neuron"/>
+				<keyword text="neurons"/>
+				<keyword text="maladie"/>
+				<keyword text="charot"/>
+				<keyword text="Lou Gehrig's"/>
+				<keyword text="amyotrophic"/>
+				<keyword text="lateral"/>
+				<keyword text="sclerosis"/>
+				<keyword text="progressive"/>
+				<keyword text="degeneration"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Kennedy's Disease (adult)" id="Kennedy's Disease (adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="X"/>
+				<keyword text="linked"/>
+				<keyword text="spinal"/>
+				<keyword text="bulbar"/>
+				<keyword text="muscular"/>
+				<keyword text="atrophy"/>
+				<keyword text="SBMA"/>
+				<keyword text="neuromuscular"/>
+				<keyword text="mutation"/>
+				<keyword text="androgen"/>
+				<keyword text="receptor"/>
+				<keyword text="AR"/>
+				<keyword text="insintitivity"/>
+				<keyword text="syndrome"/>
+				<keyword text="AIS"/>
+				<keyword text="progressive"/>
+				<keyword text="muscle"/>
+				<keyword text="weakness"/>
+				<keyword text="rare"/>
+				<keyword text="motor"/>
+				<keyword text="neuron"/>
+				<keyword text="disease"/>
+				<keyword text="Kennedy"/>
+				<keyword text="Kennedy's"/>
+				<keyword text="spinobulbar"/>
+				<keyword text="hereditary"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Lou Gehrig's Disease (adult)" id="Lou Gehrig's Disease (adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="ALS"/>
+				<keyword text="Lou Gehrig"/>
+				<keyword text="motor"/>
+				<keyword text="neuron"/>
+				<keyword text="neurons"/>
+				<keyword text="maladie"/>
+				<keyword text="charot"/>
+				<keyword text="Lou Gehrig's"/>
+				<keyword text="amyotrophic"/>
+				<keyword text="lateral"/>
+				<keyword text="sclerosis"/>
+				<keyword text="progressive"/>
+				<keyword text="degeneration"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Motor Neuron Disease (adult)" id="Motor Neuron Disease (adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="inherited"/>
+				<keyword text="MND"/>
+				<keyword text="progressive"/>
+				<keyword text="neurological"/>
+				<keyword text="disorders"/>
+				<keyword text="disease"/>
+				<keyword text="upper"/>
+				<keyword text="motor"/>
+				<keyword text="neurons"/>
+				<keyword text="lower"/>
+				<keyword text="amyotrophic"/>
+				<keyword text="lateral"/>
+				<keyword text="ALS"/>
+				<keyword text="primary"/>
+				<keyword text="PLS"/>
+				<keyword text="bulbar"/>
+				<keyword text="palsy"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Motor Neuron Disease-Parkinsonism (Adult)" id="Motor Neuron Disease-Parkinsonism (Adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="inherited"/>
+				<keyword text="MND"/>
+				<keyword text="progressive"/>
+				<keyword text="neurological"/>
+				<keyword text="disorders"/>
+				<keyword text="disease"/>
+				<keyword text="parkinsonism"/>
+				<keyword text="upper"/>
+				<keyword text="motor"/>
+				<keyword text="neurons"/>
+				<keyword text="lower"/>
+				<keyword text="amyotrophic"/>
+				<keyword text="lateral"/>
+				<keyword text="ALS"/>
+				<keyword text="primary"/>
+				<keyword text="PLS"/>
+				<keyword text="bulbar"/>
+				<keyword text="palsy"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Primary Lateral Sclerosis (PLS)(adult)" id="Primary Lateral Sclerosis (PLS)(adult)">
+				<keyword text="Neurogenerative"/>
+				<keyword text="PLS"/>
+				<keyword text="rare"/>
+				<keyword text="neuromuscular"/>
+				<keyword text="progressive"/>
+				<keyword text="degeneration"/>
+				<keyword text="muscle"/>
+				<keyword text="brain"/>
+				<keyword text="weakness"/>
+				<keyword text="voluntary"/>
+				<keyword text="muscular"/>
+				<keyword text="motor"/>
+				<keyword text="neuron"/>
+				<keyword text="disease"/>
+				<keyword text="balance"/>
+				<keyword text="speech"/>
+				<keyword text="tongue"/>
+				<keyword text="facial"/>
+				<keyword text="hands"/>
+				<keyword text="ALS"/>
+				<keyword text="amytrophy"/>
+				<keyword text="Primary"/>
+				<keyword text="lateral"/>
+				<keyword text="sclerosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Progressive Muscular Atrophy (Adult)" id="Progressive Muscular Atrophy (Adult)">
+			        <keyword text="Neurogenerative"/>
+			        <keyword text="PMA"/>
+			        <keyword text="progressive"/>
+			        <keyword text="muscular"/>
+			        <keyword text="atrophy"/>
+			        <keyword text="muscle"/>
+			        <keyword text="weakness"/>
+			        <keyword text="rare"/>
+			        <keyword text="motor"/>
+			        <keyword text="neuron"/>
+			        <keyword text="disease"/>
+			        <keyword text="ALS"/>
+			        <keyword text="neuromuscular"/>
+			        <keyword text="degenerative"/>
+			        <keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Progressive Muscular Atrophy-Frontemporal Dementia (Adult)" id="Progressive Muscular Atrophy-Frontemporal Dementia (Adult)">
+			    <keyword text="Neurogenerative"/>
+			    <keyword text="PMA"/>
+			    <keyword text="progressive"/>
+			    <keyword text="muscular"/>
+			    <keyword text="atrophy"/>
+			    <keyword text="muscle"/>
+			    <keyword text="weakness"/>
+			    <keyword text="rare"/>
+			    <keyword text="motor"/>
+			    <keyword text="neuron"/>
+			    <keyword text="disease"/>
+			    <keyword text="ALS"/>
+			    <keyword text="neuromuscular"/>
+			    <keyword text="degenerative"/>
+			    <keyword text="brain"/>
+			    <keyword text="dementia"/>
+			    <keyword text="cerebral"/>
+			    <keyword text="cortex"/>
+			    <keyword text="focal"/>
+			    <keyword text="aphesia"/>
+			    <keyword text="dysfunction"/>
+			    &questionnaire_doc;
+			    &material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="X-linked spinobulbar muscular neuronopathy (Adult)" id="X-linked spinobulbar muscular neuronopathy (Adult)">
+			       <keyword text="Neurogenerative"/>
+			       <keyword text="SBMA"/>
+			       <keyword text="progressive"/>
+			       <keyword text="muscular"/>
+			       <keyword text="atrophy"/>
+			       <keyword text="muscle"/>
+			       <keyword text="weakness"/>
+			       <keyword text="rare"/>
+			       <keyword text="motor"/>
+			       <keyword text="neuron"/>
+			       <keyword text="disease"/>
+			       <keyword text="degenerative"/>
+			       <keyword text="Kennedy"/>
+			       <keyword text="neuromuscular"/>
+			       <keyword text="X"/>
+			       <keyword text="linked"/> 
+			       <keyword text="spinobulbar"/>
+			       <keyword text="spinal"/>
+			       <keyword text="bulbar"/>
+			       <keyword text="neuronopathy"/>
+			       <keyword text="hereditary"/>
+			       <keyword text="sensory"/>
+			       <keyword text="ALS"/>
+			       <keyword text="Kennedy's"/>
+			       <keyword text="Kennedy"/>
+			       <keyword text="brain"/>
+			       &questionnaire_doc;
+			       &material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

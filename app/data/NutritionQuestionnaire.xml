@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\cc\eccontent\xml\condition\condition.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<questionnaire>
+	<question_group name="Medical History and Weight Status">
+		<question mandatory="false" prompt="Please list 3 nutrition / lifestyle goals or questions you would like to ask the Cleveland Clinic registered dietitian. The dietitian will addresses these goals in your assessment. &lt;BR&gt;&lt;BR&gt;&lt;font color=red&gt;&lt;B&gt;In order for us to provide this nutrition consultation for you, you will need to submit at least one goal.&lt;font color=black&gt;">
+			<table_response initial_rows_to_display="3" add_row_increment="0" row_height="5">
+				<column_definitions>
+					<column_definition label="" width="5"/>
+					<column_definition label="Question or Goal" width="75"/>
+				</column_definitions>
+				<table_data>
+					<cell>#1</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>#2</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>#3</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What is the patient's age in years?">
+			<free_form_response height="4"/>
+		</question>
+		<question mandatory="true" prompt="Who encouraged you to seek the advice of a registered dietitian?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Myself"/>
+				<selection selected="false" text="Family member"/>
+				<selection selected="false" text="Friend"/>
+				<selection selected="false" text="Physician"/>
+				<selection selected="false" text="Nurse Specialist"/>				
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Borderline diabetes"/>
+				<selection selected="false" text="Hypertension / high blood pressure"/>
+				<selection selected="false" text="High cholesterol"/>
+				<selection selected="false" text="High triglycerides"/>
+				<selection selected="false" text="Overweight / Obese"/>
+				<selection selected="false" text="Heart disease"/>
+				<selection selected="false" text="Stroke / Mini-stroke"/>
+				<selection selected="false" text="Peripheral Vascular Disease"/>
+				<selection selected="false" text="Fatty Liver Disease"/>
+				<selection selected="false" text="None of the Above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any food allergies?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any food allergies, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Food" width="20"/>
+								<column_definition label="Reaction" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently involved with a Bariatric pre-surgery program?&lt;BR&gt;&lt;font color=red&gt;&lt;B&gt;
+					(We are unable to provide an online nutrition consultation for patients that have undergone Bariatric Surgery)
+					&lt;font color=black&gt;">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you undergone surgery or had any hospitalizations?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have undergone surgery or had any hospitalizations, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Surgery/Reason for Hospitalization" width="25"/>
+								<column_definition label="Date (Month / Year)" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you taking any medications? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you are taking any medications, please provide following:  Please be sure to include all prescription medications and non- prescription (over the counter) medications including, herbal remedies and vitamins.
+					&lt;BR&gt;&lt;BR&gt;&lt;font color=red&gt;&lt;B&gt;
+					(Disclaimer about not disclosing all medications and amounts - potential for drug-nutrient interaction or specific dietary guidelines provided based on drug use. In event that the patient fails to disclose, CCF nor the RD will be responsible for any
+					adverse events that may result, that could have been prevented had disclosure been made.)
+					&lt;font color=black&gt;">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Medication" width="20"/>
+								<column_definition label="Dosage" width="10"/>
+								<column_definition label="Date prescribed" width="10"/>
+								<column_definition label="Date stopped" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you take any vitamins (such as a multiple vitamins, vitamin C, E, folic acid), minerals (such as calcium, selenium, potassium), herbals (such as ginkgo biloba, kava kava, red yeast rice), or any other nutritional supplements (such as energy drinks, bars, other pills)? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you take any vitamins, minerals, or nutritional supplements, please provide the information requested below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Vitamin / mineral / supplement" width="25"/>
+								<column_definition label="Dosage consumed (milligrams, micrograms, ounces)" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you taken , or are you currently taking, any supplements for weight loss or boosting energy levels (such as OptiFast, Slimfast, Ephedrine, Xenedrine, Metabolife, Fat Blocker etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have taken , or are you currently taking, any supplements for weight loss or boosting energy levels, please provide the information requested below:">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Supplement" width="15"/>
+								<column_definition label="Brand name" width="15"/>
+								<column_definition label="Start date" width="10"/>
+								<column_definition label="End date" width="10"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your height in feet and inches ?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="What is your weight in pounds?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Do you wish to?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Lose weight"/>
+				<selection selected="false" text="Gain weight"/>
+				<selection selected="false" text="Maintain weight"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your goal weight in pounds ? ">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Have you recently experienced weight gain or loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes, weight gain">
+					<question mandatory="true" prompt="How much (in pounds)?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes, weight loss">
+					<question mandatory="true" prompt="How much (in pounds)?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What, if any, diet plans have you followed to help you lose weight in the past?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Which, if any, were successful or not successful and why?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Was there anything that you learned about yourself after following a particular diet and why?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="false" prompt="Do you or have you experienced any of the following gastrointestinal (GI) symptoms after eating: Please complete the chart below for all symptoms experienced">
+			<table_response add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Symptom" width="30"/>
+					<column_definition label="Describe how often it occurs (with each meal, daily, etc?)" width="60"/>
+					<column_definition label="Describe specific time(s) of day involved?" width="60"/>
+					<column_definition label="What aggravates it?" width="30"/>
+					<column_definition label="What alleviates it?" width="30"/>
+				</column_definitions>
+				<table_data>
+					<cell>Gas</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bloating</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Abdominal pain</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Cramping</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Indigestion</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gastric Reflux</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Constipation</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Diarrhea</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of the Above</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other, please describe</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Please provide current blood pressure and lab work information, if known.  The results should be from within the last year.">
+			<table_response add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Test" width="30"/>
+					<column_definition label="Result" width="25"/>
+					<column_definition label="Date" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Blood pressure</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Total cholesterol</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>LDL cholesterol</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>HDL cholesterol</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Triglycerides</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Fasting blood glucose</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Insulin</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>HgA1c</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Self monitored blood sugar - AM reading</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Self monitored blood sugar - PM reading</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Oral glucose tolerance</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Homocysteine</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>B-12</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>B-6</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Folic acid</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you exercise (including cardiovascular exercise, weight resistance, weight training, yoga, stretching, physical therapy, or tai chi)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what activities do you participate in most often (list all)?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="How many days per week?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="For what length of time per session?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding this nutrition consultation?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+	<question_group name="Nutrition Questionnaire">
+		<question mandatory="true" prompt="Please answer the following questions and circle the answer that most clearly describes your eating pattern.">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No dietary restrictions"/>
+				<selection selected="false" text="Low fat / low cholesterol"/>
+				<selection selected="false" text="High protein / low carbohydrate"/>
+				<selection selected="false" text="Vegetarian"/>
+				<selection selected="false" text="Calorie controlled (for weight loss)"/>
+				<selection selected="false" text="Very low fat"/>
+				<selection selected="false" text="High fiber"/>
+				<selection selected="false" text="Macrobiotic"/>
+				<selection selected="false" text="Diabetic"/>
+				<selection selected="false" text="Low sugar"/>
+				<selection selected="false" text="Low sodium"/>
+				<selection selected="false" text="Weight watchers"/>
+				<selection selected="false" text="Other (e.g. Atkins, South Beach, Pritikin, Zone, etc.)">
+					<question mandatory="true" prompt="If other, please describe:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did your physician recommend this diet?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have food likes and dislikes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="false" prompt="If yes, please list your likes below.">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="false" prompt="If yes, please list your dislikes below.">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which meals do you regularly eat ? (check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Breakfast"/>
+				<selection selected="false" text="Lunch"/>
+				<selection selected="false" text="Brunch"/>
+				<selection selected="false" text="Dinner"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please complete the table below and respond to each habit with the most appropriate response.">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Eating Habit" width="65"/>
+					<column_definition label="Never" width="8"/>
+					<column_definition label="Sometimes" width="8"/>
+					<column_definition label="Always" width="8"/>
+					<column_definition label="Comments" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Eat until uncomfortable</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eat when not really hungry</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Continue to eat even when full</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Feel your eating is out of control</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Feel guilty when eating</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eat quickly and don't really enjoy the food</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Don't sit down to eat and enjoy a meal</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eat at your desk at work</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eat in front of the television</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Binge Eat</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Have food cravings (salty, sweet, sour, etc). Please Describe</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other, please describe</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat snack foods such as chips, nachos, cheese pretzels, butter or cheese-flavored popcorn, or corn tortillas (including low-fat, low-carbohydrate, no sugar added, or lite varieties)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to two"/>
+				<selection selected="false" text="Three to four"/>
+				<selection selected="false" text="Five or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When do you snack ? (check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Morning"/>
+				<selection selected="false" text="Afternoon"/>
+				<selection selected="false" text="Evening"/>
+				<selection selected="false" text="Late night"/>
+				<selection selected="false" text="Throughout the day"/>
+				<selection selected="false" text="None of above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What are your favorite snack foods? (Please list all)">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="How many servings of fruit do you consume each day? (One serving = 1/2 cup canned fruit, 1/2 large banana, 1 medium size piece of fruit, 2 tablespoons dried fruit, or 4 ounces of fruit juice.)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to two"/>
+				<selection selected="false" text="Three to four"/>
+				<selection selected="false" text="Five or more">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink fruit juice or fruit drinks on a daily basis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what kind of fruit juice or fruit drinks? (Tang, light juice, 100% fruit juice, V8 Splash, etc.)">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many servings of vegetables do you consume each day? (One serving = 1/2 cup cooked vegetables, 1 cup raw, 4 oz vegetable juice.)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to two"/>
+				<selection selected="false" text="Three to four"/>
+				<selection selected="false" text="Five or more">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many servings of starches (breads, cereals, rice, or pasta) do you consume each day? (One serving = 1 slice bread, 1/2 bun or small bagel, 3/4 cup cereal, 1/2 cup cooked oats, 1/3 cup rice, or pasta, 1 small roll, 4 - 6 crackers, 3/4 ounce pretzels, 1 small pita, or 1 medium baked potato(3 oz), 1/2 cup corn peas, mashed white or sweet potato.)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero to two"/>
+				<selection selected="false" text="Two to four"/>
+				<selection selected="false" text="Four to six"/>
+				<selection selected="false" text="Six to eight"/>
+				<selection selected="false" text="Eight to ten"/>
+				<selection selected="false" text="Eleven or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you tend to choose whole grain starches, such as, brown rice, whole rolled oats, steel cut oats, whole-wheat pasta, whole grain breads or whole-wheat crackers?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question madatory="true" prompt="If yes, how often?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Daily"/>
+							<selection selected="false" text="Few times per week"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Monthly"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many servings of dairy foods do you consume each day? (One serving = 8 ounces milk, 6 ounces yogurt, 4 ounces cottage cheese, or 1 ounce of most cheeses.)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to two"/>
+				<selection selected="false" text="Three to four"/>
+				<selection selected="false" text="Five or more">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which type of dairy do you choose most often?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="None"/>
+				<selection selected="false" text="Nonfat / skim"/>
+				<selection selected="false" text="1% milk fat"/>
+				<selection selected="false" text="2% milk fat"/>
+				<selection selected="false" text="Whole milk (Vitamin D)"/>
+				<selection selected="false" text="Cheese"/>
+				<selection selected="false" text="Regular yogurt"/>
+				<selection selected="false" text="Low-fat yogurt"/>
+				<selection selected="false" text="Greek yogurt"/>
+				<selection selected="false" text="Low-fat cottage cheese"/>
+				<selection selected="false" text="Regular cottage cheese"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which type of cheese do you choose most often?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="None"/>
+				<selection selected="false" text="Regular cheese"/>
+				<selection selected="false" text="Low fat cheese"/>
+				<selection selected="false" text="Nonfat cheese"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which cooking methods best represent your eating patterns? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Bake"/>
+				<selection selected="false" text="Broil"/>
+				<selection selected="false" text="Saute (in less than 1 Tablespoon oil)"/>
+				<selection selected="false" text="Saute (in more than 1 Tablespoon oil)"/>
+				<selection selected="false" text="Grill"/>
+				<selection selected="false" text="Pan fry"/>
+				<selection selected="false" text="Deep fry"/>
+				<selection selected="false" text="Roast"/>
+				<selection selected="false" text="Poach"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat fried foods (fried chicken, fried fish, french fries, fried potatoes, potato skins, fried mozzarella sticks, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many servings of nuts or peanut butter do you consume each week? (1 serving of nuts is 1/4 cup, 1 serving of peanut butter is 2 tablespoons) ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or More">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat red meat (including beef, pork, venison, lamb and veal)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="List the three most common types of red meat (if applicable) that you eat:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat poultry (chicken or turkey)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you take the skin off poultry before eating?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="No"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat fish?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or more"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="List the three most common types of fish (if applicable) that you eat most often:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat eggs? &lt;font color=red&gt;Please describe how they are prepared in the comments field&lt;font color=black&gt;">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to two"/>
+				<selection selected="false" text="Three to four"/>
+				<selection selected="false" text="Five or more">
+					<question mandatory="false" prompt="Comments:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat out?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five or More"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What type of dining experiences do you enjoy? (Check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Fast Food"/>
+				<selection selected="false" text="Buffet"/>
+				<selection selected="false" text="Sit down restaurant"/>
+				<selection selected="false" text="Bar and Grill"/>
+				<selection selected="false" text="Take-out"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="Please explain:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list your 3 favorite restaurants or eating establishments:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="How many times per week do you eat desserts and treats (including low-fat) such as cookies, cake, pie, candy bars, hard candy, jelly beans, caramels, ice cream, cobbler, etc.?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero"/>
+				<selection selected="false" text="One to Two"/>
+				<selection selected="false" text="Three to Four"/>
+				<selection selected="false" text="Five to Seven"/>
+				<selection selected="false" text="Eight to Ten"/>
+				<selection selected="false" text="More than 10 per week"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="List the three most common desserts and treats (if applicable) you eat:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="What condiments do you typically consume? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Mayonnaise"/>
+				<selection selected="false" text="Reduced fat / nonfat mayonnaise"/>
+				<selection selected="false" text="Salad dressing"/>
+				<selection selected="false" text="Reduced fat / nonfat salad dressing"/>
+				<selection selected="false" text="Mustard / honey mustard"/>
+				<selection selected="false" text="BBQ sauce"/>
+				<selection selected="false" text="Special sauces (e.g. bleu cheese)"/>
+				<selection selected="false" text="Prepared horseradish"/>
+				<selection selected="false" text="Plain horseradish"/>
+				<selection selected="false" text="Catsup/Ketchup"/>
+				<selection selected="false" text="Cream cheese"/>
+				<selection selected="false" text="Reduced/Nonfat cream cheese"/>
+				<selection selected="false" text="None"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink pop(soda) or other soft drinks, such as lemonade or iced tea?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes are these beverages:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Sweetened"/>
+							<selection selected="false" text="Diet or unsweetened">
+								<question mandatory="false" prompt="How many servings per week?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you drink coffee, tea, coffee drinks, or hot chocolate?">
+			<item_response drop_down_style="false" single_response="true">	
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, which of the following do you add to your coffee or tea? (check all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Non-dairy creamer"/>
+							<selection selected="false" text="Coffee creamer"/>
+							<selection selected="false" text="Syrups"/>
+							<selection selected="false" text="Sugar or Honey"/>
+							<selection selected="false" text="Sugar-substitute"/>
+							<selection selected="false" text="I don't add anything to my coffee or tea"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If yes, How often do you drink these types of drinks?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="More than once a day"/>
+							<selection selected="false" text="Once a day"/>
+							<selection selected="false" text="A few times per week"/>
+							<selection selected="false" text="Once a week"/>
+							<selection selected="false" text="A few times per month"/>
+						</item_response>
+					</question>
+					<question mandatory="false" prompt="Please describe your favorite coffee drink or frappucino?">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many ounces or cups of water do you drink each day (8-ounces equal 1 cup)?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="Do you drink alcohol?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you drink alcohol, what types of alcohol do you consume most often? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Beer"/>
+							<selection selected="false" text="Light beer"/>
+							<selection selected="false" text="Red / white wine"/>
+							<selection selected="false" text="Spirits (rum, whiskey, vodka, etc.)">
+								<question mandatory="true" prompt="If you drink spirits such as rum, whiskey or vodka, what type of beverage do you add to it?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How many servings of the above alcoholic beverages do you consume on a weekly basis?  One serving = 12 ounces beer, 3 1/2 ounces wine or 1 1/2 ounces spirits.">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Zero to one"/>
+				<selection selected="false" text="Two to four"/>
+				<selection selected="false" text="Five to seven"/>
+				<selection selected="false" text="Seven or more"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="false" prompt="If you consume any additional mixed drinks on a regular basis, such as a margarita, pina colada, daquiri, wine cooler or bottled drink mixes, please list what drinks and how many eight ounce servings you would typically consume in a week.">
+			<free_form_response height="5"/>
+		</question>
+	</question_group>
+
+</questionnaire>

@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="&lt;BR&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/B&gt;"/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of
+	current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to patient by  physician(s), reports of office visits, etc. if received. " mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Notes should clearly indicate current listing of all patient's medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Surgical reports" description="Operative reports for all prior heart surgeries." mandatory="true"/>	
+	<material id="Report from Wife/Partner's Obstetrician" description="Report from Wife / Partner's obstetrician regarding infertility issue." mandatory="true"/>	
+	<material id="Physician Treatment Reports" description="Reports of any treatments undergone for this diagnosis (surgery, procedures, etc.)" mandatory="true"/>	
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of Radiologic and diagnostic studies done in the last 3 years.  (mandatory) &lt;/B&gt;"/>
+	<material id="Pathology Reports and Glass Slides" description="Reports and actual glass slides for any biopsies, procedures done." mandatory="true"/>
+	<material id="Semen Analysis Reports" description="All reports for any analysis completed." mandatory="true"/>
+	<material id="Current blood tests" description="Reports to include any recent labwork including hormone levels." mandatory="true"/>
+	<material id="CT Scan Abdomen / Pelvis" description="Report and actual films for any Abdominal / Pelvic CT Scans performed" mandatory="true"/>
+	<material id="Testicular Ultrasound Report and Films" description="Report and actual films" mandatory="true"/>
+	<material id="Hysterosalpingogram (Wife / Partner's)" description="Report and actual films of study performed on wife / partner." mandatory="true"/>
+	<material id="Pelvic Ultrasound (Wife / Partner's)" description="Report and actual films of study performed on wife / partner." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt; The following list of medical information although not mandatory, are optional and highly recommended if done:&lt;/B&gt;"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

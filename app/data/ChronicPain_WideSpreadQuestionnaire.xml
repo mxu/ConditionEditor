@@ -1,0 +1,146 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- Lower Back Questionnaire -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Approximate age or year when you first had generalized pain?">
+			<free_form_response height="2"/>
+		</question>	
+		<question mandatory="true" prompt="Did the problem begin with an accident / injury / illness?">
+			  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="Unsure"/>
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt="If Yes, Describe how pain began. ">
+			 	 	<free_form_response height="10"/>
+			 	 </question>
+			  </selection>
+			  </item_response>
+		</question>
+		<question mandatory="true" prompt="Do you currently have an active Workman's Compensation claim or active litigation (law suit) in progress related to the cause of your pain ?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please explain">
+			 	 	<free_form_response height="2"/>
+			 	 </question>			 	 			  
+			  </selection>
+		  </item_response>
+		</question>
+		<question mandatory="true" prompt="Are there activities that increase your pain?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please list all activities :">
+			 	 	<free_form_response height="5"/>
+			 	 </question>
+			  </selection>
+		  </item_response>
+		</question>
+		<question mandatory="true" prompt="Are there other things that increase your pain ( e.g. stress, cold, weather)?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please list :">
+			 	 	<free_form_response height="5"/>
+			 	 </question>
+			  </selection>
+	          </item_response>
+		</question>
+		<question mandatory="true" prompt="Has the pain changed over time?">
+			  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="Unsure"/>
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt="If yes, please describe how it has changed and over what period of time? ">
+			 	 	<free_form_response height="10"/>
+			 	 </question>
+			  </selection>
+			  </item_response>
+		</question>		
+		<question mandatory="true" prompt="Have you been given a diagnosis ?">
+			  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt="What was this diagnosis?">
+			 	 	<free_form_response height="5"/>
+			 	 </question>
+			 	  <question mandatory="true" prompt="What type of physician made this diagnosis?">
+			 	 	 <table_response add_row_increment="1" initial_rows_to_display="1">
+			 	 	 <column_definitions>
+			 	 	 	<column_definition label="Physician Name" width="30"/>
+			 	 	 	<column_definition label="Physician Specialty (Neurology, Primary Care, Pain Specialist, etc.)" width="60"/>		 	 	 	
+			 	 	 </column_definitions>
+			 	 	 <table_data>			 	 	 	
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>			 	 	
+			 	 	 </table_response>
+			 	 </question>
+			  </selection>
+			  </item_response>
+		</question>
+		<question mandatory="true" prompt="Have you seen a rheumatologist ?">
+			  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes"/>
+			  </item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been tested for the following medical causes of your generalized pain ?">
+			  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt="If yes, please give the year and results, if known">
+			 	 	 <table_response add_row_increment="1" initial_rows_to_display="1">
+			 	 	 <column_definitions>
+			 	 	 	<column_definition label="" width="50"/>
+			 	 	 	<column_definition label="Year" width="10"/>
+			 	 	 	<column_definition label="Results" width="30"/>		 	 	 	
+			 	 	 </column_definitions>
+			 	 	 <table_data>
+			 	 	 	<cell>Thyroid disease</cell>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>
+			 	 	 <table_data>
+			 	 	 	<cell>Autoimmune conditions(lupus, rheumatoid arthritis)</cell>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>
+			 	 	 <table_data>
+			 	 	 	<cell>Infection (e.g. Lyme)</cell>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>
+			 	 	 <table_data>
+			 	 	 	<cell>Other Conditions</cell>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>
+			 	 	  <table_data>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 	<cell/>
+			 	 	 </table_data>
+			 	 	 </table_response>
+			 	 </question>
+			  </selection>
+			  </item_response>
+		</question>	
+		<question mandatory="true" prompt="What treatments have you tried for pain relief? ">
+			<free_form_response height="10"/>
+		</question>		
+		&PAIN_SYSTEM_REVIEW;	
+		&SUBSTANCE_DEVELOPMENT_BACKGROUND;
+		&PAIN_DISABILITY_INDEX;
+		 <question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition that you would like to tell us?">
+		 	<free_form_response height="3"/>
+		 </question>	
+	</question_group>
+</questionnaire>	

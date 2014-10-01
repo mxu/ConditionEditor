@@ -1,0 +1,31 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "SpondylolisthesisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "SpondylolisthesisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">			
+			<condition id="Adult Spondylolisthesis (greater than 18 years)" description="Adult Spondylolisthesis (greater than 18 years)" cost="565.00">
+				<keyword text="spondylolisthesis"/>
+				<keyword text="arthritis"/>
+				<keyword text="sacroiliac"/>
+				<keyword text="back"/>
+				<keyword text="vertabra"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition id="Isthmic Spondylolisthesis (4-18 years)" description="Isthmic Spondylolisthesis (4-18 years)" cost="565.00">
+				<keyword text="spondylolisthesis"/>
+				<keyword text="arthritis"/>
+				<keyword text="sacroiliac"/>
+				<keyword text="back"/>
+				<keyword text="vertabra"/>
+				<keyword text="pediatric"/>
+				<keyword text="adolescent"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>            
+		</section>
+	</department>
+</division>

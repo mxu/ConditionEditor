@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Marks_BenignBoneTumorMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Marks_BenignBoneTumorQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Osteoid Osteoma (Adult)" id="Osteoid Osteoma (Adult)">
+				<keyword text="osteoma"/>
+				<keyword text="osteoid"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;	
+			</condition>
+			<condition cost="745.00" description="Benign Bone Tumor (Adult)" id="Benign Bone Tumor (Adult)">
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				<keyword text="mass"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chondroblastoma (Adult)" id="Chondroblastoma (Adult)">
+				<keyword text="chondroblastoma"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Chondromyxoid Fibroma (Adult)" id="Chondromyxoid Fibroma (Adult)">
+				<keyword text="chondromyxoid "/>
+				<keyword text="fibroma"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Enchondroma (Adult)" id="Enchondroma (Adult)">
+				<keyword text="enchondroma"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Giant Cell Tumor (Adult)" id="Giant Cell Tumor (Adult)">
+				<keyword text="giant"/>
+				<keyword text="cell"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="cancer"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Histiocytosis X (Adult)" id="Histiocytosis X (Adult)">
+				<keyword text="histiocytosis"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Osteoblastoma (Adult)" id="Osteoblastoma (Adult)">
+				<keyword text="osteoblastoma"/>
+				<keyword text="tumor"/>
+				<keyword text="bone"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Aneurysmal Bone Cyst (Adult)" id="Aneurysmal Bone Cyst (Adult)">
+				<keyword text="aneurysmal"/>
+				<keyword text="cyst"/>
+				<keyword text="growth"/>
+				<keyword text="bone"/>
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

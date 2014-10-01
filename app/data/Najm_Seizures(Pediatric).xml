@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- copied from Najm_Seizures(Adult).xml -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Najm_Seizures(Pediatric)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Najm_Seizures(Pediatric)Questionnaire.xml">
+]>
+<division description="Neurology" name="Neurology">
+	<department description="Pediatric Neurology" name="Pediatric Neurology">
+		<section description="" name="">
+			<condition cost="745.00" description="Seizures (Pediatric)" id="Seizures (Pediatric)">
+				<keyword text="spells"/>
+				<keyword text="fits"/>
+				<keyword text="petit mal"/>
+				<keyword text="seizure"/>
+				<keyword text="grand mal"/>
+				<keyword text="epilepsy"/>
+				<keyword text="tonic-clonic"/>
+                <keyword text="pediatric"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Epilepsy (Pediatric)" id="Epilepsy (Pediatric)">
+				<keyword text="spells"/>
+				<keyword text="fits"/>
+				<keyword text="petit mal"/>
+				<keyword text="seizure"/>
+				<keyword text="grand mal"/>
+				<keyword text="epileptic"/>
+				<keyword text="tonic-clonic"/>
+                <keyword text="pediatric"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

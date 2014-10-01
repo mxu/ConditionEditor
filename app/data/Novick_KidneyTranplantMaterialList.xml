@@ -1,0 +1,28 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's notation of medications" description="Notes should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Pathology reports" description="All Pathology reports and glass slides for any and all relevant biopsies done." mandatory="true"/>
+	<material id="Physician letters" description="Copies of all letters sent to you by your physician(s) of past visit(s)." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations. " mandatory="true"/>
+	<material id="Dentist's note(s)" description="Dentist's note indicating absence of dental disease in recipient (and donor, if applicable)." mandatory="true"/>
+	<material id="Operative reports" description="Operative reports for all relevant surgeries / biopsies." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following list of diagnostic medical information is required to proceed with your request for a second opinion.  Reports and (actual) films for all radiology studies done in the last 3 years, if indicated.  These studies to include the following: &lt;/b&gt;"/>
+	<material id="Chest X-ray (recipient and donor)" description="Reports and films." mandatory="true"/>
+	<material id="Abdominal ultrasound (recipient and donor)" description="Reports and films." mandatory="true"/>
+	<material id="Voiding cystourethrogram (recipient and donor)" description="Reports and films." mandatory="true"/>
+	<material id="Renal artery DSA (recipient and donor)" description="Reports and films." mandatory="true"/>
+	<material id="Abdominal and pelvic CT scan (recipient and donor)" description="Reports and films." mandatory="true"/>
+	<material id="Tissue crossmatch  (recipient and donor)" description="Report only." mandatory="true"/>
+	<material id="HLA tissue typing (recipient and donor)" description="Report only." mandatory="true"/>
+	<material id="Haplotype matching (recipient and donor)" description="Report only." mandatory="true"/>
+	<material id="PSA tumor marker (recipient and/or donor, if male)" description="Report only." mandatory="true"/>
+	<material id="Chemistry profile" description="Chemistry profile including Electrolytes, BUN, Creatinine, Calcium, Glucose, Liver Function Tests  (recipient and donor)." mandatory="true"/>
+	<material id="Blood count" description="Complete blood count with platelet count  (recipient and donor)." mandatory="true"/>
+	<material id="Screening tests" description="Screening tests for Hepatitis C, Hepatitus B, CMV, HSV and EBV  (recipient and donor)." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Current blood work" description="Within last 6 months" mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,5 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION_ADOPTION;
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Marks_MusculoskeletalTumorMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Marks_MusculoskeletalTumorQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Musculoskeletal Tumor of Shoulder (Adult)" id="Musculoskeletal Tumor of Shoulder (Adult)">
+				<keyword text="musculoskeletal"/>
+				<keyword text="tumor"/>
+				<keyword text="shoulder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Musculoskeletal Tumor of Arm (Adult)" id="Musculoskeletal Tumor of Arm (Adult)">
+				<keyword text="musculoskeletal"/>
+				<keyword text="tumor"/>
+				<keyword text="arm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Musculoskeletal Tumor of Leg (Adult)" id="Musculoskeletal Tumor of Leg (Adult)">
+				<keyword text="musculoskeletal"/>
+				<keyword text="tumor"/>
+				<keyword text="leg"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Musculoskeletal Tumor of Pelvis (Adult)" id="Musculoskeletal Tumor of Pelvis (Adult)">
+				<keyword text="musculoskeletal"/>
+				<keyword text="tumor"/>
+				<keyword text="pelvis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Musculoskeletal Tumor (Adult)" id="Musculoskeletal Tumor (Adult)">
+				<keyword text="musculoskeletal"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

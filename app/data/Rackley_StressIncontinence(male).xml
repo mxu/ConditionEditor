@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Penny Black -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Rackley_StressIncontinence(male)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Rackley_StressIncontinence(male)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Urology" name="Urology">
+		<section description="" name="">
+			<condition cost="745.00" description="Stress Incontinence (male)" id="Stress Incontinence (male)" active="true">
+				<keyword text="incontinent"/>
+				<keyword text="urine"/>
+				<keyword text="urological"/>
+				<keyword text="bladder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Urinary Incontinence (male)" id="Urinary Incontinence (male)" active="true">
+				<keyword text="incontinent"/>
+				<keyword text="urine"/>
+				<keyword text="urological"/>
+				<keyword text="bladder"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Neurogenic Bladder (male)" id="Neurogenic Bladder (male)" active="true">
+				<keyword text="hypotonic"/>
+				<keyword text="flaccid"/>
+				<keyword text="spastic"/>
+				<keyword text="contracted"/>
+				<keyword text="urinary"/>
+				<keyword text="dysfunction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Neurogenic Bladder (male) (with Pathology)" id="Neurogenic Bladder (male) (with Pathology)" active="true">
+				<keyword text="hypotonic"/>
+				<keyword text="flaccid"/>
+				<keyword text="spastic"/>
+				<keyword text="contracted"/>
+				<keyword text="urinary"/>
+				<keyword text="dysfunction"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+		</section>
+	</department>
+</division>

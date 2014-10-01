@@ -1,0 +1,9 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Primary care physician's last exam report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms." mandatory="true"/>
+	<material id="Treatment Reports" description="Reports of any treatments undergone for this diagnosis (counseling, hypnosis, etc.)" mandatory="true"/>
+	<material id="Cotinine Lab Test Result" description="Lab test for Nicotine level in blood." mandatory="true"/>
+	<material id="HbA1C Level" description="Lab test." mandatory="true"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

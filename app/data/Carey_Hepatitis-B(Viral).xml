@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 NT (http://www.xmlspy.com) by Harsha Reddy (ITD)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Carey_Hepatitis-B(Viral)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Carey_Hepatitis-B(Viral)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Hepatitis B  (HBV) (adult)" id="Hepatitis B (HBV) (adult)" active="true">
+				<keyword text="inflammation"/>
+				<keyword text="viral"/>
+				<keyword text="infectious"/>
+				<keyword text="infection"/>
+				<keyword text="liver"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

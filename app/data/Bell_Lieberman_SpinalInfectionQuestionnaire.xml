@@ -1,0 +1,443 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis Specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question prompt="How long have you had this problem?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="Less than one month" selected="false"/>
+				<selection text="1-3 months" selected="false"/>
+				<selection text="4-6 months" selected="false"/>
+				<selection text="7-12 months" selected="false"/>
+				<selection text="Greater than 12 months" selected="false"/>
+			</item_response>
+		</question>
+		<question prompt="Do you have pain?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No" selected="false"/>
+				<selection text="Yes" selected="false">
+					<question prompt="What area of your body has the worst pain?" mandatory="true">
+						<item_response drop_down_style="false" single_response="true">
+							<selection text="Neck" selected="false"/>
+							<selection text="Back" selected="false"/>
+							<selection text="Arm" selected="false"/>
+							<selection text="Leg" selected="false"/>
+							<selection text="Neck and arm pain are equal" selected="false"/>
+							<selection text="Back and leg pain are equal" selected="false"/>
+							<selection text="Other" selected="false">
+								<question mandatory="true" prompt="If other, please specify:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question prompt="Indicate which of the following activities increase your pain: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection text="Exercise" selected="false"/>
+							<selection text="Sitting" selected="false"/>
+							<selection text="Standing" selected="false"/>
+							<selection text="Walking" selected="false"/>
+							<selection text="Coughing" selected="false"/>
+							<selection text="Sneezing" selected="false"/>
+							<selection text="Sleeping" selected="false"/>
+							<selection text="Walking up stairs" selected="false"/>
+							<selection text="Walking down stairs" selected="false"/>
+							<selection text="Twisting" selected="false"/>
+							<selection text="Bending forward" selected="false"/>
+							<selection text="Bending backward" selected="false"/>
+							<selection text="Other" selected="false">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response/>
+								</question>
+							</selection>
+						
+						</item_response>
+					</question>
+					<question prompt="Indicate which of the following activities decrease your pain: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection text="Lying down" selected="false"/>
+							<selection text="Sitting" selected="false"/>
+							<selection text="Standing" selected="false"/>
+							<selection text="Walking" selected="false"/>
+							<selection text="Pain pills" selected="false"/>
+							<selection text="Muscle relaxants" selected="false"/>
+							<selection text="Anti-inflammatories" selected="false"/>
+							<selection text="Manipulation" selected="false"/>
+							<selection text="Physical therapy" selected="false"/>
+							<selection text="Other medications" selected="false">
+								<question mandatory="true" prompt="If other medications, please list:">
+									<free_form_response/>
+								</question>
+							</selection>
+							<selection text="Other activities" selected="false">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response/>
+								</question>
+							</selection>
+
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Is the problem:" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="Getting worse" selected="false"/>
+				<selection text="Getting better" selected="false"/>
+				<selection text="Staying the same" selected="false"/>
+			</item_response>
+		</question>
+		<question prompt="Have you had previous back or neck problems?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you have had previous back or neck problems, when?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question prompt="What was the cause of your previous neck / back trouble?" mandatory="true">
+						<item_response drop_down_style="false" single_response="true">
+							<selection text="Work injury" selected="false"/>
+							<selection text="Road traffic accident"/>
+							<selection text="Sports injury"/>
+							<selection text="No specific injury"/>
+							<selection text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you think the fault of your current neck / back condition is?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="Yours" selected="false"/>
+				<selection text="Your employer's" selected="false"/>
+				<selection text="A co-worker's" selected="false"/>
+				<selection text="Another person's" selected="false"/>
+				<selection text="Nobody's" selected="false"/>
+			</item_response>
+		</question>
+		<question prompt="Is there a family history of neck / back trouble?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No" selected="false"/>
+				<selection text="Yes" selected="false"/>
+				<selection text="Not sure" selected="false"/>
+			</item_response>
+		</question>
+		<question prompt="Have you had previous neck or back surgery?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you have had previous neck or back surgery, please provide the following:">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Surgery / Procedure" width="20"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital" width="35"/>
+								<column_definition label="City/State" width="35"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Do you have problems urinating?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you do have problems urinating, has it developed since the onset of your pain problem?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection text="No"/>
+							<selection text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Do you have problems with constipation?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you do have problems with constipation, has it developed since the onset of your pain problem?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection text="No"/>
+							<selection text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Do you have problems with diarrhea?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you do have problems with diarrhea, has it developed since the onset of your pain problem?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection text="No"/>
+							<selection text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question prompt="Have you recently (within the last month) had any of the following symptoms? (chose all that apply)" mandatory="true">
+			<item_response drop_down_style="false" single_response="false">
+				<selection text="Fever &gt; 100 F / 37.8C"/>
+				<selection text="Night sweats"/>
+				<selection text="Tremors.shaking chills"/>
+				<selection text="General unwell feeling"/>
+				<selection text="Shortness of breath"/>
+				<selection text="None of the above"/>
+			</item_response>
+		</question>
+		<question prompt="Have you recently (within the last two months) been treated with antibiotics to treat infection?" mandatory="true">
+			<item_response drop_down_style="false" single_response="true">
+				<selection text="No"/>
+				<selection text="Yes">
+					<question mandatory="true" prompt="If you have recently  been treated with antibiotics to treat infection, please provide the following information starting with the most recent antibiotic?">
+						<table_response initial_rows_to_display="3" add_row_increment="2">
+							<column_definitions>
+								<column_definition label="Antibiotic name" width="20"/>
+								<column_definition label="Date started" width="15"/>
+								<column_definition label="How taken &lt;BR&gt; (IV or pill)" width="15"/>
+								<column_definition label="How often taken &lt;BR&gt; (1x/day, etc.)" width="20"/>
+								<column_definition label="How long taken &lt;BR&gt; (days/weeks)" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Previous treatment:  Which of the following types of treatment have you had for your neck / back pain?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Hot packs / ice">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Ultrasound">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Massage">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="TENS / Electrical stimulation">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Body mechanics training">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Exercises">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Traction">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Bedrest">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Manipulation">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Biofeedback">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Injections">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Brace">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Medication">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="What was the effect of this treatment?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Helped"/>
+							<selection selected="false" text="Made things worse"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list all diagnostic tests (imaging studies) you have undergone. For each study, please provide date and location: ">
+			<table_response add_row_increment="2" row_height="3">
+				<column_definitions>
+					<column_definition label="Study" width="20"/>
+					<column_definition label="Date (Month / Year)" width="12"/>
+					<column_definition label="Hospital/Clinic" width="25"/>
+					<column_definition label="City, State" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Spine X-rays</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan #1</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan #2</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI Scan #3</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan #1</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan #2</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan #3</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bone Scan</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Discogram</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>EMG (Electromyography)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Myelogram</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest X-ray</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

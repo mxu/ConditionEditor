@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Caleb Bullen -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+	
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+				
+		<question mandatory="true" prompt="What is the patient hoping to gain from this second opinion consultation?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which the patient is seeking a second opinion? &lt;BR&gt;(Please focus more on what symptoms the patient is experiencing and less on what the doctors have said)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's current diagnosis? (please provide exact diagnosis if known)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When did the patient's symptoms begin?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Describe the patient's initial symptoms below (be as specific as possible in your description):">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please list the patient's summary of events related to this diagnosis below. Please record the events in date order: &lt;BR&gt;(Episodes of symptoms should be listed in date order with a description of each symptom)">
+			<table_response initial_rows_to_display="4" add_row_increment="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Episodes of symptoms" width="30"/>
+					<column_definition label="Description" width="35"/>
+					<column_definition label="Date (mm/dd/yy)" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="When was the patient's diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Did the patient ever recieve any treatments (procedure) for the condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Please list all treatments that have been tried and the effect of the treatment on the patient">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Treatment Name" width="35"/>
+								<column_definition label="Date(s) of the treatment (mm/dd/yyyy)" width="15"/>
+								<column_definition label="Effect on patient " width="25"/>
+								<column_definition label="Comments" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the below table with patient's experience of the symptoms">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Symptoms" width="35"/>
+					<column_definition label="Description" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell>Cognitive changes (such as memory problems, disorientation, language problems)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Change in gait/walking</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Vertigo or dizziness</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in coordination (e.g., clumsiness)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Change in sight/vision</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Abnormal movements</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Weakness</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in mood</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in personality/behavior</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in sleep</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Fatigue</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Hallucinations or delusions</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in sensation</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+
+		<question mandatory="true" prompt="Please describe the onset of symptoms (immediate, gradual, etc.)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe the progression of symptoms (variable, intermittent, gradually progressive, stable)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="Please describe the timing of symptoms from onset until now">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In the table below, please list all medications the patient has taken for the diagnosis which he/she is seeking an opinion, the dosage, date started and stopped, positive effects, and side effects">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Medication" width="25"/>
+					<column_definition label="Dosage" width="15"/>
+					<column_definition label="Date Started&lt;BR&gt;(Month/Year)" width="10"/>
+					<column_definition label="Date Stopped&lt;BR&gt;(Month/Year)" width="10"/>
+					<column_definition label="Reason Stopped" width="20"/>
+					<column_definition label="Positive Effects" width="20"/>
+					<column_definition label="Side Effects" width="20"/>
+					<column_definition label="Comments" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="In the table below, please list all treatments / therapies the patient has tried for the diagnosis which he/she is seeking an opinion, the date started and stopped, positive effects, and side effects">
+			<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+				<column_definitions>
+					<column_definition label="Treatment / Therapy" width="25"/>
+					<column_definition label="Date Started&lt;BR&gt;(Month/Year)" width="10"/>
+					<column_definition label="Date Stopped&lt;BR&gt;(Month/Year)" width="10"/>
+					<column_definition label="Reason Stopped" width="20"/>
+					<column_definition label="Positive Effects" width="20"/>
+					<column_definition label="Side Effects" width="20"/>
+					<column_definition label="Comments" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is there a family history of prion disease (Creutzfeldt-Jakob disease, fatal familial insomnia, or Gerstmann-Straussler-Scheinker disease) in a blood relative (parents, sisters, brothers, grandparents, aunts, uncles, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what is the relationship to the patient, describe course, and whether autopsy was performed?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is there a family history of dementia (e.g., Alzheimer's disease, frontotemporal dementia, etc.) in a blood relative (parents, sisters, brothers, grandparents, aunts, uncles, etc.)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the chart below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Diagnosis" width="25"/>
+								<column_definition label="Relationship to Patient" width="20"/>
+								<column_definition label="Describe age of onset, duration of illness, and symptoms" width="40"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is there a family history of any of the following in a blood relative (parents, sisters, brothers, grandparents, aunts, uncles, etc.)? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Stroke"/>
+				<selection selected="false" text="Heart Attack / Angioplasty"/>
+				<selection selected="false" text="Heart Surgery"/>
+				<selection selected="false" text="High Blood Pressure"/>
+				<selection selected="false" text="High Cholesterol / Triglyceride"/>
+				<selection selected="false" text="Diabetes"/>
+				<selection selected="false" text="Aneurysm"/>
+				<selection selected="false" text="Movement disorder (e.g., Parkinson's disease, tremor, etc.)"/>
+				<selection selected="false" text="Autoimmune/Rheumatological Illness (e.g., lupis, Sjogren’s, scleroderma)"/>
+				<selection selected="false" text="Mood disorder (depression, bipolar disorder)"/>
+				<selection selected="false" text="Schizophrenia"/>
+				<selection selected="false" text="Other mental/psychiatric illness"/>
+				<selection selected="false" text="Cancer">
+					<question mandatory="true" prompt="Describe list below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Thyroid Disease"/>
+				<selection selected="false" text="Alcoholism"/>
+				<selection selected="false" text="Migraine Headaches"/>
+				<selection selected="false" text="Epilepsy"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other Problems">
+					<question mandatory="true" prompt="If other, describe in detail below:">
+						<free_form_response height="4"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient work outside the home?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, please complete the chart below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Date last worked&lt;BR&gt;(Month/Year)" width="15"/>
+								<column_definition label="Reason no longer working" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the chart below:">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Patient's occupation?" width="25"/>
+								<column_definition label="Full-time or Part-time?" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any pending legal suits / actions?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe below:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		
+		<question mandatory="true" prompt="Does the patient had/have any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Recent Weight gain">
+					<question mandatory="true" prompt="If yes, what is the amount in pounds?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Recent Weight loss">
+					<question mandatory="true" prompt="If yes, what is the amount in pounds?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Fever of soaking sweats at night"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Weakness of arms or legs"/>
+				<selection selected="false" text="Numbness of arms or legs"/>
+				<selection selected="false" text="Tingling of arms or legs"/>
+				<selection selected="false" text="Cramps at night of arms or legs"/>
+				<selection selected="false" text="New, frequent or severe headaches"/>
+				<selection selected="false" text="Falls, imbalance, or difficulty walking"/>
+				<selection selected="false" text="Loss of consciousness or fainting"/>
+				<selection selected="false" text="Convulsions"/>
+				<selection selected="false" text="Loss of memory or confusion"/>
+				<selection selected="false" text="Problem with vision or eyes">
+					<question mandatory="true" prompt="When was the patient's last eye exam?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Does the patient wear glasses or contacts?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Head or ear noises"/>
+				<selection selected="false" text="Change in hearing">
+					<question mandatory="true" prompt="Does the patient use a hearing aid?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Change in speech or voice"/>
+				<selection selected="false" text="Dizziness with spinning"/>
+				<selection selected="false" text="Dizziness with Lightheadedness"/>
+				<selection selected="false" text="Frequent or severe nose bleeds"/>
+				<selection selected="false" text="Trouble chewing or swallowing"/>
+				<selection selected="false" text="Sore tongue or mouth"/>
+				<selection selected="false" text="Dental problems"/>
+				<selection selected="false" text="Daily cough"/>
+				<selection selected="false" text="Cough with bloody mucous"/>
+				<selection selected="false" text="Shortness of breath after walking up 2 flights of stairs or hurrying"/>
+				<selection selected="false" text="Shortness of breath when just sitting or reclining"/>
+				<selection selected="false" text="Discomfort or pain in chest"/>
+				<selection selected="false" text="Swelling of the ankles every day"/>
+				<selection selected="false" text="Pain or tiredness in the legs while walking"/>
+				<selection selected="false" text="Leg or foot discomfort at night"/>
+				<selection selected="false" text="High blood pressure">
+					<question mandatory="true" prompt=" If yes, for how many years?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="What is the patient's recent blood pressure reading?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="Who performed the blood pressure testing?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Abdominal pain"/>
+				<selection selected="false" text="Frequent heartburn or indigestion"/>
+				<selection selected="false" text="Change in bowel habits"/>
+				<selection selected="false" text="Black or bloody bowel movements"/>
+				<selection selected="false" text="Difficulty with urination"/>
+				<selection selected="false" text="Loss of contol of urine at times"/>
+				<selection selected="false" text="Awaken at night more than once to urinate"/>
+				<selection selected="false" text="Sexual problems or change in sex drive"/>
+				<selection selected="false" text="Abnormal discharge"/>
+				<selection selected="false" text="Changes in skin, moles, or rash"/>
+				<selection selected="false" text="Persistent painful, stiff, or swollen joints"/>
+				<selection selected="false" text="Back pain or discomfort"/>
+				<selection selected="false" text="Difficulty sleeping"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How many people live in the patient's household?">
+			<free_form_response height="2"/>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have any stress or frequent conflicts at home?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient feel anxious or depressed much of the time?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If yes, has the patient ever seriously considered suicide?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, please explain:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a history of any hospitalizations for emotional problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient a female? ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please answer the following questions ">
+					    <item_response drop_down_style="false" single_response="false">
+						 <selection selected="false" text="Does the patient have normal menstrual periods? ">
+							<question mandatory="true" prompt="">         
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>                     
+						  </selection>
+						  
+						   <selection selected="false" text="Date of last menstrual period? ">
+							<question mandatory="true" prompt="">         
+								&MONTH_YEAR_TABLE_RESPONSE;
+							</question>                     
+						  </selection>						  
+						   <selection selected="false" text="Does the patient have bleeding between periods or following menopause? ">
+							<question mandatory="true" prompt="">         
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>                     
+						  </selection>						    
+						   <selection selected="false" text="Does the patient experience hot flashes? ">
+							<question mandatory="true" prompt="">         
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>                     
+						  </selection>						  
+						   <selection selected="false" text="Does the patient have any pain or dryness with intercourse? ">
+							<question mandatory="true" prompt="">         
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>                     
+						  </selection>
+						   <selection selected="false" text="Does the patient have any breast discharge? ">
+							<question mandatory="true" prompt="">         
+								<item_response drop_down_style="false" single_response="true">
+									<selection selected="false" text="No"/>
+									<selection selected="false" text="Yes"/>
+								</item_response>
+							</question>                     
+						  </selection>
+						   <selection selected="false" text="Please complete the following information: ">
+							<question mandatory="true" prompt="">         
+								<table_response initial_rows_to_display="1" row_height="2" add_row_increment="0">
+									<column_definitions>
+										<column_definition label="Number of Pregnancies" width="20"/>
+										<column_definition label="Number of Deliveries" width="15"/>
+										<column_definition label="Number of Miscarriages" width="20"/>
+										<column_definition label="Number of Abortions" width="15"/>
+									</column_definitions>
+								</table_response>		
+							</question>                     
+						  </selection>
+						   <selection selected="false" text="Please list the approximate date of the patient's last PAP smear ">
+							<question mandatory="true" prompt="">         
+								&MONTH_YEAR_TABLE_RESPONSE;
+							</question>                     
+						  </selection>	
+					    </item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever used hormones?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please list all diagnostic studies (tests) patient has undergone and dates tests were completed:">
+			<table_response add_row_increment="2" row_height="2">
+				<column_definitions>
+					<column_definition label="Diagnostic Test" width="35"/>
+					<column_definition label="Date performed&lt;BR&gt;(Month/Year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>MRI Brain</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spinal Fluid Analysis</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Evoked Potentials: Visual, Brainstem and Somatosensory</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>EMG Nerve Conduction Study</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Electroencephalogram (EEG)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Polysomnography (Sleep Study)</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Head CT</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Brain FDG-PET scan</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chest/Abdomen/Pelvis CT</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lab Testing Results Pertinent to Diagnosis</cell>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other Pertinent Testing</cell>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever had a dura mater graft, corneal transplant, or other tissue graft or transplant?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe what and when:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever received human derived pituitary hormones such as human growth hormone or human gonadotrophins?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe what and when:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever had fertility treatment?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe what and when:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever had brain surgery?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe what and when:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever had spine surgery?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe what and when:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient traveled outside the U.S.?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe country, dates and durations of visit:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient a hunter?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what part of the country?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient consume venison?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, where is the venison obtained?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient consumed brain matter (eg. cow brain) of any type?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, describe:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient given blood?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many times and approximate dates with last date of known donation:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient received blood products?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what, when, and for what?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is the patient able to function independently?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No">
+					<question mandatory="true" prompt="If no, please list limitations">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient need assistance from another person in his / her daily care?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If yes, how much help does the patient need?">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding the patient's condition?">
+			<free_form_response height="10"/>
+		</question>	
+	</question_group>
+</questionnaire>

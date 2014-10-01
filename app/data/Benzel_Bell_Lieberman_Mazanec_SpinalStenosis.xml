@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_SpinalStenosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Benzel_Bell_Lieberman_Mazanec_SpinalStenosisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Spine Center" name="Spine Center">
+		<section description="" name="">
+			<condition cost="565.00" description="Lumbar Canal Stenosis" id="Lumbar Canal Stenosis" active="true">
+				<keyword text="spinal narrowing"/>
+				<keyword text="narrowing"/>
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Spinal Stenosis with Degenerative Spondylolisthesis" id="Spinal Stenosis with Degenerative Spondylolisthesis" active="true">
+				<keyword text="back"/>
+				<keyword text="spine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Spinal Stenosis without Degenerative Spondylolisthesis" id="Spinal Stenosis without Degenerative Spondylolisthesis" active="true">
+            <keyword text="spine"/>
+            <keyword text="narrowing"/>
+            <keyword text="degeneration"/>
+            <keyword text="vertebrae"/>        
+            <keyword text="arthritis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+         <condition cost="565.00" description="Syringomyelia" id="Syringomyelia" active="true">
+            <keyword text="spine"/>
+            <keyword text="narrowing"/>
+            <keyword text="degeneration"/>
+            <keyword text="vertebrae"/>
+            <keyword text="arthritis"/>
+            &questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

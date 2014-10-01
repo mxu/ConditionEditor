@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Upper_GI_DisordersMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Upper_GI_DisordersQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Gastritis" id="Gastritis">
+				<keyword text="heartburn"/>
+				<keyword text="indigestion"/>
+				<keyword text="GERD"/>
+				<keyword text="gastritis"/>
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="burning"/>
+				<keyword text="GI"/>
+				<keyword text="stomach"/>
+				<keyword text="gastric"/>
+				<keyword text="indigestion"/>
+				<keyword text="abdominal"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="ulcer"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Peptic Ulcer Disease" id="Peptic Ulcer Disease">
+				<keyword text="heartburn"/>
+				<keyword text="indigestion"/>
+				<keyword text="GERD"/>						
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="burning"/>
+				<keyword text="GI"/>
+				<keyword text="stomach"/>
+				<keyword text="gastric"/>
+				<keyword text="indigestion"/>				
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Gastric Ulcer Disease" id="Gastric Ulcer Disease">
+				<keyword text="heartburn"/>
+				<keyword text="indigestion"/>						
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="burning"/>
+				<keyword text="GI"/>
+				<keyword text="stomach"/>
+				<keyword text="indigestion"/>				
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="ulcer"/>				
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="GERD" id="GERD">
+				<keyword text="heartburn"/>
+				<keyword text="gastric"/>
+				<keyword text="pain"/>
+				<keyword text="burning"/>
+				<keyword text="chest"/>
+				<keyword text="esopahagus"/>
+				<keyword text="GI"/>
+				<keyword text="esophageal"/>
+				<keyword text="reflux"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="throat"/>
+				<keyword text="burn"/>
+				<keyword text="gastroesophageal"/>
+				<keyword text="regurgitation"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="disease"/>						
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Gastric Ulcer" id="Gastric Ulcer">
+				<keyword text="heartburn"/>
+				<keyword text="disease"/>
+				<keyword text="indigestion"/>
+				<keyword text="stomach"/>
+				<keyword text="burning"/>
+				<keyword text="GI"/>
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="malignancy"/>
+				<keyword text="cancer"/>							
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Duodenal Ulcer" id="Duodenal Ulcer">
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="ulcer"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="gastric"/>
+				<keyword text="cancer"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="pain"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="bowel"/>
+				<keyword text="intestine"/>
+				<keyword text="small"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dysphagia" id="Dysphagia">
+				<keyword text="heartburn"/>
+				<keyword text="dysphagia"/>
+				<keyword text="GERD"/>
+				<keyword text="esophagus"/>
+				<keyword text="GI"/>
+				<keyword text="swallowing"/>
+				<keyword text="swallow"/>
+				<keyword text="pain"/>
+				<keyword text="burning"/>
+				<keyword text="difficult"/>
+				<keyword text="food"/>
+				<keyword text="sticking"/>
+				<keyword text="throat"/>
+				<keyword text="chest"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Duodenitis" id="Duodenitis">
+				<keyword text="heartburn"/>
+				<keyword text="burn"/>
+				<keyword text="duodenitis"/>
+				<keyword text="burning"/>
+				<keyword text="duodenum"/>
+				<keyword text="intestine"/>
+				<keyword text="small"/>
+				<keyword text="bowel"/>
+				<keyword text="small bowel"/>
+				<keyword text="intestinal"/>
+				<keyword text="pain"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Esophagitis" id="Esophagitis">
+				<keyword text="heartburn"/>
+				<keyword text="GERD"/>
+				<keyword text="esopahagus"/>
+				<keyword text="gastric"/>
+				<keyword text="pain"/>
+				<keyword text="burning"/>
+				<keyword text="chest"/>
+				<keyword text="GI"/>
+				<keyword text="esophageal"/>
+				<keyword text="reflux"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="throat"/>
+				<keyword text="burn"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="disease"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Gastroesopghageal Reflux" id="Gastroesopghageal Reflux">
+				<keyword text="heartburn"/>
+				<keyword text="gastroesophageal"/>
+				<keyword text="reflux"/>
+				<keyword text="GERD"/>
+				<keyword text="gastric"/>
+				<keyword text="pain"/>
+				<keyword text="burning"/>
+				<keyword text="chest"/>
+				<keyword text="esopahagus"/>
+				<keyword text="GI"/>
+				<keyword text="esophageal"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="throat"/>
+				<keyword text="burn"/>
+				<keyword text="regurgitation"/>
+				<keyword text="acid"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="disease"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Barrett's Esophagus" id="Barrett's Esophagus">
+				<keyword text="heartburn"/>
+				<keyword text="barretts"/>				
+				<keyword text="throat"/>
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="GERD"/>
+				<keyword text="gastroesophageal"/>
+				<keyword text="syndrome"/>
+				<keyword text="regurgitation"/>
+				<keyword text="burning"/>
+				<keyword text="reflux"/>
+				<keyword text="acid"/>
+				<keyword text="dysphagia"/>
+				<keyword text="food"/>
+				<keyword text="sticking"/>
+				<keyword text="GI"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="cancer"/>
+				<keyword text="malignancy"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Gastric Outlet Obstruction" id="Gastric Outlet Obstruction">
+				<keyword text="heartburn"/>
+				<keyword text="stomach"/>
+				<keyword text="burn"/>
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="indigestion"/>
+				<keyword text="GI"/>
+				<keyword text="food"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Zollinger-Ellison Syndrome" id="Zollinger-Ellison Syndrome">
+				<keyword text="tumor"/>
+				<keyword text="pancreas"/>
+				<keyword text="duodenum"/>
+				<keyword text="ulcer"/>
+				<keyword text="stomach"/>
+				<keyword text="gastrinoma"/>
+				<keyword text="zollinger"/>
+				<keyword text="ellison"/>
+				<keyword text="gastric"/>
+				<keyword text="pain"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Gastric Cancer" id="Gastric Cancer">
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="stomach"/>
+				<keyword text="abdomen"/>
+				<keyword text="abdominal"/>
+				<keyword text="pain"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Stomach Cancer" id="Stomach Cancer">
+				<keyword text="malignancy"/>
+				<keyword text="malignant"/>
+				<keyword text="tumor"/>
+				<keyword text="mass"/>
+				<keyword text="gastrointestinal"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
+

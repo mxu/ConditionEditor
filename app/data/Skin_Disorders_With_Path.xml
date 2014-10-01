@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Skin_Disorders_With_Path_MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Skin_Disorders_With_Path_Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Dermatology" name="Dermatology">
+		<section description="" name="">
+			<condition cost="745.00" description="Actinic Keratosis" id="Actinic Keratosis" active="true">
+				<keyword text="skin"/>
+				<keyword text="dermatology"/>
+				<keyword text="lump"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Adnexal Carcinoma" description="Adnexal Carcinoma" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Alopecia" id="Alopecia" active="true">
+				<keyword text="skin"/>
+				<keyword text="hair"/>
+				<keyword text="bald"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Angioma" id="Angioma" active="true">
+				<keyword text="skin"/>
+				<keyword text="hemangioma"/>
+				<keyword text="lymphangioma"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Balanitis" id="Balanitis" active="true">
+				<keyword text="penis"/>
+				<keyword text="penile"/>
+				<keyword text="glans"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Basal Cell Carcinoma" id="Basal Cell Carcinoma" active="true">
+				<keyword text="skin"/>
+				<keyword text="growth"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Blisters" id="Blisters" active="true">
+				<keyword text="skin"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Bullous Disease" id="Bullous Disease" active="true">
+				<keyword text="skin"/>
+				<keyword text="bulla"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>            						
+			<condition cost="745.00" description="Cellulitis" id="Cellulitis" active="true">
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Condylomata Accuminata" id="Condylomata Accuminata" active="true">
+				<keyword text="wart"/>
+				<keyword text="skin"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Congenital Nevus" description="Congenital Nevus" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="mole"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Cyst (Dermatologic/Skin)" id="Cyst (Dermatologic/Skin)" active="true">
+				<keyword text="skin"/>
+				<keyword text="growth"/>
+				<keyword text="lump"/>
+				<keyword text="dermatologic"/>
+				<keyword text="dermatology"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            
+			<condition id="Dermatofibrosarcoma Protuberans (skin)" description="Dermatofibrosarcoma Protuberans (skin)" cost="745.00" active="true">
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Dermatomyositis" id="Dermatomyositis" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Epidermolysis" id="Epidermolysis" active="true">
+				<keyword text="skin"/>
+				<keyword text="vesicle"/>
+				<keyword text="bullous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Erythema Annulare Centrifugum" id="Erythema Annulare Centrifugum" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				<keyword text="vesicle"/>
+				<keyword text="rash"/>
+				<keyword text="erythroderma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Erythema Chronicum Migrans" id="Erythema Chronicum Migrans" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				<keyword text="vesicle"/>
+				<keyword text="rash"/>
+				<keyword text="erythroderma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Erythema Multiforme" id="Erythema Multiforme" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				<keyword text="vesicle"/>
+				<keyword text="rash"/>
+				<keyword text="erythroderma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Erythema Nodosum" id="Erythema Nodosum" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				<keyword text="rash"/>
+				<keyword text="erythroderma"/>
+				<keyword text="nodule"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Erythroderma" id="Erythroderma" active="true">
+				<keyword text="skin"/>
+				<keyword text="redness"/>
+				<keyword text="inflammation"/>
+				<keyword text="erythrodermia"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Facial Resurfacing" description="Facial Resurfacing" cost="745.00" active="true">
+				<keyword text="dermabrasion"/>
+				<keyword text="wrinkles"/>
+				<keyword text="skin"/>
+				<keyword text="laser"/>
+				<keyword text="chemical"/>
+				<keyword text="peel"/>
+				<keyword text="blemishes"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Folliculitis" id="Folliculitis" active="true">
+				<keyword text="skin"/>
+				<keyword text="hair"/>
+				<keyword text="infection"/>
+				<keyword text="follicle"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>	
+			<condition cost="745.00" description="Furunculosis" id="Furunculosis" active="true">
+				<keyword text="skin"/>
+				<keyword text="furuncle"/>
+				<keyword text="inflammation"/>
+				<keyword text="nodule"/>
+				<keyword text="lump"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Giant Pigmented Nevus" description="Giant Pigmented Nevus" cost="745.00" active="true">
+				<keyword text="giant"/>
+				<keyword text="mole"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Granuloma" id="Granuloma" active="true">
+				<keyword text="skin"/>
+				<keyword text="lump"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Granuloma Annulare" id="Granuloma Annulare" active="true">
+				<keyword text="skin"/>
+				<keyword text="lump"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Grover's Disease" id="Grover's Disease" active="true">
+				<keyword text="skin"/>
+				<keyword text="itch"/>
+				<keyword text="grover"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Hair Transplantation" description="Hair Transplantation" cost="745.00" active="true">
+				<keyword text="transplant"/>
+				<keyword text="bald"/>
+				<keyword text="scalp"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hemangioma (skin)" id="Hemangioma (skin)" active="true">
+				<keyword text="skin"/>
+				<keyword text="angioma"/>
+				<keyword text="lymphangioma"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Herpes Simplex" id="Herpes Simplex" active="true">
+				<keyword text="skin"/>
+				<keyword text="coldsore"/>
+				<keyword text="rash"/>
+				<keyword text="eruption"/>
+				<keyword text="lump"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Herpes Zoster" id="Herpes Zoster" active="true">
+				<keyword text="skin"/>
+				<keyword text="chickenpox"/>
+				<keyword text="varicella"/>
+				<keyword text="rash"/>
+				<keyword text="eruption"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Hidradenitis Suppurativa" id="Hidradenitis Suppurativa" active="true">
+				<keyword text="skin"/>
+				<keyword text="cyst"/>
+				<keyword text="axilla"/>
+				<keyword text="abscess"/>
+				<keyword text="scalp"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Hyperhidrosis" id="Hyperhidrosis" active="true">
+				<keyword text="skin"/>
+				<keyword text="sweat"/>
+				<keyword text="perspire"/>
+				<keyword text="palm"/>
+				<keyword text="sole"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Ichthyosis" id="Ichthyosis" active="true">
+				<keyword text="skin"/>
+				<keyword text="scaling"/>
+				<keyword text="dry"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Impetigo" id="Impetigo" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				<keyword text="staph"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Lentigo Maligna" description="Lentigo Maligna" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Lymphangioma" description="Lymphangioma" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lichen Planus" id="Lichen Planus" active="true">
+				<keyword text="skin"/>
+				<keyword text="keratin"/>
+				<keyword text="growth"/>
+				<keyword text="thicken"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lichen Sclerosus" id="Lichen Sclerosus" active="true">
+				<keyword text="skin"/>
+				<keyword text="keratin"/>
+				<keyword text="growth"/>
+				<keyword text="thicken"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lichen Simplex Chronicus" id="Lichen Simplex Chronicus" active="true">
+				<keyword text="skin"/>
+				<keyword text="keratin"/>
+				<keyword text="growth"/>
+				<keyword text="thicken"/>
+				<keyword text="dermatitis"/>
+				<keyword text="scale"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lipoma" id="Lipoma" active="true">
+				<keyword text="skin"/>
+				<keyword text="tumor"/>
+				<keyword text="lump"/>
+				<keyword text="benign"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Lymphoma Cutis" id="Lymphoma Cutis" active="true">
+				<keyword text="skin"/>
+				<keyword text="cutaneous"/>
+				<keyword text="tumor"/>
+				<keyword text="mycosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Male Pattern Hair Loss" description="Male Pattern Hair Loss" cost="745.00" active="true">
+				<keyword text="bald"/>
+				<keyword text="scalp"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Mastocytosis" id="Mastocytosis" active="true">
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Melanoma (Skin)" id="Melanoma (Skin)" active="true">
+				<keyword text="lesion"/>
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Merkel Cell Carcinoma (Skin)" id="Merkel Cell Carcinoma (Skin)" active="true">
+				<keyword text="lesion"/>
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				<keyword text="carcinoma"/>
+				<keyword text="merkel"/>
+				<keyword text="cell"/>
+				<keyword text="dermatology"/>
+				<keyword text="mcc"/>
+				<keyword text="epidermis"/>
+				<keyword text="neuroendocrine"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Mycosis Fungeoides" id="Mycosis Fungeoides" active="true">
+				<keyword text="skin"/>
+				<keyword text="cutaneous"/>
+				<keyword text="tumor"/>
+				<keyword text="lymphoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Moles" description="Moles" cost="745.00" active="true">
+				<keyword text="atypical"/>
+				<keyword text="skin"/>
+				<keyword text="nevus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Nail Disorders" id="Nail Disorders" active="true">
+				<keyword text="toenail"/>
+				<keyword text="fingernail"/>
+				<keyword text="fungus"/>
+				<keyword text="onychomytosis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Necrobiosis Lipoidica" id="Necrobiosis Lipoidica" active="true">
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Nevus Sebaceous" description="Nevus Sebaceous" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="mole"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Paronchyia" id="Paronchyia" active="true">
+				<keyword text="skin"/>
+				<keyword text="fingernail"/>
+				<keyword text="hand"/>
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Port Wine Stain" description="Port Wine Stain" cost="745.00" active="true">
+				<keyword text="skin"/>
+				<keyword text="birthmark"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Onychomycosis" id="Onychomycosis" active="true">
+				<keyword text="skin"/>
+				<keyword text="nail"/>
+				<keyword text="fungus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Panniculitis" id="Panniculitis" active="true">
+				<keyword text="skin"/>
+				<keyword text="thickening"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Parapsoriasis" id="Parapsoriasis" active="true">
+				<keyword text="skin"/>
+				<keyword text="erythroderma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pemphigoid" id="Pemphigoid" active="true">
+				<keyword text="skin"/>
+				<keyword text="bullous"/>
+				<keyword text="autoimmune"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pemphigus" id="Pemphigus" active="true">
+				<keyword text="skin"/>
+				<keyword text="bullous"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="745.00" description="Polymorphic Light Eruption" id="Polymorphic Light Eruption" active="true">
+				<keyword text="skin"/>
+				<keyword text="sun"/>
+				<keyword text="solar"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pityriasis Lichenoides" id="Pityriasis Lichenoides" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pityriasis Rosea" id="Pityriasis Rosea" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pityriasis Rubra Pilaris" id="Pityriasis Rubra Pilaris" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Porokeratosis" id="Porokeratosis" active="true">
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Porphyria" id="Porphyria" active="true">
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Pretibial Myxedema" id="Pretibial Myxedema" active="true">
+				<keyword text="skin"/>
+				<keyword text="graves"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Prurigo Nodularis" id="Prurigo Nodularis" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Pruritus" id="Pruritus" active="true">
+				<keyword text="skin"/>
+				<keyword text="itch"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Psoriasis" id="Psoriasis" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Purpura" id="Purpura" active="true">
+				<keyword text="skin"/>
+				<keyword text="hemorrhage"/>
+				<keyword text="purple"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Pyoderma Gangrenosum" id="Pyoderma Gangrenosum" active="true">
+				<keyword text="skin"/>
+				<keyword text="staph"/>
+				<keyword text="infection"/>
+				<keyword text="dermatitis"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Rosacea" id="Rosacea" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				<keyword text="redness"/>
+				<keyword text="facial"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Scabies" id="Scabies" active="true">
+				<keyword text="skin"/>
+				<keyword text="rash"/>
+				<keyword text="mite"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition id="Sebaceous Carcinoma" description="Sebaceous Carcinoma" cost="745.00" active="true">
+				<keyword text="cancer"/>
+				<keyword text="skin"/>
+				<keyword text="mole"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Sezary Syndrome" id="Sezary Syndrome" active="true">
+				<keyword text="skin"/>
+				<keyword text="erythroderma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Skin Cancer" id="Skin Cancer" active="true">
+				<keyword text="carcinoma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="745.00" description="Skin Ulcer" id="Skin Ulcer" active="true">
+				<keyword text="sore"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Squamous Cell Carcinoma of the Skin" id="Squamous Cell Carcinoma of the Skin" active="true">
+				<keyword text="skin"/>
+				<keyword text="cancer"/>
+				<keyword text="tumor"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+		</section>
+	</department>
+</division>

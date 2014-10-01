@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<question mandatory="false" prompt="Please complete the following by checking all symptoms that you are currently experiencing.">
+  <item_response drop_down_style="false" single_response="false">
+   	<selection selected="false" text="General">
+  		<question mandatory="true" prompt="">          
+  			<item_response drop_down_style="false" single_response="false"> 		
+           			<selection selected="false"  text="Have you gained / lost Weight ?">
+           				 <question mandatory="true" prompt= "">
+           			 	<item_response drop_down_style="false" single_response="true">
+           			 		<selection selected="false" text="Weight gain"/>
+           			 		<selection selected="false" text="Weight loss"/>
+           			 	</item_response>
+           			 </question>
+           			 <question mandatory="true" prompt="How much have you gained / lost ?">
+           			 		<free_form_response height="1"/>
+           			 </question>
+           				
+           		</selection>
+               		<selection selected="false" text="Fever / Night sweats"/>
+               		<selection selected="false" text="Fatigue"/>
+               	   </item_response>
+               	</question>    
+           </selection>
+   <selection selected="false" text="HEENT">
+  		<question mandatory="true" prompt="">         
+  		<item_response drop_down_style="false" single_response="false">
+  			<selection selected="false" text="Problems with vision / eye pain"/>
+  			<selection selected="false" text="Recurrent ear, nose or throat infections"/>
+  			<selection selected="false" text="Frequent nose bleeds"/>
+  			<selection selected="false" text="Load snoring"/>
+  			<selection selected="false" text="Loss of hearing"/>
+  			<selection selected="false" text="Buzzing or ringing in the ears"/>
+  			<selection selected="false" text="Neck pain or lumps"/>
+  			<selection selected="false" text="Difficulty swallowing"/>   
+  		</item_response>
+  		</question>                     
+  </selection>
+  <selection selected="false" text="Mouth">
+  		<question mandatory="true" prompt=""> 
+  			<item_response drop_down_style="false" single_response="false">
+  				<selection selected="false" text="Problems with teeth /tongue /gums"/>
+  			</item_response>
+  		</question>   
+          </selection>
+   <selection selected="false" text="Respiratory">
+  		<question mandatory="true" prompt="">         
+  			<item_response drop_down_style="false" single_response="false">
+  				<selection selected="false" text="Shortness of breath or wheezing"/>
+  				<selection selected="false" text="Persistent cough"/>
+  				<selection selected="false" text="Coughing blood"/>  
+  			</item_response>
+  		</question>  
+    </selection>
+  <selection selected="false" text="Breast">
+  		<question mandatory="true" prompt=""> 
+ 
+  			<item_response drop_down_style="false" single_response="false">
+  			<selection selected="false" text="Lump, skin change, nipple discharge"/>
+  		</item_response>
+  		</question>   
+ </selection>
+  <selection selected="false" text="Cardiovascular">
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Chest pain"/>
+            <selection selected="false" text="Abnormal heart beat - skipped or extra beats"/>
+            <selection selected="false" text="Excessive fluid retention / ankle swelling"/>
+            <selection selected="false" text="Poor circulation"/>   
+      </item_response>
+   </question>                     
+   </selection>
+  <selection selected="false" text="Gastrointestinal">
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Recurrent indigestion, heartburn"/>
+            <selection selected="false" text="Difficulty swallowing"/>
+            <selection selected="false" text="Recurrent abdominal pain"/>
+            <selection selected="false" text="Major changes in bowel movements"/>
+            <selection selected="false" text="Rectal bleeding or black stools"/>
+            <selection selected="false" text="Vomiting blood"/>
+            <selection selected="false" text="Nausea or vomiting"/>
+            <selection selected="false" text="Loss of appetite"/>
+            <selection selected="false" text="Food intolerance"/>   
+      </item_response>
+   </question>                     
+     </selection>
+  <selection selected="false" text="Urological">
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Painful urination or burning"/>
+            <selection selected="false" text="Blood or pus in your urine"/>
+            <selection selected="false" text="Impaired, weakened urine stream"/>
+            <selection selected="false" text="Reduced bladder control"/>
+            <selection selected="false" text="Urinating more than once during the night"/>
+      </item_response>
+   </question>     
+   </selection>
+  <selection selected="false" text="Genitourinary">   
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="true">
+            <selection selected="false" text="Men"/>
+           	 <question mandatory="true" prompt="">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Pain or lumps in the testicles"/>
+				<selection selected="false" text="Problems with erections"/>
+			</item_response>
+	 	 </question>
+	    <selection selected="false" text="Women"/>
+           	 <question mandatory="true" prompt="">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Date of last period"/>
+				<selection selected="false" text="Heavy / irregular periods"/>
+				<selection selected="false" text="Spotting or bleeding between periods"/>
+			</item_response>
+	 	 </question>           
+      </item_response>
+   </question>                     
+  </selection>
+  <selection selected="false" text="Musculoskeletal">  
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Bursitis or tendonitis"/>
+            <selection selected="false" text="Chronic back pain"/>
+            <selection selected="false" text="Muscle pain / weakness"/>
+            <selection selected="false" text="Joint stiffness / pain"/>
+      </item_response>
+   </question>     
+ </selection>
+  <selection selected="false" text="Lymphatic / infectious / immunologic">  
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Chronic infections / swollen lymph nodes"/>
+      </item_response>
+   </question>     
+</selection>
+  <selection selected="false" text="Neurological">  
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Headaches"/>
+            <selection selected="false" text="Dizziness (vertigo)"/>
+            <selection selected="false" text="Weakness, numbness"/>
+            <selection selected="false" text="Paralysis"/>
+            <selection selected="false" text="Decreased comprehension or memory"/>
+            <selection selected="false" text="Loss of consciousness"/>
+            <selection selected="false" text="Nerve pain"/>
+            <selection selected="false" text="Speech or language dysfunction"/>
+            <selection selected="false" text="Loss of balance"/>
+      </item_response>
+   </question>  
+</selection>
+  <selection selected="false" text="Skin"> 
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Rashes / itching"/>
+            <selection selected="false" text="Change in a mole or birth mark"/>
+            <selection selected="false" text="Bruising"/>
+      </item_response>
+   </question>        
+ </selection>
+  <selection selected="false" text="Hematology">  
+   <question mandatory="false" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Anemia / low blood count"/>
+            <selection selected="false" text="Bleeding or severe bruising"/>
+      </item_response>
+   </question>     
+ </selection>
+  <selection selected="false" text="Endocrine">   
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Abnormal blood sugars"/>
+            <selection selected="false" text="Calcium problems"/>
+            <selection selected="false" text="Thyroid problem"/>
+            <selection selected="false" text="Heat or cold intolerance"/>
+      </item_response>
+   </question>     
+</selection>
+  <selection selected="false" text="Psychiatric">    
+   <question mandatory="true" prompt="">
+      <item_response drop_down_style="false" single_response="false">
+            <selection selected="false" text="Anxiety / depression"/>
+            <selection selected="false" text="Loss of interest"/>
+            <selection selected="false" text="Insomnia"/>
+            <selection selected="false" text="Loss of sexual desire"/>
+      </item_response>
+   </question>    
+   
+  </selection>
+  <selection selected="false" text="Please list all psychiatric diagnoses you have been given, and the approximate year / age of diagnosis">   
+  	 <question mandatory="true" prompt="">
+          	 <free_form_response height="3"/>
+         </question>    
+   </selection>
+   <selection selected="false" text="List any psychiatric hospitalizations and the approximate year / age of admission">
+   <question mandatory="false" prompt="">
+            <free_form_response height="3"/>
+   </question>  
+   </selection>
+    </item_response>
+   </question>  
+

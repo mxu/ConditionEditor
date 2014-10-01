@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Oas_DizzinessMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Oas_DizzinessQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Otolaryngology" name="Otolaryngology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Acoustic Neuroma (Schwannoma)" id="Acoustic Neuroma (Schwannoma)">
+				<keyword text="tumor"/>
+				<keyword text="benign"/>
+				<keyword text="mass"/>
+				<keyword text="ear"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Autoimmune Ear Disease (AED)" id="Autoimmune Ear Disease (AED)">
+				<keyword text="hearing"/>
+				<keyword text="deafness"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Benign Paroxysmal Positional Vertigo (BPPV)" id="Benign Paroxysmal Positional Vertigo (BPPV)">
+				<keyword text="balance"/>
+				<keyword text="dizziness"/>
+				<keyword text="imbalance"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cervicogenic Dizziness" id="Cervicogenic Dizziness">
+				<keyword text="vertigo"/>
+				<keyword text="neck"/>
+				<keyword text="cervical"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Cogan's Syndrome" id="Cogan's Syndrome">
+				<keyword text="autoimmune"/>
+				<keyword text="hearing"/>
+				<keyword text="deafness"/>
+				<keyword text="ear"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Dandy's Syndrome (Vestibular Loss)" id="Dandy's Syndrome (Vestibular Loss)">
+				<keyword text="balance"/>
+				<keyword text="imbalance"/>
+				<keyword text="dizziness"/>				
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Dizziness" id="Dizziness">
+				<keyword text="vertigo"/>
+				<keyword text="balance"/>
+				<keyword text="ear"/>
+				<keyword text="syncope"/>
+				<keyword text="fainting"/>
+				<keyword text="lightheaded"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Gait Imbalance/Falls (Ataxia)" id="Gait Imbalance/Falls (Ataxia)">
+				<keyword text="balance"/>
+				<keyword text="fainting"/>
+				<keyword text="dizziness"/>
+				<keyword text="rbc"/>
+				<keyword text="hematology"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Hyperacusis" id="Hyperacusis">
+				<keyword text="hearing"/>
+				<keyword text="auditory"/>
+				<keyword text="ear"/>
+				<keyword text="deafness"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Labyrinthine Concussion" id="Labyrinthine Concussion">
+				<keyword text="ear"/>
+				<keyword text="trauma"/>
+				<keyword text="dizziness"/>
+				<keyword text="imbalance"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Labyrinthitis" id="Labyrinthitis">
+				<keyword text="ear"/>
+				<keyword text="inflammation"/>
+				<keyword text="vertigo"/>
+				<keyword text="dizziness"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Mal de Debarquement Syndrome" id="Mal de Debarquement Syndrome">
+				<keyword text="balance"/>
+				<keyword text="imbalance"/>
+				<keyword text="dizziness"/>
+				<keyword text="vertigo"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Meniere's Disease" id="Meniere's Disease">
+				<keyword text="ear"/>
+				<keyword text="dizziness"/>
+				<keyword text="endolymph"/>
+				<keyword text="hearing"/>
+				<keyword text="ringing"/>
+				<keyword text="imbalance"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Migraine Associated Dizziness/Vertigo" id="Migraine Associated Dizziness/Vertigo">
+				<keyword text="balance"/>
+				<keyword text="imbalance"/>
+				<keyword text="headache"/>	
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Motion Sickness" id="Motion Sickness">
+				<keyword text="dizziness"/>
+				<keyword text="vertigo"/>
+				<keyword text="nausea"/>					
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neurolabyrinthitis" id="Neurolabyrinthitis">
+				<keyword text="ear"/>
+				<keyword text="vertigo"/>
+				<keyword text="dizziness"/>
+				<keyword text="fainting"/>
+				<keyword text="inflammation"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Orthostatic Intolerance" id="Orthostatic Intolerance">
+				<keyword text="presyncope"/>
+				<keyword text="dizziness"/>
+				<keyword text="vertigo"/>
+				<keyword text="lightheaded"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Neurocardiogenic Presyncope" id="Neurocardiogenic Presyncope">
+				<keyword text="vertigo"/>
+				<keyword text="dizziness"/>
+				<keyword text="imbalance"/>
+				<keyword text="fainting"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Otolith Dysfunction" id="Otolith Dysfunction">
+				<keyword text="ear"/>
+				<keyword text="crystals"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Perilymphatic Fistula" id="Perilymphatic Fistula">
+				<keyword text="hearing"/>
+				<keyword text="vertigo"/>
+				<keyword text="diving"/>
+				<keyword text="deafness"/>
+				<keyword text="scuba"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Psychophysiologic Dizziness" id="Psychophysiologic Dizziness">
+				<keyword text="vertigo"/>
+				<keyword text="psychophysiologic"/>
+				<keyword text="emotional"/>
+				<keyword text="stress"/>
+				<keyword text="fainting"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Superior Canal Dehiscence" id="Superior Canal Dehiscence">
+				<keyword text="ear"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Tinnitus" id="Tinnitus">
+				<keyword text="ringing"/>
+				<keyword text="ear"/>
+				<keyword text="dizziness"/>
+				<keyword text="noises"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Vertigo" id="Vertigo">
+				<keyword text="imbalance"/>
+				<keyword text="dizziness"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Vestibular Neuronitis" id="Vestibular Neuronitis">
+				<keyword text="ear"/>
+				<keyword text="vertigo"/>
+				<keyword text="dizziness"/>						
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Zoster Oticus (Ramsay Hunt Syndrome)" id="Zoster Oticus (Ramsay Hunt Syndrome)">
+				<keyword text="ear"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

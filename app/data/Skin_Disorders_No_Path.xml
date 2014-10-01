@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Skin_Disorders_No_Path_MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Skin_Disorders_No_Path_Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Dermatology" name="Dermatology">
+		<section description="" name="">
+			<condition cost="565.00" description="Acne" id="Acne" active="true">
+				<keyword text="skin"/>
+				<keyword text="dermatology"/>
+				<keyword text="pimple"/>
+				<keyword text="breakout"/>
+				<keyword text="zit"/>
+				<keyword text="blemishes"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>									
+			
+			<condition cost="565.00" description="Atrophy of Skin" id="Atrophy of Skin" active="true">
+				<keyword text="skin"/>
+				<keyword text="derm"/>
+				<keyword text="dermatology"/>
+				<keyword text="thinning"/>
+				<keyword text="layers"/>
+				<keyword text="dermis"/>
+				<keyword text="epidermis"/>
+				<keyword text="atrophic"/>
+				<keyword text="condition"/>
+				<keyword text="thin"/>
+				<keyword text="dry"/>
+				<keyword text="fragile"/>
+				<keyword text="collagen"/>
+				<keyword text="aging"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>			
+			
+			<condition cost="565.00" description="Birthmark" id="Birthmark" active="true">
+				<keyword text="skin"/>
+				<keyword text="growth"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="565.00" description="Candida" id="Candida" active="true">
+				<keyword text="skin"/>
+				<keyword text="yeast"/>
+				<keyword text="fungus"/>
+				<keyword text="infection"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			
+			<condition cost="565.00" description="Darier's Disease" id="Darier's Disease" active="true">
+				<keyword text="skin"/>
+				<keyword text="nodule"/>
+				<keyword text="nail"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Dermatitis" id="Dermatitis" active="true">
+				<keyword text="skin"/>
+				<keyword text="inflammation"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>																	
+			
+			<condition cost="565.00" description="Hailey-Hailey Disease" id="Hailey-Hailey Disease" active="true">
+				<keyword text="skin"/>
+				<keyword text="pemphigus"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+															
+			<condition cost="565.00" description="Keloid" id="Keloid" active="true">
+				<keyword text="skin"/>
+				<keyword text="scar"/>
+				<keyword text="tissue"/>
+				<keyword text="lump"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>												
+			
+						
+			
+			
+			
+			<condition cost="565.00" description="Photosensitivity" id="Photosensitivity" active="true">
+				<keyword text="skin"/>
+				<keyword text="sun"/>
+				<keyword text="solar"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>																					
+			
+			<condition cost="565.00" description="Tattoos" id="Tattoos" active="true">
+				<keyword text="skin"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Tinea" id="Tinea" active="true">
+				<keyword text="skin"/>
+				<keyword text="ringworm"/>
+				<keyword text="rash"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="565.00" description="Vitiligo" id="Vitiligo" active="true">
+				<keyword text="skin"/>
+				<keyword text="pigment"/>
+				<keyword text="melanocyte"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Warts" id="Warts" active="true">
+				<keyword text="skin"/>
+				<keyword text="condyloma"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

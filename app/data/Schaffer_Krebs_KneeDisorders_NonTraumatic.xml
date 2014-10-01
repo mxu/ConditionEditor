@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Schaffer_Krebs_KneeDisorders_NonTraumaticMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Schaffer_Krebs_KneeDisorders_NonTraumaticQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition cost="565.00" description="Bursitis (Knee)" id="Bursitis (Knee)">
+				<keyword text="bursitis"/>
+				<keyword text="inflammation"/>
+				<keyword text="pain"/>
+				<keyword text="joint"/>
+				<keyword text="bursa"/>
+				<keyword text="knee"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Infected Knee" id="Infected Knee">
+				<keyword text="infected"/>
+				<keyword text="joint"/>
+				<keyword text="knee"/>
+				<keyword text="inflammation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Infected Knee Replacement" id="Infected Knee Replacement">
+				<keyword text="infected"/>
+				<keyword text="knee"/>
+				<keyword text="prosthesis"/>
+				<keyword text="degenerative"/>
+				<keyword text="joint"/>
+				<keyword text="inflammation"/>
+				<keyword text="replacement"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Osteoarthritis (Knee)" id="Osteoarthritis (Knee)">
+				<keyword text="osteoarthritis"/>
+				<keyword text="joint"/>
+				<keyword text="knee"/>
+				<keyword text="hip"/>
+				<keyword text="degenerative"/>
+				<keyword text="chronic"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Knee Disorder (Non-Traumatic)" id="Knee Disorder (Non-Traumatic)">
+				<keyword text="knee"/>
+				<keyword text="disorder"/>
+				<keyword text="joint"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

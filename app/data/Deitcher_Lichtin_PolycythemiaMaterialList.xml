@@ -1,0 +1,37 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all vascular surgeries" mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries from any recent (within one year) hospitalizations. " mandatory="true"/>
+	<instruction text="&lt;BR&gt;  &lt;b&gt;The following radiologic and diagnostic studies done in the last 3 years will be required.  The films copied to compact disc (CD) and the study report will be needed, where indicated. &lt;/b&gt;"/>
+	<material id="Chest X-ray" description="Report and films of PA and lateral views" mandatory="true"/>
+	<material id="Angiogram or contrast venogram" description="Report and films.  Please provide the films on CD (compact disc) if available, otherwise 35mm film is acceptable." mandatory="true"/>
+	<material id="Spiral (helical) CT scan of the lungs" description="Report and films, if lung involvement." mandatory="true"/>
+	<material id="Duplex (Doppler) ultrasound" description="Report only, if leg involvement" mandatory="true"/>
+	<material id="Most recent EKG (electrocardiogram)" description="Report and copy of EKG graph tracing." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; Laboratory blood tests to include the following studies: &lt;/b&gt;"/>
+	<material id="CBC with differential" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Platelet count" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Arterial blood gases" description="Laboratory blood test report" mandatory="true"/>
+	<material id="LAP (Leukocyte alkaline phosphatase)" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Erythroprotein level" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Prothrombin Time (PT)" description="Laboratory reports of three most recent results of PT if patient is on anticoagulant" mandatory="true"/>
+	<material id="Partial Prothrombin Time (PTT)" description="Laboratory reports of three most recent results of PTT if patient is on anticoagulant" mandatory="true"/>
+	<material id="International Normalized Radio (INR)" description="Laboratory reports of three most recent results of INR if patient is on anticoagulant" mandatory="true"/>
+	<material id="D-dimer plasma level" description="Laboratory blood test report" mandatory="true"/>
+	<material id="Urine tests" description="Laboratory report of recent urinalysis." mandatory="true"/>
+	<material id="Genetic testing" description="Reports of any genetic testing, if done." mandatory="true"/>
+	<material id="X-rays" description="Reports and films of any relevant x-rays." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of radiologic and diagnostic studies, although not mandatory, are optional if done.  The actual original films (not copies) of the studies and the reports will be needed if indicated. &lt;/b&gt;"/>
+	<material id="MRI scan" description="Report and films." mandatory="false"/>
+	<material id="CT scan" description="Report and films." mandatory="false"/>
+	<material id="V/Q (Ventilation/perfusion) scan" description="Report and films." mandatory="false"/>
+	<material id="IPG (Impedance plethysmography)" description="Report only." mandatory="false"/>
+	<material id="Euglobulin lysis time test" description="Laboratory report only." mandatory="false"/>
+	<material id="Bleeding time" description="Laboratory report only." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by Penny Black (IT) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your child's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of your child's problem.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Since you are asking for assistance with palliative care, you have decisions to make regarding the goals of care for your child.  To begin, tell us the 3 most important questions or concerns you have regarding planning for your child's care.  Question or concern #1">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Question or concern #2.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Question or concern #3.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Do you know the medical diagnosis for which you are seeking assistance with palliative care options?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you know the medical diagnosis for which you are seeking assistance, please provide the diagnosis here:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How was your child's diagnosis made? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Biopsy"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="X-ray"/>
+				<selection selected="false" text="CT scan"/>
+				<selection selected="false" text="MRI scan"/>
+				<selection selected="false" text="Blood work"/>
+				<selection selected="false" text="Bone scan"/>
+				<selection selected="false" text="Cytogenetics"/>
+				<selection selected="false" text="Amniocentesis"/>
+				<selection selected="false" text="Prenatal testing"/>
+				<selection selected="false" text="Genetic counseling"/>
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your child's diagnosis made?">
+		&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="How old was your child at time of diagnosis?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="What were  the child's symptoms at the time of diagnosis?  Please complete the table below with regard to each symptom.">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Symptom" width="35"/>
+					<column_definition label="Currently experiencing?" width="15"/>
+					<column_definition label="For how long?" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Seizures</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Headaches</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pain</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sleepiness / Excessive tiredness</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Difficulty speaking or understanding</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Changes in ability to function independently</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Difficulty walking</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Weakness</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of the above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="When was your child last examined by his / her physician?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+		<question mandatory="true" prompt="How long has your child had this problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Less than a month"/>
+				<selection selected="false" text="1 - 3 months"/>
+				<selection selected="false" text="4 - 6 months"/>
+				<selection selected="false" text="7 - 12 months"/>
+				<selection selected="false" text="Greater than 12 months"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is the problem?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Getting worse"/>
+				<selection selected="false" text="Getting better"/>
+				<selection selected="false" text="Staying the same"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has the patient ever been diagnosed with any of the following conditions? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Acquired heart disease"/>
+				<selection selected="false" text="Cerebral palsy"/>
+				<selection selected="false" text="Chromosomal abnormalities"/>
+				<selection selected="false" text="Congenital heart disease"/>
+				<selection selected="false" text="Cystic fibrosis"/>
+				<selection selected="false" text="Epidermolysis bullosa"/>
+				<selection selected="false" text="Extreme prematurity"/>
+				<selection selected="false" text="Gastrointestinal disease / malformations"/>
+				<selection selected="false" text="HIV"/>
+				<selection selected="false" text="Holoprosencephaly"/>
+				<selection selected="false" text="Hypoxic / anoxic brain injury"/>
+				<selection selected="false" text="Immunodeficiency disorder(s)"/>
+				<selection selected="false" text="Infectious disease"/>
+				<selection selected="false" text="Malignancy"/>
+				<selection selected="false" text="Metabolic disorder"/>
+				<selection selected="false" text="Mucopolysaccharidosis"/>
+				<selection selected="false" text="Muscular dystrophy"/>
+				<selection selected="false" text="Osteogenesis imperfecta"/>
+				<selection selected="false" text="Renal failure"/>
+				<selection selected="false" text="Respiratory failure"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your child have a prior history of tumor(s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has a prior history of tumor(s), indicate date of diagnosis:">
+					&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="If your child has a prior history of tumor(s), do you know the type of tumor(s) your child has had?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you know the type of tumor(s) your child has had, indicate the type of tumor:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list below all diagnostic studies patient has had for his/her condition.">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" width="35"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>X-rays</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT scan(s)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>MRI scan(s)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ultrasound</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Biopsy(ies)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Spinal Tap(s)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Bone Scan</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood work</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="From the list below, please choose the symptom(s) the patient is experiencing. (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Anorexia"/>
+				<selection selected="false" text="Agitation"/>
+				<selection selected="false" text="Anxiety"/>
+				<selection selected="false" text="Confusion"/>
+				<selection selected="false" text="Coma"/>
+				<selection selected="false" text="Constipation"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="Debility"/>
+				<selection selected="false" text="Depression"/>
+				<selection selected="false" text="Delirium"/>
+				<selection selected="false" text="Diarrhea"/>
+				<selection selected="false" text="Dyspnea"/>
+				<selection selected="false" text="Fatigue"/>
+				<selection selected="false" text="Fever"/>
+				<selection selected="false" text="Headache"/>
+				<selection selected="false" text="Hemorrhage"/>
+				<selection selected="false" text="Inanition"/>
+				<selection selected="false" text="Mental status change"/>
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Neuroirritability"/>
+				<selection selected="false" text="Seizures"/>
+				<selection selected="false" text="SOB (Difficulty breathing)"/>
+				<selection selected="false" text="Tremor"/>
+				<selection selected="false" text="Unconscious"/>
+				<selection selected="false" text="Urinary retention"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Weakness"/>
+				<selection selected="false" text="Weight loss"/>
+				<selection selected="false" text="None of the above"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child is experiencing pain, what is the location of the pain?">
+						<free_form_response height="1"/>
+					</question>
+					<question mandatory="true" prompt="If your child is experiencing pain and you are able to assess his / her discomfort level, please rate the pain on the scale below: (1= minimal pain, 10 = worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="Does your child experience pain at night while resting?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If your child experiences pain at night while resting, does it prevent your child from falling asleep or does it wake him / her during the night?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your child have difficulty urinating?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you noticed any blood in your child's urine?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does the patient experience constipation?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If the patient experiences constipation, did the constipation begin after the patient was started on pain medication?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing any weakness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child is experiencing any weakness, where is the weakness located? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Left arm"/>
+							<selection selected="false" text="Right arm"/>
+							<selection selected="false" text="Left leg"/>
+							<selection selected="false" text="Right leg"/>
+							<selection selected="false" text="Both legs"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing any numbness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child is experiencing any numbness, where is the numbness located? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Left arm"/>
+							<selection selected="false" text="Right arm"/>
+							<selection selected="false" text="Left leg"/>
+							<selection selected="false" text="Right leg"/>
+							<selection selected="false" text="Both legs"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child having trouble with balance (unsteadiness when performing activities)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child having problems with coordination (the ability to control arm or leg movement)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child having problems with vision?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child is having problems with vision, what types of vision problems? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Double vision"/>
+							<selection selected="false" text="Blurred vision"/>
+							<selection selected="false" text="Decreased sharpness"/>
+							<selection selected="false" text="Visual field obstruction"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing dizziness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing trouble with memory (forgetfulness)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing tinnitus (ringing in the ears)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing hearing loss?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child experiencing hallucinations (seeing things others do not)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your child experienced a recent weight gain of more than five (5) pounds 2.26 kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has experienced a recent weight gain, indicate number of pounds kilograms and length of time:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your child experienced a recent weight loss of more than five (5) pounds / 2.26 kilograms?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has experienced a recent weight loss, indicate number of pounds / kilograms and length of time:">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your child have any of the following? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Ear infection"/>
+				<selection selected="false" text="Nasal congestion"/>
+				<selection selected="false" text="Mouth sores"/>
+				<selection selected="false" text="Sore throat"/>
+				<selection selected="false" text="Shortness of breath"/>
+				<selection selected="false" text="Chest pain"/>
+				<selection selected="false" text="Palpitations"/>
+				<selection selected="false" text="Cough"/>
+				<selection selected="false" text="Leg swelling"/>
+				<selection selected="false" text="Trouble swallowing"/>
+				<selection selected="false" text="None of the above"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please list all the treatments your child has undergone in the last six months to one year for his / her condition. (choose all the apply)">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Treatment" width="35"/>
+					<column_definition label="Is patient currently undergoing this treatment (Y/N)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Surgery</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Chemotherapy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Radiation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Antibiotic medication</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Seizure medication</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Steroid medication</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Transfusion</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Ventilator support</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Feeding tube</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>None of the above</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has your child undergone any surgery for his / her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has undergone any surgery for his / her condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Surgery/Procedure" width="25"/>
+								<column_definition label="Month/Year" width="20"/>
+								<column_definition label="Physician" width="20"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your child undergone chemotherapy treatment for his / her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has undergone chemotherapy treatment for his / her condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of chemotherapy" width="20"/>
+								<column_definition label="Number of cycles &lt;BR&gt; (if known)" width="15"/>
+								<column_definition label="Protocol name &lt;BR&gt; and/or number, &lt;BR&gt; if known" width="20"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="10"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your child undergone any radiation therapy treatment for his / her condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has undergone any radiation therapy treatment for his / her condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of radiation" width="25"/>
+								<column_definition label="Dosage (if known)" width="15"/>
+								<column_definition label="Number of&lt;BR&gt; treatments" width="12"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="10"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your child undergone experimental or alternative treatment for his / her current condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child has undergone experimental or alternative treatment for his / her current condition, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of treatment" width="25"/>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Physician" width="10"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					<question mandatory="true" prompt="If your child has undergone experimental or alternative treatment, what is your general subjective impression of the experience?  (In your own words)">
+						<free_form_response height="5"/>
+					</question>
+					<question mandatory="true" prompt="If your child has undergone experimental or alternative treatment, how would you rate your overall satisfaction with the treatment? (1= not at all satisfied, 10= very satisfied)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Very satisfied"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Satisfied"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Not at all satisfied"/>
+						</item_response>
+
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How active is the patient at the present time? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Ambulatory"/>
+				<selection selected="false" text="Limited by fatigue"/>
+				<selection selected="false" text="Limited to home"/>
+				<selection selected="false" text="Limited to bed"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other please explain in detail:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your child taking medications for his / her condition?  Please be sure to include all medications (prescription and over the counter) and those given around the clock and those given as needed.">
+			<item_response single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your child is taking medications for his / her condition, please complete the information below with regards to all medications:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of Medication" width="25"/>
+								<column_definition label="Dosage" width="20"/>
+								<column_definition label="How often taken" width="20"/>
+								<column_definition label="Reason for taking" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your child have any drug allergies or difficulty taking any particular medications?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If yes please explain in detail below:">
+			<free_form_response height="2"/>
+		</question>
+		<question mandatory="true" prompt="In this section we would like to come to an understanding of your evolving treatment plan for your child.  Keep in mind that there is currently a fair amount of confusion as to whether certain treatments are curative or palliative.  Such labeling of intent does not always serve children well.  Instead, we would like you to think about what the goals of each proposed therapy are.  For example, the goal of transfusion might be to fight fatigue.  The goal of a ventilator might be to see if we can get past this pneumonia.  The goal of chemotherapy might be to reduce tumor pain.  That will help us to help you decide whether each particular one will be best included or left out.   What has been recommended regarding treatment of your child's current condition?  For each treatment recommendation that has been made, list the goal for your child.  As explained above, please provide as much detail as possible regarding the recommended treatment and intended goal of each.">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What have the doctors stated regarding your child's prognosis and their best forecast for the probable course of the disease?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Has this prognosis information as explained by your child's physician been shared with your child in any way?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If no, would you like some assistance with gentle language for the beginning of the conversation?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has a hospice referral been made?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If a hospice referral has been made, please tell us your feelings about this.">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="If a hospice referral has been made, what services are available for your child?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="What services have you used?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list (explain) any other medical services you have used for your child:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="It can help to think ahead regarding whether to proceed with certain therapies.  Have you been approached to consider advanced directive?  Some hospitals call this DNR orders (Do Not Resuscitate) or AND orders (Allow Natural Death). ">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+				<selection selected="false" text="Not sure"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="See below list of the items that are considered advanced directive.  Please complete the table below by indicating whether your child has experienced any of these.  Also please include date of intervention and whether you would like information on how each intervention may affect your child's condition or outcome.">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Type of intervention" width="35"/>
+					<column_definition label="Date of intervention (if applicable)" width="15"/>
+					<column_definition label="Would you like information? (Yes or no)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Ventilator</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tracheostomy</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CPR (Chest compressions)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Pressors (IV medicine to elevate blood pressure)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Central line</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Oral airway</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Oxygen</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Transfusion</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Antibiotics</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Artificial nutrition</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Artificial hydration</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Admission to pediatric intensive care unit</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your child's condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="What are the primary hopes and expectations that you have regarding this consultation?">
+			<free_form_response height="3"/>
+		</question>
+	</question_group>
+</questionnaire>

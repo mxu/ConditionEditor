@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information will also be required in order to proceed with your request for a second opinion consultation:&lt;/b&gt;"/>
+	<material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either patient's primary care physician &lt;b&gt;or&lt;/b&gt; the physician who diagnosed or is treating patient's condition." mandatory="true"/>
+	<material id="Physician's letters" description="Copies of all letters sent to patient by his/her physician(s), copies of all reports from office visit(s) related to this illness (if received)." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>
+	<material id="Treatment reports" description="Reports of any treatments patient has undergone for this diagnosis." mandatory="true"/>
+	<instruction text="&lt;BR&gt;&lt;B&gt;  The following list of diagnostic medical information will be required in order to proceed with your request for second opinion.  Radiologic and diagnostic studies done in the last 3 years will be required.  Radiology films must be copied to compact disc (CD) for submission. &lt;/B&gt;"/>
+	<material id="CT Scan of liver" description="Reports and actual films." mandatory="true"/>
+	<material id="Ultrasound of liver" description="Reports and actual films." mandatory="true"/>
+	<material id="Upper Endoscopy" description="Reports only." mandatory="true"/>
+	<material id="Cholangiography" description="Reports and actual films." mandatory="true"/>
+	<material id="Angiogram" description="Reports and actual films." mandatory="true"/>
+	<material id="MRI Scan" description="Reports and actual films (if done)." mandatory="true"/>
+	<material id="MRE Scan" description="Reports and actual films (if done)." mandatory="true"/>
+	<material id="Liver Function Tests" description="Laboratory blood tests results for ALT, AST, alkaline phosphatase, GGT, Bilirubin, Albumin, PT, Platelet, serum protein electrophoresis." mandatory="true"/>
+	<material id="Antibody tests" description="Laboratory blood tests results for Anitinuclear Antibody (ANA), Smooth Muscle Antibody (SMA), liver/kidney microsomal antibody (LKM-1), Anti soluble liver antigen (SLA/LP), anti mitochondrial antibody (AMA)." mandatory="true"/>
+	<material id="Other X-rays" description="Reports and actual films (if done)." mandatory="true"/>
+	<material id="Pathology" description="All laboratory reports for all liver biopsies and glass slides." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt; The following list of medical information although not mandatory, are optional if done: &lt;/b&gt;"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,334 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- Head pain Questionnaire -->
+
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Approximate the age or year when you first had a significant headache problem:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="Did the problem begin with an accident / injury / illness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please describe:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				<question mandatory="true" prompt="Do you currently have an active Workman's Compensation claim or active litigation (law suit) in progress related to the cause of your pain ?">
+		  <item_response drop_down_style="false" single_response="true">
+			  <selection selected="false" text="No"/>
+			  <selection selected="false" text="Yes">
+			 	 <question mandatory="true" prompt=" If yes, please explain">
+			 	 	<free_form_response height="2"/>
+			 	 </question>			 	 			  
+			  </selection>
+		  </item_response>
+		</question>
+		<question mandatory="true" prompt="On average, how frequent are your headaches? ">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="(# of days per month/week)" width="20"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What is the duration of a short term headache?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="(# of hours or days)" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What is the duration of a long term headache?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="(# of hours or days)" width="15"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Do you have constant / daily headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you best describe your headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Throbbing"/>
+				<selection selected="false" text="Steady"/>
+				<selection selected="false" text="Sharp"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How would you best describe the location of your headache?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Back of head">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Temple(s)">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Top of head">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Forehead/eyes">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Left"/>
+							<selection selected="false" text="Right"/>
+							<selection selected="false" text="Both"/>
+						</item_response>
+					</question>
+                                </selection>			
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Select the things that commonly trigger your headaches:(Check all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Foods"/>
+				<selection selected="false" text="Smells"/>
+				<selection selected="false" text="Alcohol"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What are the symptoms typically associated with your headaches?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Nausea"/>
+				<selection selected="false" text="Vomiting"/>
+				<selection selected="false" text="Inability to tolerate bright light"/>
+				<selection selected="false" text="Noise"/>
+				<selection selected="false" text="Strong odors"/>
+				<selection selected="false" text="Aura(symptoms preceding headache, such as visual changes, unusual sensations)">
+					<question mandatory="true" prompt="Please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please describe:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are your headaches associated with neck pain?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are there activities that increase your pain? Please list:">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="true" prompt="Have you been given a diagnosis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If so, what diagnosis?">
+						<free_form_response height="1"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you seen a headache specialist?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="If you had any of the following investigations for causes of headache please give the year and results, if known.">
+			<table_response add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="" width="50"/>
+					<column_definition label="Year" width="15"/>
+					<column_definition label="Results" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell>Head imaging (x-ray)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Head CT (cat scan)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Head MRI</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Sinus evaluation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Eye evaluation</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Tests for inflammatory diseases</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What are the treatments you have had?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Triptans">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Imitrex"/>
+							<selection selected="false" text="Amerge"/>
+							<selection selected="false" text="Maxalt"/>
+							<selection selected="false" text="Zomig"/>
+							<selection selected="false" text="Relpax"/>
+							<selection selected="false" text="Axert"/>
+							<selection selected="false" text="Frova"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Ergot">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Ergotamine (Wigraine, Cafergot)"/>
+							<selection selected="false" text="Dihydroerogotamine (Migranal, DHE-45)"/>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Anti-epileptic medications">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Neurontin"/>
+							<selection selected="false" text="Lyrica"/>
+							<selection selected="false" text="Depakote"/>
+							<selection selected="false" text="Topamax"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Beta blockers">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Metoprolol (Toprol, Lopressor)"/>
+							<selection selected="false" text="Propranolol (Inderal)"/>
+							<selection selected="false" text="Atenolol (Tenormin)"/>
+							<selection selected="false" text="Nadolol (Corgard)"/>
+							<selection selected="false" text="Timolol (Blocadren)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Antidepressants">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Nortriptyline"/>
+							<selection selected="false" text="Amitriptyline (Elavil)"/>
+							<selection selected="false" text="Doxepin"/>
+							<selection selected="false" text="Imipramine"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Calcium channel blockers">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Amlodipine (Norvasc)"/>
+							<selection selected="false" text="Diltiazem (Cardizem)"/>
+							<selection selected="false" text="Nifedipine (Procardia)"/>
+							<selection selected="false" text="Verapamil (Calan)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Opioids">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Oxycodone (Percocet, OxyContin)"/>
+							<selection selected="false" text="Hydrocodone (Vicodin, Norco)"/>
+							<selection selected="false" text="Morphine"/>
+							<selection selected="false" text="Methadone"/>
+							<selection selected="false" text="Hydromorphone (Dilaudid)"/>
+							<selection selected="false" text="Oxymorphone (Opana)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Anti-inflammatories">
+					<question mandatory="true" prompt="">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Naproxen"/>
+							<selection selected="false" text="Aleve"/>
+							<selection selected="false" text="Motrin"/>
+							<selection selected="false" text="Ibuprofen"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				<selection selected="false" text="Tylenol"/>
+				<selection selected="false" text="Botox"/>
+				<selection selected="false" text="Occipital nerve blocks/stimulator"/>
+				<selection selected="false" text="Infusions"/>
+			</item_response>
+		</question>
+		&PAIN_SYSTEM_REVIEW;
+		&SUBSTANCE_DEVELOPMENT_BACKGROUND;
+		&PAIN_DISABILITY_INDEX;
+		 <question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition that you would like to tell us?">
+		 	<free_form_response height="3"/>
+		 </question>		
+	</question_group>
+</questionnaire>
+

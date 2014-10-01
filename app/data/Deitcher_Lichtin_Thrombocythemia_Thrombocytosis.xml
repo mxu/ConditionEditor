@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Deitcher_Lichtin_Thrombocythemia_ThrombocytosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Deitcher_Lichtin_Thrombocythemia_ThrombocytosisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Thrombocythemia" id="Thrombocythemia">
+				<keyword text="elevated"/>
+				<keyword text="platelet"/>
+				<keyword text="count"/>
+				<keyword text="disorder"/>
+				<keyword text="hematology"/>
+				<keyword text="blood"/>
+				<keyword text="myeloproliferative"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Primary (Essential) Thrombocythemia" id="Primary (Essential) Thrombocythemia">
+				<keyword text="platelet"/>
+				<keyword text="blood"/>
+				<keyword text="myeloproliferative"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Secondary Thrombocythemia" id="Secondary Thrombocythemia">
+				<keyword text="elevated"/>
+				<keyword text="platelet"/>
+				<keyword text="count"/>
+				<keyword text="disorder"/>
+				<keyword text="hematology"/>
+				<keyword text="myeloproliferative"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Thrombocytosis" id="Thrombocytosis">
+				<keyword text="myeloproliferative"/>
+				<keyword text="platelet"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Primary (Essential) Thrombocytosis" id="Primary (Essential) Thrombocytosis">
+				<keyword text="platelet"/>
+				<keyword text="myeloproliferative"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Secondary Thrombocytosis" id="Secondary Thrombocytosis">
+				<keyword text="platelet"/>
+				<keyword text="myeloproliferative"/>
+				<keyword text="blood"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

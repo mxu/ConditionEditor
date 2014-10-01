@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with any of the following conditions?  (choose all that apply)">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been diagnosed with any of the following conditions, please indicate below:">
+						<table_response initial_rows_to_display="30" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Condition" width="35"/>
+								<column_definition label="Date diagnosed (month/year)" width="20"/>
+							</column_definitions>
+							<table_data>
+								<cell>Multiple Sclerosis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Systemic Lupus Erythematosus</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Rheumatoid Arthritis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Endocrine Problems</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Aortic Stenosis</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Atrial Fibrillation</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Subelavian Steal Syndrome</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Orthostatic Hypotension</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Anemia</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Hypoglycemia</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Anxiety Disorder</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Cerebral Ischemia</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Wallenberg Syndrome</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Acoustic Neuroma</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>TMJ (Temporomandibular joint) Disease</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have hyperlipidemia (high fat levels in the blood)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have hyperlipidemia, what was your last level (if known)?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have hypercholesterolemia (high cholesterol levels in the blood)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have hypercholesterolemia, what was your last level (if known)?">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been exposed to loud noises for prolonged time periods?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been exposed to loud noises for prolonged time periods, what is the duration of the noise exposure? (months/years)">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever participate in underwater diving?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever participate in underwater diving, how often?">
+						<free_form_response height="2"/>
+					</question>
+					<question mandatory="true" prompt="When was the last time? (Date: month/year)">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience bouncing of the environment when taking a step (while walking)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had ear, brain or neck surgery?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever had ear, brain or neck surgery, please provide the following in table format:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Type of surgery" width="30"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="25"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience dizziness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience dizziness, when did your dizziness originally start?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please indicate which of the following best describe your dizziness sensation: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="I feel like I'm whirling or moving"/>
+							<selection selected="false" text="I feel like things around me are whirling or moving"/>
+							<selection selected="false" text="I feel as though I'm floating"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please describe:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by headache?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by hearing change?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes, on Left side"/>
+							<selection selected="false" text="Yes, on Right side"/>
+							<selection selected="false" text="Yes, both sides"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by disorientation (inability to sense direction or location)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by noises in your ear?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes, on Left side"/>
+							<selection selected="false" text="Yes, on Right side"/>
+							<selection selected="false" text="Yes, both sides"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by loss of balance?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by neck pain?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes, on Left side"/>
+							<selection selected="false" text="Yes, on Right side"/>
+							<selection selected="false" text="Yes, both sides"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Is your dizziness accompanied by nausea?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How often are you dizzy?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="All the time"/>
+							<selection selected="false" text="Whenever you change position"/>
+							<selection selected="false" text="In episodes">
+								<question mandatory="true" prompt="If your dizziness occurs in episodes, how long does an episode last? (# of minutes, hours, etc.)">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="When were your last two episodes of dizziness?">
+									<table_response initial_rows_to_display="2" add_row_increment="0" row_height="2">
+										<column_definitions>
+											<column_definition label="Day" width="15"/>
+											<column_definition label="Month" width="30"/>
+											<column_definition label="Year" width="25"/>
+										</column_definitions>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Do you have any warning that an episode of dizziness will occur?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not applicable"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you have any warning that an episode of dizziness will occur, please explain:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Which of the following can make your dizziness worse or trigger an episode? (choose all that apply)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="When you're fatigued (tired)">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Menstrual period">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Rolling over in bed to right side">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Rolling over in bed to left side">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Riding in the car">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Driving a car">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Bending or stooping over">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="When you first wake up">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="With a weather change">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Moving quickly">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Turning your head">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Looking up">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="At the end of the day">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="With stress">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="With worry">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Watching things move past you">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="Coughing or straining">
+											<question mandatory="true" prompt="">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Triggers"/>
+													<selection selected="false" text="Makes worse"/>
+												</item_response>
+											</question>
+										</selection>
+										<selection selected="false" text="None of the above"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have problems with your balance?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have problems with your balance, when did you begin to lose your balance?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="How has your balance been affected?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Suddenly"/>
+							<selection selected="false" text="Gradually"/>
+							<selection selected="false" text="In episodes">
+								<question mandatory="true" prompt="If it occurs in episodes, for how long does a typical episode last?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you ever fall as a result of losing your balance?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you ever fall as a result of losing your balance, how often do you fall?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does dizziness accompany your loss of balance?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Always"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How do you veer (feel pushed) when you walk?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="To the right"/>
+							<selection selected="false" text="To the left"/>
+							<selection selected="false" text="Either side"/>
+							<selection selected="false" text="None of the above"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have difficulty with your hearing?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have difficulty with your hearing, when did your hearing originally begin to change?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="As a young child"/>
+							<selection selected="false" text="Teens or 20's"/>
+							<selection selected="false" text="Recently"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How has your hearing changed?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Suddenly"/>
+							<selection selected="false" text="Gradually"/>
+							<selection selected="false" text="In episodes">
+								<question mandatory="true" prompt="If it occurs in episodes, for how long does a typical episode last?">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do noises in your ear accompany your hearing loss?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does dizziness or vertigo accompany your hearing loss?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does fullness in your ear(s) accompany your hearing loss?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience headaches, how old were you when you had your first headache?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Cannot remember"/>
+							<selection selected="false" text="As a young child"/>
+							<selection selected="false" text="Teens or 20's"/>
+							<selection selected="false" text="Adulthood"/>
+							<selection selected="false" text="More recently"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How often do you usually get headaches?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Daily"/>
+							<selection selected="false" text="Weekly"/>
+							<selection selected="false" text="Monthly"/>
+							<selection selected="false" text="Yearly"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Where are the headaches usually located? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Eyes"/>
+							<selection selected="false" text="Sinuses"/>
+							<selection selected="false" text="Forehead"/>
+							<selection selected="false" text="Temple"/>
+							<selection selected="false" text="Back of head"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="How long do the headaches usually last? (minutes, hours, etc.)">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="Are the headaches ever accompanied by dizziness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are the headaches ever accompanied by vision changes (blurriness, double vision, etc.)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If the headaches are accompanied by vision changes, how often?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Usually"/>
+										<selection selected="false" text="Sometimes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please describe the vision changes:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Are the headaches ever accompanied by nausea (sick feeling in the stomach)?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does movement, sound or light make the headaches worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If movement, sound or light makes the headaches worse, how often?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Usually"/>
+										<selection selected="false" text="Sometimes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please describe in detail what makes the headache worse:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Do you ever get visual patterns, lights or black spots before your eyes with the headaches?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you ever get visual patterns, lights or black spots before your eyes with the headaches, how often?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Usually"/>
+										<selection selected="false" text="Sometimes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please describe the visual patterns:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience neck pain or stiffness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience neck pain or stiffness, when did you begin to have neck problems?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Does dizziness ever accompany your neck pain or stiffness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does dizziness ever occur when you turn your head?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does turning your head seem restricted?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does pain in your neck keep you from falling asleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience motion sickness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever experience motion sickness, during which activities do you now or did you experience motion sickness? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="On amusement park rides"/>
+							<selection selected="false" text="Riding in the front seat of a car"/>
+							<selection selected="false" text="Riding in the back seat of a car"/>
+							<selection selected="false" text="As a child in your parents' car"/>
+							<selection selected="false" text="Reading in the car"/>
+							<selection selected="false" text="On boats in rough water"/>
+							<selection selected="false" text="On boats in calm water"/>
+							<selection selected="false" text="Around the water"/>
+							<selection selected="false" text="Elsewhere">
+								<question mandatory="true" prompt="If 'elsewhere', please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does nausea (sick feeling in your stomach) ever accompany your motion sickness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does vomiting ever accompany your motion sickness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does headache ever accompany your motion sickness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does fatigue (tiredness) ever accompany your motion sickness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Does the motion sickness improve with lying down?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Usually"/>
+							<selection selected="false" text="Sometimes"/>
+							<selection selected="false" text="Never"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="When you close your eyes, does the motion sickness?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Improve"/>
+							<selection selected="false" text="Worsen"/>
+							<selection selected="false" text="No change"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have noises in your ears?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes, Left ear"/>
+				<selection selected="false" text="Yes, Right ear"/>
+				<selection selected="false" text="Yes, Both ears">
+					<question mandatory="true" prompt="If you have noises in your ears, which of the following best describes the noises? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="High-pitched"/>
+							<selection selected="false" text="Low-pitched"/>
+							<selection selected="false" text="Ringing"/>
+							<selection selected="false" text="Whistling"/>
+							<selection selected="false" text="Clicking"/>
+							<selection selected="false" text="Popping"/>
+							<selection selected="false" text="Humming"/>
+							<selection selected="false" text="Buzzing"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="What, if anything, makes the noises worse?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="What, if anything, makes the noises better?">
+						<free_form_response height="3"/>
+					</question>
+					<question mandatory="true" prompt="Do the noises disturb your sleep?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="Have you ever used any of the following devices or had the following treatment for noises in the 	ear? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Tinnitus masking device">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="White noise device">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Relaxation technique therapy">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Acupuncture">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Low level music">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Environmental sound device">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please indicate:">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="Made better"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had any surgical procedures for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had any surgical procedures for your condition, please provide the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Month/Year" width="15"/>
+								<column_definition label="Procedure/Surgery" width="30"/>
+								<column_definition label="Reason for procedure" width="40"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="Hospital/Clinic" width="20"/>
+								<column_definition label="City, State" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever received physical therapy for your condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever received physical therapy for your condition, please indicate the types of treatment you have had and its affect below: (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Parallel bars">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Posturography">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Cawthorne's head exercise">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Safety equipment">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Balance retraining/vestibular rehabilitation">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Neck/cervical manual therapy">
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="3"/>
+								</question>
+								<question mandatory="true" prompt="">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Helped"/>
+										<selection selected="false" text="Made worse"/>
+										<selection selected="false" text="No change"/>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="What has been recommended regarding your current condition?">
+			<free_form_response height="10"/>
+		</question>
+		<question prompt="Which doctor made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (Otolaryngologist, neurologist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="10"/>
+		</question>
+	</question_group>
+</questionnaire>

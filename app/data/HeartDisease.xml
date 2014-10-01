@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "HeartDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "HeartDiseaseQuestionnaire.xml">
+]>
+<!-- Topol_Rimmerman_Bajzer_Griffen_Heupler_Wilkoff_Tchou_Martin_Simfendorfer_Deedy_Tayor_Francis_Young_Starling_Asher_Ellis_Shiota_Latson_Taylor_Ouriel_Greenburg_Jaber_Banbury_Level_Lauer-->
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Abnormal Stress Test" id="Abnormal Stress Test">
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="Thallium"/>
+				<keyword text="Nucler"/>
+				<keyword text="Treadmill"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Myocardial Infarction" id="Myocardial Infarction">
+				<keyword text="MI"/>
+				<keyword text="blockage"/>
+				<keyword text="muscle"/>
+				<keyword text="Attack"/>
+				<keyword text="Heart"/>
+				<keyword text="infarct"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Heart Attack" id="Heart Attack">
+				<keyword text="MI"/>
+				<keyword text="blockage"/>
+				<keyword text="muscle"/>
+				<keyword text="myocardial"/>
+				<keyword text="infarction"/>
+				<keyword text="infarct"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Angina" id="Angina">
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="discomfort"/>
+				<keyword text="pressure"/>
+				<keyword text="tightness"/>
+				<keyword text="stable"/>
+				<keyword text="unstable"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Angina (stable)" id="Angina (stable)">
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="discomfort"/>
+				<keyword text="pressure"/>
+				<keyword text="tightness"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Angina (unstable)" id="Angina (unstable)">
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="discomfort"/>
+				<keyword text="pressure"/>
+				<keyword text="tightness"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>      
+            <condition cost="565.00" description="Angina Pectoris" id="Angina Pectoris">
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="discomfort"/>
+				<keyword text="pressure"/>
+				<keyword text="tightness"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>    
+			<condition cost="565.00" description="Abdominal aneurysm" id="Abdominal aneurysm">
+				<keyword text="abdominal aneurysm"/>
+				<keyword text="abdominal"/>
+				<keyword text="aneurysm"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Aortic aneurysm" id="Aortic aneurysm">
+				<keyword text="aortic aneurysm"/>
+				<keyword text="aortic"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ascending aortic aneurysm" id="Ascending aortic aneurysm">
+				<keyword text="ascending aortic"/>
+				<keyword text="ascending aneurysm"/>
+				<keyword text="cardiac"/>
+				<keyword text="aneurysm"/>
+				<keyword text="aortic aneurysm"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="AICD implantation" id="AICD implantation">
+				<keyword text="AICD"/>
+				<keyword text="implantation"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Amyloidosis" id="Amyloidosis">
+				<keyword text="amyloidosis"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Aortic insufficiency" id="Aortic insufficiency">
+				<keyword text="aortic insufficiency"/>
+				<keyword text="insufficiency"/>
+				<keyword text="cardiac"/>
+				<keyword text="aortic"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Aortic regurgitation" id="Aortic regurgitation">
+				<keyword text="valve"/>
+				<keyword text="dysfunction"/>
+				<keyword text="murmur"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Aortic stenosis (adult)" id="Aortic stenosis (adult)">
+				<keyword text="aortic stenosis"/>
+				<keyword text="stenosis"/>
+				<keyword text="cardiac"/>
+				<keyword text="aortic"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Abnormal electrocardiogram (ECG, EKG)" id="Abnormal electrocardiogram (ECG, EKG)">
+				<keyword text="EKG"/>
+				<keyword text="abnormal"/>
+				<keyword text="electrcardiogram"/>
+				<keyword text="ECG"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="cardiac tracing"/>
+				<keyword text="abn cardiac tracing"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            
+            <condition cost="565.00" description="Arrhythmia" id="Arrhythmia">
+				<keyword text="ventricular"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atrial fibrillation" id="Atrial fibrillation">
+				<keyword text="atrial fibrillation"/>
+				<keyword text="A-fibl"/>
+				<keyword text="fibrillation"/>
+				<keyword text="atrial"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="cardiac"/>
+				<keyword text="cardiac arrhythmia"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>            
+            <condition cost="565.00" description="Atherosclerotic Coronary Artery Disease" id="Atherosclerotic Coronary Artery Disease">
+				<keyword text="atrial"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="cardiac"/>				
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atrial flutter" id="Atrial flutter">
+				<keyword text="atrial flutter"/>
+				<keyword text="atrial"/>
+				<keyword text="flutter"/>
+				<keyword text="cardiac"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Atrial tachycardia" id="Atrial tachycardia">
+				<keyword text="atrial tachycardia"/>
+				<keyword text="atrial"/>
+				<keyword text="tachycardia"/>
+				<keyword text="cardiac"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="heart"/>
+				<keyword text="atrial arrhythmia"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Bacterial endocarditis" id="Bacterial endocarditis">
+				<keyword text="bacterial endocarditis"/>
+				<keyword text="bacterial"/>
+				<keyword text="endocarditis"/>
+				<keyword text="cardiac"/>
+				<keyword text="infection"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Brady - Tachy syndrome" id="Brady - Tachy syndrome">
+				<keyword text="brady"/>
+				<keyword text="tachy"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Bradycardia" id="Bradycardia">
+				<keyword text="brady"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="slow"/>
+				<keyword text="rate"/>
+				<keyword text="beat"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>                        
+            <condition cost="565.00" description="Bypass surgery evaluation" id="Bypass surgery evaluation">				
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Cardiac Arrest (history of)" id="Cardiac Arrest (history of)">				
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Carotid ASO with cerebral infarction" id="Carotid ASO with cerebral infarction">
+				<keyword text="Carotid ASO"/>
+				<keyword text="Carotid"/>
+				<keyword text="ASO"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Carotid ASO without cerebral infarction" id="Carotid ASO without cerebral infarction">
+				<keyword text="Carotid ASO"/>
+				<keyword text="Carotid"/>
+				<keyword text="ASO"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<!-- removed 11/29/07 per Sharon's request -->
+			<!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Chest pain" id="Chest pain" active="true">
+				<keyword text="chest pain"/>
+				<keyword text="chest"/>
+				<keyword text="pain"/>
+				<keyword text="angina"/>
+				<keyword text="chest discomfort"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Chest pressure" id="Chest pressure">
+				<keyword text="chest pressure"/>
+				<keyword text="chest"/>
+				<keyword text="pressure"/>
+				<keyword text="pain"/>
+				<keyword text="angina"/>
+				<keyword text="chest discomfort"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Chest tightness" id="Chest tightness">
+				<keyword text="chest tightness"/>
+				<keyword text="chest"/>
+				<keyword text="tightness"/>
+				<keyword text="pain"/>
+				<keyword text="angina"/>
+				<keyword text="chest discomfort"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Claudication" id="Claudication">
+				<keyword text="claudication"/>
+				<keyword text="tightness"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Coronary artery disease" id="Coronary artery disease">
+				<keyword text="coronary disease"/>
+				<keyword text="CAD"/>
+				<keyword text="coronary"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Coronary artery bypass grafting" id="Coronary artery bypass grafting">
+				<keyword text="CABG"/>
+				<keyword text="coronary"/>
+				<keyword text="coronary bypass"/>
+				<keyword text="bypass grafting"/>
+				<keyword text="bypass graft"/>
+				<keyword text="coronary grafting"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="565.00" description="Coronary artery bypass grafting (history of)" id="Coronary artery bypass grafting (history of)">
+				<keyword text="CABG"/>
+				<keyword text="coronary"/>
+				<keyword text="coronary bypass"/>
+				<keyword text="bypass grafting"/>
+				<keyword text="bypass graft"/>
+				<keyword text="coronary grafting"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			
+			<condition cost="565.00" description="Congenital heart disease" id="Congenital heart disease">
+				<keyword text="congenital heart disease"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="congenital heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+
+			<condition cost="565.00" description="Congenital heart disease (adult)" id="Congenital heart disease (adult)">
+				<keyword text="congenital heart disease"/>
+				<keyword text="congenital"/>
+				<keyword text="heart"/>
+				<keyword text="congenital heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>            
+            <!-- inactive 4.25.06 per SP-->
+            <!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Fainting" id="Fainting" active="true">
+				<keyword text="fainting"/>
+				<keyword text="heart"/>
+				<keyword text="syncope"/>
+				<keyword text="passing out"/>
+				<keyword text="dizziness"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            
+			<condition cost="565.00" description="Flail mitral valve leaflet" id="Flail mitral valve leaflet">
+				<keyword text="flail mitral"/>
+				<keyword text="valve leaflet"/>
+				<keyword text="mitral"/>
+				<keyword text="valve"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="murmur"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Heart block" id="Heart block">
+				<keyword text="heart block"/>
+				<keyword text="heart"/>
+				<keyword text="block"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Heart murmur (adult)" id="Heart murmur (adult)">
+				<keyword text="heart murmur"/>
+				<keyword text="heart"/>
+				<keyword text="murmur"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <!-- Removed 7/21/03 per Sharon P. -->
+            <!-- activated 02/17/09 per karen's request -->
+            <condition cost="565.00" description="Hypertension" id="Hypertension" active="true">
+				<keyword text="hypertension"/>
+				<keyword text="heart disease"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<!-- Removed 7/21/03 per Sharon P. -->
+			<!-- activated 02/17/09 per karen's request -->
+            <condition cost="565.00" description="Hypertensive heart disease" id="Hypertensive heart disease" active="true">
+				<keyword text="hypertensive heart"/>
+				<keyword text="heart disease"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Hypertrophic atrial tachycardia" id="Hypertrophic atrial tachycardia">
+				<keyword text="hypertrophic atrial"/>
+				<keyword text="atrial tachycardia"/>
+				<keyword text="atrial tach"/>
+				<keyword text="arrythmia"/>
+				<keyword text="atrial"/>
+				<keyword text="tachycardia"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <condition cost="565.00" description="Implantable Cardioverter Defibrillator (ICD) (evaluation)" id="Implantable Cardioverter Defibrillator (ICD) (evaluation)">				
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            
+            <condition cost="565.00" description="Inoperable coronary disease (eval for novel/new treatment)" id="Inoperable coronary disease (eval for novel/new treatment)">				
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <!--  inactive 4.25.06 per SP-->
+             <!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Lightheadedness" id="Lightheadedness" active="true">
+				<keyword text="lightheadedness"/>
+				<keyword text="dizzy"/>
+				<keyword text="syncope"/>
+				<keyword text="fainting"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            
+            <condition cost="565.00" description="Long QT Syndrome" id="Long QT Syndrome">				
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>                        
+			<condition cost="565.00" description="Mitral regurgitation" id="Mitral regurgitation">
+				<keyword text="mitral regurgitation"/>
+				<keyword text="mitral"/>
+				<keyword text="regurgitation"/>
+				<keyword text="valve"/>
+				<keyword text="heart valve"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Mitral stenosis" id="Mitral stenosis">
+				<keyword text="valve"/>
+				<keyword text=" heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="narrowing"/>
+				<keyword text="regurgitation"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Mitral valve prolapse" id="Mitral valve prolapse">
+				<keyword text="mitral valve"/>
+				<keyword text="mitral"/>
+				<keyword text="valve prolapse"/>
+				<keyword text="valve"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <!-- near fainting removed 4.25.06 per sp-->
+             <!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Near fainting" id="Near fainting" active="true">
+				<keyword text="near fainting"/>
+				<keyword text="near"/>
+				<keyword text="fainting"/>
+				<keyword text="syncope"/>
+				<keyword text="dizziness"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <!-- near syncope removed 4.25.06 per sp-->
+             <!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Near syncope" id="Near syncope" active="true">
+				<keyword text="near syncope"/>
+				<keyword text="near"/>
+				<keyword text="syncope"/>
+				<keyword text="fainting"/>
+				<keyword text="passing out"/>
+				<keyword text="dizziness"/>
+				<keyword text="cardiac"/>
+				<keyword text="pass out"/>
+				<keyword text="area:Heart Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+            <condition cost="565.00" description="Palpitations" id="Palpitations">
+				<keyword text="palpitations"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="arrythmias"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Paroxysmal Tachycardia" id="Paroxysmal Tachycardia">
+				<keyword text="Arrythmias"/>
+				<keyword text="Heart"/>
+				<keyword text="Cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="PCI (Percutaneous coronary intervention) evaluation" id="PCI (Percutaneous coronary intervention) evaluation">				
+				<keyword text="Heart"/>
+				<keyword text="Cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="PTCA stent (history of)" id="PTCA stent (history of)">
+				<keyword text="PTCA stent"/>
+				<keyword text="PTCA"/>
+				<keyword text="stent"/>
+				<keyword text="stenting"/>
+				<keyword text="heart stent"/>
+				<keyword text="cardiac stent"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Pericarditis" id="Pericarditis">
+				<keyword text="pericarditis"/>
+				<keyword text="carditis"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            
+            <condition cost="565.00" description="Peripheral Arterial Disease (excluding Carotid arteries)" id="Peripheral Arterial Disease (excluding Carotid arteries)">								
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Peripheral vascular disease" id="Peripheral vascular disease">
+				<keyword text="peripheral vascular"/>
+				<keyword text="peripheral disease"/>
+				<keyword text="PVD"/>
+				<keyword text="cardiac"/>
+				<keyword text="heart"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Premature atrial contractions (PAC's)" id="Premature atrial contractions (PAC's)">
+				<keyword text="premature contractions"/>
+				<keyword text="premature"/>
+				<keyword text="contractions"/>
+				<keyword text="PAC's"/>
+				<keyword text="heart"/>
+				<keyword text="arrythmias"/>
+				<keyword text="cardiac"/>
+				<keyword text="early beat"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Premature ventricular contractions (PVC's)" id="Premature ventricular contractions (PVC's)">
+				<keyword text="premature"/>
+				<keyword text=" atrial contractions"/>
+				<keyword text="contractions"/>
+				<keyword text="PVC's"/>
+				<keyword text="heart"/>
+				<keyword text="arrythmias"/>
+				<keyword text="cardiac"/>
+				<keyword text="early beat"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Thoracic aortic aneurysm" id="Thoracic aortic aneurysm">
+				<keyword text="throacic aortic"/>
+				<keyword text="thoracic aneurysm"/>
+				<keyword text="thoracic"/>
+				<keyword text="aortic"/>
+				<keyword text="aneurysm"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>  
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <condition cost="565.00" description="Thoracic outlet syndrome" id="Thoracic outlet syndrome">
+				<keyword text="vasculature"/>
+				<keyword text="venous"/>
+				<keyword text="thoracic"/>
+                <keyword text="arterial"/>
+                <keyword text="subclavian"/>
+                <keyword text="vein"/>
+                <keyword text="artery"/>
+                <keyword text="stenosis"/>
+				<keyword text="occlusion"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Shortness of breath" id="Shortness of breath">
+				<keyword text="shortness breathe"/>
+				<keyword text="difficulty breathing"/>
+				<keyword text="SOB"/>
+				<keyword text="dyspnea"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            <!-- removed 4.25.06 per sp -->
+             <!-- activated 02/17/09 per karen's request -->
+			<condition cost="565.00" description="Syncope" id="Syncope" active="true">
+				<keyword text="syncope"/>
+				<keyword text="fainting"/>
+				<keyword text="passing out"/>
+				<keyword text="lightheadedness"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+           
+			<condition cost="565.00" description="Vasodepressor syncope" id="Vasodepressor syncope">
+				<keyword text="syncope"/>
+				<keyword text="vasodepressor"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ventricular arrhythmia" id="Ventricular arrhythmia">
+				<keyword text="ventricular"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+            
+            <condition cost="565.00" description="Ventricular Fibrillation" id="Ventricular Fibrillation">				
+				<keyword text="heart"/>
+				<keyword text="cardiac"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Ventricular tachycardia" id="Ventricular tachycardia">
+				<keyword text="ventricular"/>
+				<keyword text="arrhythmia"/>
+				<keyword text="tachycardia"/>
+				<keyword text="vtach"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Chronotrophic Incompetence" id="Chronotrophic Incompetence">
+				<keyword text="cardiac"/>
+				<keyword text="slow"/>
+				<keyword text="heart"/>
+				<keyword text="rate"/>
+				<keyword text="Bradycardia "/>
+				<keyword text="Arrhythmia"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Cardiac Pacemaker (history of)" id="Cardiac Pacemaker (history of)">
+				<keyword text="cardiac"/>
+				<keyword text="pacemaker"/>
+				<keyword text="heart"/>
+				<keyword text="rate"/>
+				<keyword text="Arrhythmia"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Cardiac pacemaker" id="Cardiac pacemaker">
+				<keyword text="cardiac"/>
+				<keyword text="pacemaker"/>
+				<keyword text="heart"/>
+				<keyword text="rate"/>
+				<keyword text="Arrhythmia"/>
+				<keyword text="area:Heart Related Conditions"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="POTS (Postural orthostatic tachycardia syndrome)" id="POTS (Postural orthostatic tachycardia syndrome)">
+				<keyword text="postural"/>
+				<keyword text="orthostatic"/>
+				<keyword text="tachycardia"/>
+				<keyword text="syndrome"/>
+				<keyword text="heart"/>
+				<keyword text="rate"/>
+				<keyword text="syncope"/>
+				<keyword text="POTS"/>
+				<keyword text="blood pressure"/>
+				<keyword text="exaggerated"/>
+				<keyword text="excessive"/>
+				<keyword text="intolerance"/>
+				<keyword text="imbalance"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+			<condition cost="565.00" description="Postural Orthostatic Tachycardia syndrome" id="Postural Orthostatic Tachycardia syndrome">
+				<keyword text="postural"/>
+				<keyword text="orthostatic"/>
+				<keyword text="tachycardia"/>
+				<keyword text="syndrome"/>
+				<keyword text="heart"/>
+				<keyword text="rate"/>
+				<keyword text="syncope"/>
+				<keyword text="POTS"/>
+				<keyword text="blood pressure"/>
+				<keyword text="exaggerated"/>
+				<keyword text="excessive"/>
+				<keyword text="intolerance"/>
+				<keyword text="imbalance"/>
+			&questionnaire_doc;
+			&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

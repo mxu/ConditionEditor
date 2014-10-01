@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fracture_Non-union_MuschlerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fracture_Non-union_MuschlerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Orthopaedic Surgery" name="Orthopaedic Surgery">
+		<section description="" name="">
+			<condition active="false" cost="565.00" description="Fracture" id="Fracture">
+				<keyword text="fracture"/>
+				<keyword text="injury"/>
+				<keyword text="extremity"/>
+				<keyword text="non-union"/>
+				<keyword text="bone"/>
+				<keyword text="break"/>
+				<keyword text="dislocation"/>
+				<keyword text="mal-union"/>
+				<keyword text="femur"/>
+				<keyword text="hip"/>
+				<keyword text="knee"/>
+				<keyword text="arm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<!-- removed as per karen on 9/24/2008
+			<condition active="true" cost="565.00" description="Non-union" id="Non-union">
+				<keyword text="fracture"/>
+				<keyword text="injury"/>
+				<keyword text="extremity"/>
+				<keyword text="non-union"/>
+				<keyword text="bone"/>
+				<keyword text="break"/>
+				<keyword text="dislocation"/>
+				<keyword text="mal-union"/>
+				<keyword text="femur"/>
+				<keyword text="hip"/>
+				<keyword text="knee"/>
+				<keyword text="arm"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition> -->
+			<condition active="true" cost="565.00" description="Non-union, tibia" id="Non-union, tibia">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="tibia"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="leg"/>
+				<keyword text="knee"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, femur" id="Non-union, femur">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="femur"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="hip"/>
+				<keyword text="leg"/>
+				<keyword text="knee"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, humerus" id="Non-union, humerus">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="humerus"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="arm"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, radius" id="Non-union, radius">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="radius"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="arm"/>
+				<keyword text="forearm"/>
+				<keyword text="wrist"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, ulna" id="Non-union, ulna">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="ulna"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="arm"/>
+				<keyword text="forearm"/>
+				<keyword text="wrist"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, clavicle" id="Non-union, clavicle">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="clavicle"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="arm"/>
+				<keyword text="shoulder"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Non-union, fibula" id="Non-union, fibula">
+				<keyword text="non-union"/>
+				<keyword text="malunion"/>
+				<keyword text="fibula"/>
+				<keyword text="fracture"/>
+				<keyword text="broken"/>
+				<keyword text="break"/>
+				<keyword text="bone"/>
+				<keyword text="leg"/>
+				<keyword text="knee"/>
+				<keyword text="nonunion"/>
+				<keyword text="joint"/>
+				<keyword text="union"/>
+				<keyword text="orthopaedics"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

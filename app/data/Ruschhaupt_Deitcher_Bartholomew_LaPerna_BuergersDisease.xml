@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_BuergersDiseaseMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_BuergersDiseaseQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="745.00" description="Thromboangiitis Obliterans (Buerger's Disease)" id="Thromboangiitis Obliterans (Buerger's Disease)" active="true">
+				<keyword text="buerger's disease"/>
+				<keyword text="circulation"/>
+				<keyword text="blockage"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

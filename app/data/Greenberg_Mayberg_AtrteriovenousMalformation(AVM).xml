@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Greenberg_Mayberg_AtrteriovenousMalformation(AVM)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Greenberg_Mayberg_AtrteriovenousMalformation(AVM)Questionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Vascular Surgery" name="Vascular Surgery">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Arteriovenous Malformation (AVM)" id="Arteriovenous Malformation (AVM)">
+				<keyword text="cerebral"/>
+				<keyword text="vascular"/>
+				<keyword text="multiple"/>
+				<keyword text="aneurysms"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Arteriovenous Malformation (AVM) (Peripheral)" id="Arteriovenous Malformation (AVM) (Peripheral)">
+				<keyword text="cerebral"/>
+				<keyword text="vascular"/>
+				<keyword text="multiple"/>
+				<keyword text="aneurysms"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="565.00" description="Arteriovenous Malformation (AVM) (Dural)" id="Arteriovenous Malformation (AVM) (Dural)">
+				<keyword text="cerebral"/>
+				<keyword text="vascular"/>
+				<keyword text="multiple"/>
+				<keyword text="aneurysms"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

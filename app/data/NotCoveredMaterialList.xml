@@ -1,0 +1,8 @@
+<!-- 
+empty material list for conditions we don't cover 
+This is necessary because the DOM expects a material list in a condition
+-->
+<material_list>
+<material id="bogus" description="bogus" mandatory="true"/>
+</material_list>
+

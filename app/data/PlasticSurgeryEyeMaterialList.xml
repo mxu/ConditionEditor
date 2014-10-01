@@ -1,0 +1,13 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Operative reports" description="Operative reports for any relevant surgeries" mandatory="true"/>	
+	<material id="Current color photographs of your eyes / eyelids front view" description="A color photograph of the front view. &lt;b&gt;Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo). &lt;/b&gt;Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt; 
+	&lt;p&gt; &lt;img src='/images/plasticSurgery/eye-center.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of your eyes / eyelids frontal close up view" description="A color photograph of the frontal close up view.&lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo)&lt;/b&gt;. Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt; 
+	&lt;p&gt; &lt;img src='/images/plasticSurgery/eye-close.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of your eyes / eyelids base (bottom up) view" description="A color photograph of the base (bottom up) view.&lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo)&lt;/b&gt;. Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt;
+	&lt;p&gt; &lt;img src='/images/plasticSurgery/bottom-up.jpg' &gt;" mandatory="true"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION_PLASTIC;
+</material_list>

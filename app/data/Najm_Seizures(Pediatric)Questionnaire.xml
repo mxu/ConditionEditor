@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- copied from Najm_Seizures(Adult)Questionnaire.xml -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of your problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="When was your diagnosis made?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What is your diagnosis (Please provide the exact diagnosis of known.)?">
+			<free_form_response height="1"/>
+		</question>
+		<question mandatory="true" prompt="When were you last examined by your physician?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+		<question mandatory="true" prompt="How was your diagnosis made? (choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="EEG (Electroencephalogram)"/>
+				<selection selected="false" text="CT Scan"/>
+				<selection selected="false" text="MRI Scan"/>
+				<selection selected="false" text="X-rays"/>
+				<selection selected="false" text="Monitoring Unit Elevation"/>
+				<selection selected="false" text="Blood work"/>
+				<selection selected="false" text="Surgery"/>
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Right Handed"/>
+				<selection selected="false" text="Left Handed"/>
+				<selection selected="false" text="Ambidextrous"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When did you experience your first spell of seizure activity?">
+					&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="Seizures can be categorized in various ways.  Have you been told what type of seizures you have?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of seizures do you have? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Partial"/>
+							<selection selected="false" text="Simple Partial"/>
+							<selection selected="false" text="Complex Partial"/>
+							<selection selected="false" text="Generalized"/>
+							<selection selected="false" text="Absence (Petit Mal)"/>
+							<selection selected="false" text="Atypical Absences"/>
+							<selection selected="false" text="Myoclonic"/>
+							<selection selected="false" text="Tonic-clinic (Grand Mal)"/>
+							<selection selected="false" text="Atonic"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain in depth:">
+									<free_form_response height="1"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience more than one type of seizure?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how many types of seizures fo you have? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="One"/>
+							<selection selected="false" text="Two"/>
+							<selection selected="false" text="Three"/>
+							<selection selected="false" text="Four"/>
+							<selection selected="false" text="Five"/>
+							<selection selected="false" text="More than Five"/>
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="In the space provided below, please describe in depth the different types of seizures you experience.  Please be very specific in the description.  For instance, if you checked that you have 3 different types, please describe all three types below.  Please describe the details of the seizure spells that you experience.  Include the duration and the frequency of the occurences.  If you are not aware of the specific details of the spells, please provide the information as described by witnesses (friends, family, etc.).">
+									<free_form_response height="5"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience seizure activity at a particular time of day?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please explain in detail below">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced head trauma?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, did you lose consciousness">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you experienced brain infections such as meningitis or encephalitis?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide the date of the brain infection:">
+					&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have a family history of seizures?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please provide details (which family member(s), type of seizures, etc.) below:">
+						<free_form_response height="5"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you currently taking medications for seizures?  If yes please provide the date when started:">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Medication" width="35"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Phenytoin (Dilantin)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carbamazepine (Tegretol/Carbatrol)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Phenobarbital</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primidone (Mysoline)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Levetiracetam (Keppra)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Topiramate (Topamax)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lamotrigine (Lamictal)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Zonisimide (Zonegran)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Felbamate (Felbatol)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gabapentin (Neurontin)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Oxcarbazepine (Trileptal)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Valproic Acid (Depakote/Dapakene)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Were you previously on medications medications which you are no longer taking?  If yes please provide the date when started:">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Medication" width="35"/>
+					<column_definition label="Month" width="15"/>
+					<column_definition label="Year" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Phenytoin (Dilantin)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Carbamazepine (Tegretol/Carbatrol)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Phenobarbital</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Primidone (Mysoline)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Levetiracetam (Keppra)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Topiramate (Topamax)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Lamotrigine (Lamictal)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Zonisimide (Zonegran)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Felbamate (Felbatol)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Gabapentin (Neurontin)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Oxcarbazepine (Trileptal)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Valproic Acid (Depakote/Dapakene)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Please list all diagnostic (imaging studies / tests) you have undergone.  Please include ALL studies, dates, locations and results.">
+			<table_response add_row_increment="2">
+				<column_definitions>
+					<column_definition label="Study" width="35"/>
+					<column_definition label="Date (Month / Year)" width="15"/>
+					<column_definition label="Hospital / Clinic" width="15"/>
+					<column_definition label="City / State" width="15"/>
+					<column_definition label="Results" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>EEG (Electroencephalogram)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>CT Scan</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Epilepsy Monitoring Elevation</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Brain MRI</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Blood Tests</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Other (Please list below)</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Other than medications, have you received any other treatments for your condition?">
+			<item_response single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the following information:">
+						<table_response initial_rows_to_display="3" add_row_increment="2" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of Treatment" width="25"/>
+								<column_definition label="Month / Year" width="20"/>
+								<column_definition label="Name of Facility" width="20"/>
+								<column_definition label="City / State" width="20"/>
+								<column_definition label="Result of Treatment" width="20"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you having any problems with your vision?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of problems? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Double Vision"/>
+							<selection selected="false" text="Blurred Vision"/>
+							<selection selected="false" text="Decreased Sharpness"/>
+							<selection selected="false" text="Visual Field Obstruction"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please explain in depth:">
+									<free_form_response height="1"/>
+								</question>
+								<question mandatory="true" prompt="When did the vision problem begin?">
+										&MONTH_YEAR_TABLE_RESPONSE;
+						</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing headaches?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?:">
+										&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing dizziness?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?:">
+										&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you experiencing mood alterations?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?:">
+										&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever feel disoriented (not sure of your surrondings) ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, when did this symptom begin?:">
+										&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What has been recommended regarding the treatment of your current condition?  (surgery, medical management, etc.)">
+			<free_form_response height="3"/>
+		</question>
+		<question mandatory="false" prompt="Which physician made this recommendation?">
+			<table_response initial_rows_to_display="1" add_row_increment="0">
+				<column_definitions>
+					<column_definition label="Physician name" width="30"/>
+					<column_definition label="Specialty (primary care physician, neurologist, neurosurgeon, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Is there anything else you think would be helpful regarding your condition?">
+			<free_form_response height="3"/>
+		</question>
+	</question_group>
+</questionnaire>

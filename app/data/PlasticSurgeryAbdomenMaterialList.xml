@@ -1,0 +1,13 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	<material id="Operative reports" description="Operative reports for any relevant surgeries" mandatory="true"/>
+	<material id="Current color photographs of the abdomen front view" description="A color photograph of the front view. &lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo) &lt;/b&gt; . Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt; 
+	 &lt;p&gt; &lt;img src='/images/plasticSurgery/abdomen-center.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of the abdomen right profile, left profile view" description="A color photograph of the right profile, left profile view. &lt;b&gt; Photos should be taken in bright light by a plain colored wall (Please avoid using a flash when taking the photo) &lt;/b&gt;. Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt; 
+	 &lt;p&gt; &lt;img src='/images/plasticSurgery/abdomen-right.jpg' &gt; &lt;img src='/images/plasticSurgery/abdomen-left.jpg' &gt;" mandatory="true"/>
+	<material id="Current color photographs of the abdomen right oblique(angle) and left oblique view" description="A color photograph of the right oblique(angle) and left oblique view. &lt;b&gt; Photos should be taken in  bright light by a plain colored wall (Please avoid using a flash when taking the photo) &lt;/b&gt;. Photographs  may be uploaded on Step 6 of our application  process or with our &lt;a href='/upload'&gt; Secure Upload Tool &lt;/a&gt; 
+	 &lt;p&gt; &lt;img src='/images/plasticSurgery/abdomen-right-oblique.jpg' &gt; &lt;img src='/images/plasticSurgery/abdomen-left-oblique.jpg' &gt;" mandatory="true"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION_PLASTIC;
+</material_list>

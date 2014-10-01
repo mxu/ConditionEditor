@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v4.2 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Deitcher_Lichtin_ThrombocytopeniaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Deitcher_Lichtin_ThrombocytopeniaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition active="true" cost="745.00" description="Idiopathic Thrombocytopenia Purpura (ITP)" id="Idiopathic Thrombocytopenia Purpura (ITP)">
+				<keyword text="blood"/>	
+				<keyword text="count"/>
+				<keyword text="disorder"/>		
+				<keyword text="petechiae"/>	
+				<keyword text="platelet"/>
+				<keyword text="platelets"/>	
+				<keyword text="ITP"/>		
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Non-immune thrombocytopenia" id="Non-immune thrombocytopenia">
+				<keyword text="blood"/>	
+				<keyword text="count"/>
+				<keyword text="disorder"/>	
+				<keyword text="platelet"/>
+				<keyword text="platelets"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Thrombotic Thrombocytopenia Purpura (TTP)" id="Thrombotic Thrombocytopenia Purpura (TTP)">
+				<keyword text="blood"/>	
+				<keyword text="count"/>
+				<keyword text="disorder"/>	
+				<keyword text="platelet"/>
+				<keyword text="platelets"/>			
+				&questionnaire_doc;
+				&material_doc;
+			</condition>		
+		</section>
+	</department>
+</division>

@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+        <material id="Primary physician or specialist physician's last report" description="Report should contain current physical assessment of the patient's condition and description of current signs and symptoms. This can be written by either patient's primary care physician or the physician who diagnosed or is treating patient's condition." mandatory="true"/>
+	<material id="Office Notes" description="Copies of all office notes for clinic visits pertinent to condition." mandatory="true"/>
+	<material id="Neurological Consultation Notes" description="Copies of all Neurological Consultations." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter and vitamins)." mandatory="true"/>	
+	<material id="Discharge summaries and hospital notes" description="Discharge summaries and clinician notes from any recent (within one year) hospitalizations related to condition." mandatory="true"/>	
+	<instruction text="The following radiological and diagnostic studies done in the last 3 years will be required. Radiology films must be copied to compact disc (CD) for submission."/>
+	<material id="Brain Imaging" description="Reports and films copied to CD in Dicom format for all completed studies  &lt;b&gt;(MRI, CT, and PET scans) &lt;/b&gt;." mandatory="true"/>
+	<material id="Spinal Fluid Analysis if done" description="Results of study including 14-3-3 and tau results (usually obtained via National Prion Disease Pathology Surveillance Center)." mandatory="true"/>
+	<material id="Electroencephalogram (EEG) if done" description="Reports of all studies." mandatory="true"/>
+	<material id="Lab Testing Results" description="Reports of all lab studies and genetic testing related to condition." mandatory="true"/>
+	<material id="Neuropsychological Testing Report if done" description="Report of the neuropsychological test." mandatory="true"/>		
+	<instruction text="The following list of medical information although not mandatory, are optional and highly recommended if done:"/>	
+	<material id="Operative reports" description="Reports are required for all relevant surgeries." mandatory="false"/>		
+	<material id="Other imaging studies (if done) " description="Reports and films from any other imaging studies (if done) such as brain FDG-PET and body CT scans." mandatory="false"/>
+	<material id="Other medical information" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>	
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Henderson_PortalHypertensionMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Henderson_PortalHypertensionQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="General Surgery" name="General Surgery">
+		<section description="" name="">
+			<condition cost="745.00" description="Portal Hypertension" id="Portal Hypertension" active="true">
+				<keyword text="liver"/>
+				<keyword text="hepatic"/>
+				<keyword text="venous"/>
+				<keyword text="blood flow"/>
+				<keyword text="pressure"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

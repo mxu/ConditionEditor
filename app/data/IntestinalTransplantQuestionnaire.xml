@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+				
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding patient's current condition?">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion.">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="What diagnosis was given for the patient's condition? (please provide exact diagnosis if known)">
+			<free_form_response height="5"/>
+		</question>
+		
+		<question mandatory="true" prompt="When was the diagnosis made?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		
+		<question mandatory="true" prompt="Please list all treatments / medications that patient has received for this condition?">
+			<table_response add_row_increment="1" initial_rows_to_display="4" row_height="2">
+				<column_definitions>
+					<column_definition label="Treatment/Medication" width="25"/>
+					<column_definition label="Date(s) of treatment" width="20"/>
+					<column_definition label="Treating Physician" width="25"/>
+					<column_definition label="City" width="25"/>
+					<column_definition label="State" width="25"/>
+					<column_definition label="Effectiveness of treatment" width="25"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient currently taking any medications for this condition?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, please complete the table below">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Name of  drug" width="15"/>
+								<column_definition label="Dosage" width="25"/>
+								<column_definition label="How often, When taken" width="25"/>
+								<column_definition label="Effectiveness of medication" width="25"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the table below in regard to patient's current activity level related to the condition:">
+			<table_response initial_rows_to_display="1" add_row_increment="0" row_height="6">
+				<column_definitions>
+					<column_definition label="Condition" width="30"/>
+					<column_definition label="Comments" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="true">
+								<selection selected="false" text="Bedridden"/>
+								<selection selected="false" text="Ambulatory"/>
+								<selection selected="false" text="Able to perform activities of daily living"/>
+								<selection selected="false" text="Able to exercise"/>
+								<selection selected="false" text="Other"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+		
+		<question mandatory="true" prompt="Please complete the table below in regard to patient's current active symptoms:">
+			<table_response initial_rows_to_display="1" add_row_increment="0" row_height="12">
+				<column_definitions>
+					<column_definition label="Current active symptoms" width="30"/>
+					<column_definition label="Comments" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell question_cell="true">
+						<question mandatory="true" prompt="">
+							<item_response drop_down_style="false" single_response="false">
+								<selection selected="false" text="None"/>
+								<selection selected="false" text="Nausea"/>
+								<selection selected="false" text="Bloating"/>
+								<selection selected="false" text="Vomiting"/>
+								<selection selected="false" text="Constipation"/>
+								<selection selected="false" text="Diarrhea"/>
+								<selection selected="false" text="Excessive Gas"/>
+								<selection selected="false" text="Loss of appetite"/>
+								<selection selected="false" text="Acid reflux"/>
+								<selection selected="false" text="Other"/>
+							</item_response>
+						</question>
+					</cell>
+					<cell>
+					</cell>
+				</table_data>
+			</table_response>
+		</question>
+				
+		<question mandatory="true" prompt="Is patient able to eat?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, Please check all the types of food that patient is able to eat / consume">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Liquids"/>
+							<selection selected="false" text="Soft foods"/>
+							<selection selected="false" text="Solids"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Please complete the table below in regard to patient's consumption of meal at one time:">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="5">
+							<column_definitions>
+								<column_definition label="patient's consumption &lt;BR&gt;of meal at one time" width="35"/>
+								<column_definition label="Comments" width="40"/>
+							</column_definitions>
+							<table_data>
+								<cell question_cell="true">
+									<question mandatory="true" prompt="">
+										<item_response drop_down_style="false" single_response="true">
+											<selection selected="false" text="25% or less of meal"/>
+											<selection selected="false" text="50% of meal"/>
+											<selection selected="false" text="75% of meal"/>
+											<selection selected="false" text="100% of meal"/>
+											<selection selected="false" text="Other"/>
+										</item_response>
+									</question>
+								</cell>
+								<cell>
+								</cell>
+							</table_data>
+						</table_response>
+					</question>	
+									
+					<question mandatory="true" prompt="Please complete the table below in regard to patient's adverse symptoms after eating:">
+						<table_response initial_rows_to_display="1" add_row_increment="0" row_height="12">
+							<column_definitions>
+								<column_definition label="Current active symptoms" width="30"/>
+								<column_definition label="Comments" width="40"/>
+							</column_definitions>
+							<table_data>
+								<cell question_cell="true">
+									<question mandatory="true" prompt="">
+										<item_response drop_down_style="false" single_response="false">
+											<selection selected="false" text="None"/>
+											<selection selected="false" text="Nausea"/>
+											<selection selected="false" text="Bloating"/>
+											<selection selected="false" text="Vomiting"/>
+											<selection selected="false" text="Constipation"/>
+											<selection selected="false" text="Diarrhea"/>
+											<selection selected="false" text="Excessive Gas"/>
+											<selection selected="false" text="Loss of appetite"/>
+											<selection selected="false" text="Acid reflux"/>
+											<selection selected="false" text="Other"/>
+										</item_response>
+									</question>
+								</cell>
+								<cell>
+								</cell>
+							</table_data>
+						</table_response>
+					</question>
+					
+					<question mandatory="true" prompt="How soon after eating do you experience these symptoms? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Meals do not cause syptoms"/>
+							<selection selected="false" text="Immediately"/>
+							<selection selected="false" text="30 to 60 minutes"/>
+							<selection selected="false" text="1 to 2 hours"/>
+							<selection selected="false" text="Greater than 2 hours"/>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How many meals per day does the patient eat? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="1"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="5"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="Other/Comment">
+								<question mandatory="true" prompt="If Other/Comment, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+				
+		<question mandatory="true" prompt="Is patient on any special type of diet?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="UnSure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, what type of diet is the patient on? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Low sugar diet"/>
+							<selection selected="false" text="High sugar diet"/>
+							<selection selected="false" text="Low fat diet"/>
+							<selection selected="false" text="High fat diet"/>
+							<selection selected="false" text="Low salt diet"/>
+							<selection selected="false" text="High salt diet"/>
+							<selection selected="false" text="Low fiber diet"/>
+							<selection selected="false" text="High fiber diet"/>
+							<selection selected="false" text="Low protein diet"/>
+							<selection selected="false" text="High protein diet"/>
+							<selection selected="false" text="Fluid restriction"/>
+							<selection selected="false" text="Gluten-free diet"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+			
+		<question mandatory="true" prompt="Does the patient have difficulty complying with dietary restrictions?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Sometimes">
+					<question mandatory="true" prompt="If Sometimes, Please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If Yes, Please explain:">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient dependent on Total parenteral nutrition (TPN)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If yes, how long has the patient been receiving TPN?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many days per week does the patient receive TPN fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Who is managing the patient's TPN fluids?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+								<column_definition label="TPN Pharmacy Name" width="20"/>
+								<column_definition label="TPN Pharmacy Number" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient dependent on IV fluids?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how long has the patient been receiving IV fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many days per week does the patient receive IV fluids?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Who is managing the patient's IV fluids?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+								<column_definition label="IV Pharmacy Name" width="20"/>
+								<column_definition label="IV Pharmacy Number" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Is patient receiving enteral / tube feedings?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, Type  of tube in place? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Gastric Tube"/>
+							<selection selected="false" text="Jejunal Tube"/>
+							<selection selected="false" text="Nasogastric Tube"/>
+							<selection selected="false" text="Nasojejunal Tube"/>
+							<selection selected="false" text="Unsure">
+								<question mandatory="true" prompt="If Unsure, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how long has the patient been receiving tube feedings?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, what is the name of the formula patient is receiving?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, how many cans of formula does the patient receive each day?">
+						<free_form_response height="3"/>
+					</question>
+										
+					<question mandatory="true" prompt="Who is managing the patient's tube feedings?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Physician Name" width="20"/>
+								<column_definition label="Address" width="20"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+								<column_definition label="Phone" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+								
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have a central venous catheter line in place?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, what is the type and location of the catheter and how long has it been in place?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of catheter" width="20"/>
+								<column_definition label="Location" width="20"/>
+								<column_definition label="Date of placement" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+														
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever experienced a central line infection with his/her central venous system?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+							
+					<question mandatory="true" prompt="If yes, how many infections did the patient develop within the last 2 years?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="How many times has the patient been hospitalized for treatment of these central venous line infections?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please note the date of the last infection">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+							
+					<question mandatory="true" prompt="How many central line changes has the patient had as a result of these infections?">
+						<free_form_response height="3"/>
+					</question>
+												
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever experienced a central line thrombosis with his/her central venous system?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+							
+					<question mandatory="true" prompt="If yes, how many thromboses did the patient develop within the last 2 years?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Which vein(s) has the patient been told have been thrombosed?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="Please note the date of the last vein thrombosis">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+							
+					<question mandatory="true" prompt="How many central line changes has the patient had as a result of these thromboses?">
+						<free_form_response height="3"/>
+					</question>
+												
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Has the patient ever been told he/she has abnormal liver function tests?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, has the patient ever had a liver biopsy?">
+						<table_response add_row_increment="1" initial_rows_to_display="3" row_height="2">
+							<column_definitions>
+								<column_definition label="Date of Biopsy" width="15"/>
+								<column_definition label="Result" width="20"/>
+								<column_definition label="Physician" width="25"/>
+								<column_definition label="City" width="15"/>
+								<column_definition label="State" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient know information related to his/her gastrointestinal anatomy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, How much remaining small bowel does the patient have? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Less than 90 cm"/>
+							<selection selected="false" text="90 to 120 cm"/>
+							<selection selected="false" text="120 to 150 cm"/>
+							<selection selected="false" text="150 to 200 cm"/>
+							<selection selected="false" text="Greater than 200 cm"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="Does the patient still have his/her colon / large intestine?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not Sure"/>
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If yes, how much remaining colon does the patient have? (choose one)">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="Less than 50%"/>
+										<selection selected="false" text="50%"/>
+										<selection selected="false" text="Greater than 50%"/>
+										<selection selected="false" text="Entire colon"/>
+										<selection selected="false" text="Only rectum and anus remain"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If Other, please explain:">
+												<free_form_response height="3"/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+				</selection>
+			</item_response>
+		</question>
+		
+		
+		<question mandatory="true" prompt="Does the patient have a stoma?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No">
+				
+					<question mandatory="true" prompt="If No, how many bowel movements is the patient having per day?">
+						<free_form_response height="3"/>
+					</question>
+							
+					<question mandatory="true" prompt="What is the general appearance of the bowel movements? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Watery"/>
+							<selection selected="false" text="Semi-formed"/>
+							<selection selected="false" text="Pasty"/>
+							<selection selected="false" text="Formed"/>
+							<selection selected="false" text="Yellow"/>
+							<selection selected="false" text="Floating"/>
+							<selection selected="false" text="Mucousy"/>
+							<selection selected="false" text="Green"/>
+							<selection selected="false" text="Brown"/>
+							<selection selected="false" text="Blood-streaked"/>
+							<selection selected="false" text="Tarry"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+				
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, what type of stoma does the patient have? (choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Jejunostomy"/>
+							<selection selected="false" text="Ileostomy"/>
+							<selection selected="false" text="Colostomy"/>
+							<selection selected="false" text="Mucous Fistula"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+					
+					<question mandatory="true" prompt="How many times a day is the patient emptying the stoma bag?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="What is the approximate amount of stoma output the patient is having per day?">
+						<free_form_response height="3"/>
+					</question>
+									
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="Does the patient have an enterocutaneous fistula (s)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not Sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+					<question mandatory="true" prompt="If yes, how many fistula (s) does the patient have?">
+						<free_form_response height="3"/>
+					</question>
+					
+					<question mandatory="true" prompt="If yes, what is the approximate location of the fistula (s)? (choose one)">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Gastric"/>
+							<selection selected="false" text="Upper Small Bowel"/>
+							<selection selected="false" text="Lower Small Bowel"/>
+							<selection selected="false" text="Colon"/>
+							<selection selected="false" text="Rectovaginal"/>
+							<selection selected="false" text="Enterovesicular (Small bowel to bladder)"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If Other, please explain:">
+									<free_form_response height="3"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				
+				</selection>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="How would the patient rate his/her quality of life? ((Scale 0-10 with 0 being the poorest and 10 being the best?)">
+			<item_response drop_down_style="true" single_response="true">
+				<selection selected="false" text="10 - Best quality"/>
+				<selection selected="false" text="9"/>
+				<selection selected="false" text="8"/>
+				<selection selected="false" text="7"/>
+				<selection selected="false" text="6"/>
+				<selection selected="false" text="5 - Moderate quality"/>
+				<selection selected="false" text="4"/>
+				<selection selected="false" text="3"/>
+				<selection selected="false" text="2"/>
+				<selection selected="false" text="1"/>
+				<selection selected="false" text="0 - Poorest quality"/>
+			</item_response>
+		</question>
+		
+		<question mandatory="true" prompt="What is the patient's primary hope and expectation for this consultation?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="What has been recommended for patient's current condition (one for whom second opinion is being sought)?">
+			<free_form_response height="10"/>
+		</question>
+		
+		<question mandatory="true" prompt="Which physician made this recommendation?">
+			<table_response row_height="1" add_row_increment="0" initial_rows_to_display="1">
+				<column_definitions>
+					<column_definition label="Physician" width="30"/>
+					<column_definition label="Specialty (primary care physician, gastroenterologist, etc.)" width="50"/>
+				</column_definitions>
+			</table_response>
+		</question>
+		
+		<question mandatory="false" prompt="Is there anything else you think would be helpful regarding patient's condition?">
+			<free_form_response height="10"/>
+		</question>
+			
+	</question_group>
+</questionnaire>

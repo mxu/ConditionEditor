@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Lewis_Kaiser_Proliferative_VitreoretinopathyMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Lewis_Kaiser_Proliferative_VitreoretinopathyQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Ophthalmology" name="Ophthalmology">
+		<section description="" name="">
+			<condition active="true" cost="565.00" description="Proliferative Vitreoretinopathy" id="Proliferative Vitreoretinopathy">
+				<keyword text="retina"/>
+				<keyword text="eye"/>
+				<keyword text="blindness"/>
+				<keyword text="sight"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition active="true" cost="745.00" description="Choroidal Melanoma" id="Choroidal Melanoma">
+				<keyword text="retina"/>
+				<keyword text="eye"/>
+				<keyword text="blindness"/>
+				<keyword text="sight"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by David Hotchkiss (IT) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_ArteriosclerosisObliteransMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Ruschhaupt_Deitcher_Bartholomew_LaPerna_ArteriosclerosisObliteransQuestionnaire.xml">
+]>
+<division description="Cardiology" name="Cardiology">
+	<department description="Cardiovascular Medicine" name="Cardiovascular Medicine">
+		<section description="" name="">
+			<condition cost="565.00" description="Arteriosclerosis Obliterans of the Aorta" id="Arteriosclerosis Obliterans of the Aorta" active="true">
+				<keyword text="ASO"/>
+				<keyword text="circulation"/>
+				<keyword text="heart"/>
+				<keyword text="vascular"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arteriosclerosis Obliterans of the Cerebral Arteries" id="Arteriosclerosis Obliterans of the Cerebral Arteries" active="true">
+				<keyword text="ASO"/>
+				<keyword text="circulation"/>
+				<keyword text="brain"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="565.00" description="Arteriosclerosis Obliterans of the Mesenteric Arteries" id="Arteriosclerosis Obliterans of the Mesenteric Arteries" active="true">
+				<keyword text="ASO"/>
+				<keyword text="vascular"/>
+				<keyword text="circulation"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

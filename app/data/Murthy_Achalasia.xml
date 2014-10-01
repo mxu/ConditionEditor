@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Murthy_AchalasiaMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Murthy_AchalasiaQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Achalasia (Adult)" id="Achalasia (Adult)" active="true">
+				<keyword text="malabsorption"/>
+				<keyword text="bowel"/>
+				<keyword text="intestines"/>
+				<keyword text="gastrointestinal"/>
+				<keyword text="GI"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

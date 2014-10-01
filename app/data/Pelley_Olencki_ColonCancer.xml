@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Tony Hardee (Perot Systems) -->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Pelley_Olencki_ColonCancerMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Pelley_Olencki_ColonCancerQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Hematology and Medical Oncology" name="Hematology and Medical Oncology">
+		<section description="" name="">
+			<condition cost="745.00" description="Colon Cancer (Metastatic)" id="Colon Cancer (Metastatic)">
+				<keyword text="bowel"/>
+				<keyword text="tumor"/>
+				<keyword text="malignancy"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colon Cancer (Recurrent)" id="Colon Cancer (Recurrent)">
+				<keyword text="bowel"/>
+				<keyword text="tumor"/>
+				<keyword text="malignancy"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+			<condition cost="745.00" description="Colon Cancer (Inoperable)" id="Colon Cancer (Inoperable)">
+				<keyword text="tumor"/>
+				<keyword text="malignancy"/>
+				<keyword text="carcinoma"/>
+				<keyword text="malignant"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

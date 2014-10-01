@@ -1,0 +1,32 @@
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<material_list>
+	&MATERIAL_LIST_INTRODUCTORY_INSTRUCTION;
+	&PHYSICIAN_LAST_REPORT;
+	<material id="Doctor's letters" description="Copies of all letters sent to you by your physician(s) of last visit(s), if received." mandatory="true"/>
+	<material id="Doctor's notation of medications" description="Note should clearly indicate current listing of all medications (prescription, over the counter, vitamins)." mandatory="true"/>
+	<material id="Operative reports" description="Reports are required for all vascular surgeries." mandatory="true"/>
+	<material id="Photographs of leg/foot ulcers" description="Color photographs of leg/foot ulcers, if applicable." mandatory="true"/>
+	<material id="Discharge summaries" description="Discharge summaries of any recent (within one year) hospitalizations." mandatory="true"/>
+	<instruction text="&lt;BR&gt;  The following list of radiologic and diagnostic studies in the last 3 years will be required.  The actual original films (not copies) of the studies and reports will be needed , if indicated:"/>
+	<material id="Doppler studies (Duplex Ultrasound)" description="Report and films." mandatory="true"/>
+	<material id="Peripheral angiography" description="Report and films of the most recent peripheral angiography and or procedural note of any peripheral intervention." mandatory="true"/>
+	<material id="Cardiac stress test" description="Report only if non-nuclear stress test.  If a nuclear stress test was performed, the actual image is needed in addition to the report." mandatory="true"/>
+	<material id="Cardiac catheterization (most recent)" description="Report only." mandatory="true"/>
+	<material id="Other X-rays" description="Report only of any/ all other pertinent x-rays." mandatory="true"/>
+	<material id="Blood tests" description="Results to include Cholesterol , LDL, and HDL levels." mandatory="true"/>
+	<instruction text="&lt;BR&gt; &lt;b&gt;The following list of radiologic and diagnostic studies, although not mandatory are optional if done.  The actual original films (not copies) of the studies will be needed, if indicated:&lt;/b&gt;"/>
+	<material id="Current blood work" description="Within the last 6 months." mandatory="false"/>
+	<material id="Echocardiogram (Transthoracic or transesophageal)" description="Report of most recent test. The actual CD (compact disc) of this test is preferred but not absolutely necessary." mandatory="false"/>
+	<material id="Pulse volume recording" description="Report of most recent test." mandatory="false"/>
+	<material id="Plethysmography" description="Report of most recent test." mandatory="false"/>
+	<material id="Ankle brachial indices" description="Report of most recent test." mandatory="false"/>
+	<material id="Captopril renin nuclear testing" description="Report of most recent test." mandatory="false"/>
+	<material id="Any other non-invasive &lt;BR&gt; peripheral vascular disease tests" description="Reports of most recent test." mandatory="false"/>
+	<material id="Ultrasound" description="Report only." mandatory="false"/>
+	<material id="Chest X-ray" description="Report only." mandatory="false"/>
+	<material id="MRI scan" description="Report only." mandatory="false"/>
+	<material id="CT scan" description="Report only." mandatory="false"/>
+	<material id="Most recent EKG (electrocardiogram)" description="Report and tracing." mandatory="false"/>
+	<material id="Other" description="Any other medical information you or your physician may feel is pertinent to this consultation." mandatory="false"/>
+	&MATERIAL_LIST_CLOSING_INSTRUCTION;
+</material_list>

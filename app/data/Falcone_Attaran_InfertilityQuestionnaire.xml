@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<questionnaire>
+	<question_group name="Diagnosis-specific Questions">
+		<question mandatory="true" prompt="What is the principal (chief) question or concern you have regarding your current condition?">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="In your own words, please provide a brief narrative of the details of the problem for which you are requesting a second opinion:">
+			<free_form_response height="5"/>
+		</question>
+		<question mandatory="true" prompt="Have you ever been pregnant?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever been pregnant, please provide additional information below:">
+						<table_response add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Condition" width="45"/>
+								<column_definition label="Number" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Number of times you have been pregnant</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Number of miscarriages you have had, if any</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Number of elective abortions you have undergone</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Number of ectopic pregnancies (outside the uterus) you have had</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Number of  premature (born early) babies you have had</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Number of  babies born at full term (when expected)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did any of the babies have congenital heart deformities?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If any of the babies had congenital heart deformities, please provide details: ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did any of the babies die at birth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If any of the babies died at birth, please provide details: ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did any of the babies require treatment at birth?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If any of the babies required treatment at birth, please provide details: ">
+						<free_form_response height="3"/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your occupation?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="For how long have you been actively trying to get pregnant? Enter the number of months:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="For how long have you and your partner been together? Enter the number of years or months:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="How long has it been since you have tried to prevent pregnancy? Enter the number of months:">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Do you exercise regularly?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you exercise regularly, please list the type of exercise (i.e.: jogging, step machine, aerobics, etc.)">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="How many sessions per week?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="How long per session?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with intravascular (in vein or artery) blood clots?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you been exposed to any toxic substances at work?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone chemotherapy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone chemotherapy, please provide the following information:">
+						<table_response add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Type of chemotherapy, &lt;BR&gt; if known" width="30"/>
+								<column_definition label="Condition for which &lt;BR&gt; it was administrated" width="30"/>
+								<column_definition label="Number of treatments &lt;BR&gt; (cycles), if known" width="10"/>
+								<column_definition label="Date (month/year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever undergone radiation treatments?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever undergone radiation treatments, please provide the following information:">
+						<table_response add_row_increment="1" row_height="2">
+							<column_definitions>
+								<column_definition label="Part of the body &lt;BR&gt; irradiated" width="30"/>
+								<column_definition label="Condition for which &lt;BR&gt; it was used" width="30"/>
+								<column_definition label="Number of treatments, &lt;BR&gt; if known" width="10"/>
+								<column_definition label="Date (month/year)" width="15"/>
+							</column_definitions>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is the average length of your menstrual cycle (from the first day of a period to the first day of the next period) ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Normal (25-34 days)"/>
+				<selection selected="false" text="Abnormal">
+					<question mandatory="true" prompt="If abnormal, please choose the most appropriate response:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No cycle at all"/>
+							<selection selected="false" text="Less than 25 days"/>
+							<selection selected="false" text="More than 34 days"/>
+						</item_response>
+					</question>
+					<question mandatory="true" prompt="If abnormal, how long has it been this way?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Ever since first period"/>
+							<selection selected="false" text="More recently">
+								<question mandatory="true" prompt="If more recently, how long?">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Which of the following best describes your average menstrual flow?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Heavy"/>
+				<selection selected="false" text="Moderate"/>
+				<selection selected="false" text="Light"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="How long has your menstrual flow been this way?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Ever since first period"/>
+				<selection selected="false" text="More recently">
+					<question mandatory="true" prompt="If more recently, how long?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience any pain with your period?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience any pain with your period, please rate your menstrual pain below: (1 = minimal pain, 10 = worst pain)">
+					<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+                    </question>
+					<question mandatory="true" prompt="When did your pain start?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Ever since first period"/>
+							<selection selected="false" text="More recently">
+								<question mandatory="true" prompt="If more recently, how long?">
+									<free_form_response/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience pain in the middle of your cycle (approximately 2 weeks after your period) ?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever experience pain in the middle of your cycle, please rate your mid-cycle pain below: (1 = minimal pain, 10 = worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="How long does the pain last? (days)">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you experience pain any other days during your cycle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you experience pain any other days during your cycle, please rate your pain below: (1 = minimal pain, 10 = worst pain)">
+						<item_response drop_down_style="true" single_response="true">
+							<selection selected="false" text="10 - Worst pain"/>
+							<selection selected="false" text="9"/>
+							<selection selected="false" text="8"/>
+							<selection selected="false" text="7"/>
+							<selection selected="false" text="6"/>
+							<selection selected="false" text="5 - Moderate Pain"/>
+							<selection selected="false" text="4"/>
+							<selection selected="false" text="3"/>
+							<selection selected="false" text="2"/>
+							<selection selected="false" text="1 - Minimal pain"/>
+						</item_response>
+
+					</question>
+					<question mandatory="true" prompt="How long does the pain last? (days)">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you ever experience dyspareunia (pain with sexual intercourse)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Never"/>
+				<selection selected="false" text="Occasionally"/>
+				<selection selected="false" text="Every time"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="When was your last pap smear test?">
+			&MONTH_YEAR_TABLE_RESPONSE;
+		</question>
+		<question mandatory="true" prompt="What was the result of your last pap test, if known?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Have you ever had abnormal results?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have ever had abnormal results, please indicate the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have or have you had HPV (genital warts, condyloma)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not applicable"/>
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have or have you had HPV, please provide the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Indicate the treatment that you have received below: (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Antibiotic prescription"/>
+							<selection selected="false" text="Required hospitalization"/>
+							<selection selected="false" text="Laparoscopy"/>
+							<selection selected="false" text="Colposcopy w/ surgical procedure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have, or have you had Chlamydia?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have, have had Chlamydia, please provide the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Indicate the treatment that you have received below: (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Antibiotic prescription"/>
+							<selection selected="false" text="Required hospitalization"/>
+							<selection selected="false" text="Laparoscopy"/>
+							<selection selected="false" text="Colposcopy w/ surgical procedure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have, or have you had Herpes?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have, or have had Herpes, please provide the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Indicate the treatment that you have received below: (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Antibiotic prescription"/>
+							<selection selected="false" text="Required hospitalization"/>
+							<selection selected="false" text="Laparoscopy"/>
+							<selection selected="false" text="Colposcopy w/ surgical procedure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have, or have you had Gonorrhea?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have, or have had Gonorrhea, please provide the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Indicate the treatment that you have received below: (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Antibiotic prescription"/>
+							<selection selected="false" text="Required hospitalization"/>
+							<selection selected="false" text="Laparoscopy"/>
+							<selection selected="false" text="Colposcopy w/ surgical procedure"/>
+							<selection selected="false" text="Other">
+								<question mandatory="true" prompt="If other, please list:">
+									<free_form_response height="2"/>
+								</question>
+							</selection>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you used any of the following methods of contraception (birth control)? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Birth control pills"/>
+				<selection selected="false" text="Condoms"/>
+				<selection selected="false" text="Diaphragm"/>
+				<selection selected="false" text="IUD"/>
+				<selection selected="false" text="Depo-Provera Injections"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list:">
+						<free_form_response height="2"/>
+					</question>
+				</selection>
+				<selection selected="false" text="None of the Above
+									&lt;p&gt;
+									&lt;br&gt;">
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever had a tubal ligation (surgical sterilization)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you ever have had a tubal ligation, please indicate the date(s):">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="please choose the appropriate method:">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="Not sure"/>
+							<selection selected="false" text="Laparoscopy (Band aid surgery)"/>
+							<selection selected="false" text="Abdominal surgery"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have acne?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have acne, please indicate the start date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Is it getting worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have excessive facial hair?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have excessive facial hair, please indicate the start date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Is it getting worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have excessive body hair?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have excessive body hair, please indicate the start date:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Is it getting worse?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any breast milk leakage?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have any breast milk leakage, when did it begin?">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="When does it occur? (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="With pressure to breast"/>
+							<selection selected="false" text="Spontaneously"/>
+							<selection selected="false" text="None of the above"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you ever been diagnosed with the following?  Please indicate yes, no or not sure for each diagnosis listed.">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Diagnosis" width="30"/>
+					<column_definition label="Date (month/year)" width="15"/>
+					<column_definition label="Type of treatment(s)" width="30"/>
+					<column_definition label="Yes / No &lt;BR&gt; Not sure" width="20"/>
+				</column_definitions>
+				<table_data>
+					<cell>Ectopic (outside of the &lt;BR&gt; uterus) pregnancies</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Endometriosis</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Polycystic ovary &lt;BR&gt; syndrome</cell>
+					<cell/>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Have you had a pelvic ultrasound?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you have had a pelvic ultrasound, did the results confirm any of the following? (Choose all that apply)">
+						<item_response drop_down_style="false" single_response="false">
+							<selection selected="false" text="Fibroid tumors"/>
+							<selection selected="false" text="Cysts"/>
+							<selection selected="false" text="Other ovarian abnormality"/>
+						</item_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have immunity to Rubella (German measles)?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please provide information regarding  the following blood levels, if known and applicable:">
+			<table_response add_row_increment="2" row_height="4">
+				<column_definitions>
+					<column_definition label="Blood level" width="30"/>
+					<column_definition label="Blood test result" width="30"/>
+					<column_definition label="Date drawn (month/year)" width="15"/>
+				</column_definitions>
+				<table_data>
+					<cell>Serum progesterone</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Prolactin</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>TSH</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Testosterone</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Clomid 100 mg &lt;BR&gt; challenge - Day 3 FSH</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell>Clomid 100 mg &lt;BR&gt; challenge - Day 10 FSH</cell>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="What is the cause of your infertility? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Unknown"/>
+				<selection selected="false" text="Sperm problem"/>
+				<selection selected="false" text="Lack of ovulation"/>
+				<selection selected="false" text="Endometriosis"/>
+				<selection selected="false" text="Scar tissue in the pelvis"/>
+				<selection selected="false" text="Blocked fallopian tubes"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please list">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>		
+		<question mandatory="true" prompt="Have you undergone clomid therapy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="Cycle # 1 &lt;BR&gt; Please provide the following information:">
+						<table_response add_row_increment="2" row_height="4">
+							<column_definitions>
+								<column_definition label="Number of Treatments" width="30"/>
+								<column_definition label="Dose (in mg)" width="30"/>
+								<column_definition label="Month/Year" width="15"/>
+							</column_definitions>
+								<table_data>
+									<cell/>
+									<cell/>
+									<cell/>
+								</table_data>
+						</table_response>
+								</question>
+								<question mandatory="true" prompt="Choose the monitoring method:">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Ultrasound monitoring"/>
+										<selection selected="false" text="LH (ovulation) predictor kits"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes"/>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="What was the outcome?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Positive pregnancy test"/>
+										<selection selected="false" text="Spontaneous period"/>
+										<selection selected="false" text="Progestin induced period"/>
+									</item_response>
+								</question>								
+								<question mandatory="true" prompt="Have you undergone clomid therapy for a second cycle?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">								
+											<question mandatory="true" prompt="Cycle # 2 &lt;BR&gt; Please provide the following information:">
+												<table_response add_row_increment="2" row_height="4">
+													<column_definitions>
+														<column_definition label="Number of Treatments" width="30"/>
+														<column_definition label="Dose (in mg)" width="30"/>
+														<column_definition label="Month/Year" width="15"/>
+													</column_definitions>
+													<table_data>
+														<cell/>
+														<cell/>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+											<question mandatory="true" prompt="Choose the monitoring method:">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Ultrasound monitoring"/>
+													<selection selected="false" text="LH (ovulation) predictor kits"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Was an ultrasound done?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+															<table_response add_row_increment="0" row_height="4">
+																<column_definitions>
+																	<column_definition label="Category" width="20"/>
+																	<column_definition label="Number of follicles" width="20"/>
+																</column_definitions>
+																<table_data>
+																	<cell>16 mm or more</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>12 - 15 mm</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>Less than 12 mm</cell>
+																	<cell/>
+																</table_data>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="What was the outcome?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Positive pregnancy test"/>
+													<selection selected="false" text="Spontaneous period"/>
+													<selection selected="false" text="Progestin induced period"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Have you undergone clomid therapy for a third cycle?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">								
+											<question mandatory="true" prompt="Cycle # 3 &lt;BR&gt; Please provide the following information:">
+												<table_response add_row_increment="2" row_height="4">
+													<column_definitions>
+														<column_definition label="Number of Treatments" width="30"/>
+														<column_definition label="Dose (in mg)" width="30"/>
+														<column_definition label="Month/Year" width="15"/>
+													</column_definitions>
+														<table_data>
+															<cell/>
+															<cell/>
+															<cell/>
+														</table_data>
+												</table_response>
+											</question>
+											<question mandatory="true" prompt="Choose the monitoring method:">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Ultrasound monitoring"/>
+													<selection selected="false" text="LH (ovulation) predictor kits"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Was an ultrasound done?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+															<table_response add_row_increment="0" row_height="4">
+																<column_definitions>
+																	<column_definition label="Category" width="20"/>
+																	<column_definition label="Number of follicles" width="20"/>
+																</column_definitions>
+																<table_data>
+																	<cell>16 mm or more</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>12 - 15 mm</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>Less than 12 mm</cell>
+																	<cell/>
+																</table_data>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="What was the outcome?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Positive pregnancy test"/>
+													<selection selected="false" text="Spontaneous period"/>
+													<selection selected="false" text="Progestin induced period"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>								
+								<question mandatory="true" prompt="Have you undergone clomid therapy for a fourth cycle?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">								
+											<question mandatory="true" prompt="Cycle # 4 &lt;BR&gt; Please provide the following information:">
+												<table_response add_row_increment="2" row_height="4">
+													<column_definitions>
+														<column_definition label="Number of Treatments" width="30"/>
+														<column_definition label="Dose (in mg)" width="30"/>
+														<column_definition label="Month/Year" width="15"/>
+													</column_definitions>
+													<table_data>
+														<cell/>
+														<cell/>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+											<question mandatory="true" prompt="Choose the monitoring method:">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Ultrasound monitoring"/>
+													<selection selected="false" text="LH (ovulation) predictor kits"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Was an ultrasound done?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+															<table_response add_row_increment="0" row_height="4">
+																<column_definitions>
+																	<column_definition label="Category" width="20"/>
+																	<column_definition label="Number of follicles" width="20"/>
+																</column_definitions>
+																<table_data>
+																	<cell>16 mm or more</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>12 - 15 mm</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>Less than 12 mm</cell>
+																	<cell/>
+																</table_data>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="What was the outcome?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Positive pregnancy test"/>
+													<selection selected="false" text="Spontaneous period"/>
+													<selection selected="false" text="Progestin induced period"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>								
+								<question mandatory="true" prompt="Have you undergone clomid therapy for a fifth cycle?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">								
+											<question mandatory="true" prompt="Cycle # 5 &lt;BR&gt; Please provide the following information:">
+												<table_response add_row_increment="2" row_height="4">
+													<column_definitions>
+														<column_definition label="Number of Treatments" width="30"/>
+														<column_definition label="Dose (in mg)" width="30"/>
+														<column_definition label="Month/Year" width="15"/>
+													</column_definitions>
+													<table_data>
+														<cell/>
+														<cell/>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+											<question mandatory="true" prompt="Choose the monitoring method:">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Ultrasound monitoring"/>
+													<selection selected="false" text="LH (ovulation) predictor kits"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Was an ultrasound done?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+															<table_response add_row_increment="0" row_height="4">
+																<column_definitions>
+																	<column_definition label="Category" width="20"/>
+																	<column_definition label="Number of follicles" width="20"/>
+																</column_definitions>
+																<table_data>
+																	<cell>16 mm or more</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>12 - 15 mm</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>Less than 12 mm</cell>
+																	<cell/>
+																</table_data>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="What was the outcome?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Positive pregnancy test"/>
+													<selection selected="false" text="Spontaneous period"/>
+													<selection selected="false" text="Progestin induced period"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>								
+								<question mandatory="true" prompt="Have you undergone clomid therapy for a sixth cycle?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">								
+											<question mandatory="true" prompt="Cycle # 6 &lt;BR&gt; Please provide the following information:">
+												<table_response add_row_increment="2" row_height="4">
+													<column_definitions>
+														<column_definition label="Number of Treatments" width="30"/>
+														<column_definition label="Dose (in mg)" width="30"/>
+														<column_definition label="Month/Year" width="15"/>
+													</column_definitions>
+													<table_data>
+														<cell/>
+														<cell/>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+											<question mandatory="true" prompt="Choose the monitoring method:">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Ultrasound monitoring"/>
+													<selection selected="false" text="LH (ovulation) predictor kits"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Do you have IUI (intrauterine insemination)?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes"/>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="Was an ultrasound done?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="No"/>
+													<selection selected="false" text="Yes">
+														<question mandatory="true" prompt="If an ultrasound was done, please provide the following information:">
+															<table_response add_row_increment="0" row_height="4">
+																<column_definitions>
+																	<column_definition label="Category" width="20"/>
+																	<column_definition label="Number of follicles" width="20"/>
+																</column_definitions>
+																<table_data>
+																	<cell>16 mm or more</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>12 - 15 mm</cell>
+																	<cell/>
+																</table_data>
+																<table_data>
+																	<cell>Less than 12 mm</cell>
+																	<cell/>
+																</table_data>
+															</table_response>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+											<question mandatory="true" prompt="What was the outcome?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Positive pregnancy test"/>
+													<selection selected="false" text="Spontaneous period"/>
+													<selection selected="false" text="Progestin induced period"/>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								</selection>
+								</item_response>
+								</question>
+								
+
+
+			<question mandatory="true" prompt="Have you undergone gonadotropin injections?">
+				<item_response drop_down_style="false" single_response="true">                  
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">
+					
+					
+						<question mandatory="true" prompt="Cycle # 1 &lt;BR&gt; Please provide the following information:">
+							<table_response add_row_increment="2" row_height="4">
+								<column_definitions>
+											<column_definition label="Number of Treatments" width="30"/>
+											<column_definition label="Dose (in amps)" width="30"/>
+											<column_definition label="Month/Year" width="15"/>
+										</column_definitions>
+										<table_data>
+											<cell/>
+											<cell/>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of the HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of the HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the estriadol level at the time of the HCG:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What was the outcome?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pregnancy"/>
+										<selection selected="false" text="OHSS (Ovarian hyperstimulation syndrome"/>
+										<selection selected="false" text="Spontaneous period"/>
+									</item_response>
+								</question>
+								
+<question mandatory="true" prompt="Have you undergone gonadotropin injections for a second cycle?">
+				<item_response drop_down_style="false" single_response="true">                  
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">								
+								
+								<question mandatory="true" prompt="Cycle # 2 &lt;BR&gt; Please provide the following information:">
+									<table_response add_row_increment="2" row_height="4">
+										<column_definitions>
+											<column_definition label="Number of Treatments" width="30"/>
+											<column_definition label="Dose (in amps)" width="30"/>
+											<column_definition label="Month/Year" width="15"/>
+										</column_definitions>
+										<table_data>
+											<cell/>
+											<cell/>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the estriadol level at the time of the HCG:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What was the outcome?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pregnancy"/>
+										<selection selected="false" text="OHSS (Ovarian hyperstimulation syndrome"/>
+										<selection selected="false" text="Spontaneous period"/>
+									</item_response>
+								</question>
+								</selection>
+								</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Have you undergone gonadotropin injections for a third cycle?">
+				<item_response drop_down_style="false" single_response="true">                  
+					<selection selected="false" text="No"/>
+					<selection selected="false" text="Yes">							
+								<question mandatory="true" prompt="Cycle # 3 &lt;BR&gt; Please provide the following information:">
+									<table_response add_row_increment="2" row_height="4">
+										<column_definitions>
+											<column_definition label="Number of Treatments" width="30"/>
+											<column_definition label="Dose (in amps)" width="30"/>
+											<column_definition label="Month/Year" width="15"/>
+										</column_definitions>
+										<table_data>
+											<cell/>
+											<cell/>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the estriadol level at the time of the HCG:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What was the outcome?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pregnancy"/>
+										<selection selected="false" text="OHSS (Ovarian hyperstimulation syndrome"/>
+										<selection selected="false" text="Spontaneous period"/>
+									</item_response>
+								</question>
+								</selection>
+								</item_response>
+								</question>
+								</selection>
+								</item_response>
+								</question>
+								
+								
+																
+										<question mandatory="true" prompt="Have you undergone In Vitro Fertilization?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+								
+								
+								<question mandatory="true" prompt="  Cycle # 1 &lt;BR&gt; Was your menstrual cycle suppressed  before starting gonadotropin?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If your menstrual cycle was suppressed  before starting gonadotropin, what drug was used for the suppression?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="None"/>
+													<selection selected="false" text="Lupron"/>
+													<selection selected="false" text="Synarel"/>
+													<selection selected="false" text="Other">
+														<question mandatory="true" prompt="If other, please list:">
+															<free_form_response/>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" What type of gonadotropin did you use?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pergonal"/>
+										<selection selected="false" text="Humagon"/>
+										<selection selected="false" text="Gonal-F"/>
+										<selection selected="false" text="Follistim"/>
+										<selection selected="false" text="Metrodin"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please list:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" Indicate the total dose of gonadotropin used :">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Indicate the number of days gonadotropin is used: (before egg retrieval)">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What is the peak estriadiol level at the time of HCG?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were recovered?">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Eggs type" width="20"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Mature eggs</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Immature eggs</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Were any of the following procedures used? (Choose all that apply)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="ICSI (intracytoplasmic injection)"/>
+										<selection selected="false" text="Assisted hatching"/>
+										<selection selected="false" text="Pre-implantation diagnosis"/>  
+                                        <selection selected="false" text="None of the above"/>            
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were fertilized?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were transferred (implanted) at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were cryopreserved at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+                                            <question mandatory="true" prompt="What was the outcome of the pregnancy?">
+                                                <item_response drop_down_style="false" single_response="true">
+                                                    <selection selected="false" text="Miscarriage"/>
+                                                    <selection selected="false" text="Ectopic"/>
+                                                    <selection selected="false" text="Premature"/>
+                                                    <selection selected="false" text="Term"/>
+                                                </item_response>
+                                            </question>
+										</selection>
+									</item_response>
+								</question>
+								
+								
+								<question mandatory="true" prompt="Have you undergone In Vitro Fertilization for a second cycle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">								
+								<question mandatory="true" prompt="  Cycle # 2 &lt;BR&gt; Was your menstrual cycle suppressed  before starting gonadotropin?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If your menstrual cycle suppressed  before starting gonadotropin, what drug was used for the suppression?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="None"/>
+													<selection selected="false" text="Lupron"/>
+													<selection selected="false" text="Synarel"/>
+													<selection selected="false" text="Other">
+														<question mandatory="true" prompt="If other, please list:">
+															<free_form_response/>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" What type of gonadotropin did you use?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pergonal"/>
+										<selection selected="false" text="Humagon"/>
+										<selection selected="false" text="Gonal-F"/>
+										<selection selected="false" text="Follistim"/>
+										<selection selected="false" text="Metrodin"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please list:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" Indicate the total dose of gonadotropin used :">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Indicate the number of days gonadotropin is used: (before egg retrieval)">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What is the peak estriadiol level at the time of HCG?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were recovered?">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Eggs type" width="20"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Mature eggs</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Immature eggs</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Were any of the following procedures used? (Choose all that apply)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="ICSI (intracytoplasmic injection)"/>
+										<selection selected="false" text="Assisted hatching"/>
+										<selection selected="false" text="Pre-implantation diagnosis"/>      
+                                        <selection selected="false" text="None of the above"/>    
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were fertilized?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were transferred (implanted) at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were cryopreserved at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+                                            <question mandatory="true" prompt="What was the outcome of the pregnancy?">
+                                                <item_response drop_down_style="false" single_response="true">
+                                                    <selection selected="false" text="Miscarriage"/>
+                                                    <selection selected="false" text="Ectopic"/>
+                                                    <selection selected="false" text="Premature"/>
+                                                    <selection selected="false" text="Term"/>
+                                                </item_response>
+                                            </question>
+										</selection>
+									</item_response>
+								</question>
+								
+								</selection>
+								</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Have you undergone In Vitro Fertilization for a third cycle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">								
+								<question mandatory="true" prompt="  Cycle # 3 &lt;BR&gt; Was your menstrual cycle suppressed  before starting gonadotropin?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If your menstrual cycle was suppressed  before starting gonadotropin, what drug was used for the suppression?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="None"/>
+													<selection selected="false" text="Lupron"/>
+													<selection selected="false" text="Synarel"/>
+													<selection selected="false" text="Other">
+														<question mandatory="true" prompt="If other, please list:">
+															<free_form_response/>
+														</question>
+													</selection>
+												</item_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" What type of gonadotropin did you use?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Pergonal"/>
+										<selection selected="false" text="Humagon"/>
+										<selection selected="false" text="Gonal-F"/>
+										<selection selected="false" text="Follistim"/>
+										<selection selected="false" text="Metrodin"/>
+										<selection selected="false" text="Other">
+											<question mandatory="true" prompt="If other, please list:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt=" Indicate the total dose of gonadotropin used :">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Indicate the number of days gonadotropin is used: (before egg retrieval)">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="What is the peak estriadiol level at the time of HCG?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Was an ultrasound done at the time of HCG?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If an ultrasound was done at the time of HCG, please provide the following information:">
+												<table_response add_row_increment="0" row_height="4">
+													<column_definitions>
+														<column_definition label="Category" width="20"/>
+														<column_definition label="Number of follicles" width="20"/>
+													</column_definitions>
+													<table_data>
+														<cell>16 mm or more</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>12 - 15 mm</cell>
+														<cell/>
+													</table_data>
+													<table_data>
+														<cell>Less than 12 mm</cell>
+														<cell/>
+													</table_data>
+												</table_response>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were recovered?">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Eggs type" width="20"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Mature eggs</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Immature eggs</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Were any of the following procedures used? (Choose all that apply)">
+									<item_response drop_down_style="false" single_response="false">
+										<selection selected="false" text="ICSI (intracytoplasmic injection)"/>
+										<selection selected="false" text="Assisted hatching"/>
+										<selection selected="false" text="Pre-implantation diagnosis"/>       
+                                        <selection selected="false" text="None of the above"/>    
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="How many eggs were fertilized?">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were transferred (implanted) at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Please indicate the number of embryos that were cryopreserved at the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+                                            <question mandatory="true" prompt="What was the outcome of the pregnancy?">
+                                                <item_response drop_down_style="false" single_response="true">
+                                                    <selection selected="false" text="Miscarriage"/>
+                                                    <selection selected="false" text="Ectopic"/>
+                                                    <selection selected="false" text="Premature"/>
+                                                    <selection selected="false" text="Term"/>
+                                                </item_response>
+                                            </question>
+										</selection>
+									</item_response>
+								</question>
+								
+								</selection>
+								</item_response>
+								</question>
+						      
+                              </selection>
+						</item_response>
+					</question>		
+					
+
+							<question mandatory="true" prompt="Have you undergone Frozen Thawed Cycles?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+				
+				
+						<question mandatory="true" prompt="Cycle # 1 &lt;BR&gt; Please indicate the number of embryos that were thawed (implanted) from the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Of these embryos please indicate the number that were replaced in the uterus:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="What was the outcome of the pregnancy?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Miscarriage"/>
+										<selection selected="false" text="Ectopic"/>
+										<selection selected="false" text="Premature"/>
+										<selection selected="false" text="Term"/>
+									</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Have you undergone Frozen Thawed Cycles for a second cycle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+								
+								
+								<question mandatory="true" prompt="Cycle # 2 &lt;BR&gt; Please indicate the number of embryos that were thawed (implanted) from the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Of these embryos please indicate the number that were replaced in the uterus:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="What was the outcome of the pregnancy?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Miscarriage"/>
+										<selection selected="false" text="Ectopic"/>
+										<selection selected="false" text="Premature"/>
+										<selection selected="false" text="Term"/>
+									</item_response>
+								</question>
+								</selection>
+								</item_response>
+								</question>
+								
+								<question mandatory="true" prompt="Have you undergone Frozen Thawed Cycles for a third cycle?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+								
+								
+								<question mandatory="true" prompt="Cycle # 3 &lt;BR&gt; Please indicate the number of embryos that were thawed (implanted) from the following stages:">
+									<table_response add_row_increment="0" row_height="4">
+										<column_definitions>
+											<column_definition label="Stage" width="30"/>
+											<column_definition label="Number" width="10"/>
+										</column_definitions>
+										<table_data>
+											<cell>Cleaved (2 cell, 4 cell, etc.)</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Morula</cell>
+											<cell/>
+										</table_data>
+										<table_data>
+											<cell>Blastocyst</cell>
+											<cell/>
+										</table_data>
+									</table_response>
+								</question>
+								<question mandatory="true" prompt="Of these embryos please indicate the number that were replaced in the uterus:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, indicate the number of embryos:">
+												<free_form_response/>
+											</question>
+										</selection>
+									</item_response>
+								</question>
+								<question mandatory="true" prompt="What was the outcome of the pregnancy?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Miscarriage"/>
+										<selection selected="false" text="Ectopic"/>
+										<selection selected="false" text="Premature"/>
+										<selection selected="false" text="Term"/>
+									</item_response>
+								</question>
+							</selection>
+							</item_response>
+							</question>
+							</selection>
+						</item_response>
+					</question>		
+							
+					<question mandatory="true" prompt="Have you undergone Insemination Without Medication?">
+						<item_response drop_down_style="false" single_response="true">
+							<selection selected="false" text="No"/>
+							<selection selected="false" text="Yes">
+								<question mandatory="true" prompt="If you underwent insemination without medication, indicate the number of cycles:">
+									<free_form_response/>
+								</question>
+								<question mandatory="true" prompt="Did you become pregnant as a result?">
+									<item_response drop_down_style="false" single_response="true">
+										<selection selected="false" text="Not sure"/>
+										<selection selected="false" text="No"/>
+										<selection selected="false" text="Yes">
+											<question mandatory="true" prompt="If you became pregnant, what was the outcome of the pregnancy?">
+												<item_response drop_down_style="false" single_response="true">
+													<selection selected="false" text="Miscarriage"/>
+													<selection selected="false" text="Ectopic"/>
+													<selection selected="false" text="Premature"/>
+													<selection selected="false" text="Term"/>
+												</item_response>
+											</question>
+										</selection>
+								</item_response>
+							</question>
+						</selection>
+					</item_response>
+				</question>							
+									
+		<question mandatory="true" prompt="If your partner is the person providing the sperm, please answer the following questions. If you are using a sperm donor, please provide as much information as possible. &lt;BR&gt; &lt;BR&gt; How old is your partner?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="How many pregnancies have you had with this partner?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="How many children have you had with this partner?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Did your partner have children with a previous partner?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner had children with a previous partner, please provide the following information:">
+						<table_response add_row_increment="3" row_height="4">
+							<column_definitions>
+								<column_definition label="Child" width="20"/>
+								<column_definition label="Age" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Child # 1</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Child # 2</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Child # 3</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner drink alcohol?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner drinks alcohol, how many servings per week?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner take recreational drugs?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner takes recreational drugs, which drugs?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner smoke?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner smokes, how many packs per day?">
+						<free_form_response/>
+					</question>
+					<question mandatory="true" prompt="How many years has your partner been smoking?">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="In general, what is the condition of your partner&apos;s health?">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Poor"/>
+				<selection selected="false" text="Fair"/>
+				<selection selected="false" text="Good"/>
+				<selection selected="false" text="Excellent"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner take any medications?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner takes any medications, please list the names of the medications below. Please be sure to include all prescription medications and non-prescription medications including herbal remedies and vitamin supplements:">
+						<table_response add_row_increment="3" row_height="4">
+							<column_definitions>
+								<column_definition label="Name of the Medication" width="35"/>
+							</column_definitions>
+							<table_data>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please provide information about your partner&apos;s allergies below:">
+			<table_response add_row_increment="3" row_height="4">
+				<column_definitions>
+					<column_definition label="Name of the &lt;BR&gt; Medication/Food etc." width="30"/>
+					<column_definition label="Type of Reaction" width="40"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Has your partner ever been exposed to excessive heat?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="false" prompt="Please list all surgeries your partner has undergone">
+			<table_response add_row_increment="3" row_height="4">
+				<column_definitions>
+					<column_definition label="Name of the Surgery" width="35"/>
+				</column_definitions>
+				<table_data>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+				</table_data>
+				<table_data>
+					<cell/>
+				</table_data>
+			</table_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner have any medical problems?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner has any medical problems, please list:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="What is your partner&apos;s occupation?">
+			<free_form_response/>
+		</question>
+		<question mandatory="true" prompt="Has your partner been exposed to any toxic substances at work?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes"/>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your partner ever undergone chemotherapy?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner has ever undergone chemotherapy, please provide the following information:">
+						<table_response add_row_increment="5" row_height="4">
+							<column_definitions>
+								<column_definition label="Month/Year" width="20"/>
+								<column_definition label="Type of &lt;BR&gt; Chemotherapy (If known)" width="30"/>
+								<column_definition label="Condition for Which &lt;BR&gt; It Was Used" width="30"/>
+							</column_definitions>
+							<table_data>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your partner ever undergone radiation treatment?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner has ever undergone radiation treatment, please provide the following information:">
+						<table_response add_row_increment="5" row_height="4">
+							<column_definitions>
+								<column_definition label="Month/Year" width="20"/>
+								<column_definition label="Part of the &lt;BR&gt; Body Irradiated" width="30"/>
+								<column_definition label="Condition for Which &lt;BR&gt; It Was Used" width="30"/>
+							</column_definitions>
+							<table_data>
+								<cell/>
+								<cell/>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Did your partner have semen analysis testing?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="Not sure"/>
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If your partner has had semen analysis testing, please indicate the date below:">
+						&MONTH_YEAR_TABLE_RESPONSE;
+					</question>
+					<question mandatory="true" prompt="Please provide the following information about your partner's semen, if known:">
+						<table_response add_row_increment="0" row_height="4">
+							<column_definitions>
+								<column_definition label="Condition" width="20"/>
+								<column_definition label="Answer" width="10"/>
+							</column_definitions>
+							<table_data>
+								<cell>Month/Year</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Volume (if known)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Count (if known)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Motility (percentage)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Morphology</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>WHO (percentage normal)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Kruger (percentage normal)</cell>
+								<cell/>
+							</table_data>
+							<table_data>
+								<cell>Antisperm antibody test &lt;BR&gt; (percentage agglutination)</cell>
+								<cell/>
+							</table_data>
+						</table_response>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Please answer the following questions regarding genetic history: &lt;BR&gt; Do you or your partner have a birth defect?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you or your partner has a birth defect, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you or your partner have a child with a birth defect?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you or your partner has a child with a birth defect, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you or your partner have any close relatives with mental retardation?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you or your partner has any close relatives with mental retardation, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you or your partner had a stillborn pregnancy with a previous partner?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you or your partner has had a stillborn pregnancy with a previous partner, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you or your partner had three or more first trimester pregnancy losses with a previous partner?">
+			<item_response drop_down_style="false" single_response="true">
+				<selection selected="false" text="No"/>
+				<selection selected="false" text="Yes">
+					<question mandatory="true" prompt="If you or your partner had three or more first trimester pregnancy losses with a previous partner, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Are you from the following ethnic group(s)? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Jewish"/>
+				<selection selected="false" text="French Canadian"/>
+				<selection selected="false" text="African American"/>
+				<selection selected="false" text="Mediterranean"/>
+				<selection selected="false" text="Asian"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Is your partner from the following ethnic group(s)? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Jewish"/>
+				<selection selected="false" text="French Canadian"/>
+				<selection selected="false" text="African American"/>
+				<selection selected="false" text="Mediterranean"/>
+				<selection selected="false" text="Asian"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Have you had screening tests for the following genetically acquired disorders? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="None"/>
+				<selection selected="false" text="Tay-Sachs"/>
+				<selection selected="false" text="Sickle Cell"/>
+				<selection selected="false" text="B-Thalassemia"/>
+				<selection selected="false" text="A- Thalassemia"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Has your partner had screening tests for the following genetically acquired disorders? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="None"/>
+				<selection selected="false" text="Tay-Sachs"/>
+				<selection selected="false" text="Sickle Cell"/>
+				<selection selected="false" text="B-Thalassemia"/>
+				<selection selected="false" text="A- Thalassemia"/>
+				<selection selected="false" text="Other">
+					<question mandatory="true" prompt="If other, please specify:">
+						<free_form_response/>
+					</question>
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Do you have any close relatives with any of the following? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Down&apos;s Syndrome">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other chromosomal disorders">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Neural tube defects (i.e. Spina Bifida)">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Hemophilia">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Muscular Dystrophy">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Cystic Fibrosis">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="None of the Above
+									&lt;p&gt;
+									&lt;br&gt;">
+				</selection>
+			</item_response>
+		</question>
+		<question mandatory="true" prompt="Does your partner have any close relatives with any of the following? (Choose all that apply)">
+			<item_response drop_down_style="false" single_response="false">
+				<selection selected="false" text="Down&apos;s Syndrome">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Other chromosomal disorders">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Neural tube defects (i.e. Spina Bifida)">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Hemophilia">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Muscular Dystrophy">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="Cystic Fibrosis">
+					<question mandatory="true" prompt="Relationship?">
+						<free_form_response/>
+					</question>
+				</selection>
+				<selection selected="false" text="None of the Above">
+				</selection>
+			</item_response>
+		</question>
+        
+	</question_group>
+</questionnaire>

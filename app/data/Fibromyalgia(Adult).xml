@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Fibromyalgia(Adult)MaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Fibromyalgia(Adult)Questionnaire.xml">
+]>
+<division description="Orthopaedics and Rheumatology" name="Orthopaedics and Rheumatology">
+	<department description="Rheumatology ORI Institute" name="Rheumatology ORI Institute">
+		<section description="" name="">
+		<!-- JCE: per email from Karen on 24 July 2014 - she has changes to the questionnaire that need to be added 
+		     before going live with this condition
+		     -->
+			<condition cost="565.00" description="Fibromyalgia (Adult)" id="Fibromyalgia (Adult)" active="false">
+				<keyword text="Rheumatology"/>
+				<keyword text="Chronic"/>				
+				<keyword text="Joint"/>
+				<keyword text="Pain"/>
+				<keyword text="Widespread"/>
+				<keyword text="Muscle"/>
+				<keyword text="Spasms"/>
+				<keyword text="Stiffness"/>
+				<keyword text="Tenderness"/>
+				<keyword text="Fatigue"/>
+				<keyword text="Energy"/>
+				<keyword text="Insomnia"/>
+				<keyword text="Tension"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>

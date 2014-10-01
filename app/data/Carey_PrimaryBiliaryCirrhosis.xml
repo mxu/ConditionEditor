@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../condition.xsl"?>
+<!-- created with XML Spy v4.3 NT (http://www.xmlspy.com) by Harsha Reddy (ITD)-->
+<!DOCTYPE division SYSTEM "condition.dtd" [
+	<!ENTITY material_doc SYSTEM "Carey_PrimaryBiliaryCirrhosisMaterialList.xml">
+	<!ENTITY questionnaire_doc SYSTEM "Carey_PrimaryBiliaryCirrhosisQuestionnaire.xml">
+]>
+<division description="Surgery" name="Surgery">
+	<department description="Gastroenterology" name="Gastroenterology">
+		<section description="" name="">
+			<condition cost="745.00" description="Primary Biliary Cirrhosis (adult)" id="Primary Biliary Cirrhosis (adult)" active="true">
+				<keyword text="liver"/>
+				<keyword text="area:Liver Related Conditions"/>
+				&questionnaire_doc;
+				&material_doc;
+			</condition>
+		</section>
+	</department>
+</division>
